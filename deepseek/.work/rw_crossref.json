@@ -1,0 +1,298 @@
+{
+ "10.1364/ofc.2023.m2g.1": {
+  "title": "Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking",
+  "container": "Optical Fiber Communication Conference (OFC) 2023",
+  "volume": null,
+  "issue": null,
+  "page": "M2G.1",
+  "year": 2023,
+  "authors": [
+   "Ryohei Urata",
+   "Hong Liu",
+   "Kevin Yasumura",
+   "Erji Mao",
+   "Jill Berger",
+   "Xiang Zhou",
+   "Cedric Lam",
+   "Roy Bannon",
+   "Darren Hutchinson",
+   "Daniel Nelson",
+   "Leon Poutievski",
+   "Arjun Singh",
+   "Joon Ong",
+   "Amin Vahdat"
+  ]
+ },
+ "10.1109/jlt.2008.2006280": {
+  "title": "Large Scale, All-Fiber Optical Cross-Connect Switches for Automated Patch-Panels",
+  "container": "Journal of Lightwave Technology",
+  "volume": "27",
+  "issue": "15",
+  "page": "3107-3115",
+  "year": 2009,
+  "authors": [
+   "A.S. Kewitsch"
+  ]
+ },
+ "10.1109/ipc60965.2024.10799666": {
+  "title": "11,520×11,520 Optical Circuit Switch for Intra- and Inter-datacenter Converged Networks",
+  "container": "2024 IEEE Photonics Conference (IPC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2024,
+  "authors": [
+   "T. Kuno",
+   "Y. Mori",
+   "H. Hasegawa"
+  ]
+ },
+ "10.1364/ofc.2021.th1a.37": {
+  "title": "Low-Loss Three-Dimensional Fan-in/Fan-out Devices for Multi-Core Fiber Integration",
+  "container": "Optical Fiber Communication Conference (OFC) 2021",
+  "volume": null,
+  "issue": null,
+  "page": "Th1A.37",
+  "year": 2021,
+  "authors": [
+   "Yi-Chun Ling",
+   "Shuyun Yuan",
+   "S. J. Ben Yoo"
+  ]
+ },
+ "10.1117/1.apn.2.3.036002": {
+  "title": "Low-insertion-loss femtosecond laser-inscribed three-dimensional high-density mux/demux devices",
+  "container": "Advanced Photonics Nexus",
+  "volume": "2",
+  "issue": "03",
+  "page": "1-8",
+  "year": 2023,
+  "authors": [
+   "Yize Liang",
+   "Chengkun Cai",
+   "Kangrui Wang",
+   "Xiaokang Lian",
+   "Jue Wang",
+   "Jinfeng Liu",
+   "Lei Shen",
+   "Jian Wang"
+  ]
+ },
+ "10.1088/2631-7990/ab4d51": {
+  "title": "Femtosecond laser additive and subtractive micro-processing: enabling a high-channel-density silica interposer for multicore fibre to silicon-photonic packaging",
+  "container": "International Journal of Extreme Manufacturing",
+  "volume": "1",
+  "issue": "4",
+  "page": "045002",
+  "year": 2019,
+  "authors": [
+   "Gligor Djogo",
+   "Jianzhao Li",
+   "Stephen Ho",
+   "Moez Haque",
+   "Erden Ertorer",
+   "Jun Liu",
+   "Xiaolu Song",
+   "Jing Suo",
+   "Peter R Herman"
+  ]
+ },
+ "10.1364/ofc.2017.w1b.6": {
+  "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+  "container": "Optical Fiber Communication Conference",
+  "volume": null,
+  "issue": null,
+  "page": "W1B.6",
+  "year": 2017,
+  "authors": [
+   "Kevin P.Chen",
+   "Ming-Jun Li"
+  ]
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "container": "2022 20th International Conference on Optical Communications and Networks (ICOCN)",
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2022,
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ]
+ },
+ "10.1364/oe.19.005698": {
+  "title": "Ultrafast laser inscription of an integrated photonic lantern",
+  "container": "Optics Express",
+  "volume": "19",
+  "issue": "6",
+  "page": "5698",
+  "year": 2011,
+  "authors": [
+   "R. R. Thomson",
+   "T. A. Birks",
+   "S. G. Leon-Saval",
+   "A. K. Kar",
+   "J. Bland-Hawthorn"
+  ]
+ },
+ "10.1109/ectc51909.2023.00046": {
+  "title": "Co-packaged Optics on Glass Substrates for 102.4 Tb/s Data Center Switches",
+  "container": "2023 IEEE 73rd Electronic Components and Technology Conference (ECTC)",
+  "volume": null,
+  "issue": null,
+  "page": "224-227",
+  "year": 2023,
+  "authors": [
+   "Lucas Yeary",
+   "Lars Brusberg",
+   "Cheolbok Kim",
+   "Seong-Ho Seok",
+   "JungHyun Noh",
+   "Alon Rozenvax"
+  ]
+ },
+ "10.1038/s41377-020-0272-5": {
+  "title": "Hybrid multi-chip assembly of optical communication engines by in situ 3D nano-lithography",
+  "container": "Light: Science &amp; Applications",
+  "volume": "9",
+  "issue": "1",
+  "page": null,
+  "year": 2020,
+  "authors": [
+   "Matthias Blaicher",
+   "Muhammad Rodlin Billah",
+   "Juned Kemal",
+   "Tobias Hoose",
+   "Pablo Marin-Palomo",
+   "Andreas Hofmann",
+   "Yasar Kutuvantavida",
+   "Clemens Kieninger",
+   "Philipp-Immanuel Dietrich",
+   "Matthias Lauermann",
+   "Stefan Wolf",
+   "Ute Troppenz",
+   "Martin Moehrle",
+   "Florian Merget",
+   "Sebastian Skacel",
+   "Jeremy Witzens",
+   "Sebastian Randel",
+   "Wolfgang Freude",
+   "Christian Koos"
+  ]
+ },
+ "10.1109/tec.1961.5219222": {
+  "title": "An Algorithm for Path Connections and Its Applications",
+  "container": "IEEE Transactions on Electronic Computers",
+  "volume": "EC-10",
+  "issue": "3",
+  "page": "346-365",
+  "year": 1961,
+  "authors": [
+   "C. Y. Lee"
+  ]
+ },
+ "10.1109/ecoc48923.2020.9333177": {
+  "title": "Demonstration of Low-Latency ETH-switched DataCenter and 5G Fronthaul Networks Using the 1024-port $\\text{Hipo}\\lambda\\text{aos}$ Optical Packet Switch",
+  "container": "2020 European Conference on Optical Communications (ECOC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-4",
+  "year": 2020,
+  "authors": [
+   "George Giamougiannis",
+   "Apostolos Tsakyridis",
+   "Nikos Terzenidis",
+   "Dimosthenis Spasopoulos",
+   "Christos Vagionas",
+   "Nikos Pleros"
+  ]
+ },
+ "10.1364/ofc.2025.m4j.5": {
+  "title": "Low-loss Fan-in/Fan-out Device for Coupled four-core Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "container": "Optical Fiber Communication Conference (OFC) 2025",
+  "volume": null,
+  "issue": null,
+  "page": "M4J.5",
+  "year": 2025,
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Junjie Xiong",
+   "Linbin Bai",
+   "Mingjing Xu",
+   "Zuyuan He"
+  ]
+ },
+ "10.1364/oe.23.001585": {
+  "title": "Fan-in/out polymer optical waveguide for a multicore fiber fabricated using the Mosquito method",
+  "container": "Optics Express",
+  "volume": "23",
+  "issue": "2",
+  "page": "1585",
+  "year": 2015,
+  "authors": [
+   "Daisuke Suganuma",
+   "Takaaki Ishigure"
+  ]
+ },
+ "10.1364/ol.21.001729": {
+  "title": "Writing waveguides in glass with a femtosecond laser",
+  "container": "Optics Letters",
+  "volume": "21",
+  "issue": "21",
+  "page": "1729",
+  "year": 1996,
+  "authors": [
+   "K. M. Davis",
+   "K. Miura",
+   "N. Sugimoto",
+   "K. Hirao"
+  ]
+ },
+ "10.1038/nphoton.2008.47": {
+  "title": "Femtosecond laser micromachining in transparent materials",
+  "container": "Nature Photonics",
+  "volume": "2",
+  "issue": "4",
+  "page": "219-225",
+  "year": 2008,
+  "authors": [
+   "Rafael R. Gattass",
+   "Eric Mazur"
+  ]
+ },
+ "10.1109/oecc.2018.8730115": {
+  "title": "Shuffle converter using 3D waveguide for MCF/SMF fan-in fan-out configuration toward over 1,000 port count optical matrix switch",
+  "container": "2018 23rd Opto-Electronics and Communications Conference (OECC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2018,
+  "authors": [
+   "K. Hamamoto",
+   "Y. Hinokuma",
+   "S. Ghosh",
+   "R. Kuwahata",
+   "H. Jiang"
+  ]
+ },
+ "10.1109/iccad66269.2025.11240728": {
+  "title": "Apollo: Automated Routing-Informed Placement for Large-Scale Photonic Integrated Circuits",
+  "container": "2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+  "volume": null,
+  "issue": null,
+  "page": "1-9",
+  "year": 2025,
+  "authors": [
+   "Hongjian Zhou",
+   "Haoyu Yang",
+   "Nicholas Gangi",
+   "Zhaoran Rena Huang",
+   "Haoxing Ren",
+   "Jiaqi Gu"
+  ]
+ }
+}

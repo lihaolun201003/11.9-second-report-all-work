@@ -1,0 +1,273 @@
+{
+ "10.1364/oe.20.017667": {
+  "title": "Photonic wire bonding: a novel concept for chip-scale interconnects",
+  "year": 2012,
+  "venue": "Optics Express",
+  "authors": [
+   "N. Lindenmann",
+   "G. Balthasar",
+   "D. Hillerkuss",
+   "R. Schmogrow",
+   "M. Jordan",
+   "Juerg Leuthold",
+   "W. Freude",
+   "Christian G. Koos"
+  ],
+  "abstract": "Photonic integration requires a versatile packaging technology that enables low-loss interconnects between photonic chips in three-dimensional configurations. In this paper we introduce the concept of photonic wire bonding, where polymer waveguides with three-dimensional freeform geometries are used to bridge the gap between nanophotonic circuits located on different chips. In a proof-of-principle experiment, we demonstrate the fabrication of single-mode photonic wire bonds (PWB) by direct-write two-photon lithography. First-generation prototypes allow for efficient broadband coupling with average insertion losses of only 1.6 dB in the C-band and can carry wavelength-division multiplexing signals with multi-Tbit/s data rates. Photonic wire bonding is well suited for automated mass production, and we expect the technology to enable optical multi-chip systems with enhanced performance and flexibility.",
+  "cited": 427,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.20.017667",
+  "oa_status": "gold"
+ },
+ "10.1364/oe.19.005698": {
+  "title": "Ultrafast laser inscription of an integrated photonic lantern",
+  "year": 2011,
+  "venue": "Optics Express",
+  "authors": [
+   "Robert R. Thomson",
+   "T. A. Birks",
+   "Sergio G. Leon-Saval",
+   "Ajoy Kumar Kar",
+   "Joss Bland‐Hawthorn"
+  ],
+  "abstract": "We used ultrafast laser inscription to fabricate three-dimensional integrated optical transitions that efficiently couple light from a multimode waveguide to a two-dimensional array of single mode waveguides and back. Although the entire device has an average insertion loss of 5.7 dB at 1539 nm, only ≈0.7 dB is due to mode coupling losses. Based on an analysis which is presented in the paper, we expect that our device should convert a multimode input into an array of single modes with a loss of ≈2.0 dB, assuming the input coupling losses are zero. Such devices have applications in astrophotonics and remote sensing.",
+  "cited": 252,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.19.005698",
+  "oa_status": "gold"
+ },
+ "10.1117/1.ap.3.2.024002": {
+  "title": "Photonic circuits written by femtosecond laser in glass: improved fabrication and recent progress in photonic devices",
+  "year": 2021,
+  "venue": "Advanced Photonics",
+  "authors": [
+   "Dezhi Tan",
+   "Zhuo Wang",
+   "Beibei Xu",
+   "Jianrong Qiu"
+  ],
+  "abstract": "Integrated photonics is attracting considerable attention and has found many applications in both classical and quantum optics, fulfilling the requirements for the ever-growing complexity in modern optical experiments and big data communication. Femtosecond (fs) laser direct writing (FLDW) is an acknowledged technique for producing waveguides (WGs) in transparent glass that have been used to construct complex integrated photonic devices. FLDW possesses unique features, such as three-dimensional fabrication geometry, rapid prototyping, and single step fabrication, which are important for integrated communication devices and quantum photonic and astrophotonic technologies. To fully take advantage of FLDW, considerable efforts have been made to produce WGs over a large depth with low propagation loss, coupling loss, bend loss, and highly symmetrical mode field. We summarize the improved techniques as well as the mechanisms for writing high-performance WGs with controllable morphology of cross-section, highly symmetrical mode field, low loss, and high processing uniformity and efficiency, and discuss the recent progress of WGs in photonic integrated devices for communication, topological physics, quantum information processing, and astrophotonics. Prospective challenges and future research directions in this field are also pointed out.",
+  "cited": 187,
+  "type": "article",
+  "oa_url": "https://www.spiedigitallibrary.org/journals/advanced-photonics/volume-3/issue-2/024002/Photonic-circuits-written-by-femtosecond-laser-in-glass--improved/10.1117/1.AP.3.2.024002.pdf",
+  "oa_status": "diamond"
+ },
+ "10.1002/lpor.201300195": {
+  "title": "Ultrafast laser inscription: perspectives on future integrated applications",
+  "year": 2014,
+  "venue": "Laser & Photonics Review",
+  "authors": [
+   "Debaditya Choudhury",
+   "John R. Macdonald",
+   "Ajoy Kumar Kar"
+  ],
+  "abstract": "Abstract This paper reviews the recent advancements achieved using ultrafast laser inscription (ULI) that highlight the cross‐disciplinary potential of the technology. An overview of waveguide fabrication is provided and the three distinct types of waveguide cross‐section architectures that have so far been fabricated in transparent dielectric materials are discussed. The paper focuses on two key emergent technologies driven by ULI processes. First, the recently developed photonic devices, such as compact mode‐locked waveguide sources and novel mid‐infrared waveguide lasers are discussed. Secondly, the phenomenon and applications of selective etching in developing ultrafast laser inscribed structures for compact lab‐on‐chip devices are elaborated. The review further discusses the conceivable future of ULI in impacting the aforementioned fields.",
+  "cited": 181,
+  "type": "article",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lpor.201300195",
+  "oa_status": "hybrid"
+ },
+ "10.1109/jlt.2014.2373051": {
+  "title": "Connecting Silicon Photonic Circuits to Multicore Fibers by Photonic Wire Bonding",
+  "year": 2014,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "N. Lindenmann",
+   "Stephan Dottermusch",
+   "Maria Laura Gödecke",
+   "T. Hoose",
+   "Muhammad Rodlin Billah",
+   "Temitope Onanuga",
+   "Andreas Hofmann",
+   "W. Freude",
+   "Christian G. Koos"
+  ],
+  "abstract": "Photonic wire bonding is demonstrated to enable highly efficient coupling between multicore fibers and planar silicon photonic circuits. The technique relies on in-situ fabrication of three-dimensional interconnect waveguides between the fiber facet and tapered silicon-on-insulator waveguides. Photonic wire bonding can easily compensate inaccuracies of core placement in the fiber cross-section, does not require active alignment, and is well suited for automated fabrication. We report on the design, on fabrication, and on characterization of photonic wire bonds. In a proof-of-principle experiment, a four-core fiber is coupled to a silicon photonic chip, leading to measured coupling losses as small as 1.7 dB.",
+  "cited": 160,
+  "type": "article",
+  "oa_url": "https://publikationen.bibliothek.kit.edu/1000049613/3838493",
+  "oa_status": "green"
+ },
+ "10.1103/physrevapplied.22.064079": {
+  "title": "Femtosecond-laser-written low-loss multiscan waveguides in fused silica",
+  "year": 2024,
+  "venue": "Physical Review Applied",
+  "authors": [
+   "Nikolay N. Skryabin",
+   "S. A. Zhuravitskii",
+   "I. V. Dyakonov",
+   "Stanislav S. Straupe",
+   "Alexander A. Kalinkin",
+   "S. P. Kulik"
+  ],
+  "abstract": "We report low-loss multiscan waveguides fabricated in fused silica using femtosecond-laser-writing technology. The multiscan principle allows the writing regime to be tailored to excel at key features of any integrated photonic platform: coupling losses and propagation losses. We optimized the writing parameters for different sizes of square-shaped waveguides and reached the mode overlap value with a standard single-mode optical fiber of above 98.8% and demonstrated very low coupling losses of 0.2 dB/facet on average. Propagation losses in the fabricated waveguides amounted to 0.07 dB/cm. We applied the developed recipe to the fabrication of a fiber-coupled 25-channel interferometer with total insertion losses below 1 dB. The findings of this work are of interest for broad range of applications and in particular for optical information processing and quantum photonics.",
+  "cited": 26,
+  "type": "article",
+  "oa_url": "https://arxiv.org/pdf/2408.06688",
+  "oa_status": "green"
+ },
+ "10.1364/ome.419945": {
+  "title": "Femtosecond laser writing low-loss waveguides in silica glass: highly symmetrical mode field and mechanism of refractive index change",
+  "year": 2021,
+  "venue": "Optical Materials Express",
+  "authors": [
+   "Dezhi Tan",
+   "Xiaoyu Sun",
+   "Jianrong Qiu"
+  ],
+  "abstract": "Here, single-mode waveguides are written in silica glass by femtosecond (fs) laser. The waveguides exhibit a low propagation loss of 0.15 dB/cm and a symmetrical mode field. The loss performance and the mode field symmetry are demonstrated to strongly depend on the pulse repetition and polarization of fs laser, respectively. Raman and photoluminescence properties indicate that an increase of refractive index originates from an increment in the total density of glass networks consisting of small and large rings, but only increasing the number of small rings does not necessarily lead to an increase in refractive index. The long working distance of the objective lens promises to fabricate low-loss waveguides in a large depth of glass, which would inspire manufacturing integrated photonic devices by fs laser writing. Clarifying the mechanism of refractive index change offers a new perspective to understand the fs laser-matter interaction.",
+  "cited": 41,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/ome.419945",
+  "oa_status": "gold"
+ },
+ "10.1364/ol.470670": {
+  "title": "Effectively writing low propagation and bend loss waveguides in the silica glass by using a femtosecond laser",
+  "year": 2022,
+  "venue": "Optics Letters",
+  "authors": [
+   "Dezhi Tan",
+   "Xiaoyu Sun",
+   "Zengling Li",
+   "Jianrong Qiu"
+  ],
+  "abstract": "We report writing low-loss waveguides (WGs) by using a femtosecond laser in silica glass. A record low propagation loss of 0.07 dB/cm is achieved, and the lowest bend loss reaches 0.001 dB/mm with the bend radius of 30 mm. The optimal effective writing speed reaches 125 µm/s, which is two orders higher than the previous reported value. Fan-out devices with well controllable low loss for three-dimensional photonic integration are also fabricated. This work provides an effective strategy to create WG devices for 3D high-density photonic integration.",
+  "cited": 32,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/oe.23.001585": {
+  "title": "Fan-in/out polymer optical waveguide for a multicore fiber fabricated using the Mosquito method",
+  "year": 2015,
+  "venue": "Optics Express",
+  "authors": [
+   "Daisuke Suganuma",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "A fan-in/out polymer optical waveguide with 25-μm cores and 40-μm interchannel pitch is fabricated for a multimode multicore fiber using a microdispenser. We design a fan-in/out structure to which the Mosquito method is applicable since the Mosquito method is capable of drawing a circular graded-index core three-dimensionally. Then, we experimentally fabricate a 10-cm long fan-in/out polymer waveguide with seven cores, which is expected to connect a multicore fiber and a fiber ribbon. A minimum insertion loss of 5.26 dB at 850-nm wavelength for a 10-cm long fan-in/out waveguide is experimentally observed. Causes of variation in the insertion loss and interchannel pitch are discussed.",
+  "cited": 31,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.23.001585",
+  "oa_status": "gold"
+ },
+ "10.1038/s41598-021-03116-y": {
+  "title": "Low bend loss femtosecond laser written waveguides exploiting integrated microcrack",
+  "year": 2021,
+  "venue": "Scientific Reports",
+  "authors": [
+   "Timothy Lee",
+   "Qi Sun",
+   "Martynas Beresna",
+   "Gilberto Brambilla"
+  ],
+  "abstract": "We introduce the fabrication and use of microcracks embedded in glass as an optical element for manipulating light propagation, in particular for enhancing waveguide performance in silica integrated optics. By using a femtosecond laser to induce a strong asymmetric stress pattern in silica, uniform cracks with set dimensions can be created within the substrate and propagated along a fixed path. The smoothness of the resulting cleave interface and large index contrast can be exploited to enhance waveguide modal confinement. As a demonstration, we tackle the longstanding high bend-loss issue in femtosecond laser written silica waveguides by using this technique to cleave the outer edge of laser written waveguide bends, to suppress radiative bend loss. The microcrack cross section is estimated to be 15 μm in height and 30 nm in width, for the 10 [Formula: see text] 10 μm waveguides. At 1550 nm wavelength, losses down to 1 dB/cm at 10 mm bend radius were achieved, without introducing additional scattering. Both the cleave stress pattern and waveguide are fabricated with the same multiscan writing procedure, without requiring additional steps, and re-characterisation of the waveguides after 1 year confirm excellent long term performance stability.",
+  "cited": 31,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41598-021-03116-y.pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/jphot.2020.3039900": {
+  "title": "Laser Written Glass Interposer for Fiber Coupling to Silicon Photonic Integrated Circuits",
+  "year": 2020,
+  "venue": "IEEE photonics journal",
+  "authors": [
+   "Andres Desmet",
+   "Ana Radosavljevic",
+   "Jeroen Missinne",
+   "Dries Van Thourhout",
+   "Geert Van Steenberge"
+  ],
+  "abstract": "Recent advancements in photonic-electronic integration push towards denser multichannel fiber to silicon photonic chip coupling solutions. However, current packaging schemes based on suitably polished fiber arrays do not provide sufficient scalability. Alternatively, lithographically-patterned fused silica glass interposers have been proposed, allowing for the integration of fanout waveguides between a dense array of on-chip silicon waveguides and a cleaved fiber ribbon. In this paper, we propose the use of femtosecond laser inscription for the fabrication of the fused silica glass interposer, allowing for a monolithic integration of waveguides and V-grooves for fiber alignment. The waveguides obtained by Femtosecond Laser Direct Writing (FLDW) have a propagation loss of 0.88 dB/cm at 1550 nm. The mode-field diameter is 12.8 ± 0.4 μm, allowing for a coupling loss of 1.24 ± 0.32 dB when coupling to a standard single mode optical fiber, passively aligned to the fused silica waveguide by insertion in a V-groove created by Femtosecond Laser Irradiation followed by Chemical Etching (FLICE). The average surface roughness of the etched waveguide facet is 160 ± 5 nm. Scattering loss when coupling to fiber is reduced by use of an index-matching adhesive for fiber fixation. A polished out-of-plane coupling mirror at an angle of 41.5° injects the light into standard grating couplers, providing a quasi-planar fiber-to-chip package. The excess loss of the proposed solution is limited to 2 dB per interface, including mirror, waveguide and fiber coupling losses.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://ieeexplore.ieee.org/ielx7/4563994/9311900/09269385.pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/jphot.2022.3198087": {
+  "title": "Low Loss Ultra-Small Core Pitch All-Fiber Fan-In/Fan-Out Device For Coupled-Core Multicore Fibers",
+  "year": 2022,
+  "venue": "IEEE photonics journal",
+  "authors": [
+   "Junjie Xiong",
+   "Lin Ma",
+   "Ying Shi",
+   "Linbin Bai",
+   "Zuyuan He"
+  ],
+  "abstract": "We designed and fabricated all-fiber fan-in/fan-out (FI/FO) devices using a fused taper technique for square lattice structure coupled-core multicore fiber (CC-MCF). A vanishing core bridge fiber with a diameter of 80 μm was tailor-designed to minimize both the mode field mismatch and the required tapering ratio at the same time. In experiment, we succeeded in fabricating FI/FO devices with a core pitch as small as 17 μm and achieving practically low insertion losses of 1.43 dB and 2.28 dB for fan-in and fan-out devices, respectively. The fabricated FI/FO devices can well multiplex and demultiplex 1550 nm light into and out from the CC-MCF without obvious total power fluctuation even when an external perturbation is intentionally imposed on the CC-MCF. The proposed FI/FO device is very useful for both the study and application of CC-MCFs which usually have ultra-small core pitches.",
+  "cited": 10,
+  "type": "article",
+  "oa_url": "https://ieeexplore.ieee.org/ielx7/4563994/9795343/09855224.pdf",
+  "oa_status": "gold"
+ },
+ "10.1364/ol.551272": {
+  "title": "Low-loss and tight-bend waveguides via multiple scans of a femtosecond laser",
+  "year": 2025,
+  "venue": "Optics Letters",
+  "authors": [
+   "Kai-Heng Xiao",
+   "Yi-Hao Zan",
+   "Yang Ouyang",
+   "Si-Xue Fei",
+   "Zhi‐Yong Hu",
+   "Linan Fang",
+   "Zhen‐Nan Tian",
+   "Qi‐Dai Chen"
+  ],
+  "abstract": "In this paper, in situ multiple scans of a femtosecond laser are employed to optimize the refractive index distribution in a glass optical waveguide. The emergence of second bright core boundary (SBCB) and the increasing density of three- and four-membered rings in silica were thoroughly investigated. They can lead to a higher refractive index in a waveguide core and enhance the light confinement capability, which can increase the spatial integration density of bent waveguide structures. A 90° tightly bent single-mode waveguide is prepared at 808 nm, achieving a minimum bending loss of 1.028 dB/cm at a bending radius of 10 mm. This study will facilitate the preparation of on-chip large-scale, highly integrated photonic chips.",
+  "cited": 6,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/oecc48412.2020.9273659": {
+  "title": "Automatic high-density polymer waveguide layout for on-board high-speed optical interconnect",
+  "year": 2020,
+  "venue": "Opto-Electronics and Communications Conference (OECC)",
+  "authors": [
+   "Zhijie Huang",
+   "Lin Ma",
+   "Wanjing Kuang",
+   "Ying Shi",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate automatic polymer waveguide layout for the first time. We succeeded in 512 multimode waveguides routing with balanced performances within an area of 150×150 mm2by optimization on algorithm and bending radius.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2022,
+  "venue": "International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate a low-loss and low-crosstalk fan-in/fan-out device for three-core fiber using femtosecond laser direct inscription. The fabricated FI/FO device has an averaged insertion loss of 1.33 dB and a crosstalk smaller than −49 dB.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/oe.618117": {
+  "title": "Improved bending of femtosecond-laser-written waveguides combining single- and multi-mode regimes",
+  "year": 2026,
+  "venue": "Optics Express",
+  "authors": [
+   "Roberto Osellame",
+   "Mattia Bossi",
+   "Andrea Crespi",
+   "Luca Campanile"
+  ],
+  "abstract": null,
+  "cited": 0,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.618117",
+  "oa_status": "gold"
+ }
+}

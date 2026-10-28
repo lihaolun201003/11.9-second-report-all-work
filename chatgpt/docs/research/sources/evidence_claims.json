@@ -1,0 +1,560 @@
+{
+  "facts": [
+    {
+      "id": "E01",
+      "claim": "Jupiter由Clos向聚合块直接连接演进，OCS+SDN提供动态拓扑",
+      "sources": [
+        "Jupiter2022"
+      ],
+      "locator": "§2–3、Fig.1–3",
+      "conditions": "Google生产网络经验，非无源器件实验",
+      "project_use": "支撑OCS外围固定物理映射的场景",
+      "counter_or_limit": "玻璃固定器件不具备动态交换",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E02",
+      "claim": "论文报告5倍速率/容量、capex降30%、功耗降41%、平均块级路径1.4",
+      "sources": [
+        "Jupiter2022"
+      ],
+      "locator": "摘要、§2、Fig.1–3",
+      "conditions": "整套架构和运营演进的汇总收益",
+      "project_use": "仅作真实网络背景",
+      "counter_or_limit": "不能归因于玻璃或移植为本课题提升",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E03",
+      "claim": "Palomar为136×136、毫秒量级；代表插损通常<2dB；最大整机功耗108W",
+      "sources": [
+        "Apollo2022"
+      ],
+      "locator": "§2与§4；Fig.7–9；机架整机段",
+      "conditions": "MEMS OCS系统，插损含系统相关参考面",
+      "project_use": "说明端口/组合/同时连接区别",
+      "counter_or_limit": "136²=18496是组合，非同时18496条物理路径",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E04",
+      "claim": "Shuffle Box为固定被动重排，面向AI/HPC和Spine–Leaf",
+      "sources": [
+        "CorningShuffle"
+      ],
+      "locator": "Shuffle Solutions；FAQ",
+      "conditions": "官方产品说明，未公开统一插损或价格",
+      "project_use": "最直接应用功能",
+      "counter_or_limit": "不证明某一1024规格或玻璃已替代光纤",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E05",
+      "claim": "Molex自动FlexPlane制造；系列72–6400纤、1–6RU",
+      "sources": [
+        "MolexShuffle"
+      ],
+      "locator": "数据表p1 Features and Advantages",
+      "conditions": "系列范围，非每个型号共同上限",
+      "project_use": "千物理纤与自动制造的强工程依据",
+      "counter_or_limit": "不能称1RU容纳6400纤；非玻璃芯片",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E06",
+      "claim": "EZ Shuffle最多256纤，41×84×9.5mm，可堆叠",
+      "sources": [
+        "USConecEZ"
+      ],
+      "locator": "2018-10-17公告正文",
+      "conditions": "指定光纤管理模块，16纤/带、16带",
+      "project_use": "同类组件体积和模块化基线",
+      "counter_or_limit": "堆叠1024纤不证明单模块任意1024映射",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E07",
+      "claim": "51.2Tb/s、100Gb/s单向lane、512radix示例给1024 Tx/Rx纤",
+      "sources": [
+        "USConec165"
+      ],
+      "locator": "§1.1、Fig.1；作者稿PDF p1–2",
+      "conditions": "2021 CPO架构研究示例；收发分纤",
+      "project_use": "本项目1024物理路径的可追溯背景",
+      "counter_or_limit": "不是通用标准、不是已使用本项目玻璃；WDM会改变纤数",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E08",
+      "claim": "传统250µm间距；新研究165µm间距配80µm包层，单排24纤",
+      "sources": [
+        "USConec165"
+      ],
+      "locator": "摘要、§1.1及结构段",
+      "conditions": "具体MT-style插芯研究",
+      "project_use": "端面约束与高密度趋势",
+      "counter_or_limit": "不是玻璃内部dmin；不能把包层、涂覆和中心距混用",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E09",
+      "claim": "贡献者演示称所讨论3D直写玻璃损耗高于optical-flex",
+      "sources": [
+        "Castro2026"
+      ],
+      "locator": "p13；p10–14实现比较",
+      "conditions": "2026-02技术贡献者演示，非IEEE正式标准",
+      "project_use": "必须保留的负面证据",
+      "counter_or_limit": "并非所有未来玻璃工艺的普遍定律",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E10",
+      "claim": "IOX论文摘要报告>1024互联、传播0.034dB/cm",
+      "sources": [
+        "Brusberg2025"
+      ],
+      "locator": "IEEE原始摘要",
+      "conditions": "优化玻璃/银离子交换；全文未取、波长与详细老化证据未核",
+      "project_use": "证明千路玻璃先例；损耗仅摘要级锚点",
+      "counter_or_limit": "不纳跨材料排名；不能称任意真3D、FLDW或全通道实测",
+      "confidence": "中：原始摘要支持，细节待全文"
+    },
+    {
+      "id": "E11",
+      "claim": "4芯19µm芯距FI/FO，1550nm，α约0.2dB/cm、0.1dB/facet、组装平均0.63dB",
+      "sources": [
+        "Fanout2026"
+      ],
+      "locator": "摘要、Introduction、Experimental片段",
+      "conditions": "硼铝硅玻璃，多扫；芯片10×6.5mm、封装27×6.5mm",
+      "project_use": "同工艺标定和装配影响实例",
+      "counter_or_limit": "4路不外推1024，摘要片段不等于完整精读；正式卷期2026",
+      "confidence": "中高：原始摘要/片段"
+    },
+    {
+      "id": "E12",
+      "claim": "Toward over1000为系统目标；原理器件IL2.1dB、XT<-54.2dB",
+      "sources": [
+        "Jiang2021"
+      ],
+      "locator": "IEICE摘要；pp34–36",
+      "conditions": "测量波长、实际规模及工艺未由可得文本核定",
+      "project_use": "已有3D Shuffle概念先例",
+      "counter_or_limit": "不能写实际1000路；数值不纳工艺性能排名",
+      "confidence": "中：原始摘要"
+    },
+    {
+      "id": "E13",
+      "claim": "256条真3D波导由1×256线阵到16×16阵列；工具约束等光程、半径和间距",
+      "sources": [
+        "Yoo2016"
+      ],
+      "locator": "3D optical phased arrays、Fig.7；PDF p4–5与7",
+      "conditions": "ULI及所述玻璃工艺；文中示例Rmin20mm非通用",
+      "project_use": "强反证：3D+曲率+间距已有",
+      "counter_or_limit": "综述/系统介绍不等于开源任意1024优化器",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E14",
+      "claim": "8路真3D路径匹配已有实制；写入顺序/深度被讨论",
+      "sources": [
+        "Charles2012"
+      ],
+      "locator": "作者稿§2–6、Fig.1–4/11–15",
+      "conditions": "Eagle2000；工作1550nm；加工800nm、<50fs、5.1MHz、35nJ、250mm/min",
+      "project_use": "制造约束与曲线设计先例",
+      "counter_or_limit": "30µm间距、>23mm模型范围不能移植；设计0.1µm匹配≠实测45µm光程差",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E15",
+      "claim": "2021三维FI/FO摘要明确automatic 3D routing",
+      "sources": [
+        "Routing2021"
+      ],
+      "locator": "Optica摘要",
+      "conditions": "ULI；可得摘要未给实际通道数或算法",
+      "project_use": "反驳3D自动路由空白",
+      "counter_or_limit": "未披露项标NR而非否",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E16",
+      "claim": "2025玻璃3D直写实现folded Clos并表征400Gb/s流量",
+      "sources": [
+        "Castro2025"
+      ],
+      "locator": "Optica摘要",
+      "conditions": "Panduit+Modular Photonics；通道数未核实",
+      "project_use": "直接应用竞争先例",
+      "counter_or_limit": "不能虚构损耗分布、尺寸、路由算法或大规模部署",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E17",
+      "claim": "84-channel silica interposer采用激光写入和刻蚀自对准结构",
+      "sources": [
+        "Djogo2019"
+      ],
+      "locator": "出版社/OA原始摘要",
+      "conditions": "石英、高密度多纤封装",
+      "project_use": "说明大通道接口和制造组合",
+      "counter_or_limit": "不证明通用自动路由或千路",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E18",
+      "claim": "121波导fan-out约7dB实测吞吐损耗，约1.7dB是理想耦合估计",
+      "sources": [
+        "Thomson2012"
+      ],
+      "locator": "Optica摘要",
+      "conditions": "天文光子阵列转换，非1024Shuffle",
+      "project_use": "证明端面/耦合决定表现",
+      "counter_or_limit": "不能只引用1.7dB当实测",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E19",
+      "claim": "IOX玻璃连接器工艺：被动对准相对主动对准平均增加0.19dB",
+      "sources": [
+        "Grenier2023"
+      ],
+      "locator": "§2–4；端面/重复插拔段",
+      "conditions": "激光切割/对准槽，不是激光写光芯；特定MT接头",
+      "project_use": "端面装配纳入系统规则",
+      "counter_or_limit": "<1µm平坦度覆盖6.5mm区不等于本组平台精度",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E20",
+      "claim": "APR采用x/y/orientation曲率A*，考虑间距、交叉、端口与损耗",
+      "sources": [
+        "APR2024"
+      ],
+      "locator": "v1 §2.2–2.5、§3–4",
+      "conditions": "单光层平面PIC模型；非玻璃加工",
+      "project_use": "明确可迁移算法对照",
+      "counter_or_limit": "不能称只会直角，也不能直接当3D玻璃解",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E21",
+      "claim": "LiDAR2 v1有1024与8195 nets；部分表格仍有DRV",
+      "sources": [
+        "LiDAR2025"
+      ],
+      "locator": "v1 TableIII、VI–VIII",
+      "conditions": "内部PICnets；固定v1，非默认最新PDF",
+      "project_use": "千连接软件规模已有",
+      "counter_or_limit": "摘要DRV-free不可推广所有参数；不是千路玻璃实物",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E22",
+      "claim": "国内JLT2025路由研究多损耗与几何，当前讨论单波导限制",
+      "sources": [
+        "Deng2025"
+      ],
+      "locator": "§II–IV，p7217；IEEE摘要",
+      "conditions": "硅光二维；示例1000×1000µm²；3.72dB/44.17s是模型路由",
+      "project_use": "国内相关工作与方法基线",
+      "counter_or_limit": "不外推1024运行时间/玻璃弯曲半径",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E23",
+      "claim": "2026四路紧凑FI/FO尚未完整组装；1310nm、2.5×2mm²、IL<0.54dB",
+      "sources": [
+        "Yu2026Compact"
+      ],
+      "locator": "Results、Fig.8–9、未组装说明",
+      "conditions": "硼铝硅玻璃特定曲线与多扫描；α0.13dB/cm、端面0.06dB",
+      "project_use": "弯曲工艺与封装状态的直接比较",
+      "counter_or_limit": "Reff非局部Rmin；原文0.85×1.4单位算术疑点不沿用",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E24",
+      "claim": "808nm熔石英多扫90° R10mm，最小弯曲损耗1.028dB/cm",
+      "sources": [
+        "Xiao2025"
+      ],
+      "locator": "Optica原始摘要",
+      "conditions": "指定工作波长、弯角和扫描工艺",
+      "project_use": "说明参数需条件化",
+      "counter_or_limit": "不能用于1550nm玻璃通用约束",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E25",
+      "claim": "1152空间芯来自288根4芯MCF；576FIFO为两端合计",
+      "sources": [
+        "Kopp2023"
+      ],
+      "locator": "原始摘要及Fujikura报告",
+      "conditions": "城域已部署光缆；现场安装后XT测试覆盖有限",
+      "project_use": "真实千空间通道旁证",
+      "counter_or_limit": "不是1152独立纤或一块千路玻璃",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E26",
+      "claim": "Intel OCI每方向64×32Gb/s；8纤×8λ；双向8对纤；最远100m",
+      "sources": [
+        "IntelOCI2024",
+        "IntelHotChips2024"
+      ],
+      "locator": "How It Works；Hot Chips OCI小节",
+      "conditions": "2024演示，5pJ/bit为厂商co-packaged口径",
+      "project_use": "位宽/lane/纤数区别、未来光I/O应用",
+      "counter_or_limit": "100m不是所有内存可接受距离；5pJ/bit非裸无源玻璃",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E27",
+      "claim": "HBM2E 16GB、3.2Gb/s/pin、410GB/s；HBM3 6.4Gb/s/pin、819GB/s",
+      "sources": [
+        "SamsungHBM2E",
+        "SKHBM3"
+      ],
+      "locator": "各产品正文",
+      "conditions": "指定产品点；1024有效数据位，十进制带宽",
+      "project_use": "展示电HBM结构与带宽",
+      "counter_or_limit": "不是所有SKU上限；未核整栈功耗/距离",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E28",
+      "claim": "HBM3E官方>9.2Gb/s、>1.2TB/s、24/36GB",
+      "sources": [
+        "MicronHBM3E"
+      ],
+      "locator": "FAQ",
+      "conditions": "滚动产品页；1024有效数据I/O",
+      "project_use": "说明HBM演进及口径",
+      "counter_or_limit": "9.2×1024/8=1.1776TB/s；两个大于号不能读为相等",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E29",
+      "claim": "HBM4初版JESD270-4已发布；Micron2026-03声称36GB12H量产、>11Gb/s、>2.8TB/s",
+      "sources": [
+        "JEDECHBM4",
+        "MicronHBM4"
+      ],
+      "locator": "标准发布索引；Micron正文/脚注",
+      "conditions": "标准全文未取得；厂商量产声明与初版规范不同",
+      "project_use": "更新截至2026背景",
+      "counter_or_limit": "4A修订、SPHBM4详细参数待正式标准；不把厂商算功率当实测",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E30",
+      "claim": "H100 18NVLink/900GB/s双向；当前NVIDIA表Blackwell1800、Rubin3000GB/s",
+      "sources": [
+        "HopperGuide",
+        "NVLinkCurrent",
+        "RubinCurrent"
+      ],
+      "locator": "NVLink Interconnect与Specifications",
+      "conditions": "2026-10-28滚动页；初步规格，Rubin内存19.2TB/s",
+      "project_use": "不同层级方向注明后比较",
+      "counter_or_limit": "不混CES历史22/3.6指标；逻辑全连不等于物理两两直连",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E31",
+      "claim": "PCIe5每lane32GT/s；x16编码后约63.015GB/s单方向",
+      "sources": [
+        "PCIE5"
+      ],
+      "locator": "5.0 Integrators List；公式为本报告推导",
+      "conditions": "128b/130b编码，未扣包头等",
+      "project_use": "统一单位和方向",
+      "counter_or_limit": "不是x16单向128GB/s",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E32",
+      "claim": "CXL4于2025-11发布128GT/s，光连接可经retimer实现",
+      "sources": [
+        "CXL4",
+        "CXL4QA"
+      ],
+      "locator": "发布PDF p1；2026Q&A Q1/Q4",
+      "conditions": "协议与物理传输分层，延迟依实现/流量",
+      "project_use": "内存背景与技术时效",
+      "counter_or_limit": "不是本课题被动器件原生支持CXL",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E33",
+      "claim": "Ou2025光HBM为模型：6组×48纤=288，含96TX/96RX/96供光",
+      "sources": [
+        "OptHBM2025"
+      ],
+      "locator": "§II–III、Fig.2–6",
+      "conditions": "传统HBM结构+EIC/PIC；每信号纤64λ×16Gb/s",
+      "project_use": "光HBM真实研究存在，且纤数不同于位宽",
+      "counter_or_limit": "不是实物/玻璃1024；性能收益依L2带宽等配置",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E34",
+      "claim": "Pond在158工作负载模型/评估中，8–16socket小池给DRAM降7%、性能差1–5%",
+      "sources": [
+        "Pond2023"
+      ],
+      "locator": "§3–7；Fig.7–8",
+      "conditions": "额外延迟模型约70–90ns；分层放置和预测策略",
+      "project_use": "支持内存池化的条件证据",
+      "counter_or_limit": "不是光传播单独收益或所有CXL实物测试",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E35",
+      "claim": "反方强调DIMM容量离散、交换/布线成本、复杂度及调度替代",
+      "sources": [
+        "AgainstCXL2023"
+      ],
+      "locator": "§3–5",
+      "conditions": "2023云工作负载与当时成本设定的立场论文",
+      "project_use": "必须列出的条件反证",
+      "counter_or_limit": "不证明所有内存扩容/共享无益",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E36",
+      "claim": "OCM以2纤承载4DDR4通道；1.02pJ/bit与最高5.5倍为模型/仿真",
+      "sources": [
+        "OCM2022"
+      ],
+      "locator": "§3、Fig.3、§4.2–4.3",
+      "conditions": "对40G NIC远端内存基线，非本地HBM",
+      "project_use": "光内存架构与WDM计数",
+      "counter_or_limit": "版本作者与2020会议版不同；不宣称已实测",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E37",
+      "claim": "femto公开源码支持xyz弯曲与PGM导出",
+      "sources": [
+        "Femto"
+      ],
+      "locator": "README；waveguide.py bend(dy,dz,fx,radius)",
+      "conditions": "只读源码，未安装运行",
+      "project_use": "反驳专用直写软件不存在",
+      "counter_or_limit": "未证明任意1024全局避碰/工艺自动标定",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E38",
+      "claim": "光子EDA已有曲线/半径/间距/场模拟/交互路由等能力",
+      "sources": [
+        "Gdsfactory",
+        "IPKISS",
+        "LumericalFDE",
+        "LumericalBent",
+        "OptoCompiler",
+        "OpticStudio",
+        "KLayout25D"
+      ],
+      "locator": "各工具文档对应章节",
+      "conditions": "不同功能层级与版本，未完成许可证实测",
+      "project_use": "选择基线及参数库工具",
+      "counter_or_limit": "3D场仿真、显示、物理自动路由不可混同",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E39",
+      "claim": "Zemax完成收购2021-10-01；Ansys完成2025-07-17；OSG/RSoft转Keysight2025-10-17",
+      "sources": [
+        "AnsysZemax2021",
+        "SynopsysAnsys2025",
+        "KeysightOSG2025"
+      ],
+      "locator": "年报Acquisitions；两份完成公告首段/清单",
+      "conditions": "历史归属与截至访问时产品区分",
+      "project_use": "纠正产业生态描述",
+      "counter_or_limit": "签约日期不等于完成；并购不证明自动路由能力",
+      "confidence": "高（该来源限定内）"
+    },
+    {
+      "id": "E40",
+      "claim": "自由成形聚合物光线键合早已有芯片间3D互联实验",
+      "sources": [
+        "PhotonicWire2012"
+      ],
+      "locator": "原始摘要",
+      "conditions": "聚合物、双光子光刻、跨芯片，不是玻璃体内",
+      "project_use": "直接竞争技术，避免假称只有玻璃可3D",
+      "counter_or_limit": "不将聚合物样机所有指标外推PCB级或千路",
+      "confidence": "高（该来源限定内）"
+    }
+  ],
+  "derived": [
+    [
+      "D01",
+      "N条一一映射=N条路径，两端各N端点；1024→2048端点",
+      "集合双射定义",
+      "不适用于有分束/合束或不同接口计数"
+    ],
+    [
+      "D02",
+      "路径对512/1024/2048→130816/523776/2096128",
+      "N(N−1)/2",
+      "对数不是实际运行时间；空间索引可剪枝"
+    ],
+    [
+      "D03",
+      "每路100折线段朴素段对约13.08/52.38/209.61亿",
+      "N(N−1)×100²/2",
+      "复杂度上界量级，非本系统执行次数"
+    ],
+    [
+      "D04",
+      "1024随机置换期望逆序261888，倒序523776；32×32转置246016",
+      "N(N−1)/4；N(N−1)/2；C(32,2)²",
+      "只针对给定一维端口与平面单调模型，非任意2D下界"
+    ],
+    [
+      "D05",
+      "250µm pitch时32阵列中心跨度7.75mm，1024单排255.75mm",
+      "(n−1)p，pitch示例来自USConec165",
+      "不含封装、边缘和连接器，也不是内部安全间距"
+    ],
+    [
+      "D06",
+      "D=9.6Tb/s、r=100Gb/s、W=8、η=.8→15信号纤；W=1→120",
+      "ceil[D/(rWη)]",
+      "人为带宽示例，非HBM光接口设计；需另计方向和供光"
+    ],
+    [
+      "D07",
+      "假设ng=1.5→5ns/m单程；1/10/100m→5/50/500ns",
+      "t=ngL/c，c约3×10^8m/s",
+      "ng为假设，非本组玻璃；远端访问还含转换和协议等"
+    ],
+    [
+      "D08",
+      "1024×50mm=51.2m；10mm/s单扫85.3min，8扫11.38h；1mm/s为14.22h/113.78h",
+      "Twrite=ΣmiLi/vi",
+      "假设条件，不含空程/加减速/装配，不是设备实测"
+    ],
+    [
+      "D09",
+      "假设独立每道成功p=.999/.9999，则p^1024≈.359/.903",
+      "独立伯努利全片概率",
+      "忽略共同失效与相关性，不能当真实良率预测"
+    ],
+    [
+      "D10",
+      "最终曲线Rmin=1/maxκ，dij=min||ri(u)−rj(v)||",
+      "三维微分几何与距离定义，详07",
+      "采样不必给连续保证；计算容差和参数化奇点需处理"
+    ]
+  ]
+}

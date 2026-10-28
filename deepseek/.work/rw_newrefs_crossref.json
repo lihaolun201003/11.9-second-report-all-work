@@ -1,0 +1,208 @@
+{
+ "10.1364/ofc.2023.m2g.1": {
+  "title": "Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking",
+  "container": "Optical Fiber Communication Conference (OFC) 2023",
+  "volume": null,
+  "issue": null,
+  "page": "M2G.1",
+  "year": 2023,
+  "authors": [
+   "Ryohei Urata",
+   "Hong Liu",
+   "Kevin Yasumura",
+   "Erji Mao",
+   "Jill Berger",
+   "Xiang Zhou",
+   "Cedric Lam",
+   "Roy Bannon",
+   "Darren Hutchinson",
+   "Daniel Nelson",
+   "Leon Poutievski",
+   "Arjun Singh",
+   "Joon Ong",
+   "Amin Vahdat"
+  ]
+ },
+ "10.23919/ofc49934.2023.10116374": {
+  "title": "Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking",
+  "container": "2023 Optical Fiber Communications Conference and Exhibition (OFC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-3",
+  "year": 2023,
+  "authors": [
+   "Ryohei Urata",
+   "Hong Liu",
+   "Kevin Yasumura",
+   "Erji Mao",
+   "Jill Berger",
+   "Xiang Zhou",
+   "Cedric Lam",
+   "Roy Bannon",
+   "Darren Hutchinson",
+   "Daniel Nelson",
+   "Leon Poutievski",
+   "Arjun Singh",
+   "Joon Ong",
+   "Amin Vahdat"
+  ]
+ },
+ "10.1109/ectc51909.2023.00046": {
+  "title": "Co-packaged Optics on Glass Substrates for 102.4 Tb/s Data Center Switches",
+  "container": "2023 IEEE 73rd Electronic Components and Technology Conference (ECTC)",
+  "volume": null,
+  "issue": null,
+  "page": "224-227",
+  "year": 2023,
+  "authors": [
+   "Lucas Yeary",
+   "Lars Brusberg",
+   "Cheolbok Kim",
+   "Seong-Ho Seok",
+   "JungHyun Noh",
+   "Alon Rozenvax"
+  ]
+ },
+ "10.1103/physrevapplied.22.064079": {
+  "title": "Femtosecond-laser-written low-loss multiscan waveguides in fused silica",
+  "container": "Physical Review Applied",
+  "volume": "22",
+  "issue": "6",
+  "page": null,
+  "year": 2024,
+  "authors": [
+   "N.N. Skryabin",
+   "S.A. Zhuravitskii",
+   "I.V. Dyakonov",
+   "S.S. Straupe",
+   "A.A. Kalinkin",
+   "S.P. Kulik"
+  ]
+ },
+ "10.1364/ol.21.001729": {
+  "title": "Writing waveguides in glass with a femtosecond laser",
+  "container": "Optics Letters",
+  "volume": "21",
+  "issue": "21",
+  "page": "1729",
+  "year": 1996,
+  "authors": [
+   "K. M. Davis",
+   "K. Miura",
+   "N. Sugimoto",
+   "K. Hirao"
+  ]
+ },
+ "10.1038/nphoton.2008.47": {
+  "title": "Femtosecond laser micromachining in transparent materials",
+  "container": "Nature Photonics",
+  "volume": "2",
+  "issue": "4",
+  "page": "219-225",
+  "year": 2008,
+  "authors": [
+   "Rafael R. Gattass",
+   "Eric Mazur"
+  ]
+ },
+ "10.1109/ecoc48923.2020.9333177": {
+  "title": "Demonstration of Low-Latency ETH-switched DataCenter and 5G Fronthaul Networks Using the 1024-port $\\text{Hipo}\\lambda\\text{aos}$ Optical Packet Switch",
+  "container": "2020 European Conference on Optical Communications (ECOC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-4",
+  "year": 2020,
+  "authors": [
+   "George Giamougiannis",
+   "Apostolos Tsakyridis",
+   "Nikos Terzenidis",
+   "Dimosthenis Spasopoulos",
+   "Christos Vagionas",
+   "Nikos Pleros"
+  ]
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "container": "2022 20th International Conference on Optical Communications and Networks (ICOCN)",
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2022,
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ]
+ },
+ "10.1364/ofc.2025.m4j.5": {
+  "title": "Low-loss Fan-in/Fan-out Device for Coupled four-core Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "container": "Optical Fiber Communication Conference (OFC) 2025",
+  "volume": null,
+  "issue": null,
+  "page": "M4J.5",
+  "year": 2025,
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Junjie Xiong",
+   "Linbin Bai",
+   "Mingjing Xu",
+   "Zuyuan He"
+  ]
+ },
+ "10.1364/oe.19.005698": {
+  "title": "Ultrafast laser inscription of an integrated photonic lantern",
+  "container": "Optics Express",
+  "volume": "19",
+  "issue": "6",
+  "page": "5698",
+  "year": 2011,
+  "authors": [
+   "R. R. Thomson",
+   "T. A. Birks",
+   "S. G. Leon-Saval",
+   "A. K. Kar",
+   "J. Bland-Hawthorn"
+  ]
+ },
+ "10.1117/1.ap.3.2.024002": {
+  "title": "Photonic circuits written by femtosecond laser in glass: improved fabrication and recent progress in photonic devices",
+  "container": "Advanced Photonics",
+  "volume": "3",
+  "issue": "02",
+  "page": "1-24",
+  "year": 2021,
+  "authors": [
+   "Dezhi Tan",
+   "Zhuo Wang",
+   "Beibei Xu",
+   "Jianrong Qiu"
+  ]
+ },
+ "10.1002/lpor.201300195": {
+  "title": "Ultrafast laser inscription: perspectives on future integrated applications",
+  "container": "Laser &amp; Photonics Reviews",
+  "volume": "8",
+  "issue": "6",
+  "page": "827-846",
+  "year": 2014,
+  "authors": [
+   "Debaditya Choudhury",
+   "John R. Macdonald",
+   "Ajoy K. Kar"
+  ]
+ },
+ "10.1364/oe.23.001585": {
+  "title": "Fan-in/out polymer optical waveguide for a multicore fiber fabricated using the Mosquito method",
+  "container": "Optics Express",
+  "volume": "23",
+  "issue": "2",
+  "page": "1585",
+  "year": 2015,
+  "authors": [
+   "Daisuke Suganuma",
+   "Takaaki Ishigure"
+  ]
+ }
+}

@@ -1,0 +1,1225 @@
+{
+ "femtosecond laser direct writing glass optical waveguide low loss": [
+  {
+   "doi": "10.70675/ea3a62a6za652z41d3z93b8z687529fb46f6",
+   "title": "Femtosecond laser direct writing of circular optical properties in silica glass",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Jing Tian"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.3788/col202321.112201",
+   "title": "Femtosecond laser writing of low-loss three-dimensional waveguide coupler in LiNbO3 crystal",
+   "year": 2023,
+   "venue": "Chinese Optics Letters",
+   "authors": [
+    "Jinman Lü",
+    "Ge Li",
+    "Yujie Ma",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1109/icton.2017.8024910",
+   "title": "New strategy for direct laser writing of low loss waveguide",
+   "year": 2017,
+   "venue": "2017 19th International Conference on Transparent Optical Networks (ICTON)",
+   "authors": [
+    "Pascal Masselin",
+    "Eugene Bychkov",
+    "David Le Coq"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/1.oe.64.6.067101",
+   "title": "Femtosecond laser direct writing of low-loss silver surface plasmon waveguides",
+   "year": 2025,
+   "venue": "Optical Engineering",
+   "authors": [
+    "Jinwen Xu",
+    "Chen Li",
+    "Houyan Li"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.19.023958",
+   "title": "[REMOVED MACROBUTTON FIELD]Low-loss channel optical waveguide fabrication in Nd^3+-doped silicate glasses by femtosecond laser direct writing",
+   "year": 2011,
+   "venue": "Optics Express",
+   "authors": [
+    "Shi-Ling Li",
+    "Peigao Han",
+    "Meng Shi",
+    "Yicun Yao",
+    "Bing Hu",
+    "Mingwei Wang",
+    "Xiaonong Zhu"
+   ],
+   "type": "journal-article",
+   "cited": 16
+  },
+  {
+   "doi": "10.1002/adpr.70241",
+   "title": "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique",
+   "year": 2026,
+   "venue": "Advanced Photonics Research",
+   "authors": [
+    "Fengrui Yu",
+    "Lin Ma",
+    "Mingjing Xu",
+    "Xiaoke Chen",
+    "Jinhua Wu",
+    "Zuyuan He"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/nlo.2013.nf2a.3",
+   "title": "Waveguide Embedded Bragg Gratings in Nonlinear Optical Lithium Niobate by Direct Femtosecond Laser Writing",
+   "year": 2013,
+   "venue": "Nonlinear Optics",
+   "authors": [
+    "S. Kroesen",
+    "W. Horn",
+    "J. Imbrock",
+    "C. Denz"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.optmat.2022.113314",
+   "title": "Transparent Ho,Yb:YAG crystal waveguide inscribed by direct femtosecond laser writing",
+   "year": 2023,
+   "venue": "Optical Materials",
+   "authors": [
+    "Chuan-Lei Jia",
+    "Wei-Jia Tang",
+    "Ke Liu",
+    "Yang Liao"
+   ],
+   "type": "journal-article",
+   "cited": 10
+  },
+  {
+   "doi": "10.1007/s00339-007-4030-9",
+   "title": "Optical waveguide fabrication and integration with a micro-mirror inside photosensitive glass by femtosecond laser direct writing",
+   "year": 2007,
+   "venue": "Applied Physics A",
+   "authors": [
+    "Z. Wang",
+    "K. Sugioka",
+    "Y. Hanada",
+    "K. Midorikawa"
+   ],
+   "type": "journal-article",
+   "cited": 35
+  },
+  {
+   "doi": "10.1364/ome.9.004447",
+   "title": "Femtosecond laser direct writing of evanescently-coupled planar waveguide laser arrays",
+   "year": 2019,
+   "venue": "Optical Materials Express",
+   "authors": [
+    "Hongliang Liu",
+    "Yicun Yao",
+    "Pengfei Wu",
+    "Yuechen Jia"
+   ],
+   "type": "journal-article",
+   "cited": 10
+  },
+  {
+   "doi": "10.1007/s00339-005-3324-z",
+   "title": "Femtosecond laser direct writing of embedded optical waveguides in aluminosilicate glass",
+   "year": 2005,
+   "venue": "Applied Physics A",
+   "authors": [
+    "D.K.Y. Low",
+    "H. Xie",
+    "Z. Xiong",
+    "G.C. Lim"
+   ],
+   "type": "journal-article",
+   "cited": 20
+  },
+  {
+   "doi": "10.1364/oe.16.016215",
+   "title": "Low loss photonic components in high index bismuth borate glass by femtosecond laser direct writing",
+   "year": 2008,
+   "venue": "Optics Express",
+   "authors": [
+    "Weijia Yang",
+    "Costantino Corbari",
+    "Peter G. Kazansky",
+    "Koichi Sakaguchi",
+    "Isabel C. Carvalho"
+   ],
+   "type": "journal-article",
+   "cited": 44
+  }
+ ],
+ "three-dimensional photonic integrated circuits femtosecond laser direct writing": [
+  {
+   "doi": "10.1117/12.2286799",
+   "title": "Photoinduced functional materials by femtosecond laser direct writing",
+   "year": 2018,
+   "venue": "Smart Photonic and Optoelectronic Integrated Circuits XX",
+   "authors": [
+    "Yasuhiko Shimotsuma",
+    "Masaaki Sakakura",
+    "Kiyotaka Miura",
+    "Masahiro Shimizu",
+    "Yuta Nakanishi"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1051/photon/202412539",
+   "title": "Photonic integrated circuits through femtosecond laser waveguide writing in glass",
+   "year": 2024,
+   "venue": "Photoniques",
+   "authors": [
+    "Francesco Ceccarelli",
+    "Roberto Osellame"
+   ],
+   "type": "journal-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1117/1.ap.7.3.034002",
+   "title": "Recent advances in femtosecond laser direct writing of three-dimensional periodic photonic structures in transparent materials",
+   "year": 2025,
+   "venue": "Advanced Photonics",
+   "authors": [
+    "Bin Zhang",
+    "Wenchao Yan",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 68
+  },
+  {
+   "doi": "10.3390/photonics13080731",
+   "title": "Reconfigurable Photonic Integrated Circuits in Glass by Femtosecond Laser Writing and Laser-Induced Chemical Etching",
+   "year": 2026,
+   "venue": "Photonics",
+   "authors": [
+    "Philip Lichtenegger",
+    "Philipp Hurdax",
+    "Georg Spernbauer",
+    "Bernhard Lamprecht"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.688426",
+   "title": "Femtosecond laser writing of three-dimensional photonic crystals in polymer",
+   "year": 2006,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Min Gu",
+    "Guangyong Zhou"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.3027353",
+   "title": "Direct laser writing of volumetric photonic integrated circuits (VPICs) for optical and quantum computing",
+   "year": 2024,
+   "venue": "Active Photonic Platforms (APP) 2024",
+   "authors": [
+    "Paul V. Braun"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1063/1.2037862",
+   "title": "Optical tuning of three-dimensional photonic crystals fabricated by femtosecond direct writing",
+   "year": 2005,
+   "venue": "Applied Physics Letters",
+   "authors": [
+    "Dennis McPhail",
+    "Martin Straub",
+    "Min Gu"
+   ],
+   "type": "journal-article",
+   "cited": 30
+  },
+  {
+   "doi": "10.1021/acsnano.0c02481.s002",
+   "title": "Direct Laser Writing of Four-Dimensional Structural Color Microactuators Using a Photonic Photoresist",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1021/acsnano.0c02481.s001",
+   "title": "Direct Laser Writing of Four-Dimensional Structural Color Microactuators Using a Photonic Photoresist",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.2511226",
+   "title": "Direct laser writing of smart polymer photonic devices for ultrasound detection",
+   "year": 2019,
+   "venue": "Smart Photonic and Optoelectronic Integrated Circuits XXI",
+   "authors": [
+    "Heming Wei",
+    "Abhishek Amrithanath",
+    "Sridhar Krishnaswamy"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1021/acs.nanolett.0c02997.s006",
+   "title": "Three-Dimensional Multifunctional Magnetically Responsive Liquid Manipulator Fabricated by Femtosecond Laser Writing and Soft Transfer",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1021/acs.nanolett.0c02997.s010",
+   "title": "Three-Dimensional Multifunctional Magnetically Responsive Liquid Manipulator Fabricated by Femtosecond Laser Writing and Soft Transfer",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  }
+ ],
+ "glass waveguide optical shuffle high density interconnect": [
+  {
+   "doi": "10.1364/aoe.2008.sul3",
+   "title": "High-Density Optical Interconnect Based on Precisely Fabricated Mirror Attached Waveguide",
+   "year": 2008,
+   "venue": "Asia Optical Fiber Communication and Optoelectronic Exposition and Conference",
+   "authors": [
+    "Hidetoshi Numata",
+    "Shigeru Nakagawa",
+    "Yoichi Taira"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/oecc48412.2020.9273659",
+   "title": "Automatic high-density polymer waveguide layout for on-board high-speed optical interconnect",
+   "year": 2020,
+   "venue": "2020 Opto-Electronics and Communications Conference (OECC)",
+   "authors": [
+    "Zhijie Huang",
+    "Lin Ma",
+    "Wanjing Kuang",
+    "Ying Shi",
+    "Zuyuan He"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/cleo.2009.jwa40",
+   "title": "High-Density Optical Interconnect Based on TIR and Metal Coated Precise Mirror Attached Waveguide",
+   "year": 2009,
+   "venue": "Conference on Lasers and Electro-Optics/International Quantum Electronics Conference",
+   "authors": [
+    "Hidetoshi Numata",
+    "Shigeru Nakagawa",
+    "Yoichi Taira"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/ectc.2008.4549979",
+   "title": "High-density optical interconnect exploiting build-up waveguide-on-SLC board",
+   "year": 2008,
+   "venue": "2008 58th Electronic Components and Technology Conference",
+   "authors": [
+    "Shigeru Nakagawa",
+    "Yoichi Taira",
+    "Hidetoshi Numata",
+    "Kaoru Kobayashi",
+    "Kenji Terada",
+    "Yutaka Tsukada"
+   ],
+   "type": "proceedings-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1364/ofc.2017.w1b.6",
+   "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+   "year": 2017,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Kevin P.Chen",
+    "Ming-Jun Li"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/icsj.2017.8240110",
+   "title": "Single-mode polymer waveguide with circular core operating at 1550 nm for high-density and highspeed optical interconnect applications",
+   "year": 2017,
+   "venue": "2017 IEEE CPMT Symposium Japan (ICSJ)",
+   "authors": [
+    "Xiao Xu",
+    "Lin Ma",
+    "Zuyuan He"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1007/springerreference_15764",
+   "title": "high-density interconnect system",
+   "year": null,
+   "venue": "SpringerReference",
+   "authors": [],
+   "type": "reference-entry",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ipr.2003.jwc4",
+   "title": "Microresonator fabrication and integration for high density chip to chip optical interconnect",
+   "year": 2003,
+   "venue": "Integrated Photonics Research",
+   "authors": [
+    "R. Kubacki"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1109/icsj.2015.7357385",
+   "title": "High-density multi-lane connectivity for optical interconnect",
+   "year": 2015,
+   "venue": "2015 IEEE CPMT Symposium Japan (ICSJ)",
+   "authors": [
+    "Mitsuhiro Iwaya"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.4071/001c.165803",
+   "title": "High Density Interconnect for a High Pin Count Optical IC",
+   "year": 2026,
+   "venue": "IMAPSource Proceedings",
+   "authors": [
+    "Gerard Kums",
+    "Nienke Bruinsma",
+    "Jan Bex"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/0026-2714(91)90171-3",
+   "title": "Low temperature co-fired glass ceramic high density interconnect substrate with improved thermal management",
+   "year": 1991,
+   "venue": "Microelectronics Reliability",
+   "authors": [],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.2172/1569232",
+   "title": "High Density Chip Interconnect Technology Using High Density Glass Interposers",
+   "year": 2019,
+   "venue": "",
+   "authors": [
+    "",
+    "Farah Fahim",
+    "",
+    ""
+   ],
+   "type": "report",
+   "cited": 0
+  }
+ ],
+ "femtosecond laser waveguide bending loss glass": [
+  {
+   "doi": "10.1016/j.ijleo.2021.168308",
+   "title": "Laser action from a femtosecond laser written Yb: phosphate glass waveguide",
+   "year": 2022,
+   "venue": "Optik",
+   "authors": [
+    "Xuewen Long",
+    "Jing Bai"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.3788/col202321.112201",
+   "title": "Femtosecond laser writing of low-loss three-dimensional waveguide coupler in LiNbO3 crystal",
+   "year": 2023,
+   "venue": "Chinese Optics Letters",
+   "authors": [
+    "Jinman Lü",
+    "Ge Li",
+    "Yujie Ma",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.2139/ssrn.4670013",
+   "title": "Strong Line-by-Line Waveguide Bragg Gratings Inscribed in Bulk Glass Using Femtosecond Laser",
+   "year": 2023,
+   "venue": "",
+   "authors": [
+    "Jiaming Wu",
+    "Rong Zhao",
+    "Xuewen Shu"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1002/adpr.70241",
+   "title": "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique",
+   "year": 2026,
+   "venue": "Advanced Photonics Research",
+   "authors": [
+    "Fengrui Yu",
+    "Lin Ma",
+    "Mingjing Xu",
+    "Xiaoke Chen",
+    "Jinhua Wu",
+    "Zuyuan He"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/cleo_at.2024.jtu2a.178",
+   "title": "Broadband Filters Based on Tilted Waveguide Bragg Gratings Written in Bulk Glass by Femtosecond Laser",
+   "year": 2024,
+   "venue": "CLEO 2024",
+   "authors": [
+    "Jiaming Wu",
+    "Xuewen Shu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.3788/col201311.102301",
+   "title": "Buried waveguide in neodymium-doped phosphate glass obtained by femtosecond laser writing using a double line approach",
+   "year": 2013,
+   "venue": "Chinese Optics Letters",
+   "authors": [
+    "Xuewen Long",
+    "Jing Bai",
+    "Xin Liu",
+    "Wei Zhao",
+    "Guanghua Cheng"
+   ],
+   "type": "journal-article",
+   "cited": 11
+  },
+  {
+   "doi": "10.1051/photon/202412539",
+   "title": "Photonic integrated circuits through femtosecond laser waveguide writing in glass",
+   "year": 2024,
+   "venue": "Photoniques",
+   "authors": [
+    "Francesco Ceccarelli",
+    "Roberto Osellame"
+   ],
+   "type": "journal-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/cleo_at.2023.jtu2a.13",
+   "title": "Line-by-Line Inscription of Waveguide Bragg Gratings in Bulk Glass Using Femtosecond Laser",
+   "year": 2023,
+   "venue": "CLEO 2023",
+   "authors": [
+    "Jiaming Wu",
+    "Rong Zhao",
+    "Xuewen Shu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.optlastec.2024.111461",
+   "title": "Strong line-by-line waveguide Bragg gratings inscribed in bulk glass using femtosecond laser",
+   "year": 2025,
+   "venue": "Optics &amp; Laser Technology",
+   "authors": [
+    "Jiaming Wu",
+    "Rong Zhao",
+    "Xuewen Shu"
+   ],
+   "type": "journal-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1364/assl.2018.atu2a.2",
+   "title": "Ni2+:KZnF3 Glass-Ceramics Waveguide Beam Splitters Inscribed by Femtosecond Laser",
+   "year": 2018,
+   "venue": "Laser Congress 2018 (ASSL)",
+   "authors": [
+    "Jiabei Tang",
+    "Quan Hu",
+    "Junli Wang",
+    "Changgui Lin",
+    "Shixun Dai",
+    "Jiangfeng Zhu",
+    "Zhiyi Wei"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ol.40.001266",
+   "title": "Femtosecond laser writing of Bragg grating waveguide bundles in bulk glass",
+   "year": 2015,
+   "venue": "Optics Letters",
+   "authors": [
+    "Markus Thiel",
+    "Günter Flachenecker",
+    "Wolfgang Schade"
+   ],
+   "type": "journal-article",
+   "cited": 31
+  },
+  {
+   "doi": "10.32657/10356/143450",
+   "title": "Femtosecond laser power absorption of glass",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "",
+    "Arun Satyal"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  }
+ ],
+ "ion exchange glass waveguide optical interconnect": [
+  {
+   "doi": "10.1117/12.179752",
+   "title": "Ion-exchange process for glass waveguide fabrication",
+   "year": 1994,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Giancarlo C. Righini"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1364/ofc.1988.pd4",
+   "title": "Purely-thermal ion exchange technique for single-mode waveguide devices in glass",
+   "year": 1988,
+   "venue": "Optical Fiber Communication",
+   "authors": [
+    "M. Seki",
+    "R. Sugawara",
+    "H. Hashizume",
+    "E. Okuda"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/giois.1994.gtuc1",
+   "title": "Status of Optical Waveguide Devices by Ion Exchange",
+   "year": 1994,
+   "venue": "Gradient Index Optical Systems",
+   "authors": [
+    "N. Fabricius"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oam.1990.mz5",
+   "title": "Glass waveguide directional couplers fabricated by a two-step purely thermal ion-exchange technique",
+   "year": 1990,
+   "venue": "Optical Society of America Annual Meeting",
+   "authors": [
+    "H. Hashizume",
+    "S. Kobayashi",
+    "S. Sato",
+    "M. Seki"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ofc.2017.w1b.6",
+   "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+   "year": 2017,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Kevin P.Chen",
+    "Ming-Jun Li"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.952939",
+   "title": "Optical Multimode Stripe Waveguides And Waveguide Structures By Ion Exchange In Glass",
+   "year": 1990,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "R. Muller",
+    "T. Possner",
+    "G. Schreiter"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.943465",
+   "title": "Ion-Exchange Processes In Glass For Fabrication Of Waveguide Couplers",
+   "year": 1988,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "A. Tervonen",
+    "S. Honkanen",
+    "M. Leppihalme"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/jqe.1981.1071127",
+   "title": "Analysis of planar optical waveguide fabrication by ion exchange in glass",
+   "year": 1981,
+   "venue": "IEEE Journal of Quantum Electronics",
+   "authors": [
+    "G. Griffiths",
+    "P. Khan"
+   ],
+   "type": "journal-article",
+   "cited": 14
+  },
+  {
+   "doi": "10.1364/oam.1990.mz4",
+   "title": "Investigation of the diffusion processes during the waveguide fabrication by ion exchange in glass",
+   "year": 1990,
+   "venue": "Optical Society of America Annual Meeting",
+   "authors": [
+    "K. H. Giebler",
+    "F. Rauch",
+    "W. Wagner",
+    "C. Singer",
+    "N. Fabricius"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.179768",
+   "title": "Ion-exchanged glass waveguide devices for optical communications",
+   "year": 1994,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Seppo Honkanen"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1109/ecoc.2014.6964253",
+   "title": "Low-loss telecom wavelength board-level optical interconnects in thin glass panels by ion-exchange waveguide technology",
+   "year": 2014,
+   "venue": "2014 The European Conference on Optical Communication (ECOC)",
+   "authors": [
+    "Lars Brusberg",
+    "Christian Herbst",
+    "Marcel Neitz",
+    "Henning Schroder",
+    "Klaus-Dieter Lang"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.15372/aut20190107",
+   "title": "POLARIZATION TRANSFORMATION BY CONVERSION OF TM0-TE1 MODES IN AN ION-EXCHANGE GLASS WAVEGUIDE",
+   "year": 2019,
+   "venue": "Автометрия",
+   "authors": [],
+   "type": "journal-article",
+   "cited": 0
+  }
+ ],
+ "photonic design automation silicon photonics circuit design": [
+  {
+   "doi": "10.1017/cbo9781316084168.010",
+   "title": "Photonic circuit modelling",
+   "year": 2015,
+   "venue": "Silicon Photonics Design",
+   "authors": [],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1017/cbo9781316084168.014",
+   "title": "Silicon photonic system example",
+   "year": 2015,
+   "venue": "Silicon Photonics Design",
+   "authors": [],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.70675/dd4165a1zf7f6z4627za853z7f60d3a98e43",
+   "title": "Design of a silicon photonics circuit for quantum cryptography applications",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Gaspare Esposito"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.1145/3658617.3703151",
+   "title": "Invited paper: Bridging EDA and Silicon Photonics Design: Enabling Robust-by-Design Photonic Integrated Circuits",
+   "year": 2025,
+   "venue": "Proceedings of the 30th Asia and South Pacific Design Automation Conference",
+   "authors": [
+    "Zahra Ghanaatian",
+    "Asif Mirza",
+    "Amin Shafiee",
+    "Sudeep Pasricha",
+    "Mahdi Nikdast"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1364/odp.1993.wc.2",
+   "title": "Photonic Subsystem Design Based on Hybrid Optoelectronic Integration on Silicon Substrates",
+   "year": 1993,
+   "venue": "Optical Design for Photonics",
+   "authors": [
+    "Craig A. Armiento"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/oic.2013.6552918",
+   "title": "Circuit design implications for silicon photonics",
+   "year": 2013,
+   "venue": "2013 Optical Interconnects Conference",
+   "authors": [
+    "Ron Ho"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.3066457",
+   "title": "Accessible design enablement solutions for 300mm silicon photonics process technologies from AIM Photonics",
+   "year": 2025,
+   "venue": "Optical Design Automation",
+   "authors": [
+    "David L. Harame"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/iprsn.2024.im1b.2",
+   "title": "Programmability and AI-Assisted Design of Silicon Photonic Circuits",
+   "year": 2024,
+   "venue": "Advanced Photonics Congress 2024",
+   "authors": [
+    "Joyce Poon"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1002/lpor.70359",
+   "title": "Correction to “Silicon Photonics Circuit Design: Methods, Tools and Challenges”",
+   "year": 2025,
+   "venue": "Laser &amp; Photonics Reviews",
+   "authors": [],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/acpc.2016.ath2g.3",
+   "title": "Silicon Photonics as a Post-Moore Photonic Circuit Technology",
+   "year": 2016,
+   "venue": "Asia Communications and Photonics Conference 2016",
+   "authors": [
+    "Koji Yamada"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.2283956",
+   "title": "Photonic integrated circuit design",
+   "year": 2017,
+   "venue": "Opto-Canada: SPIE Regional Meeting on Optoelectronics, Photonics, and Imaging",
+   "authors": [
+    "A. Torabian"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.5772/intechopen.68272",
+   "title": "Modeling of Silicon Photonic Devices for Optical Interconnect Transceiver Circuit Design",
+   "year": 2017,
+   "venue": "Optoelectronics - Advanced Device Structures",
+   "authors": [
+    "Binhao Wang"
+   ],
+   "type": "book-chapter",
+   "cited": 5
+  }
+ ],
+ "automated routing optical waveguide photonic integrated circuit": [
+  {
+   "doi": "10.21203/rs.3.rs-1652266/v1",
+   "title": "Optimizing Bend-Loss in Optical Waveguide Channel Routing on Photonic Integrated Circuits",
+   "year": 2022,
+   "venue": "",
+   "authors": [
+    "Sumit Sharma",
+    "Sudip Roy"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1021/acsphotonics.6c00422.s001",
+   "title": "Photonic Waveguide Circuit Integrated with Carbon Nanotube Single-Photon Source Operating at Room Temperature",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1145/3698364.3705355",
+   "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+   "year": 2025,
+   "venue": "Proceedings of the 2025 International Symposium on Physical Design",
+   "authors": [
+    "Hongjian Zhou",
+    "Keren Zhu",
+    "Jiaqi Gu"
+   ],
+   "type": "proceedings-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1007/s10825-022-01989-4",
+   "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+   "year": 2022,
+   "venue": "Journal of Computational Electronics",
+   "authors": [
+    "Sumit Sharma",
+    "Sudip Roy"
+   ],
+   "type": "journal-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1117/12.3007419",
+   "title": "A graph-based global routing method for single photonic integrated circuit waveguide connection",
+   "year": 2023,
+   "venue": "AOPC 2023: AI in Optics and Photonics",
+   "authors": [
+    "Xiaojuan Yang",
+    "Guowei Cao",
+    "Jiyao Yu",
+    "Yu Li"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.32657/10356/154812",
+   "title": "Photonic integrated circuit for quantum and optical computing",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "",
+    "Hui Zhang"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ipr.2000.ifa2",
+   "title": "Photonic Bandgap Optical Waveguide Filters",
+   "year": 2000,
+   "venue": "Integrated Photonics Research",
+   "authors": [
+    "Richard W. Ziolkowski"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/ecoc.2008.4729404",
+   "title": "Photonic integrated circuit switch matrix and waveguide delay lines for optical packet synchronization",
+   "year": 2008,
+   "venue": "2008 34th European Conference on Optical Communication",
+   "authors": [
+    "J.P. Mack",
+    "E.F. Burmeister",
+    "H.N. Poulsen",
+    "B. Stamenic",
+    "J.E. Bowers",
+    "D.J. Blumenthal"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1364/opticaopen.22082426.v1",
+   "title": "Optical realization of Rabi splitting in photonic integrated waveguide-coupled resonators",
+   "year": 2023,
+   "venue": "",
+   "authors": [
+    "David Moss"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/opticaopen.22082426",
+   "title": "Optical realization of Rabi splitting in photonic integrated waveguide-coupled resonators",
+   "year": 2023,
+   "venue": "",
+   "authors": [
+    "David Moss"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/1.oe.57.12.127102",
+   "title": "Wide subwavelength grating waveguide photonic integrated circuit sensor system",
+   "year": 2018,
+   "venue": "Optical Engineering",
+   "authors": [
+    "Justin R. Bickford",
+    "Pak S. Cho",
+    "Mikella E. Farrell"
+   ],
+   "type": "journal-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.36227/techrxiv.22120529.v1",
+   "title": "Optical embodiments of Rabi splitting based in photonic integrated waveguide-coupled resonators",
+   "year": 2023,
+   "venue": "",
+   "authors": [
+    "David Moss"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  }
+ ],
+ "multicore fiber fan-in fan-out femtosecond laser": [
+  {
+   "doi": "10.1109/icocn55511.2022.9901157",
+   "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+   "year": 2022,
+   "venue": "2022 20th International Conference on Optical Communications and Networks (ICOCN)",
+   "authors": [
+    "Zixiang Dai",
+    "Junjie Xiong",
+    "Lin Ma",
+    "Zuyuan He"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1021/acsphotonics.5c00617.s001",
+   "title": "Ultracompact and Low Crosstalk Multicore Fiber Fan-in/out Device Fabricated via 3D Nanoprinting",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.optlastec.2024.111476",
+   "title": "Miniature accelerometer based on rectangular multicore polymer optical fiber and fs-laser inscribed fiber fan-out device",
+   "year": 2025,
+   "venue": "Optics &amp; Laser Technology",
+   "authors": [
+    "Jitendra Narayan Dash",
+    "Jingxian Cui",
+    "Xin Cheng",
+    "Hwa-Yaw Tam"
+   ],
+   "type": "journal-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1364/ofc.2025.m4j.5",
+   "title": "Low-loss Fan-in/Fan-out Device for Coupled four-core Fiber Using a Femtosecond Laser Direct Inscription Technique",
+   "year": 2025,
+   "venue": "Optical Fiber Communication Conference (OFC) 2025",
+   "authors": [
+    "Fengrui Yu",
+    "Lin Ma",
+    "Junjie Xiong",
+    "Linbin Bai",
+    "Mingjing Xu",
+    "Zuyuan He"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/oecc.2012.6276571",
+   "title": "Laser-inscribed multicore fan-out devices",
+   "year": 2012,
+   "venue": "2012 17th Opto-Electronics and Communications Conference",
+   "authors": [
+    "Ajoy Kumar Kar"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/cleo_at.2022.ath1c.6",
+   "title": "Femtosecond laser inscribed photonic lantern for the fan-in/ fan-out of a 19-core fiber",
+   "year": 2022,
+   "venue": "Conference on Lasers and Electro-Optics",
+   "authors": [
+    "Yize Liang",
+    "Chengkun Cai",
+    "Kangrui Wang",
+    "Xiaokang Lian",
+    "Jue Wang",
+    "Jinfeng Liu",
+    "Jian Wang"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1117/12.2614365",
+   "title": "Single-mode polymer waveguide for fan-in/fan-out of multicore fiber by the mosquito method",
+   "year": 2022,
+   "venue": "Optical Interconnects XXII",
+   "authors": [
+    "Sho Yakabe",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/oecc.2012.6276529",
+   "title": "Development of fiber bundle type fan-out for multicore fiber",
+   "year": 2012,
+   "venue": "2012 17th Opto-Electronics and Communications Conference",
+   "authors": [
+    "Kengo Watanabe",
+    "Tsunetoshi Saito",
+    "Katsunori Imamura",
+    "Masato Shiino"
+   ],
+   "type": "proceedings-article",
+   "cited": 35
+  },
+  {
+   "doi": "10.1364/ofc.2018.w1a.7",
+   "title": "Multicore-Fiber LC Receptacle with Compact Fan-in/Fan-out for Short-Reach Transceivers",
+   "year": 2018,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Kota Shikama",
+    "Yoshiteru Abe",
+    "Toshiki Kishi",
+    "Koji Takeda",
+    "Takuro Fujii",
+    "Hidetaka Nishi",
+    "Takashi Matsui",
+    "Atsushi Aratake"
+   ],
+   "type": "proceedings-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.1109/oecc.2015.7340323",
+   "title": "Compact fan-out for 19-core multicore fiber, with high manufacturability and good optical properties",
+   "year": 2015,
+   "venue": "2015 Opto-Electronics and Communications Conference (OECC)",
+   "authors": [
+    "Kengo Watanabe",
+    "Tsunetoshi Saito"
+   ],
+   "type": "proceedings-article",
+   "cited": 15
+  },
+  {
+   "doi": "10.1364/oe.23.001585",
+   "title": "Fan-in/out polymer optical waveguide for a multicore fiber fabricated using the Mosquito method",
+   "year": 2015,
+   "venue": "Optics Express",
+   "authors": [
+    "Daisuke Suganuma",
+    "Takaaki Ishigure"
+   ],
+   "type": "journal-article",
+   "cited": 29
+  },
+  {
+   "doi": "10.1117/12.3023698",
+   "title": "Vector displacement sensor based on femtosecond laser direct writing gratings and waveguides in a seven-core fiber",
+   "year": 2024,
+   "venue": "Advanced Fiber Laser Conference (AFL2023)",
+   "authors": [
+    "Yu Fan",
+    "Weijia Bao",
+    "Changrui Liao",
+    "Yiping Wang"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ]
+}

@@ -1,0 +1,622 @@
+{
+ "10.1177/0278364911406761": {
+  "title": "Sampling-based algorithms for optimal motion planning",
+  "year": 2011,
+  "venue": "The International Journal of Robotics Research",
+  "authors": [
+   "Sertaç Karaman",
+   "Emilio Frazzoli"
+  ],
+  "abstract": "During the last decade, sampling-based path planning algorithms, such as probabilistic roadmaps (PRM) and rapidly exploring random trees (RRT), have been shown to work well in practice and possess theoretical guarantees such as probabilistic completeness. However, little effort has been devoted to the formal analysis of the quality of the solution returned by such algorithms, e.g. as a function of the number of samples. The purpose of this paper is to fill this gap, by rigorously analyzing the asymptotic behavior of the cost of the solution returned by stochastic sampling-based algorithms as the number of samples increases. A number of negative results are provided, characterizing existing algorithms, e.g. showing that, under mild technical conditions, the cost of the solution returned by broadly used sampling-based algorithms converges almost surely to a non-optimal value. The main contribution of the paper is the introduction of new algorithms, namely, PRM* and RRT* , which are provably asymptotically optimal, i.e. such that the cost of the returned solution converges almost surely to the optimum. Moreover, it is shown that the computational complexity of the new algorithms is within a constant factor of that of their probabilistically complete (but not asymptotically optimal) counterparts. The analysis in this paper hinges on novel connections between stochastic sampling-based path planning algorithms and the theory of random geometric graphs.",
+  "cited": 5314,
+  "type": "article",
+  "oa_url": "https://arxiv.org/pdf/1105.1186",
+  "oa_status": "green"
+ },
+ "10.1007/978-1-4613-2813-1": {
+  "title": "Optical Waveguide Theory",
+  "year": 1984,
+  "venue": "Springer eBooks",
+  "authors": [
+   "Allan W. Snyder",
+   "John D. Love"
+  ],
+  "abstract": null,
+  "cited": 3773,
+  "type": "book",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/jqe.1973.1077767": {
+  "title": "Coupled-mode theory for guided-wave optics",
+  "year": 1973,
+  "venue": "IEEE Journal of Quantum Electronics",
+  "authors": [
+   "Avigail Yariv"
+  ],
+  "abstract": "The problem of propagation and interaction of optical radiation in dielectric waveguides is cast in the coupled-mode formalism. This approach is useful for treating problems involving energy exchange between modes. A derivation of the general theory is followed by application to the specific cases of electrooptic modulation, photoelastic and magnetooptic modulation, and optical filtering. Also treated are nonlinear optical applications such as second-harmonic generation in thin films and phase matching.",
+  "cited": 2004,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1002/j.1538-7305.1969.tb01166.x": {
+  "title": "Dielectric Rectangular Waveguide and Directional Coupler for Integrated Optics",
+  "year": 1969,
+  "venue": "Bell System Technical Journal",
+  "authors": [
+   "ENRIQUE A.J. MARCATILI"
+  ],
+  "abstract": "We study the transmission properties of a guide consisting of a dielectric rod with rectangular cross section, surrounded by several dielectrics of smaller refractive indices. This guide is suitable for integrated optical circuitry because of its size, single-mode operation, mechanical stability, simplicity, and precise construction. After making some simplifying assumptions, we solve Maxwell's equations in closed form and find, that, because of total internal reflection, the guide supports two types of hybrid modes which are essentially of the TEM kind polarized at right angles. Their attenuations are comparable to that of a plane wave traveling in the material of which the rod is made. If the refractive indexes are chosen properly, the guide can support only the fundamental modes of each family with any aspect ratio of the guide cross section. By adding thin lossy layers, the guide presents higher loss to one of those modes. As an alternative, the guide can be made to support only one of the modes if part of the surrounding dielectrics is made a low impedance medium. Finally, we determine the coupling between parallel guiding rods of slightly different sizes and dielectrics; at wavelengths around one micron, 3-dB directional couplers, a few hundred microns long, can be achieved with separations of the guides about the same as their widths (a few microns).",
+  "cited": 1579,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1038/lsa.2014.30": {
+  "title": "Ultrafast lasers—reliable tools for advanced materials processing",
+  "year": 2014,
+  "venue": "Light Science & Applications",
+  "authors": [
+   "Koji Sugioka",
+   "Ya Cheng"
+  ],
+  "abstract": "The unique characteristics of ultrafast lasers, such as picosecond and femtosecond lasers, have opened up new avenues in materials processing that employ ultrashort pulse widths and extremely high peak intensities. Thus, ultrafast lasers are currently used widely for both fundamental research and practical applications. This review describes the characteristics of ultrafast laser processing and the recent advancements and applications of both surface and volume processing. Surface processing includes micromachining, micro- and nanostructuring, and nanoablation, while volume processing includes two-photon polymerization and three-dimensional (3D) processing within transparent materials. Commercial and industrial applications of ultrafast laser processing are also introduced, and a summary of the technology with future outlooks are also given. Scientists in Asia have reviewed the role of ultrafast lasers in materials processing. Koji Sugioka from RIKEN in Japan and Ya Cheng from the Shanghai Institute of Optics and Fine Mechanics in China describe how femtosecond and picosecond lasers can be used to perform useful tasks in both surface and volume processing. Such lasers can cut, drill and ablate a variety of materials with high precision, including metals, semiconductors, ceramics and glasses. They can also polymerize organic materials that contain a suitable photosensitizer and can three-dimensionally process inside transparent materials such as glass, and are already being used to fabricate medical stents, repair photomasks, drill ink-jet nozzles and pattern solar cells. The researchers also explain the characteristics of such lasers and the interaction of ultrashort, intense pulses of light with matter.",
+  "cited": 1542,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/lsa201430.pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/5.104225": {
+  "title": "Coupled-mode theory",
+  "year": 1991,
+  "venue": "Proceedings of the IEEE",
+  "authors": [
+   "H. A. Haus",
+   "Wei‐Ping Huang"
+  ],
+  "abstract": "The authors give a brief historic perspective of the coupled mode theory. The development and applications of the theory in microwaves in early years and in optoelectronics and fiber optics in recent years are described. They then consider lossless coupling of two modes in time. Two coupled resonance circuits, or two coupled microwave or optical resonators, are the physical examples. The start-up of a parametric oscillator is another example. Then they look at the formal derivation of coupled mode theory and consider the more general case when the modes are not energy-orthogonal and the energies are not necessarily positive. A more detailed account of the nonorthogonal coupled mode theory developed in the last five years for optical waveguides is given.>",
+  "cited": 1007,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1002/9780470918524": {
+  "title": "Fiber‐Optic Communication Systems",
+  "year": 2010,
+  "venue": "Wiley eBooks",
+  "authors": [
+   "Govind Prasad Agrawal"
+  ],
+  "abstract": "This book provides a comprehensive account of fiber-optic communication systems. The 3rd edition of this book is used worldwide as a textbook in many universities. This 4th edition incorporates recent advances that have occurred, in particular two new chapters. One deals with the advanced modulation formats (such as DPSK, QPSK, and QAM) that are increasingly being used for improving spectral efficiency of WDM lightwave systems. The second chapter focuses on new techniques such as all-optical regeneration that are under development and likely to be used in future communication systems. All other chapters are updated, as well.",
+  "cited": 944,
+  "type": "book",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1103/physrevlett.80.4076": {
+  "title": "Femtosecond Optical Breakdown in Dielectrics",
+  "year": 1998,
+  "venue": "Physical Review Letters",
+  "authors": [
+   "M. Lenzner",
+   "Jörg Krüger",
+   "S. Sartania",
+   "Zixing Cheng",
+   "Christian Spielmann",
+   "Gerard A. Mourou",
+   "Wolfgang Kautek",
+   "Ferenc Krausz"
+  ],
+  "abstract": "We report measurements of the optical breakdown threshold and ablation depth in dielectrics with different band gaps for laser pulse durations ranging from 5 ps to 5 fs at a carrier wavelength of 780 nm. For $\\ensuremath{\\tau}<100\\mathrm{fs}$, the dominant channel for free electron generation is found to be either impact or multiphoton ionization (MPI) depending on the size of the band gap. The observed MPI rates are substantially lower than those predicted by the Keldysh theory. We demonstrate that sub-10-fs laser pulses open up the way to reversible nonperturbative nonlinear optics (at intensities greater than ${10}^{14}\\mathrm{W}/{\\mathrm{cm}}^{2}$ slightly below damage threshold) and to nanometer-precision laser ablation (slightly above threshold) in dielectric materials.",
+  "cited": 908,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/opex.13.004708": {
+  "title": "Heat accumulation effects in femtosecond laser-written waveguides with variable repetition rate",
+  "year": 2005,
+  "venue": "Optics Express",
+  "authors": [
+   "Shane Michael Eaton",
+   "Haibin Zhang",
+   "Peter Robert Herman",
+   "Fumiyo Yoshino",
+   "Lawrence Shah",
+   "James M. Bovatsek",
+   "Alan Y. Arai"
+  ],
+  "abstract": "High-repetition rate femtosecond lasers are shown to drive heat accumulation processes that are attractive for rapid writing of low-loss optical waveguides in transparent glasses. A novel femtosecond fiber laser system (IMRA America, FCPA muJewel) providing variable repetition rate between 0.1 and 5 MHz was used to study the relationship between heat accumulation and resulting waveguide properties in fused silica and various borosilicate glasses. Increasing repetition rate was seen to increase the waveguide diameter and decrease the waveguide loss, with waveguides written with 1-MHz repetition rate yielding ~0.2-dB/cm propagation loss in Schott AF45 glass. A finite-difference thermal diffusion model accurately tracks the waveguide diameter as cumulative heating expands the modification zone above 200-kHz repetition rate.",
+  "cited": 820,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/opex.13.004708",
+  "oa_status": "gold"
+ },
+ "10.1364/josaa.11.000963": {
+  "title": "Coupled-mode theory for optical waveguides: an overview",
+  "year": 1994,
+  "venue": "Journal of the Optical Society of America A",
+  "authors": [
+   "Wei‐Ping Huang"
+  ],
+  "abstract": "The coupled-mode theory (CMT) for optical waveguides is reviewed, with emphasis on the analysis of coupled optical waveguides. A brief account of the recent development of the CMT for coupled optical waveguides is given. Issues raised in the debates of the 1980’s on the merits and shortcomings of the conventional as well as the improved coupled-mode formulations are discussed. The conventional coupled-mode formulations are set up in a simple, intuitive way. The rigorous CMT is established on the basis of a linear superposition of the modes for individual waveguides. The cross-power terms appear logically as a result of modal nonorthogonality. The cross power is necessary for the self-consistency of the CMT for dissimilar waveguides. The nonorthogonal CMT, though more complicated, yields more-accurate results than the conventional orthogonal CMT for most practical applications. It also leads to the prediction of cross talk in directional couplers. The conventional orthogonal CMT is, however, reliably accurate for describing the power coupling between two weakly coupled, nearly identical waveguides. For dissimilar waveguides, a self-consistent orthogonal CMT can be derived by a redefinition of the coupling coefficients, and it predicts the coupling length and therefore the power exchange between the waveguides accurately if the two waveguides are far apart. Three typical coupler configurations—the uniform, the grating-assisted, and the tapered—are examined in detail. The accuracy, scope of validity, limitations, and extensions of the coupled-mode formulations are discussed in conjunction with each configuration. To verify the arguments in the discussions, comparisons with the exact analytical solutions and the rigorous numerical simulations are made.",
+  "cited": 798,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/josa.62.001267": {
+  "title": "Coupled-Mode Theory for Optical Fibers",
+  "year": 1972,
+  "venue": "Journal of the Optical Society of America",
+  "authors": [
+   "Allan W. Snyder"
+  ],
+  "abstract": "A set of coupled-mode equations is derived to describe mode propagation in uniform and slightly nonuniform cylindrical optical-fiber systems. The coupling between fibers of an array made up of n identical fibers each at the vertex of a polygon and one at the center, which is not necessarily the same as its n neighbors, is determined. Examples of this array are two fibers, three fibers in a row, and a hexagonal array with a fiber in the center. Very simple expressions for the coupling coefficients are presented. Mode coupling on a lossy fiber is investigated and a simple expression for the loss of a HE11 mode is given.",
+  "cited": 744,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/josab.13.000459": {
+  "title": "Optical ablation by high-power short-pulse lasers",
+  "year": 1996,
+  "venue": "Journal of the Optical Society of America B",
+  "authors": [
+   "Brent C. Stuart",
+   "Michael D. Feit",
+   "Steve M. Herman",
+   "A. M. Rubenchik",
+   "Bruce W. Shore",
+   "Michael D. Perry"
+  ],
+  "abstract": "Laser-induced damage threshold measurements were performed on homogeneous and multilayer dielectrics and gold-coated optics at 1053 and 526 nm for pulse durations τ ranging from 140 fs to 1 ns. Gold coatings were found, both experimentally and theoretically, to be limited to 0.6 J/cm2 in the subpicosecond range for 1053-nm pulses. In dielectrics, we find qualitative differences in the morphology of damage and a departure from the diffusion-dominated τ1/2 scaling that indicate that damage results from plasma formation and ablation for τ ≤ 10 ps and from conventional heating and melting for τ > 50 ps. A theoretical model based on electron production by multiphoton ionization, joule heating, and collisional (avalanche) ionization is in quantitative agreement with both the pulse-width and the wavelength scaling of experimental results.",
+  "cited": 662,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1002/j.1538-7305.1969.tb01167.x": {
+  "title": "Bends in Optical Dielectric Guides",
+  "year": 1969,
+  "venue": "Bell System Technical Journal",
+  "authors": [
+   "ENRIQUE A.J. MARCATILI"
+  ],
+  "abstract": "Light transmission through a curved dielectric rod of rectangular cross section embedded in different dielectrics is analyzed in closed, though approximate form. We distinguish three ranges: (i) Small cross section guides such as a thin glass ribbon surrounded by air—Making its width 1 percent of the wavelength, most of the power travels outside of the glass; the attenuation coefficient of the guide is two orders of magnitude smaller than that of glass, and the radius of curvature that doubles the straight guide loss is around 10,000Λ. (ii) Medium cross section guide for integration optics—It is only a few microns on the side and capable of guiding a single mode either in low loss bends with short radii of curvature or in a high Q closed loop useful for filters. Q's of the order of 108are theoretically achievable in loops with radii ranging from 0.04 to 1 mm, if the percentage refractive index difference between guide and surrounding dielectric lies between 0.1 and 0.01. (iii) Large cross section guides—They are multimode and are used in fiber optics. Conversion to higher order modes are found more significant than radiation loss resulting from curvature.",
+  "cited": 657,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/josa.66.000216": {
+  "title": "Curvature loss formula for optical fibers",
+  "year": 1976,
+  "venue": "Journal of the Optical Society of America",
+  "authors": [
+   "Dietrich Marcuse"
+  ],
+  "abstract": "The loss formula for optical fibers with constant radius of curvature of their axes is derived by expressing the field outside of the fiber in terms of a superposition of cylindrical outgoing waves. The expansion coefficients are determined by matching the superposition field to the field of the fiber along a cylindrical surface that is tangential to the outer perimeter of the curved fiber. This method is a direct extension of my derivation of the curvature-loss formula for slab guides.",
+  "cited": 628,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1137/0114025": {
+  "title": "On Steiner’s Problem with Rectilinear Distance",
+  "year": 1966,
+  "venue": "SIAM Journal on Applied Mathematics",
+  "authors": [
+   "M. Hanan"
+  ],
+  "abstract": "Previous article Next article On Steiner’s Problem with Rectilinear DistanceM. HananM. Hananhttps://doi.org/10.1137/0114025PDFBibTexSections ToolsAdd to favoritesExport CitationTrack CitationsEmail SectionsAbout[1] Claude Berge, The Theory of Graphs, John Wiley, New York, 1961 0097.38903 Google Scholar[2] Richard Courant and , Herbert Robbins, What Is Mathematics?, Oxford University Press, New York, 1941xix+521 MR0005358 0060.12302 Google Scholar[3] Richard L. Francis, A note on the optimum location of new machines in existing plant layouts, J. Indust. Engrg., 14 (1963), 57–59 Google Scholar[4] Hua Lo-Keng, Application of mathematical methods to wheat harvesting, Chinese Math., 2 (1962), 77–91 Google Scholar[5] Joseph B. Kruskal, Jr., On the shortest spanning subtree of a graph and the traveling salesman problem, Proc. Amer. Math. Soc., 7 (1956), 48–50 MR0078686 0070.18404 CrossrefGoogle Scholar[6] Z. A. Melzak, On the problem of Steiner, Canad. Math. Bull., 4 (1961), 143–148 MR0125466 0101.13201 CrossrefGoogle Scholar[7] F. P. Palermo, A network minimization problem, IBM J. Res. Develop., 5 (1961), 335–337 0101.13202 CrossrefISIGoogle Scholar[8] R. C. Prim, Shortest connecting networks, Bell System Tech. J., 31 (1952), 1398–1401 Google Scholar Previous article Next article FiguresRelatedReferencesCited ByDetails QuCTS—Single-Flux Quantum Clock Tree SynthesisIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 41, No. 10 | 1 Oct 2022 Cross Ref Topological Structure and Physical Layout Co-Design for Wavelength-Routed Optical Networks-on-ChipIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 41, No. 7 | 1 Jul 2022 Cross Ref Optimal Picking Policies in E-Commerce WarehousesManagement Science, Vol. 53 | 24 March 2022 Cross Ref Approximation algorithms for Steiner forest: An experimental studyNetworks, Vol. 79, No. 2 | 13 May 2021 Cross Ref VLSI Routing Optimization Using Hybrid PSO Based on Reinforcement Learning2022 IEEE VLSI Device Circuit and System (VLSI DCS) | 26 Feb 2022 Cross Ref Global RoutingVLSI Physical Design: From Graph Partitioning to Timing Closure | 15 June 2022 Cross Ref REST: Constructing Rectilinear Steiner Minimum Tree via Reinforcement Learning2021 58th ACM/IEEE Design Automation Conference (DAC) | 5 Dec 2021 Cross Ref Itinerary planning for cooperative truck platooningTransportation Research Part B: Methodological, Vol. 153 | 1 Nov 2021 Cross Ref A multi-periods offshore wind farm optimization method for supplying energy in a natural gas hydrates exploitation platformJournal of Cleaner Production, Vol. 316 | 1 Sep 2021 Cross Ref Wire length optimization of VLSI circuits using IWO algorithm and its hybridCircuit World, Vol. 6 | 1 July 2021 Cross Ref Minimizing Wirelength with Bend Reduction using Gradient Descent PSO Hybrid in VLSI Global Routing2021 Devices for Integrated Circuit (DevIC) | 19 May 2021 Cross Ref SCIP-Jack: An Exact High Performance Solver for Steiner Tree Problems in Graphs and Related ProblemsModeling, Simulation and Optimization of Complex Processes HPSC 2018 | 2 December 2020 Cross Ref A layout design method for an industrial park based on a novel arrangement algorithm – Consideration of pipe network and multiple hazard sourcesChemical Engineering Science, Vol. 227 | 1 Dec 2020 Cross Ref A diameter-based model of the rectilinear partitioning problem in VLSI physical design2020 Chinese Automation Congress (CAC) | 6 Nov 2020 Cross Ref Who witnesses The Witness? Finding witnesses in The Witness is hard and sometimes impossibleTheoretical Computer Science, Vol. 839 | 1 Nov 2020 Cross Ref GPSO Hybrid Algorithm for Rectilinear Steiner Tree Optimization2020 IEEE VLSI DEVICE CIRCUIT AND SYSTEM (VLSI DCS) | 1 Jul 2020 Cross Ref Construction of All Rectilinear Steiner Minimum Trees on the Hanan Grid and Its Applications to VLSI DesignIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 39, No. 6 | 1 Jun 2020 Cross Ref SALT: Provably Good Routing Topology by a Novel Steiner Shallow-Light Tree AlgorithmIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 39, No. 6 | 1 Jun 2020 Cross Ref A Global Routing Method for Graphene Nanoribbons Based Circuits and InterconnectsACM Journal on Emerging Technologies in Computing Systems, Vol. 16, No. 3 | 19 May 2020 Cross Ref Images of Linear Conditions on a Manhattan PlaneGeometry & Graphics | 13 Apr 2020 Cross Ref Rectilinear Steiner Tree Construction Techniques Using PB-SAT-Based MethodologyJournal of Circuits, Systems and Computers, Vol. 29, No. 04 | 5 July 2019 Cross Ref Subexponential Algorithms for Rectilinear Steiner Tree and Arborescence ProblemsACM Transactions on Algorithms, Vol. 16, No. 2 | 5 Mar 2020 Cross Ref PORA: A Physarum-inspired obstacle-avoiding routing algorithm for integrated circuit designApplied Mathematical Modelling, Vol. 78 | 1 Feb 2020 Cross Ref A New Global Routing Optimization Algorithm based on Pigeon Inspired Optimization2020 IEEE Calcutta Conference (CALCON) | 1 Feb 2020 Cross Ref An Efficient Rectilinear and Octilinear Steiner Minimal Tree Algorithm for Multidimensional EnvironmentsIEEE Access, Vol. 8 | 1 Jan 2020 Cross Ref Novel Approach for Steiner Nodes Filtration in VLSI Global Routing2019 International Conference on Intelligent Computing and Remote Sensing (ICICRS) | 19 Jul 2019 Cross Ref On Trade-off Between Static and Dynamic Power Consumption in NoC Power Gating2019 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED) | 1 Jul 2019 Cross Ref An Augmented Line Segment-Based Algorithm with Delayed Overlap Consideration and Reconfigurable Logic for RSMT ProblemInternational Conference on Computer Networks and Communication Technologies | 18 September 2018 Cross Ref Research Project to Introduce MORE Fuzzy Distance: ‘Distance Between Points in Facility Layout Problem’SSRN Electronic Journal | 1 Jan 2019 Cross Ref Optimizing Costs and Quality of Interior Lighting by Genetic AlgorithmComputational Intelligence | 30 May 2019 Cross Ref The GeoSteiner software package for computing Steiner trees in the plane: an updated computational studyMathematical Programming Computation, Vol. 10, No. 4 | 20 February 2018 Cross Ref Planar Bus GraphsAlgorithmica, Vol. 80, No. 8 | 16 May 2017 Cross Ref A Maze Routing-Based Methodology With Bounded Exploration and Path-Assessed Retracing for Constrained Multilayer Obstacle-Avoiding Rectilinear Steiner Tree ConstructionACM Transactions on Design Automation of Electronic Systems, Vol. 23, No. 4 | 20 Jul 2018 Cross Ref A simple proof that the (n2 − 1)-puzzle is hardTheoretical Computer Science, Vol. 732 | 1 Jul 2018 Cross Ref Minimum rectilinear Steiner tree of n points in the unit squareComputational Geometry, Vol. 68 | 1 Mar 2018 Cross Ref Glossary of Mathematical Optimization TerminologyMathematical Optimization Terminology | 1 Jan 2018 Cross Ref Netzwerk-Design-ProblemeKombinatorische Optimierung | 25 July 2018 Cross Ref Combinatorial Distance Geometry in Normed SpacesNew Trends in Intuitive Geometry | 3 November 2018 Cross Ref Network Design ProblemsCombinatorial Optimization | 14 March 2018 Cross Ref K-nearest neighbour (KNN) approach using SAT based technique for rectilinear steiner tree construction2017 7th International Symposium on Embedded Computing and System Design (ISED) | 1 Dec 2017 Cross Ref Anchored rectangle and square packingsDiscrete Optimization, Vol. 26 | 1 Nov 2017 Cross Ref SALT: Provably good routing topology by a novel steiner shallow-light tree algorithm2017 IEEE/ACM International Conference on Computer-Aided Design (ICCAD) | 1 Nov 2017 Cross Ref Real Options Analysis of CO2 Transport and Storage in the UK Continental Shelf under Geological and Market Uncertainties and the Viability of Subsidies for Market DevelopmentEnergy Procedia, Vol. 114 | 1 Jul 2017 Cross Ref Dijkstra meets Steiner: a fast exact goal-oriented Steiner tree algorithmMathematical Programming Computation, Vol. 9, No. 2 | 14 July 2016 Cross Ref SCIP-Jack—a solver for STP and variants with parallelization extensionsMathematical Programming Computation, Vol. 9, No. 2 | 2 December 2016 Cross Ref Optimization design of coalbed methane pipeline network–coupled wellbore/reservoir simulationAdvances in Mechanical Engineering, Vol. 9, No. 6 | 20 June 2017 Cross Ref Steiner Trees with Bounded RC-DelayAlgorithmica, Vol. 78, No. 1 | 27 April 2016 Cross Ref Two-level rectilinear Steiner treesComputational Geometry, Vol. 61 | 1 Feb 2017 Cross Ref Benchmarking of Mask Fracturing HeuristicsIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 36, No. 1 | 1 Jan 2017 Cross Ref Экстремальные сети на $\\lambda$-нормированной плоскости, где $\\lambda=3,4,6$Математический сборник, Vol. 208, No. 4 | 1 Jan 2017 Cross Ref ReferencesThree-Dimensional Integrated Circuit Design | 1 Jan 2017 Cross Ref Augmented line segment based algorithm for constructing rectilinear steiner minimum tree2016 International Conference on Communication and Electronics Systems (ICCES) | 1 Oct 2016 Cross Ref A heuristic for constructing a rectilinear Steiner tree by reusing routing resources over obstaclesIntegration, the VLSI Journal, Vol. 55 | 1 Sep 2016 Cross Ref FH-OAOSACM Transactions on Design Automation of Electronic Systems, Vol. 21, No. 3 | 26 Jul 2016 Cross Ref RoutingElectronic Design Automation for IC Implementation, Circuit Design, and Process Technology | 14 April 2016 Cross Ref Optimization framework for topology design challenges in tactical smart microgrid planning2016 IEEE Power and Energy Conference at Illinois (PECI) | 1 Feb 2016 Cross Ref Delay Estimates for Graphene NanoribbonsProceedings of the 26th edition on Great Lakes Symposium on VLSI - GLSVLSI '16 | 1 Jan 2016 Cross Ref Automated Routing for VLSI: Kuh's Group ContributionsIEEE Circuits and Systems Magazine, Vol. 16, No. 2 | 1 Jan 2016 Cross Ref GlobalverdrahtungLayoutsynthese elektronischer Schaltungen | 28 May 2016 Cross Ref SAT based rectilinear steiner tree construction2016 2nd International Conference on Applied and Theoretical Computing and Communication Technology (iCATccT) | 1 Jan 2016 Cross Ref Physical design automation of transistor networksMicroelectronic Engineering, Vol. 148 | 1 Dec 2015 Cross Ref The vehicle platooning problem: Computational complexity and heuristicsTransportation Research Part C: Emerging Technologies, Vol. 60 | 1 Nov 2015 Cross Ref Key-node-based local search discrete artificial bee colony algorithm for obstacle-avoiding rectilinear Steiner tree constructionNeural Computing and Applications, Vol. 26, No. 4 | 1 November 2014 Cross Ref Routability-driven floorplanning algorithm for mixed-size modules with fixed-outline constraintVLSI Design, Automation and Test(VLSI-DAT) | 1 Apr 2015 Cross Ref A multi-objective approach for determining optimal air compressor location in a manufacturing facilityJournal of Manufacturing Systems, Vol. 35 | 1 Apr 2015 Cross Ref Obstacle-Avoiding Algorithm in X-Architecture Based on Discrete Particle Swarm Optimization for VLSI DesignACM Transactions on Design Automation of Electronic Systems, Vol. 20, No. 2 | 2 Mar 2015 Cross Ref Speeding Up Dynamic Programming with Representative Sets: An Experimental Evaluation of Algorithms for Steiner Tree on Tree DecompositionsAlgorithmica, Vol. 71, No. 3 | 29 August 2014 Cross Ref Fast obstacle-avoiding octilinear steiner minimal tree construction algorithm for VLSI designSixteenth International Symposium on Quality Electronic Design | 1 Mar 2015 Cross Ref The k-Nearest-Neighbor Voronoi Diagram RevisitedAlgorithmica, Vol. 71, No. 2 | 13 July 2013 Cross Ref SFB-ACO for Submicron VLSI Routing Optimization with Timing ConstraintsConfigurable Intelligent Optimization Algorithm | 19 August 2014 Cross Ref Rectilinear Steiner TreesOptimal Interconnection Trees in the Plane | 1 Jan 2015 Cross Ref Steiner Trees with Bounded RC-DelayApproximation and Online Algorithms | 23 April 2015 Cross Ref The Rectilinear Steiner Tree Problem with Given Topology and Length RestrictionsComputing and Combinatorics | 24 June 2015 Cross Ref Generalized Hanan Grids for Geometric Steiner Trees in Uniform Orientation MetricsGems of Combinatorial Optimization and Graph Algorithms | 12 January 2016 Cross Ref Efficient Multilayer Obstacle-Avoiding Rectilinear Steiner Tree Construction Based on Geometric ReductionIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 33, No. 12 | 1 Dec 2014 Cross Ref Timing-driven Steiner tree construction on uniform λ-geometry18th International Symposium on VLSI Design and Test | 1 Jul 2014 Cross Ref On the history of the Euclidean Steiner tree problemArchive for History of Exact Sciences, Vol. 68, No. 3 | 27 August 2013 Cross Ref Watchman routes for lines and line segmentsComputational Geometry, Vol. 47, No. 4 | 1 May 2014 Cross Ref THE MINIMUM GUARDING TREE PROBLEMDiscrete Mathematics, Algorithms and Applications, Vol. 06, No. 01 | 18 February 2014 Cross Ref Algorithm for the construction of Rectilinear Steiner Minimum Tree by identifying the clusters of pointsInternational Conference on Information Communication and Embedded Systems (ICICES2014) | 1 Feb 2014 Cross Ref Rectilinear paths with minimum segment lengthsDiscrete Applied Mathematics, Vol. 161, No. 12 | 1 Aug 2013 Cross Ref Phylogenetic analysis of multiprobe fluorescence in situ hybridization data from tumor cell populationsBioinformatics, Vol. 29, No. 13 | 19 June 2013 Cross Ref BonnRouteACM Transactions on Design Automation of Electronic Systems, Vol. 18, No. 2 | 1 Mar 2013 Cross Ref New variations of the location Journal of Vol. No. 3 | 1 Feb 2013 Cross Ref On the of Plane Bus and | 1 Jan 2013 Cross Ref On the Construction of Generalized Voronoi of a on Computational | 1 Jan 2013 Cross Ref Speeding Up Dynamic Programming with Representative and Exact | 1 Jan 2013 Cross Ref Algorithm for the Rectilinear Steiner Minimum International Conference on Manufacturing & Automation | 1 Jul Cross Ref Obstacle-Avoiding Rectilinear Steiner Tree A AlgorithmIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 7 | 1 Jul Cross Ref A shortest algorithm with in the Euclidean International Conference on Intelligent | 1 Jul Cross Ref On the Construction of a Generalized Voronoi of a International Symposium on Voronoi in and Engineering | 1 Jun Cross Ref Using to Reconfigurable IEEE 26th International and Symposium & | 1 May Cross Ref THE AND AND THE Journal of Computational Geometry & Applications, Vol. No. 01 | 12 September Cross Ref Network Design ProblemsCombinatorial Optimization | 27 Cross Ref Netzwerk-Design-ProblemeKombinatorische Optimierung | 4 May Cross Ref trees algorithm for VLSI Vol. No. 7 | 4 December Cross Ref Journal of of Computer Science, Vol. No. | 6 April Cross Ref and for Reconfigurable IEEE International Symposium on and in VLSI and Systems | 1 Oct Cross Ref A Conference on Circuit Theory and Design | 1 Aug Cross Ref Rectilinear Steiner Minimal Tree construction International Conference on | 1 Jul Cross Ref On the Construction of Optimal Obstacle-Avoiding Rectilinear Steiner Minimum Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 5 | 1 May Cross Ref with Journal of Experimental Vol. 16 | 1 May Cross Ref Global RoutingVLSI Physical Design: From Graph Partitioning to Timing Closure | 27 January Cross Ref An Approach for the k-Nearest-Neighbor Voronoi – | 1 Jan Cross Ref | 1 Jan Cross Ref The and in of the Mathematical Vol. No. | 14 April Cross Ref A for Steiner tree in the Geometry, Vol. No. 4 | 1 May Cross Ref for and and Design Automation Conference | 1 Jan Cross Ref | 1 Jan Cross Ref A VLSI routing algorithm based on IEEE International Conference on Intelligent Computing and Intelligent Systems | 1 Nov Cross Ref Maze Routing Steiner Trees With Delay Wire Length Transactions on Systems, Vol. No. 8 | 1 Aug Cross Ref Applications of network in IEEE International Conference on IC Design and Technology | 1 May Cross Ref A Global Routing AlgorithmIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 4 | 1 Apr Cross Ref in using the VLSI Journal, Vol. No. 2 | 1 Feb Cross Ref Algorithm on Rectilinear Steiner Tree with and Congress on Computer and Information Engineering | 1 Jan Cross Ref for Tree Transactions on Computational and Vol. No. 1 | 1 Jan Cross Ref Global and Design Automation | 1 Jan Cross Ref Steiner trees for of Global Optimization, Vol. No. 1 | 15 April Cross Ref An Efficient Obstacle-Avoiding Rectilinear Steiner Tree Construction AlgorithmIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 12 | 1 Dec Cross Ref Engineering an Global Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. | 1 Nov Cross Ref A Algorithm for the Rectilinear Steiner Minimal Tree Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. | 1 Nov Cross Ref Global optimization with to design IEEE International Conference on Computer Design | 1 Oct Cross Ref With the Transactions on Vol. No. 3 | 1 Aug Cross Ref A Fast and to Global Routing Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 4 | 1 Apr Cross Ref Engineering an and Design Automation Conference | 1 Jan Cross Ref An Steiner tree based approach for and Design Automation Conference | 1 Jan Cross Ref Fast Based Rectilinear Steiner Minimal Tree Algorithm for VLSI DesignIEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 1 | 1 Jan Cross Ref Physical Design and and Test in | 1 Jan Cross Ref a routing IEEE/ACM International Conference on Computer-Aided Design | 1 Nov Cross Ref rectilinear Steiner minimal tree construction 7th International Conference on | 1 Oct Cross Ref Steiner Minimal Trees in Rectilinear and Octilinear Vol. 23, No. | 31 January Cross Ref AND Journal of Computational Geometry & Applications, Vol. No. | 20 November Cross Ref A Fast and Global Routing and Design Automation Conference | 1 Jan Cross Ref A Novel Topology Design and Design Automation Conference | 1 Jan Cross Ref A Fast and Using an Exact Linear Circuit | 1 Jan Cross Ref Fast and with an Exact Linear IEEE/ACM International Conference on Computer Design | 1 Nov Cross Ref A to Global Routing IEEE/ACM International Conference on Computer Design | 1 Nov Cross Ref A approach to Steiner Tree International Conference on | 1 Oct Cross Ref On the of of Computational Vol. No. 5 | 1 Jun Cross Ref Linear Programming for Global Journal on Vol. 18, No. 2 | 1 May Cross Ref Novel algorithms for of for in and VLSI design Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 1 | 1 Jan Cross Ref сборник, Vol. No. 5 | 1 Jan Cross Ref Optimization Based Rectilinear Steiner Minimal Tree of Computer and Vol. 21, No. 1 | 1 Jan Cross Ref Hybrid Algorithms for the Rectilinear Steiner Tree Problem Using and Its Applications - | 1 Jan Cross Ref On the of | 1 Jan Cross Ref Approximation Algorithms for Network Design and Facility with and Combinatorial Algorithms and Techniques | 1 Jan Cross Ref and Approximation of Octilinear Steiner and | 1 Jan Cross Ref An Algorithm for the Rectilinear Steiner Tree and Its Applications – | 1 Jan Cross Ref Rectilinear Steiner Tree Construction Using Programming | 1 Jan Cross Ref an of spanning Transactions on Computation, Vol. No. 3 | 1 Jun Cross Ref Picking from of Computational Vol. 10, No. | 1 Jun Cross Ref сети Vol. No. 5 | 1 Jan Cross Ref Approximation of Rectilinear Steiner Trees with Length on and | 1 Jan Cross Ref Optimization of - | 1 Jan Cross Ref approach to rectilinear Steiner tree Transactions on Systems, Vol. 10, No. 6 | 1 Dec Cross Ref Planar Manhattan Minimal and Journal of Vol. 23, No. 8 | 1 Nov Cross Ref Steiner Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 21, No. | 1 Nov Cross Ref problem in Vol. No. 7 | 1 Oct Cross Ref Computing the shortest network under a Transactions on Computers, Vol. No. | 1 Sep Cross Ref Computing the shortest network under a Transactions on Computers, Vol. No. | 1 Sep Cross Ref A optimization algorithm for a rectilinear partitioning problem with in VLSI design Vol. No. 1 | 1 Jul Cross Ref routing tree Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 21, No. 5 | 1 May Cross Ref Vol. No. 5 | 1 Jan Cross Ref Network Design ProblemsCombinatorial Optimization | 1 Jan Cross Ref layout optimization under model for Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 20, No. 12 | 1 Dec Cross Ref A on routing for integrated Vol. No. 1 | 1 Nov Cross Ref of in the rectilinear Vol. No. 3 | 1 January Cross Ref A of Hanan Vol. No. 2 | 1 January Cross Ref Wire for based on Computer Science, Vol. No. | 1 Jul Cross Ref Steiner tree optimization for and Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 20, No. 4 | 1 Apr Cross Ref Optimal layout for Transactions on Vol. No. 1 | 1 Feb Cross Ref Exact location of the Steiner of the Steiner minimum tree in and in Electronic Vol. No. 2 | 1 January Cross Ref Exact location of the Steiner of the Steiner minimum tree in and in Electronic Vol. No. 2 | 1 January Cross Ref Algorithms for the Rectilinear Steiner Tree Trees in | 1 Jan Cross Ref Steiner Tree Problems in VLSI Layout Trees in | 1 Jan Cross Ref The Rectilinear Steiner Tree A Trees in | 1 Jan Cross Ref An on Steiner Tree Problems in Trees in | 1 Jan Cross Ref Steiner Minimum Trees in Uniform Orientation Trees in | 1 Jan Cross Ref Optimization for Global VLSI Optimization in VLSI Design | 1 Jan Cross Ref A new heuristic for rectilinear Steiner Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. No. 10 | 1 Oct Cross Ref The local Steiner problem in Vol. 36, No. 2 | 1 January Cross Ref The local Steiner problem in Vol. 36, No. 2 | 1 January Cross Ref The local Steiner problem in Vol. 36, No. 2 | 1 January Cross Ref The local Steiner problem in Vol. 36, No. 2 | 1 January Cross Ref the Steiner problem in uniform Vol. No. 4 | 1 January Cross Ref the Steiner problem in uniform Vol. No. 4 | 1 January Cross Ref A steiner and Computer Modelling, Vol. No. | 1 Mar Cross Ref Network to and new of the Optical of Vol. No. 3 | 1 March Cross Ref Computing Shortest Networks with in Steiner Trees | 1 Jan Cross Ref Rectilinear Steiner Minimal Trees on in Steiner Trees | 1 Jan Cross Ref A algorithm for the minimum rectilinear steiner of Computer and Vol. No. 1 | 1 Jan Cross Ref Exact Algorithms for Plane Steiner Tree A Computational in Steiner Trees | 1 Jan Cross Ref Exact Steiner Trees in Graphs and Grid in Steiner Trees | 1 Jan Cross Ref Network Design ProblemsCombinatorial Optimization | 1 Jan Cross Ref for Systems on a | 1 Jan Cross Ref Circuit of and Electronics Engineering | 27 December Cross Ref for Layout Geometry of Rectilinear of Computing in Engineering, Vol. No. 4 | 1 Oct Cross Ref Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 18, No. 4 | 1 Apr Cross Ref algorithms and for layout Transactions on Computer-Aided Design of Integrated Circuits and Systems, Vol. 18, No. 4 | 1 Apr Cross Ref Rectilinear Steiner tree Vol. 33, No. 2 | 1 Mar Cross Ref Rectilinear Steiner tree Vol. 33, No. 2 |",
+  "cited": 623,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/oe.19.016576": {
+  "title": "Design and fabrication of ultra-low crosstalk and low-loss multi-core fiber",
+  "year": 2011,
+  "venue": "Optics Express",
+  "authors": [
+   "Tetsuya Hayashi",
+   "Toshiki Taru",
+   "Osamu Shimakawa",
+   "Takashi Sasaki",
+   "Eisuke SASAOKA"
+  ],
+  "abstract": "We designed and fabricated a multi-core fiber (MCF) in which seven identical trench-assisted pure-silica cores were arranged hexagonally. To design MCF, the relation among the crosstalk, fiber parameters, and fiber bend was derived using a new approximation model based on the coupled-mode theory with the equivalent index model. The mean values of the statistical distributions of the crosstalk were observed to be extremely low and estimated to be less than -30 dB even after 10,000-km propagation because of the trench-assisted cores and utilization of the fiber bend. The attenuation of each core was very low for MCFs (0.175-0.181 dB/km at 1550 nm) because of the pure-silica cores. Both the crosstalk and attenuation values are the lowest achieved in MCFs.",
+  "cited": 556,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.19.016576",
+  "oa_status": "gold"
+ },
+ "10.1088/1464-4258/11/1/013001": {
+  "title": "Micromachining of photonic devices by femtosecond laser pulses",
+  "year": 2008,
+  "venue": "Journal of Optics A Pure and Applied Optics",
+  "authors": [
+   "Giuseppe Della Valle",
+   "Roberto Osellame",
+   "P. Laporta"
+  ],
+  "abstract": "In this paper we review the micromachining of photonic devices in several materials by means of ultrashort laser pulses. The physical mechanisms underlying the refractive index modification and the different laser systems used to induce such modification are discussed. A thorough review of the photonic devices demonstrated with the femtosecond laser microfabrication technique is presented. In particular, this paper is focused on photonic devices based on optical waveguides. The devices are organized into two categories: passive and active devices. In the former category power splitters, directional couplers, interferometers and Bragg gratings are reviewed, while in the latter amplifiers and lasers are discussed. Finally, conclusions and future perspectives of femtosecond laser micromachining in photonics are provided.",
+  "cited": 350,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1007/978-1-4615-2351-2": {
+  "title": "Algorithms for VLSI Physical Design Automation",
+  "year": 1995,
+  "venue": "Springer eBooks",
+  "authors": [
+   "Naveed A. Sherwani"
+  ],
+  "abstract": null,
+  "cited": 327,
+  "type": "book",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ol.32.002801": {
+  "title": "Low-loss, low-cross-talk crossings for silicon-on-insulator nanophotonic waveguides",
+  "year": 2007,
+  "venue": "Optics Letters",
+  "authors": [
+   "Wim Bogaerts",
+   "Pieter Dumon",
+   "Dries Van Thourhout",
+   "Roel Baets"
+  ],
+  "abstract": "We present compact crossings for silicon-on-insulator photonic wires. The waveguides are broadened using a 3 microm parabolic taper in each arm. By locally applying a lower index contrast using a double-etch technique, loss of confinement is reduced and 97.5% transmission (-1.7 dB) is achieved with only -40 dB cross talk.",
+  "cited": 323,
+  "type": "article",
+  "oa_url": "https://biblio.ugent.be/publication/392609/file/586645.pdf",
+  "oa_status": "green"
+ },
+ "10.1364/aop.6.000293": {
+  "title": "Ultrafast laser direct writing and nanostructuring in transparent materials",
+  "year": 2014,
+  "venue": "Advances in Optics and Photonics",
+  "authors": [
+   "Martynas Beresna",
+   "Mindaugas Gecevičius",
+   "Peter G. Kazansky"
+  ],
+  "abstract": "An overview of recent achievements in the field of femtosecond laser writing in transparent materials is presented. Thanks to the unique properties of light–matter interaction on the ultrashort time scale, this direct writing technique has led to observation of unique phenomena, including nonreciprocal writing and anisotropic photosensitivity, in transparent materials and allowed engineering of novel photonic devices.",
+  "cited": 228,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1117/1.ap.7.3.034002": {
+  "title": "Recent advances in femtosecond laser direct writing of three-dimensional periodic photonic structures in transparent materials",
+  "year": 2025,
+  "venue": "Advanced Photonics",
+  "authors": [
+   "Bin Zhang",
+   "Wenchao Yan",
+   "Feng Chen"
+  ],
+  "abstract": "The femtosecond laser direct writing technique is a highly precise processing method that enables the rapid fabrication of three-dimensional (3D) micro- and nanoscale photonic structures in transparent materials. By focusing ultrashort laser pulses into transparent optical materials, such as crystals and glasses, it is possible to efficiently modify specific optical properties, including refractive indices and ferroelectric domains, at the laser focus. By carefully designing and optimizing the movement trajectory of the femtosecond laser, one can achieve periodic modulation of the optical features of these materials in 3D space. The resulting changes in material properties are closely linked to both the processing parameters of the femtosecond laser and the types of materials used. Through ongoing optimization of these parameters, desired periodic photonic structures can be created in specific transparent optical materials, leading to the development of 3D nonlinear photonic crystals (NPCs) and 3D waveguide arrays. Femtosecond laser direct writing breaks through the limitations of traditional techniques to fabricate 3D NPCs [e.g., 3D lithium niobate (LiNbO3) NPCs] and complex waveguide arrays (e.g., 3D helical waveguide arrays), realizing a paradigm shift in the fabrication of complex periodic photonic structures. To date, femtosecond-laser-written 3D NPCs and waveguide arrays have found extensive applications in integrated photonics, nonlinear optics, quantum optics, and topological photonics. We highlight recent advancements in femtosecond-laser-written 3D NPCs and waveguide arrays, such as pivotal breakthroughs in the fabrication of nanoscale-resolution 3D NPCs in LiNbO3. Finally, several potential research directions, such as the formation mechanism of domain wall and inducing millimeter-scale domain inversion with femtosecond Bessel beam, have been proposed at the end of this article.",
+  "cited": 64,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1117/1.ap.7.3.034002",
+  "oa_status": "diamond"
+ },
+ "10.1145/800158.805069": {
+  "title": "Wire routing by optimizing channel assignment within large apertures",
+  "year": 1971,
+  "venue": "ACM/IEEE Design Automation Conference (DAC)",
+  "authors": [
+   "Akihiro Hashimoto",
+   "James Stevens"
+  ],
+  "abstract": "The purpose of this paper is to introduce a new wire routing method for two layer printed circuit boards. This technique has been developed at the University of Illinois Center for Advanced Computation and has been programmed in ALGOL for a B5500 computer. The routing method is based on the newly developed channel assignment algorithm and requires many via holes. The primary goals of the method are short execution time and high wireability. Actual design specifications for ILLIAC IV Control Unit boards have been used to test the feasibility of the routing technique. Tests have shown that this algorithm is very fast and can handle large boards.",
+  "cited": 687,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/proc.1964.3442": {
+  "title": "Cost-size optima of monolithic integrated circuits",
+  "year": 1964,
+  "venue": "Proceedings of the IEEE",
+  "authors": [
+   "Bernard T. Murphy"
+  ],
+  "abstract": "A generalized cost-size relationship is derived for a monolithic circuit consisting of N identical components, taking into account variations in component density, yield, and assembly costs with N. It is intended to reveal cost trends rather than give accurate results for specific cases and deals only with fabrication costs. A yield-area relationship is used which takes into account chip-to-chip variations in defect density. It is found that the ratio (circuit cost per component/cost of discrete transistor) is a minimum at a chip size which is determined primarily by the spot defect density on the device. This optimum chip size lies between approximately 20 and approximately 60 mils square for a wide range of parameter values. State-of-the-art parameter values indicate a potential order of magnitude cost saving in integrated circuits compared with discrete transistors. The minimum value for the cost ratio is in general inversely proportional to the maximum packing density of components on a semiconductor slice and has a limiting value approximately 1/8N, N0being the number of components which can be packed on the chip size normally used for transistors. Arrays of identical logic gates fit the circuit model used quite closely, and the curves indicate that the cost per gate in reasonably densely packed arrays can be less than the cost of a discrete transistor. The results also indicate that when systems requirements make it desirable to include larger numbers of components in one package than the optimum for one monolith, wired-chip schemes are preferable to single monoliths, the optimum chip size being smaller than that for a simple monolith.",
+  "cited": 390,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1007/s00339-002-1447-z": {
+  "title": "Effect of refractive index-mismatch on laser microfabrication in silica glass",
+  "year": 2003,
+  "venue": "Applied Physics A",
+  "authors": [
+   "Andrius Marcinkevičius",
+   "Vygantas Mizeikis",
+   "Saulius Juodkazis",
+   "Shigeki Matsuo",
+   "Hiroaki Misawa"
+  ],
+  "abstract": null,
+  "cited": 113,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1016/b978-012525096-2/50002-7": {
+  "title": "Wave theory of optical waveguides",
+  "year": 2006,
+  "venue": "Elsevier eBooks",
+  "authors": [
+   "Katsunari Okamoto"
+  ],
+  "abstract": null,
+  "cited": 56,
+  "type": "book-chapter",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1038/s41598-021-03116-y": {
+  "title": "Low bend loss femtosecond laser written waveguides exploiting integrated microcrack",
+  "year": 2021,
+  "venue": "Scientific Reports",
+  "authors": [
+   "Timothy Lee",
+   "Qi Sun",
+   "Martynas Beresna",
+   "Gilberto Brambilla"
+  ],
+  "abstract": "We introduce the fabrication and use of microcracks embedded in glass as an optical element for manipulating light propagation, in particular for enhancing waveguide performance in silica integrated optics. By using a femtosecond laser to induce a strong asymmetric stress pattern in silica, uniform cracks with set dimensions can be created within the substrate and propagated along a fixed path. The smoothness of the resulting cleave interface and large index contrast can be exploited to enhance waveguide modal confinement. As a demonstration, we tackle the longstanding high bend-loss issue in femtosecond laser written silica waveguides by using this technique to cleave the outer edge of laser written waveguide bends, to suppress radiative bend loss. The microcrack cross section is estimated to be 15 μm in height and 30 nm in width, for the 10 [Formula: see text] 10 μm waveguides. At 1550 nm wavelength, losses down to 1 dB/cm at 10 mm bend radius were achieved, without introducing additional scattering. Both the cleave stress pattern and waveguide are fabricated with the same multiscan writing procedure, without requiring additional steps, and re-characterisation of the waveguides after 1 year confirm excellent long term performance stability.",
+  "cited": 31,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41598-021-03116-y.pdf",
+  "oa_status": "gold"
+ },
+ "10.1145/3698364.3705355": {
+  "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": "International Symposium on Physical Design",
+  "authors": [
+   "Zhou Hongjian",
+   "Keren Zhu",
+   "Jiaqi Gu"
+  ],
+  "abstract": null,
+  "cited": 6,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/vlsi-soc.2014.7004173": {
+  "title": "Silicon photonics design rule checking: Application of a programmable modeling engine for non-Manhattan geometry verification",
+  "year": 2014,
+  "venue": "IFIP/IEEE International Conference on Very Large Scale Integration",
+  "authors": [
+   "Ruping Cao",
+   "John Ferguson",
+   "Fabien Gays",
+   "Youssef Drissi",
+   "Alexandre Arriordaz",
+   "Ian O’Connor"
+  ],
+  "abstract": "This paper presents design rule checking (DRC) methods to address challenges caused by non-Manhattan geometries that are widely present in photonic integrated circuit (PIC) physical designs. Verifying such layouts with traditional DRC tools results in a huge number of false errors that are impossible to debug; and some physical rules are simply uncheckable. We demonstrate the use of an extended DRC technique on photonic designs to tackle these issues. The results show that the technique is well-suited for silicon photonics DRC, enabling false errors to be filtered in a controllable manner, leading to easier debugging with layout annotation; multi-dimensional rule checking to be performed; and mathematical expressions to be used for more accurate descriptions of physical rules.",
+  "cited": 11,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/lpt.2018.2825643": {
+  "title": "3-D Multilayer S-Bend Silicon Waveguide Optical Interconnect",
+  "year": 2018,
+  "venue": "IEEE Photonics Technology Letters",
+  "authors": [
+   "Vikash Kumar",
+   "Vishnu Priye"
+  ],
+  "abstract": "A 3-D S-bend silicon waveguide optical interconnect on silicon on insulator is proposed to connect optical circuits in a multilayered photonic-integrated circuit (PIC). Critical parameters like bending loss, axial shift, and coupling loss are calculated for efficient implementation in the dense wavelength division multiplexing wavelength spectrum (1.46-1.62 μm). The critical parameters for tight bends are kept in control by optimizing geometrical parameters for application in miniaturized optical circuits in multilayered PIC. Possibility of fabrication of proposed complex interconnect is also explored.",
+  "cited": 8,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/jlt.2007.902113": {
+  "title": "Optical Backplane Connectors Using Three-Dimensional Waveguide Arrays",
+  "year": 2007,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "S. Hiramatsu",
+   "Kiyotaka Miura",
+   "Kazuyuki Hirao"
+  ],
+  "abstract": "Novel compact optical backplane connectors with 2-D arranged inputs/outputs (I/Os) are demonstrated. To meet the requirement of higher integration in an optical backplane system, we applied 3-D waveguide arrays with multichannel optical I/Os. Using laser writing and a wafer-lamination process, a single-mode waveguide array with 24 I/Os and a multimode waveguide array with 16 I/Os were, respectively, fabricated. In the assembly of the backplane connector, waveguide arrays were actively aligned and combined with polymer submounts, and then, the submounts were fixed to the backplane-connector housing. To ensure efficient coupling to the optical fibers, commercially available multimedia (MD) connectors were applied to the interface of the backplane connector. Using MD connectors with multichannel I/Os, we successfully obtained 10-Gb/s/ch transmission performance.",
+  "cited": 8,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/oic.2015.7115671": {
+  "title": "Ultra low crossing loss meshed waveguide based on polynorbornene for backplane architecture",
+  "year": 2015,
+  "venue": "IEEE Optical Interconnects Conference",
+  "authors": [
+   "Katsuma Kitazoe",
+   "Akihiro Horimoto",
+   "Kimio Moriya",
+   "Ryota Kinoshita",
+   "Koji Choki",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "We fabricate a high density meshed -waveguide based on polynorbornene. We confirm that extremely low optical loss is observed in both 90-degree (0.46 dB/500 crosses) and 45-degree (1.32 dB/500 crosses) meshed patterns.",
+  "cited": 6,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1007/s10825-022-01989-4": {
+  "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+  "year": 2022,
+  "venue": "Journal of Computational Electronics",
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Kumar Roy"
+  ],
+  "abstract": null,
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.researchsquare.com/article/rs-1652266/latest.pdf",
+  "oa_status": "green"
+ },
+ "10.1051/photon/202412539": {
+  "title": "Photonic integrated circuits through femtosecond laser waveguide writing in glass",
+  "year": 2024,
+  "venue": "Photoniques",
+  "authors": [
+   "Francesco Ceccarelli",
+   "Roberto Osellame"
+  ],
+  "abstract": "Integrated photonics is increasingly pivotal across various fields due to its inherent stability, scalability, and compactness. In the landscape of integrated photonic platforms, femtosecond laser writing is a novel microfabrication technique that is swiftly emerging as a strong contender to established photolithographybased methods. This paper presents a primer on the femtosecond laser writing process and explores its capabilities for creating versatile and reprogrammable processors. Furthermore, we examine the application of this technology to the realization of integrated devices designed to leverage the distinctive features of this technology for critical areas such as quantum information processing and astrophotonics.",
+  "cited": 1,
+  "type": "article",
+  "oa_url": "https://www.photoniques.com/articles/photon/pdf/2024/02/photon2024125p39.pdf",
+  "oa_status": "hybrid"
+ },
+ "10.1117/12.3007419": {
+  "title": "A graph-based global routing method for single photonic integrated circuit waveguide connection",
+  "year": 2023,
+  "venue": "Applied Optics and Photonics China (AOPC): AI in Optics and Photonics",
+  "authors": [
+   "Xiao-Juan Yang",
+   "Guowei Cao",
+   "Jiyao Yu",
+   "Yu Li"
+  ],
+  "abstract": "With the integration and design complexity of silicon photonics chips raises, the cost of manual routing based on design experience has significantly increased, which brings urgent demand for auto routing methods. This article proposed a global auto routing method for single waveguide connection in photonic integrated circuits. The method firstly partitions all routable areas into non-uniform grids based on the layout placement information and converts the grids into an undirected graph with respect to the path length and congestion of waveguides between adjacent grids. Next, an improved A* algorithm runs in the graph to find a best path between two optical ports, with additional penalties on every bend in the path, beyond cumulative lengths and congestion penalties. Heuristic terms have also been added to increase the convergence speed of the algorithm. The optimized path in graph is further used to perform multiple adhesive lines for waveguide control points generation. Then, three types of 90-degree bends and two types of S-bend according to specific spacing and angle relationships between control points are applied to generate waveguide trace. This method can avoid collisions between target waveguide and other devices on the layout, optimize the global path length, minimize the number of waveguide’s bends, prevent waveguide congestion in specific spaces from exceeding the set threshold, and at the same time generate the optimal waveguide and insert it into layout.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1007/978-1-4613-2813-1_10": {
+  "title": "Bends",
+  "year": 1983,
+  "venue": "Springer eBooks",
+  "authors": [
+   "Allan W. Snyder",
+   "John D. Love"
+  ],
+  "abstract": null,
+  "cited": 1,
+  "type": "book-chapter",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1016/b978-155860737-8/50011-9": {
+  "title": "Geometric Continuity",
+  "year": 2002,
+  "venue": "Elsevier eBooks",
+  "authors": [
+   "Gerald E. Farin"
+  ],
+  "abstract": null,
+  "cited": 1,
+  "type": "book-chapter",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/fio.2017.jw4a.44": {
+  "title": "U -Bend Silicon Waveguide Interconnect for 3 D Multilayer Photonics Integrated Circuit",
+  "year": 2017,
+  "venue": "Frontiers in Optics",
+  "authors": [
+   "Vishnu Priye",
+   "Vikash Kumar"
+  ],
+  "abstract": null,
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1117/12.2290644": {
+  "title": "Experimental verification of layout physical verification of silicon photonics",
+  "year": 2018,
+  "venue": "SPIE Silicon Photonics",
+  "authors": [
+   "Raghi Samir El Shamy",
+   "Mohamed A. Swillam"
+  ],
+  "abstract": "Silicon photonics have been approved as one of the best platforms for dense integration of photonic integrated circuits (PICs) due to the high refractive index contrast among its materials. Silicon on insulator (SOI) is a widespread photonics technology, which support a variety of devices for lots of applications. As the photonics market is growing, the number of components in the PICs increases which increase the need for an automated physical verification (PV) process. This PV process will assure reliable fabrication of the PICs as it will check both the manufacturability and the reliability of the circuit. However, PV process is challenging in the case of PICs as it requires running an exhaustive electromagnetic (EM) simulations. Our group have recently proposed an empirical closed form models for the directional coupler and the waveguide bends based on the SOI technology. The models have shown a very good agreement with both finite element method (FEM) and finite difference time domain (FDTD) solvers. These models save the huge time of the 3D EM simulations and can be easily included in any electronic design automation (EDA) flow as the equations parameters can be easily extracted from the layout. In this paper we present experimental verification for our previously proposed models. SOI directional couplers with different dimensions have been fabricated using electron beam lithography and measured. The results from the measurements of the fabricate devices have been compared to the derived models and show a very good agreement. Also the matching can reach 100% by calibrating certain parameter in the model.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1002/adpr.70241": {
+  "title": "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique",
+  "year": 2026,
+  "venue": "Advanced Photonics Research",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Jianmin Wu",
+   "Zuyuan He"
+  ],
+  "abstract": "Interfacing multicore fiber (MCF) with high‐speed optical transceivers serves as a promising solution for large‐scale artificial intelligence (AI) data centers. Fan‐in/fan‐out (FI/FO) devices are critical components for interconnection. However, the stringent space and loss budgets in optical transceivers make the realization of integrable FI/FO devices a significant challenge. In this work, we demonstrate an ultra‐compact low‐loss FI/FO device for 4‐core fiber using femtosecond laser direct writing (FLDW). The device features a footprint as small as 2.5 × 2.0 mm 2 and an insertion loss of 0.54 dB at the wavelength of 1310 nm, serving as a critical interface between MCFs and high‐speed optical transceivers. Through multi‐scan and overwriting methods, we achieve low‐loss waveguides with a propagation loss of 0.13 dB/cm and a coupling loss of 0.06 dB/facet. To mitigate bending loss, we propose a trench‐assisted and offset‐assisted cosine‐shaped waveguide (TOA‐cos). In this architecture, auxiliary trenches effectively suppress radiation loss, while offset‐assisted cosine curves minimize mode‐mismatch loss. Moreover, the TOA‐cos model exhibits compatibility with existing FLDW bending‐loss reduction methods, such as integrated microcracks and composite waveguides, making it a practical solution for chip‐level three‐dimensional optical interconnects.",
+  "cited": 0,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1002/adpr.70241",
+  "oa_status": "gold"
+ },
+ "10.1109/tssc.1968.300136": {
+  "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+  "year": 1968,
+  "venue": "IEEE Transactions on Systems Science and Cybernetics",
+  "authors": [
+   "Peter Hart",
+   "Nils J. Nilsson",
+   "Bertram Raphael"
+  ],
+  "abstract": "Although the problem of determining the minimum cost path through a graph arises naturally in a number of interesting applications, there has been no underlying theory to guide the development of efficient search procedures. Moreover, there is no adequate conceptual framework within which the various ad hoc search strategies proposed to date can be compared. This paper describes how heuristic information from the problem domain can be incorporated into a formal mathematical theory of graph searching and demonstrates an optimality property of a class of search strategies.",
+  "cited": 12729,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tec.1961.5219222": {
+  "title": "An Algorithm for Path Connections and Its Applications",
+  "year": 1961,
+  "venue": "IEEE Transactions on Electronic Computers",
+  "authors": [
+   "C. Y. Lee"
+  ],
+  "abstract": "The algorithm described in this paper is the outcome of an endeavor to answer the following question: Is it possible to find procedures which would enable a computer to solve efficiently path-connection problems inherent in logical drawing, wiring diagramming, and optimal route finding? The results are highly encouraging. Within our framework, we are able to solve the following types of problems: 1) To find a path between two points so that it crosses the least number of existing paths. 2) To find a path between two points so that it avoids as much as possible preset obstacles such as edges. 3) To find a path between two points so that the path is optimal with respect to several properties; for example, a path which is not only one of those which cross the fewest number of existing paths, but, among these, is also one of the shortest. The minimal-distance solution has been programmed on an IBM 704 computer, and a number of illustrations are presented. The class of problems solvable by our algorithm is given in a theorem in Section III. A byproduct of this algorithm is a somewhat remote, but unexpected, relation to physical optics. This is discussed in Section VI.",
+  "cited": 1623,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1145/201310.201328": {
+  "title": "PathFinder",
+  "year": 1995,
+  "venue": null,
+  "authors": [
+   "L. McMurchie",
+   "Carl Ebeling"
+  ],
+  "abstract": "Routing FPGAs is a challenging problem because of the relative scarcity of routing resources, both wires and connection points. This can lead either to slow implementations caused by long wiring paths that avoid congestion or a failure to route all signals. This paper presents PathFinder, a router that balances the goals of performance and routability. PathFinder uses an iterative algorithm that converges to a solution in which all signals are routed while achieving close to the optimal performance allowed by the placement. Routability is achieved by forcing signals to negotiate for a resource and thereby determine which signal needs the resource most. Delay is minimized by allowing the more critical signals a greater say in this negotiation. Because PathFinder requires only a directed graph to describe the architecture of routing resources, it adapts readily to a wide variety of FPGA architectures such as Triptych, Xilinx 3000 and mesh-connected arrays of FPGAs. The results of routing ISCAS benchmarks on the Triptych FPGA architecture show an average increase of only 4.5% in critical path delay over the optimum delay for a placement. Routes of ISCAS benchmarks on the Xilinx 3000 architecture show a greater completion rate than commercial tools, as well as 11% faster implementations.",
+  "cited": 685,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

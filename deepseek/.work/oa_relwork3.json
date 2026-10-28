@@ -1,0 +1,180 @@
+{
+ "10.1002/lpor.201700237": {
+  "title": "Silicon Photonics Circuit Design: Methods, Tools and Challenges",
+  "year": 2018,
+  "venue": "Laser & Photonics Review",
+  "authors": [
+   "Wim Bogaerts",
+   "Lukas Chrostowski"
+  ],
+  "abstract": "Abstract Silicon Photonics technology is rapidly maturing as a platform for larger‐scale photonic circuits. As a result, the associated design methodologies are also evolving from component‐oriented design to a more circuit‐oriented design flow, that makes abstraction from the very detailed geometry and enables design on a larger scale. In this paper, the state of this emerging photonic circuit design flow and its synergies with electronic design automation (EDA) are reviewed. The design flow from schematic capture, circuit simulation, layout and verification is covered. The similarities and the differences between photonic and electronic design, and the challenges and opportunities that present themselves in the new photonic design landscape, such as variability analysis, photonic‐electronic co‐simulation and compact model definition are discussed.",
+  "cited": 604,
+  "type": "article",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lpor.201700237",
+  "oa_status": "hybrid"
+ },
+ "10.1364/optica.5.000876": {
+  "title": "Hybrid integration of silicon photonics circuits and InP lasers by photonic wire bonding",
+  "year": 2018,
+  "venue": "Optica",
+  "authors": [
+   "Muhammad Rodlin Billah",
+   "Matthias Blaicher",
+   "T. Hoose",
+   "Philipp‐Immanuel Dietrich",
+   "Pablo Marin-Palomo",
+   "N. Lindenmann",
+   "Aleksandar Nesic",
+   "Andreas Hofmann",
+   "U. Troppenz",
+   "Martin Moehrle",
+   "Sebastian Randel",
+   "W. Freude",
+   "Christian G. Koos"
+  ],
+  "abstract": "Efficient coupling of III-V light sources to silicon photonic circuits is one of the key challenges of integrated optics. Important requirements are low coupling losses, as well as small footprint and high yield of the overall assembly, along with the ability to use automated processes for large-scale production. In this paper, we demonstrate that photonic wire bonding addresses these challenges by exploiting direct-write two-photon lithography for in-situ fabrication of three-dimensional freeform waveguides between optical chips. In a series proof-of-concept experiments, we connect InP-based horizontal-cavity surface emitting lasers (HCSEL) to passive silicon photonic circuits with insertion losses down to 0.4 dB. To the best of our knowledge, this is the most efficient interface between an InP light source and a silicon photonic chip that has so far been demonstrated. Our experiments represent a key step in advancing photonic wire bonding to a universal integration platform for hybrid photonic multi-chip assemblies that combine known-good dies of different materials to high-performance hybrid multi-chip modules.",
+  "cited": 298,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/optica.5.000876",
+  "oa_status": "gold"
+ },
+ "10.1038/s41377-020-0272-5": {
+  "title": "Hybrid multi-chip assembly of optical communication engines by in situ 3D nano-lithography",
+  "year": 2020,
+  "venue": "Light Science & Applications",
+  "authors": [
+   "Matthias Blaicher",
+   "Muhammad Rodlin Billah",
+   "Juned Nassir Kemal",
+   "T. Hoose",
+   "Pablo Marin-Palomo",
+   "Andreas Hofmann",
+   "Y. Kutuvantavida",
+   "Clemens Kieninger",
+   "Philipp‐Immanuel Dietrich",
+   "Matthias Lauermann",
+   "S. Wolf",
+   "U. Troppenz",
+   "Martin Moehrle",
+   "Florian Merget",
+   "Sebastian T. Skacel",
+   "Jeremy Witzens",
+   "Sebastian Randel",
+   "W. Freude",
+   "Christian G. Koos"
+  ],
+  "abstract": "Three-dimensional (3D) nano-printing of freeform optical waveguides, also referred to as photonic wire bonding, allows for efficient coupling between photonic chips and can greatly simplify optical system assembly. As a key advantage, the shape and the trajectory of photonic wire bonds can be adapted to the mode-field profiles and the positions of the chips, thereby offering an attractive alternative to conventional optical assembly techniques that rely on technically complex and costly high-precision alignment. However, while the fundamental advantages of the photonic wire bonding concept have been shown in proof-of-concept experiments, it has so far been unclear whether the technique can also be leveraged for practically relevant use cases with stringent reproducibility and reliability requirements. In this paper, we demonstrate optical communication engines that rely on photonic wire bonding for connecting arrays of silicon photonic modulators to InP lasers and single-mode fibres. In a first experiment, we show an eight-channel transmitter offering an aggregate line rate of 448 Gbit/s by low-complexity intensity modulation. A second experiment is dedicated to a four-channel coherent transmitter, operating at a net data rate of 732.7 Gbit/s - a record for coherent silicon photonic transmitters with co-packaged lasers. Using dedicated test chips, we further demonstrate automated mass production of photonic wire bonds with insertion losses of (0.7 ± 0.15) dB, and we show their resilience in environmental-stability tests and at high optical power. These results might form the basis for simplified assembly of advanced photonic multi-chip systems that combine the distinct advantages of different integration platforms.",
+  "cited": 175,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41377-020-0272-5.pdf",
+  "oa_status": "gold"
+ },
+ "10.1038/s41598-024-84274-7": {
+  "title": "Improved S-bend optical waveguide loss formula verified by experiments",
+  "year": 2025,
+  "venue": "Scientific Reports",
+  "authors": [
+   "Ary Syahriar"
+  ],
+  "abstract": "Curvature of a dielectric waveguide always leads to attenuation of the mode power as it propagates through the curved region. In single mode guides, bending loss becomes significant as the radius of curvature reduces and is strongly dependent on the confinement of the guided mode, so that weakly guiding waveguides can tolerate only large radii of curvature. In this paper we verify our new theoretical version on power loss prediction of S-bend optical waveguides by using analytical theory based on integration of absorption coefficient and compare it to the experimental measurement of such waveguide bends. The objectives are to formulate the best analytical theory available that can predict the power loss in S-bends whose shape is defined as a function y = f(x), where its first derivative is continuous. Using this technique, the effect of post-process thermal annealing of channel guide devices fabricated by electron beam irradiation of silica PECVD materials is investigated. A particular performance characteristic is examined, which have its origin in the index reduction caused by annealing, increases in waveguide bend losses. Furthermore, to determine the waveguide shape, we used Marcatili's effective index method, employing model-dependent parameters obtained from the experimental data.",
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41598-024-84274-7.pdf",
+  "oa_status": "gold"
+ },
+ "10.1007/s10825-022-01989-4": {
+  "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+  "year": 2022,
+  "venue": "Journal of Computational Electronics",
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Kumar Roy"
+  ],
+  "abstract": null,
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.researchsquare.com/article/rs-1652266/latest.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/vlsid51830.2021.00047": {
+  "title": "Optical Waveguide Channel Routing with Reduced Bend-Loss for Photonic Integrated Circuits",
+  "year": 2021,
+  "venue": "International Conference on VLSI Design",
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Kumar Roy"
+  ],
+  "abstract": "Silicon photonics (Si-photonics) is a potential technology that integrates the electronic and optical circuits on a single chip, in order to satisfy the increasing demand of highspeed and low-power dissipation in the current very-large-scale integration circuits. It has opened up the research directions in the domain of design automation for photonic integrated circuits. While deciding the physical layout of the optical circuits on the substrate, it is crucial to obtain the optimal routing of optical waveguides. The optical channel routing problem is a multiobjective optimization problem, in which all the parameters like the total bend loss, the total propagation loss, the total crossing loss, and the total number of tracks are required to be minimized. However, in comparison to propagation and crossing loss, the bending loss has a higher impact on the total signal loss. In this paper, a grid-based method has been proposed for optical waveguide channel routing (OWCR) while reducing the total bend loss and the total number of tracks. Simulation results reveals that OWCR can reduce the total bend loss by 25.82 % and 36.57 % over the state-of-the-art technique for h = 1 and h = 1.732, respectively, while increasing the total number of tracks by 18.68 %.",
+  "cited": 3,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tcpmt.2024.3393930": {
+  "title": "Layer and Length-Deviation Limit Aware Interposer Routing for Bend and Wirelength Minimization",
+  "year": 2024,
+  "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+  "authors": [
+   "Hyungjun Park",
+   "Byung‐In Kim",
+   "Dong Gu Choi",
+   "Hyunkyu Kim",
+   "Tae Wook Kang",
+   "You Jung Lee"
+  ],
+  "abstract": "The advancement of 2.5-D integration technology has proven to be an efficient means of combining heterogeneous chiplets to achieve advanced design objectives. In the context of 2.5-D integration, especially in high-frequency systems, minimizing timing skew among multiple nets has become imperative. Considering this, the deviation of the wirelength for numerous nets must be constrained within tight bounds to ensure the optimal performance of 2.5-D systems. The interposer used in 2.5-D integration offers enhanced flexibility in octagonal wire routability and interlayer transitions; however, it introduces the challenge of minimizing routing bends to enhance both manufacturability and signal integrity. In our study, we first addressed an interposer routing problem, minimizing both wirelength and bends in octagonal routable interposer design, while adhering to constraints on the length-deviation limits among multiple nets. We formulated a mixed-integer linear programming (MILP) model by considering the requirements of the routing problem. However, the model has several challenges, and the routing problem is NP-hard, indicating that no exact polynomial time method may exist. Consequently, we proposed an efficient routing algorithm that utilizes an assignment heuristic and bidirectional shortest path merge technique. Our algorithm provides a near-optimal solution in terms of the total wirelength and number of bends within an acceptable computation time. As a result, a design task that would have taken a month to complete was finished in less than two days. Experiments on real-world test cases verified that the proposed algorithm consistently delivers satisfactory solutions.",
+  "cited": 3,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1143/jjap.44.l1446": {
+  "title": "Three-Dimensional Waveguide Interconnection in Planar Lightwave Circuits by Direct Writing with Femtosecond Laser",
+  "year": 2005,
+  "venue": "Japanese Journal of Applied Physics",
+  "authors": [
+   "Yusuke Nasu",
+   "Masaki Kohtoku",
+   "Yoshinori Hibino",
+   "Yasuyuki Inoue"
+  ],
+  "abstract": "The three-dimensional (3D) interconnection of waveguides in planar lightwave circuits (PLCs) is demonstrated. A femtosecond laser successfully interconnects the waveguides of PLCs with low loss by writing 3D waveguides in the PLCs. A directly written waveguide with a length of about 2000 µm crossed over another waveguide without any interaction. The excess losses at 1550 nm were 2.7 and 2.8 dB for the transverse electric (TE) and transverse magnetic (TM) modes, respectively.",
+  "cited": 4,
+  "type": "article",
+  "oa_url": "https://iopscience.iop.org/article/10.1143/JJAP.44.L1446/pdf",
+  "oa_status": "bronze"
+ },
+ "10.1117/12.3007419": {
+  "title": "A graph-based global routing method for single photonic integrated circuit waveguide connection",
+  "year": 2023,
+  "venue": "Applied Optics and Photonics China (AOPC): AI in Optics and Photonics",
+  "authors": [
+   "Xiao-Juan Yang",
+   "Guowei Cao",
+   "Jiyao Yu",
+   "Yu Li"
+  ],
+  "abstract": "With the integration and design complexity of silicon photonics chips raises, the cost of manual routing based on design experience has significantly increased, which brings urgent demand for auto routing methods. This article proposed a global auto routing method for single waveguide connection in photonic integrated circuits. The method firstly partitions all routable areas into non-uniform grids based on the layout placement information and converts the grids into an undirected graph with respect to the path length and congestion of waveguides between adjacent grids. Next, an improved A* algorithm runs in the graph to find a best path between two optical ports, with additional penalties on every bend in the path, beyond cumulative lengths and congestion penalties. Heuristic terms have also been added to increase the convergence speed of the algorithm. The optimized path in graph is further used to perform multiple adhesive lines for waveguide control points generation. Then, three types of 90-degree bends and two types of S-bend according to specific spacing and angle relationships between control points are applied to generate waveguide trace. This method can avoid collisions between target waveguide and other devices on the layout, optimize the global path length, minimize the number of waveguide’s bends, prevent waveguide congestion in specific spaces from exceeding the set threshold, and at the same time generate the optimal waveguide and insert it into layout.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/oecc.2018.8730115": {
+  "title": "Shuffle converter using 3D waveguide for MCF/SMF fan-in fan-out configuration toward over 1,000 port count optical matrix switch",
+  "year": 2018,
+  "venue": "Opto-Electronics and Communications Conference (OECC)",
+  "authors": [
+   "Kiichi Hamamoto",
+   "Yasuhiro Hinokuma",
+   "Swapan K. Ghosh",
+   "Ryota Kuwahata",
+   "Haisong Jiang"
+  ],
+  "abstract": "We newly propose shuffle converter which scales optical switch toward over 1,000 port count by using 3D waveguide of MCF/SMF ribbon fan-in fan-out configuration. The principle device showed sufficient crosstalk of less than -57.4 dB, and insertion loss of 2.1 dB successfully.",
+  "cited": 1,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

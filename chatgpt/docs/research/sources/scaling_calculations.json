@@ -1,0 +1,72 @@
+{
+  "kind": "theoretical calculations and constructed research examples; NOT measurements",
+  "scaling": [
+    {
+      "N": 64,
+      "path_pairs": 2016,
+      "naive_segment_pairs_100_segments_per_path": 20160000
+    },
+    {
+      "N": 128,
+      "path_pairs": 8128,
+      "naive_segment_pairs_100_segments_per_path": 81280000
+    },
+    {
+      "N": 256,
+      "path_pairs": 32640,
+      "naive_segment_pairs_100_segments_per_path": 326400000
+    },
+    {
+      "N": 512,
+      "path_pairs": 130816,
+      "naive_segment_pairs_100_segments_per_path": 1308160000
+    },
+    {
+      "N": 1024,
+      "path_pairs": 523776,
+      "naive_segment_pairs_100_segments_per_path": 5237760000
+    },
+    {
+      "N": 2048,
+      "path_pairs": 2096128,
+      "naive_segment_pairs_100_segments_per_path": 20961280000
+    }
+  ],
+  "inversions_1024_random_expectation": 261888,
+  "inversions_1024_reversal": 523776,
+  "inversions_32_by_32_transpose": 246016,
+  "CPO_example": {
+    "source": "USConec165 section1.1",
+    "one_way_Tbps": 51.2,
+    "Gbps_per_unidirectional_lane": 100,
+    "tx_fibers": 512,
+    "rx_fibers": 512,
+    "total_physical_fibers": 1024
+  },
+  "array_span_mm_at_250um_pitch": {
+    "32_positions": 7.75,
+    "1024_positions": 255.75
+  },
+  "optical_lane_lower_bound_example": {
+    "D_Tbps": 9.6,
+    "r_Gbps": 100,
+    "eta": 0.8,
+    "fibers_W8": 15,
+    "fibers_W1": 120
+  },
+  "time_example": {
+    "N": 1024,
+    "length_per_waveguide_mm": 50,
+    "total_length_m": 51.2,
+    "v10_mms_single_scan_min": 85.33333333333333,
+    "v10_mms_8scans_hours": 11.377777777777778,
+    "v1_mms_single_scan_hours": 14.222222222222221,
+    "v1_mms_8scans_hours": 113.77777777777777
+  },
+  "independent_yield_example": {
+    "p_0.999": 0.35897147818971004,
+    "p_0.9999": 0.9026637901223815
+  },
+  "ng1_5_propagation_ns_per_m": 5.0,
+  "pcie5_x16_128b130b_GBps_one_way": 63.01538461538462
+}

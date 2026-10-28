@@ -1,0 +1,285 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        30
+      ]
+    ],
+    "date-time": "2026-09-30T19:06:38Z",
+    "timestamp": 1790795198429,
+    "version": "4.1.0"
+  },
+  "reference-count": 0,
+  "publisher": "SPIE-Intl Soc Optical Eng",
+  "issue": "03",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2023-04-12T00:00:00Z",
+        "timestamp": 1681257600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Adv. Photon. Nexus"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        12
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Recently, transmitting diverse signals in different cores of a multicore fiber (MCF) has greatly improved the communication capacity of a single fiber. In such an MCF-based communication system, mux/demux devices with broad bandwidth are of great significance. In this work, we design and fabricate a 19-channel mux/demux device based on femtosecond laser direct writing. The fabricated mux/demux device possesses an average insertion loss of 0.88 dB and intercore crosstalk of no more than − 29.1 dB. Moreover, the fabricated mux/demux device features a broad bandwidth across the C+L band. Such a mux/demux device enables low-loss 19-core fiber (de)multiplexing over the whole C+L band, showing a convincing potential value in wavelength-space division multiplexing applications. In addition, a 19-core fiber fan-in/fan-out system is also established based on a pair of mux/demux devices in this work.</jats:p>",
+  "DOI": "10.1117/1.apn.2.3.036002",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        12
+      ]
+    ],
+    "date-time": "2023-04-12T11:32:55Z",
+    "timestamp": 1681299175000
+  },
+  "page": "1-8",
+  "source": "Crossref",
+  "is-referenced-by-count": 28,
+  "title": [
+    "Low-insertion-loss femtosecond laser-inscribed three-dimensional high-density mux/demux devices"
+  ],
+  "prefix": "10.1117",
+  "volume": "2",
+  "author": [
+    {
+      "given": "Yize",
+      "family": "Liang",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Huazhong Univ. of Science and Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Chengkun",
+      "family": "Cai",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Huazhong Univ. of Science and Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kangrui",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Huazhong Univ. of Science and Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xiaokang",
+      "family": "Lian",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Huazhong Univ. of Science and Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jue",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Huazhong Univ. of Science and Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jinfeng",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Huazhong Univ. of Science and Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lei",
+      "family": "Shen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Yangtze Optical Fibre and Cable Joint Stock Ltd. Co."
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0579-3041",
+      "authenticated-orcid": false,
+      "given": "Jian",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Huazhong Univ. of Science and Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "189",
+  "container-title": [
+    "Advanced Photonics Nexus"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-2/issue-03/036002/Low-insertion-loss-femtosecond-laser-inscribed-three-dimensional-high-density/10.1117/1.APN.2.3.036002.full",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T00:46:43Z",
+    "timestamp": 1790210803000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-2/issue-03/036002/Low-insertion-loss-femtosecond-laser-inscribed-three-dimensional-high-density/10.1117/1.APN.2.3.036002.full"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        12
+      ]
+    ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+    "issue": "03",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          1
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1117/1.apn.2.3.036002",
+  "relation": {},
+  "ISSN": [
+    "2791-1519",
+    "2791-1519"
+  ],
+  "issn-type": [
+    {
+      "value": "2791-1519",
+      "type": "print"
+    },
+    {
+      "value": "2791-1519",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        12
+      ]
+    ]
+  }
+}

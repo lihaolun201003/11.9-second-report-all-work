@@ -1,0 +1,39 @@
+A_OCS | optical circuit switch data center network -> 15
+A_OCS | MEMS optical circuit switch large port count -> 15
+A_OCS | Jupiter datacenter network optical circuit switch -> 15
+A_OCS | hybrid optical circuit switching packet switching datacenter -> 15
+A_OCS | optical circuit switch Clos topology reconfiguration -> 15
+A_OCS | large scale optical cross-connect switch datacenter -> 15
+A_Shuffle | fiber shuffle optical interconnect high density -> 15
+A_Shuffle | optical shuffle waveguide backplane -> 15
+A_Shuffle | three-dimensional waveguide shuffle optical interconnect -> 15
+A_Shuffle | optical backplane passive optical interconnect waveguide -> 15
+A_Shuffle | waveguide shuffle network multiprocessor -> 15
+A_Shuffle | fiber shuffle module data center cabling -> 15
+A_Shuffle | MPO ferrule high density fiber connector loss -> 15
+B_HBM | high bandwidth memory HBM DRAM stack TSV -> 15
+B_HBM | HBM3E memory interface bandwidth -> 15
+B_HBM | HBM4 standard JEDEC -> 15
+B_HBM | optical interconnect high bandwidth memory -> 15
+B_HBM | optically connected memory HBM -> 15
+B_HBM | memory disaggregation optical interconnect datacenter -> 15
+B_HBM | co-packaged optics AI accelerator interconnect -> 15
+B_HBM | optical I/O chiplet silicon photonics -> 15
+B_HBM | CXL memory expansion pooling -> 15
+B_HBM | photonic memory interconnect rack scale -> 15
+B_HBM | GPU interconnect NVLink scale-up network -> 15
+B_HBM | optical scale-up network AI cluster -> 15
+C_Glass | femtosecond laser direct writing optical waveguide glass -> 15
+C_Glass | ultrafast laser inscription photonic integrated circuits review -> 15
+C_Glass | ion exchange glass waveguide optical interconnect -> 15
+C_Glass | glass optical interposer co-packaged optics waveguide -> 15
+C_Glass | femtosecond laser written waveguide bending loss -> 15
+C_Glass | laser written 3D photonic interconnect multicore fiber -> 15
+C_Glass | fan-in fan-out multicore fiber femtosecond laser -> 15
+C_Glass | polymer waveguide optical backplane -> 15
+C_Glass | silicon photonics transceiver energy per bit -> 15
+C_Glass | glass waveguide optical shuffle -> 15
+C_Glass | thin glass waveguide optical interconnect 3D -> 15
+C_Glass | femtosecond laser glass waveguide low loss -> 15
+D_Routing_EDA | automated routing photonic integrated circuits -> 15
+D_Routing_EDA | waveguide routing algorithm optical interconnect layout -> 15

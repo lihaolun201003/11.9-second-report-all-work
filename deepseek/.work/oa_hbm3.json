@@ -1,0 +1,69 @@
+{
+ "10.1364/ofc.2019.m4d.7": {
+  "title": "TeraPHY: A High-density Electronic-Photonic Chiplet for Optical I/O from a Multi-Chip Module",
+  "year": 2019,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Roy Meade",
+   "Shahab Ardalan",
+   "Michael L. Davenport",
+   "John M. Fini",
+   "Chen Sun",
+   "Mark T. Wade",
+   "Alexandra Wright-Gladstein",
+   "Chong Zhang"
+  ],
+  "abstract": "In this work, we provide an overview of System-in-Package (SiP) integration of an electronic-photonic chiplet fabricated in a commercial CMOS foundry. Assembly considerations, including co-packaging in a standard multi-chip module (MCM) package with a System-on-Chip (SoC), thermals, and fiber attach will be reviewed.",
+  "cited": 37,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ectc51909.2023.00046": {
+  "title": "Co-packaged Optics on Glass Substrates for 102.4 Tb/s Data Center Switches",
+  "year": 2023,
+  "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+  "authors": [
+   "Lucas W. Yeary",
+   "Lars Brusberg",
+   "Cheolbok Kim",
+   "Seong-Ho Seok",
+   "JungHyun Noh",
+   "Alon Rozenvax"
+  ],
+  "abstract": "Next generation data centers are challenged with the task of delivering increased bandwidth and data rates at manageable power consumption. Co-packaged optics offer a path forward by enabling significant power reduction when electronic and photonic chiplets are locally mounted on a packaging substrate. In this paper, we discuss a glass substrate solution where both optical and electrical connectivity can be fabricated using ion-exchange (IOX) waveguides embedded into the glass and low-loss electrical routing. Design aspects are discussed to support 102.4 Tb/s data center switch applications. Signal transmission between the ASIC and PIC is completed with a total of 5 metal layers utilizing fine-line signal routing separated by ground planes. Through glass vias (TGVs) provide both power delivery for the mounted components and data management connectivity. Low-loss evanescent coupling occurs between the waveguides embedded in the glass substrate and photonic chips with high-density silicon nitride optical IOs. This design enables low-cost assembly methods involving the pick and place alignment of optical components and offers connectivity with low-profile mechanical transfer (MT) ferrule based fiber connectors.",
+  "cited": 26,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/hotchips.2019.8875658": {
+  "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth in-Package Optical I/O",
+  "year": 2019,
+  "venue": "IEEE Hot Chips Symposium",
+  "authors": [
+   "Mark T. Wade"
+  ],
+  "abstract": "In this article, we present TeraPHY, a monolithic electronic-photonic chiplet technology for low power and low latency, multi-Tb/s chip-to-chip communications. Integration of the TeraPHY optical technology with open source advanced interconnect bus interface enables communication between chips at board, rack, and row level at the energy and latency cost of in-package interconnect. This enables the design of logically connected but physically separated large-scale and high-performance digital systems. The copackaging integration approach is demonstrated by integrating the TeraPHY die into the Intel Stratix10 FPGA multichip package.",
+  "cited": 21,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2022,
+  "venue": "International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate a low-loss and low-crosstalk fan-in/fan-out device for three-core fiber using femtosecond laser direct inscription. The fabricated FI/FO device has an averaged insertion loss of 1.33 dB and a crosstalk smaller than −49 dB.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

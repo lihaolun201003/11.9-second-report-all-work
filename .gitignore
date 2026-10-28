@@ -1,0 +1,19 @@
+# ── macOS 系统文件 ─────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Python 工具环境（可再生成、非工作成果） ─────
+chatgpt/docs/research/.venv/
+**/__pycache__/
+**/*.pyc
+
+# ── 下载的第三方论文原文 / 抓取页面（版权与体积原因不入公开仓库）──
+deepseek/.work/cache/
+deepseek/.work/pages/
+deepseek/.work/rw_pages/
+deepseek/.work/*.pdf
+deepseek/.work/*.txt
+chatgpt/docs/research/sources/raw/
+chatgpt/docs/research/sources/**/*.pdf
+chatgpt/docs/research/sources/**/*.txt
+chatgpt/docs/research/sources/**/*.html

@@ -1,0 +1,835 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        27
+      ]
+    ],
+    "date-time": "2026-10-27T19:48:25Z",
+    "timestamp": 1793130505034,
+    "version": "4.5.0"
+  },
+  "reference-count": 47,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-004"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "62275150"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62275150"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Optics &amp; Laser Technology"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.optlastec.2025.114521",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        12,
+        17
+      ]
+    ],
+    "date-time": "2025-12-17T11:38:21Z",
+    "timestamp": 1765971501000
+  },
+  "page": "114521",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 6,
+  "special_numbering": "C",
+  "title": [
+    "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber"
+  ],
+  "prefix": "10.1016",
+  "volume": "194",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0000-2650-714X",
+      "authenticated-orcid": false,
+      "given": "Fengrui",
+      "family": "Yu",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lin",
+      "family": "Ma",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Linbin",
+      "family": "Bai",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Junjie",
+      "family": "Xiong",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mingjing",
+      "family": "Xu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xiaoke",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zuyuan",
+      "family": "He",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0005",
+      "doi-asserted-by": "crossref",
+      "first-page": "354",
+      "DOI": "10.1038/nphoton.2013.94",
+      "article-title": "Space-division multiplexing in optical fibres",
+      "volume": "7",
+      "author": "Richardson",
+      "year": "2013",
+      "journal-title": "Nature Photon."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0010",
+      "doi-asserted-by": "crossref",
+      "first-page": "1786",
+      "DOI": "10.1109/JPROC.2022.3182049",
+      "article-title": "Randomly-coupled multi-core fiber technology",
+      "volume": "110",
+      "author": "Hayashi",
+      "year": "2022",
+      "journal-title": "Proc. IEEE"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0015",
+      "doi-asserted-by": "crossref",
+      "first-page": "24190",
+      "DOI": "10.1364/OE.26.024190",
+      "article-title": "Fiber-optic transmission and networking: the previous 20 and the next 20 years [Invited]",
+      "volume": "26",
+      "author": "Winzer",
+      "year": "2018",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0020",
+      "doi-asserted-by": "crossref",
+      "first-page": "830",
+      "DOI": "10.1109/LPT.2023.3274310",
+      "article-title": "3.61 Pbit/s S, C, and L-band transmission with 19-core single-mode fiber",
+      "volume": "35",
+      "author": "Zhang",
+      "year": "2023",
+      "journal-title": "IEEE Photonics Tech. l."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "521",
+      "DOI": "10.1109/JLT.2011.2174336",
+      "article-title": "Mode-division multiplexing over 96 km of few-mode fiber using coherent 6 × 6 MIMO processing",
+      "volume": "30",
+      "author": "Ryf",
+      "year": "2012",
+      "journal-title": "J. Lightwave Technol."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0030",
+      "doi-asserted-by": "crossref",
+      "first-page": "5547",
+      "DOI": "10.1109/JLT.2018.2874526",
+      "article-title": "Design and characterization of ring-assisted few-mode fibers for weakly coupled mode-division multiplexing transmission",
+      "volume": "36",
+      "author": "Jiang",
+      "year": "2018",
+      "journal-title": "J. Lightwave Technol."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0035",
+      "doi-asserted-by": "crossref",
+      "first-page": "16576",
+      "DOI": "10.1364/OE.19.016576",
+      "article-title": "Design and fabrication of ultra-low crosstalk and low-loss multi-core fiber",
+      "volume": "19",
+      "author": "Hayashi",
+      "year": "2011",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0040",
+      "doi-asserted-by": "crossref",
+      "first-page": "6870",
+      "DOI": "10.1109/JLT.2020.3019645",
+      "article-title": "High-speed performance evaluation of graded-index multicore fiber compatible with multimode and quasi-single mode operation",
+      "volume": "38",
+      "author": "Liu",
+      "year": "2020",
+      "journal-title": "J. Lightwave Technol."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0045",
+      "doi-asserted-by": "crossref",
+      "first-page": "5794",
+      "DOI": "10.1364/OE.477578",
+      "article-title": "Ultra-dense, 1152-core, broadband multicore fiber link deployed in a metro network",
+      "volume": "31",
+      "author": "Kopp",
+      "year": "2023",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0050",
+      "unstructured": "https://www.submarinenetworks.com/en/systems/transpacific/tpu."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0055",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1109/JPHOT.2023.3341415",
+      "article-title": "Study on characteristics of coupled-core four-core fibers with different core pitches",
+      "volume": "16",
+      "author": "Xiong",
+      "year": "2024",
+      "journal-title": "IEEE Photonics J."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0060",
+      "doi-asserted-by": "crossref",
+      "first-page": "177",
+      "DOI": "10.1364/OL.546830",
+      "article-title": "Mitigation of MIMO equalizer-enhanced noise in long-haul coupled-core multicore fiber transmissions by an advanced spectral shaping filter",
+      "volume": "50",
+      "author": "Xiong",
+      "year": "2025",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0065",
+      "doi-asserted-by": "crossref",
+      "unstructured": "H. Arao, O. Shimakawa, M. Harumoto, T. Sano, A. Inoue, Compact Multi-core fiber fan-in/out using GRIN lens and microlens array, in 2014 Opto-Electronics and Communications Conference (OECC) (2014) Mo1.E1.",
+      "DOI": "10.1364/OFC.2014.M3K.1"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0070",
+      "doi-asserted-by": "crossref",
+      "unstructured": "T. Takahata, A. Kaya, Y. Ozawa, Y. Minagawa,T. Kobayashi, High Reliability Fan-in / Fan-out device with isolator for multi-core fibre based on free space optics, in 2021 European Conference on Optical Communication (ECOC) (2021) 1-3.",
+      "DOI": "10.1109/ECOC52684.2021.9605857"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0075",
+      "doi-asserted-by": "crossref",
+      "first-page": "1640",
+      "DOI": "10.1109/JLT.2022.3147477",
+      "article-title": "Long-haul coupled 4-core fiber transmission over 7,200 km with real-time MIMO DSP",
+      "volume": "40",
+      "author": "Beppu",
+      "year": "2022",
+      "journal-title": "J. Lightwave Technol."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0080",
+      "doi-asserted-by": "crossref",
+      "unstructured": "K. Kawasaki, T. Sugimori, K. Watanabe, T. Saito, R. Sugizaki, Four-fiber Fan-out for MCF with square lattice structure, in 2017 Optical Fiber Communication Conference (OFC) (2017) W3H.4.",
+      "DOI": "10.1364/OFC.2017.W3H.4"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0085",
+      "doi-asserted-by": "crossref",
+      "unstructured": "K. Ozaki, Y. Koike, A. Nishimura, Bundle-type fan-in/fan-out device for 4-core multi-core fiber with high return loss, in 2023 Optical Fiber Communication Conference (OFC) (2023) W2A.10.",
+      "DOI": "10.1364/OFC.2023.W2A.10"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0090",
+      "doi-asserted-by": "crossref",
+      "unstructured": "C. Yang, H. Du, Y. Shao, F. Zhang, Z. Liu, S. Zhang, Z. Zhao, M. Tang, Fused tapered fan-in/fan-out device of 6-mode 7-core fiber based on OM3 multimode fiber, in 2023 Asia Communications and Photonics Conference/2023 International Photonics and Optoelectronics Meetings (ACP/POEM) (2023), pp. 1-4.",
+      "DOI": "10.1109/ACP/POEM59049.2023.10369150"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0095",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.yofte.2024.103755",
+      "article-title": "Low-loss C-band all-fiber FIFO device by novel bridge fiber",
+      "volume": "84",
+      "author": "Li",
+      "year": "2024",
+      "journal-title": "Opt. Fiber Technol."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0100",
+      "first-page": "1",
+      "article-title": "Low loss ultra-small core pitch all-fiber fan-in/fan-out device for coupled-core multicore fibers",
+      "volume": "14",
+      "author": "Xiong",
+      "year": "2022",
+      "journal-title": "IEEE Photonics J."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0105",
+      "doi-asserted-by": "crossref",
+      "unstructured": "M. Takahashi, T. Sasaki, R. Sugizaki, Fiber bundle fan-in/fan-out (fifo) for coupled mcf with high-Δ 4-core fiber pitch converter, in 2024 Optical Fiber Communication Conference (OFC) (2024) M2E.3.",
+      "DOI": "10.1364/OFC.2024.M2E.3"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0110",
+      "doi-asserted-by": "crossref",
+      "unstructured": "S. Gross, A. Ross-Adams, N. Riesen, S. G. Leon-Saval, M. J. Withford, Ultrafast laser-written sub-components for space division multiplexing, in 2020 Optical Fiber Communication Conference (OFC) (2020) W1A.1.",
+      "DOI": "10.1364/OFC.2020.W1A.1"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0115",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Y. C. Ling, S. Yuan, S. J. B. Yoo, Low-loss three-dimensional fan-in/fan-out devices for multi-core fiber integration, in 2021 Optical Fiber Communication Conference (OFC) (2021) Th1A.37.",
+      "DOI": "10.1364/OFC.2021.Th1A.37"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0120",
+      "doi-asserted-by": "crossref",
+      "first-page": "4766",
+      "DOI": "10.1364/OL.470670",
+      "article-title": "Effectively writing low propagation and bend loss waveguides in the silica glass by using a femtosecond laser",
+      "volume": "47",
+      "author": "Tan",
+      "year": "2022",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0125",
+      "doi-asserted-by": "crossref",
+      "first-page": "1675",
+      "DOI": "10.1364/OE.448689",
+      "article-title": "Low-crosstalk laser-direct-writing fi/fo device for 8×100-gbps optical interconnection",
+      "volume": "30",
+      "author": "Yang",
+      "year": "2022",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0130",
+      "doi-asserted-by": "crossref",
+      "first-page": "2677",
+      "DOI": "10.1364/PRJ.465174",
+      "article-title": "3d waveguide device for few-mode multi-core fiber optical communications",
+      "volume": "10",
+      "author": "Fang",
+      "year": "2022",
+      "journal-title": "Photon. Res."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0135",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Z. Dai, J. Xiong, L. Ma, Z. He, Low-loss and low-crosstalk fan-in/fan-out device for multicore fiber using a femtosecond laser direct inscription technique, in 2022 International Conference on Optical Communications and Networks (ICOCN) (2022) 1-2.",
+      "DOI": "10.1109/ICOCN55511.2022.9901157"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0140",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1117/1.APN.2.3.036002",
+      "article-title": "Low-insertion-loss femtosecond laser-inscribed three-dimensional high-density mux/demux devices",
+      "volume": "2",
+      "author": "Liang",
+      "year": "2023",
+      "journal-title": "Adv. Photonics Nexus"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0145",
+      "doi-asserted-by": "crossref",
+      "first-page": "5356",
+      "DOI": "10.1109/JLT.2024.3391919",
+      "article-title": "Self-aligning sockets for packaging multicore fibers to photonic integrated circuits",
+      "volume": "42",
+      "author": "Djogo",
+      "year": "2024",
+      "journal-title": "J. Lightwave Technol."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0150",
+      "doi-asserted-by": "crossref",
+      "first-page": "2331",
+      "DOI": "10.1364/OL.37.002331",
+      "article-title": "Ultrafast laser inscription of a 121-waveguide fan-out for astrophotonics",
+      "volume": "37",
+      "author": "Thomson",
+      "year": "2012",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0155",
+      "doi-asserted-by": "crossref",
+      "unstructured": "R. Ryf, N. K. Fontaine, B. Guan, R.-J. Essiambre, S. Randel, A.H. Gnauck, S. Chandrasekhar, A. Adamiecki, G. Raybon, B. Ercan, R. P. Scott, S. J. B. Yoo, T. Hayashi, T. Nagashima, T. Sasaki, 1705-km transmission over coupled-core fibre supporting 6 spatial modes, in 2014 The European Conference on Optical Communication (ECOC) (2014) pp. 1–3.",
+      "DOI": "10.1109/ECOC.2014.6964273"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0160",
+      "doi-asserted-by": "crossref",
+      "unstructured": "G. Rademacher, M. van den Hout, R. S. Luís, B. J. Puttnam, G. D. Sciullo, T. Hayashi, A. Inoue, T. Nagashima, S. Gross, A. Ross-Adams, M. J. Withford, J. Sakaguchi, C. Antonelli, C. Okonkwo, H. Furukawa, Randomly coupled 19-core multi-core fiber with standard cladding diameter, in 2023 Optical Fiber Communication Conference (OFC) (2023) Th4A.4.",
+      "DOI": "10.1364/OFC.2023.Th4A.4"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0165",
+      "article-title": "Femtosecond laser ultrafast atomic scale renovating laser-induced graphene",
+      "volume": "2506215",
+      "author": "Wang",
+      "year": "2025",
+      "journal-title": "Adv. Funct. Mater."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0170",
+      "doi-asserted-by": "crossref",
+      "first-page": "23431",
+      "DOI": "10.1021/acsnano.5c06945",
+      "article-title": "Femtosecond laser atomic–nano–micro fabrication of biomimetic perovskite quantum dots films toward durable multicolor display",
+      "volume": "19",
+      "author": "Xiao",
+      "year": "2025",
+      "journal-title": "ACS Nano"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0175",
+      "doi-asserted-by": "crossref",
+      "first-page": "307",
+      "DOI": "10.1126/science.abj2691",
+      "article-title": "Three-dimensional direct lithography of stable perovskite nanocrystals in glass",
+      "volume": "375",
+      "author": "Sun",
+      "year": "2022",
+      "journal-title": "Science"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0180",
+      "doi-asserted-by": "crossref",
+      "first-page": "7434",
+      "DOI": "10.1038/s41467-025-62426-1",
+      "article-title": "25 nm-Feature, 104-aspect-ratio, 10 mm2-area single-pulsed laser nanolithography",
+      "volume": "16",
+      "author": "Chen",
+      "year": "2025",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0185",
+      "doi-asserted-by": "crossref",
+      "first-page": "14229",
+      "DOI": "10.1039/C7NR04582D",
+      "article-title": "Femtosecond laser induced robust periodic nanoripple structured mesh for highly efficient oil–water separation",
+      "volume": "9",
+      "author": "Yin",
+      "year": "2017",
+      "journal-title": "Nanoscale"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0190",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1002/advs.202204891",
+      "article-title": "Wetting ridge-guided directional water self-transport",
+      "volume": "9",
+      "author": "Wang",
+      "year": "2022",
+      "journal-title": "Adv. Sci."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0195",
+      "doi-asserted-by": "crossref",
+      "first-page": "697",
+      "DOI": "10.1038/35089130",
+      "article-title": "Finer features for functional microdevices - Micromachines can be created with higher resolution using two-photon absorption",
+      "volume": "412",
+      "author": "Kawata",
+      "year": "2001",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0200",
+      "doi-asserted-by": "crossref",
+      "first-page": "126",
+      "DOI": "10.1038/s41377-024-01466-6",
+      "article-title": "Free-standing microscale photonic lantern spatial mode (De-)multiplexer fabricated using 3D nanoprinting",
+      "volume": "13",
+      "author": "Dana",
+      "year": "2024",
+      "journal-title": "Light Sci. Appl."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0205",
+      "doi-asserted-by": "crossref",
+      "first-page": "723",
+      "DOI": "10.1364/OL.30.000723",
+      "article-title": "Low-loss waveguides written with a femtosecond laser for flexible interconnection in a planar light-wave circuit",
+      "volume": "30",
+      "author": "Nasu",
+      "year": "2005",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0210",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.yofte.2022.102991",
+      "article-title": "Refractive index profile measurement of planar optical waveguides based on the near-field technique and digital holography",
+      "volume": "72",
+      "author": "Xia",
+      "year": "2022",
+      "journal-title": "Opt. Fiber Technol."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0215",
+      "doi-asserted-by": "crossref",
+      "first-page": "113",
+      "DOI": "10.1007/s00339-013-8090-8",
+      "article-title": "Towards low-loss lightwave circuits for non-classical optics at 800 and 1,550 nm",
+      "volume": "114",
+      "author": "Meany",
+      "year": "2014",
+      "journal-title": "Appl. Phys. A"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0220",
+      "doi-asserted-by": "crossref",
+      "first-page": "151",
+      "DOI": "10.1016/S0022-3093(05)80395-3",
+      "article-title": "Raman scattering in silica glass in the permanent densification region",
+      "volume": "144",
+      "author": "Sugiura",
+      "year": "1992",
+      "journal-title": "J. Non-Cryst. Solids"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0225",
+      "doi-asserted-by": "crossref",
+      "first-page": "10153",
+      "DOI": "10.1364/OE.387790",
+      "article-title": "Revisiting ultrafast laser inscribed waveguide formation in commercial alkali-free borosilicate glasses",
+      "volume": "28",
+      "author": "Fernandez",
+      "year": "2020",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0230",
+      "doi-asserted-by": "crossref",
+      "first-page": "67583",
+      "DOI": "10.1039/C5RA13043C",
+      "article-title": "A review of structure of oxide glasses by Raman spectroscopy",
+      "volume": "5",
+      "author": "Yadav",
+      "year": "2015",
+      "journal-title": "RSC Adv."
+    },
+    {
+      "key": "10.1016/j.optlastec.2025.114521_b0235",
+      "doi-asserted-by": "crossref",
+      "first-page": "19",
+      "DOI": "10.1016/j.jnoncrysol.2018.12.015",
+      "article-title": "Concentration dependent structural, thermal and luminescence properties in Er3+/Tm3+ doped tellurite glasses",
+      "volume": "507",
+      "author": "Zhu",
+      "year": "2019",
+      "journal-title": "J. Non-Cryst. Solids"
+    }
+  ],
+  "container-title": [
+    "Optics &amp; Laser Technology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0030399225021127?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0030399225021127?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        20
+      ]
+    ],
+    "date-time": "2026-01-20T17:20:26Z",
+    "timestamp": 1768929626000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0030399225021127"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2
+      ]
+    ]
+  },
+  "references-count": 47,
+  "alternative-id": [
+    "S0030399225021127"
+  ],
+  "URL": "https://doi.org/10.1016/j.optlastec.2025.114521",
+  "relation": {},
+  "ISSN": [
+    "0030-3992"
+  ],
+  "issn-type": [
+    {
+      "value": "0030-3992",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        2
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Optics & Laser Technology",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.optlastec.2025.114521",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "114521"
+}

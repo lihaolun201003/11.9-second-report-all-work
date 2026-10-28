@@ -1,0 +1,385 @@
+{
+ "10.1109/imw.2017.7939084": {
+  "title": "HBM (High Bandwidth Memory) DRAM Technology and Architecture",
+  "year": 2017,
+  "venue": "IEEE International Memory Workshop (IMW)",
+  "authors": [
+   "Hong-Shin Jun",
+   "Jin-Hee Cho",
+   "Kangseol Lee",
+   "Hwa–Young Son",
+   "Kwiwook Kim",
+   "Hanho Jin",
+   "Keith Kim"
+  ],
+  "abstract": "HBM (High Bandwidth Memory) is an emerging standard DRAM solution that can achieve breakthrough bandwidth of higher than 256GBps while reducing the power consumption as well. It has stacked DRAM architecture with core DRAM dies on top of a base logic die, based on the TSV and die stacking technologies. In this paper, the HBM architecture is introduced and a comparison of its generations is provided. Also, the packaging technology and challenges to address reliability, thermal dissipation capability, maximum allowable package sizes, and high throughput stacking solutions are described. Test technology and testability features are discussed for KGSD and 2.5D SiP.",
+  "cited": 271,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1145/3669900": {
+  "title": "An Introduction to the Compute Express Link (CXL) Interconnect",
+  "year": 2024,
+  "venue": "ACM Computing Surveys",
+  "authors": [
+   "Debendra Das Sharma",
+   "Robert Blankenship",
+   "Daniel S. Berger"
+  ],
+  "abstract": "The Compute Express Link (CXL) is an open industry-standard interconnect between processors and devices such as accelerators, memory buffers, smart network interfaces, persistent memory, and solid-state drives. CXL offers coherency and memory semantics with bandwidth that scales with PCIe bandwidth while achieving significantly lower latency than PCIe. All major CPU vendors, device vendors, and datacenter operators have adopted CXL as a common standard. This enables an inter-operable ecosystem that supports key computing use cases including highly efficient accelerators, server memory bandwidth and capacity expansion, multi-server resource pooling and sharing, and efficient peer-to-peer communication. This survey provides an introduction to CXL covering the standards CXL 1.0, CXL 2.0, and CXL 3.0. We further survey CXL implementations, discuss CXL's impact on the datacenter landscape, and future directions.",
+  "cited": 139,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1145/3669900",
+  "oa_status": "hybrid"
+ },
+ "10.1145/3538643.3539745": {
+  "title": "Hello bytes, bye blocks",
+  "year": 2022,
+  "venue": "ACM Workshop on Hot Topics in Storage and File Systems (HotStorage)",
+  "authors": [
+   "Myoungsoo Jung"
+  ],
+  "abstract": "Compute express link (CXL) is the first open multi-protocol method to support cache coherent interconnect for different processors, accelerators, and memory device types. Even though CXL manages data coherency mainly between CPU memory spaces and memory on attached devices, we argue that it can also be useful to reform existing block storage as cost-efficient, large-scale working memory. Specifically, this paper examines three different sub-protocols of CXL from a memory expander viewpoint. It then suggests which device type can be the best option for PCIe storage to bridge its block semantics to memory-compatible, byte semantics. We then discuss how to integrate a storage-integrated memory expander into an existing system and speculate how much effect it does have on the system performance. Lastly, we visit various CXL network topologies and explore a new opportunity to efficiently manage the storage-integrated, CXL-based memory expansion.",
+  "cited": 79,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/mm.2023.3237491": {
+  "title": "Memory Pooling With CXL",
+  "year": 2023,
+  "venue": "IEEE Micro",
+  "authors": [
+   "Donghyun Gouk",
+   "Miryeong Kwon",
+   "Hanyeoreum Bae",
+   "Sangwon Lee",
+   "Myoungsoo Jung"
+  ],
+  "abstract": "Compute Express Link (CXL) has recently attracted great attention thanks to its excellent hardware heterogeneity management and resource disaggregation capabilities. Even though there is yet no commercially available product or platform integrating CXL into memory pooling, it is expected to make memory resources practically and efficiently disaggregated much better than ever before. In this article, we propose directly accessible memory disaggregation, DirectCXL that straight connects a host processor complex and remote memory resources over CXL’s memory protocol (CXL.mem). Our empirical evaluation shows that DirectCXL exhibits around 7× better performance than remote direct memory access (RDMA)-based memory pooling for diverse real-world workloads.",
+  "cited": 76,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/imw59701.2024.10536972": {
+  "title": "Present and Future, Challenges of High Bandwith Memory (HBM)",
+  "year": 2024,
+  "venue": "IEEE International Memory Workshop (IMW)",
+  "authors": [
+   "Kwiwook Kim",
+   "Myeong-Jae Park"
+  ],
+  "abstract": "In recent years, the demand for fast and high-capacity memory has surged due to the emergence of generative AI models such as GPT. To address this need, High Bandwidth Memory (HBM) has rapidly risen as a critical memory solution. This paper aims to elucidate why HBM plays a pivotal role in the AI industry and discusses the imminent challenges that need to be overcome in the development of HBM memory. By exploring the significance of HBM in the context of AI applications and outlining the pressing challenges ahead, this paper contributes to understanding the importance of HBM in meeting the memory requirements of advancing AI technologies.",
+  "cited": 70,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/micro50266.2020.00075": {
+  "title": "ThymesisFlow: A Software-Defined, HW/SW co-Designed Interconnect Stack for Rack-Scale Memory Disaggregation",
+  "year": 2020,
+  "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+  "authors": [
+   "Christian Pinto",
+   "Dimitris Syrivelis",
+   "Michele Gazzetti",
+   "Panos Koutsovasilis",
+   "Andrea Reale",
+   "Kostas M. Katrinis",
+   "H. Peter Hofstee"
+  ],
+  "abstract": "With cloud providers constantly seeking the best infrastructure trade-off between performance delivered to customers and overall energy/utilization efficiency of their data-centres, hardware disaggregation comes in as a new paradigm for dynamically adapting the data-centre infrastructure to the characteristics of the running workloads. Such an adaptation enables an unprecedented level of efficiency both from the standpoint of energy and the utilization of system resources. In this paper, we present - ThymesisFlow - the first, to our knowledge, full-stack prototype of the holy-grail of disaggregation of compute resources: pooling of remote system memory. Thymesis-Flow implements a HW/SW co-designed memory disaggregation interconnect on top of the POWER9 architecture, by directly interfacing the memory bus via the OpenCAPI port. We use ThymesisFlow to evaluate how disaggregated memory impacts a set of cloud workloads, and we show that for many of them the performance degradation is negligible. For those cases that are severely impacted, we offer insights on the underlying causes and viable cross-stack mitigation paths.",
+  "cited": 63,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1145/3533737.3535090": {
+  "title": "Enabling CXL Memory Expansion for In-Memory Database Management Systems",
+  "year": 2022,
+  "venue": "Data Management on New Hardware",
+  "authors": [
+   "Minseon Ahn",
+   "Andrew Chang",
+   "Donghun Lee",
+   "Jongmin Gim",
+   "Jungmin Kim",
+   "Jaemin Jung",
+   "Oliver Rebholz",
+   "Vincent T. Pham",
+   "Krishna T. Malladi",
+   "Yang Seok Ki"
+  ],
+  "abstract": "Limited memory volume is always a performance bottleneck in an in-memory database management system (IMDBMS) as the data size keeps increasing. To overcome the physical memory limitation, heterogeneous and disaggregated computing platforms are proposed, such as Gen-Z, CCIX, OpenCAPI, and CXL. In this work, we introduce flexible CXL memory expansion using a CXL type 3 prototype and evaluate its performance in an IMDBMS. Our evaluation shows that CXL memory devices interfaced with PCIe Gen5 are appropriate for memory expansion with nearly no throughput degradation in OLTP workloads and less than 8% throughput degradation in OLAP workloads. Thus, CXL memory is a good candidate for memory expansion with lower TCO in IMDBMSs.",
+  "cited": 62,
+  "type": "conference-paper",
+  "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3533737.3535090",
+  "oa_status": "bronze"
+ },
+ "10.3390/mi16040431": {
+  "title": "Electronic Chip Package and Co-Packaged Optics (CPO) Technology for Modern AI Era: A Review",
+  "year": 2025,
+  "venue": "Micromachines",
+  "authors": [
+   "Guoliang Chen",
+   "Guiqi Wang",
+   "Zhenzhen Wang",
+   "Lijun Wang"
+  ],
+  "abstract": "With the growing demand for high-performance computing (HPC), artificial intelligence (AI), and data communication and storage, new chip technologies have emerged, following Moore's Law, over the past few decades. As we enter the post-Moore era, transistor dimensions are approaching their physical limits. Advanced packaging technologies, such as 3D chiplets hetero-integration and co-packaged optics (CPO), have become crucial for further improving system performance. Currently, most solutions rely on silicon-based technologies, which alleviate some challenges but still face issues such as warpage, bumps' reliability, through-silicon vias' (TSVs) and redistribution layers' (RDLs) reliability, and thermal dissipation, etc. Glass, with its superior mechanical, thermal, electrical, and optical properties, is emerging as a promising material to address these challenges, particularly with the development of femtosecond laser technology. This paper discusses the evolution of both conventional and advanced packaging technologies and outlines future directions for design, fabrication, and packaging using glass substrates and femtosecond laser processing.",
+  "cited": 29,
+  "type": "review",
+  "oa_url": "https://doi.org/10.3390/mi16040431",
+  "oa_status": "gold"
+ },
+ "10.1145/3626111.3628195": {
+  "title": "A Case Against CXL Memory Pooling",
+  "year": 2023,
+  "venue": "ACM Workshop on Hot Topics in Networks (HotNets)",
+  "authors": [
+   "Philip A. Levis",
+   "Kun Lin",
+   "Amy Tai"
+  ],
+  "abstract": "Compute Express Link (CXL) is a replacement for PCIe. With much lower latency than PCIe and hardware support for cache coherence, programs can efficiently access remote memory over CXL. These capabilities have opened the possibility of CXL memory pools in datacenter and cloud networks, consisting of a large pool of memory that multiple machines share. Recent work argues memory pools could reduce memory needs and datacenter costs.",
+  "cited": 23,
+  "type": "conference-paper",
+  "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3626111.3628195",
+  "oa_status": "bronze"
+ },
+ "10.1109/mchpc56545.2022.00007": {
+  "title": "Evaluating Emerging CXL-enabled Memory Pooling for HPC Systems",
+  "year": 2022,
+  "venue": "IEEE/ACM Workshop on Memory Centric High Performance Computing (MCHPC)",
+  "authors": [
+   "Jacob Wahlgren",
+   "Maya B. Gokhale",
+   "Ivy Bo Peng"
+  ],
+  "abstract": "Current HPC systems provide memory resources that are statically configured and tightly coupled with compute nodes. However, workloads on HPC systems are evolving. Diverse workloads lead to a need for configurable memory resources to achieve high performance and utilization. In this study, we evaluate a memory subsystem design leveraging CXL-enabled memory pooling. Two promising use cases of composable memory subsystems are studied – fine-grained capacity provisioning and scalable bandwidth provisioning. We developed an emulator to explore the performance impact of various memory compositions. We also provide a profiler to identify the memory usage patterns in applications and their optimization opportunities. Seven scientific and six graph applications are evaluated on various emulated memory configurations. Three out of seven scientific applications had less than 10% performance impact when the pooled memory backed 75% of their memory footprint. The results also show that a dynamically configured high-bandwidth system can effectively support bandwidth-intensive unstructured mesh-based applications like OpenFOAM. Finally, we identify interference through shared memory pools as a practical challenge for adoption on HPC systems.",
+  "cited": 29,
+  "type": "conference-paper",
+  "oa_url": "https://arxiv.org/pdf/2211.02682",
+  "oa_status": "green"
+ },
+ "10.1109/edaps64431.2024.10988462": {
+  "title": "Design and Analysis of Twin Tower High Bandwidth Memory (HBM) Architecture for Large Memory Capacity and High Bandwidth System",
+  "year": 2024,
+  "venue": "IEEE Electrical Design of Advanced Packaging and Systems Symposium (EDAPS)",
+  "authors": [
+   "Taesoo Kim",
+   "Jiwon Yoon",
+   "Seonguk Choi",
+   "Haeyeon Kim",
+   "Haeseok Suh",
+   "Hyunjun An",
+   "Jungmin Ahn",
+   "Hyunah Park",
+   "Joungho Kim"
+  ],
+  "abstract": "The rapid advancement of AI, driven by generative AI based on transformer models, demands memory systems with higher capacity and bandwidth, yet current HBM technologies face scaling limitations due to architectural and manufacturing constraints. To address this, we propose the twin tower HBM architecture, integrating two DRAM stacks on a single, elongated base die to double memory capacity and enhance bandwidth. The extended base die also allows for architectural flexibility, including the integration of near-memory computing units. Supporting up to 12 DRAM stacks per GPU, this architecture achieves 576 GB capacity and 1,638 GB/s bandwidth—a 27.9% improvement over HBM3e—while maintaining robust signal integrity through optimized interposer channel designs validated via EM and SPICE simulations. This innovative solution provides a cost-effective path to scaling AI infrastructure and overcoming memory bottlenecks in next-generation workloads.",
+  "cited": 10,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/mcom.001.2500504": {
+  "title": "Unlocking the Potential of Co-Packaged Optics in AI and HPC: Opportunities and Challenges",
+  "year": 2025,
+  "venue": "IEEE Communications Magazine",
+  "authors": [
+   "Sunil Priyadarshi"
+  ],
+  "abstract": "The rapid expansion of AI and high-performance computing is driving unprecedented demand for high-bandwidth, energy-efficient data transmission in data centers. Conventional pluggable optics face limitations in power, latency, and density, prompting the emergence of Co-Packaged Optics (CPO) as a transformative solution. By integrating photonics with ASICs, CPO significantly reduces power consumption and enhances bandwidth scalability. This article reviews recent advancements in CPO, explores key challenges in design, manufacturing, thermal management, and reliability, and compares CPO with Near-Packaged Optics (NPO). It highlights ongoing standardization efforts and underscores CPO's potential to revolutionize next-generation AI and data center interconnect architectures.",
+  "cited": 4,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/3dic.2015.7334555": {
+  "title": "Electrical performance of high bandwidth memory (HBM) interposer channel in terabyte/s bandwidth graphics module",
+  "year": 2015,
+  "venue": "IEEE International D Systems Integration Conference",
+  "authors": [
+   "Hyunsuk Lee",
+   "Kyungjun Cho",
+   "Heegon Kim",
+   "Sumin Choi",
+   "Jaemin Lim",
+   "Joungho Kim"
+  ],
+  "abstract": "Recently, IT trends such as big data, cloud computing, internet of things (IoT), 3D visualization, network, and so on demand terabyte/s bandwidth computer performance in a graphics card. In order to meet these performance, terabyte/s bandwidth graphics module using 2.5D-IC with high bandwidth memory (HBM) technology has been emerged. Due to the difference in scale of interconnect pitch between GPU or HBM and package substrate, the HBM interposer is certainly required for terabyte/s bandwidth graphics module. In this paper, the electrical performance of the HBM interposer channel in consideration of the manufacturing capabilities is analyzed by simulation both the frequency- and time-domain. Furthermore, although the silicon substrate is most widely employed for the HBM interposer fabrication, the organic and glass substrate are also proposed to replace the high cost and high loss silicon substrate. Therefore, comparison and analysis of the electrical performance of the HBM interposer channel using silicon, organic, and glass substrate are conducted.",
+  "cited": 20,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ofc.2012.ow3j.6": {
+  "title": "Optical Interconnect Architecture for Servers using High Bandwidth Optical Mid-plane",
+  "year": 2012,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Jun Matsui",
+   "Tsuyoshi Yamamoto",
+   "Kazuhiro Tanaka",
+   "Tadashi Ikeuchi",
+   "Satoshi Ide",
+   "Shigenori Aoki",
+   "Tsuyoshi Aoki",
+   "Tomohiro Ishihara",
+   "Mitsuhiro Iwaya",
+   "Kenji Kamoto",
+   "Katsuki Suematsu",
+   "Masato Shiino"
+  ],
+  "abstract": "We describe an interconnect architecture that utilizes high bandwidth optical mid-plane. Enabling technologies for high density optical mid-plane are discussed. We developed a prototype to determine the feasibility. The results showed proposed architecture is practical.",
+  "cited": 12,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/lca.2025.3540058": {
+  "title": "Optically Connected Multi-Stack HBM Modules for Large Language Model Training and Inference",
+  "year": 2025,
+  "venue": "IEEE Computer Architecture Letters",
+  "authors": [
+   "Yanghui Ou",
+   "Hengrui Zhang",
+   "Austin Rovinski",
+   "David Wentzlaff",
+   "Christopher Batten"
+  ],
+  "abstract": "Large language models (LLMs) have grown exponentially in size, presenting significant challenges to traditional memory architectures. Current high bandwidth memory (HBM) systems are constrained by chiplet I/O bandwidth and the limited number of HBM stacks that can be integrated due to packaging constraints. In this letter, we propose a novel memory system architecture that leverages silicon photonic interconnects to increase memory capacity and bandwidth for compute devices. By introducing optically connected multi-stack HBM modules, we extend the HBM memory system off the compute chip, significantly increasing the number of HBM stacks. Our evaluations show that this architecture can improve training efficiency for a trillion-parameter model by 1.4× compared to a modeled A100 baseline, while also enhancing inference performance by 4.2× if the L2 is modified to provide sufficient bandwidth.",
+  "cited": 4,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/hoti66940.2025.00027": {
+  "title": "On-Package Memory with Universal Chiplet Interconnect Express (UCIe): A Low Power, High Bandwidth, Low Latency and Low Cost Approach",
+  "year": 2025,
+  "venue": "IEEE Symposium on High-Performance Interconnects (HOTI)",
+  "authors": [
+   "Debendra Das Sharma",
+   "Swadesh Choudhary",
+   "Peter Onufryk",
+   "Rob Pelt"
+  ],
+  "abstract": "Emerging computing applications such as Artificial Intelligence (AI) are facing a memory wall with existing on-package memory solutions that are unable to meet the power-efficient bandwidth demands. We propose to enhance UCIe with memory semantics to deliver power-efficient bandwidth and cost-effective on-package memory solutions applicable across the entire computing continuum. We propose approaches by reusing existing LPDDR6 and HBM memory through a logic die that connects to the SoC using UCIe. We also propose an approach where the DRAM die natively supports UCIe instead of the LPDDR6 bus interface. Our approaches result in significantly higher bandwidth density (up to 10x), lower latency (up to 3x), lower power (up to 3x), and lower cost compared to existing HBM4 and LPDDR on-package memory solutions.",
+  "cited": 4,
+  "type": "conference-paper",
+  "oa_url": "https://arxiv.org/pdf/2510.06513",
+  "oa_status": "green"
+ },
+ "10.1109/hpca.2007.346184": {
+  "title": "Optical Interconnect Opportunities for Future Server Memory Systems",
+  "year": 2007,
+  "venue": "Proceedings - International Symposium on High-Performance Computer Architecture/Proceedings",
+  "authors": [
+   "Y. Katayama",
+   "Atsuya Okazaki"
+  ],
+  "abstract": "This paper deals with alternative server memory architecture options in multicore CPU generations using optically-attached memory systems. Thanks to its large bandwidth-distance product, optical interconnect technology enables CPUs and local memory to be placed meters away from each other without sacrificing bandwidth. This topologically-local but physically-remote main memory attahed via an ultra-high-bandwidth parallel optical interconnect can lead to flexible memory architecture options using low-cost commodity memory technologies.",
+  "cited": 24,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1007/978-3-319-02381-6": {
+  "title": "High-Bandwidth Memory Interface",
+  "year": 2013,
+  "venue": "Springer briefs in electrical and computer engineering",
+  "authors": [
+   "Chulwoo Kim",
+   "Hyun-Woo Lee",
+   "Junyoung Song"
+  ],
+  "abstract": null,
+  "cited": 19,
+  "type": "book",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/nocs.2010.31": {
+  "title": "Performance Evaluation of a Multicore System with Optically Connected Memory Modules",
+  "year": 2010,
+  "venue": "ACM/IEEE International Symposium on Networks-on-Chip (NOCS)",
+  "authors": [
+   "Paul Mejia",
+   "Rajeevan Amirtharajah",
+   "Matthew Farrens",
+   "Venkatesh Akella"
+  ],
+  "abstract": "Over the past years, there have been impressive advances in bandwidth, latency, and scalability of on-chip networks. However, unless the off-chip network bandwidth and latency are also improved, we might have unbalanced systems which will limit the improvements to overall system performance. In this paper, we show how dense wavelength-division multiplexing (DWDM) -based optical interconnects could be used to emulate multiple buses in a fully-buffered DIMM (FB-DIMM) -like memory system to improve both bandwidth and latency. We evaluate an optically connected memory using full-system simulations of an 8-core system running memory-intensive multithreaded workloads. We show that for the FFT benchmark, optically connected memory can reduce the average memory request latency by 29% compared to a single-channel DDR3 SDRAM system and provide an overall performance speedup of 1.20. We also show that at least two DDR3 memory channels are needed to match the performance of a single optical bus, which demonstrates the advantage of optical interconnects in terms of savings in the number of pins required.",
+  "cited": 8,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.23919/piers-fall62445.2025.11394617": {
+  "title": "Optical Pitch Transformer Chiplet: Enhancing Packaging Beachfront Density",
+  "year": 2025,
+  "venue": "Photonics & Electromagnetics Research Symposium - Fall (PIERS-Fall)",
+  "authors": [
+   "How Yuan Hwang",
+   "Xiuyun He",
+   "Peter O'Brien"
+  ],
+  "abstract": "We propose the use of optical pitch transformer chiplets for beachfront density enhancement, eliminating the need for optical interconnects on devices to match that of fibre array units. Such chiplets can be fabricated separately and micro transfer-printed onto glass interposers. This work focuses on evanescent coupling between SiN tapers and ion-exchanged waveguides, and we observed that optical coupling behaves differently depending on functionality of SiN taper as an emitter or a receiver.",
+  "cited": 1,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ectc32696.2021.00063": {
+  "title": "Electrical design challenges in High Bandwidth Memory and Advanced Interface Bus interfaces on HD-FOWLP technology",
+  "year": 2021,
+  "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+  "authors": [
+   "Mihai Dragos Rotaru",
+   "Li Kangrong"
+  ],
+  "abstract": "Wide and slow bus interfaces such as High Bandwidth Memory (HBM) and Advanced Interface Bus (AIB) are the main drivers behind the development and implementation of technologies such as Embedded Multi-die Interconnect Bridge (EMIB) and Chip-on-Wafer-on-Substrate (CoWoS). These technologies can create very dense interconnect structures using back end of line (BEOL) approaches used to interconnect chiplets and to form functional system in package applications. With recent improvements in fabrication and process technologies organic based high density redistribution layer approaches such HD-FOWLP have become popular alternatives to EMIB and CoWoS. Redistribution layers with 2 μm × 2μm cross section and 2μm space between adjacent lines or 1μm × 1μm cross section with a minimum spacing of 1μm have become achievable with the current fabrication technology. In this work the electrical design challenges in organic based fine RDL packages have been studied via simulation and electrical measurements.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/isscc42614.2022.11005811": {
+  "title": "Tutorial: HBM DRAM and 3D Stacked Memory",
+  "year": 2022,
+  "venue": "Digest of technical papers/Digest of technical papers - IEEE International Solid-State Circuits Conference",
+  "authors": [
+   "Dong Uk Lee"
+  ],
+  "abstract": "The proliferation of machine-learning workloads has accelerated the demand for higher memory bandwidth in modern systems. HBM DRAM was developed to break through the system-performance limit caused by memory bandwidth. With advanced packaging technology, HBM has been the only scalable DRAM bandwidth solution of the past 10 years, starting from 128GB/s and now extending beyond 800GB/s. This tutorial will cover HBM, HBM2, and HBM3 architectures; it will also cover historical trends and state-of-the-art for DRAM. Electrical interfaces and PDN for 2.5D system-in-package (SiP) structures will be reviewed, along with heterogeneous memory structures, including TSV interfaces. This tutorial will also cover the various design methods such as known-good-stack verification, self-repair, MBIST and RAS features, to deal with the new package structures. Finally, advanced 3D memory architectures including future trends of HBM, will be introduced.",
+  "cited": 1,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ectc51846.2026.00106": {
+  "title": "Low-Loss Optical Interconnect Designs in Optimized Glass for Co-Packaged Optics",
+  "year": 2026,
+  "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+  "authors": [
+   "Lars Brusberg",
+   "Jorge A. Holguín‐Lerma",
+   "Matthew J. Dejneka",
+   "Lucas W. Yeary",
+   "Chad C. Terwilliger",
+   "Betsy J. Johnson",
+   "Charisse Spier",
+   "Jonathan E. Walter",
+   "Katerina Rousseva",
+   "Sean Garner"
+  ],
+  "abstract": null,
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

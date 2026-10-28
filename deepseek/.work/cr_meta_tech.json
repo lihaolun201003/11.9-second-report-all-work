@@ -1,0 +1,414 @@
+{
+ "10.1109/TCPMT.2025.3526500": {
+  "title": "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+  "venue": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
+  "vol": "15",
+  "issue": "8",
+  "page": "1614-1624",
+  "year": 2025,
+  "authors": [
+   "Lars Brusberg",
+   "Marissa Granados-Baez",
+   "Ryan D. Schilling",
+   "Jorge A. Holguin-Lerma",
+   "Janderson R. Rodrigues",
+   "Lucas W. Yeary",
+   "Aramais R. Zakharian",
+   "Betsy J. Johnson",
+   "Matthew J. Dejneka"
+  ],
+  "type": "journal-article"
+ },
+ "10.1016/j.optlastec.2025.114521": {
+  "title": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+  "venue": "Optics &amp; Laser Technology",
+  "vol": "194",
+  "issue": null,
+  "page": "114521",
+  "year": 2026,
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Linbin Bai",
+   "Junjie Xiong",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Zuyuan He"
+  ],
+  "type": "journal-article"
+ },
+ "10.1002/admt.202300620": {
+  "title": "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices",
+  "venue": "Advanced Materials Technologies",
+  "vol": "8",
+  "issue": "18",
+  "page": null,
+  "year": 2023,
+  "authors": [
+   "Jiawei Li",
+   "Chun Cao",
+   "Yiwei Qiu",
+   "Cuifang Kuang",
+   "Xu Liu"
+  ],
+  "type": "journal-article"
+ },
+ "10.1002/adpr.70241": {
+  "title": "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique",
+  "venue": "Advanced Photonics Research",
+  "vol": "7",
+  "issue": "6",
+  "page": null,
+  "year": 2026,
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Jinhua Wu",
+   "Zuyuan He"
+  ],
+  "type": "journal-article"
+ },
+ "10.3389/aot.2023.1244009": {
+  "title": "Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics",
+  "venue": "Advanced Optical Technologies",
+  "vol": "12",
+  "issue": null,
+  "page": null,
+  "year": 2023,
+  "authors": [
+   "Jason R. Grenier",
+   "Lars Brusberg",
+   "Kristopher A. Wieland",
+   "Juergen Matthies",
+   "Chad C. Terwilliger"
+  ],
+  "type": "journal-article"
+ },
+ "10.1145/3698364.3705355": {
+  "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "venue": "Proceedings of the 2025 International Symposium on Physical Design",
+  "vol": null,
+  "issue": null,
+  "page": "64-72",
+  "year": 2025,
+  "authors": [
+   "Hongjian Zhou",
+   "Keren Zhu",
+   "Jiaqi Gu"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1007/s10825-022-01989-4": {
+  "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+  "venue": "Journal of Computational Electronics",
+  "vol": null,
+  "issue": null,
+  "page": null,
+  "year": 2022,
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Roy"
+  ],
+  "type": "journal-article"
+ },
+ "10.1002/lpor.201700237": {
+  "title": "Silicon Photonics Circuit Design: Methods, Tools and Challenges",
+  "venue": "Laser &amp; Photonics Reviews",
+  "vol": "12",
+  "issue": "4",
+  "page": null,
+  "year": 2018,
+  "authors": [
+   "Wim Bogaerts",
+   "Lukas Chrostowski"
+  ],
+  "type": "journal-article"
+ },
+ "10.1364/OL.21.001729": {
+  "title": "Writing waveguides in glass with a femtosecond laser",
+  "venue": "Optics Letters",
+  "vol": "21",
+  "issue": "21",
+  "page": "1729",
+  "year": 1996,
+  "authors": [
+   "K. M. Davis",
+   "K. Miura",
+   "N. Sugimoto",
+   "K. Hirao"
+  ],
+  "type": "journal-article"
+ },
+ "10.1038/nphoton.2008.47": {
+  "title": "Femtosecond laser micromachining in transparent materials",
+  "venue": "Nature Photonics",
+  "vol": "2",
+  "issue": "4",
+  "page": "219-225",
+  "year": 2008,
+  "authors": [
+   "Rafael R. Gattass",
+   "Eric Mazur"
+  ],
+  "type": "journal-article"
+ },
+ "10.1364/OL.30.000723": {
+  "title": "Low-loss waveguides written with a femtosecond laser for flexible interconnection in a planar light-wave circuit",
+  "venue": "Optics Letters",
+  "vol": "30",
+  "issue": "7",
+  "page": "723",
+  "year": 2005,
+  "authors": [
+   "Yusuke Nasu",
+   "Masaki Kohtoku",
+   "Yoshinori Hibino"
+  ],
+  "type": "journal-article"
+ },
+ "10.1364/OE.16.016215": {
+  "title": "Low loss photonic components in high index bismuth borate glass by femtosecond laser direct writing",
+  "venue": "Optics Express",
+  "vol": "16",
+  "issue": "20",
+  "page": "16215",
+  "year": 2008,
+  "authors": [
+   "Weijia Yang",
+   "Costantino Corbari",
+   "Peter G. Kazansky",
+   "Koichi Sakaguchi",
+   "Isabel C. Carvalho"
+  ],
+  "type": "journal-article"
+ },
+ "10.1364/OE.19.014403": {
+  "title": "Photolithography-free polymer optical waveguide arrays for optical backplane bus",
+  "venue": "Optics Express",
+  "vol": "19",
+  "issue": "15",
+  "page": "14403",
+  "year": 2011,
+  "authors": [
+   "Xinyuan Dou",
+   "Alan X. Wang",
+   "Xiaohui Lin",
+   "Ray T. Chen"
+  ],
+  "type": "journal-article"
+ },
+ "10.1109/OIC.2015.7115671": {
+  "title": "Ultra low crossing loss meshed waveguide based on polynorbornene for backplane architecture",
+  "venue": "2015 IEEE Optical Interconnects Conference (OI)",
+  "vol": null,
+  "issue": null,
+  "page": "28-29",
+  "year": 2015,
+  "authors": [
+   "Katsuma Kitazoe",
+   "Akihiro Horimoto",
+   "Kimio Moriya",
+   "Ryota Kinoshita",
+   "Koji Choki",
+   "Takaaki Ishigure"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1109/OECC48412.2020.9273659": {
+  "title": "Automatic high-density polymer waveguide layout for on-board high-speed optical interconnect",
+  "venue": "2020 Opto-Electronics and Communications Conference (OECC)",
+  "vol": null,
+  "issue": null,
+  "page": "1-3",
+  "year": 2020,
+  "authors": [
+   "Zhijie Huang",
+   "Lin Ma",
+   "Wanjing Kuang",
+   "Ying Shi",
+   "Zuyuan He"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1109/ECOC.2014.6964253": {
+  "title": "Low-loss telecom wavelength board-level optical interconnects in thin glass panels by ion-exchange waveguide technology",
+  "venue": "2014 The European Conference on Optical Communication (ECOC)",
+  "vol": null,
+  "issue": null,
+  "page": "1-3",
+  "year": 2014,
+  "authors": [
+   "Lars Brusberg",
+   "Christian Herbst",
+   "Marcel Neitz",
+   "Henning Schroder",
+   "Klaus-Dieter Lang"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1109/ICOCN55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "venue": "2022 20th International Conference on Optical Communications and Networks (ICOCN)",
+  "vol": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2022,
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1364/OFC.2025.M4J.5": {
+  "title": "Low-loss Fan-in/Fan-out Device for Coupled four-core Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "venue": "Optical Fiber Communication Conference (OFC) 2025",
+  "vol": null,
+  "issue": null,
+  "page": "M4J.5",
+  "year": 2025,
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Junjie Xiong",
+   "Linbin Bai",
+   "Mingjing Xu",
+   "Zuyuan He"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1364/OFC.2017.W1B.6": {
+  "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+  "venue": "Optical Fiber Communication Conference",
+  "vol": null,
+  "issue": null,
+  "page": "W1B.6",
+  "year": 2017,
+  "authors": [
+   "Kevin P.Chen",
+   "Ming-Jun Li"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1109/ICSJ66986.2025.11302545": {
+  "title": "Extremely Low Bending Loss (&lt;0.5 dB at 1-mm Bending Radius) GI Core Polymer Optical Waveguide",
+  "venue": "2025 IEEE CPMT Symposium Japan (ICSJ)",
+  "vol": null,
+  "issue": null,
+  "page": "9-12",
+  "year": 2025,
+  "authors": [
+   "Masahiro Karakawa",
+   "Takaaki Ishigure"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1364/OE.486856": {
+  "title": "Single-scan ultrafast laser inscription of waveguides in IG2 for type-I and type-II operation in the mid-infrared",
+  "venue": "Optics Express",
+  "vol": "31",
+  "issue": "12",
+  "page": "18949",
+  "year": 2023,
+  "authors": [
+   "W. Hu",
+   "W. Gebremichael",
+   "J. Fernandes",
+   "M. Kilinc",
+   "C. Dorrer",
+   "J. Qiao"
+  ],
+  "type": "journal-article"
+ },
+ "10.1364/ACOFT.2016.AM4C.4": {
+  "title": "Tunable 3D waveguide circuits using ultrafast laser waveguide writing and subtractive laser machining",
+  "venue": "Photonics and Fiber Technology 2016 (ACOFT, BGPP, NP)",
+  "vol": null,
+  "issue": null,
+  "page": "AM4C.4",
+  "year": 2016,
+  "authors": [
+   "Zachary Chaboyer",
+   "Alex Stokes",
+   "M. J. Steel",
+   "Michael J. Withford"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1109/LPT.2018.2825643": {
+  "title": "3-D Multilayer S-Bend Silicon Waveguide Optical Interconnect",
+  "venue": "IEEE Photonics Technology Letters",
+  "vol": "30",
+  "issue": "11",
+  "page": "1040-1043",
+  "year": 2018,
+  "authors": [
+   "Vikash Kumar",
+   "Vishnu Priye"
+  ],
+  "type": "journal-article"
+ },
+ "10.1364/OE.393039": {
+  "title": "Fabrication and transmission of optical polymer waveguide backplane for high - performance computers",
+  "venue": "Optics Express",
+  "vol": "28",
+  "issue": "10",
+  "page": "14605",
+  "year": 2020,
+  "authors": [
+   "Shuailong Yang",
+   "Liu Yang",
+   "Bin Li",
+   "Fengguang Luo",
+   "Xiaobo Wang",
+   "Yuting Du"
+  ],
+  "type": "journal-article"
+ },
+ "10.1109/ICSJ62869.2024.10804720": {
+  "title": "3D Polymer Optical Waveguide-based Fan-in/out Device for Silicon Photonics Chips",
+  "venue": "2024 IEEE CPMT Symposium Japan (ICSJ)",
+  "vol": null,
+  "issue": null,
+  "page": "162-163",
+  "year": 2024,
+  "authors": [
+   "Anzu Ito",
+   "Takaaki Ishigure"
+  ],
+  "type": "proceedings-article"
+ },
+ "10.1103/PhysRevLett.91.247405": {
+  "title": "Self-Organized Nanogratings in Glass Irradiated by Ultrashort Light Pulses",
+  "venue": "Physical Review Letters",
+  "vol": "91",
+  "issue": "24",
+  "page": null,
+  "year": 2003,
+  "authors": [
+   "Yasuhiko Shimotsuma",
+   "Peter G. Kazansky",
+   "Jiarong Qiu",
+   "Kazuoki Hirao"
+  ],
+  "type": "journal-article"
+ },
+ "10.1557/mrs2006.157": {
+  "title": "Characterization of Mechanical and Thermal Properties Using Ultrafast Optical Metrology",
+  "venue": "MRS Bulletin",
+  "vol": "31",
+  "issue": "8",
+  "page": "607-613",
+  "year": 2006,
+  "authors": [
+   "G. Andrew Antonelli",
+   "Bernard Perrin",
+   "Brian C. Daly",
+   "David G. Cahill"
+  ],
+  "type": "journal-article"
+ }
+}

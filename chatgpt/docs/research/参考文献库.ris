@@ -1,0 +1,898 @@
+TY  - JOUR
+ID  - Jupiter2022
+TI  - Jupiter evolving: transforming google's datacenter network via optical circuit switches and software-defined networking
+AU  - Leon Poutievski
+AU  - Omid Mashayekhi
+AU  - Joon Ong
+AU  - Arjun Singh
+AU  - Mukarram Tariq
+AU  - Rui Wang
+AU  - Jianan Zhang
+AU  - Virginia Beauregard
+AU  - Patrick Conner
+AU  - Steve Gribble
+AU  - Rishi Kapoor
+AU  - Stephen Kratzer
+AU  - Nanfang Li
+AU  - Hong Liu
+AU  - Karthik Nagaraj
+AU  - Jason Ornstein
+AU  - Samir Sawhney
+AU  - Ryohei Urata
+AU  - Lorenzo Vicisano
+AU  - Kevin Yasumura
+AU  - Shidong Zhang
+AU  - Junlan Zhou
+AU  - Amin Vahdat
+PY  - 2022
+DO  - 10.1145/3544216.3544265
+UR  - https://research.google/pubs/jupiter-evolving-transforming-googles-datacenter-network-via-optical-circuit-switches-and-software-defined-networking/
+N1  - Access A; 摘要；§2–3；Fig.1–3；附录F
+ER  - 
+
+TY  - JOUR
+ID  - Apollo2022
+TI  - Mission Apollo: Landing Optical Circuit Switching at Datacenter Scale
+AU  - Ryohei Urata
+AU  - Hong Liu
+AU  - Kevin Yasumura
+AU  - Erji Mao
+AU  - Jill Berger
+AU  - Xiang Zhou
+AU  - Cedric Lam
+AU  - Roy Bannon
+AU  - Darren Hutchinson
+AU  - Daniel Nelson
+AU  - Leon Poutievski
+AU  - Arjun Singh
+AU  - Joon Ong
+AU  - Amin Vahdat
+PY  - 2022
+DO  - 10.48550/arXiv.2208.10041
+UR  - https://arxiv.org/abs/2208.10041
+N1  - Access A; §2–4，Table1，Fig.7–9
+ER  - 
+
+TY  - JOUR
+ID  - Brusberg2025
+TI  - Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits
+AU  - Lars Brusberg
+AU  - Marissa Granados-Baez
+AU  - Ryan D. Schilling
+AU  - Jorge A. Holguin-Lerma
+AU  - Janderson R. Rodrigues
+AU  - Lucas W. Yeary
+AU  - Aramais R. Zakharian
+AU  - Betsy J. Johnson
+AU  - Matthew J. Dejneka
+PY  - 2025
+DO  - 10.1109/TCPMT.2025.3526500
+UR  - https://doi.org/10.1109/TCPMT.2025.3526500
+N1  - Access C; IEEE原始摘要；1614–1624全文未取得
+ER  - 
+
+TY  - JOUR
+ID  - Fanout2026
+TI  - Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber
+AU  - Fengrui Yu
+AU  - Lin Ma
+AU  - Linbin Bai
+AU  - Junjie Xiong
+AU  - Mingjing Xu
+AU  - Xiaoke Chen
+AU  - Zuyuan He
+PY  - 2026
+DO  - 10.1016/j.optlastec.2025.114521
+UR  - https://doi.org/10.1016/j.optlastec.2025.114521
+N1  - Access C+; ScienceDirect摘要、Introduction与Experimental片段
+ER  - 
+
+TY  - JOUR
+ID  - Li2023Review
+TI  - Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices
+AU  - Jiawei Li
+AU  - Chun Cao
+AU  - Yiwei Qiu
+AU  - Cuifang Kuang
+AU  - Xu Liu
+PY  - 2023
+DO  - 10.1002/admt.202300620
+UR  - https://doi.org/10.1002/admt.202300620
+N1  - Access C; Wiley原始摘要；全文未取得
+ER  - 
+
+TY  - JOUR
+ID  - Jiang2021
+TI  - Concept Demonstration of 3D Waveguides Shuffle Converter for Multi-Core Fiber/Single-Mode Fiber Fan-in Fan-out Configuration Toward Over 1,000 Port Count
+AU  - Haisong JIANG
+AU  - Yasuhiro HINOKUMA
+AU  - Sampad GHOSH
+AU  - Ryota KUWAHATA
+AU  - kiichi HAMAMOTO
+PY  - 2021
+DO  - 10.1587/transele.2020ECS6002
+UR  - https://doi.org/10.1587/transele.2020ECS6002
+N1  - Access C; IEICE摘要；pp34–36全文未取得
+ER  - 
+
+TY  - JOUR
+ID  - Yoo2016
+TI  - Heterogeneous 2D/3D photonic integrated microsystems
+AU  - S. J. Ben Yoo
+AU  - Binbin Guan
+AU  - Ryan P. Scott
+PY  - 2016
+DO  - 10.1038/micronano.2016.30
+UR  - https://doi.org/10.1038/micronano.2016.30
+N1  - Access A; 3D multi-ring/optical phased arrays；Fig.6–7；PDF第4–5、7页
+ER  - 
+
+TY  - JOUR
+ID  - Routing2021
+TI  - Low-Loss Three-Dimensional Fan-in/Fan-out Devices for Multi-Core Fiber Integration
+AU  - Yi-Chun Ling
+AU  - Shuyun Yuan
+AU  - S. J. Ben Yoo
+PY  - 2021
+DO  - 10.1364/OFC.2021.Th1A.37
+UR  - https://doi.org/10.1364/OFC.2021.Th1A.37
+N1  - Access C; Optica原始摘要
+ER  - 
+
+TY  - JOUR
+ID  - Castro2025
+TI  - Photonic Chip with Embedded Data Center Fabric
+AU  - Jose Castro
+AU  - Bulent Kose
+AU  - Robert Reid
+AU  - Paul Huang
+AU  - Brett Lane
+AU  - Simon Gross
+AU  - Michael Withford
+PY  - 2025
+DO  - 10.1364/OFC.2025.W2A.36
+UR  - https://doi.org/10.1364/OFC.2025.W2A.36
+N1  - Access C; Optica原始摘要
+ER  - 
+
+TY  - JOUR
+ID  - Djogo2019
+TI  - Femtosecond laser additive and subtractive micro-processing: enabling a high-channel-density silica interposer for multicore fibre to silicon-photonic packaging
+AU  - Gligor Djogo
+AU  - Jianzhao Li
+AU  - Stephen Ho
+AU  - Moez Haque
+AU  - Erden Ertorer
+AU  - Jun Liu
+AU  - Xiaolu Song
+AU  - Jing Suo
+AU  - Peter R Herman
+PY  - 2019
+DO  - 10.1088/2631-7990/ab4d51
+UR  - https://doi.org/10.1088/2631-7990/ab4d51
+N1  - Access C; 原始OA摘要
+ER  - 
+
+TY  - JOUR
+ID  - Thomson2012
+TI  - Ultrafast laser inscription of a 121-waveguide fan-out for astrophotonics
+AU  - R. R. Thomson
+AU  - R. J. Harris
+AU  - T. A. Birks
+AU  - G. Brown
+AU  - J. Allington-Smith
+AU  - J. Bland-Hawthorn
+PY  - 2012
+DO  - 10.1364/OL.37.002331
+UR  - https://doi.org/10.1364/OL.37.002331
+N1  - Access C; Optica原始摘要；作者稿索引
+ER  - 
+
+TY  - JOUR
+ID  - GlassCPO2023
+TI  - Glass Platform for Co-Packaged Optics
+AU  - Lars Brusberg
+AU  - Jason R. Grenier
+AU  - Aramais R. Zakharian
+AU  - Lucas W. Yeary
+AU  - Seong-ho Seok
+AU  - Jung-hyun Noh
+AU  - Young-gon Kim
+AU  - Jurgen Matthies
+AU  - Chad C. Terwilliger
+AU  - Barry J. Paddock
+AU  - Robert A. Bellman
+AU  - Daniel W. Levesque
+AU  - Robin M. Force
+AU  - Clifford G. Sutton
+AU  - Jeffrey S. Clark
+AU  - Betsy J. Johnson
+PY  - 2023
+DO  - 10.1109/JSTQE.2023.3247245
+UR  - https://doi.org/10.1109/JSTQE.2023.3247245
+N1  - Access C; IEEE摘要及原始元数据
+ER  - 
+
+TY  - JOUR
+ID  - Grenier2023
+TI  - Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics
+AU  - Jason R. Grenier
+AU  - Lars Brusberg
+AU  - Kristopher A. Wieland
+AU  - Juergen Matthies
+AU  - Chad C. Terwilliger
+PY  - 2023
+DO  - 10.3389/aot.2023.1244009
+UR  - https://doi.org/10.3389/aot.2023.1244009
+N1  - Access A; §2–4，端面加工和对准测试
+ER  - 
+
+TY  - JOUR
+ID  - Charles2012
+TI  - Design of optically path-length-matched, three-dimensional photonic circuits comprising uniquely routed waveguides
+AU  - Ned Charles
+AU  - Nemanja Jovanovic
+AU  - Simon Gross
+AU  - Paul Stewart
+AU  - Barnaby Norris
+AU  - John O’Byrne
+AU  - Jon S. Lawrence
+AU  - Michael J. Withford
+AU  - Peter G. Tuthill
+PY  - 2012
+DO  - 10.1364/AO.51.006489
+UR  - https://doi.org/10.1364/AO.51.006489
+N1  - Access A; 作者稿§2–6；Fig.1–4、11–15
+ER  - 
+
+TY  - JOUR
+ID  - Minz2007
+TI  - Optical Routing for 3-D System-On-Package
+AU  - J.R. Minz
+AU  - S. Thyagara
+AU  - Sung Kyu Lim
+PY  - 2007
+DO  - 10.1109/TCAPT.2007.906300
+UR  - https://doi.org/10.1109/TCAPT.2007.906300
+N1  - Access C+; 原始摘要及作者稿片段
+ER  - 
+
+TY  - JOUR
+ID  - PROTON2015
+TI  - PROTON+: A Placement and Routing Tool for 3D Optical Networks-on-Chip with a Single Optical Layer
+AU  - Anja Von Beuningen
+AU  - Luca Ramini
+AU  - Davide Bertozzi
+AU  - Ulf Schlichtmann
+PY  - 2016
+DO  - 10.1145/2830716
+UR  - https://doi.org/10.1145/2830716
+N1  - Access C+; 机构记录与作者稿片段；single optical layer
+ER  - 
+
+TY  - JOUR
+ID  - Deng2025
+TI  - Automatic Waveguide Routing With Optimized Loss for Silicon Photonics Interconnect
+AU  - Jiaren Deng
+AU  - Xin Tang
+AU  - Keyi Fan
+AU  - Chentong Yang
+AU  - Xinyu Ouyang
+AU  - Yixiong Yan
+AU  - Yu Zheng
+PY  - 2025
+DO  - 10.1109/JLT.2025.3566775
+UR  - https://doi.org/10.1109/JLT.2025.3566775
+N1  - Access C+; IEEE摘要，作者公开全文检索片段；§II–IV，p7217
+ER  - 
+
+TY  - JOUR
+ID  - LiDAR2025Formal
+TI  - LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits
+AU  - Hongjian Zhou
+AU  - Keren Zhu
+AU  - Jiaqi Gu
+PY  - 2025
+DO  - 10.1145/3698364.3705355
+UR  - https://doi.org/10.1145/3698364.3705355
+N1  - Access C+; 正式元数据、官方代码README
+ER  - 
+
+TY  - JOUR
+ID  - APR2024
+TI  - Automated Curvy Waveguide Routing for Large-Scale Photonic Integrated Circuits
+AU  - Hongjian Zhou
+AU  - Keren Zhu
+AU  - Jiaqi Gu
+PY  - 2024
+DO  - 10.48550/arXiv.2410.01260
+UR  - https://arxiv.org/html/2410.01260v1
+N1  - Access A; v1 §2.2–2.5，§3.3–4，Fig.2–6
+ER  - 
+
+TY  - JOUR
+ID  - LiDAR2025
+TI  - LiDAR 2.0: Hierarchical Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits
+AU  - Hongjian Zhou
+AU  - Haoyu Yang
+AU  - Ziang Yin
+AU  - Nicholas Gangi
+AU  - Zhaoran (Rena) Huang
+AU  - Haoxing Ren
+AU  - Joaquin Matres
+AU  - Jiaqi Gu
+PY  - 2025
+DO  - 10.48550/arXiv.2505.17239
+UR  - https://arxiv.org/html/2505.17239v1
+N1  - Access A; v1 §II–VI；TableIII、VI–VIII
+ER  - 
+
+TY  - JOUR
+ID  - Placement2025
+TI  - Automated Routing-Informed Placement for Large-Scale Photonic Integrated Circuits
+AU  - Hongjian Zhou
+AU  - Haoyu Yang
+AU  - Nicholas Gangi
+AU  - Haoxing Ren
+AU  - Rena Huang
+AU  - Jiaqi Gu
+PY  - 2025
+DO  - 10.48550/arXiv.2504.18813
+UR  - https://arxiv.org/html/2504.18813v1
+N1  - Access A; v1 §3.3–4；Table1、4
+ER  - 
+
+TY  - JOUR
+ID  - Yu2026Compact
+TI  - Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique
+AU  - Fengrui Yu
+AU  - Lin Ma
+AU  - Mingjing Xu
+AU  - Xiaoke Chen
+AU  - Jinhua Wu
+AU  - Zuyuan He
+PY  - 2026
+DO  - 10.1002/adpr.70241
+UR  - https://doi.org/10.1002/adpr.70241
+N1  - Access A; Results，Fig.8–9；尚未完整组装段
+ER  - 
+
+TY  - JOUR
+ID  - Xiao2025
+TI  - Low-loss and tight-bend waveguides via multiple scans of a femtosecond laser
+AU  - Kai-Heng Xiao
+AU  - Yi-Hao Zan
+AU  - Yang Ouyang
+AU  - Si-Xue Fei
+AU  - Zhi-Yong Hu
+AU  - Li-Nan Fang
+AU  - Zhen-Nan Tian
+AU  - Qi-Dai Chen
+PY  - 2025
+DO  - 10.1364/OL.551272
+UR  - https://doi.org/10.1364/OL.551272
+N1  - Access C; Optica原始摘要
+ER  - 
+
+TY  - JOUR
+ID  - Kopp2023
+TI  - Ultra-dense, 1152-core, broadband multicore fiber link deployed in a metro network
+AU  - Victor I. Kopp
+AU  - Jongchul Park
+AU  - Jing Zhang
+AU  - Jonathan Singer
+AU  - Daniel Neugroschl
+AU  - Takuya Oda
+AU  - Okimi Mukai
+AU  - Usman Nasir
+PY  - 2023
+DO  - 10.1364/OE.477578
+UR  - https://doi.org/10.1364/OE.477578
+N1  - Access C+; 原始摘要与Fujikura技术报告
+ER  - 
+
+TY  - JOUR
+ID  - Matching2021
+TI  - On-chip Optical Routing with Waveguide Matching Constraints
+AU  - Fu-Yu Chuang
+AU  - Yao-Wen Chang
+PY  - 2021
+DO  - 10.1109/ICCAD51958.2021.9643560
+UR  - https://doi.org/10.1109/ICCAD51958.2021.9643560
+N1  - Access C; NTU机构摘要
+ER  - 
+
+TY  - JOUR
+ID  - Delay2025
+TI  - Automatic Routing for Photonic Integrated Circuits Under Delay Matching Constraints
+AU  - Yuchao Wu
+AU  - Weilong Guan
+AU  - Yeyu Tong
+AU  - Yuzhe Ma
+PY  - 2025
+DO  - 10.23919/DATE64628.2025.10993062
+UR  - https://doi.org/10.23919/DATE64628.2025.10993062
+N1  - Access C; HKUST机构摘要；作者PDF链接404
+ER  - 
+
+TY  - JOUR
+ID  - OptHBM2025
+TI  - Optically Connected Multi-Stack HBM Modules for Large Language Model Training and Inference
+AU  - Yanghui Ou
+AU  - Hengrui Zhang
+AU  - Austin Rovinski
+AU  - David Wentzlaff
+AU  - Christopher Batten
+PY  - 2025
+DO  - 10.1109/LCA.2025.3540058
+UR  - https://doi.org/10.1109/LCA.2025.3540058
+N1  - Access A; §II–III；Fig.2–6；作者稿4页
+ER  - 
+
+TY  - JOUR
+ID  - Pond2023
+TI  - Pond: CXL-Based Memory Pooling Systems for Cloud Platforms
+AU  - Huaicheng Li
+AU  - Daniel S. Berger
+AU  - Lisa Hsu
+AU  - Daniel Ernst
+AU  - Pantea Zardoshti
+AU  - Stanko Novakovic
+AU  - Monish Shah
+AU  - Samir Rajadnya
+AU  - Scott Lee
+AU  - Ishwar Agarwal
+AU  - Mark D. Hill
+AU  - Marcus Fontoura
+AU  - Ricardo Bianchini
+PY  - 2023
+DO  - 10.1145/3575693.3578835
+UR  - https://doi.org/10.1145/3575693.3578835
+N1  - Access A; §3–7；Fig.7–8
+ER  - 
+
+TY  - JOUR
+ID  - AgainstCXL2023
+TI  - A Case Against CXL Memory Pooling
+AU  - Philip Levis
+AU  - Kun Lin
+AU  - Amy Tai
+PY  - 2023
+DO  - 10.1145/3626111.3628195
+UR  - https://doi.org/10.1145/3626111.3628195
+N1  - Access A; §3 Cost、§4 Complexity、§5 Utility
+ER  - 
+
+TY  - JOUR
+ID  - OCM2022
+TI  - Optically connected memory for disaggregated data centers
+AU  - Jorge Gonzalez
+AU  - Mauricio G. Palma
+AU  - Maarten Hattink
+AU  - Ruth Rubio-Noriega
+AU  - Lois Orosa
+AU  - Onur Mutlu
+AU  - Keren Bergman
+AU  - Rodolfo Azevedo
+PY  - 2022
+DO  - 10.1016/j.jpdc.2022.01.013
+UR  - https://doi.org/10.1016/j.jpdc.2022.01.013
+N1  - Access A; §3–4；Fig.3；§6
+ER  - 
+
+TY  - JOUR
+ID  - Rao2016
+TI  - Is Memory Disaggregation Feasible?: A Case Study with Spark SQL
+AU  - Pramod Subba Rao
+AU  - George Porter
+PY  - 2016
+DO  - 10.1145/2881025.2881030
+UR  - https://doi.org/10.1145/2881025.2881030
+N1  - Access A; §4–6；§5.2
+ER  - 
+
+TY  - JOUR
+ID  - Abali2015
+TI  - Disaggregated and optically interconnected memory: when will it be cost effective?
+AU  - Bulent Abali
+AU  - Richard J. Eickemeyer
+AU  - Hubertus Franke
+AU  - Chung-Sheng Li
+AU  - Marc A. Taubenblatt
+PY  - 2015
+DO  - 10.48550/arXiv.1503.01416
+UR  - https://arxiv.org/abs/1503.01416
+N1  - Access C+; 摘要与经济模型相关段
+ER  - 
+
+TY  - JOUR
+ID  - CXLIntro2023
+TI  - An Introduction to the Compute Express Link (CXL) Interconnect
+AU  - Debendra Das Sharma
+AU  - Robert Blankenship
+AU  - Daniel S. Berger
+PY  - 2023
+DO  - 10.48550/arXiv.2306.11227
+UR  - https://arxiv.org/abs/2306.11227
+N1  - Access A; 协议／设备分类与内存池化相关章节
+ER  - 
+
+TY  - JOUR
+ID  - USConec165
+TI  - Next-generation multi-fiber ferrule using 165 micron pitch optical fiber
+AU  - Hirotaka Asada
+AU  - Darrell Childers
+AU  - Mike Hughes
+AU  - Takaaki Ishikawa
+AU  - Sharon Lutz
+AU  - Dirk Schoellner
+AU  - Kansei Shindo
+AU  - Yasuyuki Wada
+PY  - 2021
+DO  - 10.1117/12.2578649
+UR  - https://www.usconec.com/media/5gqn45fu/next-generation-multi-fiber-ferrule-using-165-micron-pitch-optical-fiber.pdf
+N1  - Access A; §1.1、Fig.1；实验与温循章节
+ER  - 
+
+TY  - JOUR
+ID  - Davis1996
+TI  - Writing waveguides in glass with a femtosecond laser
+AU  - K. M. Davis
+AU  - K. Miura
+AU  - N. Sugimoto
+AU  - K. Hirao
+PY  - 1996
+DO  - 10.1364/OL.21.001729
+UR  - https://doi.org/10.1364/OL.21.001729
+N1  - Access C; Optica原始摘要
+ER  - 
+
+TY  - JOUR
+ID  - Gattass2008
+TI  - Femtosecond laser micromachining in transparent materials
+AU  - Rafael R. Gattass
+AU  - Eric Mazur
+PY  - 2008
+DO  - 10.1038/nphoton.2008.47
+UR  - https://doi.org/10.1038/nphoton.2008.47
+N1  - Access C; 作者机构摘要
+ER  - 
+
+TY  - JOUR
+ID  - PhotonicWire2012
+TI  - Photonic wire bonding: a novel concept for chip-scale interconnects
+AU  - N. Lindenmann
+AU  - G. Balthasar
+AU  - D. Hillerkuss
+AU  - R. Schmogrow
+AU  - M. Jordan
+AU  - J. Leuthold
+AU  - W. Freude
+AU  - C. Koos
+PY  - 2012
+DO  - 10.1364/OE.20.017667
+UR  - https://doi.org/10.1364/OE.20.017667
+N1  - Access C; 原始摘要及arXiv作者记录
+ER  - 
+
+TY  - ELEC
+ID  - CorningShuffle
+TI  - Data Center Shuffling Solutions
+AU  - Corning
+UR  - https://www.corning.com/optical-communications/asean/en/home/products/shuffle-solutions.html
+N1  - Access B; Shuffle Solutions和FAQ
+ER  - 
+
+TY  - ELEC
+ID  - MolexShuffle
+TI  - OptoConnect Aggregation Fiber Shuffle Boxes
+AU  - Molex
+UR  - https://www.molex.com/content/dam/molex/molex-dot-com/en_us/pdf/datasheets/987651-1657.pdf?inline=
+N1  - Access B; p1 Features and Advantages
+ER  - 
+
+TY  - ELEC
+ID  - MolexFlex
+TI  - FlexPlane Optical Circuitry and Routed Ribbon Cable Solutions
+AU  - Molex
+UR  - https://www.molex.com/content/dam/molex/molex-dot-com/en_us/pdf/datasheets/987652-2611.pdf
+N1  - Access B; p1–2
+ER  - 
+
+TY  - ELEC
+ID  - USConecEZ
+TI  - US Conec Introduces EZ Shuffle Solution for High Density Fiber Management
+AU  - US Conec
+PY  - 2018
+UR  - https://www.usconec.com/media/bldixi54/ez-shuffle-press-release.pdf
+N1  - Access B; 2018-10-17正文
+ER  - 
+
+TY  - ELEC
+ID  - Castro2026
+TI  - Optical Shuffle Architectures for Large AI Networks
+AU  - Castro, Jose M.
+PY  - 2026
+UR  - https://www.ieee802.org/3/ad_hoc/E4AI/public/26_0224/castro_e4ai_02_260224.pdf
+N1  - Access A; p2–14，尤其p13–14
+ER  - 
+
+TY  - ELEC
+ID  - CorningFiber
+TI  - SMF-28 Ultra Optical Fibers
+AU  - Corning
+UR  - https://www.corning.com/optical-communications/in/en/home/products/fiber/optical-fiber-products/smf-28-ultra.html
+N1  - Access B; 产品介绍
+ER  - 
+
+TY  - ELEC
+ID  - CorningPatch
+TI  - Basic 2.0 mm 1 Fibre Patch Cord F585801G1Z20005M
+AU  - Corning
+UR  - https://ecatalog.corning.com/optical-communications/EMEA/en_GB/Fibre-Optic-Cable-Assemblies/Indoor-Cable-Assemblies/Simplex-Indoor-Cable-Assemblies/Basic-2-0-mm-1-Fibre-Patch-Cord/p/F585801G1Z20005M
+N1  - Access B; Mechanical/Optical Characteristics
+ER  - 
+
+TY  - ELEC
+ID  - IntelOCI2024
+TI  - Intel Demonstrates First Fully Integrated Optical I/O Chiplet
+AU  - Intel
+PY  - 2024
+UR  - https://www.intel.com/content/www/us/en/newsroom/news/intel-unveils-first-integrated-optical-io-chiplet.html
+N1  - Access B; How It Works
+ER  - 
+
+TY  - ELEC
+ID  - IntelHotChips2024
+TI  - Intel Demonstrates AI Architectural Expertise at Hot Chips 2024
+AU  - Intel
+PY  - 2024
+UR  - https://www.intel.com/content/www/us/en/newsroom/news/hot-chips-2024-ai-architectural-expertise.html
+N1  - Access B; 4 terabits per second…小节
+ER  - 
+
+TY  - ELEC
+ID  - SamsungHBM2E
+TI  - Samsung to Advance High Performance Computing Systems with Launch of Industry’s First 3rd-generation (16GB) HBM2E
+AU  - Samsung Electronics
+PY  - 2020
+UR  - https://news.samsung.com/global/samsung-to-advance-high-performance-computing-systems-with-launch-of-industrys-first-3rd-generation-16gb-hbm2e
+N1  - Access B; Flashbolt速率容量段
+ER  - 
+
+TY  - ELEC
+ID  - SKHBM3
+TI  - First Movers on a Path That No-one Has Taken Before: Meet the Engineers Leading the World’s First Mass-production of HBM3
+AU  - SK hynix
+PY  - 2022
+UR  - https://news.skhynix.com/en/meet-the-engineers-leading-the-worlds-first-mass-production-of-hbm3/
+N1  - Access B; processing/storage小节
+ER  - 
+
+TY  - ELEC
+ID  - MicronHBM3E
+TI  - HBM3E
+AU  - Micron Technology
+UR  - https://www.micron.com/products/memory/hbm/hbm3e
+N1  - Access B; FAQ
+ER  - 
+
+TY  - ELEC
+ID  - JEDECHBM4
+TI  - JEDEC and Industry Leaders Collaborate to Release JESD270-4 HBM4 Standard
+AU  - JEDEC
+PY  - 2025
+UR  - https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing
+N1  - Access C; 发布索引/交叉来源；正文未取得
+ER  - 
+
+TY  - ELEC
+ID  - MicronHBM4
+TI  - Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2
+AU  - Micron Technology
+PY  - 2026
+UR  - https://micron.gcs-web.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin
+N1  - Access B; 2026-03-16正文与脚注
+ER  - 
+
+TY  - ELEC
+ID  - JEDECSPHBM4
+TI  - New JEDEC SPHBM4 Standard Enables HBM4-Class Bandwidth on Organic Substrates
+AU  - JEDEC
+PY  - 2026
+UR  - https://www.jedec.org/
+N1  - Access C; 官方首页索引；正文未取得
+ER  - 
+
+TY  - ELEC
+ID  - HopperGuide
+TI  - NVIDIA Hopper Tuning Guide
+AU  - NVIDIA
+UR  - https://docs.nvidia.com/cuda/hopper-tuning-guide/
+N1  - Access B; NVLink Interconnect
+ER  - 
+
+TY  - ELEC
+ID  - NVLinkCurrent
+TI  - NVIDIA NVLink and NVLink Switch
+AU  - NVIDIA
+UR  - https://www.nvidia.com/en-us/data-center/nvlink/
+N1  - Access B; Specifications
+ER  - 
+
+TY  - ELEC
+ID  - RubinCurrent
+TI  - NVIDIA Vera Rubin NVL72
+AU  - NVIDIA
+UR  - https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/
+N1  - Access B; Specs
+ER  - 
+
+TY  - ELEC
+ID  - PCIE5
+TI  - PCIe Compliance Updates
+AU  - PCI-SIG
+UR  - https://pcisig.com/developer/education/pcie-compliance-updates-16
+N1  - Access B; 5.0 Integrators List
+ER  - 
+
+TY  - ELEC
+ID  - CXL4
+TI  - CXL Consortium Releases the Compute Express Link 4.0 Specification Increasing Speed and Bandwidth
+AU  - CXL Consortium
+PY  - 2025
+UR  - https://computeexpresslink.org/wp-content/uploads/2025/11/CXL_4.0-Specification-Release_FINAL_Website-Copy.pdf
+N1  - Access B; 2025-11-18 p1 Key features
+ER  - 
+
+TY  - ELEC
+ID  - CXL4QA
+TI  - Introducing the CXL 4.0 Specification Webinar Q&A Recap
+AU  - CXL Consortium
+PY  - 2026
+UR  - https://computeexpresslink.org/blog/introducing-the-cxl-4-0-specification-webinar-qa-recap-4386/
+N1  - Access B; Q1/Q4
+ER  - 
+
+TY  - ELEC
+ID  - LumericalFDE
+TI  - MODE Finite-Difference Eigenmode FDE Solver Introduction
+AU  - Ansys
+UR  - https://optics.ansys.com/hc/en-us/articles/360034917233-MODE-Finite-Difference-Eigenmode-FDE-solver-introduction
+N1  - Access B; solver capabilities
+ER  - 
+
+TY  - ELEC
+ID  - LumericalBent
+TI  - Solving Bent Waveguides in FDE and FEEM
+AU  - Ansys
+UR  - https://optics.ansys.com/hc/en-us/articles/360034917253-Solving-bent-waveguides-in-FDE-and-FEEM
+N1  - Access B; Bend orientation/Minimum bend radius
+ER  - 
+
+TY  - ELEC
+ID  - LumericalCompact
+TI  - Waveguide FDE
+AU  - Ansys
+UR  - https://optics.ansys.com/hc/en-us/articles/360042800453-Waveguide-FDE
+N1  - Access B; workflow
+ER  - 
+
+TY  - ELEC
+ID  - OpticStudio
+TI  - Non-sequential Overview: OpticStudio User Guide
+AU  - Ansys
+PY  - 2025
+UR  - https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v25101/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Non_sequential_Overview.html
+N1  - Access B; Non-sequential Overview
+ER  - 
+
+TY  - ELEC
+ID  - OptoCompiler
+TI  - OptoCompiler
+AU  - Synopsys
+UR  - https://www.synopsys.com/photonic-solutions/optocompiler.html
+N1  - Access B; Interactive Waveguide Routing
+ER  - 
+
+TY  - ELEC
+ID  - OptSim
+TI  - OptSim
+AU  - Synopsys
+UR  - https://www.synopsys.com/photonic-solutions/optsim.html
+N1  - Access B; 产品功能
+ER  - 
+
+TY  - ELEC
+ID  - KLayout
+TI  - Design Rule Checking
+AU  - KLayout
+UR  - https://klayout.de/doc/manual/drc.html
+N1  - Access B; DRC manual
+ER  - 
+
+TY  - ELEC
+ID  - KLayout25D
+TI  - 2.5d View
+AU  - KLayout
+UR  - https://www.klayout.org/downloads/master/doc-qt5/about/25d_view.html
+N1  - Access B; 限制说明
+ER  - 
+
+TY  - ELEC
+ID  - Gdsfactory
+TI  - GDSFactory Routing
+AU  - GDSFactory
+UR  - https://gdsfactory.github.io/gdsfactory/notebooks/04_routing/
+N1  - Access B; routing notebook/API
+ER  - 
+
+TY  - ELEC
+ID  - IPKISS
+TI  - ConnectManhattanTapered
+AU  - Luceda Photonics
+PY  - 2026
+UR  - https://academy.lucedaphotonics.com/ipkiss/reference/connectors/ref/ipkiss3.all.ConnectManhattanTapered
+N1  - Access B; 2026.09参数文档
+ER  - 
+
+TY  - ELEC
+ID  - Femto
+TI  - femto: Femtosecond Laser Writing Photonic Circuits
+AU  - Albiero, Riccardo
+UR  - https://github.com/ricalbr/femto
+N1  - Access A; README、src/femto/waveguide.py
+ER  - 
+
+TY  - ELEC
+ID  - AnsysZemax2021
+TI  - Ansys 2022 Annual Report
+AU  - Ansys
+PY  - 2022
+UR  - https://investors.ansys.com/static-files/90abb39f-75e6-4aee-891d-fa31bbdf8660
+N1  - Access B; Acquisitions: October 1, 2021
+ER  - 
+
+TY  - ELEC
+ID  - SynopsysAnsys2025
+TI  - Synopsys Completes Acquisition of Ansys
+AU  - Synopsys
+PY  - 2025
+UR  - https://investor.synopsys.com/news/news-details/2025/Synopsys-Completes-Acquisition-of-Ansys/default.aspx
+N1  - Access B; 2025-07-17首段
+ER  - 
+
+TY  - ELEC
+ID  - KeysightOSG2025
+TI  - Keysight Completes Acquisition of Synopsys Optical Solutions Group and Ansys PowerArtist
+AU  - Keysight Technologies
+PY  - 2025
+UR  - https://www.keysight.com/in/en/about/newsroom/news-releases/2025/1017_pr25-083-keysight-completes-acquisition-of-synopsys-optical-solutions-group-and-ansys-powerartist.html
+N1  - Access B; 2025-10-17产品清单
+ER  - 
+
+TY  - ELEC
+ID  - LingThesis2023
+TI  - Functional Photonic Integrated Circuits Based on Advanced Three-Dimensional Photonic Packaging
+AU  - Ling, Yi-Chun
+PY  - 2023
+UR  - https://escholarship.org/uc/item/91t489m0
+N1  - Access C; 大学库摘要，PDF受限
+ER  - 
+
+TY  - JOUR
+ID  - Brusberg2020Multimode
+TI  - Low-Loss Multimode Glass Waveguides With Beam-Expanded Fiber Connectors Enabling On-Board Optical Links
+AU  - Lars Brusberg
+AU  - Aramais R. Zakharian
+AU  - Marcel Neitz
+AU  - Shenping Li
+AU  - Brooke A. Hathaway
+AU  - Sergey A. Kuchinsky
+AU  - Pierre Beneke
+AU  - Henning Schroder
+PY  - 2020
+DO  - 10.1109/JLT.2019.2956915
+UR  - https://doi.org/10.1109/JLT.2019.2956915
+N1  - Access C; Optica原始摘要；JLT38(6):1350–1357
+ER  - 

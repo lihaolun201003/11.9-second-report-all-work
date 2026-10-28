@@ -1,0 +1,1466 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        28
+      ]
+    ],
+    "date-time": "2026-10-28T07:59:06Z",
+    "timestamp": 1793174346003,
+    "version": "4.5.0"
+  },
+  "reference-count": 215,
+  "publisher": "Wiley",
+  "issue": "18",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            19
+          ]
+        ],
+        "date-time": "2023-06-19T00:00:00Z",
+        "timestamp": 1687132800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "22105180"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "22105180"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100004731",
+      "name": "Natural Science Foundation of Zhejiang Province",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "LD21F050002"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "LD21F050002"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100004731",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100017538",
+      "name": "Zhejiang Provincial Ten Thousand Plan for Young Top Talents",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2020R52001"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2020R52001"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100017538",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "advanced.onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Adv Materials Technologies"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>As the most fundamental unit of photonic integration, optical waveguides offer the possibility of developing efficient and practical photonic chips by facilitating the on‐chip integration of devices with different functions. Femtosecond direct laser writing (FsDLW), as a burgeoning 3D microfabrication technology, can realize the rapid formation of arbitrary optical waveguides without any mask inside versatile materials, such as crystalline dielectric crystals, glasses, polymers, and photoresists. This significant material‐independence allows FsDLW to combine different materials and manufacturing processes to implement a cross‐platform solution. This review first describes the different optical loss types and suitable measurement methods for different applicable scenes, then summarizes the two fabrication mechanisms and points out the general direction for adjusting the waveguide properties by fabrication processes. Finally, the application fields and development prospects of different materials are discussed by overviewing the characteristics of different materials and the material selection preferences of different devices. With a panoramic view of the development, it is concluded with insights and perspectives of the future development of optical waveguides and processing technology via FsDLW.</jats:p>",
+  "DOI": "10.1002/admt.202300620",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        20
+      ]
+    ],
+    "date-time": "2023-06-20T00:34:53Z",
+    "timestamp": 1687221293000
+  },
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 47,
+  "title": [
+    "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices"
+  ],
+  "prefix": "10.1002",
+  "volume": "8",
+  "author": [
+    {
+      "given": "Jiawei",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Research Center for Intelligent Chips and Devices Zhejiang Lab  Hangzhou 311121 China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7332-073X",
+      "authenticated-orcid": false,
+      "given": "Chun",
+      "family": "Cao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Research Center for Intelligent Chips and Devices Zhejiang Lab  Hangzhou 311121 China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yiwei",
+      "family": "Qiu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Research Center for Intelligent Chips and Devices Zhejiang Lab  Hangzhou 311121 China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7650-0349",
+      "authenticated-orcid": false,
+      "given": "Cuifang",
+      "family": "Kuang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Research Center for Intelligent Chips and Devices Zhejiang Lab  Hangzhou 311121 China"
+        },
+        {
+          "name": "State Key Laboratory of Extreme Photonics and Instrumentation College of Optical Science and Engineering Zhejiang University  Hangzhou 310027 China"
+        },
+        {
+          "name": "ZJU‐Hangzhou Global Scientific and Technological Innovation Center  Hangzhou 311200 China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xu",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Research Center for Intelligent Chips and Devices Zhejiang Lab  Hangzhou 311121 China"
+        },
+        {
+          "name": "State Key Laboratory of Extreme Photonics and Instrumentation College of Optical Science and Engineering Zhejiang University  Hangzhou 310027 China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        19
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_9_1_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nphoton.2013.94"
+    },
+    {
+      "key": "e_1_2_9_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optcom.2015.07.079"
+    },
+    {
+      "key": "e_1_2_9_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.nanolett.5b00574"
+    },
+    {
+      "key": "e_1_2_9_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.bios.2014.02.049"
+    },
+    {
+      "key": "e_1_2_9_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/polym3030975"
+    },
+    {
+      "key": "e_1_2_9_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1515/nanoph-2018-0075"
+    },
+    {
+      "key": "e_1_2_9_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/photonics6020048"
+    },
+    {
+      "key": "e_1_2_9_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/j.1538-7305.1969.tb01165.x"
+    },
+    {
+      "key": "e_1_2_9_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/crat.200610888"
+    },
+    {
+      "key": "e_1_2_9_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3367742"
+    },
+    {
+      "key": "e_1_2_9_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00340-016-6635-1"
+    },
+    {
+      "key": "e_1_2_9_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.25.029374"
+    },
+    {
+      "key": "e_1_2_9_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.17.003923"
+    },
+    {
+      "key": "e_1_2_9_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.93615"
+    },
+    {
+      "key": "e_1_2_9_15_1",
+      "first-page": "1058",
+      "volume": "38",
+      "author": "Jia L. H.",
+      "year": "2009",
+      "journal-title": "Guangzi Xuebao"
+    },
+    {
+      "key": "e_1_2_9_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.27.000179"
+    },
+    {
+      "key": "e_1_2_9_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/50.4090"
+    },
+    {
+      "key": "e_1_2_9_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s003390051514"
+    },
+    {
+      "key": "e_1_2_9_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.19.001449"
+    },
+    {
+      "key": "e_1_2_9_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1335545"
+    },
+    {
+      "key": "e_1_2_9_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.28.000911"
+    },
+    {
+      "key": "e_1_2_9_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.apsusc.2007.07.160"
+    },
+    {
+      "key": "e_1_2_9_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2374848"
+    },
+    {
+      "key": "e_1_2_9_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2010.10.030"
+    },
+    {
+      "key": "e_1_2_9_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.nantod.2010.08.007"
+    },
+    {
+      "key": "e_1_2_9_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00339-003-2088-6"
+    },
+    {
+      "key": "e_1_2_9_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nphoton.2008.47"
+    },
+    {
+      "key": "e_1_2_9_28_1",
+      "volume-title": "Optical Waveguides: From Theory to Applied Technologies",
+      "author": "Calvo M. L.",
+      "year": "2007"
+    },
+    {
+      "key": "e_1_2_9_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.201100003"
+    },
+    {
+      "key": "e_1_2_9_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2011.2157302"
+    },
+    {
+      "key": "e_1_2_9_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2961/jlmn.2015.02.0007"
+    },
+    {
+      "key": "e_1_2_9_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPTICA.5.000876"
+    },
+    {
+      "key": "e_1_2_9_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/1521-4095(20021002)14:19<1339::AID-ADMA1339>3.0.CO;2-O"
+    },
+    {
+      "key": "e_1_2_9_34_1",
+      "first-page": "4439",
+      "volume": "36",
+      "author": "Norwood R. A.",
+      "year": "2001",
+      "journal-title": "Proc. SPIE"
+    },
+    {
+      "key": "e_1_2_9_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2018.2820381"
+    },
+    {
+      "key": "e_1_2_9_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2014.2386692"
+    },
+    {
+      "key": "e_1_2_9_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1308532"
+    },
+    {
+      "key": "e_1_2_9_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2009.2021562"
+    },
+    {
+      "key": "e_1_2_9_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2005.850816"
+    },
+    {
+      "key": "e_1_2_9_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2004.828497"
+    },
+    {
+      "key": "e_1_2_9_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10762-009-9488-4"
+    },
+    {
+      "key": "e_1_2_9_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2015.08.003"
+    },
+    {
+      "key": "e_1_2_9_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF00619896"
+    },
+    {
+      "key": "e_1_2_9_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPEX.12.001622"
+    },
+    {
+      "key": "e_1_2_9_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/68.215278"
+    },
+    {
+      "key": "e_1_2_9_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/el:19930492"
+    },
+    {
+      "key": "e_1_2_9_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.435175"
+    },
+    {
+      "key": "e_1_2_9_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2014.2373051"
+    },
+    {
+      "key": "e_1_2_9_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.89928"
+    },
+    {
+      "key": "e_1_2_9_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.95063"
+    },
+    {
+      "key": "e_1_2_9_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/AO.12.002901"
+    },
+    {
+      "key": "e_1_2_9_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPEX.13.004314"
+    },
+    {
+      "key": "e_1_2_9_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JQE.1982.1071390"
+    },
+    {
+      "key": "e_1_2_9_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.90476"
+    },
+    {
+      "key": "e_1_2_9_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/12.364468"
+    },
+    {
+      "key": "e_1_2_9_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2019.2917076"
+    },
+    {
+      "key": "e_1_2_9_57_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optlastec.2021.107500"
+    },
+    {
+      "key": "e_1_2_9_58_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-017-07587-w"
+    },
+    {
+      "key": "e_1_2_9_59_1",
+      "first-page": "373",
+      "volume": "24",
+      "author": "Shank C. V.",
+      "year": "1974",
+      "journal-title": "IEEE J. Quantum Electron."
+    },
+    {
+      "key": "e_1_2_9_60_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.21.001729"
+    },
+    {
+      "key": "e_1_2_9_61_1",
+      "first-page": "950",
+      "volume": "67",
+      "author": "Hirao K.",
+      "year": "1998",
+      "journal-title": "Oyobuturi"
+    },
+    {
+      "key": "e_1_2_9_62_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.29026/oea.2020.190042"
+    },
+    {
+      "key": "e_1_2_9_63_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C4TC02737J"
+    },
+    {
+      "key": "e_1_2_9_64_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.202100215"
+    },
+    {
+      "key": "e_1_2_9_65_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.29026/oea.2022.210055"
+    },
+    {
+      "key": "e_1_2_9_66_1",
+      "first-page": "1",
+      "volume": "15",
+      "author": "Yang S.",
+      "year": "2022",
+      "journal-title": "Appl. Phys. Express"
+    },
+    {
+      "key": "e_1_2_9_67_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.201900407"
+    },
+    {
+      "key": "e_1_2_9_68_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2020.110103"
+    },
+    {
+      "key": "e_1_2_9_69_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1515/nanoph-2015-0020"
+    },
+    {
+      "key": "e_1_2_9_70_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.201300025"
+    },
+    {
+      "key": "e_1_2_9_71_1",
+      "volume-title": "European Conf. on Lasers and Electro‐optics",
+      "author": "Burghoff J.",
+      "year": "2007"
+    },
+    {
+      "key": "e_1_2_9_72_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/pssa.201026452"
+    },
+    {
+      "key": "e_1_2_9_73_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.30.002248"
+    },
+    {
+      "key": "e_1_2_9_74_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/advs.202204072"
+    },
+    {
+      "key": "e_1_2_9_75_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.201100046"
+    },
+    {
+      "key": "e_1_2_9_76_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.addma.2022.102658"
+    },
+    {
+      "key": "e_1_2_9_77_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acsami.2c08063"
+    },
+    {
+      "key": "e_1_2_9_78_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adom.201901040"
+    },
+    {
+      "key": "e_1_2_9_79_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.16.009443"
+    },
+    {
+      "key": "e_1_2_9_80_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.20.029890"
+    },
+    {
+      "key": "e_1_2_9_81_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPEX.13.004708"
+    },
+    {
+      "key": "e_1_2_9_82_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.21.026244"
+    },
+    {
+      "key": "e_1_2_9_83_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.28.000301"
+    },
+    {
+      "key": "e_1_2_9_84_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2717532"
+    },
+    {
+      "key": "e_1_2_9_85_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2018.2878288"
+    },
+    {
+      "key": "e_1_2_9_86_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.41.003507"
+    },
+    {
+      "key": "e_1_2_9_87_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1991991"
+    },
+    {
+      "key": "e_1_2_9_88_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.17.003555"
+    },
+    {
+      "key": "e_1_2_9_89_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.3.001378"
+    },
+    {
+      "key": "e_1_2_9_90_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/srep08072"
+    },
+    {
+      "key": "e_1_2_9_91_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/0960-1317/9/1/307"
+    },
+    {
+      "key": "e_1_2_9_92_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/84.825780"
+    },
+    {
+      "key": "e_1_2_9_93_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2019.2900913"
+    },
+    {
+      "key": "e_1_2_9_94_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/mi12121579"
+    },
+    {
+      "key": "e_1_2_9_95_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.8.001890"
+    },
+    {
+      "key": "e_1_2_9_96_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.6.003202"
+    },
+    {
+      "key": "e_1_2_9_97_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optlastec.2015.05.016"
+    },
+    {
+      "key": "e_1_2_9_98_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijleo.2015.12.008"
+    },
+    {
+      "key": "e_1_2_9_99_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.446775"
+    },
+    {
+      "key": "e_1_2_9_100_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.apsusc.2018.05.185"
+    },
+    {
+      "key": "e_1_2_9_101_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijleo.2022.170068"
+    },
+    {
+      "key": "e_1_2_9_102_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.25.031036"
+    },
+    {
+      "key": "e_1_2_9_103_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2961/jlmn.2016.02.0016"
+    },
+    {
+      "key": "e_1_2_9_104_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.24.007456"
+    },
+    {
+      "key": "e_1_2_9_105_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00339-013-7833-x"
+    },
+    {
+      "key": "e_1_2_9_106_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.5.001274"
+    },
+    {
+      "key": "e_1_2_9_107_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.20.026922"
+    },
+    {
+      "key": "e_1_2_9_108_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.33.002281"
+    },
+    {
+      "key": "e_1_2_9_109_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2022.3176972"
+    },
+    {
+      "key": "e_1_2_9_110_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.44.001214"
+    },
+    {
+      "key": "e_1_2_9_111_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2799178"
+    },
+    {
+      "key": "e_1_2_9_112_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.3.001378"
+    },
+    {
+      "key": "e_1_2_9_113_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2020.3038438"
+    },
+    {
+      "key": "e_1_2_9_114_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2018.11.001"
+    },
+    {
+      "key": "e_1_2_9_115_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/AO.52.003713"
+    },
+    {
+      "key": "e_1_2_9_116_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.22.031293"
+    },
+    {
+      "key": "e_1_2_9_117_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.5.000323"
+    },
+    {
+      "key": "e_1_2_9_118_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-020-72234-w"
+    },
+    {
+      "key": "e_1_2_9_119_1",
+      "first-page": "62",
+      "volume": "26",
+      "author": "Qian B.",
+      "year": "2009",
+      "journal-title": "Chin. Phys. Lett."
+    },
+    {
+      "key": "e_1_2_9_120_1",
+      "first-page": "68",
+      "volume": "8627",
+      "author": "Bányász I.",
+      "year": "2013",
+      "journal-title": "Proc. SPIE‐Int. Soc. Opt. Eng."
+    },
+    {
+      "key": "e_1_2_9_121_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.nimb.2011.12.039"
+    },
+    {
+      "key": "e_1_2_9_122_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/AO.50.006678"
+    },
+    {
+      "key": "e_1_2_9_123_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.19.011992"
+    },
+    {
+      "key": "e_1_2_9_124_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.120327"
+    },
+    {
+      "key": "e_1_2_9_125_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.26.001516"
+    },
+    {
+      "key": "e_1_2_9_126_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPEX.13.001999"
+    },
+    {
+      "key": "e_1_2_9_127_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-021-88682-x"
+    },
+    {
+      "key": "e_1_2_9_128_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0119961"
+    },
+    {
+      "key": "e_1_2_9_129_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.35.004036"
+    },
+    {
+      "key": "e_1_2_9_130_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/JOSAB.29.002779"
+    },
+    {
+      "key": "e_1_2_9_131_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10854-008-9584-6"
+    },
+    {
+      "key": "e_1_2_9_132_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPEX.13.003594"
+    },
+    {
+      "key": "e_1_2_9_133_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2014.2365619"
+    },
+    {
+      "key": "e_1_2_9_134_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPEX.14.000291"
+    },
+    {
+      "key": "e_1_2_9_135_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2015.09.002"
+    },
+    {
+      "key": "e_1_2_9_136_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2021.3071885"
+    },
+    {
+      "key": "e_1_2_9_137_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11082-022-04003-0"
+    },
+    {
+      "key": "e_1_2_9_138_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.9.000128"
+    },
+    {
+      "key": "e_1_2_9_139_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/polym12112485"
+    },
+    {
+      "key": "e_1_2_9_140_1",
+      "first-page": "51",
+      "volume": "74",
+      "author": "Poenar D. P.",
+      "year": "2009",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "e_1_2_9_141_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.sna.2013.09.019"
+    },
+    {
+      "key": "e_1_2_9_142_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2005.849932"
+    },
+    {
+      "key": "e_1_2_9_143_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.20.017667"
+    },
+    {
+      "key": "e_1_2_9_144_1",
+      "first-page": "2334",
+      "volume": "7",
+      "author": "Moughames J.",
+      "year": "2019",
+      "journal-title": "Optica"
+    },
+    {
+      "key": "e_1_2_9_145_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2494/photopolymer.14.689"
+    },
+    {
+      "key": "e_1_2_9_146_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/0960-1317/7/3/010"
+    },
+    {
+      "key": "e_1_2_9_147_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/AO.42.004072"
+    },
+    {
+      "key": "e_1_2_9_148_1",
+      "volume-title": "Int. Conf. on Solid State Sensors and Actuators",
+      "author": "Guerin L. J.",
+      "year": "1997"
+    },
+    {
+      "key": "e_1_2_9_149_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4994806"
+    },
+    {
+      "key": "e_1_2_9_150_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-017-07587-w"
+    },
+    {
+      "key": "e_1_2_9_151_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2338532"
+    },
+    {
+      "key": "e_1_2_9_152_1",
+      "first-page": "896",
+      "volume": "90",
+      "author": "Osellame R.",
+      "year": "2007",
+      "journal-title": "Appl. Phys. Lett."
+    },
+    {
+      "key": "e_1_2_9_153_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2016.2573841"
+    },
+    {
+      "key": "e_1_2_9_154_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.22.023339"
+    },
+    {
+      "key": "e_1_2_9_155_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optlaseng.2018.08.015"
+    },
+    {
+      "key": "e_1_2_9_156_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2017.2715118"
+    },
+    {
+      "key": "e_1_2_9_157_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.2.001556"
+    },
+    {
+      "key": "e_1_2_9_158_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.15.014414"
+    },
+    {
+      "key": "e_1_2_9_159_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.27.008626"
+    },
+    {
+      "key": "e_1_2_9_160_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.25.000263"
+    },
+    {
+      "key": "e_1_2_9_161_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.41.001269"
+    },
+    {
+      "key": "e_1_2_9_162_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OME.4.000486"
+    },
+    {
+      "key": "e_1_2_9_163_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.polymer.2011.04.052"
+    },
+    {
+      "key": "e_1_2_9_164_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2011.11.007"
+    },
+    {
+      "key": "e_1_2_9_165_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/AO.55.001906"
+    },
+    {
+      "key": "e_1_2_9_166_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.410435"
+    },
+    {
+      "key": "e_1_2_9_167_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41377-020-0272-5"
+    },
+    {
+      "key": "e_1_2_9_168_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-021-95981-w"
+    },
+    {
+      "key": "e_1_2_9_169_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/1361-6463/ab8e7f"
+    },
+    {
+      "key": "e_1_2_9_170_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2018.2798539"
+    },
+    {
+      "key": "e_1_2_9_171_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2016.2623814"
+    },
+    {
+      "key": "e_1_2_9_172_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2020.3026170"
+    },
+    {
+      "key": "e_1_2_9_173_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adom.201900513"
+    },
+    {
+      "key": "e_1_2_9_174_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.23.022394"
+    },
+    {
+      "key": "e_1_2_9_175_1",
+      "volume-title": "Advanced Fabrication Technologies for Micro/Nano Optics and Photonics VI",
+      "author": "Koos C.",
+      "year": "2013"
+    },
+    {
+      "key": "e_1_2_9_176_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2017.2781803"
+    },
+    {
+      "key": "e_1_2_9_177_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.399329"
+    },
+    {
+      "key": "e_1_2_9_178_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.400623"
+    },
+    {
+      "key": "e_1_2_9_179_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.37.003999"
+    },
+    {
+      "key": "e_1_2_9_180_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.44.000423"
+    },
+    {
+      "key": "e_1_2_9_181_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adom.202200379"
+    },
+    {
+      "key": "e_1_2_9_182_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.24.000030"
+    },
+    {
+      "key": "e_1_2_9_183_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.38.001918"
+    },
+    {
+      "key": "e_1_2_9_184_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2021.3082566"
+    },
+    {
+      "key": "e_1_2_9_185_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2019.2956178"
+    },
+    {
+      "key": "e_1_2_9_186_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.26.003732"
+    },
+    {
+      "key": "e_1_2_9_187_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/0470861401"
+    },
+    {
+      "key": "e_1_2_9_188_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2020.2986474"
+    },
+    {
+      "key": "e_1_2_9_189_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/nano12101749"
+    },
+    {
+      "key": "e_1_2_9_190_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-017-09462-0"
+    },
+    {
+      "key": "e_1_2_9_191_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.26.015101"
+    },
+    {
+      "key": "e_1_2_9_192_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.44.000102"
+    },
+    {
+      "key": "e_1_2_9_193_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.42.002655"
+    },
+    {
+      "key": "e_1_2_9_194_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4985766"
+    },
+    {
+      "key": "e_1_2_9_195_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.22.029855"
+    },
+    {
+      "key": "e_1_2_9_196_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ceramint.2020.12.099"
+    },
+    {
+      "key": "e_1_2_9_197_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.5064401"
+    },
+    {
+      "key": "e_1_2_9_198_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.201100032"
+    },
+    {
+      "key": "e_1_2_9_199_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature01939"
+    },
+    {
+      "key": "e_1_2_9_200_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adom.202000613"
+    },
+    {
+      "key": "e_1_2_9_201_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adom.201900602"
+    },
+    {
+      "key": "e_1_2_9_202_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/polb.24309"
+    },
+    {
+      "key": "e_1_2_9_203_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/D0TC02403A"
+    },
+    {
+      "key": "e_1_2_9_204_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2020.2973933"
+    },
+    {
+      "key": "e_1_2_9_205_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.36.002871"
+    },
+    {
+      "key": "e_1_2_9_206_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C6RA28840E"
+    },
+    {
+      "key": "e_1_2_9_207_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/srep45610"
+    },
+    {
+      "key": "e_1_2_9_208_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.44.001214"
+    },
+    {
+      "key": "e_1_2_9_209_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11433-015-5728-x"
+    },
+    {
+      "key": "e_1_2_9_210_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.20.010212"
+    },
+    {
+      "key": "e_1_2_9_211_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.38.001458"
+    },
+    {
+      "key": "e_1_2_9_212_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.25.002627"
+    },
+    {
+      "key": "e_1_2_9_213_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00340-010-4275-4"
+    },
+    {
+      "key": "e_1_2_9_214_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jsamd.2021.100413"
+    },
+    {
+      "key": "e_1_2_9_215_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00339-006-3750-6"
+    }
+  ],
+  "container-title": [
+    "Advanced Materials Technologies"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/admt.202300620",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        6
+      ]
+    ],
+    "date-time": "2025-10-06T15:10:18Z",
+    "timestamp": 1759763418000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admt.202300620"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        19
+      ]
+    ]
+  },
+  "references-count": 215,
+  "journal-issue": {
+    "issue": "18",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1002/admt.202300620"
+  ],
+  "URL": "https://doi.org/10.1002/admt.202300620",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "2365-709X",
+    "2365-709X"
+  ],
+  "issn-type": [
+    {
+      "value": "2365-709X",
+      "type": "print"
+    },
+    {
+      "value": "2365-709X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        19
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2023-04-22",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2023-06-19",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ],
+  "article-number": "2300620"
+}

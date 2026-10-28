@@ -1,0 +1,361 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        17
+      ]
+    ],
+    "date-time": "2026-09-17T05:27:00Z",
+    "timestamp": 1789622820515,
+    "version": "build-2803163510"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 24,
+  "publisher": "ACM",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            28
+          ]
+        ],
+        "date-time": "2023-11-28T00:00:00Z",
+        "timestamp": 1701129600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        28
+      ]
+    ]
+  },
+  "DOI": "10.1145/3626111.3628195",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        13
+      ]
+    ],
+    "date-time": "2023-11-13T12:11:20Z",
+    "timestamp": 1699877480000
+  },
+  "page": "18-24",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 23,
+  "title": [
+    "A Case Against CXL Memory Pooling"
+  ],
+  "prefix": "10.1145",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-2934-2701",
+      "authenticated-orcid": false,
+      "given": "Philip",
+      "family": "Levis",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Google"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4597-9702",
+      "authenticated-orcid": false,
+      "given": "Kun",
+      "family": "Lin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Google"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6725-9189",
+      "authenticated-orcid": false,
+      "given": "Amy",
+      "family": "Tai",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Google"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        28
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_1_1_1",
+      "volume-title": "Leo cxl memory connectivity platform. https://www.asteralabs.com/products/cxl-memory-platform/leo-cxl-memory-connectivity-platform/",
+      "author": "Labs Astera",
+      "year": "2023",
+      "unstructured": "Astera Labs. Leo cxl memory connectivity platform. https://www.asteralabs.com/products/cxl-memory-platform/leo-cxl-memory-connectivity-platform/, 2023."
+    },
+    {
+      "key": "e_1_3_2_1_2_1",
+      "volume-title": "Mellanox Spectrum-2 MSN3700 switch 32 ports. https://www.cdw.com/product/mellanox-spectrum-2-msn3700-switch-32-ports-managed-rack-mountable/6415759",
+      "author": "CDW Corporation",
+      "year": "2023",
+      "unstructured": "CDW Corporation. Mellanox Spectrum-2 MSN3700 switch 32 ports. https://www.cdw.com/product/mellanox-spectrum-2-msn3700-switch-32-ports-managed-rack-mountable/6415759, 2023."
+    },
+    {
+      "key": "e_1_3_2_1_3_1",
+      "unstructured": "Compute Express Link Consortium Inc. Compute Express Link (CXL) Specification Revision 1.1 2019."
+    },
+    {
+      "key": "e_1_3_2_1_4_1",
+      "unstructured": "Compute Express Link Consortium Inc. Compute Express Link (CXL) Specification Revision 2.0 2020."
+    },
+    {
+      "key": "e_1_3_2_1_5_1",
+      "unstructured": "Compute Express Link Consortium Inc. Compute Express Link (CXL) Specification Revision 3.0 2022."
+    },
+    {
+      "key": "e_1_3_2_1_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3582016.3582031"
+    },
+    {
+      "key": "e_1_3_2_1_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3026877.3026897"
+    },
+    {
+      "key": "e_1_3_2_1_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2740070.2626334"
+    },
+    {
+      "key": "e_1_3_2_1_9_1",
+      "first-page": "845",
+      "volume-title": "Proceedings of the 14th USENIX Conference on Operating Systems Design and Implementation",
+      "author": "Hadary O.",
+      "year": "2020",
+      "unstructured": "O. Hadary, L. Marshall, I. Menache, A. Pan, E. E. Greeff, D. Dion, S. Dorminey, S. Joshi, Y. Chen, M. Russinovich, et al. Protean: Vm allocation service at scale. In Proceedings of the 14th USENIX Conference on Operating Systems Design and Implementation, pages 845--861, 2020."
+    },
+    {
+      "key": "e_1_3_2_1_10_1",
+      "volume-title": "Intel FPGA Compute Express Link (CXL) IP. https://www.intel.com/content/www/us/en/products/details/fpga/intellectual-property/interface-protocols/cxl-ip.html",
+      "author": "Intel I.",
+      "year": "2023",
+      "unstructured": "I. Intel. Intel FPGA Compute Express Link (CXL) IP. https://www.intel.com/content/www/us/en/products/details/fpga/intellectual-property/interface-protocols/cxl-ip.html, 2023."
+    },
+    {
+      "key": "e_1_3_2_1_11_1",
+      "first-page": "34",
+      "author": "Agarwal Ishwar",
+      "year": "2022",
+      "unstructured": "Ishwar Agarwal. CXL overview and evolution. In Proceedings of HotChips 34, 2022.",
+      "journal-title": "Proceedings of HotChips"
+    },
+    {
+      "key": "e_1_3_2_1_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3297858.3304053"
+    },
+    {
+      "key": "e_1_3_2_1_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3575693.3578835"
+    },
+    {
+      "key": "e_1_3_2_1_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3582016.3582063"
+    },
+    {
+      "key": "e_1_3_2_1_15_1",
+      "volume-title": "Samsung Electronics Introduces Industry's First 512GB CXL Memory Module. https://news.samsung.com/global/samsung-electronics- introduces- industrys- first- 512gb- cxlmemory- module",
+      "author": "Newsroom S.",
+      "year": "2022",
+      "unstructured": "S. Newsroom. Samsung Electronics Introduces Industry's First 512GB CXL Memory Module. https://news.samsung.com/global/samsung-electronics- introduces- industrys- first- 512gb- cxlmemory- module, 2022."
+    },
+    {
+      "key": "e_1_3_2_1_16_1",
+      "unstructured": "S. Newsroom. Samsung Develops Industry's First CXL DRAM Supporting CXL 2.0. https://news.samsung.com/global/samsung-develops-industrys-first-cxl-dram-supporting-cxl-2-0 2023."
+    },
+    {
+      "key": "e_1_3_2_1_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3357526.3357568"
+    },
+    {
+      "key": "e_1_3_2_1_18_1",
+      "volume-title": "Proceedings of the 14th USENIX Conference on Operating Systems Design and Implementation, OSDI'20, USA",
+      "author": "Ruan Z.",
+      "year": "2020",
+      "unstructured": "Z. Ruan, M. Schwarzkopf, M. K. Aguilera, and A. Belay. Aifm: High-performance, application-integrated far memory. In Proceedings of the 14th USENIX Conference on Operating Systems Design and Implementation, OSDI'20, USA, 2020. USENIX Association."
+    },
+    {
+      "key": "e_1_3_2_1_19_1",
+      "volume-title": "October",
+      "author": "Sun Y.",
+      "year": "2023",
+      "unstructured": "Y. Sun, Y. Yuan, Z. Yu, R. Kuper, I. Jeong, R. Wang, and N. S. Kim. Demystifying cxl memory with genuine cxl-ready systems and devices, October 2023."
+    },
+    {
+      "key": "e_1_3_2_1_20_1",
+      "volume-title": "March",
+      "author": "Sun Y.",
+      "year": "2023",
+      "unstructured": "Y. Sun, Y. Yuan, Z. Yu, R. Kuper, I. Jeong, R. Wang, and N. S. Kim. Demystifying cxl memory with genuine cxl-ready systems and devices, v1, March 2023."
+    },
+    {
+      "key": "e_1_3_2_1_21_1",
+      "volume-title": "CXL And Gen-Z Iron Out A Coherent Interconnect Strategy. https://www.nextplatform.com/2020/04/03/cxl-and-gen-z-iron-out-a-coherent-interconnect-strategy/",
+      "author": "Platform The Next",
+      "year": "2020",
+      "unstructured": "The Next Platform. CXL And Gen-Z Iron Out A Coherent Interconnect Strategy. https://www.nextplatform.com/2020/04/03/cxl-and-gen-z-iron-out-a-coherent-interconnect-strategy/, 2020."
+    },
+    {
+      "key": "e_1_3_2_1_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3342195.3387517"
+    },
+    {
+      "key": "e_1_3_2_1_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CLUSTER.2014.6968735"
+    },
+    {
+      "key": "e_1_3_2_1_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2741948.2741964"
+    }
+  ],
+  "event": {
+    "name": "HotNets '23: The 22nd ACM Workshop on Hot Topics in Networks",
+    "location": "Cambridge MA USA",
+    "acronym": "HotNets '23",
+    "sponsor": [
+      "SIGCOMM ACM Special Interest Group on Data Communication"
+    ]
+  },
+  "container-title": [
+    "Proceedings of the 22nd ACM Workshop on Hot Topics in Networks"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3626111.3628195",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3626111.3628195",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        8,
+        22
+      ]
+    ],
+    "date-time": "2025-08-22T19:39:39Z",
+    "timestamp": 1755891579000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3626111.3628195"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        28
+      ]
+    ]
+  },
+  "references-count": 24,
+  "alternative-id": [
+    "10.1145/3626111.3628195",
+    "10.1145/3626111"
+  ],
+  "URL": "https://doi.org/10.1145/3626111.3628195",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        28
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2023-11-28",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

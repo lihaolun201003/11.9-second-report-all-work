@@ -1,0 +1,145 @@
+# -*- coding: utf-8 -*-
+import json, io
+
+v = json.load(open('/tmp/verified_dois.json'))
+
+# extra metadata fetched separately
+extra = {
+ "10.1364/ofc.2021.w1e.3": {"title": "Acceleration and Efficiency Warranty for Distributed Machine Learning Jobs over Data Center Network with Optical Circuit Switching",
+   "container": "Optical Fiber Communication Conference (OFC) 2021", "page": "W1E.3", "year": 2021,
+   "authors": ["Cen Wang", "Noboru Yoshikane", "Filippos Balasis", "Takehiro Tsuritani"]},
+ "10.1364/ofc.2025.m4h.3": {"title": "Mercury: A Reconfigurable Datacenter Network with Collaborative Optical Timeslot Switching and Optical Circuit Switching",
+   "container": "Optical Fiber Communication Conference (OFC) 2025", "page": "M4H.3", "year": 2025,
+   "authors": ["Shi Feng", "Jiawei Zhang", "Huitao Zhou", "Xingde Li", "Yuefeng Ji"]},
+ "10.1007/978-3-319-61052-8_11": {"title": "Commercial Optical Switches", "container": "Optical Switching in Next Generation Data Centers",
+   "page": "203-219", "year": 2017, "authors": ["Qirui Huang"]},
+}
+v.update(extra)
+
+def authors_str(d):
+    au = d.get('authors') or []
+    if not au:
+        return ""
+    def fmt(a):
+        parts = a.split()
+        if len(parts) <= 1:
+            return a
+        # initials for given names
+        given = parts[:-1]
+        fam = parts[-1]
+        ini = " ".join(p[0] + "." for p in given if p)
+        return fam + " " + ini
+    if len(au) > 6:
+        return ", ".join(fmt(a) for a in au[:6]) + " et al."
+    return ", ".join(fmt(a) for a in au)
+
+entries = []
+
+def add(key, doi, verified, note, access="2026-10-28", fulltext_label="摘要"):
+    d = v.get(doi, {})
+    entries.append({
+        "key": key,
+        "authors": authors_str(d),
+        "title": (d.get('title') or '').replace('&amp;', '&'),
+        "venue": d.get('container') or '',
+        "year": d.get('year'),
+        "doi": doi,
+        "url": "https://doi.org/" + doi if doi else "",
+        "verified": verified,
+        "access": access,
+        "note": note + ("；获取状态：" + fulltext_label if fulltext_label else "")
+    })
+
+add("Poutievski2022", "10.1145/3544216.3544265", "Crossref + 全文 PDF", "Jupiter 十年演进；OCS/DCNI/Palomar 核心事实来源", fulltext_label="全文")
+add("Urata2023", "10.1364/ofc.2023.m2g.1", "Crossref + OpenAlex", "Apollo：全球首个大规模 OCS 生产部署（摘要表述）", fulltext_label="仅摘要（全文未获取）")
+add("Singh2015", "10.1145/2785956.2787508", "Crossref + OpenAlex", "Jupiter Rising：Clos 基线与 1 Pbps 级对分带宽", fulltext_label="摘要")
+add("Porter2013", "10.1145/2486001.2486007", "Crossref + OpenAlex", "Mordia：微秒级电路交换；传统 OCS 10–100 ms 重构时间", fulltext_label="摘要")
+add("Ballani2020", "10.1145/3387514.3406221", "Crossref + OpenAlex", "Sirius：纳秒级光交换，912 ps 调谐、3.84 ns 重构", fulltext_label="摘要")
+add("Sato2018", "10.1109/jlt.2018.2801308", "Crossref + OpenAlex", "大规模快速 OCS 在数据中心的应用综述", fulltext_label="摘要")
+add("Ueda2016a", "10.1109/ipcon.2016.7830978", "Crossref + OpenAlex", "2,160×2,160 OCS，切换时间 <500 µs", fulltext_label="摘要")
+add("Ueda2016b", "10.1117/12.2211998", "Crossref + OpenAlex", "720×720 快速 OCS，470 µs 切换", fulltext_label="摘要")
+add("Kuno2024", "10.1109/ipc60965.2024.10799666", "Crossref + OpenAlex", "11,520×11,520 OCS 原型", fulltext_label="摘要")
+add("Mitsuya2025", "10.1109/jlt.2024.3465208", "Crossref + OpenAlex", "三阶段 OCS，目标 12,288×12,288 / 6,144×6,144", fulltext_label="摘要")
+add("Liu2016", "10.1364/ofc.2016.m3i.2", "Crossref + OpenAlex", "385×385 3D MEMS OCS 动态串扰研究", fulltext_label="摘要")
+add("Wu2015", "10.1364/ofc.2015.m2b.3", "Crossref + OpenAlex", "硅光 MEMS 大端口 OCS 方向（~100×100）", fulltext_label="摘要")
+add("Qiao2017", "10.1038/srep42306", "Crossref + OpenAlex", "32×32 硅光电光开关", fulltext_label="摘要")
+add("Cheung2014", "10.1109/jstqe.2013.2295879", "Crossref + OpenAlex", "512×512 硅光 AWGR（25 GHz）", fulltext_label="摘要")
+add("Xue2023", "10.37256/cnc.1220233159", "Crossref + OpenAlex + arXiv 全文", "OCS 技术综述；表 2 技术对比数值来源（综述汇总）", fulltext_label="全文（arXiv:2302.05298）+ 出版版元数据")
+add("Zhang2025", "10.1109/jlt.2025.3539231", "Crossref + OpenAlex", "晶圆级光网络零交叉波导布线方法（平面场景）", fulltext_label="摘要")
+add("Huang2017", "10.1007/978-3-319-61052-8_11", "Crossref", "商业光开关产品谱系（书章）", fulltext_label="仅题录（经综述引用）")
+add("Abe2005", "10.1093/ietele/e88-c.8.1755", "Crossref + OpenAlex", "16,384 芯光纤 shuffler 系统（64×256 芯 sheet + 16 芯 FPC 连接器）", fulltext_label="仅摘要")
+add("Jiang2021", "10.1587/transele.2020ecs6002", "Crossref + OpenAlex", "3D 波导 shuffle converter，>1000 端口目标；串扰 <−54.2 dB、插损 2.1 dB", fulltext_label="仅摘要")
+add("Ding2017", "10.1364/acpc.2017.su2a.60", "Crossref + OpenAlex", "AWG 基模块化光 shuffle 网络", fulltext_label="仅摘要")
+add("AbeIshigure2017", "10.1109/icsj.2017.8240138", "Crossref + OpenAlex", "聚合物 shuffling 光波导（交叉+弯曲）", fulltext_label="仅摘要")
+add("Hiramatsu2007", "10.1109/jlt.2007.902113", "Crossref + OpenAlex", "3D 波导阵列光背板连接器（24 I/O SM、16 I/O MM）", fulltext_label="摘要")
+add("Chen2017", "10.1364/ofc.2017.w1b.6", "Crossref + OpenAlex", "超快激光在光纤与玻璃面板中制作多层波导阵列", fulltext_label="仅摘要")
+add("Brusberg2025a", "10.1109/tcpmt.2025.3526500", "Crossref + OpenAlex", "IOX 玻璃波导：0.034 dB/cm、>1024 互连、85℃/5 年", fulltext_label="仅摘要（IEEE 全文未获取）")
+add("Brusberg2025b", "10.1364/ofc.2025.th1g.1", "Crossref + OpenAlex", "玻璃波导 shuffle：6 收发 + 1 ELS，链路损耗 ≤3 dB", fulltext_label="仅摘要（全文未获取）")
+add("Grenier2023", "10.3389/aot.2023.1244009", "Crossref + OpenAlex + 开放获取全文", "玻璃波导 MPO 被动对准 +0.19 dB；激光切割端面；fs 3D 波导挑战", fulltext_label="全文")
+add("Tan2022", "10.1364/ol.470670", "Crossref + OpenAlex", "fs 直写 silica 波导 0.07 dB/cm，R=30 mm 弯曲损耗 0.001 dB/mm", fulltext_label="仅摘要")
+add("Yu2026a", "10.1002/adpr.70241", "Crossref + OpenAlex", "fs 直写 4 芯 FI/FO：插损 0.54 dB、0.13 dB/cm、0.06 dB/端面", fulltext_label="仅摘要")
+add("Li2023", "10.1002/admt.202300620", "Crossref + OpenAlex", "fs 直写波导综述（工艺/材料/器件）", fulltext_label="仅摘要")
+add("Yu2026b", "10.1016/j.optlastec.2025.114521", "Crossref + OpenAlex", "fs 直写耦合芯光纤 FI/FO 器件（题录级证据）", fulltext_label="仅题录（Elsevier 403）")
+add("Haji2024", "10.1364/ofc.2024.w4j.6", "Crossref + OpenAlex", "96 芯 MCF-MPO/APC：平均插损 0.12 dB，通过 GR-1435-CORE 测试", fulltext_label="仅摘要")
+add("Abe2022", "10.1364/ofc.2022.w1e.2", "Crossref + OpenAlex", "84 芯 MPO 连接器", fulltext_label="仅摘要")
+add("Morishima2017", "10.1364/ofc.2017.th5d.4", "Crossref + OpenAlex", "256 芯 MT / 96 芯 PC-MPO，插损 <1 dB", fulltext_label="仅摘要")
+add("Satake2011", "10.1016/j.yofte.2010.09.004", "Crossref + OpenAlex", "APC-MPO 单模多纤连接器互配性", fulltext_label="仅题录（无摘要）")
+add("Wang2021", "10.1364/ofc.2021.w1e.3", "Crossref + OpenAlex", "OCS 数据中心网络上分布式 ML 作业调度", fulltext_label="仅摘要")
+add("Feng2025", "10.1364/ofc.2025.m4h.3", "Crossref + OpenAlex", "Mercury：OTS+OCS 协同，纳秒级重构与训练加速", fulltext_label="仅摘要")
+
+vendor = [
+ ("Rosenberger2026", "Rosenberger OSI（MTP/MPO 连接器产品页，含 IEC 61754-7 / IEC 61754-5 说明）",
+  "MTP®/MPO Connector", "Rosenberger OSI 官方产品页", 2026,
+  "https://osi.rosenberger.com/us/product/mtp-mpo-connector/",
+  "二次来源：标准编号与 4–72 芯、APC 8° 等描述；IEC 标准原文未获取"),
+ ("Corning2026", "Corning Incorporated（Shuffle Solutions 产品页）",
+  "Data Center Shuffling Solutions | Fiber Shuffle Box and Multifiber Shuffle Assembly Solutions", "Corning 官方产品页", 2026,
+  "https://www.corning.com/optical-communications/asean/en/home/products/shuffle-solutions.html",
+  "厂商声明：Shuffle Box / Multifiber Shuffle Assembly、2×2 与 4×4 MPO shuffle、1–6 RU 等"),
+ ("Corning2025b", "Corning Incorporated（新闻稿，2025-03-27）",
+  "Corning Launches GlassWorks AI™ Solutions, a One-Stop Shop for AI Data Center Infrastructure Needs", "Corning 官方新闻稿", 2025,
+  "https://www.corning.com/cn/zh/about-us/news-events/news-events/news-releases/2025/03/corning-launches-GlassWorks-AI-solutions-a-one-stop-shop-for-AI-data-center-infrastructure-needs.html",
+  "厂商声明：MMC 连接器组件每 RU 纤芯连接数达传统 LC 的 36 倍（测试条件未公开）"),
+ ("Corning2025c", "Corning Incorporated（新闻稿，2025-05-13）",
+  "Corning Collaborates with Broadcom To Accelerate AI Data Center Processing Capacity", "Corning 官方新闻稿", 2025,
+  "https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2025/05/corning-collaborates-with-broadcom-to-accelerate-ai-data-center-processing-capacity.html",
+  "厂商声明：Broadcom Bailly CPO 51.2 Tb/s、8×6.4 Tb/s 光引擎；Corning 供光纤线束/FAU"),
+ ("Telescent2026", "Telescent Inc.（G5 NTM 产品页 / Technology 页）",
+  "G5 Network Topology Manager", "Telescent 官方产品页", 2026,
+  "https://www.telescent.com/products",
+  "厂商声明：>1000×1000 无阻塞双工端口，插损与手工布线相同（测试条件未公开）"),
+ ("Polatis2026", "HUBER+SUHNER Polatis（Series 7000 产品页）",
+  "SERIES 7000 - 384 x 384 port Software-Defined Optical Circuit Switch", "Polatis 官方产品页", 2026,
+  "https://www.polatis.com/series-7000-384x384-port-software-controlled-optical-circuit-switch-sdn-enabled.asp",
+  "厂商声明：384×384 压电 DirectLight，低损耗、快速切换（未给可核实数值）"),
+ ("USConec2026", "US Conec Ltd.（MMC 连接器产品页）",
+  "MMC Connector Solutions", "US Conec 官方产品页", 2026,
+  "https://www.usconec.com/featured-products/mmc-connector-solutions",
+  "厂商声明：MMC 密度 >3× MPO（测试条件未公开）"),
+ ("Broadcom2026", "Broadcom Inc.（Tomahawk 5 / BCM78900 产品页）",
+  "BCM78900 | 51.2 Tb/s StrataXGS® Tomahawk® 5 Ethernet Switch", "Broadcom 官方产品页", 2026,
+  "https://www.broadcom.com/products/ethernet-connectivity/switching/strataxgs/bcm78900-series",
+  "官方规格：51.2 Tb/s、512×100G PAM4 SerDes、64×800GbE/128×400GbE/256×200GbE"),
+ ("JEDEC2025", "JEDEC Solid State Technology Association（新闻稿，2025-04-16）",
+  "JEDEC and Industry Leaders Collaborate to Release JESD270-4 HBM4 Standard", "JEDEC 官方新闻稿", 2025,
+  "https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing",
+  "经 BRIEF 已核验：2048-bit 接口、32 通道/堆栈、单堆栈最高 2 TB/s 等"),
+ ("Intel2024", "Intel Corporation（Hot Chips 2024 新闻稿，2024-08-26）",
+  "Intel at Hot Chips 2024: AI Architectural Expertise", "Intel 官方新闻稿", 2024,
+  "https://www.intel.com/content/www/us/en/newsroom/news/hot-chips-2024-ai-architectural-expertise.html",
+  "经 BRIEF 已核验：64 通道 × 32 Gb/s 每方向、最长 100 m 光纤"),
+ ("NVIDIA2026", "NVIDIA Corporation（NVLink 官方规格页）",
+  "NVLink", "NVIDIA 官方产品规格页", 2026,
+  "https://www.nvidia.com/en-us/data-center/nvlink/",
+  "经 BRIEF 已核验：NVLink 4/5/6 的带宽、link 数与域规模"),
+]
+for key, authors, title, venue, year, url, note in vendor:
+    entries.append({"key": key, "authors": authors, "title": title, "venue": venue,
+                    "year": year, "doi": "", "url": url,
+                    "verified": "官方页（r.jina.ai 抽取正文）" if key != "JEDEC2025" and key != "Intel2024" and key != "NVIDIA2026" else "BRIEF 已核验（官方页/新闻稿）",
+                    "access": "2026-10-28", "note": note})
+
+out = 'docs/research/.refs_ocs.json'
+with io.open(out, 'w', encoding='utf-8') as f:
+    json.dump(entries, f, ensure_ascii=False, indent=1)
+print("entries:", len(entries), "->", out)

@@ -1,0 +1,830 @@
+{
+ "10.1109/tcpmt.2025.3526500": {
+  "title": "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+  "container": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
+  "volume": "15",
+  "issue": "8",
+  "page": "1614-1624",
+  "year": 2025,
+  "authors": [
+   "Lars Brusberg",
+   "Marissa Granados-Baez",
+   "Ryan D. Schilling",
+   "Jorge A. Holguin-Lerma",
+   "Janderson R. Rodrigues",
+   "Lucas W. Yeary",
+   "Aramais R. Zakharian",
+   "Betsy J. Johnson"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1002/admt.202300620": {
+  "title": "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices",
+  "container": "Advanced Materials Technologies",
+  "volume": "8",
+  "issue": "18",
+  "page": null,
+  "year": 2023,
+  "authors": [
+   "Jiawei Li",
+   "Chun Cao",
+   "Yiwei Qiu",
+   "Cuifang Kuang",
+   "Xu Liu"
+  ],
+  "article-number": "2300620",
+  "type": "journal-article"
+ },
+ "10.1016/j.optlastec.2025.114521": {
+  "title": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+  "container": "Optics &amp; Laser Technology",
+  "volume": "194",
+  "issue": null,
+  "page": "114521",
+  "year": 2026,
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Linbin Bai",
+   "Junjie Xiong",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Zuyuan He"
+  ],
+  "article-number": "114521",
+  "type": "journal-article"
+ },
+ "10.1145/3544216.3544265": {
+  "title": "Jupiter evolving",
+  "container": "Proceedings of the ACM SIGCOMM 2022 Conference",
+  "volume": null,
+  "issue": null,
+  "page": "66-85",
+  "year": 2022,
+  "authors": [
+   "Leon Poutievski",
+   "Omid Mashayekhi",
+   "Joon Ong",
+   "Arjun Singh",
+   "Mukarram Tariq",
+   "Rui Wang",
+   "Jianan Zhang",
+   "Virginia Beauregard"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1145/3698364.3705355": {
+  "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "container": "Proceedings of the 2025 International Symposium on Physical Design",
+  "volume": null,
+  "issue": null,
+  "page": "64-72",
+  "year": 2025,
+  "authors": [
+   "Hongjian Zhou",
+   "Keren Zhu",
+   "Jiaqi Gu"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1109/tcad.2025.3624197": {
+  "title": "LiDAR 2.0: Hierarchical Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "container": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "volume": "45",
+  "issue": "6",
+  "page": "2664-2678",
+  "year": 2026,
+  "authors": [
+   "Hongjian Zhou",
+   "Haoyu Yang",
+   "Ziang Yin",
+   "Nicholas Gangi",
+   "Zhaoran Huang",
+   "Haoxing Ren",
+   "Joaquin Matres",
+   "Jiaqi Gu"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/iccad66269.2025.11240728": {
+  "title": "Apollo: Automated Routing-Informed Placement for Large-Scale Photonic Integrated Circuits",
+  "container": "2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+  "volume": null,
+  "issue": null,
+  "page": "1-9",
+  "year": 2025,
+  "authors": [
+   "Hongjian Zhou",
+   "Haoyu Yang",
+   "Nicholas Gangi",
+   "Zhaoran Rena Huang",
+   "Haoxing Ren",
+   "Jiaqi Gu"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1109/tcad.2014.2317575": {
+  "title": "Crossing-Aware Channel Routing for Integrated Optics",
+  "container": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "volume": "33",
+  "issue": "6",
+  "page": "814-825",
+  "year": 2014,
+  "authors": [
+   "Christopher Condrat",
+   "Priyank Kalla",
+   "Steve Blair"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/iccad51958.2021.9643451": {
+  "title": "ToPro: A Topology Projector and Waveguide Router for Wavelength-Routed Optical Networks-on-Chip",
+  "container": "2021 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+  "volume": null,
+  "issue": null,
+  "page": "1-9",
+  "year": 2021,
+  "authors": [
+   "Zhidan Zheng",
+   "Mengchu Li",
+   "Tsun-Ming Tseng",
+   "Ulf Schlichtmann"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1109/jlt.2025.3539231": {
+  "title": "A Zero-Crossing Optical Waveguide Routing Method",
+  "container": "Journal of Lightwave Technology",
+  "volume": "43",
+  "issue": "10",
+  "page": "4881-4894",
+  "year": 2025,
+  "authors": [
+   "Ziyue Zhang",
+   "Didier Colle",
+   "Wouter Tavernier",
+   "Mario Pickavet"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1364/ao.51.006489": {
+  "title": "Design of optically path-length-matched, three-dimensional photonic circuits comprising uniquely routed waveguides",
+  "container": "Applied Optics",
+  "volume": "51",
+  "issue": "27",
+  "page": "6489",
+  "year": 2012,
+  "authors": [
+   "Ned Charles",
+   "Nemanja Jovanovic",
+   "Simon Gross",
+   "Paul Stewart",
+   "Barnaby Norris",
+   "John O’Byrne",
+   "Jon S. Lawrence",
+   "Michael J. Withford"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1117/12.3083656": {
+  "title": "Three-dimensional optical waveguides with continuously varying depths inscribed by femtosecond laser",
+  "container": "AOPC 2025: Laser Technology and Applications",
+  "volume": null,
+  "issue": null,
+  "page": "60",
+  "year": 2025,
+  "authors": [
+   "Xiangyu Wang",
+   "Lei Zhu",
+   "Qi Zhang",
+   "Min Tang",
+   "Fei Xiao",
+   "Xiaodong Wang",
+   "Shiyang Shen",
+   "Lanqiang Zhang"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1109/date.2006.244180": {
+  "title": "Optical Routing for 3D System-On-Package",
+  "container": "Proceedings of the Design Automation &amp; Test in Europe Conference",
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2006,
+  "authors": [
+   "J.R. Minz",
+   "S. Thyagaraja",
+   "Sung Kyu Lim"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1587/transele.e101.c.509": {
+  "title": "Low-Loss 3-Dimensional Shuffling Graded-Index Polymer Optical Waveguides for Optical Printed Circuit Boards",
+  "container": "IEICE Transactions on Electronics",
+  "volume": "E101.C",
+  "issue": "7",
+  "page": "509-517",
+  "year": 2018,
+  "authors": [
+   "Omar Faruk RASEL",
+   "Akira YAMAUCHI",
+   "Takaaki ISHIGURE"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1364/oe.27.032465": {
+  "title": "Circular core single-mode 3-dimensional crossover polymer waveguides fabricated with the Mosquito method",
+  "container": "Optics Express",
+  "volume": "27",
+  "issue": "22",
+  "page": "32465",
+  "year": 2019,
+  "authors": [
+   "Omar Faruk Rasel",
+   "Takaaki Ishigure"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/icsj.2017.8240138": {
+  "title": "Low loss multimode polymer shuffling optical waveguide for high-density optical circuit",
+  "container": "2017 IEEE CPMT Symposium Japan (ICSJ)",
+  "volume": null,
+  "issue": null,
+  "page": "153-154",
+  "year": 2017,
+  "authors": [
+   "Kohei Abe",
+   "Takaaki Ishigure"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.3389/aot.2023.1244009": {
+  "title": "Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics",
+  "container": "Advanced Optical Technologies",
+  "volume": "12",
+  "issue": null,
+  "page": null,
+  "year": 2023,
+  "authors": [
+   "Jason R. Grenier",
+   "Lars Brusberg",
+   "Kristopher A. Wieland",
+   "Juergen Matthies",
+   "Chad C. Terwilliger"
+  ],
+  "article-number": "1244009",
+  "type": "journal-article"
+ },
+ "10.1364/optica.559260": {
+  "title": "Low-loss integration of high-density polymer waveguides with silicon photonics for co-packaged optics",
+  "container": "Optica",
+  "volume": "12",
+  "issue": "6",
+  "page": "821",
+  "year": 2025,
+  "authors": [
+   "Jef Van Asch",
+   "Jeroen Missinne",
+   "Junwen He",
+   "Arnita Podpod",
+   "Guy Lepage",
+   "Negin Golshani",
+   "Rafal Magdziak",
+   "Huseyin Sar"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1364/oe.20.017667": {
+  "title": "Photonic wire bonding: a novel concept for chip-scale interconnects",
+  "container": "Optics Express",
+  "volume": "20",
+  "issue": "16",
+  "page": "17667",
+  "year": 2012,
+  "authors": [
+   "N. Lindenmann",
+   "G. Balthasar",
+   "D. Hillerkuss",
+   "R. Schmogrow",
+   "M. Jordan",
+   "J. Leuthold",
+   "W. Freude",
+   "C. Koos"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/jlt.2014.2373051": {
+  "title": "Connecting Silicon Photonic Circuits to Multicore Fibers by Photonic Wire Bonding",
+  "container": "Journal of Lightwave Technology",
+  "volume": "33",
+  "issue": "4",
+  "page": "755-760",
+  "year": 2015,
+  "authors": [
+   "Nicole Lindenmann",
+   "Stephan Dottermusch",
+   "Maria Laura Goedecke",
+   "Tobias Hoose",
+   "Muhammad Rodlin Billah",
+   "Temitope Paul Onanuga",
+   "Andreas Hofmann",
+   "Wolfgang Freude"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/jphot.2020.3039900": {
+  "title": "Laser Written Glass Interposer for Fiber Coupling to Silicon Photonic Integrated Circuits",
+  "container": "IEEE Photonics Journal",
+  "volume": "13",
+  "issue": "1",
+  "page": "1-12",
+  "year": 2021,
+  "authors": [
+   "A. Desmet",
+   "A. Radosavljevic",
+   "J. Missinne",
+   "D. Van Thourhout",
+   "G. Van Steenberge"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1364/ol.551272": {
+  "title": "Low-loss and tight-bend waveguides via multiple scans of a femtosecond laser",
+  "container": "Optics Letters",
+  "volume": "50",
+  "issue": "5",
+  "page": "1449",
+  "year": 2025,
+  "authors": [
+   "Kai-Heng Xiao",
+   "Yi-Hao Zan",
+   "Yang Ouyang",
+   "Si-Xue Fei",
+   "Zhi-Yong Hu",
+   "Li-Nan Fang",
+   "Zhen-Nan Tian",
+   "Qi-Dai Chen"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1103/physrevapplied.22.064079": {
+  "title": "Femtosecond-laser-written low-loss multiscan waveguides in fused silica",
+  "container": "Physical Review Applied",
+  "volume": "22",
+  "issue": "6",
+  "page": null,
+  "year": 2024,
+  "authors": [
+   "N.N. Skryabin",
+   "S.A. Zhuravitskii",
+   "I.V. Dyakonov",
+   "S.S. Straupe",
+   "A.A. Kalinkin",
+   "S.P. Kulik"
+  ],
+  "article-number": "064079",
+  "type": "journal-article"
+ },
+ "10.1038/s41598-021-03116-y": {
+  "title": "Low bend loss femtosecond laser written waveguides exploiting integrated microcrack",
+  "container": "Scientific Reports",
+  "volume": "11",
+  "issue": "1",
+  "page": null,
+  "year": 2021,
+  "authors": [
+   "Timothy Lee",
+   "Qi Sun",
+   "Martynas Beresna",
+   "Gilberto Brambilla"
+  ],
+  "article-number": "23770",
+  "type": "journal-article"
+ },
+ "10.1109/oecc48412.2020.9273659": {
+  "title": "Automatic high-density polymer waveguide layout for on-board high-speed optical interconnect",
+  "container": "2020 Opto-Electronics and Communications Conference (OECC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-3",
+  "year": 2020,
+  "authors": [
+   "Zhijie Huang",
+   "Lin Ma",
+   "Wanjing Kuang",
+   "Ying Shi",
+   "Zuyuan He"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1364/ol.470670": {
+  "title": "Effectively writing low propagation and bend loss waveguides in the silica glass by using a femtosecond laser",
+  "container": "Optics Letters",
+  "volume": "47",
+  "issue": "18",
+  "page": "4766",
+  "year": 2022,
+  "authors": [
+   "Dezhi Tan",
+   "Xiaoyu Sun",
+   "Zengling Li",
+   "Jianrong Qiu"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1117/1.ap.3.2.024002": {
+  "title": "Photonic circuits written by femtosecond laser in glass: improved fabrication and recent progress in photonic devices",
+  "container": "Advanced Photonics",
+  "volume": "3",
+  "issue": "02",
+  "page": "1-24",
+  "year": 2021,
+  "authors": [
+   "Dezhi Tan",
+   "Zhuo Wang",
+   "Beibei Xu",
+   "Jianrong Qiu"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1002/lpor.201300195": {
+  "title": "Ultrafast laser inscription: perspectives on future integrated applications",
+  "container": "Laser &amp; Photonics Reviews",
+  "volume": "8",
+  "issue": "6",
+  "page": "827-846",
+  "year": 2014,
+  "authors": [
+   "Debaditya Choudhury",
+   "John R. Macdonald",
+   "Ajoy K. Kar"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1515/nanoph-2015-0020": {
+  "title": "Ultrafast‐laser‐inscribed 3D integrated photonics: challenges and emerging applications",
+  "container": "Nanophotonics",
+  "volume": "4",
+  "issue": "3",
+  "page": "332-352",
+  "year": 2015,
+  "authors": [
+   "S. Gross",
+   "M. J. Withford"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/oecc.2018.8730115": {
+  "title": "Shuffle converter using 3D waveguide for MCF/SMF fan-in fan-out configuration toward over 1,000 port count optical matrix switch",
+  "container": "2018 23rd Opto-Electronics and Communications Conference (OECC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2018,
+  "authors": [
+   "K. Hamamoto",
+   "Y. Hinokuma",
+   "S. Ghosh",
+   "R. Kuwahata",
+   "H. Jiang"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1117/12.3007419": {
+  "title": "A graph-based global routing method for single photonic integrated circuit waveguide connection",
+  "container": "AOPC 2023: AI in Optics and Photonics",
+  "volume": null,
+  "issue": null,
+  "page": "64",
+  "year": 2023,
+  "authors": [
+   "Xiaojuan Yang",
+   "Guowei Cao",
+   "Jiyao Yu",
+   "Yu Li"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1109/vlsid51830.2021.00047": {
+  "title": "Optical Waveguide Channel Routing with Reduced Bend-Loss for Photonic Integrated Circuits",
+  "container": "2021 34th International Conference on VLSI Design and 2021 20th International Conference on Embedded Systems (VLSID)",
+  "volume": null,
+  "issue": null,
+  "page": "246-251",
+  "year": 2021,
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Roy"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1007/s10825-022-01989-4": {
+  "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+  "container": "Journal of Computational Electronics",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "year": 2022,
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Roy"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1143/jjap.44.l1446": {
+  "title": "Three-Dimensional Waveguide Interconnection in Planar Lightwave Circuits by Direct Writing with Femtosecond Laser",
+  "container": "Japanese Journal of Applied Physics",
+  "volume": "44",
+  "issue": "11L",
+  "page": "L1446",
+  "year": 2005,
+  "authors": [
+   "Yusuke Nasu",
+   "Masaki Kohtoku",
+   "Yoshinori Hibino",
+   "Yasuyuki Inoue"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1038/s41598-024-84274-7": {
+  "title": "Improved S-bend optical waveguide loss formula verified by experiments",
+  "container": "Scientific Reports",
+  "volume": "15",
+  "issue": "1",
+  "page": null,
+  "year": 2025,
+  "authors": [
+   "Ary Syahriar"
+  ],
+  "article-number": "1338",
+  "type": "journal-article"
+ },
+ "10.1002/lpor.201700237": {
+  "title": "Silicon Photonics Circuit Design: Methods, Tools and Challenges",
+  "container": "Laser &amp; Photonics Reviews",
+  "volume": "12",
+  "issue": "4",
+  "page": null,
+  "year": 2018,
+  "authors": [
+   "Wim Bogaerts",
+   "Lukas Chrostowski"
+  ],
+  "article-number": "1700237",
+  "type": "journal-article"
+ },
+ "10.1109/jlt.2023.3320908": {
+  "title": "Design and Fabrication of Crossing-Free Waveguide Routing Networks Using a Multi-Layer Polymer-Based Photonic Integration Platform",
+  "container": "Journal of Lightwave Technology",
+  "volume": "42",
+  "issue": "5",
+  "page": "1511-1517",
+  "year": 2024,
+  "authors": [
+   "Madeleine Weigel",
+   "Moritz Kleinert",
+   "Martin Kresse",
+   "David de Felipe",
+   "Hauke Conradi",
+   "Jakob Reck",
+   "Klara Mihov",
+   "Tianwen Qian"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/iccad.2013.6691109": {
+  "title": "PROTON: An automatic place-and-route tool for optical Networks-on-Chip",
+  "container": "2013 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+  "volume": null,
+  "issue": null,
+  "page": "138-145",
+  "year": 2013,
+  "authors": [
+   "Anja Boos",
+   "Luca Ramini",
+   "Ulf Schlichtmann",
+   "Davide Bertozzi"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1145/3195970.3196093": {
+  "title": "PlanarONoC",
+  "container": "Proceedings of the 55th Annual Design Automation Conference",
+  "volume": null,
+  "issue": null,
+  "page": "1-6",
+  "year": 2018,
+  "authors": [
+   "Yu-Kai Chuang",
+   "Kuan-Jung Chen",
+   "Kun-Lin Lin",
+   "Shao-Yun Fang",
+   "Bing Li",
+   "Ulf Schlichtmann"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1109/tcad.2020.2971536": {
+  "title": "PSION+: Combining Logical Topology and Physical Layout Optimization for Wavelength-Routed ONoCs",
+  "container": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "volume": "39",
+  "issue": "12",
+  "page": "5197-5210",
+  "year": 2020,
+  "authors": [
+   "Alexandre Truppel",
+   "Tsun-Ming Tseng",
+   "Davide Bertozzi",
+   "Jose Carlos Alves",
+   "Ulf Schlichtmann"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1093/jair.2994": null,
+ "10.1109/tec.1961.5219222": {
+  "title": "An Algorithm for Path Connections and Its Applications",
+  "container": "IEEE Transactions on Electronic Computers",
+  "volume": "EC-10",
+  "issue": "3",
+  "page": "346-365",
+  "year": 1961,
+  "authors": [
+   "C. Y. Lee"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1364/ofc.2021.th1a.37": {
+  "title": "Low-Loss Three-Dimensional Fan-in/Fan-out Devices for Multi-Core Fiber Integration",
+  "container": "Optical Fiber Communication Conference (OFC) 2021",
+  "volume": null,
+  "issue": null,
+  "page": "Th1A.37",
+  "year": 2021,
+  "authors": [
+   "Yi-Chun Ling",
+   "Shuyun Yuan",
+   "S. J. Ben Yoo"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1088/2631-7990/ab4d51": {
+  "title": "Femtosecond laser additive and subtractive micro-processing: enabling a high-channel-density silica interposer for multicore fibre to silicon-photonic packaging",
+  "container": "International Journal of Extreme Manufacturing",
+  "volume": "1",
+  "issue": "4",
+  "page": "045002",
+  "year": 2019,
+  "authors": [
+   "Gligor Djogo",
+   "Jianzhao Li",
+   "Stephen Ho",
+   "Moez Haque",
+   "Erden Ertorer",
+   "Jun Liu",
+   "Xiaolu Song",
+   "Jing Suo"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1117/1.apn.2.3.036002": {
+  "title": "Low-insertion-loss femtosecond laser-inscribed three-dimensional high-density mux/demux devices",
+  "container": "Advanced Photonics Nexus",
+  "volume": "2",
+  "issue": "03",
+  "page": "1-8",
+  "year": 2023,
+  "authors": [
+   "Yize Liang",
+   "Chengkun Cai",
+   "Kangrui Wang",
+   "Xiaokang Lian",
+   "Jue Wang",
+   "Jinfeng Liu",
+   "Lei Shen",
+   "Jian Wang"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1109/ipc60965.2024.10799666": {
+  "title": "11,520×11,520 Optical Circuit Switch for Intra- and Inter-datacenter Converged Networks",
+  "container": "2024 IEEE Photonics Conference (IPC)",
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "year": 2024,
+  "authors": [
+   "T. Kuno",
+   "Y. Mori",
+   "H. Hasegawa"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1109/jlt.2008.2006280": {
+  "title": "Large Scale, All-Fiber Optical Cross-Connect Switches for Automated Patch-Panels",
+  "container": "Journal of Lightwave Technology",
+  "volume": "27",
+  "issue": "15",
+  "page": "3107-3115",
+  "year": 2009,
+  "authors": [
+   "A.S. Kewitsch"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1364/acpc.2017.m1c.6": {
+  "title": "Topology-Adaptive Reconfigurable Network with Optical Circuit Switch for HPC Systems",
+  "container": "Asia Communications and Photonics Conference",
+  "volume": null,
+  "issue": null,
+  "page": "M1C.6",
+  "year": 2017,
+  "authors": [
+   "Yu Shang",
+   "Bingli Guo",
+   "Wenzhe Li",
+   "Tao Gao",
+   "Yu Zhou",
+   "Xin Li",
+   "Shanguo Huang"
+  ],
+  "article-number": null,
+  "type": "proceedings-article"
+ },
+ "10.1364/oe.19.005698": {
+  "title": "Ultrafast laser inscription of an integrated photonic lantern",
+  "container": "Optics Express",
+  "volume": "19",
+  "issue": "6",
+  "page": "5698",
+  "year": 2011,
+  "authors": [
+   "R. R. Thomson",
+   "T. A. Birks",
+   "S. G. Leon-Saval",
+   "A. K. Kar",
+   "J. Bland-Hawthorn"
+  ],
+  "article-number": null,
+  "type": "journal-article"
+ },
+ "10.1038/s41377-020-0272-5": {
+  "title": "Hybrid multi-chip assembly of optical communication engines by in situ 3D nano-lithography",
+  "container": "Light: Science &amp; Applications",
+  "volume": "9",
+  "issue": "1",
+  "page": null,
+  "year": 2020,
+  "authors": [
+   "Matthias Blaicher",
+   "Muhammad Rodlin Billah",
+   "Juned Kemal",
+   "Tobias Hoose",
+   "Pablo Marin-Palomo",
+   "Andreas Hofmann",
+   "Yasar Kutuvantavida",
+   "Clemens Kieninger"
+  ],
+  "article-number": "71",
+  "type": "journal-article"
+ }
+}

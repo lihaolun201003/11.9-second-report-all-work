@@ -1,0 +1,597 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        29
+      ]
+    ],
+    "date-time": "2026-06-29T01:46:13Z",
+    "timestamp": 1782697573397,
+    "version": "3.54.5"
+  },
+  "reference-count": 55,
+  "publisher": "Wiley",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ],
+        "date-time": "2026-06-25T00:00:00Z",
+        "timestamp": 1782345600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 24,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2026-06-01T00:00:00Z",
+        "timestamp": 1780272000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "62275150"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62275150"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Advanced Photonics Research"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "abstract": "<jats:p>\n                    Interfacing multicore fiber (MCF) with high‐speed optical transceivers serves as a promising solution for large‐scale artificial intelligence (AI) data centers. Fan‐in/fan‐out (FI/FO) devices are critical components for interconnection. However, the stringent space and loss budgets in optical transceivers make the realization of integrable FI/FO devices a significant challenge. In this work, we demonstrate an ultra‐compact low‐loss FI/FO device for 4‐core fiber using femtosecond laser direct writing (FLDW). The device features a footprint as small as 2.5 × 2.0 mm\n                    <jats:sup>2</jats:sup>\n                    and an insertion loss of 0.54 dB at the wavelength of 1310 nm, serving as a critical interface between MCFs and high‐speed optical transceivers. Through multi‐scan and overwriting methods, we achieve low‐loss waveguides with a propagation loss of 0.13 dB/cm and a coupling loss of 0.06 dB/facet. To mitigate bending loss, we propose a trench‐assisted and offset‐assisted cosine‐shaped waveguide (TOA‐cos). In this architecture, auxiliary trenches effectively suppress radiation loss, while offset‐assisted cosine curves minimize mode‐mismatch loss. Moreover, the TOA‐cos model exhibits compatibility with existing FLDW bending‐loss reduction methods, such as integrated microcracks and composite waveguides, making it a practical solution for chip‐level three‐dimensional optical interconnects.\n                  </jats:p>",
+  "DOI": "10.1002/adpr.70241",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        26
+      ]
+    ],
+    "date-time": "2026-06-26T03:26:46Z",
+    "timestamp": 1782444406000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique"
+  ],
+  "prefix": "10.1002",
+  "volume": "7",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0000-2650-714X",
+      "authenticated-orcid": false,
+      "given": "Fengrui",
+      "family": "Yu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Photonics and Communications Shanghai Jiao Tong University  Shanghai China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1619-6912",
+      "authenticated-orcid": false,
+      "given": "Lin",
+      "family": "Ma",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Photonics and Communications Shanghai Jiao Tong University  Shanghai China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mingjing",
+      "family": "Xu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Photonics and Communications Shanghai Jiao Tong University  Shanghai China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0001-3395-9619",
+      "authenticated-orcid": false,
+      "given": "Xiaoke",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Photonics and Communications Shanghai Jiao Tong University  Shanghai China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jinhua",
+      "family": "Wu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Shanghai Optoweave Technology Co. Ltd.  Shanghai China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zuyuan",
+      "family": "He",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "State Key Laboratory of Photonics and Communications Shanghai Jiao Tong University  Shanghai China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        25
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_11_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SURV.2011.122111.00069"
+    },
+    {
+      "key": "e_1_2_11_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/COMST.2018.2839672"
+    },
+    {
+      "key": "e_1_2_11_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467‐024‐44750‐0"
+    },
+    {
+      "key": "e_1_2_11_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.26.008890"
+    },
+    {
+      "key": "e_1_2_11_6_1",
+      "unstructured": "IEEE 802.3 New Ethernet Applications Ad Hoc Ethernet for AI Assessment Available at:https://www.ieee802.org/3/ad_hoc/E4AI."
+    },
+    {
+      "key": "e_1_2_11_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nphoton.2013.94"
+    },
+    {
+      "key": "e_1_2_11_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.24.027104"
+    },
+    {
+      "key": "e_1_2_11_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/12.2608205"
+    },
+    {
+      "key": "e_1_2_11_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optlastec.2025.114521"
+    },
+    {
+      "key": "e_1_2_11_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41377‐020‐0250‐y"
+    },
+    {
+      "key": "e_1_2_11_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41377‐022‐00907‐4"
+    },
+    {
+      "key": "e_1_2_11_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2718486"
+    },
+    {
+      "key": "e_1_2_11_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OPEX.13.005676"
+    },
+    {
+      "key": "e_1_2_11_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/NPHOTON.2014.243"
+    },
+    {
+      "key": "e_1_2_11_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/2631‐7990/ab4d51"
+    },
+    {
+      "key": "e_1_2_11_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2023.3285149"
+    },
+    {
+      "key": "e_1_2_11_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/1.AP.3.2.024002"
+    },
+    {
+      "key": "e_1_2_11_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/PRJ.465174"
+    },
+    {
+      "key": "e_1_2_11_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/1.APN.2.3.036002"
+    },
+    {
+      "key": "e_1_2_11_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.aba8725"
+    },
+    {
+      "key": "e_1_2_11_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.abd2033"
+    },
+    {
+      "key": "e_1_2_11_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/ncomms1570"
+    },
+    {
+      "key": "e_1_2_11_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/NPHOTON.2013.102"
+    },
+    {
+      "key": "e_1_2_11_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.17.001963"
+    },
+    {
+      "key": "e_1_2_11_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.19.005698"
+    },
+    {
+      "key": "e_1_2_11_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jnoncrysol.2010.11.082"
+    },
+    {
+      "key": "e_1_2_11_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2019.2909983"
+    },
+    {
+      "key": "e_1_2_11_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2018.2821359"
+    },
+    {
+      "key": "e_1_2_11_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.475398"
+    },
+    {
+      "key": "e_1_2_11_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.21.002978"
+    },
+    {
+      "key": "e_1_2_11_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11433‐018‐9202‐0"
+    },
+    {
+      "key": "e_1_2_11_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598‐021‐03116‐y"
+    },
+    {
+      "key": "e_1_2_11_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.37188/lam.2024.009"
+    },
+    {
+      "key": "e_1_2_11_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41377‐024‐01473‐7"
+    },
+    {
+      "key": "e_1_2_11_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3788/CJL231264"
+    },
+    {
+      "key": "e_1_2_11_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.551272"
+    },
+    {
+      "key": "e_1_2_11_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.8.000517"
+    },
+    {
+      "key": "e_1_2_11_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acsphotonics.6b00431"
+    },
+    {
+      "key": "e_1_2_11_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.25.000263"
+    },
+    {
+      "key": "e_1_2_11_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.25.009150"
+    },
+    {
+      "key": "e_1_2_11_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.27.031394"
+    },
+    {
+      "key": "e_1_2_11_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2020.2978420"
+    },
+    {
+      "key": "e_1_2_11_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/50.251169"
+    },
+    {
+      "key": "e_1_2_11_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/50.372446"
+    },
+    {
+      "key": "e_1_2_11_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2016.2585760"
+    },
+    {
+      "key": "e_1_2_11_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/68.215278"
+    },
+    {
+      "key": "e_1_2_11_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2021.3107865"
+    },
+    {
+      "key": "e_1_2_11_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/2515‐7647/ac1b7d"
+    },
+    {
+      "key": "e_1_2_11_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.202401357"
+    },
+    {
+      "key": "e_1_2_11_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.30.000723"
+    },
+    {
+      "key": "e_1_2_11_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0030‐4018(01)01152‐X"
+    },
+    {
+      "key": "e_1_2_11_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nphoton.2008.47"
+    },
+    {
+      "key": "e_1_2_11_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.387790"
+    },
+    {
+      "key": "e_1_2_11_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.202300702"
+    },
+    {
+      "key": "e_1_2_11_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optmat.2025.116651"
+    }
+  ],
+  "container-title": [
+    "Advanced Photonics Research"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adpr.70241",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/full-xml/10.1002/adpr.70241",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adpr.70241",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        29
+      ]
+    ],
+    "date-time": "2026-06-29T01:26:54Z",
+    "timestamp": 1782696414000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adpr.70241"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "references-count": 55,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1002/adpr.70241"
+  ],
+  "URL": "https://doi.org/10.1002/adpr.70241",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "2699-9293",
+    "2699-9293"
+  ],
+  "issn-type": [
+    {
+      "value": "2699-9293",
+      "type": "print"
+    },
+    {
+      "value": "2699-9293",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        6
+      ]
+    ]
+  },
+  "article-number": "e70241"
+}

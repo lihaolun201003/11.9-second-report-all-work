@@ -1,0 +1,1276 @@
+{
+ "laser written waveguide glass panel optical interconnect multi-layer": [
+  {
+   "doi": "10.1364/ofc.2017.w1b.6",
+   "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+   "year": 2017,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Kevin P.Chen",
+    "Ming-Jun Li"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.ijleo.2021.168308",
+   "title": "Laser action from a femtosecond laser written Yb: phosphate glass waveguide",
+   "year": 2022,
+   "venue": "Optik",
+   "authors": [
+    "Xuewen Long",
+    "Jing Bai"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1109/icp.2016.7510040",
+   "title": "Self-written waveguide (SWW) optical pin for high optical coupling in multi-layer printed wiring board",
+   "year": 2016,
+   "venue": "2016 IEEE 6th International Conference on Photonics (ICP)",
+   "authors": [
+    "Nurul Atiqah Baharudin",
+    "Sumiaty Ambran",
+    "Osamu Mikami",
+    "Chiemi Fujikawa"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1109/wrap54064.2022.9758202",
+   "title": "Direct Laser Written Multi-channel Optical Waveguide for Refractive Index Sensing",
+   "year": 2022,
+   "venue": "2022 Workshop on Recent Advances in Photonics (WRAP)",
+   "authors": [
+    "Amrit Patnaik",
+    "Geethu P.",
+    "Sonatan Das",
+    "Tapanendu Kundu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.2041891",
+   "title": "Optical connecting devices fabricated by self-written waveguide technology for smart optical interconnect",
+   "year": 2014,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Tadayuki Enomoto",
+    "Yukinobu Soeda",
+    "Osamu Mikami"
+   ],
+   "type": "proceedings-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.1364/ofc.1990.fb1",
+   "title": "FBI Glass waveguide laser",
+   "year": 1990,
+   "venue": "Optical Fiber Communication",
+   "authors": [
+    "HIROSHI AOKI",
+    "OSAMU MARUYAMA",
+    "YOSHIYUKI ASAHARA"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.532803",
+   "title": "1550-nm light amplification from erbium-doped silica glass waveguide written by femtosecond laser pulses",
+   "year": 2004,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Yigang Li",
+    "Zian He",
+    "Liying Liu",
+    "Lei Xu",
+    "Wencheng Wang"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/assp.2009.md5",
+   "title": "Ultrafast Laser Written 102 mW Monolithic Waveguide Laser in Yb-doped Phosphate Glass",
+   "year": 2009,
+   "venue": "Advanced Solid-State Photonics",
+   "authors": [
+    "Martin Ams",
+    "Peter Dekker",
+    "Graham D. Marshall",
+    "Michael J. Withford"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/cleo_at.2024.jtu2a.178",
+   "title": "Broadband Filters Based on Tilted Waveguide Bragg Gratings Written in Bulk Glass by Femtosecond Laser",
+   "year": 2024,
+   "venue": "CLEO 2024",
+   "authors": [
+    "Jiaming Wu",
+    "Xuewen Shu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ome.2.001556",
+   "title": "Direct ultrafast laser written C-band waveguide amplifier in Er-doped chalcogenide glass",
+   "year": 2012,
+   "venue": "Optical Materials Express",
+   "authors": [
+    "Tamilarasan Sabapathy",
+    "Arunbabu Ayiriveetil",
+    "Ajoy K. Kar",
+    "Sundarrajan Asokan",
+    "Stephen J. Beecher"
+   ],
+   "type": "journal-article",
+   "cited": 26
+  },
+  {
+   "doi": "10.1364/ofc.2024.w4j.7",
+   "title": "Self-Written Waveguide Approach for Optical Interconnects in Multi-Core Fiber Systems",
+   "year": 2024,
+   "venue": "Optical Fiber Communication Conference (OFC) 2024",
+   "authors": [
+    "Liangjun He",
+    "Hau Ping Chan"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ome.5.000416",
+   "title": "Time dependent study of femtosecond laser written waveguide lasers in Yb-doped silicate and phosphate glass",
+   "year": 2015,
+   "venue": "Optical Materials Express",
+   "authors": [
+    "Yuwen Duan",
+    "Peter Dekker",
+    "Martin Ams",
+    "Guido Palmer",
+    "Michael J. Withford"
+   ],
+   "type": "journal-article",
+   "cited": 19
+  }
+ ],
+ "glass optical interposer waveguide 1024 channels": [
+  {
+   "doi": "10.70675/0b15dfe9z0508z4c94za9bezb5cbb771a96b",
+   "title": "Electrical and Optical Interposer on a Glass Substrate for the Packaging of Optical Transceivers based on Silicon Photonic Technology",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Jean-Marc Boucaud"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/ectc32862.2020.00288",
+   "title": "3D Composite Glass-silicon Interposer Integrated With Polymer Arrayed Waveguide Grating",
+   "year": 2020,
+   "venue": "2020 IEEE 70th Electronic Components and Technology Conference (ECTC)",
+   "authors": [
+    "Ziji Wang",
+    "Jintang Shang"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.37665/ppyffry39114",
+   "title": "Electrical Design of Silicon, Glass and Organic Interposer Channels",
+   "year": 2014,
+   "venue": "Pan Pacific Symposium",
+   "authors": [
+    "Heegon Kim",
+    "Hyunsuk Lee",
+    "Jonghyun Cho",
+    "Youngwoo Lee",
+    "Joungho Kim"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/rws55624.2023.10046328",
+   "title": "Ultra-Wide Bandwidth Substrate Integrated Waveguide Fed Vivaldi Antenna in D-Band Using Glass Interposer",
+   "year": 2023,
+   "venue": "2023 IEEE Radio and Wireless Symposium (RWS)",
+   "authors": [
+    "Lakshmi Narasimha Vijay Kumar",
+    "Madhavan Swaminathan"
+   ],
+   "type": "proceedings-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1021/acsphotonics.5c02702.s001",
+   "title": "Glass Interposer Assisted Edge Coupling to SiN Photonic Integrated Circuits",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.2297363",
+   "title": "Demonstration of glass-based photonic interposer for mid-board-optical engines and electrical-optical circuit board (EOCB) integration strategy",
+   "year": 2018,
+   "venue": "Optical Interconnects XVIII",
+   "authors": [
+    "Marcel Neitz",
+    "Martin Schneider-Ramelow",
+    "Henning Schröder"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/ipc65510.2025.11282213",
+   "title": "Optical Pitch Transformer Chiplet for Glass Interposer: Concept and Feasibility Study",
+   "year": 2025,
+   "venue": "2025 IEEE Photonics Conference (IPC)",
+   "authors": [
+    "How Yuan Hwang",
+    "Xiuyun He",
+    "Peter O'Brien"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ofc.1982.wbb6",
+   "title": "Thermooptic waveguide switches in glass",
+   "year": 1982,
+   "venue": "Optical Fiber Communication",
+   "authors": [
+    "Masamitsu Haruna",
+    "Jiro Koyama"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1117/12.179768",
+   "title": "Ion-exchanged glass waveguide devices for optical communications",
+   "year": 1994,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Seppo Honkanen"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1109/ims37964.2023.10188048",
+   "title": "Design and Characterization of Metalized Trench Based Waveguide Technology on Glass Interposer for 6G Applications",
+   "year": 2023,
+   "venue": "2023 IEEE/MTT-S International Microwave Symposium - IMS 2023",
+   "authors": [
+    "Xingchen Li",
+    "Xiaofan Jia",
+    "Serhat Erdogan",
+    "Matthew Jordan",
+    "Madhavan Swaminathan"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1364/ofc.1988.wq4",
+   "title": "Glass waveguide devices: uses and performance limitations",
+   "year": 1988,
+   "venue": "Optical Fiber Communication",
+   "authors": [
+    "S. I. NAJAFI"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ofc.1990.fb1",
+   "title": "FBI Glass waveguide laser",
+   "year": 1990,
+   "venue": "Optical Fiber Communication",
+   "authors": [
+    "HIROSHI AOKI",
+    "OSAMU MARUYAMA",
+    "YOSHIYUKI ASAHARA"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "waveguide shuffle co-packaged optics glass": [
+  {
+   "doi": "10.1016/j.optcom.2007.01.036",
+   "title": "Modeling and experiments of packaged Er3+–Yb3+ co-doped glass waveguide amplifiers",
+   "year": 2007,
+   "venue": "Optics Communications",
+   "authors": [
+    "Ke Liu",
+    "Edwin Y.B. Pun"
+   ],
+   "type": "journal-article",
+   "cited": 27
+  },
+  {
+   "doi": "10.3389/aot.2023.1244009",
+   "title": "Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics",
+   "year": 2023,
+   "venue": "Advanced Optical Technologies",
+   "authors": [
+    "Jason R. Grenier",
+    "Lars Brusberg",
+    "Kristopher A. Wieland",
+    "Juergen Matthies",
+    "Chad C. Terwilliger"
+   ],
+   "type": "journal-article",
+   "cited": 20
+  },
+  {
+   "doi": "10.1109/ecoc52684.2021.9605856",
+   "title": "Passive Aligned Glass Waveguide Connector for Co-Packaged Optics",
+   "year": 2021,
+   "venue": "2021 European Conference on Optical Communication (ECOC)",
+   "authors": [
+    "Lars Brusberg",
+    "Jason R. Grenier",
+    "Jurgen Matthies",
+    "Allen M. Miller",
+    "Chad C. Terwilliger",
+    "Jeffrey S. Clark",
+    "Beibei Zeng",
+    "Pierre Beneke"
+   ],
+   "type": "proceedings-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1364/ofc.2025.th1g.1",
+   "title": "Integrated Glass Waveguide Circuit for Co-packaged Optics in Radio-Access Networks",
+   "year": 2025,
+   "venue": "Optical Fiber Communication Conference (OFC) 2025",
+   "authors": [
+    "Lars Brusberg",
+    "Alessandra Bigongiari",
+    "Lucas W. Yeary",
+    "Jason R. Grenier",
+    "Binas Nisic",
+    "Stefano Stracca",
+    "Chad C. Terwilliger",
+    "Jeffrey S. Clark"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1117/12.2547051",
+   "title": "MT-ferrule compatible passive optical coupling for single-mode polymer waveguide in co-packaged optics",
+   "year": 2020,
+   "venue": "Optical Interconnects XX",
+   "authors": [
+    "Akihiro Noriki",
+    "Takeru Amano"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1364/cleo_at.2024.jth2a.32",
+   "title": "Investigation of Polymer Waveguide Splitters for Co-packaged Optics using External Laser Sources",
+   "year": 2024,
+   "venue": "CLEO 2024",
+   "authors": [
+    "Md Omar Faruk Rasel",
+    "Satoshi Suda",
+    "Akihiro Noriki",
+    "Fumi Nakamura",
+    "Takeru Amano"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/ectc51909.2023.00324",
+   "title": "Self-aligned optical connector assembly on polymer waveguide integrated package substrate for co-packaged optics",
+   "year": 2023,
+   "venue": "2023 IEEE 73rd Electronic Components and Technology Conference (ECTC)",
+   "authors": [
+    "Akihiro Noriki",
+    "Takeru Amano"
+   ],
+   "type": "proceedings-article",
+   "cited": 6
+  },
+  {
+   "doi": "10.5104/jiep.25.157",
+   "title": "Fabrication for Polymer Optical Waveguide and Its Application for Co-Packaged Optics",
+   "year": 2022,
+   "venue": "Journal of The Japan Institute of Electronics Packaging",
+   "authors": [
+    "Takaaki Ishigure"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/ectc.2019.00313",
+   "title": "Low-Cost MT-Ferrule-Compatible Optical Connector for Co-packaged Optics Using Single-Mode Polymer Waveguide",
+   "year": 2019,
+   "venue": "2019 IEEE 69th Electronic Components and Technology Conference (ECTC)",
+   "authors": [
+    "Akihiro Noriki",
+    "Takeru Amano",
+    "Masatoshi Tsunoda",
+    "Toshiaki Michihiro"
+   ],
+   "type": "proceedings-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1117/12.3079531",
+   "title": "Structural optimization of polymer waveguide-based adiabatic couplers fabricated using the mosquito method for co-packaged optics applications",
+   "year": 2026,
+   "venue": "Optical Interconnects and Packaging 2026",
+   "authors": [
+    "Haruka Nakajima",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/fio.2020.fth2c.1",
+   "title": "Packaged, Fiber-Coupled Waveguide-Enhanced Raman Spectroscopic Sensor",
+   "year": 2020,
+   "venue": "Frontiers in Optics / Laser Science",
+   "authors": [
+    "Derek Kita",
+    "Jérôme Michon",
+    "Juejun Hu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.21203/rs.3.rs-6046396/v1",
+   "title": "Simulation study of a highly efficient dual-apodized SiN Grating Coupler using a metal bottom reflector on a Glass Substrate for Co-Packaged Optics",
+   "year": 2025,
+   "venue": "",
+   "authors": [
+    "Heeyun Jung",
+    "Myung-Joon Kwack",
+    "Younghyun Kim"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  }
+ ],
+ "ultrafast laser inscription refractive index modification type I type II waveguide": [
+  {
+   "doi": "10.1016/j.optmat.2021.110844",
+   "title": "Femtosecond laser direct writing of Nd:YAG waveguide with Type I modification: Positive refractive index change in track",
+   "year": 2021,
+   "venue": "Optical Materials",
+   "authors": [
+    "Yuying Zhang",
+    "Jiaming Wu",
+    "Lei Wang",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 20
+  },
+  {
+   "doi": "10.70675/5bc3e0fbz27c0z4e0az8cc9z8704d44465d2",
+   "title": "Femtosecond laser inscription of type A-based high index contrast waveguides and Bragg gratings",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Laura Loi"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/2.1200702.0576",
+   "title": "Photonic device fabrication using ultrafast laser waveguide inscription",
+   "year": 2007,
+   "venue": "SPIE Newsroom",
+   "authors": [
+    "Robert Thomson"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.486856",
+   "title": "Single-scan ultrafast laser inscription of waveguides in IG2 for type-I and type-II operation in the mid-infrared",
+   "year": 2023,
+   "venue": "Optics Express",
+   "authors": [
+    "W. Hu",
+    "W. Gebremichael",
+    "J. Fernandes",
+    "M. Kilinc",
+    "C. Dorrer",
+    "J. Qiao"
+   ],
+   "type": "journal-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.1016/j.optmat.2018.12.035",
+   "title": "Luminescent features in double-track type II waveguides made in Er/Yb:LiNbO3 by Ultrafast Laser Inscription",
+   "year": 2019,
+   "venue": "Optical Materials",
+   "authors": [
+    "Demian A. Biasetti",
+    "Gustavo A. Torchia",
+    "Eugenio Cantelar"
+   ],
+   "type": "journal-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1117/12.3104824",
+   "title": "Commissioning the AIP's ultrafast laser-inscription facility: defining the parameter space for type-I waveguide fabrication",
+   "year": 2026,
+   "venue": "Optical and Infrared Interferometry and Imaging X",
+   "authors": [
+    "Rima Islam",
+    "Aline N. Dinkelaker",
+    "Abani Shankar Nayak",
+    "Kalaga Madhav",
+    "Martin Roth"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ome.457655",
+   "title": "High refractive index change in Type A laser modification using a multi-scan approach",
+   "year": 2022,
+   "venue": "Optical Materials Express",
+   "authors": [
+    "Laura Loi",
+    "Yannick Petit",
+    "Lionel Canioni"
+   ],
+   "type": "journal-article",
+   "cited": 13
+  },
+  {
+   "doi": "10.3390/s17112526",
+   "title": "Plasmonic Waveguide Coupled Ring Cavity for a Non-Resonant Type Refractive Index Sensor",
+   "year": 2017,
+   "venue": "Sensors",
+   "authors": [
+    "Soon-Hong Kwon"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1364/lac.2020.lw1b.5",
+   "title": "Ultrafast-Laser-Enabled Microwelding and Waveguide Inscription for Optics and Laser Fabrication",
+   "year": 2020,
+   "venue": "Laser Congress 2020 (ASSL, LAC)",
+   "authors": [
+    "J. Qiao",
+    "T. Feng",
+    "P. K. Sahoo",
+    "S. Patra",
+    "R. Haque",
+    "C. Dorrer"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/assp.2012.am4a.14",
+   "title": "Yb-doped Bismuthate Glass waveguide laser fabricated by Ultrafast Laser Inscription",
+   "year": 2012,
+   "venue": "Lasers, Sources, and Related Photonic Devices",
+   "authors": [
+    "R. Mary",
+    "S. Beecher",
+    "G. Brown",
+    "R.R. Thomson",
+    "A. K. Kar"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/leos.1993.379096",
+   "title": "Variation of refractive index n/sub 0/ near the surface of LiNbO/sub 3/ open type waveguide",
+   "year": null,
+   "venue": "Proceedings of LEOS '93",
+   "authors": [
+    "N. Ramesh",
+    "Ravindharan Ethiraj"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.23.026683",
+   "title": "Ultrafast laser inscription of volume phase gratings with low refractive index modulation and self-images of high visibility",
+   "year": 2015,
+   "venue": "Optics Express",
+   "authors": [
+    "A. Dias",
+    "A. Rodríguez",
+    "M. Martínez-Calderón",
+    "M. Gómez-Aranzadi",
+    "S.M. Olaizola"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  }
+ ],
+ "curvilinear routing photonic integrated circuits": [
+  {
+   "doi": "10.12681/eadd/54404",
+   "title": "Photonic integrated circuits for routing and computing applications",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Απόστολος Τσακυρίδης"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.22215/etd/2021-14338",
+   "title": "Photonic Integrated Circuits for Application in Optical Routing, Computing and Beamforming",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Md Ruhul Fatin"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.21203/rs.3.rs-1652266/v1",
+   "title": "Optimizing Bend-Loss in Optical Waveguide Channel Routing on Photonic Integrated Circuits",
+   "year": 2022,
+   "venue": "",
+   "authors": [
+    "Sumit Sharma",
+    "Sudip Roy"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.5772/7147",
+   "title": "Integrated-Optic Circuits for Recognition of Photonic Routing Labels",
+   "year": 2010,
+   "venue": "Advances in Optical and Photonic Devices",
+   "authors": [
+    "Nobuo Goto",
+    "Hitoshi Hiura",
+    "Yoshihiro Makimoto",
+    "Shin-ichiro Yanagiy"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1002/9781118148167.ch8",
+   "title": "Photonic Integrated Circuits",
+   "year": 2012,
+   "venue": "Diode Lasers and Photonic Integrated Circuits",
+   "authors": [],
+   "type": "other",
+   "cited": 5
+  },
+  {
+   "doi": "10.3403/pdiectr63072",
+   "title": "Photonic integrated circuits",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "standard",
+   "cited": 0
+  },
+  {
+   "doi": "10.1036/1097-8542.511150",
+   "title": "Photonic integrated circuits",
+   "year": null,
+   "venue": "AccessScience",
+   "authors": [],
+   "type": "dataset",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/43.806809",
+   "title": "Curvilinear detailed routing with simultaneous wire-spreading and wire-fattening",
+   "year": 1999,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": [
+    "T. Hama",
+    "H. Etoh"
+   ],
+   "type": "journal-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1007/s11107-018-0757-9",
+   "title": "Compact $$3\\times 3$$ 3 × 3 wavelength routing for photonic integrated circuits",
+   "year": 2018,
+   "venue": "Photonic Network Communications",
+   "authors": [
+    "T. Sridarshini",
+    "S. Indira Gandhi"
+   ],
+   "type": "journal-article",
+   "cited": 15
+  },
+  {
+   "doi": "10.1117/12.3000948",
+   "title": "Quantum computing with photonic integrated circuits",
+   "year": 2024,
+   "venue": "Smart Photonic and Optoelectronic Integrated Circuits 2024",
+   "authors": [
+    "Niccolo Somaschi"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.2609718",
+   "title": "Autocorrective interferometers for photonic integrated circuits",
+   "year": 2022,
+   "venue": "Smart Photonic and Optoelectronic Integrated Circuits 2022",
+   "authors": [
+    "Matteo Cherchi"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1093/oso/9780198844402.003.0003",
+   "title": "Reconfigurable Application-Specific Photonic Integrated Circuits",
+   "year": 2020,
+   "venue": "Programmable Integrated Photonics",
+   "authors": [
+    "José Capmany",
+    "Daniel Pérez"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  }
+ ],
+ "polymer waveguide optical backplane propagation loss 850 nm": [
+  {
+   "doi": "10.1364/cleopr.2018.tu3e.4",
+   "title": "All-optical control of propagation loss with a graphene- embedded polymer waveguide",
+   "year": 2018,
+   "venue": "CLEO Pacific Rim Conference",
+   "authors": [
+    "Zeshan Chang",
+    "Kin Seng Chiang"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.19.014403",
+   "title": "Photolithography-free polymer optical waveguide arrays for optical backplane bus",
+   "year": 2011,
+   "venue": "Optics Express",
+   "authors": [
+    "Xinyuan Dou",
+    "Alan X. Wang",
+    "Xiaohui Lin",
+    "Ray T. Chen"
+   ],
+   "type": "journal-article",
+   "cited": 13
+  },
+  {
+   "doi": "10.1109/icocn53177.2021.9563849",
+   "title": "Loss Characteristics of Polymer Optical Waveguide at 1310 nm Wavelength on An Optical Printed Circuit Board",
+   "year": 2021,
+   "venue": "2021 19th International Conference on Optical Communications and Networks (ICOCN)",
+   "authors": [
+    "Wei Wei",
+    "Xiao Lu",
+    "Liang Zhang",
+    "Heming Wei",
+    "Fufei Pang",
+    "Tingyun Wang"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/icton.2013.6602918",
+   "title": "A polymer waveguide-based 40 Gb/s optical bus backplane for board-level optical interconnects",
+   "year": 2013,
+   "venue": "2013 15th International Conference on Transparent Optical Networks (ICTON)",
+   "authors": [
+    "Nikos Bamiedakis",
+    "Aeffendi Hashim",
+    "Richard V. Penty",
+    "Ian H. White"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/oic.2015.7115671",
+   "title": "Ultra low crossing loss meshed waveguide based on polynorbornene for backplane architecture",
+   "year": 2015,
+   "venue": "2015 IEEE Optical Interconnects Conference (OI)",
+   "authors": [
+    "Katsuma Kitazoe",
+    "Akihiro Horimoto",
+    "Kimio Moriya",
+    "Ryota Kinoshita",
+    "Koji Choki",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1117/12.2040070",
+   "title": "Polymer waveguide with tunable optofluidic couplers for card-to-backplane optical interconnects",
+   "year": 2014,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Guomin Jiang",
+    "Sarfaraz Baig",
+    "Michael R. Wang"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1117/12.913894",
+   "title": "Polymer optical waveguide-based bi-directional optical bus architecture for high-speed optical backplane",
+   "year": 2012,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Xiaohui Lin",
+    "Xinyuan Dou",
+    "Alan X. Wang",
+    "Ray T. Chen"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1109/ectc.2015.7159679",
+   "title": "Low-loss single-mode polymer optical waveguide at 1550-nm wavelength compatible with silicon photonics",
+   "year": 2015,
+   "venue": "2015 IEEE 65th Electronic Components and Technology Conference (ECTC)",
+   "authors": [
+    "Takaaki Ishigure",
+    "Sho Yoshida",
+    "Kazuki Yasuhara",
+    "Daisuke Suganuma"
+   ],
+   "type": "proceedings-article",
+   "cited": 13
+  },
+  {
+   "doi": "10.1049/ic:20070418",
+   "title": "Compact waveguide array connectors for optical backplane",
+   "year": 2007,
+   "venue": "33rd European Conference and Exhibition on Optical Communication - ECOC 2007",
+   "authors": [
+    "S. Hiramatsu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.25.008524",
+   "title": "Circular core single-mode polymer optical waveguide fabricated using the Mosquito method with low loss at 1310/1550 nm",
+   "year": 2017,
+   "venue": "Optics Express",
+   "authors": [
+    "Kazuki Yasuhara",
+    "Feng Yu",
+    "Takaaki Ishigure"
+   ],
+   "type": "journal-article",
+   "cited": 53
+  },
+  {
+   "doi": "10.1109/jphot.2025.3605942",
+   "title": "Athermal Polymer Arrayed Waveguide Grating Router for Optical Backplane",
+   "year": 2025,
+   "venue": "IEEE Photonics Journal",
+   "authors": [
+    "Ruizhi Jia",
+    "Han Wu",
+    "Xiao Xu",
+    "Liuge Du",
+    "Jia Zhao"
+   ],
+   "type": "journal-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1117/12.963375",
+   "title": "Polymer Waveguide-Based Optical Backplane for Fine-Grained Computing",
+   "year": 1990,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "J. P. Bristow",
+    "C. T. Sullivan",
+    "A. Guha",
+    "J. Ehramjian",
+    "A. Husain"
+   ],
+   "type": "proceedings-article",
+   "cited": 7
+  }
+ ],
+ "silicon photonics waveguide propagation loss dB/cm 1550 nm": [
+  {
+   "doi": "10.1109/ectc.2015.7159679",
+   "title": "Low-loss single-mode polymer optical waveguide at 1550-nm wavelength compatible with silicon photonics",
+   "year": 2015,
+   "venue": "2015 IEEE 65th Electronic Components and Technology Conference (ECTC)",
+   "authors": [
+    "Takaaki Ishigure",
+    "Sho Yoshida",
+    "Kazuki Yasuhara",
+    "Daisuke Suganuma"
+   ],
+   "type": "proceedings-article",
+   "cited": 13
+  },
+  {
+   "doi": "10.1109/jphot.2016.2629083",
+   "title": "Reverse Ridge Silicon Strip Waveguide and Silica Slot Waveguide Structure for the Dispersion at 1550 nm",
+   "year": 2016,
+   "venue": "IEEE Photonics Journal",
+   "authors": [
+    "Ashok Nandam",
+    "Minwan Jung",
+    "Yeung Lak Lee",
+    "Woojin Shin"
+   ],
+   "type": "journal-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1364/opticaopen.28943774.v1",
+   "title": "Evaporated aluminum oxide (Al₂O₃) waveguides with less than 0.7 dB/cm propagation loss at 405 nm",
+   "year": 2025,
+   "venue": "",
+   "authors": [
+    "Max Lemme",
+    "Tunahan Gök",
+    "Rijil Thomas",
+    "Anastasiia Sorokina",
+    "Steffen Sauer",
+    "Stefanie Kroker",
+    "Stephan Suckow"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/opticaopen.28943774",
+   "title": "Evaporated aluminum oxide (Al₂O₃) waveguides with less than 0.7 dB/cm propagation loss at 405 nm",
+   "year": 2025,
+   "venue": "",
+   "authors": [
+    "Tunahan Gök",
+    "Rijil Thomas",
+    "Anastasiia Sorokina",
+    "Steffen Sauer",
+    "Stefanie Kroker",
+    "Stephan Suckow",
+    "Max Lemme"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/opticaopen.28943774.v2",
+   "title": "Evaporated aluminum oxide (Al₂O₃) waveguides with less than 0.7 dB/cm propagation loss at 405 nm",
+   "year": 2025,
+   "venue": "",
+   "authors": [
+    "Tunahan Gök",
+    "Rijil Thomas",
+    "Anastasiia Sorokina",
+    "Steffen Sauer",
+    "Stefanie Kroker",
+    "Stephan Suckow",
+    "Max Lemme"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.3390/photonics9090616",
+   "title": "Design of Compact, Broadband, and Low-Loss Silicon Waveguide Bends with Radius under 500 nm",
+   "year": 2022,
+   "venue": "Photonics",
+   "authors": [
+    "Zhekang Zhang",
+    "Yuchen Shi",
+    "Bo Shao",
+    "Taotao Zhou",
+    "Fan Luo",
+    "Yin Xu"
+   ],
+   "type": "journal-article",
+   "cited": 15
+  },
+  {
+   "doi": "10.3390/photonics11030267",
+   "title": "Optimization of Grating Coupler over Single-Mode Silicon-on-Insulator Waveguide to Reach &lt; 1 dB Loss through Deep-Learning-Based Inverse Design",
+   "year": 2024,
+   "venue": "Photonics",
+   "authors": [
+    "Chung-Chih Lin",
+    "Audrey Na",
+    "Yi-Kuei Wu",
+    "Likarn Wang",
+    "Neil Na"
+   ],
+   "type": "journal-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1109/jphot.2023.3344361",
+   "title": "Photolithography Fabricated Broadband Waveguide Grating Couplers With 1 dB Bandwidth Over 100 nm",
+   "year": 2024,
+   "venue": "IEEE Photonics Journal",
+   "authors": [
+    "Xuetong Zhou",
+    "Hon Ki Tsang"
+   ],
+   "type": "journal-article",
+   "cited": 6
+  },
+  {
+   "doi": "10.1002/lpor.201300183",
+   "title": "Ultra-low loss waveguide platform and its integration with silicon photonics",
+   "year": 2014,
+   "venue": "Laser &amp; Photonics Reviews",
+   "authors": [
+    "Martijn J. R. Heck",
+    "Jared F. Bauters",
+    "Michael L. Davenport",
+    "Daryl T. Spencer",
+    "John E. Bowers"
+   ],
+   "type": "journal-article",
+   "cited": 174
+  },
+  {
+   "doi": "10.7567/ssdm.2024.e-3-03",
+   "title": "Record-low C-band TM mode propagation loss of 0.28 dB/cm in silicon single-mode waveguides with smooth top surface",
+   "year": 2024,
+   "venue": "Extended Abstracts of the 2024 International Conference on Solid State Devices and Materials",
+   "authors": [
+    "TSUYOSHI HORIKAWA",
+    "Makoto Okano",
+    "Nobuhiko Nishiyama"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/fio.2021.fth6b.4",
+   "title": "Silicon Waveguides and Resonators with Sub-0.1 dB/cm Propagation Loss and Over 7 Million Q in a Foundry Process",
+   "year": 2021,
+   "venue": "Frontiers in Optics + Laser Science 2021",
+   "authors": [
+    "Deniz Onural",
+    "Hayk Gevorgyan",
+    "Bohan Zhang",
+    "Anatol Khilo",
+    "Miloš A. Popović"
+   ],
+   "type": "proceedings-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.1364/iprsn.2023.jtu4a.20",
+   "title": "Loaded Silicon Grating Coupler for 40 nm Thin Silicon Nitride Waveguide",
+   "year": 2023,
+   "venue": "Advanced Photonics Congress 2023",
+   "authors": [
+    "Pravin Rawat",
+    "E V Neethu",
+    "Shankar Kumar Selvaraja"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  }
+ ],
+ "3D optical waveguide routing algorithm bending": [
+  {
+   "doi": "10.1109/icton.2011.5971039",
+   "title": "Bidirectional eigenmode propagation algorithm for 3D waveguide structures",
+   "year": 2011,
+   "venue": "2011 13th International Conference on Transparent Optical Networks",
+   "authors": [
+    "Jiri Petracek",
+    "Jaroslav Luksch"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/acpc.2015.asu1h.3",
+   "title": "Reliable Routing Based on Bidirectional Waveguide Link for 3D Optical Network-on-Chip",
+   "year": 2015,
+   "venue": "Asia Communications and Photonics Conference 2015",
+   "authors": [
+    "Weigang Hou",
+    "Pengxing Guo",
+    "Lei Guo",
+    "Dandan Huang",
+    "Qing Cai"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1201/9781003043058-4",
+   "title": "Optical Waveguide Films with Vertical Mirrors and 3D Optical Circuits",
+   "year": 2020,
+   "venue": "Self-Organized 3D Integrated Optical Interconnects",
+   "authors": [
+    "Tetsuzo Yoshimura"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/icsj66986.2025.11302545",
+   "title": "Extremely Low Bending Loss (&lt;0.5 dB at 1-mm Bending Radius) GI Core Polymer Optical Waveguide",
+   "year": 2025,
+   "venue": "2025 IEEE CPMT Symposium Japan (ICSJ)",
+   "authors": [
+    "Masahiro Karakawa",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/icocn.2014.6987095",
+   "title": "3D Torus ONoC: Topology design, router modeling and adaptive routing algorithm",
+   "year": 2014,
+   "venue": "2014 13th International Conference on Optical Communications and Networks (ICOCN)",
+   "authors": [
+    "Weigang Hou",
+    "Lei Guo",
+    "Qing Cai",
+    "Lijiao Zhu"
+   ],
+   "type": "proceedings-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.21203/rs.3.rs-1652266/v1",
+   "title": "Optimizing Bend-Loss in Optical Waveguide Channel Routing on Photonic Integrated Circuits",
+   "year": 2022,
+   "venue": "",
+   "authors": [
+    "Sumit Sharma",
+    "Sudip Roy"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/lra.2024.3416795/mm1",
+   "title": "Soft Robotic Proprioception Enhancement Via 3D-Printed Differential Optical Waveguide Design_supp1-3416795.mp4",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Juan Yi"
+   ],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1017/cbo9780511616105.025",
+   "title": "Routing algorithm",
+   "year": 2006,
+   "venue": "Survivability and Traffic Grooming in WDM Optical Networks",
+   "authors": [],
+   "type": "other",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ofc.2014.m3k.3",
+   "title": "Couplers for Multicore Fibers and 3D Waveguide Technology",
+   "year": 2014,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Nicholas Psaila"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/omn.2014.6924523",
+   "title": "3D Nanofocusing plasmonic waveguide",
+   "year": 2014,
+   "venue": "2014 International Conference on Optical MEMS and Nanophotonics",
+   "authors": [
+    "Hyuck Choo"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.2514/6.1994-1110",
+   "title": "Semiconductor waveguide optical routing device",
+   "year": 1994,
+   "venue": "15th International Communicatons Satellite Systems Conference and Exhibit",
+   "authors": [
+    "J. Sarma",
+    "M. Green",
+    "I. Middlemast",
+    "I. Flint"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ps.1995.pwe5",
+   "title": "All-Optical Self-Routing Switch Using a Nonlinear InGaAs/InAlAs MQW Waveguide",
+   "year": 1995,
+   "venue": "Photonics in Switching",
+   "authors": [
+    "T. Kanetake",
+    "S. Tanaka",
+    "H. Inoue"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ]
+}

@@ -1,0 +1,860 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        23
+      ]
+    ],
+    "date-time": "2026-10-23T22:34:28Z",
+    "timestamp": 1792794868274,
+    "version": "4.5.0"
+  },
+  "reference-count": 31,
+  "publisher": "Optica Publishing Group",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            18
+          ]
+        ],
+        "date-time": "2025-02-18T00:00:00Z",
+        "timestamp": 1739836800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.1364/OA_License_v2#VOR"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            18
+          ]
+        ],
+        "date-time": "2025-02-18T00:00:00Z",
+        "timestamp": 1739836800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "82003284"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "82003284"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "62375103"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62375103"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key Research and Development Program of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2024YFB4608100"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2024YFB4608100"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key Research and Development Program of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2021YFF0502700"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2021YFF0502700"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "The First Hospital of Jilin University’s 5th Fund to Nurture National Natural Science Foundation to Linan Fang",
+      "award": [
+        "04054820002"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "04054820002"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Innovation Program for Quantum Science and Technology",
+      "award": [
+        "2021ZD0300701"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2021ZD0300701"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "opg.optica.org"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Opt. Lett."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:p>In this paper, in situ multiple scans of a femtosecond laser are employed to optimize the refractive index distribution in a glass optical waveguide. The emergence of second bright core boundary (SBCB) and the increasing density of three- and four-membered rings in silica were thoroughly investigated. They can lead to a higher refractive index in a waveguide core and enhance the light confinement capability, which can increase the spatial integration density of bent waveguide structures. A 90° tightly bent single-mode waveguide is prepared at 808 nm, achieving a minimum bending loss of 1.028 dB/cm at a bending radius of 10 mm. This study will facilitate the preparation of on-chip large-scale, highly integrated photonic chips.</jats:p>",
+  "DOI": "10.1364/ol.551272",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        1,
+        23
+      ]
+    ],
+    "date-time": "2025-01-23T09:00:52Z",
+    "timestamp": 1737622852000
+  },
+  "page": "1449",
+  "update-policy": "https://doi.org/10.1364/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 6,
+  "title": [
+    "Low-loss and tight-bend waveguides via multiple scans of a femtosecond laser"
+  ],
+  "prefix": "10.1364",
+  "volume": "50",
+  "author": [
+    {
+      "given": "Kai-Heng",
+      "family": "Xiao",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00js3aw79",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yi-Hao",
+      "family": "Zan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00js3aw79",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yang",
+      "family": "Ouyang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00js3aw79",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Si-Xue",
+      "family": "Fei",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00js3aw79",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0001-9238-0295",
+      "authenticated-orcid": true,
+      "given": "Zhi-Yong",
+      "family": "Hu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00js3aw79",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Li-Nan",
+      "family": "Fang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "The First Hospital of Jilin University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8675-7594",
+      "authenticated-orcid": true,
+      "given": "Zhen-Nan",
+      "family": "Tian",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0921-7973",
+      "authenticated-orcid": true,
+      "given": "Qi-Dai",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/00js3aw79",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "285",
+  "published-online": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        18
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ol-50-5-1449-R1",
+      "doi-asserted-by": "publisher",
+      "first-page": "37",
+      "DOI": "10.1016/j.fmre.2022.10.008",
+      "volume": "3",
+      "author": "Xiong",
+      "year": "2023",
+      "journal-title": "Fundamental Research"
+    },
+    {
+      "key": "ol-50-5-1449-R2",
+      "doi-asserted-by": "publisher",
+      "first-page": "822",
+      "DOI": "10.1016/j.fmre.2022.05.020",
+      "volume": "3",
+      "author": "Zhang",
+      "year": "2023",
+      "journal-title": "Fundamental Research"
+    },
+    {
+      "key": "ol-50-5-1449-R3",
+      "doi-asserted-by": "publisher",
+      "first-page": "13",
+      "DOI": "10.1186/s43074-023-00090-8",
+      "volume": "4",
+      "author": "Wang",
+      "year": "2023",
+      "journal-title": "PhotoniX"
+    },
+    {
+      "key": "ol-50-5-1449-R4",
+      "doi-asserted-by": "publisher",
+      "first-page": "2671",
+      "DOI": "10.1021/acs.nanolett.4c00505",
+      "volume": "24",
+      "author": "Zhang",
+      "year": "2024",
+      "journal-title": "Nano Lett."
+    },
+    {
+      "key": "ol-50-5-1449-R5",
+      "doi-asserted-by": "publisher",
+      "first-page": "5277",
+      "DOI": "10.1021/acs.nanolett.2c01178",
+      "volume": "22",
+      "author": "Zhang",
+      "year": "2022",
+      "journal-title": "Nano Lett."
+    },
+    {
+      "key": "ol-50-5-1449-R6",
+      "doi-asserted-by": "publisher",
+      "first-page": "178",
+      "DOI": "10.1364/OPTICA.506669",
+      "volume": "11",
+      "author": "Memeo",
+      "year": "2024",
+      "journal-title": "Optica"
+    },
+    {
+      "key": "ol-50-5-1449-R7",
+      "doi-asserted-by": "publisher",
+      "first-page": "14",
+      "DOI": "10.1186/s43074-023-00093-5",
+      "volume": "4",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "PhotoniX"
+    },
+    {
+      "key": "ol-50-5-1449-R8",
+      "doi-asserted-by": "publisher",
+      "first-page": "829",
+      "DOI": "10.1364/PRJ.484407",
+      "volume": "11",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Photonics Res."
+    },
+    {
+      "key": "ol-50-5-1449-R9",
+      "doi-asserted-by": "publisher",
+      "first-page": "2465",
+      "DOI": "10.1038/s41467-021-22769-x",
+      "volume": "12",
+      "author": "Martinod",
+      "year": "2021",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "ol-50-5-1449-R10",
+      "doi-asserted-by": "publisher",
+      "first-page": "15482",
+      "DOI": "10.1364/OE.446664",
+      "volume": "30",
+      "author": "Wang",
+      "year": "2022",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ol-50-5-1449-R11",
+      "doi-asserted-by": "publisher",
+      "first-page": "687",
+      "DOI": "10.1002/jbio.201200048",
+      "volume": "5",
+      "author": "Eaton",
+      "year": "2012",
+      "journal-title": "J. Biophotonics"
+    },
+    {
+      "key": "ol-50-5-1449-R12",
+      "doi-asserted-by": "publisher",
+      "first-page": "23770",
+      "DOI": "10.1038/s41598-021-03116-y",
+      "volume": "11",
+      "author": "Lee",
+      "year": "2021",
+      "journal-title": "Sci. Rep."
+    },
+    {
+      "key": "ol-50-5-1449-R13",
+      "doi-asserted-by": "publisher",
+      "first-page": "3470",
+      "DOI": "10.1364/OL.42.003470",
+      "volume": "42",
+      "author": "Lv",
+      "year": "2017",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ol-50-5-1449-R14",
+      "doi-asserted-by": "publisher",
+      "first-page": "52",
+      "DOI": "10.37188/lam.2024.009",
+      "volume": "5",
+      "author": "Ross-Adams",
+      "year": "2024",
+      "journal-title": "Light: Adv. Manuf."
+    },
+    {
+      "key": "ol-50-5-1449-R15",
+      "doi-asserted-by": "publisher",
+      "first-page": "2978",
+      "DOI": "10.1364/OE.21.002978",
+      "volume": "21",
+      "author": "Arriola",
+      "year": "2013",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ol-50-5-1449-R16",
+      "doi-asserted-by": "publisher",
+      "first-page": "70322",
+      "DOI": "10.1007/s11433-018-9202-0",
+      "volume": "61",
+      "author": "Liu",
+      "year": "2018",
+      "journal-title": "Sci. China: Phys. Mech. Astron"
+    },
+    {
+      "key": "ol-50-5-1449-R17",
+      "doi-asserted-by": "publisher",
+      "first-page": "30716",
+      "DOI": "10.1364/OE.26.030716",
+      "volume": "26",
+      "author": "Guan",
+      "year": "2018",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ol-50-5-1449-R18",
+      "doi-asserted-by": "publisher",
+      "first-page": "24",
+      "DOI": "10.1186/s43074-023-00101-8",
+      "volume": "4",
+      "author": "Zhang",
+      "year": "2023",
+      "journal-title": "PhotoniX"
+    },
+    {
+      "key": "ol-50-5-1449-R19",
+      "doi-asserted-by": "publisher",
+      "first-page": "297",
+      "DOI": "10.1364/JOSA.68.000297",
+      "volume": "68",
+      "author": "Snyder",
+      "year": "1978",
+      "journal-title": "J. Opt. Soc. Am."
+    },
+    {
+      "key": "ol-50-5-1449-R20",
+      "doi-asserted-by": "publisher",
+      "first-page": "1602403",
+      "DOI": "10.3788/CJL231264",
+      "volume": "51",
+      "author": "Li",
+      "year": "2024",
+      "journal-title": "Chin. J. Lasers"
+    },
+    {
+      "key": "ol-50-5-1449-R21",
+      "doi-asserted-by": "publisher",
+      "first-page": "3069",
+      "DOI": "10.1515/nanoph-2023-0049",
+      "volume": "12",
+      "author": "Yang",
+      "year": "2023",
+      "journal-title": "Nanophotonics"
+    },
+    {
+      "key": "ol-50-5-1449-R22",
+      "doi-asserted-by": "publisher",
+      "first-page": "130",
+      "DOI": "10.1038/s41377-024-01473-7",
+      "volume": "13",
+      "author": "Wang",
+      "year": "2024",
+      "journal-title": "Light: Sci. Appl."
+    },
+    {
+      "key": "ol-50-5-1449-R23",
+      "doi-asserted-by": "publisher",
+      "first-page": "219",
+      "DOI": "10.1002/mop.21128",
+      "volume": "47",
+      "author": "Pandraud",
+      "year": "2005",
+      "journal-title": "Microw. Opt. Technol. Lett."
+    },
+    {
+      "key": "ol-50-5-1449-R24",
+      "doi-asserted-by": "publisher",
+      "first-page": "16493",
+      "DOI": "10.1364/OE.22.016493",
+      "volume": "22",
+      "author": "Sakakura",
+      "year": "2014",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ol-50-5-1449-R25",
+      "doi-asserted-by": "publisher",
+      "first-page": "21353",
+      "DOI": "10.1364/OE.24.021353",
+      "volume": "24",
+      "author": "Zhang",
+      "year": "2016",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ol-50-5-1449-R26",
+      "doi-asserted-by": "publisher",
+      "first-page": "10153",
+      "DOI": "10.1364/OE.387790",
+      "volume": "28",
+      "author": "Fernandez",
+      "year": "2020",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ol-50-5-1449-R27",
+      "doi-asserted-by": "publisher",
+      "first-page": "10265",
+      "DOI": "10.1364/OE.420595",
+      "volume": "29",
+      "author": "Zhang",
+      "year": "2021",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ol-50-5-1449-R28",
+      "doi-asserted-by": "publisher",
+      "first-page": "4698",
+      "DOI": "10.1364/OL.44.004698",
+      "volume": "44",
+      "author": "Wu",
+      "year": "2019",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ol-50-5-1449-R29",
+      "doi-asserted-by": "publisher",
+      "first-page": "224117",
+      "DOI": "10.1103/PhysRevB.73.224117",
+      "volume": "73",
+      "author": "Zoubir",
+      "year": "2006",
+      "journal-title": "Phys. Rev. B"
+    },
+    {
+      "key": "ol-50-5-1449-R30",
+      "doi-asserted-by": "publisher",
+      "first-page": "67583",
+      "DOI": "10.1039/C5RA13043C",
+      "volume": "5",
+      "author": "Yadav",
+      "year": "2015",
+      "journal-title": "RSC Adv."
+    },
+    {
+      "key": "ol-50-5-1449-R31",
+      "doi-asserted-by": "publisher",
+      "first-page": "193",
+      "DOI": "10.1016/0022-3093(76)90132-0",
+      "volume": "20",
+      "author": "Konijnendijk",
+      "year": "1976",
+      "journal-title": "J. Non-Cryst. Solids"
+    }
+  ],
+  "container-title": [
+    "Optics Letters"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://opg.optica.org/viewmedia.cfm?URI=ol-50-5-1449&seq=0",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        18
+      ]
+    ],
+    "date-time": "2025-02-18T09:16:23Z",
+    "timestamp": 1739870183000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://opg.optica.org/abstract.cfm?URI=ol-50-5-1449"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        18
+      ]
+    ]
+  },
+  "references-count": 31,
+  "journal-issue": {
+    "issue": "5",
+    "published-online": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1364/ol.551272",
+  "relation": {},
+  "ISSN": [
+    "0146-9592",
+    "1539-4794"
+  ],
+  "issn-type": [
+    {
+      "value": "0146-9592",
+      "type": "print"
+    },
+    {
+      "value": "1539-4794",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        18
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Optica Publishing Group",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "https://doi.org/10.1364/OL.551272",
+      "name": "articlelink",
+      "label": "Crossref DOI link to publisher maintained version"
+    },
+    {
+      "value": "letter",
+      "name": "content_type",
+      "label": "Article type"
+    },
+    {
+      "value": "Screened by Similarity Check",
+      "name": "cross_check",
+      "label": "Similarity check"
+    },
+    {
+      "value": "Yes",
+      "order": 0,
+      "name": "peer_reviewed",
+      "label": "Peer reviewed",
+      "group": {
+        "name": "peer_review",
+        "label": "Peer review"
+      }
+    },
+    {
+      "value": "Single blind",
+      "order": 1,
+      "name": "review_process",
+      "label": "Review process",
+      "group": {
+        "name": "peer_review",
+        "label": "Peer review"
+      }
+    },
+    {
+      "value": "19 December 2024",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "19 January 2025",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "18 February 2025",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "© 2025 Optica Publishing Group. All rights, including for text and data mining (TDM), Artificial Intelligence (AI) training, and similar technologies, are reserved.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ]
+}

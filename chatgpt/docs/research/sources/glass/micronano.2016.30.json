@@ -1,0 +1,782 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        6
+      ]
+    ],
+    "date-time": "2026-10-06T03:36:32Z",
+    "timestamp": 1791257792077,
+    "version": "4.1.0"
+  },
+  "reference-count": 53,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2016-08-01T00:00:00Z",
+        "timestamp": 1470009600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2016-08-01T00:00:00Z",
+        "timestamp": 1470009600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Microsyst Nanoeng"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>The continuing trend of exponential growth in data communications and processing are driving the need for large-scale heterogeneous integration. Similar to the trend we have observed in electronic integrated circuit development, we are witnessing a growing trend in 3D photonic integrated circuits (PICs) development in addition to that in 2D PICs. There are two main methods for fabricating 3D PICs. The first method, which utilizes ultrafast laser inscription (ULI), offers freeform shaping of waveguides in arbitrary contours and formations. The second method, which utilizes multilayer stacking and coupling of planar PICs, exploits relatively mature 2D PIC fabrication processes applied to each layer sequentially. Both the fabrication methods for 3D PICs have advantages and disadvantages such that certain applications may favor one method over the other. However, a joining of 2D PICs with 3D PICs can help develop integrated microsystems with new functionalities such as non-mechanical beam steering, space-division multiplexing (SDM), programmable arbitrary beam shaping, and photonic signal processing. We discuss examples of 3D PICs and 2D/3D integrated PICs in two applications: SDM via orbital-angular-momentum (OAM) multiplexing/demultiplexing and optical beam steering using optical phased arrays. Although a 2D PIC by itself can function as an OAM multiplexer or demultiplexer, it has limitations in supporting both polarizations. Alternatively, a 3D PIC fabricated by ULI can easily support both polarizations with low propagation loss. A combination of a 3D PIC and a 2D PIC designed and fabricated for OAM applications has successfully multiplexed and demultiplexed 15 OAM states to demonstrate polarization-diversified SDM coherent optical communications using multiple OAM states. Coherent excitation of multi-ring OAM states can allow highly scalable SDM utilizing Laguerre–Gaussian modes or linearly polarized (LP) modes. The preliminary fabrication of multi-ring OAM multiplexers and demultiplexers using the multilayer 3D PIC method and the ULI 3D PIC method has also been pursued. Large-scale (for example, 16×16 optical phased array) 3D PICs fabricated with the ULI technique have been demonstrated. Through these examples, we show that heterogeneous 2D/3D photonic integration retains the advantages of 2D PICs and 3D waveguides, which can potentially benefit many other applications.</jats:p>",
+  "DOI": "10.1038/micronano.2016.30",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        8,
+        1
+      ]
+    ],
+    "date-time": "2016-08-01T13:18:25Z",
+    "timestamp": 1470057505000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 86,
+  "title": [
+    "Heterogeneous 2D/3D photonic integrated microsystems"
+  ],
+  "prefix": "10.1038",
+  "volume": "2",
+  "author": [
+    {
+      "given": "S. J. Ben",
+      "family": "Yoo",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Binbin",
+      "family": "Guan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ryan P.",
+      "family": "Scott",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        8,
+        1
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "BFmicronano201630_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "33",
+      "DOI": "10.1109/N-SSC.2006.4785860",
+      "volume": "3",
+      "author": "GE Moore",
+      "year": "2006",
+      "unstructured": "Moore GE . Cramming more components onto integrated circuits. Reprinted from Electronics, volume 38, number 8, April 19, 1965, pp.114 ff. IEEE Solid-State Circuits Newsletter 2006; 3: 33–35.",
+      "journal-title": "IEEE Solid-State Circuits Newsletter"
+    },
+    {
+      "key": "BFmicronano201630_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "256",
+      "DOI": "10.1109/JSSC.1974.1050511",
+      "volume": "SC-9",
+      "author": "RH Dennard",
+      "year": "1974",
+      "unstructured": "Dennard RH, Gaenssle Fh, Yu HN et al. Design of ion-implanted MOSFETs with very small physical dimensions. IEEE Journal of Solid-State Circuits 1974; SC-9: 256–268.",
+      "journal-title": "IEEE Journal of Solid-State Circuits"
+    },
+    {
+      "key": "BFmicronano201630_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "6768",
+      "DOI": "10.1364/OE.15.006768",
+      "volume": "15",
+      "author": "AA Savchenkov",
+      "year": "2007",
+      "unstructured": "Savchenkov AA, Matsko AB, Ilchenko VS et al. Optical resonators with ten million finesse. Optics Express 2007; 15: 6768–6773.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR4",
+      "first-page": "193",
+      "volume": "20",
+      "author": "M Hideaki",
+      "year": "1981",
+      "unstructured": "Hideaki M, Tadashi F, Takao K et al. Integration of a laser diode and a Twin FET. Japanese Journal of Applied Physics 1981; 20: 193.",
+      "journal-title": "Japanese Journal of Applied Physics"
+    },
+    {
+      "key": "BFmicronano201630_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "1382",
+      "DOI": "10.1109/JLT.1987.1075427",
+      "volume": "5",
+      "author": "H Matsueda",
+      "year": "1987",
+      "unstructured": "Matsueda H . AlGaAs OEIC transmitters. Journal of Lightwave Technology 1987; 5: 1382–1390.",
+      "journal-title": "Journal of Lightwave Technology"
+    },
+    {
+      "key": "BFmicronano201630_CR6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gunn C . Fully integrated VLSI CMOS and photonics ‘CMOS Photonics’. 2007 IEEE Symposium on VLSI Technology; 12–14 Jun 2007; Kyoto, Japan; 2007: 6–9.",
+      "DOI": "10.1109/VLSIT.2007.4339680"
+    },
+    {
+      "key": "BFmicronano201630_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "541",
+      "DOI": "10.1147/JRD.2008.5388561",
+      "volume": "52",
+      "author": "PG Emma",
+      "year": "2008",
+      "unstructured": "Emma PG, Kursun E . Is 3D chip technology the next growth engine for performance improvement? IBM Journal of Research and Development 2008; 52: 541–552.",
+      "journal-title": "IBM Journal of Research and Development"
+    },
+    {
+      "key": "BFmicronano201630_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "491",
+      "DOI": "10.1147/rd.504.0491",
+      "volume": "50",
+      "author": "AW Topol",
+      "year": "2006",
+      "unstructured": "Topol AW, Tulipe DCL, Shi L et al. Three-dimensional integrated circuits. IBM Journal of Research and Development 2006; 50: 491–506.",
+      "journal-title": "IBM Journal of Research and Development"
+    },
+    {
+      "key": "BFmicronano201630_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "1961",
+      "DOI": "10.1631/jzus.2006.A1961",
+      "volume": "7",
+      "author": "L Thylén",
+      "year": "2006",
+      "unstructured": "Thylén L, He S, Wosinski L et al. The Moore’s law for photonic integrated circuits. Journal of Zhejiang University SCIENCE A 2006; 7: 1961–1967.",
+      "journal-title": "Journal of Zhejiang University SCIENCE A"
+    },
+    {
+      "key": "BFmicronano201630_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1002/lpor.201100001",
+      "volume": "6",
+      "author": "M Smit",
+      "year": "2012",
+      "unstructured": "Smit M, van der Tol J, Hill M . Moore’s law in photonics. Laser & Photonics Reviews 2012; 6: 1–13.",
+      "journal-title": "Laser & Photonics Reviews"
+    },
+    {
+      "key": "BFmicronano201630_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "145",
+      "DOI": "10.1364/OE.22.000145",
+      "volume": "22",
+      "author": "B Guan",
+      "year": "2014",
+      "unstructured": "Guan B, Scott RP, Qin C et al. Free-space coherent optical communication with orbital angular, momentum multiplexing/demultiplexing using a hybrid 3D photonic integrated circuit. Optics Express 2014; 22: 145–156.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Scott RP, Guan B, Qin C et al. Free-space coherent optical communication demonstration using a 3D photonic integrated circuit device for orbital angular momentum multiplexing/demultiplexing. 39th European Conference and Exhibition on Optical Communication (ECOC 2013); 22–26 Sep 2013; London, UK; 2013: 1–3.",
+      "DOI": "10.1049/cp.2013.1363"
+    },
+    {
+      "key": "BFmicronano201630_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "1147",
+      "DOI": "10.1109/JLT.2014.2370673",
+      "volume": "33",
+      "author": "H Chen",
+      "year": "2014",
+      "unstructured": "Chen H, Fontaine N, Ryf R et al. Design constraints of photonic-lantern spatial multiplexer based on laser-inscribed 3D-waveguide technology. Journal of Lightwave Technology 2014; 33: 1147–1154.",
+      "journal-title": "Journal of Lightwave Technology"
+    },
+    {
+      "key": "BFmicronano201630_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "31582",
+      "DOI": "10.1364/OE.22.031582",
+      "volume": "22",
+      "author": "H Chen",
+      "year": "2014",
+      "unstructured": "Chen H, van Uden R, Okonkwo C et al. Compact spatial multiplexers for mode division multiplexing. Optics Express 2014; 22: 31582–31594.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Fontaine NK . Integrated photonics and components for space-division multiplexing systems. 13th International Conference on Optical Communications and Networks (ICOCN 2014); 9–10 Nov 2014; Suzhou, China; 2014: 1–3.",
+      "DOI": "10.1109/ICOCN.2014.6987104"
+    },
+    {
+      "key": "BFmicronano201630_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "182",
+      "DOI": "10.1364/PRJ.2.000182",
+      "volume": "2",
+      "author": "Z Lin",
+      "year": "2014",
+      "unstructured": "Lin Z, Gendry M, Letartre X . Optical mode study of III—V-nanowire-based nanophotonic crystals for an integrated infrared band microlaser. Photonics Research 2014; 2: 182–185.",
+      "journal-title": "Photonics Research"
+    },
+    {
+      "key": "BFmicronano201630_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "849",
+      "DOI": "10.1021/nl503409k",
+      "volume": "15",
+      "author": "Y Luo",
+      "year": "2015",
+      "unstructured": "Luo Y, Chamanzar M, Apuzzo A et al. On-chip hybrid photonic–plasmonic light concentrator for nanofocusing in an integrated silicon photonics platform. Nano Letters 2015; 15: 849–856.",
+      "journal-title": "Nano Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "19546",
+      "DOI": "10.1364/OE.22.019546",
+      "volume": "22",
+      "author": "J Song",
+      "year": "2014",
+      "unstructured": "Song J, Luo X, Tu X et al. Three-dimensional (3D) monolithically integrated photodetector and WDM receiver based on bulk silicon wafer. Optics Express 2014; 22: 19546–19554.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Temporiti E, Minoia G, Repossi M et al. A 3D-integrated 25 Gbps silicon photonics receiver in PIC25G and 65nm CMOS technologies. 40th European Solid State Circuits Conference (ESSCIRC 2014); 22–26 Sep 2014; Venice Lido, Italy; 2014: 131–134.",
+      "DOI": "10.1109/ESSCIRC.2014.6942039"
+    },
+    {
+      "key": "BFmicronano201630_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "1986",
+      "DOI": "10.1109/LPT.2014.2344116",
+      "volume": "26",
+      "author": "ZY Zhang",
+      "year": "2014",
+      "unstructured": "Zhang ZY, Kleinert M, Maese-Novo A et al. Multicore polymer waveguides and multistep 45° mirrors for 3D photonic integration. IEEE Photonics Technology Letters 2014; 26: 1986–1989.",
+      "journal-title": "IEEE Photonics Technology Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "215",
+      "DOI": "10.1146/annurev.matsci.28.1.215",
+      "volume": "28",
+      "author": "U Gösele",
+      "year": "1998",
+      "unstructured": "Gösele U, Tong Q-Y . Semiconductor wafer bonding. Annual Review of Materials Science 1998; 28: 215–241.",
+      "journal-title": "Annual Review of Materials Science"
+    },
+    {
+      "key": "BFmicronano201630_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "1961",
+      "DOI": "10.1063/1.105032",
+      "volume": "58",
+      "author": "YH Lo",
+      "year": "1991",
+      "unstructured": "Lo YH, Bhat R, Hwang DM et al. Bonding by atomic rearrangement of InP/InGaAsP 1.5 μm wavelength lasers on GaAs substrates. Applied Physics Letters 1991; 58: 1961–1963.",
+      "journal-title": "Applied Physics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "1053",
+      "DOI": "10.1109/JLT.2007.891172",
+      "volume": "25",
+      "author": "J Brouckaert",
+      "year": "2007",
+      "unstructured": "Brouckaert J, Roelkens G, Van Thourhout D et al. Thin-film III-V photodetectors integrated on silicon-on-insulator photonic ICs. Journal of Lightwave Technology 2007; 25: 1053–1060.",
+      "journal-title": "Journal of Lightwave Technology"
+    },
+    {
+      "key": "BFmicronano201630_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "1038",
+      "DOI": "10.1063/1.108787",
+      "volume": "62",
+      "author": "YH Lo",
+      "year": "1993",
+      "unstructured": "Lo YH, Bhat R, Hwang DM et al. Semiconductor lasers on Si substrates using the technology of bonding by atomic rearrangement. Applied Physics Letters 1993; 62: 1038–1040.",
+      "journal-title": "Applied Physics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "3095",
+      "DOI": "10.1063/1.107972",
+      "volume": "61",
+      "author": "JJ Dudley",
+      "year": "1992",
+      "unstructured": "Dudley JJ, Ishikawa M, Babic DI et al. 144°C operation of 1.3 μm InGaAsP vertical cavity lasers on GaAs substrates. Applied Physics Letters 1992; 61: 3095–3097.",
+      "journal-title": "Applied Physics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "578",
+      "DOI": "10.1049/el.2009.1279",
+      "volume": "45",
+      "author": "D Liang",
+      "year": "2009",
+      "unstructured": "Liang D, Bowers JE . Photonic integration: Si or InP substrates? Electronics Letters 2009; 45: 578–580.",
+      "journal-title": "Electronics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "604",
+      "DOI": "10.1126/science.289.5479.604",
+      "volume": "289",
+      "author": "S Noda",
+      "year": "2000",
+      "unstructured": "Noda S, Tomoda K, Yamamoto N et al. Full three-dimensional photonic bandgap crystals at near-infrared wavelengths. Science 2000; 289: 604–606.",
+      "journal-title": "Science"
+    },
+    {
+      "key": "BFmicronano201630_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "17758",
+      "DOI": "10.1364/OE.19.017758",
+      "volume": "19",
+      "author": "N Sherwood-Droz",
+      "year": "2011",
+      "unstructured": "Sherwood-Droz N, Lipson M . Scalable 3D dense integration of photonics on bulk silicon. Optics Express 2011; 19: 17758–17765.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shang K, Pathak S, Guan B et al. Si3N4 multilayer platform for photonic integrated circuits. CLEO: Science and Innovations 2015; 10–15 May 2015; San Jose, CA, USA; 2015.",
+      "DOI": "10.1364/CLEO_SI.2015.STu2F.6"
+    },
+    {
+      "key": "BFmicronano201630_CR30",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shang K, Pathak S, Liu G et al. Ultra-low loss vertical optical couplers for 3D photonic integrated circuits. Optical Fiber Communication Conference 2015; 22–26 Mar 2015; Los Angeles, CA, USA; 2015.",
+      "DOI": "10.1364/OFC.2015.Th1F.6"
+    },
+    {
+      "key": "BFmicronano201630_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "935",
+      "DOI": "10.1109/JSTQE.2002.801743",
+      "volume": "8",
+      "author": "M Raburn",
+      "year": "2002",
+      "unstructured": "Raburn M, Liu B, Rauscher K et al. 3-D photonic circuit technology. IEEE Journal of Selected Topics in Quantum Electronics 2002; 8: 935–942.",
+      "journal-title": "IEEE Journal of Selected Topics in Quantum Electronics"
+    },
+    {
+      "key": "BFmicronano201630_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "817",
+      "DOI": "10.1109/JLT.2013.2286320",
+      "volume": "32",
+      "author": "M Piels",
+      "year": "2014",
+      "unstructured": "Piels M, Bauters JF, Davenport ML et al. Low-loss silicon nitride AWG demultiplexer heterogeneously integrated with hybrid III-V/silicon photodetectors. Journal of Lightwave Technology 2014; 32: 817–823.",
+      "journal-title": "Journal of Lightwave Technology"
+    },
+    {
+      "key": "BFmicronano201630_CR33",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Parekh MS, Thadesar PA, Bakir MS . Electrical, optical and fluidic through-silicon vias for silicon interposer applications. IEEE 61st Electronic Components and Technology Conference (ECTC 2011); 31 May–3 Jun 2011; Lake Buena Vista, FL, USA; 2011: 1992–1998.",
+      "DOI": "10.1109/ECTC.2011.5898790"
+    },
+    {
+      "key": "BFmicronano201630_CR34",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Eaton S, Cerullo G, Osellame R . Fundamentals of femtosecond laser modification of bulk dielectrics. Femtosecond Laser Micromachining 123, Osellame Roberto et al. Eds. Springer: Berlin/Heidelberg. 2012: 3–18.",
+      "DOI": "10.1007/978-3-642-23366-1_1"
+    },
+    {
+      "key": "BFmicronano201630_CR35",
+      "doi-asserted-by": "publisher",
+      "first-page": "827",
+      "DOI": "10.1002/lpor.201300195",
+      "volume": "8",
+      "author": "D Choudhury",
+      "year": "2014",
+      "unstructured": "Choudhury D, Macdonald JR, Kar AK . Ultrafast laser inscription: Perspectives on future integrated applications. Laser & Photonics Reviews 2014; 8: 827–846.",
+      "journal-title": "Laser & Photonics Reviews"
+    },
+    {
+      "key": "BFmicronano201630_CR36",
+      "doi-asserted-by": "publisher",
+      "first-page": "11691",
+      "DOI": "10.1364/OE.15.011691",
+      "volume": "15",
+      "author": "RR Thomson",
+      "year": "2007",
+      "unstructured": "Thomson RR, Bookey HT, Psaila ND et al. Ultrafast-laser inscription of a three dimensional fan-out device for multicore fiber coupling applications. Optics Express 2007; 15: 11691–11697.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "723",
+      "DOI": "10.1364/OL.30.000723",
+      "volume": "30",
+      "author": "Y Nasu",
+      "year": "2005",
+      "unstructured": "Nasu Y, Kohtoku M, Hibino Y . Low-loss waveguides written with a femtosecond laser for flexible interconnection in a planar light-wave circuit. Optics Letters 2005; 30: 723–725.",
+      "journal-title": "Optics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR38",
+      "doi-asserted-by": "publisher",
+      "first-page": "4033",
+      "DOI": "10.1109/JLT.2009.2021775",
+      "volume": "27",
+      "author": "Y Nasu",
+      "year": "2009",
+      "unstructured": "Nasu Y, Kohtoku M, Hibino Y et al. Waveguide interconnection in silica-based planar lightwave circuit using femtosecond laser. Journal of Lightwave Technology 2009; 27: 4033–4039.",
+      "journal-title": "Journal of Lightwave Technology"
+    },
+    {
+      "key": "BFmicronano201630_CR39",
+      "doi-asserted-by": "publisher",
+      "first-page": "392",
+      "DOI": "10.1364/OL.37.000392",
+      "volume": "37",
+      "author": "A Ródenas",
+      "year": "2012",
+      "unstructured": "Ródenas A, Martin G, Arezki B et al. Three-dimensional mid-infrared photonic circuits in chalcogenide glass. Optics Letters 2012; 37: 392–394.",
+      "journal-title": "Optics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR40",
+      "doi-asserted-by": "publisher",
+      "first-page": "5698",
+      "DOI": "10.1364/OE.19.005698",
+      "volume": "19",
+      "author": "RR Thomson",
+      "year": "2011",
+      "unstructured": "Thomson RR, Birks TA, Leon-Saval SG et al. Ultrafast laser inscription of an integrated photonic lantern. Optics Express 2011; 19: 5698–5705.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR41",
+      "doi-asserted-by": "publisher",
+      "first-page": "93",
+      "DOI": "10.1007/978-3-642-23366-1_5",
+      "volume-title": "Femtosecond Laser Micromachining",
+      "author": "R Thomson",
+      "year": "2012",
+      "unstructured": "Thomson R, Psaila N, Bookey H et al. Controlling the cross-section of ultrafast laser inscribed optical waveguides. In: Osellame R, Cerullo G, Ramponi R, editors. Femtosecond Laser Micromachining, vol. 123. Springer: Berlin/Heidelberg; 2012: 93–125."
+    },
+    {
+      "key": "BFmicronano201630_CR42",
+      "doi-asserted-by": "publisher",
+      "first-page": "9396",
+      "DOI": "10.1364/OE.20.009396",
+      "volume": "20",
+      "author": "TH Su",
+      "year": "2012",
+      "unstructured": "Su TH, Scott RP, Djordjevic SS et al. Demonstration of free space coherent optical communication using integrated silicon photonic orbital angular momentum devices. Optics Express 2012; 20: 9396–9402.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR43",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Guan B, Scott RP, Fontaine NK et al. Integrated optical orbital angular momentum multiplexing device using 3D waveguides and a Silica PLC. CLEO: Science and Innovations 2013; 9–14 Jun 2013; San Jose, CA, USA; 2013.",
+      "DOI": "10.1364/CLEO_SI.2013.CTu1L.4"
+    },
+    {
+      "key": "BFmicronano201630_CR44",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Qin C, Guan B, Scott RP et al. Experimental demonstration of 3D elastic optical networking in space, time and frequency. CLEO: Science and Innovations 2015; 10–15 May 2015; San Jose, USA; 2015: SF1K.2.",
+      "DOI": "10.1364/CLEO_SI.2015.SF1K.2"
+    },
+    {
+      "key": "BFmicronano201630_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "4036",
+      "DOI": "10.1364/OL.35.004036",
+      "volume": "35",
+      "author": "JR Macdonald",
+      "year": "2010",
+      "unstructured": "Macdonald JR, Thomson RR, Beecher SJ et al. Ultrafast laser inscription of near-infrared waveguides in polycrystalline ZnSe. Optics Letters 2010; 35: 4036–4038.",
+      "journal-title": "Optics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR46",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Macdonald JR, Berry PA, Schelper KL et al. Directly written mid-infrared waveguides in zinc selenide. Advances in Optical Materials 2012; 1–3 Feb 2012; San Diego, CA, USA; 2012.",
+      "DOI": "10.1364/AIOM.2012.IF1A.3"
+    },
+    {
+      "key": "BFmicronano201630_CR47",
+      "unstructured": "Kar AK . Ultrashort pulse inscription of photonic structures in ZnSe and GaAs for mid infrared applications. Air Force Research Laboratory Report AFRL-AFOSR-UK-TR-2010-0017; 2010."
+    },
+    {
+      "key": "BFmicronano201630_CR48",
+      "doi-asserted-by": "publisher",
+      "first-page": "2194",
+      "DOI": "10.1364/OL.38.002194",
+      "volume": "38",
+      "author": "JR Macdonald",
+      "year": "2013",
+      "unstructured": "Macdonald JR, Beecher SJ, Berry PA et al. Efficient mid-infrared Cr: ZnSe channel waveguide laser operating at 2486 nm. Optics Letters 38 2013, 2194–2196.",
+      "journal-title": "Optics Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR49",
+      "doi-asserted-by": "publisher",
+      "first-page": "17667",
+      "DOI": "10.1364/OE.20.017667",
+      "volume": "20",
+      "author": "N Lindenmann",
+      "year": "2012",
+      "unstructured": "Lindenmann N, Balthasar G, Hillerkuss D . Photonic wire bonding: A novel concept for chip-scale interconnects. Optics Express 2012; 20: 17667–17677.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR50",
+      "doi-asserted-by": "publisher",
+      "first-page": "1056",
+      "DOI": "10.1109/LPT.2015.2406771",
+      "volume": "27",
+      "author": "B Guan",
+      "year": "2015",
+      "unstructured": "Guan B, Qin C, Scott RP et al. Polarization diversified integrated circuits for orbital angular momentum multiplexing. IEEE Photonics Technology Letters 2015; 27: 1056–1059.",
+      "journal-title": "IEEE Photonics Technology Letters"
+    },
+    {
+      "key": "BFmicronano201630_CR51",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Guan B, Qin C, Scott RP et al. Hybrid 3D photonic integrated circuit for optical phased array beam steering. CLEO: Science and Innovations 2015; 10–15 May 2015; San Jose, CA, USA; 2015.",
+      "DOI": "10.1364/CLEO_SI.2015.STu2F.1"
+    },
+    {
+      "key": "BFmicronano201630_CR52",
+      "doi-asserted-by": "publisher",
+      "first-page": "21334",
+      "DOI": "10.1364/OE.23.021334",
+      "volume": "23",
+      "author": "K Shang",
+      "year": "2015",
+      "unstructured": "Shang K, Pathak S, Guan B et al. Low-loss compact multilayer silicon nitride platform for 3D photonic integrated circuits. Optics Express 2015; 23: 21334–21342.",
+      "journal-title": "Optics Express"
+    },
+    {
+      "key": "BFmicronano201630_CR53",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shang K, Pathak S, Guan B et al. Tri-layer, vertical y-junction, Si2N4/SiO2 3D photonic integrated circuits with arbitrary splitting ratio. Optical Fiber Communication Conference 2016; 20–22 Mar 2016; Anaheim, CA, USA; 2016.",
+      "DOI": "10.1364/OFC.2016.Tu3E.3"
+    }
+  ],
+  "container-title": [
+    "Microsystems &amp; Nanoengineering"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/micronano201630.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/micronano201630",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/micronano201630.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        1,
+        4
+      ]
+    ],
+    "date-time": "2023-01-04T08:36:58Z",
+    "timestamp": 1672821418000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/micronano201630"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        8,
+        1
+      ]
+    ]
+  },
+  "references-count": 53,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          19
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "BFmicronano201630"
+  ],
+  "URL": "https://doi.org/10.1038/micronano.2016.30",
+  "relation": {},
+  "ISSN": [
+    "2055-7434"
+  ],
+  "issn-type": [
+    {
+      "value": "2055-7434",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2016,
+        8,
+        1
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "31 December 2015",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "1 April 2016",
+      "order": 2,
+      "name": "revised",
+      "label": "Revised",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "1 April 2016",
+      "order": 3,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "1 August 2016",
+      "order": 4,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no conflict of interest.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ],
+  "article-number": "16030"
+}

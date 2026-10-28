@@ -1,0 +1,445 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        29
+      ]
+    ],
+    "date-time": "2026-09-29T06:11:47Z",
+    "timestamp": 1790662307330,
+    "version": "4.1.0"
+  },
+  "reference-count": 20,
+  "publisher": "Optica Publishing Group",
+  "issue": "11",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2016-05-27T00:00:00Z",
+        "timestamp": 1464307200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.1364/OA_License_v1#VOR-OA"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            5,
+            27
+          ]
+        ],
+        "date-time": "2016-05-27T00:00:00Z",
+        "timestamp": 1464307200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+    }
+  ],
+  "funder": [
+    {
+      "name": "NSF National Nanotechnology Infrastructure"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Opt. Express"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        30
+      ]
+    ]
+  },
+  "DOI": "10.1364/oe.24.012375",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        27
+      ]
+    ],
+    "date-time": "2016-05-27T16:29:37Z",
+    "timestamp": 1464366577000
+  },
+  "page": "12375",
+  "source": "Crossref",
+  "is-referenced-by-count": 15,
+  "title": [
+    "Glass interposer for short reach optical connectivity"
+  ],
+  "prefix": "10.1364",
+  "volume": "24",
+  "author": [
+    {
+      "given": "Mehrdad",
+      "family": "Mirshafiei",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jean-Philippe",
+      "family": "Bérubé",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Stephane",
+      "family": "Lessard",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Réal",
+      "family": "Vallée",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "David V.",
+      "family": "Plant",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "285",
+  "published-online": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        27
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "oe-24-11-12375-R1",
+      "first-page": "155",
+      "volume": "11",
+      "author": "Miller",
+      "year": "1997",
+      "journal-title": "J. of Optoelectron."
+    },
+    {
+      "key": "oe-24-11-12375-R2",
+      "doi-asserted-by": "crossref",
+      "first-page": "235",
+      "DOI": "10.1109/JSSC.2009.2034444",
+      "volume": "45",
+      "author": "Young",
+      "year": "2010",
+      "journal-title": "IEEE J. Solid-State Circuits"
+    },
+    {
+      "key": "oe-24-11-12375-R3",
+      "doi-asserted-by": "crossref",
+      "first-page": "546",
+      "DOI": "10.1109/JSTQE.2010.2091674",
+      "volume": "17",
+      "author": "Cunningham",
+      "year": "2011",
+      "journal-title": "IEEE J. Quantum Electron."
+    },
+    {
+      "key": "oe-24-11-12375-R4",
+      "doi-asserted-by": "crossref",
+      "first-page": "409",
+      "DOI": "10.1109/JQE.2009.2013104",
+      "volume": "45",
+      "author": "Krishnamoorthy",
+      "year": "2009",
+      "journal-title": "IEEE J. Quantum Electron."
+    },
+    {
+      "key": "oe-24-11-12375-R5",
+      "doi-asserted-by": "crossref",
+      "first-page": "17667",
+      "DOI": "10.1364/OE.20.017667",
+      "volume": "20",
+      "author": "Lindenmann",
+      "year": "2012",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "oe-24-11-12375-R6",
+      "doi-asserted-by": "crossref",
+      "first-page": "13133",
+      "DOI": "10.1364/OE.16.013133",
+      "volume": "16",
+      "author": "Kim",
+      "year": "2008",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "oe-24-11-12375-R7",
+      "doi-asserted-by": "crossref",
+      "first-page": "14135",
+      "DOI": "10.1364/OE.23.014135",
+      "volume": "23",
+      "author": "Banan",
+      "year": "2015",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "oe-24-11-12375-R8",
+      "doi-asserted-by": "crossref",
+      "first-page": "219",
+      "DOI": "10.1038/nphoton.2008.47",
+      "volume": "2",
+      "author": "Gattass",
+      "year": "2008",
+      "journal-title": "Nature Photonics"
+    },
+    {
+      "key": "oe-24-11-12375-R9",
+      "doi-asserted-by": "crossref",
+      "first-page": "2248",
+      "DOI": "10.1103/PhysRevLett.74.2248",
+      "volume": "74",
+      "author": "Stuart",
+      "year": "1995",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "oe-24-11-12375-R10",
+      "doi-asserted-by": "crossref",
+      "first-page": "91",
+      "DOI": "10.1039/B808360F",
+      "volume": "9",
+      "author": "Vazquez",
+      "year": "2009",
+      "journal-title": "Lab on a Chip"
+    },
+    {
+      "key": "oe-24-11-12375-R11",
+      "doi-asserted-by": "crossref",
+      "first-page": "2978",
+      "DOI": "10.1364/OE.21.002978",
+      "volume": "21",
+      "author": "Arriola",
+      "year": "2013",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "oe-24-11-12375-R12",
+      "doi-asserted-by": "crossref",
+      "first-page": "545",
+      "DOI": "10.1038/nphoton.2013.112",
+      "volume": "7",
+      "author": "Crespi",
+      "year": "2013",
+      "journal-title": "Nature Photonics"
+    },
+    {
+      "key": "oe-24-11-12375-R13",
+      "doi-asserted-by": "crossref",
+      "first-page": "15473",
+      "DOI": "10.1364/OE.22.015473",
+      "volume": "22",
+      "author": "Lapointe",
+      "year": "2014",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "oe-24-11-12375-R14",
+      "doi-asserted-by": "crossref",
+      "first-page": "20652",
+      "DOI": "10.1364/OE.22.020652",
+      "volume": "22",
+      "author": "Wang",
+      "year": "2014",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "oe-24-11-12375-R15",
+      "doi-asserted-by": "crossref",
+      "first-page": "1559",
+      "DOI": "10.1364/JOSAB.20.001559",
+      "volume": "20",
+      "author": "Osellame",
+      "year": "2003",
+      "journal-title": "J. Opt. Soc. Am. B"
+    },
+    {
+      "key": "oe-24-11-12375-R16",
+      "doi-asserted-by": "crossref",
+      "first-page": "817",
+      "DOI": "10.1364/OL.23.000817",
+      "volume": "23",
+      "author": "Barty",
+      "year": "1998",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "oe-24-11-12375-R17",
+      "doi-asserted-by": "crossref",
+      "first-page": "1622",
+      "DOI": "10.1364/OPEX.12.001622",
+      "volume": "12",
+      "author": "Vlasov",
+      "year": "2004",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "oe-24-11-12375-R18",
+      "doi-asserted-by": "crossref",
+      "first-page": "113",
+      "DOI": "10.1007/s00339-013-8090-8",
+      "volume": "114",
+      "author": "Meany",
+      "year": "2014",
+      "journal-title": "Appl. Phys. A"
+    },
+    {
+      "key": "oe-24-11-12375-R19",
+      "doi-asserted-by": "crossref",
+      "first-page": "257",
+      "DOI": "10.1007/s00339-006-3610-4",
+      "volume": "84",
+      "author": "Liu",
+      "year": "2006",
+      "journal-title": "Appl. Phys. A"
+    },
+    {
+      "key": "oe-24-11-12375-R20",
+      "doi-asserted-by": "crossref",
+      "first-page": "498",
+      "DOI": "10.1109/JSTQE.2010.2071855",
+      "volume": "17",
+      "author": "Kopp",
+      "year": "2011",
+      "journal-title": "IEEE J. Sel. Top. Quantum Electron."
+    }
+  ],
+  "container-title": [
+    "Optics Express"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.osapublishing.org/viewmedia.cfm?URI=oe-24-11-12375&seq=0",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        2
+      ]
+    ],
+    "date-time": "2024-08-02T20:03:34Z",
+    "timestamp": 1722629014000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://opg.optica.org/abstract.cfm?URI=oe-24-11-12375"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        27
+      ]
+    ]
+  },
+  "references-count": 20,
+  "journal-issue": {
+    "issue": "11",
+    "published-online": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1364/oe.24.012375",
+  "relation": {},
+  "ISSN": [
+    "1094-4087"
+  ],
+  "issn-type": [
+    {
+      "value": "1094-4087",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2016,
+        5,
+        27
+      ]
+    ]
+  }
+}

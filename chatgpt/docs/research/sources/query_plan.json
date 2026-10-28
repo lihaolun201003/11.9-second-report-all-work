@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-28",
+  "language": "zh",
+  "purpose": "topic-focused deep research, not systematic review",
+  "concept_groups": [
+    "OCS/Shuffle/CPO",
+    "3D glass/FLDW/IOX",
+    "automatic routing/EDA",
+    "HBM/GPU/CPU/CXL and counterevidence"
+  ],
+  "queries": [
+    "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+    "Fully-assembled low-loss fan-in/fan-out device laser direct writing 114521",
+    "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing 202300620",
+    "three dimensional glass waveguide shuffle automatic routing 1024",
+    "Jupiter Evolving optical circuit switches Google Apollo",
+    "Photonic Chip with Embedded Data Center Fabric",
+    "fiber shuffle CPO 1024 fibers automated FlexPlane",
+    "three-dimensional waveguide routing curvature manufacturability",
+    "HBM optical interconnect optical compute interconnect chiplet",
+    "memory disaggregation photonics Pond A Case Against CXL Memory Pooling",
+    "gdsfactory routing IPKISS Lumerical bent waveguides femto",
+    "Synopsys Ansys acquisition completed Keysight Optical Solutions Group"
+  ],
+  "cutoff": "2026-10-28",
+  "classic_years_included": true
+}

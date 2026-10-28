@@ -1,0 +1,311 @@
+{
+ "10.1038/nphoton.2008.47": {
+  "title": "Femtosecond laser micromachining in transparent materials",
+  "authors": [
+   "Rafael R. Gattass",
+   "Eric Mazur"
+  ],
+  "venue": "Nature Photonics",
+  "year": 2008,
+  "volume": "2",
+  "issue": "4",
+  "page": "219-225",
+  "type": "journal-article"
+ },
+ "10.1364/OL.21.001729": {
+  "title": "Writing waveguides in glass with a femtosecond laser",
+  "authors": [
+   "K. M. Davis",
+   "K. Miura",
+   "N. Sugimoto",
+   "K. Hirao"
+  ],
+  "venue": "Optics Letters",
+  "year": 1996,
+  "volume": "21",
+  "issue": "21",
+  "page": "1729",
+  "type": "journal-article"
+ },
+ "10.1002/admt.202300620": {
+  "title": "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices",
+  "authors": [
+   "Jiawei Li",
+   "Chun Cao",
+   "Yiwei Qiu",
+   "Cuifang Kuang",
+   "Xu Liu"
+  ],
+  "venue": "Advanced Materials Technologies",
+  "year": 2023,
+  "volume": "8",
+  "issue": "18",
+  "page": null,
+  "type": "journal-article"
+ },
+ "10.1109/JQE.1973.1077767": {
+  "title": "Coupled-mode theory for guided-wave optics",
+  "authors": [
+   "A. Yariv"
+  ],
+  "venue": "IEEE Journal of Quantum Electronics",
+  "year": 1973,
+  "volume": "9",
+  "issue": "9",
+  "page": "919-933",
+  "type": "journal-article"
+ },
+ "10.1109/5.104225": {
+  "title": "Coupled-mode theory",
+  "authors": [
+   "H.A. Haus",
+   "W. Huang"
+  ],
+  "venue": "Proceedings of the IEEE",
+  "year": 1991,
+  "volume": "79",
+  "issue": "10",
+  "page": "1505-1518",
+  "type": "journal-article"
+ },
+ "10.1364/JOSA.66.000216": {
+  "title": "Curvature loss formula for optical fibers",
+  "authors": [
+   "Dietrich Marcuse"
+  ],
+  "venue": "Journal of the Optical Society of America",
+  "year": 1976,
+  "volume": "66",
+  "issue": "3",
+  "page": "216",
+  "type": "journal-article"
+ },
+ "10.1002/j.1538-7305.1969.tb01177.x": {
+  "title": "Calculated Quantizing Noise of Single-Integration Delta-Modulation Coders",
+  "authors": [
+   "J. E. Iwersen"
+  ],
+  "venue": "Bell System Technical Journal",
+  "year": 1969,
+  "volume": "48",
+  "issue": "7",
+  "page": "2359-2389",
+  "type": "journal-article"
+ },
+ "10.1109/JQE.1975.1068563": {
+  "title": "Analysis of curved optical waveguides by conformal transformation",
+  "authors": [
+   "M. Heiblum",
+   "J. Harris"
+  ],
+  "venue": "IEEE Journal of Quantum Electronics",
+  "year": 1975,
+  "volume": "11",
+  "issue": "2",
+  "page": "75-83",
+  "type": "journal-article"
+ },
+ "10.1109/TSSC.1968.300136": {
+  "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+  "authors": [
+   "Peter Hart",
+   "Nils Nilsson",
+   "Bertram Raphael"
+  ],
+  "venue": "IEEE Transactions on Systems Science and Cybernetics",
+  "year": 1968,
+  "volume": "4",
+  "issue": "2",
+  "page": "100-107",
+  "type": "journal-article"
+ },
+ "10.1177/0278364911406761": {
+  "title": "Sampling-based algorithms for optimal motion planning",
+  "authors": [
+   "Sertac Karaman",
+   "Emilio Frazzoli"
+  ],
+  "venue": "The International Journal of Robotics Research",
+  "year": 2011,
+  "volume": "30",
+  "issue": "7",
+  "page": "846-894",
+  "type": "journal-article"
+ },
+ "10.1109/TEC.1961.5219222": {
+  "title": "An Algorithm for Path Connections and Its Applications",
+  "authors": [
+   "C. Y. Lee"
+  ],
+  "venue": "IEEE Transactions on Electronic Computers",
+  "year": 1961,
+  "volume": "EC-10",
+  "issue": "3",
+  "page": "346-365",
+  "type": "journal-article"
+ },
+ "10.1145/201310.201328": {
+  "title": "PathFinder",
+  "authors": [
+   "Larry McMurchie",
+   "Carl Ebeling"
+  ],
+  "venue": "Proceedings of the 1995 ACM third international symposium on Field-programmable gate arrays",
+  "year": 1995,
+  "volume": null,
+  "issue": null,
+  "page": "111-117",
+  "type": "proceedings-article"
+ },
+ "10.1137/0114025": {
+  "title": "On Steiner’s Problem with Rectilinear Distance",
+  "authors": [
+   "M. Hanan"
+  ],
+  "venue": "SIAM Journal on Applied Mathematics",
+  "year": 1966,
+  "volume": "14",
+  "issue": "2",
+  "page": "255-265",
+  "type": "journal-article"
+ },
+ "10.1109/PROC.1964.3442": {
+  "title": "Cost-size optima of monolithic integrated circuits",
+  "authors": [
+   "B.T. Murphy"
+  ],
+  "venue": "Proceedings of the IEEE",
+  "year": 1964,
+  "volume": "52",
+  "issue": "12",
+  "page": "1537-1545",
+  "type": "journal-article"
+ },
+ "10.1364/OL.32.002801": {
+  "title": "Low-loss, low-cross-talk crossings for silicon-on-insulator nanophotonic waveguides",
+  "authors": [
+   "Wim Bogaerts",
+   "Pieter Dumon",
+   "Dries Van Thourhout",
+   "Roel Baets"
+  ],
+  "venue": "Optics Letters",
+  "year": 2007,
+  "volume": "32",
+  "issue": "19",
+  "page": "2801",
+  "type": "journal-article"
+ },
+ "10.1364/OE.16.009443": {
+  "title": "Transition from thermal diffusion to heat accumulation in high repetition rate femtosecond laser writing of buried optical waveguides",
+  "authors": [
+   "Shane M. Eaton",
+   "Haibin Zhang",
+   "Mi Li Ng",
+   "Jianzhao Li",
+   "Wei-Jen Chen",
+   "Stephen Ho",
+   "Peter R. Herman"
+  ],
+  "venue": "Optics Express",
+  "year": 2008,
+  "volume": "16",
+  "issue": "13",
+  "page": "9443",
+  "type": "journal-article"
+ },
+ "10.1364/AOP.6.000293": {
+  "title": "Ultrafast laser direct writing and nanostructuring in transparent materials",
+  "authors": [
+   "Martynas Beresna",
+   "Mindaugas Gecevičius",
+   "Peter G. Kazansky"
+  ],
+  "venue": "Advances in Optics and Photonics",
+  "year": 2014,
+  "volume": "6",
+  "issue": "3",
+  "page": "293",
+  "type": "journal-article"
+ },
+ "10.1038/lsa.2014.30": {
+  "title": "Ultrafast lasers—reliable tools for advanced materials processing",
+  "authors": [
+   "Koji Sugioka",
+   "Ya Cheng"
+  ],
+  "venue": "Light: Science &amp; Applications",
+  "year": 2014,
+  "volume": "3",
+  "issue": "4",
+  "page": "e149-e149",
+  "type": "journal-article"
+ },
+ "10.1364/JOSA.62.001267": {
+  "title": "Coupled-Mode Theory for Optical Fibers",
+  "authors": [
+   "Allan W. Snyder"
+  ],
+  "venue": "Journal of the Optical Society of America",
+  "year": 1972,
+  "volume": "62",
+  "issue": "11",
+  "page": "1267",
+  "type": "journal-article"
+ },
+ "10.1364/JOSAA.11.000963": {
+  "title": "Coupled-mode theory for optical waveguides: an overview",
+  "authors": [
+   "Wei-Ping Huang"
+  ],
+  "venue": "Journal of the Optical Society of America A",
+  "year": 1994,
+  "volume": "11",
+  "issue": "3",
+  "page": "963",
+  "type": "journal-article"
+ },
+ "10.1109/JLT.2007.902113": {
+  "title": "Optical Backplane Connectors Using Three-Dimensional Waveguide Arrays",
+  "authors": [
+   "Seiki Hiramatsu",
+   "Kiyotaka Miura",
+   "Kazuyuki Hirao"
+  ],
+  "venue": "Journal of Lightwave Technology",
+  "year": 2007,
+  "volume": "25",
+  "issue": "9",
+  "page": "2776-2782",
+  "type": "journal-article"
+ },
+ "10.1109/OIC.2015.7115671": {
+  "title": "Ultra low crossing loss meshed waveguide based on polynorbornene for backplane architecture",
+  "authors": [
+   "Katsuma Kitazoe",
+   "Akihiro Horimoto",
+   "Kimio Moriya",
+   "Ryota Kinoshita",
+   "Koji Choki",
+   "Takaaki Ishigure"
+  ],
+  "venue": "2015 IEEE Optical Interconnects Conference (OI)",
+  "year": 2015,
+  "volume": null,
+  "issue": null,
+  "page": "28-29",
+  "type": "proceedings-article"
+ },
+ "10.1109/JLT.2008.2006280": {
+  "title": "Large Scale, All-Fiber Optical Cross-Connect Switches for Automated Patch-Panels",
+  "authors": [
+   "A.S. Kewitsch"
+  ],
+  "venue": "Journal of Lightwave Technology",
+  "year": 2009,
+  "volume": "27",
+  "issue": "15",
+  "page": "3107-3115",
+  "type": "journal-article"
+ }
+}

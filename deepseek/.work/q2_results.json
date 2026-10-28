@@ -1,0 +1,1949 @@
+{
+ "10.1364/bgpp.2010.bwb4": {
+  "doi": "10.1364/bgpp.2010.bwb4",
+  "title": "Femtosecond Laser Micromachining in Transparent Materials",
+  "year": 2010,
+  "venue": "Advanced Photonics &amp; Renewable Energy",
+  "authors": [
+   "Eric Mazur"
+  ],
+  "type": "proceedings-article",
+  "cited": 3
+ },
+ "10.1038/nphoton.2008.47": {
+  "doi": "10.1038/nphoton.2008.47",
+  "title": "Femtosecond laser micromachining in transparent materials",
+  "year": 2008,
+  "venue": "Nature Photonics",
+  "authors": [
+   "Rafael R. Gattass",
+   "Eric Mazur"
+  ],
+  "type": "journal-article",
+  "cited": 3075
+ },
+ "10.1007/978-3-642-23366-1_13": {
+  "doi": "10.1007/978-3-642-23366-1_13",
+  "title": "Discrete Optics in Femtosecond Laser Written Waveguide Arrays",
+  "year": 2011,
+  "venue": "Topics in Applied Physics",
+  "authors": [
+   "Alexander Szameit",
+   "Felix Dreisow",
+   "Stefan Nolte"
+  ],
+  "type": "book-chapter",
+  "cited": 6
+ },
+ "10.2184/lsj.27.773": {
+  "doi": "10.2184/lsj.27.773",
+  "title": "Micromachining Transparent Materials by Femtosecond Laser.",
+  "year": 1999,
+  "venue": "The Review of Laser Engineering",
+  "authors": [
+   "Kazuya KUMAGAI",
+   "Masayuki OKOSHI",
+   "Mitsugu HANABUSA"
+  ],
+  "type": "journal-article",
+  "cited": 3
+ },
+ "10.1007/978-3-642-23366-1_2": {
+  "doi": "10.1007/978-3-642-23366-1_2",
+  "title": "Imaging of Plasma Dynamics for Controlled Micromachining",
+  "year": 2011,
+  "venue": "Topics in Applied Physics",
+  "authors": [
+   "Jan Siegel",
+   "Javier Solis"
+  ],
+  "type": "book-chapter",
+  "cited": 5
+ },
+ "10.1007/978-3-642-23366-1_1": {
+  "doi": "10.1007/978-3-642-23366-1_1",
+  "title": "Fundamentals of Femtosecond Laser Modification of Bulk Dielectrics",
+  "year": 2011,
+  "venue": "Topics in Applied Physics",
+  "authors": [
+   "Shane M. Eaton",
+   "Giulio Cerullo",
+   "Roberto Osellame"
+  ],
+  "type": "book-chapter",
+  "cited": 33
+ },
+ "10.1016/j.optmat.2022.112819": {
+  "doi": "10.1016/j.optmat.2022.112819",
+  "title": "Femtosecond laser micromachining optical waveguides on transparent silica xerogels",
+  "year": 2022,
+  "venue": "Optical Materials",
+  "authors": [
+   "S.N.C. Santos",
+   "K.T. Paula",
+   "F.A. Couto",
+   "M.H.M. Facure",
+   "D.S. Correa",
+   "C.R. Mendonca"
+  ],
+  "type": "journal-article",
+  "cited": 11
+ },
+ "10.1007/978-3-642-23366-1": {
+  "doi": "10.1007/978-3-642-23366-1",
+  "title": "Femtosecond Laser Micromachining",
+  "year": 2012,
+  "venue": "Topics in Applied Physics",
+  "authors": [],
+  "type": "book",
+  "cited": 263
+ },
+ "10.1007/978-3-319-00017-6_13": {
+  "doi": "10.1007/978-3-319-00017-6_13",
+  "title": "Ultrafast Laser Inscription of Photonic Devices in Bulk Dielectrics",
+  "year": 2013,
+  "venue": "Ultrafast Nonlinear Optics",
+  "authors": [
+   "Robert R. Thomson",
+   "Giulio Cerullo"
+  ],
+  "type": "book-chapter",
+  "cited": 4
+ },
+ "10.1364/assp.2012.am4a.14": {
+  "doi": "10.1364/assp.2012.am4a.14",
+  "title": "Yb-doped Bismuthate Glass waveguide laser fabricated by Ultrafast Laser Inscription",
+  "year": 2012,
+  "venue": "Lasers, Sources, and Related Photonic Devices",
+  "authors": [
+   "R. Mary",
+   "S. Beecher",
+   "G. Brown",
+   "R.R. Thomson",
+   "A. K. Kar"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/2.1200702.0576": {
+  "doi": "10.1117/2.1200702.0576",
+  "title": "Photonic device fabrication using ultrafast laser waveguide inscription",
+  "year": 2007,
+  "venue": "SPIE Newsroom",
+  "authors": [
+   "Robert Thomson"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1364/assp.2010.awb7": {
+  "doi": "10.1364/assp.2010.awb7",
+  "title": "Ultrafast Laser Inscription of a High Gain Er-doped Bismuthate Glass Waveguide Amplifier",
+  "year": 2010,
+  "venue": "Lasers, Sources and Related Photonic Devices",
+  "authors": [
+   "R. R. Thomson",
+   "S. Beecher",
+   "N. D. Psaila",
+   "A. K. Kar"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/ofc.2015.w2a.16": {
+  "doi": "10.1364/ofc.2015.w2a.16",
+  "title": "Mode-Group-Selective Photonic Lantern based on Integrated 3D Devices Fabricated by Ultrafast Laser Inscription",
+  "year": 2015,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Binbin Guan",
+   "Burcu Ercan",
+   "Nicolas K. Fontaine",
+   "Ryan P. Scott",
+   "S. J. B. Yoo"
+  ],
+  "type": "proceedings-article",
+  "cited": 11
+ },
+ "10.1364/assp.2010.awe1": {
+  "doi": "10.1364/assp.2010.awe1",
+  "title": "Ultrafast, High Power Laser Technologies: Challenges and Perspectives",
+  "year": 2010,
+  "venue": "Lasers, Sources and Related Photonic Devices",
+  "authors": [
+   "K. Yamakawa"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.14201/gredos.135755": {
+  "doi": "10.14201/gredos.135755",
+  "title": "Ultrafast Laser Microprocessing of Transparent Dielectrics. New Schemes for the Fabrication of Photonic Devices",
+  "year": null,
+  "venue": "",
+  "authors": [
+   "Gabriel Roberto Castillo Vega"
+  ],
+  "type": "dissertation",
+  "cited": 0
+ },
+ "10.1364/assp.2012.jw2a.2": {
+  "doi": "10.1364/assp.2012.jw2a.2",
+  "title": "Development and Application of Ultrafast Laser Spectroscopy for Combustion Sensing",
+  "year": 2012,
+  "venue": "Lasers, Sources, and Related Photonic Devices",
+  "authors": [
+   "James R. Gord"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1038/s41598-021-03116-y": {
+  "doi": "10.1038/s41598-021-03116-y",
+  "title": "Low bend loss femtosecond laser written waveguides exploiting integrated microcrack",
+  "year": 2021,
+  "venue": "Scientific Reports",
+  "authors": [
+   "Timothy Lee",
+   "Qi Sun",
+   "Martynas Beresna",
+   "Gilberto Brambilla"
+  ],
+  "type": "journal-article",
+  "cited": 32
+ },
+ "10.1103/physrevapplied.22.064079": {
+  "doi": "10.1103/physrevapplied.22.064079",
+  "title": "Femtosecond-laser-written low-loss multiscan waveguides in fused silica",
+  "year": 2024,
+  "venue": "Physical Review Applied",
+  "authors": [
+   "N.N. Skryabin",
+   "S.A. Zhuravitskii",
+   "I.V. Dyakonov",
+   "S.S. Straupe",
+   "A.A. Kalinkin",
+   "S.P. Kulik"
+  ],
+  "type": "journal-article",
+  "cited": 28
+ },
+ "10.1109/ofc.2003.315926": {
+  "doi": "10.1109/ofc.2003.315926",
+  "title": "Ultra low-loss waveguides of 0.12 dB/cm directly written in pure silica glass by femtosecond laser pulses",
+  "year": 2003,
+  "venue": "OFC 2003 Optical Fiber Communications Conference, 2003.",
+  "authors": [
+   "K. Sakuma",
+   "S. Ishikawa",
+   "T. Shikata",
+   "T. Fukuda",
+   "H. Hosoya"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/cleo_at.2016.jth2a.33": {
+  "doi": "10.1364/cleo_at.2016.jth2a.33",
+  "title": "Low-loss embedded waveguides in PMMA written by a femtosecond laser",
+  "year": 2016,
+  "venue": "Conference on Lasers and Electro-Optics",
+  "authors": [
+   "Welm Pätzold",
+   "Carsten Reinhardt",
+   "Ayhan Demircan",
+   "Uwe Morgner"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/oe.25.000263": {
+  "doi": "10.1364/oe.25.000263",
+  "title": "Low-loss curved waveguides in polymers written with a femtosecond laser",
+  "year": 2017,
+  "venue": "Optics Express",
+  "authors": [
+   "Welm M. Pätzold",
+   "Ayhan Demircan",
+   "Uwe Morgner"
+  ],
+  "type": "journal-article",
+  "cited": 53
+ },
+ "10.1016/j.optcom.2005.09.040": {
+  "doi": "10.1016/j.optcom.2005.09.040",
+  "title": "Optical loss measurements in femtosecond laser written waveguides in glass",
+  "year": 2006,
+  "venue": "Optics Communications",
+  "authors": [
+   "Limin Tong",
+   "Rafael R. Gattass",
+   "Iva Maxwell",
+   "Jonathan B. Ashcom",
+   "Eric Mazur"
+  ],
+  "type": "journal-article",
+  "cited": 53
+ },
+ "10.1364/assl.2022.ath2a.5": {
+  "doi": "10.1364/assl.2022.ath2a.5",
+  "title": "Fabrication and Characterization of Femtosecond Laser Written Low Loss Depressed Cladding Waveguides in Diamond",
+  "year": 2022,
+  "venue": "Optica Advanced Photonics Congress 2022",
+  "authors": [
+   "Faik Derya Ince",
+   "Yagiz Morova",
+   "Umut Yazlar",
+   "Alphan Sennaroglu"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/12.520333": {
+  "doi": "10.1117/12.520333",
+  "title": "Improvement on asymmetry of low-loss waveguides written in pure silica glass by femtosecond laser pulses",
+  "year": 2004,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Takeshi Fukuda",
+   "Shimon Ishikawa",
+   "Tomoko Fujii",
+   "Ken Sakuma",
+   "Hideyuki Hosoya"
+  ],
+  "type": "proceedings-article",
+  "cited": 6
+ },
+ "10.1364/bgpp.2007.btud4": {
+  "doi": "10.1364/bgpp.2007.btud4",
+  "title": "Femtosecond laser direct writing of chirped Bragg grating waveguides inside fused silica glass",
+  "year": 2007,
+  "venue": "Bragg Gratings, Photosensitivity, and Poling in Glass Waveguides",
+  "authors": [
+   "Haibin Zhang",
+   "Peter R. Herman"
+  ],
+  "type": "proceedings-article",
+  "cited": 5
+ },
+ "10.1364/bgpp.2007.jmc1": {
+  "doi": "10.1364/bgpp.2007.jmc1",
+  "title": "Recent advances in nanostructuring of glass: from poling to femtosecond laser writing",
+  "year": 2007,
+  "venue": "Bragg Gratings, Photosensitivity, and Poling in Glass Waveguides",
+  "authors": [
+   "Peter G. Kazansky"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.11606/t.76.2018.tde-04062018-152453": {
+  "doi": "10.11606/t.76.2018.tde-04062018-152453",
+  "title": "Femtosecond laser writing of nonlinear waveguides in Gorilla&amp;reg; Glass and L-threonine organic crystals",
+  "year": null,
+  "venue": "",
+  "authors": [
+   "Gustavo Foresto Brito de Almeida"
+  ],
+  "type": "dissertation",
+  "cited": 1
+ },
+ "10.1364/aiom.2011.aifb1": {
+  "doi": "10.1364/aiom.2011.aifb1",
+  "title": "Femtosecond Laser Writing of Waveguides in Glass",
+  "year": 2011,
+  "venue": "Advances in Optical Materials",
+  "authors": [
+   "Luke B. Fletcher",
+   "Jonathan J. Witcher",
+   "Neil Troy",
+   "Richard K. Brow",
+   "Denise M. Krol"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.2139/ssrn.4192970": {
+  "doi": "10.2139/ssrn.4192970",
+  "title": "Improvement in Measuring Losses by Interferometric Technique for Glass Waveguides Produced by Femtosecond Laser Writing",
+  "year": 2022,
+  "venue": "",
+  "authors": [
+   "Paulo  Henrique Dias Ferreira",
+   "Vinicius Tribuzi",
+   "Roberto Osellame",
+   "Filippo Ghiglieno"
+  ],
+  "type": "posted-content",
+  "cited": 0
+ },
+ "10.1016/j.optlastec.2020.106742": {
+  "doi": "10.1016/j.optlastec.2020.106742",
+  "title": "Transparent glass-ceramic waveguides made by femtosecond laser writing",
+  "year": 2021,
+  "venue": "Optics &amp; Laser Technology",
+  "authors": [
+   "P.H.D. Ferreira",
+   "D.C.N. Fabris",
+   "M.O.C. Villas Boas",
+   "I.G. Bezerra",
+   "C.R. Mendonça",
+   "E.D. Zanotto"
+  ],
+  "type": "journal-article",
+  "cited": 24
+ },
+ "10.1364/bgpp.2007.btud3": {
+  "doi": "10.1364/bgpp.2007.btud3",
+  "title": "Scissor and pen effect in femtosecond laser writing in silica.",
+  "year": 2007,
+  "venue": "Bragg Gratings, Photosensitivity, and Poling in Glass Waveguides",
+  "authors": [
+   "B. Poumellec",
+   "M. Lancry",
+   "J.-C. Poulin",
+   "Santhi Ani-Joseph"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/ol.21.001729": {
+  "doi": "10.1364/ol.21.001729",
+  "title": "Writing waveguides in glass with a femtosecond laser",
+  "year": 1996,
+  "venue": "Optics Letters",
+  "authors": [
+   "K. M. Davis",
+   "K. Miura",
+   "N. Sugimoto",
+   "K. Hirao"
+  ],
+  "type": "journal-article",
+  "cited": 2368
+ },
+ "10.1117/12.665028": {
+  "doi": "10.1117/12.665028",
+  "title": "Silver film ion-exchanged Er-doped waveguide lasers and photowritten waveguide gratings in phosphate glass",
+  "year": 2006,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Sanna Yliniemi",
+   "Jacques Albert",
+   "Albane Laronche",
+   "Qing Wang",
+   "Seppo Honkanen"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1117/12.179753": {
+  "doi": "10.1117/12.179753",
+  "title": "Ion-exchanged glass waveguide sensors",
+  "year": 1994,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Ludwig Ross"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1364/ipr.1991.the5": {
+  "doi": "10.1364/ipr.1991.the5",
+  "title": "Loss reduction of ion-exchanged glass waveguide Y-junction",
+  "year": 1991,
+  "venue": "Integrated Photonics Research",
+  "authors": [
+   "Kenichi Nakama",
+   "Shigeru Kobayashi",
+   "Hideki Hashizume",
+   "Masafumi Seki"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/12.179768": {
+  "doi": "10.1117/12.179768",
+  "title": "Ion-exchanged glass waveguide devices for optical communications",
+  "year": 1994,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Seppo Honkanen"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1117/12.548227": {
+  "doi": "10.1117/12.548227",
+  "title": "Buried ion-exchanged glass waveguides featuring low birefringence with a broad range of waveguide widths",
+  "year": 2004,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Sanna E. Yliniemi",
+   "Brian R. West",
+   "Timo T. Aalto",
+   "Pratheepan Madasamy",
+   "Nasser Peyghambarian",
+   "Seppo Honkanen"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1080/014680398244876": {
+  "doi": "10.1080/014680398244876",
+  "title": "Polarization Insensitive Ion-Exchanged Arrayed-Waveguide Grating Multiplexers in Glass",
+  "year": 1998,
+  "venue": "Fiber and Integrated Optics",
+  "authors": [
+   "BIANCA BUCHOLD CHRISTOPH GLINGENER"
+  ],
+  "type": "journal-article",
+  "cited": 11
+ },
+ "10.1117/12.205033": {
+  "doi": "10.1117/12.205033",
+  "title": "&lt;title&gt;Fabrication and characterization of ion-exchanged neodymium-doped glass waveguide lasers&lt;/title&gt;",
+  "year": 1995,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Veronique Francois",
+   "Tomoko Ohtsuki",
+   "Nasser Peyghambarian",
+   "S. Iraj Najafi"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1117/12.853693": {
+  "doi": "10.1117/12.853693",
+  "title": "Magnetic nanoparticles-doped silica layer reported on ion-exchanged glass waveguide: towards integrated magneto-optical devices",
+  "year": 2010,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Hadi Amata",
+   "François Royer",
+   "Fadi Choueikani",
+   "Damien Jamon",
+   "Jean-Emmanuel Broquin",
+   "Jean Claude Plenet",
+   "Jean Jaques Rousseau"
+  ],
+  "type": "proceedings-article",
+  "cited": 6
+ },
+ "10.1109/icton.2013.6602918": {
+  "doi": "10.1109/icton.2013.6602918",
+  "title": "A polymer waveguide-based 40 Gb/s optical bus backplane for board-level optical interconnects",
+  "year": 2013,
+  "venue": "2013 15th International Conference on Transparent Optical Networks (ICTON)",
+  "authors": [
+   "Nikos Bamiedakis",
+   "Aeffendi Hashim",
+   "Richard V. Penty",
+   "Ian H. White"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/oe.19.014403": {
+  "doi": "10.1364/oe.19.014403",
+  "title": "Photolithography-free polymer optical waveguide arrays for optical backplane bus",
+  "year": 2011,
+  "venue": "Optics Express",
+  "authors": [
+   "Xinyuan Dou",
+   "Alan X. Wang",
+   "Xiaohui Lin",
+   "Ray T. Chen"
+  ],
+  "type": "journal-article",
+  "cited": 13
+ },
+ "10.1117/12.2040070": {
+  "doi": "10.1117/12.2040070",
+  "title": "Polymer waveguide with tunable optofluidic couplers for card-to-backplane optical interconnects",
+  "year": 2014,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Guomin Jiang",
+   "Sarfaraz Baig",
+   "Michael R. Wang"
+  ],
+  "type": "proceedings-article",
+  "cited": 3
+ },
+ "10.1117/12.913894": {
+  "doi": "10.1117/12.913894",
+  "title": "Polymer optical waveguide-based bi-directional optical bus architecture for high-speed optical backplane",
+  "year": 2012,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Xiaohui Lin",
+   "Xinyuan Dou",
+   "Alan X. Wang",
+   "Ray T. Chen"
+  ],
+  "type": "proceedings-article",
+  "cited": 4
+ },
+ "10.1049/ic:20070418": {
+  "doi": "10.1049/ic:20070418",
+  "title": "Compact waveguide array connectors for optical backplane",
+  "year": 2007,
+  "venue": "33rd European Conference and Exhibition on Optical Communication - ECOC 2007",
+  "authors": [
+   "S. Hiramatsu"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/12.963375": {
+  "doi": "10.1117/12.963375",
+  "title": "Polymer Waveguide-Based Optical Backplane for Fine-Grained Computing",
+  "year": 1990,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "J. P. Bristow",
+   "C. T. Sullivan",
+   "A. Guha",
+   "J. Ehramjian",
+   "A. Husain"
+  ],
+  "type": "proceedings-article",
+  "cited": 7
+ },
+ "10.1109/jphot.2025.3605942": {
+  "doi": "10.1109/jphot.2025.3605942",
+  "title": "Athermal Polymer Arrayed Waveguide Grating Router for Optical Backplane",
+  "year": 2025,
+  "venue": "IEEE Photonics Journal",
+  "authors": [
+   "Ruizhi Jia",
+   "Han Wu",
+   "Xiao Xu",
+   "Liuge Du",
+   "Jia Zhao"
+  ],
+  "type": "journal-article",
+  "cited": 2
+ },
+ "10.1364/oe.393039": {
+  "doi": "10.1364/oe.393039",
+  "title": "Fabrication and transmission of optical polymer waveguide backplane for high - performance computers",
+  "year": 2020,
+  "venue": "Optics Express",
+  "authors": [
+   "Shuailong Yang",
+   "Liu Yang",
+   "Bin Li",
+   "Fengguang Luo",
+   "Xiaobo Wang",
+   "Yuting Du"
+  ],
+  "type": "journal-article",
+  "cited": 11
+ },
+ "10.1117/12.983219": {
+  "doi": "10.1117/12.983219",
+  "title": "High-speed optical interconnect for backplane applications",
+  "year": 1993,
+  "venue": "Photonics for Computers, Neural Networks, and Memories",
+  "authors": [
+   "Udo Kraemer",
+   "Peter Laws"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1109/cleoe.2005.1568253": {
+  "doi": "10.1109/cleoe.2005.1568253",
+  "title": "Optical interconnect modules for high-speed backplane applications",
+  "year": null,
+  "venue": "CLEO/Europe. 2005 Conference on Lasers and Electro-Optics Europe, 2005.",
+  "authors": [
+   "A.L. Glebov",
+   "M.G. Lee",
+   "K. Yokouchi"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.2172/780305": {
+  "doi": "10.2172/780305",
+  "title": "Final Report and Documentation for the Optical Backplane/Interconnect for High Speed Communication LDRD",
+  "year": 2001,
+  "venue": "",
+  "authors": [
+   "PERRY ROBERTSON",
+   "HELEN CHEN",
+   "JAMES BRANDT",
+   "CHARLES SULLIVAN",
+   "LYNDON PIERSON",
+   "EDWARD WITZKE",
+   "KARL GASS"
+  ],
+  "type": "report",
+  "cited": 0
+ },
+ "10.1109/wocn.2012.6335786": {
+  "doi": "10.1109/wocn.2012.6335786",
+  "title": "A simple card to backplane polymeric optical high speed interconnect coupler for computer motherboards",
+  "year": 2012,
+  "venue": "2012 Ninth International Conference on Wireless and Optical Communications Networks (WOCN)",
+  "authors": [
+   "Alok K Das",
+   "Biplab K Ray"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1109/ahici.2012.6408437": {
+  "doi": "10.1109/ahici.2012.6408437",
+  "title": "Rib structures in card to backplane optical high speed interconnect couplers and related sensitivity for computer motherboards",
+  "year": 2012,
+  "venue": "2012 Third Asian Himalayas International Conference on Internet",
+  "authors": [
+   "Alok K Das",
+   "Biplab K Ray",
+   "Avranil Das"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/12.141534": {
+  "doi": "10.1117/12.141534",
+  "title": "&lt;title&gt;High-speed optical interconnect for backplane applications&lt;/title&gt;",
+  "year": 1993,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Udo Kraemer",
+   "Peter Laws"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1364/oam.1992.wv3": {
+  "doi": "10.1364/oam.1992.wv3",
+  "title": "Optimization of the alignability of planar-optical backplane interconnect packages",
+  "year": 1992,
+  "venue": "Optical Society of America Annual Meeting",
+  "authors": [
+   "A. K. Ghosh",
+   "R. S. Beech"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1007/978-0-387-24063-3_19": {
+  "doi": "10.1007/978-0-387-24063-3_19",
+  "title": "High-Speed Serial Interconnect",
+  "year": null,
+  "venue": "Optical Networking Standards: A Comprehensive Guide",
+  "authors": [
+   "Adam Healey"
+  ],
+  "type": "book-chapter",
+  "cited": 0
+ },
+ "10.2184/lsj.26.144": {
+  "doi": "10.2184/lsj.26.144",
+  "title": "Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material. Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material.",
+  "year": 1998,
+  "venue": "The Review of Laser Engineering",
+  "authors": [
+   "Osamu MATOBA",
+   "Tsutomu SHIMURA",
+   "Kazuo KURODA"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1364/aoe.2008.sul3": {
+  "doi": "10.1364/aoe.2008.sul3",
+  "title": "High-Density Optical Interconnect Based on Precisely Fabricated Mirror Attached Waveguide",
+  "year": 2008,
+  "venue": "Asia Optical Fiber Communication and Optoelectronic Exposition and Conference",
+  "authors": [
+   "Hidetoshi Numata",
+   "Shigeru Nakagawa",
+   "Yoichi Taira"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.14711/thesis-b842092": {
+  "doi": "10.14711/thesis-b842092",
+  "title": "Integrated silicon optical bench with passive alignment features for three-dimensional optical interconnect",
+  "year": null,
+  "venue": "",
+  "authors": [
+   "Chi Chuen Lo"
+  ],
+  "type": "dissertation",
+  "cited": 0
+ },
+ "10.2184/lsj.26.142": {
+  "doi": "10.2184/lsj.26.142",
+  "title": "Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material. Laser-Sculpting and Fabrication of Three-Dimensional Fine Structure.",
+  "year": 1998,
+  "venue": "The Review of Laser Engineering",
+  "authors": [
+   "Kazuyoshi ITOH"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1063/1.1655071": {
+  "doi": "10.1063/1.1655071",
+  "title": "Nd-glass laser with three-dimensional optical waveguide",
+  "year": 1974,
+  "venue": "Applied Physics Letters",
+  "authors": [
+   "Masatoshi Saruwatari",
+   "Tatsuo Izawa"
+  ],
+  "type": "journal-article",
+  "cited": 18
+ },
+ "10.2184/lsj.26.155": {
+  "doi": "10.2184/lsj.26.155",
+  "title": "Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material. Formation of Three-Dimensional Microstructures by Excimer Laser Irradiation on Surfaces of Polymer Materials.",
+  "year": 1998,
+  "venue": "The Review of Laser Engineering",
+  "authors": [
+   "Akira YABE",
+   "Hiroyuki NIINO"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1117/12.2041891": {
+  "doi": "10.1117/12.2041891",
+  "title": "Optical connecting devices fabricated by self-written waveguide technology for smart optical interconnect",
+  "year": 2014,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Tadayuki Enomoto",
+   "Yukinobu Soeda",
+   "Osamu Mikami"
+  ],
+  "type": "proceedings-article",
+  "cited": 5
+ },
+ "10.1364/fio.2004.fme4": {
+  "doi": "10.1364/fio.2004.fme4",
+  "title": "Three-dimensional photonic crystals fabricated in polymer",
+  "year": 2004,
+  "venue": "Frontiers in Optics 2004/Laser Science XXII/Diffractive Optics and Micro-Optics/Optical Fabrication and Testing",
+  "authors": [
+   "Min Gu"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/12.243132": {
+  "doi": "10.1117/12.243132",
+  "title": "&lt;title&gt;Architectural evaluation of beam-steered shuffle optical interconnect&lt;/title&gt;",
+  "year": 1996,
+  "venue": "SPIE Proceedings",
+  "authors": [
+   "Miles J. Murdocca",
+   "Ravi V. Batchu",
+   "Michael Dennison"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.3788/col201715.030603": {
+  "doi": "10.3788/col201715.030603",
+  "title": "Ultra-compact silicon-arrayed waveguide grating routers for optical interconnect systems",
+  "year": 2017,
+  "venue": "Chinese Optics Letters",
+  "authors": [
+   "Guangyi Song Guangyi Song",
+   "Jun Zou Jun Zou",
+   "and  Jianjun He and  Jianjun He"
+  ],
+  "type": "journal-article",
+  "cited": 11
+ },
+ "10.1364/fio.2005.ftuw4": {
+  "doi": "10.1364/fio.2005.ftuw4",
+  "title": "Array Waveguide Evanescent Coupler for Flexible Optical Interconnect",
+  "year": 2005,
+  "venue": "Frontiers in Optics",
+  "authors": [
+   "Angel Flores",
+   "Sangyup Song",
+   "Jame J. Yang",
+   "Michael R. Wang"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1007/978-3-540-28912-8_10": {
+  "doi": "10.1007/978-3-540-28912-8_10",
+  "title": "On Chip Optical Waveguide Interconnect: the Problem of the In/Out Coupling",
+  "year": 2006,
+  "venue": "Springer Series in Optical Sciences",
+  "authors": [
+   "Regis Orobtchouk"
+  ],
+  "type": "book-chapter",
+  "cited": 3
+ },
+ "10.1364/ofc.2017.w1b.6": {
+  "doi": "10.1364/ofc.2017.w1b.6",
+  "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+  "year": 2017,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Kevin P.Chen",
+   "Ming-Jun Li"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1049/el.2016.3735": {
+  "doi": "10.1049/el.2016.3735",
+  "title": "Subwavelength T‐slot waveguide optical interconnect",
+  "year": 2017,
+  "venue": "Electronics Letters",
+  "authors": [
+   "V. Priye",
+   "V. Kumar"
+  ],
+  "type": "journal-article",
+  "cited": 1
+ },
+ "10.1109/oic.2014.6886116": {
+  "doi": "10.1109/oic.2014.6886116",
+  "title": "Highly transpearent submicrometer-sclae amorphous silicon waveguide for backend optical interconnect",
+  "year": 2014,
+  "venue": "2014 Optical Interconnects Conference",
+  "authors": [
+   "Ryohei Takei",
+   "Shoko Manako",
+   "Emiko Omoda",
+   "Masahiko Mori",
+   "Youichi Sakakibara",
+   "Toshihiro Kamei"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1109/ecoc.2014.6964120": {
+  "doi": "10.1109/ecoc.2014.6964120",
+  "title": "Novel large-port-count optical-switch architecture for optical interconnection in datacenter",
+  "year": 2014,
+  "venue": "2014 The European Conference on Optical Communication (ECOC)",
+  "authors": [
+   "Koh Ueda",
+   "Yojiro Mori",
+   "Hiroshi Hasegawa",
+   "Ken-ichi Sato",
+   "Toshio Watanabe"
+  ],
+  "type": "proceedings-article",
+  "cited": 8
+ },
+ "10.1364/ecoc.2011.we.10.p1.94": {
+  "doi": "10.1364/ecoc.2011.we.10.p1.94",
+  "title": "Thousand-port optical packet switch architecture with highly distributed control",
+  "year": 2011,
+  "venue": "37th European Conference and Exposition on Optical Communications",
+  "authors": [
+   "Stefano Di Lucente",
+   "Yoni Nazarathy",
+   "Oded Raz",
+   "Nicola Calabretta",
+   "Harm Dorren"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1109/ecoc48923.2020.9333177": {
+  "doi": "10.1109/ecoc48923.2020.9333177",
+  "title": "Demonstration of Low-Latency ETH-switched DataCenter and 5G Fronthaul Networks Using the 1024-port $\\text{Hipo}\\lambda\\text{aos}$ Optical Packet Switch",
+  "year": 2020,
+  "venue": "2020 European Conference on Optical Communications (ECOC)",
+  "authors": [
+   "George Giamougiannis",
+   "Apostolos Tsakyridis",
+   "Nikos Terzenidis",
+   "Dimosthenis Spasopoulos",
+   "Christos Vagionas",
+   "Nikos Pleros"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/sppcom.2023.sptu1e.1": {
+  "doi": "10.1364/sppcom.2023.sptu1e.1",
+  "title": "Optical Switch Architecture for Intra-datacenter Networks",
+  "year": 2023,
+  "venue": "Advanced Photonics Congress 2023",
+  "authors": [
+   "Yojiro Mori",
+   "Hiroshi Hasegawa"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/ofc.2018.th3h.3": {
+  "doi": "10.1364/ofc.2018.th3h.3",
+  "title": "Large-Scale Optical Circuit Switch Architecture for Intra-Datacenter Networking",
+  "year": 2018,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Yojiro Mori",
+   "Ken-ichi Sato"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1515/joc-2019-0023": {
+  "doi": "10.1515/joc-2019-0023",
+  "title": "Dual-Buffer-Based Optical Datacenter Switch Design",
+  "year": 2019,
+  "venue": "Journal of Optical Communications",
+  "authors": [
+   "Pronaya Bhattacharya",
+   "Amod Kumar Tiwari",
+   "Arunendra Singh"
+  ],
+  "type": "journal-article",
+  "cited": 10
+ },
+ "10.1109/ps.2015.7329050": {
+  "doi": "10.1109/ps.2015.7329050",
+  "title": "Large-scale optical switch with simplified sub-switch connections for datacenter application",
+  "year": 2015,
+  "venue": "2015 International Conference on Photonics in Switching (PS)",
+  "authors": [
+   "Koh Ueda",
+   "Yojiro Mori",
+   "Hiroshi Hasegawa",
+   "Ken-ichi Sato",
+   "Toshio Watanabe"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1364/ofc.2013.otu3h.1": {
+  "doi": "10.1364/ofc.2013.otu3h.1",
+  "title": "A 50Tbps Optically-Cabled Infiniband Datacenter Switch",
+  "year": 2013,
+  "venue": "Optical Fiber Communication Conference/National Fiber Optic Engineers Conference 2013",
+  "authors": [
+   "Ola Torudbakken",
+   "Ashok V. Krishnamoorthy"
+  ],
+  "type": "proceedings-article",
+  "cited": 4
+ },
+ "10.1007/springerreference_14395": {
+  "doi": "10.1007/springerreference_14395",
+  "title": "fiber optic patch panel",
+  "year": null,
+  "venue": "SpringerReference",
+  "authors": [],
+  "type": "reference-entry",
+  "cited": 0
+ },
+ "10.1109/jlt.2008.2006280": {
+  "doi": "10.1109/jlt.2008.2006280",
+  "title": "Large Scale, All-Fiber Optical Cross-Connect Switches for Automated Patch-Panels",
+  "year": 2009,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "A.S. Kewitsch"
+  ],
+  "type": "journal-article",
+  "cited": 16
+ },
+ "10.1364/ofc.1994.wd4": {
+  "doi": "10.1364/ofc.1994.wd4",
+  "title": "Optical cross-connect systems using optical FDM technology",
+  "year": 1994,
+  "venue": "Conference on Optical Fiber Communication",
+  "authors": [
+   "Nori Shibata"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1109/ofc.2002.1036575": {
+  "doi": "10.1109/ofc.2002.1036575",
+  "title": "Tutorial: waveguide-based optical cross-connect switches",
+  "year": 2002,
+  "venue": "Optical Fiber Communication Conference and Exhibit",
+  "authors": [
+   "J.E. Fouquet"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1007/1-4020-0613-6_6991": {
+  "doi": "10.1007/1-4020-0613-6_6991",
+  "title": "fiber optic patch panel",
+  "year": 2000,
+  "venue": "Computer Science and Communications Dictionary",
+  "authors": [
+   "Martin H. Weik"
+  ],
+  "type": "book-chapter",
+  "cited": 0
+ },
+ "10.1364/ofc.1994.thi2": {
+  "doi": "10.1364/ofc.1994.thi2",
+  "title": "Optical cross-connect system using photonic switch matrices",
+  "year": 1994,
+  "venue": "Conference on Optical Fiber Communication",
+  "authors": [
+   "Masahiko Fujiwara"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/ofc.2014.w2a.36": {
+  "doi": "10.1364/ofc.2014.w2a.36",
+  "title": "High degree optical cross-connect based on multicast switch",
+  "year": 2014,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Thierry Zami"
+  ],
+  "type": "proceedings-article",
+  "cited": 4
+ },
+ "10.1364/ofc.1995.thi8": {
+  "doi": "10.1364/ofc.1995.thi8",
+  "title": "Cross talks in multiwavelength optical cross-connect networks",
+  "year": 1995,
+  "venue": "Optical Fiber Communications Conference",
+  "authors": [
+   "J. Zhou",
+   "M. J. O’Mahony",
+   "R. Cadeddu",
+   "E. Casaccia"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/1.2167107": {
+  "doi": "10.1117/1.2167107",
+  "title": "All-optical controllable 4×4 photonic switch matrix with scale-up capability for large-port-count optical cross connects",
+  "year": 2006,
+  "venue": "Optical Engineering",
+  "authors": [
+   "Daqun Li",
+   "Michael R. Wang"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1515/joc.1980.1.2.74": {
+  "doi": "10.1515/joc.1980.1.2.74",
+  "title": "Large-Scale and Low-Loss Optical Switch Matrix for Optical Switching Systems",
+  "year": 1980,
+  "venue": "Journal of Optical Communications",
+  "authors": [
+   "H. Yamamoto",
+   "M. Yokoyama",
+   "H. Ogiwara",
+   "M. Yoshida"
+  ],
+  "type": "journal-article",
+  "cited": 9
+ },
+ "10.1016/j.optcom.2017.11.067": {
+  "doi": "10.1016/j.optcom.2017.11.067",
+  "title": "Construction of large scale switch matrix by interconnecting integrated optical switch chips with EDFAs",
+  "year": 2018,
+  "venue": "Optics Communications",
+  "authors": [
+   "Mingle Liao",
+   "Baojian Wu",
+   "Jianhong Hou",
+   "Kun Qiu"
+  ],
+  "type": "journal-article",
+  "cited": 2
+ },
+ "10.1109/icp.2016.7510042": {
+  "doi": "10.1109/icp.2016.7510042",
+  "title": "Low-loss and large-scale optical switch utilizing asymmetric-port-count cyclic AWGs",
+  "year": 2016,
+  "venue": "2016 IEEE 6th International Conference on Photonics (ICP)",
+  "authors": [
+   "Koh Ueda",
+   "Yojiro Mori",
+   "Hiroshi Hasegawa",
+   "Ken-ichi Sato",
+   "Osamu Moriwaki"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1109/oecc48412.2020.9273674": {
+  "doi": "10.1109/oecc48412.2020.9273674",
+  "title": "Large Port Count Optical Switch Photonic Integrated Circuits",
+  "year": 2020,
+  "venue": "2020 Opto-Electronics and Communications Conference (OECC)",
+  "authors": [
+   "RV Penty",
+   "Q Cheng"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1109/jphot.2016.2529842": {
+  "doi": "10.1109/jphot.2016.2529842",
+  "title": "Large-Scale and Simple-Configuration Optical Switch Enabled by Asymmetric-Port-Count Subswitches",
+  "year": 2016,
+  "venue": "IEEE Photonics Journal",
+  "authors": [
+   "Koh Ueda",
+   "Yojiro Mori",
+   "Hiroshi Hasegawa",
+   "Ken-ichi Sato",
+   "Toshio Watanabe"
+  ],
+  "type": "journal-article",
+  "cited": 5
+ },
+ "10.1109/ps.2015.7329024": {
+  "doi": "10.1109/ps.2015.7329024",
+  "title": "Large port count optical switch systems for future datacenters",
+  "year": 2015,
+  "venue": "2015 International Conference on Photonics in Switching (PS)",
+  "authors": [
+   "Ken-ichi Sato"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1117/12.2614365": {
+  "doi": "10.1117/12.2614365",
+  "title": "Single-mode polymer waveguide for fan-in/fan-out of multicore fiber by the mosquito method",
+  "year": 2022,
+  "venue": "Optical Interconnects XXII",
+  "authors": [
+   "Sho Yakabe",
+   "Takaaki Ishigure"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1109/icocn55511.2022.9901242": {
+  "doi": "10.1109/icocn55511.2022.9901242",
+  "title": "Low Coupling-Loss Three-Dimensional Waveguide Fan-In/Fan-Out Devices for Multi-Core Fiber",
+  "year": 2022,
+  "venue": "2022 20th International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Jun Chu",
+   "Ying Li",
+   "Lei Zhang",
+   "Jiahui Zhou",
+   "Ruichun Wang"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1364/oe.23.001585": {
+  "doi": "10.1364/oe.23.001585",
+  "title": "Fan-in/out polymer optical waveguide for a multicore fiber fabricated using the Mosquito method",
+  "year": 2015,
+  "venue": "Optics Express",
+  "authors": [
+   "Daisuke Suganuma",
+   "Takaaki Ishigure"
+  ],
+  "type": "journal-article",
+  "cited": 29
+ },
+ "10.1021/acsphotonics.5c00617.s001": {
+  "doi": "10.1021/acsphotonics.5c00617.s001",
+  "title": "Ultracompact and Low Crosstalk Multicore Fiber Fan-in/out Device Fabricated via 3D Nanoprinting",
+  "year": null,
+  "venue": "",
+  "authors": [],
+  "type": "component",
+  "cited": 0
+ },
+ "10.1016/j.yofte.2015.09.010": {
+  "doi": "10.1016/j.yofte.2015.09.010",
+  "title": "Fan-out device for multicore fiber coupling application based on capillary bridge self-assembly fabrication method",
+  "year": 2015,
+  "venue": "Optical Fiber Technology",
+  "authors": [
+   "Jiwen Cui",
+   "Shengqi Zhu",
+   "Kunpeng Feng",
+   "Dang Hong",
+   "Junying Li",
+   "Jiubin Tan"
+  ],
+  "type": "journal-article",
+  "cited": 11
+ },
+ "10.1364/ofc.2022.th2a.4": {
+  "doi": "10.1364/ofc.2022.th2a.4",
+  "title": "Free-Space Coupling Type Fan-in/Fan-out Device for 4-Core Fiber with Low Insertion Loss",
+  "year": 2022,
+  "venue": "Optical Fiber Communication Conference (OFC) 2022",
+  "authors": [
+   "T. Kiriyama",
+   "K. Iwasaki",
+   "K. Kito",
+   "T. Kato"
+  ],
+  "type": "proceedings-article",
+  "cited": 5
+ },
+ "10.1049/cp.2013.1560": {
+  "doi": "10.1049/cp.2013.1560",
+  "title": "Low-loss Physical-contact-type Fan-out Device for 12-core Multicore Fiber",
+  "year": 2013,
+  "venue": "39th European Conference and Exhibition on Optical Communication (ECOC 2013)",
+  "authors": [
+   "Y. Abe",
+   "T. Takahashi",
+   "S. Yanagi",
+   "K. Shikama"
+  ],
+  "type": "proceedings-article",
+  "cited": 20
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "doi": "10.1109/icocn55511.2022.9901157",
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2022,
+  "venue": "2022 20th International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1109/3dic48104.2019.9058900": {
+  "doi": "10.1109/3dic48104.2019.9058900",
+  "title": "High Bandwidth Memory (HBM) and High Bandwidth NAND (HBN) with the Bumpless TSV Technology",
+  "year": 2019,
+  "venue": "2019 International 3D Systems Integration Conference (3DIC)",
+  "authors": [
+   "Koji Sakui",
+   "Takayuki Ohba"
+  ],
+  "type": "proceedings-article",
+  "cited": 8
+ },
+ "10.37665/wagllck49869": {
+  "doi": "10.37665/wagllck49869",
+  "title": "Optimizing High Bandwidth Memory (HBM) Wafer Surface Treatment: Navigating Cleaning Challenges",
+  "year": 2024,
+  "venue": "Wafer-Level Packaging Symposium",
+  "authors": [
+   "Ravi Parthasarathy"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1109/imw.2017.7939084": {
+  "doi": "10.1109/imw.2017.7939084",
+  "title": "HBM (High Bandwidth Memory) DRAM Technology and Architecture",
+  "year": 2017,
+  "venue": "2017 IEEE International Memory Workshop (IMW)",
+  "authors": [
+   "Hongshin Jun",
+   "Jinhee Cho",
+   "Kangseol Lee",
+   "Ho-Young Son",
+   "Kwiwook Kim",
+   "Hanho Jin",
+   "Keith Kim"
+  ],
+  "type": "proceedings-article",
+  "cited": 234
+ },
+ "10.1109/3dic.2015.7334555": {
+  "doi": "10.1109/3dic.2015.7334555",
+  "title": "Electrical performance of high bandwidth memory (HBM) interposer channel in terabyte/s bandwidth graphics module",
+  "year": 2015,
+  "venue": "2015 International 3D Systems Integration Conference (3DIC)",
+  "authors": [
+   "Hyunsuk Lee",
+   "Kyungjun Cho",
+   "Heegon Kim",
+   "Sumin Choi",
+   "Jaemin Lim",
+   "Joungho Kim"
+  ],
+  "type": "proceedings-article",
+  "cited": 13
+ },
+ "10.1109/edaps64431.2024.10988462": {
+  "doi": "10.1109/edaps64431.2024.10988462",
+  "title": "Design and Analysis of Twin Tower High Bandwidth Memory (HBM) Architecture for Large Memory Capacity and High Bandwidth System",
+  "year": 2024,
+  "venue": "2024 IEEE Electrical Design of Advanced Packaging and Systems (EDAPS)",
+  "authors": [
+   "Taesoo Kim",
+   "Jiwon Yoon",
+   "Seonguk Choi",
+   "Haeyeon Kim",
+   "Haeseok Suh",
+   "Hyunjun An",
+   "Jungmin Ahn",
+   "Hyunah Park"
+  ],
+  "type": "proceedings-article",
+  "cited": 10
+ },
+ "10.37665/ppdmnbc32267": {
+  "doi": "10.37665/ppdmnbc32267",
+  "title": "Signal and Power Integrity Design of 2.5D HBM (High Bandwidth Memory Module) on SI Interposer",
+  "year": 2016,
+  "venue": "Pan Pacific Symposium",
+  "authors": [
+   "Kyungjun Cho",
+   "Hyunsuk Lee",
+   "Joungho Kim"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1049/el.2015.4001": {
+  "doi": "10.1049/el.2015.4001",
+  "title": "Skew cancellation technique for &gt;256‐Gbyte/s high‐bandwidth memory (HBM)",
+  "year": 2016,
+  "venue": "Electronics Letters",
+  "authors": [
+   "K. Ahn",
+   "C. Yoo"
+  ],
+  "type": "journal-article",
+  "cited": 3
+ },
+ "10.1109/panpacific.2016.7428425": {
+  "doi": "10.1109/panpacific.2016.7428425",
+  "title": "Signal and power integrity design of 2.5D HBM (High bandwidth memory module) on SI interposer",
+  "year": 2016,
+  "venue": "2016 Pan Pacific Microelectronics Symposium (Pan Pacific)",
+  "authors": [
+   "Kyungjun Cho",
+   "Hyunsuk Lee",
+   "Joungho Kim"
+  ],
+  "type": "proceedings-article",
+  "cited": 14
+ },
+ "10.1109/epeps61853.2024.10753705": {
+  "doi": "10.1109/epeps61853.2024.10753705",
+  "title": "Optimization of TSV Array Based on Mathematical Model for HBM3",
+  "year": 2024,
+  "venue": "2024 IEEE 33rd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS)",
+  "authors": [
+   "Yen-Tung Chen",
+   "Yu-Ying Cheng",
+   "Tzong-Lin Wu"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1109/epeps58208.2023.10314903": {
+  "doi": "10.1109/epeps58208.2023.10314903",
+  "title": "HBM3 PPA Performance Evaluation by TSV Model with Micro-Bump and Hybrid Bonding",
+  "year": 2023,
+  "venue": "2023 IEEE 32nd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS)",
+  "authors": [
+   "Li-Hsin Huang",
+   "Yu-Ying Cheng",
+   "Tzong-Lin Wu"
+  ],
+  "type": "proceedings-article",
+  "cited": 8
+ },
+ "10.1007/978-981-19-0083-9_12": {
+  "doi": "10.1007/978-981-19-0083-9_12",
+  "title": "Cavity, Chip Stack and TSV Design",
+  "year": 2022,
+  "venue": "MicroSystem Based on SiP Technology",
+  "authors": [
+   "Suny Li"
+  ],
+  "type": "book-chapter",
+  "cited": 0
+ },
+ "10.1109/tcpmt.2024.3483445": {
+  "doi": "10.1109/tcpmt.2024.3483445",
+  "title": "Analysis and Optimization of HBM3 PPA for TSV Model With Micro-Bump and Hybrid Bonding",
+  "year": 2025,
+  "venue": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
+  "authors": [
+   "Li-Hsin Huang",
+   "Yu-Ying Cheng",
+   "Tzong-Lin Wu"
+  ],
+  "type": "journal-article",
+  "cited": 9
+ },
+ "10.1109/epeps.2012.6457847": {
+  "doi": "10.1109/epeps.2012.6457847",
+  "title": "Power-bandwidth trade-off on TSV array in 3D IC and TSV-RDL junction design challenges",
+  "year": 2012,
+  "venue": "2012 IEEE 21st Conference on Electrical Performance of Electronic Packaging and Systems",
+  "authors": [
+   "Wei Yao",
+   "Feng Shi",
+   "Lei He",
+   "Siming Pan",
+   "Brice Achkir",
+   "Li Li"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1109/isocc50952.2020.9333115": {
+  "doi": "10.1109/isocc50952.2020.9333115",
+  "title": "Efficient TSV Fault Detection Scheme For High Bandwidth Memory Using Pattern Analysis",
+  "year": 2020,
+  "venue": "2020 International SoC Design Conference (ISOCC)",
+  "authors": [
+   "Kwanho Bae",
+   "Jongsun Park"
+  ],
+  "type": "proceedings-article",
+  "cited": 3
+ },
+ "10.1109/itoec.2017.8122405": {
+  "doi": "10.1109/itoec.2017.8122405",
+  "title": "3D stack method for micro-PNT based on TSV technology",
+  "year": 2017,
+  "venue": "2017 IEEE 3rd Information Technology and Mechatronics Engineering Conference (ITOEC)",
+  "authors": [
+   "Xiaomin Duan",
+   "Huiliang Cao",
+   "Zhiyu Liu"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1109/mm.2023.3237548": {
+  "doi": "10.1109/mm.2023.3237548",
+  "title": "Failure Tolerant Training With Persistent Memory Disaggregation Over CXL",
+  "year": 2023,
+  "venue": "IEEE Micro",
+  "authors": [
+   "Miryeong Kwon",
+   "Junhyeok Jang",
+   "Hanjin Choi",
+   "Sangwon Lee",
+   "Myoungsoo Jung"
+  ],
+  "type": "journal-article",
+  "cited": 9
+ },
+ "10.1109/tc.2025.3647947": {
+  "doi": "10.1109/tc.2025.3647947",
+  "title": "Swarm: Efficient Logical Memory Disaggregation With Shared CXL Memory",
+  "year": 2026,
+  "venue": "IEEE Transactions on Computers",
+  "authors": [
+   "Chen Chen",
+   "Xinkui Zhao",
+   "Guanjie Cheng",
+   "Yueshen Xu",
+   "Shuiguang Deng",
+   "Jianwei Yin"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1109/nas55553.2022.9925356": {
+  "doi": "10.1109/nas55553.2022.9925356",
+  "title": "Performance Evaluation on CXL-enabled Hybrid Memory Pool",
+  "year": 2022,
+  "venue": "2022 IEEE International Conference on Networking, Architecture and Storage (NAS)",
+  "authors": [
+   "Qirui Yang",
+   "Runyu Jin",
+   "Bridget Davis",
+   "Devasena Inupakutika",
+   "Ming Zhao"
+  ],
+  "type": "proceedings-article",
+  "cited": 13
+ },
+ "10.1145/3744970.3727278": {
+  "doi": "10.1145/3744970.3727278",
+  "title": "CHash: A High Cost-Performance Hash Design for CXL-based Disaggregated Memory System",
+  "year": 2025,
+  "venue": "ACM SIGMETRICS Performance Evaluation Review",
+  "authors": [
+   "Mengting Lu",
+   "Gaocong Liu",
+   "Kun Wang",
+   "Feng Zhu",
+   "Shu Li"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1145/3764862.3768173": {
+  "doi": "10.1145/3764862.3768173",
+  "title": "ScalePool: Hybrid XLink-CXL Fabric for Composable Resource Disaggregation in Unified Scale-up Domains",
+  "year": 2025,
+  "venue": "Proceedings of the 3rd Workshop on Disruptive Memory Systems",
+  "authors": [
+   "Hyein Woo",
+   "Miryeong Kwon",
+   "Jiseon Kim",
+   "Eunjee Na",
+   "Hanjin Choi",
+   "Seonghyeon Jang",
+   "Myoungsoo Jung"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1109/fccm57271.2023.00017": {
+  "doi": "10.1109/fccm57271.2023.00017",
+  "title": "CXL over Ethernet: A Novel FPGA-based Memory Disaggregation Design in Data Centers",
+  "year": 2023,
+  "venue": "2023 IEEE 31st Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+  "authors": [
+   "Chenjiu Wang",
+   "Ke He",
+   "Ruiqi Fan",
+   "Xiaonan Wang",
+   "Wei Wang",
+   "Qinfen Hao"
+  ],
+  "type": "proceedings-article",
+  "cited": 20
+ },
+ "10.1145/3639471": {
+  "doi": "10.1145/3639471",
+  "title": "Bridging Software-Hardware for CXL Memory Disaggregation in Billion-Scale Nearest Neighbor Search",
+  "year": 2024,
+  "venue": "ACM Transactions on Storage",
+  "authors": [
+   "Junhyeok Jang",
+   "Hanjin Choi",
+   "Hanyeoreum Bae",
+   "Seungjun Lee",
+   "Miryeong Kwon",
+   "Myoungsoo Jung"
+  ],
+  "type": "journal-article",
+  "cited": 9
+ },
+ "10.1145/3695794.3695809": {
+  "doi": "10.1145/3695794.3695809",
+  "title": "Performance Study of CXL Memory Topology",
+  "year": 2024,
+  "venue": "Proceedings of the International Symposium on Memory Systems",
+  "authors": [
+   "Jianbo Wu",
+   "Jie Liu",
+   "Gokcen Kestor",
+   "Roberto Gioiosa",
+   "Dong Li",
+   "Andres Marquez"
+  ],
+  "type": "proceedings-article",
+  "cited": 13
+ },
+ "10.3390/photonics13070621": {
+  "doi": "10.3390/photonics13070621",
+  "title": "Design of Silicon Photonics Metasurface Enabling Optical Interfacing for Co-Packaged Optics",
+  "year": 2026,
+  "venue": "Photonics",
+  "authors": [
+   "Constantinos Haliotis",
+   "Georgios Syriopoulos",
+   "Giannis Poulopoulos",
+   "Dimitrios Apostolopoulos",
+   "Hercules Avramopoulos"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1117/12.3077953": {
+  "doi": "10.1117/12.3077953",
+  "title": "Process control case-studies for high-volume manufacturing of silicon photonics for co-packaged optics applications",
+  "year": 2026,
+  "venue": "Silicon Photonics XXI",
+  "authors": [
+   "John C. Robinson",
+   "Daniele Capelli",
+   "Shankar Krishnan"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.5104/jiep.29.376": {
+  "doi": "10.5104/jiep.29.376",
+  "title": "Transparent Optical Adhesives for Co-Packaged Optics (CPO) in Silicon Photonics",
+  "year": 2026,
+  "venue": "Journal of The Japan Institute of Electronics Packaging",
+  "authors": [
+   "Noriyuki Sakai",
+   "Fumiya Suzuki"
+  ],
+  "type": "journal-article",
+  "cited": 0
+ },
+ "10.1364/ofc.2026.th2a.13": {
+  "doi": "10.1364/ofc.2026.th2a.13",
+  "title": "High-Efficiency Silicon Nitride Microcombs for Co-Packaged Optics",
+  "year": 2026,
+  "venue": "Optical Fiber Communication Conference (OFC) 2026",
+  "authors": [
+   "Óskar B. Helgason",
+   "Marcello Girardi",
+   "Symeon Sideris",
+   "Liron Gantz",
+   "Mark Holm"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.23919/moc65514.2025.11269232": {
+  "doi": "10.23919/moc65514.2025.11269232",
+  "title": "Optical pigtailing 64 channel silicon photonics grating couplers through a two-dimensional fiber array for co-packaged optics applications",
+  "year": 2025,
+  "venue": "2025 30th Microoptics Conference (MOC)",
+  "authors": [
+   "Chen-Hao Shih",
+   "Yung-Jr Hung"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1117/12.2646280": {
+  "doi": "10.1117/12.2646280",
+  "title": "A silicon-photonics optical transmitter for 12-port 1.6 Tbps co-packaged optics modules",
+  "year": 2023,
+  "venue": "Optical Interconnects XXIII",
+  "authors": [
+   "Hirotaka Uemura",
+   "Naoki Matsui",
+   "Reona Motoji",
+   "Dan Maeda",
+   "Tomoya Sugita"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.1109/hcs66204.2025.11154405": {
+  "doi": "10.1109/hcs66204.2025.11154405",
+  "title": "Co-Packaged Silicon Photonics Switches for Gigawatt AI Factories",
+  "year": 2025,
+  "venue": "2025 IEEE Hot Chips 37 Symposium (HCS)",
+  "authors": [
+   "Gilad Shainer"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.3030/101070178": {
+  "doi": "10.3030/101070178",
+  "title": "",
+  "year": 2023,
+  "venue": "",
+  "authors": [],
+  "type": "grant",
+  "cited": null
+ },
+ "10.1109/siphotonics60897.2024.10543558": {
+  "doi": "10.1109/siphotonics60897.2024.10543558",
+  "title": "430nm optical transceiver on CMOS using 304 μLEDs with aggregate 1 Tbps and sub-pJ per bit capability",
+  "year": 2024,
+  "venue": "2024 IEEE Silicon Photonics Conference (SiPhotonics)",
+  "authors": [
+   "Bardia Pezeshki"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1364/acpc.2020.s3d.3": {
+  "doi": "10.1364/acpc.2020.s3d.3",
+  "title": "100 Gb/s PSM-4 Silicon Photonics Transceiver for Intra-Datacenter on a 200-mm Wafer",
+  "year": 2020,
+  "venue": "Asia Communications and Photonics Conference/International Conference on Information Photonics and Optical Communications 2020 (ACP/IPOC)",
+  "authors": [
+   "Zhipeng Hu",
+   "Sizhu Shao",
+   "Zhixiong Xiao",
+   "Xingguo Zhu",
+   "Yue Wu",
+   "Junbo Feng",
+   "Jin Guo"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1201/9781003337829-10": {
+  "doi": "10.1201/9781003337829-10",
+  "title": "Silicon Photonics Based PAM4, DWDM Datacenter Interconnects",
+  "year": 2022,
+  "venue": "Datacenter Connectivity Technologies",
+  "authors": [
+   "Radhakrishnan Nagarajan",
+   "Mark Filer"
+  ],
+  "type": "book-chapter",
+  "cited": 0
+ },
+ "10.1364/ofc.2015.w3a.4": {
+  "doi": "10.1364/ofc.2015.w3a.4",
+  "title": "Silicon Photonics for the Datacenter",
+  "year": 2015,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Bert J. Offrein"
+  ],
+  "type": "proceedings-article",
+  "cited": 5
+ },
+ "10.1109/oic.2014.6886110": {
+  "doi": "10.1109/oic.2014.6886110",
+  "title": "Reducing energy per delivered bit in silicon photonic interconnection networks",
+  "year": 2014,
+  "venue": "2014 Optical Interconnects Conference",
+  "authors": [
+   "Ke Wen",
+   "Sebastien Rumley",
+   "Keren Bergman"
+  ],
+  "type": "proceedings-article",
+  "cited": 1
+ },
+ "10.1109/ipc48725.2021.9592911": {
+  "doi": "10.1109/ipc48725.2021.9592911",
+  "title": "Attojoule-per-bit electrical energy consumption optical modulators at 4K and 300K through energy harvesting",
+  "year": 2021,
+  "venue": "2021 IEEE Photonics Conference (IPC)",
+  "authors": [
+   "Marc de Cea",
+   "Rajeev J. Ram"
+  ],
+  "type": "proceedings-article",
+  "cited": 0
+ },
+ "10.12681/eadd/47587": {
+  "doi": "10.12681/eadd/47587",
+  "title": "Silicon photonics for routing and transceiver systems in WDM chip-to-chip optical interconnects",
+  "year": null,
+  "venue": "",
+  "authors": [
+   "Στυλιανός Πίτρης"
+  ],
+  "type": "dissertation",
+  "cited": 0
+ },
+ "10.1109/avfop.2007.4365754": {
+  "doi": "10.1109/avfop.2007.4365754",
+  "title": "Performance Testing of Bit-Enabled Aerospace Transceiver",
+  "year": 2007,
+  "venue": "2007 IEEE Avionics, Fiber-Optics and Photonics Technology Conference",
+  "authors": [
+   "Charlie Kuznia"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1007/1-4020-8041-7_4": {
+  "doi": "10.1007/1-4020-8041-7_4",
+  "title": "Block-Level Placement and Routing",
+  "year": null,
+  "venue": "Regular Fabrics in Deep Sub-Micron Integrated-Circuit Design",
+  "authors": [],
+  "type": "book-chapter",
+  "cited": 0
+ },
+ "10.1109/dac.1986.1586104": {
+  "doi": "10.1109/dac.1986.1586104",
+  "title": "Integrated Placement/Routing in Sliced Layouts",
+  "year": 1986,
+  "venue": "23rd ACM/IEEE Design Automation Conference",
+  "authors": [
+   "A.A. Szepieniec"
+  ],
+  "type": "proceedings-article",
+  "cited": 2
+ },
+ "10.1109/dac.2007.375125": {
+  "doi": "10.1109/dac.2007.375125",
+  "title": "IPR: An Integrated Placement and Routing Algorithm",
+  "year": 2007,
+  "venue": "2007 44th ACM/IEEE Design Automation Conference",
+  "authors": [
+   "Min Pan",
+   "Chris Chu"
+  ],
+  "type": "proceedings-article",
+  "cited": 3
+ },
+ "10.1145/318013.318060": {
+  "doi": "10.1145/318013.318060",
+  "title": "Integrated placement/routing in sliced layouts",
+  "year": 1986,
+  "venue": "Proceedings of the 23rd ACM/IEEE conference on Design automation  - DAC '86",
+  "authors": [
+   "Antoni A. Szepieniec"
+  ],
+  "type": "proceedings-article",
+  "cited": 5
+ },
+ "10.31274/rtd-180816-214": {
+  "doi": "10.31274/rtd-180816-214",
+  "title": "An integrated placement and routing approach",
+  "year": null,
+  "venue": "",
+  "authors": [
+   "Min Pan"
+  ],
+  "type": "dissertation",
+  "cited": 0
+ },
+ "10.1016/b978-187870750-5/50003-4": {
+  "doi": "10.1016/b978-187870750-5/50003-4",
+  "title": "Basic Circuit Board Placement and Routing Considerations",
+  "year": 2002,
+  "venue": "Fabricating Printed Circuit Boards",
+  "authors": [
+   "Jon Varteresian"
+  ],
+  "type": "book-chapter",
+  "cited": 0
+ },
+ "10.1109/dac.1988.14737": {
+  "doi": "10.1109/dac.1988.14737",
+  "title": "Chip-planning, placement, and global routing of macro/custom cell integrated circuits using simulated annealing",
+  "year": null,
+  "venue": "25th ACM/IEEE, Design Automation Conference.Proceedings 1988.",
+  "authors": [
+   "C. Sechen"
+  ],
+  "type": "proceedings-article",
+  "cited": 59
+ },
+ "10.1145/1278480.1278496": {
+  "doi": "10.1145/1278480.1278496",
+  "title": "IPR",
+  "year": 2007,
+  "venue": "Proceedings of the 44th annual conference on Design automation - DAC '07",
+  "authors": [
+   "Min Pan",
+   "Chris Chu"
+  ],
+  "type": "proceedings-article",
+  "cited": 47
+ }
+}

@@ -1,0 +1,1799 @@
+{
+ "Bends in optical dielectric guides Marcatili": [
+  {
+   "doi": "10.1002/j.1538-7305.1969.tb01167.x",
+   "title": "Bends in Optical Dielectric Guides",
+   "year": 1969,
+   "venue": "Bell System Technical Journal",
+   "authors": [
+    "E. A. J. Marcatili"
+   ],
+   "type": "journal-article",
+   "cited": 457
+  },
+  {
+   "doi": "10.1364/iopt.1976.tub6",
+   "title": "Wave Characteristics of Bends in Dielectric Guides",
+   "year": 1976,
+   "venue": "Integrated Optics",
+   "authors": [
+    "M. Heiblum",
+    "J. H. Harris"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/jqe.1986.1073042",
+   "title": "Improved coupled-mode equations for dielectric guides",
+   "year": 1986,
+   "venue": "IEEE Journal of Quantum Electronics",
+   "authors": [
+    "E. Marcatili"
+   ],
+   "type": "journal-article",
+   "cited": 251
+  },
+  {
+   "doi": "10.1007/bf00619322",
+   "title": "Radiation loss in bends of diffused optical stripe guides",
+   "year": 1975,
+   "venue": "Optical and Quantum Electronics",
+   "authors": [
+    "A. Gedeon",
+    "B. Carnstam"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1007/978-3-540-39452-5_39",
+   "title": "Greatly Reduced Losses for Small-Radius Bends in Ti:LiNbO3 Waveguides",
+   "year": 1985,
+   "venue": "Springer Series in Optical Sciences",
+   "authors": [
+    "S. K. Korotky",
+    "E. A. J. Marcatili",
+    "J. J. Veselka",
+    "R. H. Bosworth"
+   ],
+   "type": "book-chapter",
+   "cited": 2
+  },
+  {
+   "doi": "10.1023/a:1018574610337",
+   "title": "Lowest-order mode transmission in multimode dielectric S-bends",
+   "year": 1997,
+   "venue": "Optical and Quantum Electronics",
+   "authors": [
+    "M. Rivera"
+   ],
+   "type": "journal-article",
+   "cited": 1
+  }
+ ],
+ "Dielectric rectangular waveguide and directional coupler for integrated optics Marcatili": [
+  {
+   "doi": "10.1002/j.1538-7305.1969.tb01166.x",
+   "title": "Dielectric Rectangular Waveguide and Directional Coupler for Integrated Optics",
+   "year": 1969,
+   "venue": "Bell System Technical Journal",
+   "authors": [
+    "E. A. J. Marcatili"
+   ],
+   "type": "journal-article",
+   "cited": 1370
+  },
+  {
+   "doi": "10.1364/iopt.1976.md3",
+   "title": "A New Method for Measuring Parallel Waveguide Directional Coupler Parameters",
+   "year": 1976,
+   "venue": "Integrated Optics",
+   "authors": [
+    "R. D. Standley",
+    "V. Ramaswamy"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/igwo.1978.tua3",
+   "title": "Tunable Optical Waveguide Directional Coupler Filter",
+   "year": 1978,
+   "venue": "Integrated and Guided Wave Optics",
+   "authors": [
+    "R. C. Alferness",
+    "R. V. Schmidt"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ol.8.000499",
+   "title": "Expressions for the coupling coefficient of a rectangular-waveguide directional coupler",
+   "year": 1983,
+   "venue": "Optics Letters",
+   "authors": [
+    "M. Kuznetsov"
+   ],
+   "type": "journal-article",
+   "cited": 27
+  },
+  {
+   "doi": "10.1364/igwo.1978.wd2",
+   "title": "A Novel Leaky-Wave Strip Waveguide Directional Coupler",
+   "year": 1978,
+   "venue": "Integrated and Guided Wave Optics",
+   "authors": [
+    "E-W. Hu",
+    "S.T. Peng",
+    "A. A. Oliner"
+   ],
+   "type": "proceedings-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.1364/igwo.1978.md3",
+   "title": "Branching Waveguide Directional Coupler in a GaAs/GaAlAs Injection Laser",
+   "year": 1978,
+   "venue": "Integrated and Guided Wave Optics",
+   "authors": [
+    "D. R. Scifres",
+    "R. D. Burnham",
+    "W. Streifer"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "Slit beam shaping method for femtosecond laser direct-write fabrication of symmetric waveguides in bulk glasses": [],
+ "Heat accumulation effects in femtosecond laser-written waveguides with variable repetition rate": [
+  {
+   "doi": "10.1364/opex.13.004708",
+   "title": "Heat accumulation effects in femtosecond laser-written waveguides with variable repetition rate",
+   "year": 2005,
+   "venue": "Optics Express",
+   "authors": [
+    "Shane M. Eaton",
+    "Haibin Zhang",
+    "Peter R. Herman",
+    "Fumiyo Yoshino",
+    "Lawrence Shah",
+    "James Bovatsek",
+    "Alan Y. Arai"
+   ],
+   "type": "journal-article",
+   "cited": 750
+  },
+  {
+   "doi": "10.1364/oe.16.009443",
+   "title": "Transition from thermal diffusion to heat accumulation in high repetition rate femtosecond laser writing of buried optical waveguides",
+   "year": 2008,
+   "venue": "Optics Express",
+   "authors": [
+    "Shane M. Eaton",
+    "Haibin Zhang",
+    "Mi Li Ng",
+    "Jianzhao Li",
+    "Wei-Jen Chen",
+    "Stephen Ho",
+    "Peter R. Herman"
+   ],
+   "type": "journal-article",
+   "cited": 339
+  },
+  {
+   "doi": "10.1364/ao.49.001938",
+   "title": "Inscription and characterization of waveguides written into borosilicate glass by a high-repetition-rate femtosecond laser at 800 nm",
+   "year": 2010,
+   "venue": "Applied Optics",
+   "authors": [
+    "Thomas Allsop",
+    "Mykhaylo Dubov",
+    "Vladimir Mezentsev",
+    "Ian Bennion"
+   ],
+   "type": "journal-article",
+   "cited": 25
+  },
+  {
+   "doi": "10.1364/fio.2018.jtu3a.34",
+   "title": "High-repetition-rate Femtosecond-laser Inscription of Low-loss Thermally Stable Waveguides in Lithium Niobate",
+   "year": 2018,
+   "venue": "Frontiers in Optics / Laser Science",
+   "authors": [
+    "Teerawat Piromjitpong",
+    "Mykhaylo Dubov",
+    "Sonia Boscolo"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.apsusc.2026.166506",
+   "title": "High-repetition-rate femtosecond laser processing affected by heat accumulation effects for precision surface patterning of titanium",
+   "year": 2026,
+   "venue": "Applied Surface Science",
+   "authors": [
+    "Ju Wang",
+    "Qiang Zhou",
+    "Jianbing Li",
+    "Junwen Zheng",
+    "Mengjie Lv",
+    "Wei Liu",
+    "Ping Li"
+   ],
+   "type": "journal-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1007/s12596-018-0462-1",
+   "title": "Optical channel waveguides written by high repetition rate femtosecond laser irradiation in Li–Zn fluoroborate glass",
+   "year": 2018,
+   "venue": "Journal of Optics",
+   "authors": [
+    "Sunil Thomas",
+    "T. Toney Fernandez",
+    "Javier Solis",
+    "P. R. Biju",
+    "N. V. Unnikrishnan"
+   ],
+   "type": "journal-article",
+   "cited": 3
+  }
+ ],
+ "Effect of refractive index-mismatch on laser microfabrication in silica glass": [
+  {
+   "doi": "10.1007/s00339-002-1447-z",
+   "title": "Effect of refractive index-mismatch on laser microfabrication in silica glass",
+   "year": 2003,
+   "venue": "Applied Physics A: Materials Science &amp; Processing",
+   "authors": [
+    "A. Marcinkevičius",
+    "V. Mizeikis",
+    "S. Juodkazis",
+    "S. Matsuo",
+    "H. Misawa"
+   ],
+   "type": "journal-article",
+   "cited": 101
+  },
+  {
+   "doi": "10.2351/1.5060099",
+   "title": "Laser induced refractive index changes in aluminosilicate glass using femtosecond laser pulses",
+   "year": 2003,
+   "venue": "ICALEO 2003: 22nd International Congress on Laser Materials Processing and Laser Microfabrication",
+   "authors": [
+    "D. K. Y. Low",
+    "H. Qiu",
+    "Z. Xiong",
+    "G. C. Lim"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.486550",
+   "title": "Polarization dependence of refractive-index change in silica glass induced by self-trapped filament of femtosecond laser pulses",
+   "year": 2003,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Kazuhiro Yamada",
+    "Wataru Watanabe",
+    "Taishi Asano",
+    "Junji Nishii",
+    "Kazuyoshi Itoh"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.2351/1.5066125",
+   "title": "Reliable refractive-index adjustment in Ge-doped silica-core planar\n          waveguides by high-repetition rate femtosecond laser pulses",
+   "year": 2002,
+   "venue": "ICALEO 2002: 21st International Congress on Laser Materials Processing and Laser Microfabrication",
+   "authors": [
+    "Kunihiko Washio",
+    "Hikaru Kouta",
+    "Yutaka Urino",
+    "Kazuyuki Hirao"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.51202/9783959009713",
+   "title": "A Method to Mitigate Refractive Index Mismatch Artefacts for Scanning Laser Optical Tomography",
+   "year": 2024,
+   "venue": "",
+   "authors": [
+    "Ole Hill"
+   ],
+   "type": "monograph",
+   "cited": 0
+  },
+  {
+   "doi": "10.51202/9783959009713-59",
+   "title": "5 Dejitter for RI Mismatch Acquisitions",
+   "year": 2024,
+   "venue": "A Method to Mitigate Refractive Index Mismatch Artefacts for Scanning Laser Optical Tomography",
+   "authors": [
+    "Ole Hill"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  }
+ ],
+ "femtosecond laser written waveguide bend loss curvature": [
+  {
+   "doi": "10.1038/s41598-021-03116-y",
+   "title": "Low bend loss femtosecond laser written waveguides exploiting integrated microcrack",
+   "year": 2021,
+   "venue": "Scientific Reports",
+   "authors": [
+    "Timothy Lee",
+    "Qi Sun",
+    "Martynas Beresna",
+    "Gilberto Brambilla"
+   ],
+   "type": "journal-article",
+   "cited": 32
+  },
+  {
+   "doi": "10.1364/assl.2021.ath2a.7",
+   "title": "Femtosecond Laser Written Tm3+:BaY2F8 Waveguide Laser Operating Near 1.9 µm",
+   "year": 2021,
+   "venue": "Laser Congress 2021 (ASSL,LAC)",
+   "authors": [
+    "Yagiz Morova",
+    "Mauro Tonelli",
+    "Alphan Sennaroglu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.ijleo.2021.168308",
+   "title": "Laser action from a femtosecond laser written Yb: phosphate glass waveguide",
+   "year": 2022,
+   "venue": "Optik",
+   "authors": [
+    "Xuewen Long",
+    "Jing Bai"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1364/assl.2023.sd1.3",
+   "title": "Femtosecond Laser Written Er3+:YLiF4 Channeled Waveguide Laser at 2.8 μm",
+   "year": 2023,
+   "venue": "Laser Congress 2023 (ASSL, LAC)",
+   "authors": [
+    "Berke Ayevi",
+    "Yagiz Morova",
+    "Mauro Tonelli",
+    "Alphan Sennaroglu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.optlastec.2022.108154",
+   "title": "Curvature sensor based on femtosecond laser-inscribed straight waveguide in FMF",
+   "year": 2022,
+   "venue": "Optics &amp; Laser Technology",
+   "authors": [
+    "Rong Zhao",
+    "Xuewen Shu"
+   ],
+   "type": "journal-article",
+   "cited": 14
+  },
+  {
+   "doi": "10.2139/ssrn.4690486",
+   "title": "A Low Loss Silicon Waveguide Bend Based on Width and Curvature Variations",
+   "year": 2024,
+   "venue": "",
+   "authors": [
+    "Yue Zhou",
+    "Yaohui Sun",
+    "Haoyu Wu",
+    "Mengjia Lu",
+    "Guohua Hu",
+    "Binfeng Yun",
+    "Yiping Cui"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  }
+ ],
+ "femtosecond laser waveguide crossings glass low loss": [
+  {
+   "doi": "10.3788/col202321.112201",
+   "title": "Femtosecond laser writing of low-loss three-dimensional waveguide coupler in LiNbO3 crystal",
+   "year": 2023,
+   "venue": "Chinese Optics Letters",
+   "authors": [
+    "Jinman Lü",
+    "Ge Li",
+    "Yujie Ma",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1002/adpr.70241",
+   "title": "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique",
+   "year": 2026,
+   "venue": "Advanced Photonics Research",
+   "authors": [
+    "Fengrui Yu",
+    "Lin Ma",
+    "Mingjing Xu",
+    "Xiaoke Chen",
+    "Jinhua Wu",
+    "Zuyuan He"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.ijleo.2021.168308",
+   "title": "Laser action from a femtosecond laser written Yb: phosphate glass waveguide",
+   "year": 2022,
+   "venue": "Optik",
+   "authors": [
+    "Xuewen Long",
+    "Jing Bai"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.2139/ssrn.4670013",
+   "title": "Strong Line-by-Line Waveguide Bragg Gratings Inscribed in Bulk Glass Using Femtosecond Laser",
+   "year": 2023,
+   "venue": "",
+   "authors": [
+    "Jiaming Wu",
+    "Rong Zhao",
+    "Xuewen Shu"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.20.003832",
+   "title": "Low loss depressed cladding waveguide inscribed in YAG:Nd single crystal by femtosecond laser pulses",
+   "year": 2012,
+   "venue": "Optics Express",
+   "authors": [
+    "Andrey Okhrimchuk",
+    "Vladimir Mezentsev",
+    "Alexander Shestakov",
+    "Ian Bennion"
+   ],
+   "type": "journal-article",
+   "cited": 131
+  },
+  {
+   "doi": "10.1364/cleo_at.2024.jtu2a.178",
+   "title": "Broadband Filters Based on Tilted Waveguide Bragg Gratings Written in Bulk Glass by Femtosecond Laser",
+   "year": 2024,
+   "venue": "CLEO 2024",
+   "authors": [
+    "Jiaming Wu",
+    "Xuewen Shu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "three-dimensional photonic integrated circuits femtosecond laser direct writing": [
+  {
+   "doi": "10.1117/12.2286799",
+   "title": "Photoinduced functional materials by femtosecond laser direct writing",
+   "year": 2018,
+   "venue": "Smart Photonic and Optoelectronic Integrated Circuits XX",
+   "authors": [
+    "Yasuhiko Shimotsuma",
+    "Masaaki Sakakura",
+    "Kiyotaka Miura",
+    "Masahiro Shimizu",
+    "Yuta Nakanishi"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1051/photon/202412539",
+   "title": "Photonic integrated circuits through femtosecond laser waveguide writing in glass",
+   "year": 2024,
+   "venue": "Photoniques",
+   "authors": [
+    "Francesco Ceccarelli",
+    "Roberto Osellame"
+   ],
+   "type": "journal-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1117/1.ap.7.3.034002",
+   "title": "Recent advances in femtosecond laser direct writing of three-dimensional periodic photonic structures in transparent materials",
+   "year": 2025,
+   "venue": "Advanced Photonics",
+   "authors": [
+    "Bin Zhang",
+    "Wenchao Yan",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 68
+  },
+  {
+   "doi": "10.3390/photonics13080731",
+   "title": "Reconfigurable Photonic Integrated Circuits in Glass by Femtosecond Laser Writing and Laser-Induced Chemical Etching",
+   "year": 2026,
+   "venue": "Photonics",
+   "authors": [
+    "Philip Lichtenegger",
+    "Philipp Hurdax",
+    "Georg Spernbauer",
+    "Bernhard Lamprecht"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.688426",
+   "title": "Femtosecond laser writing of three-dimensional photonic crystals in polymer",
+   "year": 2006,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Min Gu",
+    "Guangyong Zhou"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.3027353",
+   "title": "Direct laser writing of volumetric photonic integrated circuits (VPICs) for optical and quantum computing",
+   "year": 2024,
+   "venue": "Active Photonic Platforms (APP) 2024",
+   "authors": [
+    "Paul V. Braun"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "Euler bend silicon photonics low loss waveguide": [
+  {
+   "doi": "10.1109/group4.2008.4638180",
+   "title": "Low loss sharp bend for silicon nanophotonic slow-light waveguide",
+   "year": 2008,
+   "venue": "2008 5th IEEE International Conference on Group IV Photonics",
+   "authors": [
+    "Huaxiang Yi",
+    "Yi Wang",
+    "Junbo Feng",
+    "Yao Chen",
+    "Zhiping Zhou"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1002/lpor.201300183",
+   "title": "Ultra-low loss waveguide platform and its integration with silicon photonics",
+   "year": 2014,
+   "venue": "Laser &amp; Photonics Reviews",
+   "authors": [
+    "Martijn J. R. Heck",
+    "Jared F. Bauters",
+    "Michael L. Davenport",
+    "Daryl T. Spencer",
+    "John E. Bowers"
+   ],
+   "type": "journal-article",
+   "cited": 174
+  },
+  {
+   "doi": "10.1364/oe.26.017680",
+   "title": "Low-loss and low-crosstalk multimode waveguide bend on silicon",
+   "year": 2018,
+   "venue": "Optics Express",
+   "authors": [
+    "Xiaohui Jiang",
+    "Hao Wu",
+    "Daoxin Dai"
+   ],
+   "type": "journal-article",
+   "cited": 194
+  },
+  {
+   "doi": "10.1109/ipc47351.2020.9252540",
+   "title": "Low-loss, Low-crosstalk Silicon Nitirde Array Waveguide Grating using Multimode Waveguide at 850nm",
+   "year": 2020,
+   "venue": "2020 IEEE Photonics Conference (IPC)",
+   "authors": [
+    "Jaegyu Park",
+    "Jiho Joo",
+    "Gyungock Kim"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.2610022",
+   "title": "Ultra-low loss waveguide platform in silicon photonics",
+   "year": 2022,
+   "venue": "Silicon Photonics XVII",
+   "authors": [
+    "Arijit Bera",
+    "Yisbel Marin",
+    "Mikko Harjanne",
+    "Matteo Cherchi",
+    "Timo Aalto"
+   ],
+   "type": "proceedings-article",
+   "cited": 13
+  },
+  {
+   "doi": "10.1364/iprsn.2014.im3a.6",
+   "title": "Bend Loss Reduction of a Buried Waveguide on a Silicon Substrate by Adjusting the Core Location",
+   "year": 2014,
+   "venue": "Advanced Photonics for Communications",
+   "authors": [
+    "Yuta Nito",
+    "Baku Yatabe",
+    "Junji Yamauchi",
+    "Hisamatsu Nakano"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  }
+ ],
+ "curvature-aware routing photonic integrated circuits waveguide": [
+  {
+   "doi": "10.21203/rs.3.rs-1652266/v1",
+   "title": "Optimizing Bend-Loss in Optical Waveguide Channel Routing on Photonic Integrated Circuits",
+   "year": 2022,
+   "venue": "",
+   "authors": [
+    "Sumit Sharma",
+    "Sudip Roy"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1021/acsnano.1c04359.s001",
+   "title": "High-Performance Waveguide-Integrated Bi2O2Se Photodetector for Si Photonic Integrated Circuits",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.12681/eadd/54404",
+   "title": "Photonic integrated circuits for routing and computing applications",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Απόστολος Τσακυρίδης"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.1007/s10825-022-01989-4",
+   "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+   "year": 2022,
+   "venue": "Journal of Computational Electronics",
+   "authors": [
+    "Sumit Sharma",
+    "Sudip Roy"
+   ],
+   "type": "journal-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.3990/1.9789036548038",
+   "title": "Integrated programmable waveguide circuits for classical and quantum photonic processing",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Caterina Taballione"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.1145/3698364.3705355",
+   "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+   "year": 2025,
+   "venue": "Proceedings of the 2025 International Symposium on Physical Design",
+   "authors": [
+    "Hongjian Zhou",
+    "Keren Zhu",
+    "Jiaqi Gu"
+   ],
+   "type": "proceedings-article",
+   "cited": 7
+  }
+ ],
+ "automated waveguide routing photonic integrated circuit algorithm": [
+  {
+   "doi": "10.1021/acsphotonics.6c00422.s001",
+   "title": "Photonic Waveguide Circuit Integrated with Carbon Nanotube Single-Photon Source Operating at Room Temperature",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1145/3698364.3705355",
+   "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+   "year": 2025,
+   "venue": "Proceedings of the 2025 International Symposium on Physical Design",
+   "authors": [
+    "Hongjian Zhou",
+    "Keren Zhu",
+    "Jiaqi Gu"
+   ],
+   "type": "proceedings-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1117/12.3007419",
+   "title": "A graph-based global routing method for single photonic integrated circuit waveguide connection",
+   "year": 2023,
+   "venue": "AOPC 2023: AI in Optics and Photonics",
+   "authors": [
+    "Xiaojuan Yang",
+    "Guowei Cao",
+    "Jiyao Yu",
+    "Yu Li"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.21203/rs.3.rs-1652266/v1",
+   "title": "Optimizing Bend-Loss in Optical Waveguide Channel Routing on Photonic Integrated Circuits",
+   "year": 2022,
+   "venue": "",
+   "authors": [
+    "Sumit Sharma",
+    "Sudip Roy"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.1063/1.5050759",
+   "title": "Semiconductor based nano-waveguide for application in photonic integrated circuit",
+   "year": 2018,
+   "venue": "AIP Conference Proceedings",
+   "authors": [
+    "Abinash Panda",
+    "Partha Sarkar",
+    "G. Palai"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.2529/piers080903204711",
+   "title": "Recognition of Wavelength-multiplexed Labels with Acoustooptic Waveguide Circuit for Hierarchical Photonic Routing",
+   "year": 2009,
+   "venue": "PIERS Online",
+   "authors": [
+    "Nobuo Goto",
+    "Yasumitsu Miyazaki"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  }
+ ],
+ "Ultra-low crosstalk and low-loss multi-core fiber design fabrication Hayashi": [
+  {
+   "doi": "10.1364/oe.19.016576",
+   "title": "Design and fabrication of ultra-low crosstalk and low-loss multi-core fiber",
+   "year": 2011,
+   "venue": "Optics Express",
+   "authors": [
+    "Tetsuya Hayashi",
+    "Toshiki Taru",
+    "Osamu Shimakawa",
+    "Takashi Sasaki",
+    "Eisuke Sasaoka"
+   ],
+   "type": "journal-article",
+   "cited": 542
+  },
+  {
+   "doi": "10.1364/oe.27.012517",
+   "title": "Design and fabrication of ultra-low crosstalk and low-loss multi-core fiber: erratum",
+   "year": 2019,
+   "venue": "Optics Express",
+   "authors": [
+    "Tetsuya Hayashi",
+    "Toshiki Taru",
+    "Osamu Shimakawa",
+    "Takashi Sasaki",
+    "Eisuke Sasaoka"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1364/ofc.2011.owj3",
+   "title": "Low-Crosstalk and Low-Loss Multi-Core Fiber Utilizing Fiber Bend",
+   "year": 2011,
+   "venue": "Optical Fiber Communication Conference/National Fiber Optic Engineers Conference 2011",
+   "authors": [
+    "Tetsuya Hayashi",
+    "Toshiki Taru",
+    "Osamu Shimakawa",
+    "Takashi Sasaki",
+    "Eisuke Sasaoka"
+   ],
+   "type": "proceedings-article",
+   "cited": 43
+  },
+  {
+   "doi": "10.1364/ofc.2011.pdpc2",
+   "title": "Ultra-Low-Crosstalk Multi-Core Fiber Feasible to Ultra-Long-Haul Transmission",
+   "year": 2011,
+   "venue": "Optical Fiber Communication Conference/National Fiber Optic Engineers Conference 2011",
+   "authors": [
+    "Tetsuya Hayashi",
+    "Toshiki Taru",
+    "Osamu Shimakawa",
+    "Takashi Sasaki",
+    "Eisuke Sasaoka"
+   ],
+   "type": "proceedings-article",
+   "cited": 17
+  },
+  {
+   "doi": "10.1364/nfoec.2011.pdpc2",
+   "title": "Ultra-Low-Crosstalk Multi-Core Fiber Feasible to Ultra-Long-Haul Transmission",
+   "year": 2011,
+   "venue": "Optical Fiber Communication Conference/National Fiber Optic Engineers Conference 2011",
+   "authors": [
+    "Tetsuya Hayashi",
+    "Toshiki Taru",
+    "Osamu Shimakawa",
+    "Takashi Sasaki",
+    "Eisuke Sasaoka"
+   ],
+   "type": "proceedings-article",
+   "cited": 21
+  },
+  {
+   "doi": "10.1364/cleo_si.2012.cth4g.3",
+   "title": "Ultra-Low-Crosstalk Multi-Core Fiber Realizing Space-Division Multiplexed Ultra-Long-Haul Transmission",
+   "year": 2012,
+   "venue": "Conference on Lasers and Electro-Optics 2012",
+   "authors": [
+    "Tetsuya Hayashi",
+    "Toshiki Taru",
+    "Osamu Shimakawa",
+    "Takashi Sasaki",
+    "Eisuke Sasaoka"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  }
+ ],
+ "Femtosecond optical breakdown in dielectrics Lenzner": [
+  {
+   "doi": "10.1103/physrevlett.80.4076",
+   "title": "Femtosecond Optical Breakdown in Dielectrics",
+   "year": 1998,
+   "venue": "Physical Review Letters",
+   "authors": [
+    "M. Lenzner",
+    "J. Krüger",
+    "S. Sartania",
+    "Z. Cheng",
+    "Ch. Spielmann",
+    "G. Mourou",
+    "W. Kautek",
+    "F. Krausz"
+   ],
+   "type": "journal-article",
+   "cited": 818
+  },
+  {
+   "doi": "10.1142/s0217979299001570",
+   "title": "FEMTOSECOND LASER-INDUCED DAMAGE OF DIELECTRICS",
+   "year": 1999,
+   "venue": "International Journal of Modern Physics B",
+   "authors": [
+    "M. LENZNER"
+   ],
+   "type": "journal-article",
+   "cited": 56
+  },
+  {
+   "doi": "10.1103/physrevlett.83.5182",
+   "title": "Comment on “Ultrafast Electron Dynamics in Femtosecond Optical Breakdown of Dielectrics”",
+   "year": 1999,
+   "venue": "Physical Review Letters",
+   "authors": [
+    "Guillaume Petite",
+    "Stéphane Guizard",
+    "Philippe Martin",
+    "Fabien Quéré"
+   ],
+   "type": "journal-article",
+   "cited": 34
+  },
+  {
+   "doi": "10.1109/icton.2014.6876397",
+   "title": "Femtosecond laser processing of alloys",
+   "year": 2014,
+   "venue": "2014 16th International Conference on Transparent Optical Networks (ICTON)",
+   "authors": [
+    "Matthias Lenzner",
+    "Zhanliang Sun",
+    "Wolfgang Rudolph"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1103/physrevlett.82.2394",
+   "title": "Ultrafast Electron Dynamics in Femtosecond Optical Breakdown of Dielectrics",
+   "year": 1999,
+   "venue": "Physical Review Letters",
+   "authors": [
+    "Ming Li",
+    "Saipriya Menon",
+    "John P. Nibarger",
+    "George N. Gibson"
+   ],
+   "type": "journal-article",
+   "cited": 208
+  },
+  {
+   "doi": "10.1007/978-0-387-34755-4_11",
+   "title": "Laser-Induced Optical Breakdown in Solids",
+   "year": 2008,
+   "venue": "Springer Series in Optical Sciences",
+   "authors": [
+    "Matthias Lenzner",
+    "Wolfgang Rudolph"
+   ],
+   "type": "book-chapter",
+   "cited": 6
+  }
+ ],
+ "Optical ablation by high-power short-pulse lasers Stuart": [
+  {
+   "doi": "10.1364/josab.13.000459",
+   "title": "Optical ablation by high-power short-pulse lasers",
+   "year": 1996,
+   "venue": "Journal of the Optical Society of America B",
+   "authors": [
+    "B. C. Stuart",
+    "M. D. Feit",
+    "S. Herman",
+    "A. M. Rubenchik",
+    "B. W. Shore",
+    "M. D. Perry"
+   ],
+   "type": "journal-article",
+   "cited": 611
+  },
+  {
+   "doi": "10.1117/12.2523888",
+   "title": "Gratings for high-peak and high average-power lasers (Conference Presentation)",
+   "year": 2019,
+   "venue": "Short-pulse High-energy Lasers and Ultrafast Optical Technologies",
+   "authors": [
+    "Catherine Le Blanc"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1117/12.2520134",
+   "title": "Peak power measurement of nanoscale short-pulse laser",
+   "year": 2019,
+   "venue": "Short-pulse High-energy Lasers and Ultrafast Optical Technologies",
+   "authors": [
+    "Yan Sun",
+    "Jiaxin Li",
+    "Min Huang",
+    "Zhanchao Wang"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/hfsw.2001.tub3",
+   "title": "Study on ultra-short-pulse high-power optical laser driven x-ray lasers at SIOM",
+   "year": 2001,
+   "venue": "Applications of High Field and Short Wavelength Sources IX",
+   "authors": [
+    "Ruxin Li",
+    "Zhizhan Xu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1201/9781003069607-20",
+   "title": "Short-pulse generation in iodine photodissociation lasers",
+   "year": 2020,
+   "venue": "High-power Gas Lasers, 1975",
+   "authors": [
+    "H J Baker"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1007/s10103-003-0267-5",
+   "title": "Soft and hard tissue ablation with short-pulse high peak power and continuous thulium-silica fibre lasers",
+   "year": 2003,
+   "venue": "Lasers in Medical Science",
+   "authors": [
+    "A. F. El-Sherif",
+    "T. A. King"
+   ],
+   "type": "journal-article",
+   "cited": 71
+  }
+ ],
+ "Femtosecond laser micromachining photonic devices review Della Valle Osellame": [
+  {
+   "doi": "10.1007/978-3-642-23366-1_10",
+   "title": "Active Photonic Devices",
+   "year": 2011,
+   "venue": "Topics in Applied Physics",
+   "authors": [
+    "Giuseppe Della Valle",
+    "Roberto Osellame"
+   ],
+   "type": "book-chapter",
+   "cited": 1
+  },
+  {
+   "doi": "10.1088/1464-4258/11/1/013001",
+   "title": "Micromachining of photonic devices by femtosecond laser pulses",
+   "year": 2008,
+   "venue": "Journal of Optics A: Pure and Applied Optics",
+   "authors": [
+    "G Della Valle",
+    "R Osellame",
+    "P Laporta"
+   ],
+   "type": "journal-article",
+   "cited": 303
+  },
+  {
+   "doi": "10.1088/1464-4258/11/4/049801",
+   "title": "Micromachining of photonic devices by femtosecond laser pulses",
+   "year": 2009,
+   "venue": "Journal of Optics A: Pure and Applied Optics",
+   "authors": [
+    "G Della Valle",
+    "R Osellame",
+    "P Laporta"
+   ],
+   "type": "journal-article",
+   "cited": 27
+  },
+  {
+   "doi": "10.1007/978-3-642-23366-1",
+   "title": "Femtosecond Laser Micromachining",
+   "year": 2012,
+   "venue": "Topics in Applied Physics",
+   "authors": [],
+   "type": "book",
+   "cited": 263
+  },
+  {
+   "doi": "10.1007/978-3-642-23366-1_1",
+   "title": "Fundamentals of Femtosecond Laser Modification of Bulk Dielectrics",
+   "year": 2011,
+   "venue": "Topics in Applied Physics",
+   "authors": [
+    "Shane M. Eaton",
+    "Giulio Cerullo",
+    "Roberto Osellame"
+   ],
+   "type": "book-chapter",
+   "cited": 33
+  },
+  {
+   "doi": "10.1364/fio.2005.fwb3",
+   "title": "Photonic Devices Written in Glasses with Femtosecond Laser Systems",
+   "year": 2005,
+   "venue": "Frontiers in Optics",
+   "authors": [
+    "Roberto Osellame",
+    "Nicola Chiodo",
+    "Valeria Maselli",
+    "Giuseppe Della Valle",
+    "Stefano Taccheo",
+    "Giulio Cerullo",
+    "Roberta Ramponi",
+    "Paolo Laporta"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "multilayer optical waveguide routing three-dimensional interconnect": [
+  {
+   "doi": "10.14711/thesis-b842092",
+   "title": "Integrated silicon optical bench with passive alignment features for three-dimensional optical interconnect",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Chi Chuen Lo"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/lpt.2018.2825643",
+   "title": "3-D Multilayer S-Bend Silicon Waveguide Optical Interconnect",
+   "year": 2018,
+   "venue": "IEEE Photonics Technology Letters",
+   "authors": [
+    "Vikash Kumar",
+    "Vishnu Priye"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1364/ods.1994.tud4",
+   "title": "New Three-Dimensional Optical Storage-A Multilayer Architecture",
+   "year": 1994,
+   "venue": "Optical Data Storage",
+   "authors": [
+    "Le Li",
+    "Sadeg M. Faris",
+    "Farhad Zarinetchi"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.2184/lsj.26.144",
+   "title": "Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material. Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material.",
+   "year": 1998,
+   "venue": "The Review of Laser Engineering",
+   "authors": [
+    "Osamu MATOBA",
+    "Tsutomu SHIMURA",
+    "Kazuo KURODA"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1049/el.2009.3588",
+   "title": "Three-dimensional interconnect for multilayer module packages with selectively anodised aluminium substrate",
+   "year": 2009,
+   "venue": "Electronics Letters",
+   "authors": [
+    "S.K. Yeo",
+    "Y.S. Kwon"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/fio.2017.jw4a.44",
+   "title": "U -Bend Silicon Waveguide Interconnect for 3 D Multilayer Photonics Integrated Circuit",
+   "year": 2017,
+   "venue": "Frontiers in Optics 2017",
+   "authors": [
+    "Vishnu Priye",
+    "Vikash Kumar"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "design rule checking silicon photonics layout verification": [
+  {
+   "doi": "10.1145/800139.804537",
+   "title": "Design integrity and immunity checking",
+   "year": 1980,
+   "venue": "Proceedings of the seventeenth design automation conference on Design automation  - DAC '80",
+   "authors": [
+    "Edward J. McGrath",
+    "Telle Whitney"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1117/12.2290644",
+   "title": "Experimental verification of layout physical verification of silicon photonics",
+   "year": 2018,
+   "venue": "Silicon Photonics XIII",
+   "authors": [
+    "Raghi S. El Shamy",
+    "Mohamed Swillam"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/vlsi-soc.2014.7004173",
+   "title": "Silicon photonics design rule checking: Application of a programmable modeling engine for non-Manhattan geometry verification",
+   "year": 2014,
+   "venue": "2014 22nd International Conference on Very Large Scale Integration (VLSI-SoC)",
+   "authors": [
+    "Ruping Cao",
+    "John Ferguson",
+    "Fabien Gays",
+    "Youssef Drissi",
+    "Alexandre Arriordaz",
+    "Ian O'Connor"
+   ],
+   "type": "proceedings-article",
+   "cited": 9
+  },
+  {
+   "doi": "10.1109/icecs.2015.7440385",
+   "title": "Parameterized test patterns methodology for layout design rule checking verification",
+   "year": 2015,
+   "venue": "2015 IEEE International Conference on Electronics, Circuits, and Systems (ICECS)",
+   "authors": [
+    "Mohamed Tantawy",
+    "Rafik Guindi",
+    "Mohamed Dessouky",
+    "Mohamed Al-Imam"
+   ],
+   "type": "proceedings-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.1109/group4.2013.6644458",
+   "title": "Proposed best practices in silicon photonics layout vs. schematic physical verification",
+   "year": 2013,
+   "venue": "10th International Conference on Group IV Photonics",
+   "authors": [],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1117/12.2078357",
+   "title": "Toward new design-rule-check of silicon photonics for automated layout physical verifications",
+   "year": 2015,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Mohamed Ismail",
+    "Raghi S. El Shamy",
+    "Kareem Madkour",
+    "Sherif Hammouda",
+    "Mohamed A. Swillam"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "Fundamentals of Optical Waveguides Okamoto": [
+  {
+   "doi": "10.1016/b978-0-12-815601-8.50002-1",
+   "title": "Planar Optical Waveguides",
+   "year": 2022,
+   "venue": "Fundamentals of Optical Waveguides",
+   "authors": [
+    "Katsunari Okamoto"
+   ],
+   "type": "book-chapter",
+   "cited": 36
+  },
+  {
+   "doi": "10.1016/b978-012525096-2/50003-9",
+   "title": "Planar optical waveguides",
+   "year": 2006,
+   "venue": "Fundamentals of Optical Waveguides",
+   "authors": [
+    "Katsunari Okamoto"
+   ],
+   "type": "book-chapter",
+   "cited": 150
+  },
+  {
+   "doi": "10.1016/b978-012525096-2/50002-7",
+   "title": "Wave theory of optical waveguides",
+   "year": 2006,
+   "venue": "Fundamentals of Optical Waveguides",
+   "authors": [
+    "Katsunari Okamoto"
+   ],
+   "type": "book-chapter",
+   "cited": 37
+  },
+  {
+   "doi": "10.1016/b978-0-12-815601-8.50001-x",
+   "title": "Wave Theory of Optical Waveguides",
+   "year": 2022,
+   "venue": "Fundamentals of Optical Waveguides",
+   "authors": [
+    "Katsunari Okamoto"
+   ],
+   "type": "book-chapter",
+   "cited": 1
+  },
+  {
+   "doi": "10.1016/b978-012525096-2/50004-0",
+   "title": "Optical fibers",
+   "year": 2006,
+   "venue": "Fundamentals of Optical Waveguides",
+   "authors": [
+    "Katsunari Okamoto"
+   ],
+   "type": "book-chapter",
+   "cited": 10
+  },
+  {
+   "doi": "10.1016/b978-0-12-815601-8.50003-3",
+   "title": "Optical Fibers",
+   "year": 2022,
+   "venue": "Fundamentals of Optical Waveguides",
+   "authors": [
+    "Katsunari Okamoto"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  }
+ ],
+ "Optical Waveguide Theory Snyder Love": [
+  {
+   "doi": "10.1007/978-1-4613-2813-1",
+   "title": "Optical Waveguide Theory",
+   "year": 1984,
+   "venue": "",
+   "authors": [
+    "Allan W. Snyder",
+    "John D. Love"
+   ],
+   "type": "book",
+   "cited": 289
+  },
+  {
+   "doi": "10.1007/978-1-4613-2813-1_10",
+   "title": "Bends",
+   "year": 1983,
+   "venue": "Optical Waveguide Theory",
+   "authors": [
+    "Allan W. Snyder",
+    "John D. Love"
+   ],
+   "type": "book-chapter",
+   "cited": 2
+  },
+  {
+   "doi": "10.1007/978-1-4613-2813-1_25",
+   "title": "Bends",
+   "year": 1983,
+   "venue": "Optical Waveguide Theory",
+   "authors": [
+    "Allan W. Snyder",
+    "John D. Love"
+   ],
+   "type": "book-chapter",
+   "cited": 6
+  },
+  {
+   "doi": "10.1007/978-1-4613-2813-1_9",
+   "title": "Spatial transient",
+   "year": 1983,
+   "venue": "Optical Waveguide Theory",
+   "authors": [
+    "Allan W. Snyder",
+    "John D. Love"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1007/978-1-4613-2813-1_24",
+   "title": "Nonuniform fibers",
+   "year": 1983,
+   "venue": "Optical Waveguide Theory",
+   "authors": [
+    "Allan W. Snyder",
+    "John D. Love"
+   ],
+   "type": "book-chapter",
+   "cited": 1
+  },
+  {
+   "doi": "10.1007/978-1-4613-2813-1_7",
+   "title": "Material absorption",
+   "year": 1983,
+   "venue": "Optical Waveguide Theory",
+   "authors": [
+    "Allan W. Snyder",
+    "John D. Love"
+   ],
+   "type": "book-chapter",
+   "cited": 2
+  }
+ ],
+ "Fiber-Optic Communication Systems Agrawal": [
+  {
+   "doi": "10.1002/9780470918524",
+   "title": "Fiber‐Optic Communication Systems",
+   "year": 2010,
+   "venue": "",
+   "authors": [
+    "Govind P. Agrawal"
+   ],
+   "type": "monograph",
+   "cited": 763
+  },
+  {
+   "doi": "10.1002/9781119737391",
+   "title": "Fiber‐Optic Communication Systems",
+   "year": 2021,
+   "venue": "",
+   "authors": [
+    "Govind P Agrawal"
+   ],
+   "type": "monograph",
+   "cited": 161
+  },
+  {
+   "doi": "10.1002/0471221147",
+   "title": "Fiber‐Optic Communication Systems",
+   "year": 2002,
+   "venue": "",
+   "authors": [
+    "Govind P. Agrawal"
+   ],
+   "type": "monograph",
+   "cited": 1566
+  },
+  {
+   "doi": "10.1002/9780470152560.ch8",
+   "title": "Fiber Optic Communication Systems",
+   "year": 2007,
+   "venue": "Fiber Optic Essentials",
+   "authors": [],
+   "type": "other",
+   "cited": 3
+  },
+  {
+   "doi": "10.1117/1.oe.32.7.bkrvw2",
+   "title": "Book Review: Fiber-Optic Communication Systems. By Govind P. Agrawal",
+   "year": 1993,
+   "venue": "Optical Engineering",
+   "authors": [
+    "Robert W. Tkach"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ofc.2013.om3i.6",
+   "title": "Nonlinear Performance of SDM Systems Designed with Multimode or Multicore Fibers",
+   "year": 2013,
+   "venue": "Optical Fiber Communication Conference/National Fiber Optic Engineers Conference 2013",
+   "authors": [
+    "Govind P. Agrawal",
+    "Sami Mumtaz",
+    "René-Jean Essiambre"
+   ],
+   "type": "proceedings-article",
+   "cited": 11
+  }
+ ],
+ "Curves and Surfaces for CAGD Farin": [
+  {
+   "doi": "10.1016/b978-155860737-8/50008-9",
+   "title": "B-Spline Curves",
+   "year": 2002,
+   "venue": "Curves and Surfaces for CAGD",
+   "authors": [
+    "Gerald Farin"
+   ],
+   "type": "book-chapter",
+   "cited": 11
+  },
+  {
+   "doi": "10.1016/b978-155860737-8/50009-0",
+   "title": "Constructing Spline Curves",
+   "year": 2002,
+   "venue": "Curves and Surfaces for CAGD",
+   "authors": [
+    "Gerald Farin"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/b978-155860737-8/50016-8",
+   "title": "Composite Surfaces",
+   "year": 2002,
+   "venue": "Curves and Surfaces for CAGD",
+   "authors": [
+    "Gerald Farin"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/b978-155860737-8/50011-9",
+   "title": "Geometric Continuity",
+   "year": 2002,
+   "venue": "Curves and Surfaces for CAGD",
+   "authors": [
+    "Gerald Farin"
+   ],
+   "type": "book-chapter",
+   "cited": 1
+  },
+  {
+   "doi": "10.1016/b978-155860737-8/50020-x",
+   "title": "Geometric Continuity for Surfaces",
+   "year": 2002,
+   "venue": "Curves and Surfaces for CAGD",
+   "authors": [
+    "Gerald Farin"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/b978-155860737-8/50023-5",
+   "title": "Shape",
+   "year": 2002,
+   "venue": "Curves and Surfaces for CAGD",
+   "authors": [
+    "Gerald Farin"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  }
+ ],
+ "Algorithms for VLSI Physical Design Automation Sherwani": [
+  {
+   "doi": "10.1007/978-1-4615-2351-2_1",
+   "title": "VLSI Physical Design Automation",
+   "year": 1995,
+   "venue": "Algorithms for VLSI Physical Design Automation",
+   "authors": [
+    "Naveed Sherwani"
+   ],
+   "type": "book-chapter",
+   "cited": 3
+  },
+  {
+   "doi": "10.1007/978-1-4757-2219-2_1",
+   "title": "VLSI Physical Design Automation",
+   "year": 1993,
+   "venue": "Algorithms for VLSI Physical Design Automation",
+   "authors": [
+    "Naveed A. Sherwani"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1007/978-1-4615-2351-2",
+   "title": "Algorithms for VLSI Physical Design Automation",
+   "year": 1995,
+   "venue": "",
+   "authors": [
+    "Naveed Sherwani"
+   ],
+   "type": "book",
+   "cited": 140
+  },
+  {
+   "doi": "10.1007/978-1-4615-2351-2_12",
+   "title": "Physical Design Automation of MCMs",
+   "year": 1995,
+   "venue": "Algorithms for VLSI Physical Design Automation",
+   "authors": [
+    "Naveed Sherwani"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.1007/978-1-4757-2219-2",
+   "title": "Algorithms for VLSI Physical Design Automation",
+   "year": 1993,
+   "venue": "",
+   "authors": [
+    "Naveed A. Sherwani"
+   ],
+   "type": "book",
+   "cited": 160
+  },
+  {
+   "doi": "10.1007/978-1-4615-2351-2_11",
+   "title": "Physical Design Automation of FPGAs",
+   "year": 1995,
+   "venue": "Algorithms for VLSI Physical Design Automation",
+   "authors": [
+    "Naveed Sherwani"
+   ],
+   "type": "book-chapter",
+   "cited": 0
+  }
+ ],
+ "Wire routing by optimizing channel assignment within large apertures Hashimoto Stevens": [
+  {
+   "doi": "10.1145/62882.62884",
+   "title": "Wire routing by optimizing channel assignment within large apertures",
+   "year": 1988,
+   "venue": "Papers on Twenty-five years of electronic design automation",
+   "authors": [
+    "A. Hashimoto",
+    "J. Stevens"
+   ],
+   "type": "proceedings-article",
+   "cited": 6
+  },
+  {
+   "doi": "10.1145/800158.805069",
+   "title": "Wire routing by optimizing channel assignment within large apertures",
+   "year": 1971,
+   "venue": "Proceedings of the June 1971 design automation workshop on Design automation  - DAC '71",
+   "authors": [
+    "Akihiro Hashimoto",
+    "James Stevens"
+   ],
+   "type": "proceedings-article",
+   "cited": 410
+  },
+  {
+   "doi": "10.1109/9780470546376.ch3",
+   "title": "Channel Routing and Terminal Assignment",
+   "year": 2009,
+   "venue": "Routing in the Third Dimension",
+   "authors": [],
+   "type": "book-chapter",
+   "cited": 0
+  },
+  {
+   "doi": "10.58445/rars.4177",
+   "title": "Cooling-Aware Routing in Mixture-of-Experts Models: Optimizing Expert Assignment Under Routing-Deviation Constraints",
+   "year": 2026,
+   "venue": "",
+   "authors": [
+    "Shreyasi Saxena"
+   ],
+   "type": "posted-content",
+   "cited": 0
+  },
+  {
+   "doi": "10.5353/th_b4218205",
+   "title": "Channel assignment and routing in multi-channel multi-interface wireless networks",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Hon-sun Chiu"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  },
+  {
+   "doi": "10.14711/thesis-b842083",
+   "title": "Routing and channel assignment in optical and wireless networks",
+   "year": null,
+   "venue": "",
+   "authors": [
+    "Jingyi He"
+   ],
+   "type": "dissertation",
+   "cited": 0
+  }
+ ],
+ "A solution to line-routing problems on the continuous plane Hightower": [],
+ "femtosecond laser waveguide writing review low loss mid-infrared": [
+  {
+   "doi": "10.3788/col202321.112201",
+   "title": "Femtosecond laser writing of low-loss three-dimensional waveguide coupler in LiNbO3 crystal",
+   "year": 2023,
+   "venue": "Chinese Optics Letters",
+   "authors": [
+    "Jinman Lü",
+    "Ge Li",
+    "Yujie Ma",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1117/12.2541175",
+   "title": "Direct femtosecond laser writing of low-loss waveguides in chalcogenide glasses for mid-infrared applications",
+   "year": 2019,
+   "venue": "SPIE Micro + Nano Materials, Devices, and Applications 2019",
+   "authors": [
+    "D. Le Coq",
+    "J. Carcreff",
+    "P. Masselin"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1038/srep18365",
+   "title": "Mid-infrared laser emission from Cr:ZnS channel waveguide fabricated by femtosecond laser helical writing",
+   "year": 2015,
+   "venue": "Scientific Reports",
+   "authors": [
+    "Ya-Pei Peng",
+    "Xiao Zou",
+    "Zhengyuan Bai",
+    "Yuxin Leng",
+    "Benxue Jiang",
+    "Xiongwei Jiang",
+    "Long Zhang"
+   ],
+   "type": "journal-article",
+   "cited": 24
+  },
+  {
+   "doi": "10.1364/oe.22.031293",
+   "title": "Three-dimensional dielectric crystalline waveguide beam splitters in mid-infrared band by direct femtosecond laser writing",
+   "year": 2014,
+   "venue": "Optics Express",
+   "authors": [
+    "Ruiyun He",
+    "Irene Hernández-Palmero",
+    "Carolina Romero",
+    "Javier R. Vázquez de Aldana",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 42
+  },
+  {
+   "doi": "10.3390/s130101329",
+   "title": "Low-Loss Hollow Waveguide Fibers for Mid-Infrared Quantum Cascade Laser Sensing Applications",
+   "year": 2013,
+   "venue": "Sensors",
+   "authors": [
+    "Pietro Patimisco",
+    "Vincenzo Spagnolo",
+    "Miriam Vitiello",
+    "Gaetano Scamarcio",
+    "Carlos Bledt",
+    "James Harrington"
+   ],
+   "type": "journal-article",
+   "cited": 46
+  },
+  {
+   "doi": "10.3389/fphy.2021.731571",
+   "title": "Mid-Infrared ZnS Ridge Waveguide Fabricated by Femtosecond Laser Ablation Combined With Ion Irradiation",
+   "year": 2021,
+   "venue": "Frontiers in Physics",
+   "authors": [
+    "Xinbin Zhang",
+    "Yazhou Cheng",
+    "Yongcheng Zhang"
+   ],
+   "type": "journal-article",
+   "cited": 2
+  }
+ ]
+}

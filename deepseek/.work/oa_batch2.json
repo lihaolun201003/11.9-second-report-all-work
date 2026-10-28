@@ -1,0 +1,329 @@
+{
+ "10.1038/nphoton.2008.47": {
+  "title": "Femtosecond laser micromachining in transparent materials",
+  "year": 2008,
+  "venue": "Nature Photonics",
+  "authors": [
+   "Rafael R. Gattass",
+   "Eric Mazur"
+  ],
+  "abstract": null,
+  "cited": 3264,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ol.21.001729": {
+  "title": "Writing waveguides in glass with a femtosecond laser",
+  "year": 1996,
+  "venue": "Optics Letters",
+  "authors": [
+   "K. M. Davis",
+   "Kiyotaka Miura",
+   "Naoki Sugimoto",
+   "K. Hirao"
+  ],
+  "abstract": "With the goal of being able to create optical devices for the telecommunications industry, we investigated the effects of 810-nm, femtosecond laser radiation on various glasses. By focusing the laser beam through a microscope objective, we successfully wrote transparent, but visible, round-elliptical damage lines inside highsilica, borate, soda lime silicate, and f luorozirconate (ZBLAN) bulk glasses. Microellipsometer measurements of the damaged region in the pure and Ge-doped silica glasses showed a 0.01-0.035 refractive-index increase, depending on the radiation dose. The formation of several defects, including Si E' or Ge E' centers, nonbridging oxygen hole centers, and peroxy radicals, was also detected. These results suggest that multiphoton interactions occur in the glasses and that it may be possible to write three-dimensional optical circuits in bulk glasses with such a focused laser beam technique.",
+  "cited": 2619,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1002/lpor.201700237": {
+  "title": "Silicon Photonics Circuit Design: Methods, Tools and Challenges",
+  "year": 2018,
+  "venue": "Laser & Photonics Review",
+  "authors": [
+   "Wim Bogaerts",
+   "Lukas Chrostowski"
+  ],
+  "abstract": "Abstract Silicon Photonics technology is rapidly maturing as a platform for larger‐scale photonic circuits. As a result, the associated design methodologies are also evolving from component‐oriented design to a more circuit‐oriented design flow, that makes abstraction from the very detailed geometry and enables design on a larger scale. In this paper, the state of this emerging photonic circuit design flow and its synergies with electronic design automation (EDA) are reviewed. The design flow from schematic capture, circuit simulation, layout and verification is covered. The similarities and the differences between photonic and electronic design, and the challenges and opportunities that present themselves in the new photonic design landscape, such as variability analysis, photonic‐electronic co‐simulation and compact model definition are discussed.",
+  "cited": 604,
+  "type": "article",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lpor.201700237",
+  "oa_status": "hybrid"
+ },
+ "10.1364/ol.30.000723": {
+  "title": "Low-loss waveguides written with a femtosecond laser for flexible interconnection in a planar light-wave circuit",
+  "year": 2005,
+  "venue": "Optics Letters",
+  "authors": [
+   "Yusuke Nasu",
+   "Masaki Kohtoku",
+   "Yoshinori Hibino"
+  ],
+  "abstract": "We describe a low-loss single-mode waveguide in planar light-wave circuit (PLC) glass doped with boron and phosphorus, which is more difficult to write than pure-silica glass. The written waveguide has a rectangular core, a symmetric near-field pattern, and a propagation loss of 0.35 dB/cm. The loss that originates from the mode-field mismatch between the mode-field diameters of the written and the PLC waveguides is less than 0.1 dB/point. In addition, we successfully connected PLC waveguides with a 500-microm-long waveguide written with a laser. The laser-written waveguide can flexibly connect PLC waveguides with a low coupling loss.",
+  "cited": 212,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1002/admt.202300620": {
+  "title": "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices",
+  "year": 2023,
+  "venue": "Advanced Materials Technologies",
+  "authors": [
+   "Jiawei Li",
+   "Chun Cao",
+   "Yiwei Qiu",
+   "Cuifang Kuang",
+   "Xu Liu"
+  ],
+  "abstract": "Abstract As the most fundamental unit of photonic integration, optical waveguides offer the possibility of developing efficient and practical photonic chips by facilitating the on‐chip integration of devices with different functions. Femtosecond direct laser writing (FsDLW), as a burgeoning 3D microfabrication technology, can realize the rapid formation of arbitrary optical waveguides without any mask inside versatile materials, such as crystalline dielectric crystals, glasses, polymers, and photoresists. This significant material‐independence allows FsDLW to combine different materials and manufacturing processes to implement a cross‐platform solution. This review first describes the different optical loss types and suitable measurement methods for different applicable scenes, then summarizes the two fabrication mechanisms and points out the general direction for adjusting the waveguide properties by fabrication processes. Finally, the application fields and development prospects of different materials are discussed by overviewing the characteristics of different materials and the material selection preferences of different devices. With a panoramic view of the development, it is concluded with insights and perspectives of the future development of optical waveguides and processing technology via FsDLW.",
+  "cited": 45,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.3389/aot.2023.1244009": {
+  "title": "Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics",
+  "year": 2023,
+  "venue": "Advanced Optical Technologies",
+  "authors": [
+   "Jason R. Grenier",
+   "Lars Brusberg",
+   "Kristopher A. Wieland",
+   "Juergen Matthies",
+   "Chad C. Terwilliger"
+  ],
+  "abstract": "High bandwidth demanding applications such as high-performance computing and hyperscale datacenters are drivers for co-packaged optics, which aims to bring optical signals as close as possible to the electrical computing chips by integrating the electro-optic transceivers and ASICs on the same package substrate. These next-generation switches require advanced fiber-to-chip connectivity and novel packaging concepts to enable sufficient power and cost savings. As such, low-loss, high bandwidth, and high fiber-counts are required at the photonic chip interface. In this work, these challenges are addressed by enabling the multi-fiber push-on (MPO) interface at the edge of integrated glass waveguide substrates and thus leverages the existing fiber connector eco-system. An ultrafast laser process is used to singulate glass wafers into individual photonic chips leaving optical-quality end-facets with <1 μm flatness over the 6.5 mm wide connector region thereby directly enabling low-loss fiber-to-chip edge-coupling. To overcome the high-costs and complex photonic packaging associated with active alignment of the fiber connectors to the glass waveguide interfaces, ultrafast laser-ablated features are accurately positioned on the glass substrate to enable self-alignment of the MPO connector guide-pins resulting in a passive alignment approach. Subsequent mating and de-mating of the MPO connector to the glass waveguide interface yields on average a 0.19 dB increase in the coupling loss compared to using active alignment.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/aot.2023.1244009/pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/tcpmt.2025.3526500": {
+  "title": "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+  "year": 2025,
+  "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+  "authors": [
+   "Lars Brusberg",
+   "Marissa Granados-Baez",
+   "Ryan Schilling",
+   "Jorge A. Holguín‐Lerma",
+   "Janderson R. Rodrigues",
+   "Lucas W. Yeary",
+   "Aramais R. Zakharian",
+   "Betsy J. Johnson",
+   "Matthew J. Dejneka"
+  ],
+  "abstract": "Glass provides high dimensional stability and flatness, enabling high-throughput electronic assembly with high precision optical alignment for co-packaged optics (CPO) applications. Optical waveguides can be integrated in the glass core material by the thermal silver ion-exchange (IOX) process at temperatures around 350°C for fiber to chip connectivity. Currently available IOX glasses degrade due to ion mobility at operating conditions so we designed a new glass composition enabling waveguides to be stable over a lifetime of five years at an elevated temperature of 85°C or higher without performance degradation which could impact the integrity of the optical signal. The glass composition was optimized for thermal stability and low loss IOX waveguides were fabricated with propagation loss of only 0.034 dB/cm. Waveguide designs are studied and evaluated for waveguide crossings, high-density spacing, tight bends, high-optical power transmission, and polarization dependency. The waveguide technology is demonstrated for different applications including glass waveguide bridge for fiber to chip-coupling, multi-core fan-out, optical waveguide shuffle and an optical waveguide circuit for CPO with over 1024 waveguide interconnects.",
+  "cited": 12,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1016/j.optlastec.2025.114521": {
+  "title": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+  "year": 2025,
+  "venue": "Optics & Laser Technology",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Linbin Bai",
+   "Junjie Xiong",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Zuyuan He"
+  ],
+  "abstract": null,
+  "cited": 5,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/oe.16.016215": {
+  "title": "Low loss photonic components in high index bismuth borate glass by femtosecond laser direct writing",
+  "year": 2008,
+  "venue": "Optics Express",
+  "authors": [
+   "Weijia Yang",
+   "Costantino Corbari",
+   "Peter G. Kazansky",
+   "Kôichi Sakaguchi",
+   "Isabel C. S. Carvalho"
+  ],
+  "abstract": "Single mode, low loss waveguides were fabricated in high index bismuth borate glass by femtosecond laser direct writing. A specific set of writing parameters leading to waveguides perfectly mode matched to standard single-mode fibers at 1.55 microm with an overall insertion loss of approximately 1 dB and with propagation loss below 0.2 dB/cm was identified. Photonic components such as Y-splitters and directional couplers were also demonstrated. A close agreement between their performances and theoretical predictions based upon the characterization of the waveguide properties is shown. Finally, the nonlinear refractive index of the waveguides has been measured to be 6.6 x 10(-15) cm(2)/W by analyzing self-phase modulation of the propagating femtosecond laser pulse at the wavelength of 1.46 microm. Broadening of the transmitted light source as large as 500 nm was demonstrated through a waveguide with the length of 1.8 cm.",
+  "cited": 50,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.16.016215",
+  "oa_status": "gold"
+ },
+ "10.1364/oe.19.014403": {
+  "title": "Photolithography-free polymer optical waveguide arrays for optical backplane bus",
+  "year": 2011,
+  "venue": "Optics Express",
+  "authors": [
+   "Xinyuan Dou",
+   "Alan X. Wang",
+   "Xiaohui Lin",
+   "Ray T. Chen"
+  ],
+  "abstract": "In this paper, an innovative 3-to-3 bi-directional optical bus architecture based on multimode polymer waveguides with embedded 45° micro-mirrors was successfully demonstrated. With a lithography-free imprinting process by high quality electroplated metallic mold, the device can be precisely replicated with a low fabrication cost. Superior to any point-to-point optical waveguide, the implemented optical bus structure is capable of broadcasting and receiving high speed data at 10 Gbit/sec among multiple points as a high performance optical backplane.",
+  "cited": 15,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.19.014403",
+  "oa_status": "gold"
+ },
+ "10.1145/3698364.3705355": {
+  "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": "International Symposium on Physical Design",
+  "authors": [
+   "Zhou Hongjian",
+   "Keren Zhu",
+   "Jiaqi Gu"
+  ],
+  "abstract": null,
+  "cited": 6,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/oic.2015.7115671": {
+  "title": "Ultra low crossing loss meshed waveguide based on polynorbornene for backplane architecture",
+  "year": 2015,
+  "venue": "IEEE Optical Interconnects Conference",
+  "authors": [
+   "Katsuma Kitazoe",
+   "Akihiro Horimoto",
+   "Kimio Moriya",
+   "Ryota Kinoshita",
+   "Koji Choki",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "We fabricate a high density meshed -waveguide based on polynorbornene. We confirm that extremely low optical loss is observed in both 90-degree (0.46 dB/500 crosses) and 45-degree (1.32 dB/500 crosses) meshed patterns.",
+  "cited": 6,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1007/s10825-022-01989-4": {
+  "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+  "year": 2022,
+  "venue": "Journal of Computational Electronics",
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Kumar Roy"
+  ],
+  "abstract": null,
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.researchsquare.com/article/rs-1652266/latest.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/oecc48412.2020.9273659": {
+  "title": "Automatic high-density polymer waveguide layout for on-board high-speed optical interconnect",
+  "year": 2020,
+  "venue": "Opto-Electronics and Communications Conference (OECC)",
+  "authors": [
+   "Zhijie Huang",
+   "Lin Ma",
+   "Wanjing Kuang",
+   "Ying Shi",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate automatic polymer waveguide layout for the first time. We succeeded in 512 multimode waveguides routing with balanced performances within an area of 150×150 mm2by optimization on algorithm and bending radius.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2022,
+  "venue": "International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate a low-loss and low-crosstalk fan-in/fan-out device for three-core fiber using femtosecond laser direct inscription. The fabricated FI/FO device has an averaged insertion loss of 1.33 dB and a crosstalk smaller than −49 dB.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ecoc.2014.6964253": {
+  "title": "Low-loss telecom wavelength board-level optical interconnects in thin glass panels by ion-exchange waveguide technology",
+  "year": 2014,
+  "venue": "European Conference on Optical Communication",
+  "authors": [
+   "Lars Brusberg",
+   "Christian Herbst",
+   "Marcel Neitz",
+   "H. Schröder",
+   "Klaus‐Dieter Lang"
+  ],
+  "abstract": "An optical interconnection technology for 1310 and 1550 nm has been developed by using commercial available thin glass panels for waveguide fabrication. Process and mode-field distribution can be designed according optical requirements and simulated by combined FEM algorithms.",
+  "cited": 1,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ofc.2017.w1b.6": {
+  "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+  "year": 2017,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Kevin P. Chen",
+   "Ming-Jun Li"
+  ],
+  "abstract": "This paper discuss ultrafast laser fabrication of 3D lightwave circuits in optical fibers and glass substrates for optical interconnects. The interaction between embedded waveguides and surface optical structures produced by semiconductor microfabrication will be discussed.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ofc.2025.m4j.5": {
+  "title": "Low-loss Fan-in/Fan-out Device for Coupled four-core Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2025,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Junjie Xiong",
+   "Linbin Bai",
+   "Mingjing Xu",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate low-loss fan-in/fan-out device for 19 μm-core-pitch coupled four-core fiber using a femtosecond laser direct inscription technique, achieving an average insertion loss of 0.49 dB before packaging and 0.92 dB after packaging.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/icsj66986.2025.11302545": {
+  "title": "Extremely Low Bending Loss (<0.5 dB at 1-mm Bending Radius) GI Core Polymer Optical Waveguide",
+  "year": 2025,
+  "venue": "IEEE CPMT Symposium Japan (ICSJ)",
+  "authors": [
+   "Masahiro Karakawa",
+   "Ishigure Takaaki"
+  ],
+  "abstract": "In this paper, we fabricate GI-core single-mode and multimode polymer optical waveguides with remarkably high$\\Delta$by applying newly developed resins with high index contrast to the Mosquito Method. The fabricated single-mode waveguides exhibit high optical confinement, achieving a mode field diameter (MFD) of less than$3 \\mu \\mathrm{m}$.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1002/adpr.70241": {
+  "title": "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique",
+  "year": 2026,
+  "venue": "Advanced Photonics Research",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Jianmin Wu",
+   "Zuyuan He"
+  ],
+  "abstract": "Interfacing multicore fiber (MCF) with high‐speed optical transceivers serves as a promising solution for large‐scale artificial intelligence (AI) data centers. Fan‐in/fan‐out (FI/FO) devices are critical components for interconnection. However, the stringent space and loss budgets in optical transceivers make the realization of integrable FI/FO devices a significant challenge. In this work, we demonstrate an ultra‐compact low‐loss FI/FO device for 4‐core fiber using femtosecond laser direct writing (FLDW). The device features a footprint as small as 2.5 × 2.0 mm 2 and an insertion loss of 0.54 dB at the wavelength of 1310 nm, serving as a critical interface between MCFs and high‐speed optical transceivers. Through multi‐scan and overwriting methods, we achieve low‐loss waveguides with a propagation loss of 0.13 dB/cm and a coupling loss of 0.06 dB/facet. To mitigate bending loss, we propose a trench‐assisted and offset‐assisted cosine‐shaped waveguide (TOA‐cos). In this architecture, auxiliary trenches effectively suppress radiation loss, while offset‐assisted cosine curves minimize mode‐mismatch loss. Moreover, the TOA‐cos model exhibits compatibility with existing FLDW bending‐loss reduction methods, such as integrated microcracks and composite waveguides, making it a practical solution for chip‐level three‐dimensional optical interconnects.",
+  "cited": 0,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1002/adpr.70241",
+  "oa_status": "gold"
+ }
+}

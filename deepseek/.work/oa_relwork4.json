@@ -1,0 +1,136 @@
+{
+ "10.1109/tec.1961.5219222": {
+  "title": "An Algorithm for Path Connections and Its Applications",
+  "year": 1961,
+  "venue": "IEEE Transactions on Electronic Computers",
+  "authors": [
+   "C. Y. Lee"
+  ],
+  "abstract": "The algorithm described in this paper is the outcome of an endeavor to answer the following question: Is it possible to find procedures which would enable a computer to solve efficiently path-connection problems inherent in logical drawing, wiring diagramming, and optimal route finding? The results are highly encouraging. Within our framework, we are able to solve the following types of problems: 1) To find a path between two points so that it crosses the least number of existing paths. 2) To find a path between two points so that it avoids as much as possible preset obstacles such as edges. 3) To find a path between two points so that the path is optimal with respect to several properties; for example, a path which is not only one of those which cross the fewest number of existing paths, but, among these, is also one of the shortest. The minimal-distance solution has been programmed on an IBM 704 computer, and a number of illustrations are presented. The class of problems solvable by our algorithm is given in a theorem in Section III. A byproduct of this algorithm is a somewhat remote, but unexpected, relation to physical optics. This is discussed in Section VI.",
+  "cited": 1622,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1613/jair.2994": {
+  "title": "Theta*: Any-Angle Path Planning on Grids",
+  "year": 2010,
+  "venue": "Journal of Artificial Intelligence Research",
+  "authors": [
+   "K. Daniel",
+   "A. Nash",
+   "S. Koenig",
+   "A. Felner"
+  ],
+  "abstract": "Grids with blocked and unblocked cells are often used to represent terrain in robotics and video games. However, paths formed by grid edges can be longer than true shortest paths in the terrain since their headings are artificially constrained. We present two new correct and complete any-angle path-planning algorithms that avoid this shortcoming. Basic Theta* and Angle-Propagation Theta* are both variants of A* that propagate information along grid edges without constraining paths to grid edges. Basic Theta* is simple to understand and implement, fast and finds short paths. However, it is not guaranteed to find true shortest paths. Angle-Propagation Theta* achieves a better worst-case complexity per vertex expansion than Basic Theta* by propagating angle ranges when it expands vertices, but is more complex, not as fast and finds slightly longer paths. We refer to Basic Theta* and Angle-Propagation Theta* collectively as Theta*. Theta* has unique properties, which we analyze in detail. We show experimentally that it finds shorter paths than both A* with post-smoothed paths and Field D* (the only other version of A* we know of that propagates information along grid edges without constraining paths to grid edges) with a runtime comparable to that of A* on grids. Finally, we extend Theta* to grids that contain unblocked cells with non-uniform traversal costs and introduce variants of Theta* which provide different tradeoffs between path length and runtime.",
+  "cited": 466,
+  "type": "article",
+  "oa_url": "https://jair.org/index.php/jair/article/download/10676/25515",
+  "oa_status": "diamond"
+ },
+ "10.1145/3544216.3544265": {
+  "title": "Jupiter evolving",
+  "year": 2022,
+  "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+  "authors": [
+   "Leon Poutievski",
+   "Omid Mashayekhi",
+   "Joon Suan Ong",
+   "Arjun Singh",
+   "Mukarram Tariq",
+   "Rui Wang",
+   "Jianan Zhang",
+   "Virginia Beauregard",
+   "P. Conner",
+   "Steve Gribble",
+   "Rishi Kapoor",
+   "Stephen Kratzer",
+   "Nanfang Li",
+   "Hong Liu",
+   "Karthik Nagaraj",
+   "Jason Ornstein",
+   "Samir Sawhney",
+   "Ryohei Urata",
+   "Lorenzo Vicisano",
+   "Kevin Y. Yasumura",
+   "Shidong Zhang",
+   "Junlan Zhou",
+   "Amin M. Vahdat"
+  ],
+  "abstract": "We present a decade of evolution and production experience with Jupiter datacenter network fabrics. In this period Jupiter has delivered 5x higher speed and capacity, 30% reduction in capex, 41% reduction in power, incremental deployment and technology refresh all while serving live production traffic. A key enabler for these improvements is evolving Jupiter from a Clos to a direct-connect topology among the machine aggregation blocks. Critical architectural changes for this include: A datacenter interconnection layer employing Micro-Electro-Mechanical Systems (MEMS) based Optical Circuit Switches (OCSes) to enable dynamic topology reconfiguration, centralized Software-Defined Networking (SDN) control for traffic engineering, and automated network operations for incremental capacity delivery and topology engineering. We show that the combination of traffic and topology engineering on direct-connect fabrics achieves similar throughput as Clos fabrics for our production traffic patterns. We also optimize for path lengths: 60% of the traffic takes direct path from source to destination aggregation blocks, while the remaining transits one additional block, achieving an average block-level path length of 1.4 in our fleet today. OCS also achieves 3x faster fabric reconfiguration compared to pre-evolution Clos fabrics that used a patch panel based interconnect.",
+  "cited": 235,
+  "type": "conference-paper",
+  "oa_url": "https://doi.org/10.1145/3544216.3544265",
+  "oa_status": "hybrid"
+ },
+ "10.1109/iccad.2013.6691109": {
+  "title": "PROTON: An automatic place-and-route tool for optical Networks-on-Chip",
+  "year": 2013,
+  "venue": null,
+  "authors": [
+   "Anja Boos",
+   "Luca Ramini",
+   "Ulf Schlichtmann",
+   "Davide Bertozzi"
+  ],
+  "abstract": "Optical Networks-on-Chip (ONoCs) are considered a promising way of improving power and bandwidth limitations in next generation multi- and many-core integrated systems. Today, most related research acknowledges the key role of the physical layer in assessing ONoC topologies (e.g., insertion loss), but overlooks the placement and routing stage in the design process, hence applying physical design considerations to topology logic schemes. Such a mismatch is fundamentally due to the lack of mature CAD tools for placement and routing of optical NoCs. The objective of this work is to bridge this gap: We propose PROTON, a fast tool for automatic placement and routing of ONoC topologies, which can support designers in quantifying the degradation of design quality metrics when moving from topology logic schemes to their physical implementation. This gap is especially relevant for Wavelength-Routed ONoCs (WRONoCs), where logic schemes typically make unrealistic assumptions about the placement of initiators and targets. For this reason, we put PROTON to work with the most promising WRONoC topologies and explore their physical design space given the placement and routing constraints of a 3D stacked system. We also compare automatically generated layouts with handcrafted ones reported in the literature for the same topologies and target system, and prove an insertion loss improvement by up to 150x. With PROTON the exploration of the physical design space of ONoC topologies is possible as well as their scalability analysis considering the layout.",
+  "cited": 40,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1016/j.optlastec.2025.114521": {
+  "title": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+  "year": 2025,
+  "venue": "Optics & Laser Technology",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Linbin Bai",
+   "Junjie Xiong",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Zuyuan He"
+  ],
+  "abstract": null,
+  "cited": 5,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1145/3195970.3196093": {
+  "title": "PlanarONoC",
+  "year": 2018,
+  "venue": "ACM/IEEE Design Automation Conference (DAC)",
+  "authors": [
+   "Yu-Kai Chuang",
+   "Kuan‐Jung Chen",
+   "Kun‐Lin Lin",
+   "Shao‐Yun Fang",
+   "Bing Li",
+   "Ulf Schlichtmann"
+  ],
+  "abstract": "Optical networks-on-chips (ONoCs) have become a promising solution for the on-chip communication of multi-and many-core systems to provide superior communication bandwidths, efficiency in power consumption, and latency performance compared to electronic NoCs. Serving as the critical part of ONoCs, an optical router composed of waveguides and photonic switching elements (PSEs) routes signals between two hubs or between a hub and a memory controller. Many studies focus on developing efficient architectures of optical routers, while their physical implementation that can seriously deteriorate the quality of the architectures is rarely addressed. The existing automatic place-and-route tools suffer from considerable insertion loss due to many waveguide crossings outside of PSEs, which leads to huge power consumption of laser sources. By observing that the logic schemes of most optical routers are actually planar, we develop a concurrent PSE placement and waveguide routing flow, called PlanarONoC, that guarantees optimal solutions in terms of crossings for planar logic schemes. Experimental results show that the proposed flow reduces the maximum insertion loss by 37% on average, guarantees no waveguide crossing outside of PSEs, and performs much more efficient compared to the state-of-the-art work.",
+  "cited": 18,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tcad.2020.2971536": {
+  "title": "PSION+: Combining Logical Topology and Physical Layout Optimization for Wavelength-Routed ONoCs",
+  "year": 2020,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "authors": [
+   "Alexandre Truppel",
+   "Tsun‐Ming Tseng",
+   "Davide Bertozzi",
+   "José Carlos Alves",
+   "Ulf Schlichtmann"
+  ],
+  "abstract": "Optical networks-on-chip (ONoCs) are a promising solution for high-performance multicore integration with better latency and bandwidth than traditional electrical NoCs. Wavelength-routed ONoCs (WRONoCs) offer yet additional performance guarantees. However, WRONoC design presents new EDA challenges which have not yet been fully addressed. So far, most topology analysis is abstract, i.e., overlooks layout concerns, while for layout the tools available perform place and route (P&R) but no topology optimization. Thus, a need arises for a novel optimization method combining both aspects of WRONoC design. In this article, such a method, PSION+, is laid out. This new procedure uses a linear programming model to optimize a WRONoC physical layout template to optimality. This template-based optimization scheme is a new idea in this area that seeks to minimize problem complexity while keeping design flexibility. A simple layout template format is introduced and explored. Finally, multiple model reduction techniques to reduce solver run-time are also presented and tested. When compared to the state-of-the-art design procedure, results show a decrease in maximum optical insertion loss of 41%.",
+  "cited": 18,
+  "type": "article",
+  "oa_url": "https://mediatum.ub.tum.de/doc/1585285/document.pdf",
+  "oa_status": "green"
+ }
+}

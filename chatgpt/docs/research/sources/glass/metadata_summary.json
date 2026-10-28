@@ -1,0 +1,238 @@
+[
+  {
+    "doi": "10.1038/micronano.2016.30",
+    "title": [
+      "Heterogeneous 2D/3D photonic integrated microsystems"
+    ],
+    "author": "S. J. Ben Yoo; Binbin Guan; Ryan P. Scott",
+    "date": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          1
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/micronano201630.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/micronano201630",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/micronano201630.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/OFC.2021.Th1A.37",
+    "title": [
+      "Low-Loss Three-Dimensional Fan-in/Fan-out Devices for Multi-Core Fiber Integration"
+    ],
+    "author": "Yi-Chun Ling; Shuyun Yuan; S. J. Ben Yoo",
+    "date": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://opg.optica.org/viewmedia.cfm?URI=OFC-2021-Th1A.37&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/OL.37.002331",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1117/1.APN.2.3.036002",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1088/2631-7990/ab4d51",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1364/OE.24.012375",
+    "title": [
+      "Glass interposer for short reach optical connectivity"
+    ],
+    "author": "Mehrdad Mirshafiei; Jean-Philippe Bérubé; Stephane Lessard; Réal Vallée; David V. Plant",
+    "date": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          27
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://www.osapublishing.org/viewmedia.cfm?URI=oe-24-11-12375&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1145/2830716",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1145/3698364.3705355",
+    "title": [
+      "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits"
+    ],
+    "author": "Hongjian Zhou; Keren Zhu; Jiaqi Gu",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          16
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/3698364.3705355",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3698364.3705355",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1109/TCAPT.2007.906300",
+    "title": [
+      "Optical Routing for 3-D System-On-Package"
+    ],
+    "author": "J.R. Minz; S. Thyagara;  Sung Kyu Lim",
+    "date": {
+      "date-parts": [
+        [
+          2007,
+          12
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/6144/4383341/04358349.pdf?arnumber=4358349",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1109/JLT.2025.3566775",
+    "title": [
+      "Automatic Waveguide Routing With Optimized Loss for Silicon Photonics Interconnect"
+    ],
+    "author": "Jiaren Deng; Xin Tang; Keyi Fan; Chentong Yang; Xinyu Ouyang; Yixiong Yan; Yu Zheng",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          1
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/50/11096130/10982414.pdf?arnumber=10982414",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1109/JSTQE.2023.3247245",
+    "title": [
+      "Glass Platform for Co-Packaged Optics"
+    ],
+    "author": "Lars Brusberg; Jason R. Grenier; Aramais R. Zakharian; Lucas W. Yeary; Seong-ho Seok; Jung-hyun Noh; Young-gon Kim; Jurgen Matthies; Chad C. Terwilliger; Barry J. Paddock; Robert A. Bellman; Daniel W. Levesque; Robin M. Force; Clifford G. Sutton; Jeffrey S. Clark; Betsy J. Johnson",
+    "date": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/2944/4481213/10050182.pdf?arnumber=10050182",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1002/adpr.70241",
+    "title": [
+      "Ultra‐Compact Low‐Loss 3D Glass Waveguide Chip Using Femtosecond Laser Writing Technique"
+    ],
+    "author": "Fengrui Yu; Lin Ma; Mingjing Xu; Xiaoke Chen; Jinhua Wu; Zuyuan He",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adpr.70241",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/full-xml/10.1002/adpr.70241",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adpr.70241",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/OL.551272",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

@@ -1,0 +1,472 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        12
+      ]
+    ],
+    "date-time": "2026-02-12T11:35:26Z",
+    "timestamp": 1770896126624,
+    "version": "3.50.1"
+  },
+  "reference-count": 36,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            18
+          ]
+        ],
+        "date-time": "2015-12-18T00:00:00Z",
+        "timestamp": 1450396800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "J. Emerg. Technol. Comput. Syst."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2016,
+        7,
+        26
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Optical Networks-on-Chip (ONoCs) are a promising technology to overcome the bottleneck of low bandwidth of electronic Networks-on-Chip. Recent research discusses power and performance benefits of ONoCs based on their system-level design, while layout effects are typically overlooked. As a consequence, laser power requirements are inaccurately computed from the logic scheme but do not consider the layout. In this article, we propose PROTON+, a fast tool for placement and routing of 3D ONoCs minimizing the total laser power. Using our tool, the required laser power of the system can be decreased by up to 94% compared to a state-of-the-art manually designed layout. In addition, with the help of our tool, we study the physical design space of ONoC topologies. For this purpose, topology synthesis methods (e.g., global connectivity and network partitioning) as well as different objective function weights are analyzed in order to minimize the maximum insertion loss and ultimately the system’s laser power consumption. For the first time, we study optimal positions of memory controllers. A comparison of our algorithm to a state-of-the-art placer for electronic circuits shows the need for a different set of tools custom-tailored for the particular requirements of optical interconnects.</jats:p>",
+  "DOI": "10.1145/2830716",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        18
+      ]
+    ],
+    "date-time": "2015-12-18T14:32:38Z",
+    "timestamp": 1450449158000
+  },
+  "page": "1-28",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 20,
+  "title": [
+    "PROTON+"
+  ],
+  "prefix": "10.1145",
+  "volume": "12",
+  "author": [
+    {
+      "given": "Anja Von",
+      "family": "Beuningen",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Technische Universität München, München, Germany"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Luca",
+      "family": "Ramini",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Ferrara, Ferrara, Italy"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Davide",
+      "family": "Bertozzi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Ferrara, Ferrara, Italy"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Ulf",
+      "family": "Schlichtmann",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Technische Universität München, München, Germany"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        18
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_1_1_1",
+      "volume-title": "Proceedings of the Workshop on Exploiting Silicon Photonics for Energy Efficient Heterogeneous Parallel Architectures (SiPhotonics).",
+      "author": "Bahirat S.",
+      "unstructured": "S. Bahirat and S. Pasricha . 2014. 3D HELIX: Design and synthesis of hybrid nanophotonic application-specific 3D network-on-chip architectures . In Proceedings of the Workshop on Exploiting Silicon Photonics for Energy Efficient Heterogeneous Parallel Architectures (SiPhotonics). S. Bahirat and S. Pasricha. 2014. 3D HELIX: Design and synthesis of hybrid nanophotonic application-specific 3D network-on-chip architectures. In Proceedings of the Workshop on Exploiting Silicon Photonics for Energy Efficient Heterogeneous Parallel Architectures (SiPhotonics)."
+    },
+    {
+      "key": "e_1_2_1_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1816038.1815978"
+    },
+    {
+      "key": "e_1_2_1_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1970406.1970409"
+    },
+    {
+      "key": "e_1_2_1_4_1",
+      "volume-title": "Proceedings of the Conference on Lasers and Electro-Optics (CLEO). 1--2.",
+      "author": "Biberman A.",
+      "unstructured": "A. Biberman , N. Sherwood-Droz , X. Zhu , M. Lipson , and K. Bergman . 2011b. High-speed data transmission in multi-layer deposited silicon photonics for advanced photonic networks-on-chip . In Proceedings of the Conference on Lasers and Electro-Optics (CLEO). 1--2. A. Biberman, N. Sherwood-Droz, X. Zhu, M. Lipson, and K. Bergman. 2011b. High-speed data transmission in multi-layer deposited silicon photonics for advanced photonic networks-on-chip. In Proceedings of the Conference on Lasers and Electro-Optics (CLEO). 1--2."
+    },
+    {
+      "key": "e_1_2_1_5_1",
+      "volume-title": "Proceedings of the International Conference on Computer-Aided Design (ICCAD). 138--145",
+      "author": "Boos A.",
+      "unstructured": "A. Boos , L. Ramini , U. Schlichtmann , and D. Bertozzi . 2013. PROTON: An automatic place-and-route tool for optical networks-on-chip . In Proceedings of the International Conference on Computer-Aided Design (ICCAD). 138--145 . A. Boos, L. Ramini, U. Schlichtmann, and D. Bertozzi. 2013. PROTON: An automatic place-and-route tool for optical networks-on-chip. In Proceedings of the International Conference on Computer-Aided Design (ICCAD). 138--145."
+    },
+    {
+      "key": "e_1_2_1_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2010.2044231"
+    },
+    {
+      "key": "e_1_2_1_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1555815.1555809"
+    },
+    {
+      "key": "e_1_2_1_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1973009.1973013"
+    },
+    {
+      "key": "e_1_2_1_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCAD.2014.2317575"
+    },
+    {
+      "key": "e_1_2_1_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1629911.1629983"
+    },
+    {
+      "key": "e_1_2_1_11_1",
+      "volume-title": "Proceedings of the 2010 IEEE Photonics Society Summer Topical Meeting Series. 191--192",
+      "author": "Dong P.",
+      "unstructured": "P. Dong , W. Qian , S. Liao , H. Liang , C.-C. Kung , N.-N. Feng , R. Shafiiha , J. Fong , D. Feng , A. V. Krishnamoorthy , and M. Asghari . 2010. Low loss silicon waveguides for application of optical interconnects . In Proceedings of the 2010 IEEE Photonics Society Summer Topical Meeting Series. 191--192 . P. Dong, W. Qian, S. Liao, H. Liang, C.-C. Kung, N.-N. Feng, R. Shafiiha, J. Fong, D. Feng, A. V. Krishnamoorthy, and M. Asghari. 2010. Low loss silicon waveguides for application of optical interconnects. In Proceedings of the 2010 IEEE Photonics Society Summer Topical Meeting Series. 191--192."
+    },
+    {
+      "key": "e_1_2_1_12_1",
+      "volume-title": "Proceedings of SPIE 8915",
+      "author": "Donzella V.",
+      "unstructured": "V. Donzella , S. Fard , and L. Chrostowski . 2013. Study of waveguide crosstalk in silicon photonics integrated circuits . Proceedings of SPIE 8915 , Photonics North. 89150Z. V. Donzella, S. Fard, and L. Chrostowski. 2013. Study of waveguide crosstalk in silicon photonics integrated circuits. Proceedings of SPIE 8915, Photonics North. 89150Z."
+    },
+    {
+      "key": "e_1_2_1_13_1",
+      "volume-title": "Automation Test in Europe Conference Exhibition (DATE). 3--8.",
+      "author": "Gu H.",
+      "unstructured": "H. Gu , J. Xu , and W. Zhang . 2009. A low-power fat tree-based optical network-on-chip for multiprocessor system-on-chip. In Design , Automation Test in Europe Conference Exhibition (DATE). 3--8. H. Gu, J. Xu, and W. Zhang. 2009. A low-power fat tree-based optical network-on-chip for multiprocessor system-on-chip. In Design, Automation Test in Europe Conference Exhibition (DATE). 3--8."
+    },
+    {
+      "key": "e_1_2_1_14_1",
+      "volume-title": "Proceedings of the International Symposium on Circuits and Systems (ISCAS). 325--328",
+      "author": "Hammami O.",
+      "unstructured": "O. Hammami and K. Hamwi . 2013. MHYNESYS II: Multi-stage hybrid network on chip synthesis for next generation 3D IC manycore . In Proceedings of the International Symposium on Circuits and Systems (ISCAS). 325--328 . O. Hammami and K. Hamwi. 2013. MHYNESYS II: Multi-stage hybrid network on chip synthesis for next generation 3D IC manycore. In Proceedings of the International Symposium on Circuits and Systems (ISCAS). 325--328."
+    },
+    {
+      "key": "e_1_2_1_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSTQE.2013.2293271"
+    },
+    {
+      "key": "e_1_2_1_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/5.920580"
+    },
+    {
+      "key": "e_1_2_1_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1999946.1999962"
+    },
+    {
+      "key": "e_1_2_1_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.1961.5219222"
+    },
+    {
+      "key": "e_1_2_1_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.39.000335"
+    },
+    {
+      "key": "e_1_2_1_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCAPT.2007.906300"
+    },
+    {
+      "key": "e_1_2_1_21_1",
+      "volume-title": "Proceedings of SPIE 8628",
+      "author": "Ophir N.",
+      "unstructured": "N. Ophir and K. Bergman . 2013. Analysis of high-bandwidth low-power microring links for off-chip interconnects . Proceedings of SPIE 8628 . 86280N--86280N--7. N. Ophir and K. Bergman. 2013. Analysis of high-bandwidth low-power microring links for off-chip interconnects. Proceedings of SPIE 8628. 86280N--86280N--7."
+    },
+    {
+      "key": "e_1_2_1_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/cpe.3330"
+    },
+    {
+      "key": "e_1_2_1_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11082-013-9826-6"
+    },
+    {
+      "key": "e_1_2_1_24_1",
+      "volume-title": "Numerical Recipes: The Art of Scientific Computing",
+      "author": "Press W.",
+      "year": "2007",
+      "unstructured": "W. Press , S. Teukolsky , W. Vetterling , and B. Flannery . 2007 . Numerical Recipes: The Art of Scientific Computing ( 3 rd ed.). Cambridge University Press, New York , NY. W. Press, S. Teukolsky, W. Vetterling, and B. Flannery. 2007. Numerical Recipes: The Art of Scientific Computing (3rd ed.). Cambridge University Press, New York, NY.",
+      "edition": "3"
+    },
+    {
+      "key": "e_1_2_1_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/NOCS.2012.29"
+    },
+    {
+      "key": "e_1_2_1_26_1",
+      "volume-title": "Proceedings of the Asia Communications and Photonics Conference",
+      "author": "Ramini L.",
+      "year": "2014",
+      "unstructured": "L. Ramini , M. Tala , and D. Bertozzi . 2014. Exploring communication protocols for optical networks-on-chip based on ring topologies . In Proceedings of the Asia Communications and Photonics Conference 2014 , ATh3A.165. L. Ramini, M. Tala, and D. Bertozzi. 2014. Exploring communication protocols for optical networks-on-chip based on ring topologies. In Proceedings of the Asia Communications and Photonics Conference 2014, ATh3A.165."
+    },
+    {
+      "key": "e_1_2_1_27_1",
+      "unstructured": "A. Scandurra. 2008. Scalable CMOS-compatible photonic routing topologies for versatile networks on chip. In Network on Chip Architecture.  A. Scandurra. 2008. Scalable CMOS-compatible photonic routing topologies for versatile networks on chip. In Network on Chip Architecture."
+    },
+    {
+      "key": "e_1_2_1_28_1",
+      "volume-title": "Proceedings of the International Conference on Computer Design: VLSI in Computers and Processors. 24--29",
+      "author": "Seo C.-S.",
+      "unstructured": "C.-S. Seo and A. Chatterjee . 2002. A CAD tool for system-on-chip placement and routing with free-space optical interconnect . In Proceedings of the International Conference on Computer Design: VLSI in Computers and Processors. 24--29 . C.-S. Seo and A. Chatterjee. 2002. A CAD tool for system-on-chip placement and routing with free-space optical interconnect. In Proceedings of the International Conference on Computer Design: VLSI in Computers and Processors. 24--29."
+    },
+    {
+      "key": "e_1_2_1_29_1",
+      "volume-title": "Proceedings of the International Symposium on Quality of Electronic Design (ISQED). 567--572",
+      "author": "Seo C.-S.",
+      "unstructured": "C.-S. Seo , A. Chatterjee , and N. M. Jokerst . 2005. Physical design of optoelectronic system-on-a-package: A CAD tool and algorithms . In Proceedings of the International Symposium on Quality of Electronic Design (ISQED). 567--572 . C.-S. Seo, A. Chatterjee, and N. M. Jokerst. 2005. Physical design of optoelectronic system-on-a-package: A CAD tool and algorithms. In Proceedings of the International Symposium on Quality of Electronic Design (ISQED). 567--572."
+    },
+    {
+      "key": "e_1_2_1_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TC.2008.78"
+    },
+    {
+      "key": "e_1_2_1_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.16.015915"
+    },
+    {
+      "key": "e_1_2_1_32_1",
+      "volume-title": "Symposium on Photonics and Optoelectronics. 1--4.",
+      "author": "Tan X.",
+      "unstructured": "X. Tan , M. Yang , L. Zhang , Y. Jiang , and J. Yang . 2011. On a scalable, non-blocking optical router for photonic networks-on-chip designs . In Symposium on Photonics and Optoelectronics. 1--4. X. Tan, M. Yang, L. Zhang, Y. Jiang, and J. Yang. 2011. On a scalable, non-blocking optical router for photonic networks-on-chip designs. In Symposium on Photonics and Optoelectronics. 1--4."
+    },
+    {
+      "key": "e_1_2_1_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2000064.2000115"
+    },
+    {
+      "key": "e_1_2_1_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2008.35"
+    },
+    {
+      "key": "e_1_2_1_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10107-004-0559-y"
+    },
+    {
+      "key": "e_1_2_1_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MM.2007.89"
+    }
+  ],
+  "container-title": [
+    "ACM Journal on Emerging Technologies in Computing Systems"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/2830716",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/2830716",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2025-06-18T05:48:39Z",
+    "timestamp": 1750225719000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/2830716"
+    }
+  },
+  "subtitle": [
+    "A Placement and Routing Tool for 3D Optical Networks-on-Chip with a Single Optical Layer"
+  ],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        18
+      ]
+    ]
+  },
+  "references-count": 36,
+  "journal-issue": {
+    "issue": "4",
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          26
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/2830716"
+  ],
+  "URL": "https://doi.org/10.1145/2830716",
+  "relation": {},
+  "ISSN": [
+    "1550-4832",
+    "1550-4840"
+  ],
+  "issn-type": [
+    {
+      "value": "1550-4832",
+      "type": "print"
+    },
+    {
+      "value": "1550-4840",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2015,
+        12,
+        18
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2015-03-01",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2015-09-01",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2015-12-18",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

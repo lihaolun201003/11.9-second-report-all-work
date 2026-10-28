@@ -1,0 +1,118 @@
+{
+ "10.1364/OPEX.13.005676": {
+  "title": "Slit beam shaping method for femtosecond laser direct-write fabrication of symmetric waveguides in bulk glasses",
+  "authors": [
+   "M. Ams",
+   "G. D. Marshall",
+   "D. J. Spence",
+   "M. J. Withford"
+  ],
+  "venue": "Optics Express",
+  "year": 2005,
+  "volume": "13",
+  "issue": "15",
+  "page": "5676",
+  "type": "journal-article"
+ },
+ "10.1145/800260.809014": {
+  "title": "A solution to line-routing problems on the continuous plane",
+  "authors": [
+   "David W. Hightower"
+  ],
+  "venue": "Proceedings of the 6th annual conference on Design Automation  - DAC '69",
+  "year": 1969,
+  "volume": null,
+  "issue": null,
+  "page": "1-24",
+  "type": "proceedings-article"
+ },
+ "10.1017/CBO9780511546877": {
+  "title": "Planning Algorithms",
+  "authors": [
+   "Steven M. LaValle"
+  ],
+  "venue": "",
+  "year": 2006,
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "type": "monograph"
+ },
+ "10.1007/978-3-642-97385-7": {
+  "title": "The NURBS Book",
+  "authors": [
+   "Les Piegl",
+   "Wayne Tiller"
+  ],
+  "venue": "Monographs in Visual Communications",
+  "year": 1995,
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "type": "book"
+ },
+ "10.1109/9780470546376": {
+  "title": "Routing in the Third Dimension",
+  "authors": [
+   "Naveed A. Sherwani",
+   "Siddharth Bhingarde",
+   "Anand Panyam"
+  ],
+  "venue": "",
+  "year": 1995,
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "type": "edited-book"
+ },
+ "10.1007/978-3-642-23366-1": {
+  "title": "Femtosecond Laser Micromachining",
+  "authors": [],
+  "venue": "Topics in Applied Physics",
+  "year": 2012,
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "type": "book"
+ },
+ "10.1007/978-3-642-23366-1_1": {
+  "title": "Fundamentals of Femtosecond Laser Modification of Bulk Dielectrics",
+  "authors": [
+   "Shane M. Eaton",
+   "Giulio Cerullo",
+   "Roberto Osellame"
+  ],
+  "venue": "Topics in Applied Physics",
+  "year": 2011,
+  "volume": null,
+  "issue": null,
+  "page": "3-18",
+  "type": "book-chapter"
+ },
+ "10.1364/AOP.6.000293": {
+  "title": "Ultrafast laser direct writing and nanostructuring in transparent materials",
+  "authors": [
+   "Martynas Beresna",
+   "Mindaugas Gecevičius",
+   "Peter G. Kazansky"
+  ],
+  "venue": "Advances in Optics and Photonics",
+  "year": 2014,
+  "volume": "6",
+  "issue": "3",
+  "page": "293",
+  "type": "journal-article"
+ },
+ "10.1002/j.1538-7305.1969.tb01167.x": {
+  "title": "Bends in Optical Dielectric Guides",
+  "authors": [
+   "E. A. J. Marcatili"
+  ],
+  "venue": "Bell System Technical Journal",
+  "year": 1969,
+  "volume": "48",
+  "issue": "7",
+  "page": "2103-2132",
+  "type": "journal-article"
+ }
+}

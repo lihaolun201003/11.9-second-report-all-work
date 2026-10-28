@@ -1,0 +1,296 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2022,
+        4,
+        2
+      ]
+    ],
+    "date-time": "2022-04-02T20:29:11Z",
+    "timestamp": 1648931351437
+  },
+  "reference-count": 15,
+  "publisher": "Institute of Electronics, Information and Communications Engineers (IEICE)",
+  "issue": "1",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEICE Trans. Electron."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1587/transele.2020ecs6002",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        5,
+        24
+      ]
+    ],
+    "date-time": "2020-05-24T22:04:40Z",
+    "timestamp": 1590357880000
+  },
+  "page": "34-36",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Concept Demonstration of 3D Waveguides Shuffle Converter for Multi-Core Fiber/Single-Mode Fiber Fan-in Fan-out Configuration Toward Over 1,000 Port Count"
+  ],
+  "prefix": "10.1587",
+  "volume": "E104.C",
+  "author": [
+    {
+      "given": "Haisong",
+      "family": "JIANG",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "I-Eggs (Interdisciplinary Graduate School of Engineering Sciences), Kyushu University"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Yasuhiro",
+      "family": "HINOKUMA",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "I-Eggs (Interdisciplinary Graduate School of Engineering Sciences), Kyushu University"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Sampad",
+      "family": "GHOSH",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "I-Eggs (Interdisciplinary Graduate School of Engineering Sciences), Kyushu University"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Ryota",
+      "family": "KUWAHATA",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "I-Eggs (Interdisciplinary Graduate School of Engineering Sciences), Kyushu University"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "kiichi",
+      "family": "HAMAMOTO",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "I-Eggs (Interdisciplinary Graduate School of Engineering Sciences), Kyushu University"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "532",
+  "reference": [
+    {
+      "key": "1",
+      "unstructured": "[1] Cisco Global Cloud Index: Forecast and Methodology, 2016-2021."
+    },
+    {
+      "key": "2",
+      "doi-asserted-by": "publisher",
+      "unstructured": "[2] K. Sato, “Realization and application of large-scale fast optical circuit switch for data center networking,” J. Lightw. Tech., vol.36, no.7, pp.1411-1419, 2018. 10.1109/jlt.2018.2801308",
+      "DOI": "10.1109/JLT.2018.2801308"
+    },
+    {
+      "key": "3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[3] E. Honda, Y. Mori, H. Hasegawa, and K. Sato, “Feasibility test of large-scale (1,424×1,424) optical circuit switches utilizing commercially available tunable lasers,” Optoelectronics and Communications Conference/Photonic in Switching and Computing Conference 2019 (OECC/PSC 2019), WA1-3, 2019. 10.23919/ps.2019.8817773",
+      "DOI": "10.23919/PS.2019.8817773"
+    },
+    {
+      "key": "4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[4] K. Kwon, T.J. Seok, J. Henriksson, J. Luo, L. Ochikubo, J. Jacobs, R.S. Muller, and M.C. Wu, “128×128 silicon photonic MEMS Switch with scalable row/column Addressing,” Conference on Lasers and Electro-Optics (CLEO 2018), SF1A.4, 2018.",
+      "DOI": "10.1364/CLEO_SI.2018.SF1A.4"
+    },
+    {
+      "key": "5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[5] R.V. Penty, M. Ding, A. Wonfor, and I.H. White, “Scaling of low energy InP SOA based switches,” Advanced Photonics Conference/Photonics in Switching Conference 2017 (APC/PS 2017), PM4D.3, 2017. 10.1364/ps.2017.pm4d.3",
+      "DOI": "10.1364/PS.2017.PM4D.3"
+    },
+    {
+      "key": "6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[6] S. Suda, H. Matsuura, K. anizawa, K. Suzuki, K. Ikeda, H. Kawashima, and S. amiki, “Fast and accurate automatic calibration of a 32×32 silicon photonic strictly-non-blocking switch,” Advanced Photonics Conference/Photonics in Switching Conference 2017 (APC/PS 2017), PTu3C.5, 2017. 10.1364/ps.2017.ptu3c.5",
+      "DOI": "10.1364/PS.2017.PTu3C.5"
+    },
+    {
+      "key": "7",
+      "unstructured": "[7] K. Nogughi, “Optical free-space multichannel switches composed of liquid-crystal light-modulator arrays and birefringent crystals,” J. Lightwave Technol., vol.16, pp.1473-1481, 1998."
+    },
+    {
+      "key": "8",
+      "unstructured": "[8] C. Lee and J.-K. Rhee, “Add-drop Benes network for scalable optical packet networks,” Opt. Express, vol.19, pp.8632-8640, 2011."
+    },
+    {
+      "key": "9",
+      "unstructured": "[9] A.M. Jones, C.T. DeRose, A.L. Lentine, D.C. Trotter, A.L. Starbuck, and R.A. Norwood, “Ultra-low crosstalk, CMOS compatible waveguide crossings for densely integrated photonic interconnection networks,” Opt. Express, vol.21, pp.12002-12013, 2013."
+    },
+    {
+      "key": "10",
+      "doi-asserted-by": "publisher",
+      "unstructured": "[10] C.M. Miller, “A fiber-optic-cable connector,” The Bell system technical journal, vol.54, no.9, pp.1547-1555, 1975. 10.1002/j.1538-7305.1975.tb02050.x",
+      "DOI": "10.1002/j.1538-7305.1975.tb02050.x"
+    },
+    {
+      "key": "11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[11] K. Hamamoto, Y. Hinokuma, S. Ghosh, R. Kuwahata, and H. Jiang, “Shuffle converter using 3D waveguide for MCF/SMF fan-in fan-out configuration toward over 1,000 port count optical matrix switch,” Optoelectronics and Communications Conference 2018 (OECC 2018), 5E2-4, 2018. 10.1109/oecc.2018.8730115",
+      "DOI": "10.1109/OECC.2018.8730115"
+    },
+    {
+      "key": "12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[12] Y. Muranaka, T. Nakahara, S. Ibrahim, T. Fujii, T. Segawa, T. Hashimoto, and R. Takahashi, “Monolithically integrated 4x4 optical switch with cascaded MZIs and EAM-Gate array,” European Conference on Optical Communication 2017 (ECOC 2017), P1.SC2.33, 2017.",
+      "DOI": "10.1109/ECOC.2017.8345916"
+    },
+    {
+      "key": "13",
+      "unstructured": "[13] T. Nagai and K. Hane, “Silicon photonic microelectromechanical switch using lateral adiabatic waveguide couplers,” Opt. Express, vol.26, pp.33906-33917, 2018."
+    },
+    {
+      "key": "14",
+      "doi-asserted-by": "publisher",
+      "unstructured": "[14] K.M. Davis, K. Miura, N. Sugimoto, and K. Hirao, “Writing waveguides in glass with a femtosecond laser,” Opt. Lett., vol.21, no.21, pp.1729-1731, 1996. 10.1364/ol.21.001729",
+      "DOI": "10.1364/OL.21.001729"
+    },
+    {
+      "key": "15",
+      "doi-asserted-by": "publisher",
+      "unstructured": "[15] F. Chen and J.R. Vázquez de Aldana, “Optical waveguides in crystalline dielectric materials produced by femtosecond-laser micromachining,” Laser Photonics Rev., vol.8, no.2, pp.251-275, 2014. 10.1002/lpor.201300025",
+      "DOI": "10.1002/lpor.201300025"
+    }
+  ],
+  "container-title": [
+    "IEICE Transactions on Electronics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.jstage.jst.go.jp/article/transele/E104.C/1/E104.C_2020ECS6002/_pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        2
+      ]
+    ],
+    "date-time": "2021-01-02T03:12:16Z",
+    "timestamp": 1609557136000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.jstage.jst.go.jp/article/transele/E104.C/1/E104.C_2020ECS6002/_article"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        1
+      ]
+    ]
+  },
+  "references-count": 15,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1587/transele.2020ecs6002",
+  "relation": {},
+  "ISSN": [
+    "0916-8524",
+    "1745-1353"
+  ],
+  "issn-type": [
+    {
+      "value": "0916-8524",
+      "type": "print"
+    },
+    {
+      "value": "1745-1353",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        1
+      ]
+    ]
+  }
+}

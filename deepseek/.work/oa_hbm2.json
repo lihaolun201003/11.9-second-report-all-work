@@ -1,0 +1,155 @@
+{
+ "10.1364/optica.559260": {
+  "title": "Low-loss integration of high-density polymer waveguides with silicon photonics for co-packaged optics",
+  "year": 2025,
+  "venue": "Optica",
+  "authors": [
+   "Jef Van Asch",
+   "Jeroen Missinne",
+   "Junwen He",
+   "Arnita Podpod",
+   "Guy Lepage",
+   "Negin Golshani",
+   "Rafal Magdziak",
+   "Hüseyin Şar",
+   "Hakim Kobbi",
+   "Swetanshu Bipul",
+   "Dieter Bode",
+   "Yoojin Ban",
+   "Filippo Ferraro",
+   "Joris Van Campenhout",
+   "Geert Van Steenberge"
+  ],
+  "abstract": "Co-packaged optics applications require scalable and high-yield optical interfacing solutions to silicon photonic chiplets, offering low-loss, broadband, and polarization-independent optical coupling while maintaining compatibility with widely used approaches for electrical redistribution. We present two heterogeneous integration techniques that enable high-density optical I/O connections, utilizing adiabatic coupling between on-chip silicon nitride (SiN) waveguides and package-level polymer optical waveguides. In the first approach, polymer waveguides are patterned using standard lithography directly on the surface of the photonic chip, ensuring compatibility with chip embedding as commonly employed in chip-first fanout wafer-level packaging. In the second approach, photonic chips are flip-chip bonded to the package substrate. Both techniques have been experimentally validated, achieving a coupling efficiency near 1 dB between SiN and polymer waveguides in the O-band, for both TE and TM polarizations. SiN tapers were designed using the “Mono” method to optimize phase-matching conditions between the two waveguides, a critical requirement for integrating diverse optical components. These results demonstrate the potential of polymer waveguides in co-packaged optics applications, achieving sub-2 dB chip-to-chip and chip-to-fiber coupling losses.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/optica.559260",
+  "oa_status": "gold"
+ },
+ "10.1364/ofc.2019.m4d.7": {
+  "title": "TeraPHY: A High-density Electronic-Photonic Chiplet for Optical I/O from a Multi-Chip Module",
+  "year": 2019,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Roy Meade",
+   "Shahab Ardalan",
+   "Michael L. Davenport",
+   "John M. Fini",
+   "Chen Sun",
+   "Mark T. Wade",
+   "Alexandra Wright-Gladstein",
+   "Chong Zhang"
+  ],
+  "abstract": "In this work, we provide an overview of System-in-Package (SiP) integration of an electronic-photonic chiplet fabricated in a commercial CMOS foundry. Assembly considerations, including co-packaging in a standard multi-chip module (MCM) package with a System-on-Chip (SoC), thermals, and fiber attach will be reviewed.",
+  "cited": 37,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ectc51909.2023.00046": {
+  "title": "Co-packaged Optics on Glass Substrates for 102.4 Tb/s Data Center Switches",
+  "year": 2023,
+  "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+  "authors": [
+   "Lucas W. Yeary",
+   "Lars Brusberg",
+   "Cheolbok Kim",
+   "Seong-Ho Seok",
+   "JungHyun Noh",
+   "Alon Rozenvax"
+  ],
+  "abstract": "Next generation data centers are challenged with the task of delivering increased bandwidth and data rates at manageable power consumption. Co-packaged optics offer a path forward by enabling significant power reduction when electronic and photonic chiplets are locally mounted on a packaging substrate. In this paper, we discuss a glass substrate solution where both optical and electrical connectivity can be fabricated using ion-exchange (IOX) waveguides embedded into the glass and low-loss electrical routing. Design aspects are discussed to support 102.4 Tb/s data center switch applications. Signal transmission between the ASIC and PIC is completed with a total of 5 metal layers utilizing fine-line signal routing separated by ground planes. Through glass vias (TGVs) provide both power delivery for the mounted components and data management connectivity. Low-loss evanescent coupling occurs between the waveguides embedded in the glass substrate and photonic chips with high-density silicon nitride optical IOs. This design enables low-cost assembly methods involving the pick and place alignment of optical components and offers connectivity with low-profile mechanical transfer (MT) ferrule based fiber connectors.",
+  "cited": 26,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.3389/aot.2023.1244009": {
+  "title": "Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics",
+  "year": 2023,
+  "venue": "Advanced Optical Technologies",
+  "authors": [
+   "Jason R. Grenier",
+   "Lars Brusberg",
+   "Kristopher A. Wieland",
+   "Juergen Matthies",
+   "Chad C. Terwilliger"
+  ],
+  "abstract": "High bandwidth demanding applications such as high-performance computing and hyperscale datacenters are drivers for co-packaged optics, which aims to bring optical signals as close as possible to the electrical computing chips by integrating the electro-optic transceivers and ASICs on the same package substrate. These next-generation switches require advanced fiber-to-chip connectivity and novel packaging concepts to enable sufficient power and cost savings. As such, low-loss, high bandwidth, and high fiber-counts are required at the photonic chip interface. In this work, these challenges are addressed by enabling the multi-fiber push-on (MPO) interface at the edge of integrated glass waveguide substrates and thus leverages the existing fiber connector eco-system. An ultrafast laser process is used to singulate glass wafers into individual photonic chips leaving optical-quality end-facets with <1 μm flatness over the 6.5 mm wide connector region thereby directly enabling low-loss fiber-to-chip edge-coupling. To overcome the high-costs and complex photonic packaging associated with active alignment of the fiber connectors to the glass waveguide interfaces, ultrafast laser-ablated features are accurately positioned on the glass substrate to enable self-alignment of the MPO connector guide-pins resulting in a passive alignment approach. Subsequent mating and de-mating of the MPO connector to the glass waveguide interface yields on average a 0.19 dB increase in the coupling loss compared to using active alignment.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/aot.2023.1244009/pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/tcpmt.2025.3526500": {
+  "title": "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+  "year": 2025,
+  "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+  "authors": [
+   "Lars Brusberg",
+   "Marissa Granados-Baez",
+   "Ryan Schilling",
+   "Jorge A. Holguín‐Lerma",
+   "Janderson R. Rodrigues",
+   "Lucas W. Yeary",
+   "Aramais R. Zakharian",
+   "Betsy J. Johnson",
+   "Matthew J. Dejneka"
+  ],
+  "abstract": "Glass provides high dimensional stability and flatness, enabling high-throughput electronic assembly with high precision optical alignment for co-packaged optics (CPO) applications. Optical waveguides can be integrated in the glass core material by the thermal silver ion-exchange (IOX) process at temperatures around 350°C for fiber to chip connectivity. Currently available IOX glasses degrade due to ion mobility at operating conditions so we designed a new glass composition enabling waveguides to be stable over a lifetime of five years at an elevated temperature of 85°C or higher without performance degradation which could impact the integrity of the optical signal. The glass composition was optimized for thermal stability and low loss IOX waveguides were fabricated with propagation loss of only 0.034 dB/cm. Waveguide designs are studied and evaluated for waveguide crossings, high-density spacing, tight bends, high-optical power transmission, and polarization dependency. The waveguide technology is demonstrated for different applications including glass waveguide bridge for fiber to chip-coupling, multi-core fan-out, optical waveguide shuffle and an optical waveguide circuit for CPO with over 1024 waveguide interconnects.",
+  "cited": 13,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/hotchips.2019.8875658": {
+  "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth in-Package Optical I/O",
+  "year": 2019,
+  "venue": "IEEE Hot Chips Symposium",
+  "authors": [
+   "Mark T. Wade"
+  ],
+  "abstract": "In this article, we present TeraPHY, a monolithic electronic-photonic chiplet technology for low power and low latency, multi-Tb/s chip-to-chip communications. Integration of the TeraPHY optical technology with open source advanced interconnect bus interface enables communication between chips at board, rack, and row level at the energy and latency cost of in-package interconnect. This enables the design of logically connected but physically separated large-scale and high-performance digital systems. The copackaging integration approach is demonstrated by integrating the TeraPHY die into the Intel Stratix10 FPGA multichip package.",
+  "cited": 21,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2022,
+  "venue": "International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate a low-loss and low-crosstalk fan-in/fan-out device for three-core fiber using femtosecond laser direct inscription. The fabricated FI/FO device has an averaged insertion loss of 1.33 dB and a crosstalk smaller than −49 dB.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/hipcw66559.2025.00021": {
+  "title": "Evaluating CXL Memory Pooling for Scalable LLM Inference",
+  "year": 2025,
+  "venue": "IEEE International Conference on High Performance Computing, Data and Analytics Workshop (HiPCW)",
+  "authors": [
+   "Sai Krishna Vemuri",
+   "Venkata Ravi Shankar Jonnalagadda",
+   "Ajay Joshi",
+   "Rohit Sindhu",
+   "Vijay Kumar Motagi",
+   "Amandeep Singh",
+   "Praveen Kumar Rukmangada",
+   "Sachin Shaw",
+   "Vishal Tanna"
+  ],
+  "abstract": "Large-context LLM inference increasingly faces bottlenecks in Key-Value (KV) cache capacity and bandwidth rather than raw compute. While on-package HBM delivers exceptional bandwidth, its capacity is limited; when long prompts or multi-tenant workloads exceed the HBM KV cache budget, operators turn to re-computation or offloading to system memory or storage—both with significant performance costs. Compute Express Link (CXL) introduces a flexible, low-latency, load/store memory tier that can be pooled and shared across nodes using PCIe 6.0 PHY, multi-level switching, and fabric features in CXL 3.x. This paper examines when and why CXL memory pooling helps LLM serving: we explain the inference pipeline and KV cache growth dynamics, discuss architectural advantages and deployment considerations for CXL pooling, and present a compact analytical model of per-accelerator throughput vs. context length that compares HBM-only with re-computation, HBM + distributed DDR, and HBM + CXL pooled memory. With realistic parameters from contemporary GPUs, 800 GbE networks, and CXL fabrics, our model shows that CXL pooling sustains substantially higher throughput beyond the HBM-fit regime (e.g., ≥ 100 k tokens) by reducing per-segment residual stalls compared to distributed DDR, while avoiding the severe collapse of re-computation. We close with sensitivity analyses, limitations, and guidance for deploying CXL fabrics in long-context serving stacks.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

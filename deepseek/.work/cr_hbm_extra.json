@@ -1,0 +1,80 @@
+{
+ "10.1109/HOTCHIPS.2019.8875658": {
+  "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth in-Package Optical I/O",
+  "year": 2019,
+  "container": "2019 IEEE Hot Chips 31 Symposium (HCS)",
+  "authors": [
+   "Mark Wade"
+  ],
+  "volume": null,
+  "issue": null,
+  "page": "i-xlviii",
+  "doi": "10.1109/hotchips.2019.8875658"
+ },
+ "10.1364/OFC.2019.M4D.7": {
+  "title": "TeraPHY: A High-density Electronic-Photonic Chiplet for Optical I/O from a Multi-Chip Module",
+  "year": 2019,
+  "container": "Optical Fiber Communication Conference (OFC) 2019",
+  "authors": [
+   "Roy Meade",
+   "Shahab Ardalan",
+   "Michael Davenport",
+   "John Fini",
+   "Chen Sun",
+   "Mark Wade"
+  ],
+  "volume": null,
+  "issue": null,
+  "page": "M4D.7",
+  "doi": "10.1364/ofc.2019.m4d.7"
+ },
+ "10.1109/ECTC51909.2023.00046": {
+  "title": "Co-packaged Optics on Glass Substrates for 102.4 Tb/s Data Center Switches",
+  "year": 2023,
+  "container": "2023 IEEE 73rd Electronic Components and Technology Conference (ECTC)",
+  "authors": [
+   "Lucas Yeary",
+   "Lars Brusberg",
+   "Cheolbok Kim",
+   "Seong-Ho Seok",
+   "JungHyun Noh",
+   "Alon Rozenvax"
+  ],
+  "volume": null,
+  "issue": null,
+  "page": "224-227",
+  "doi": "10.1109/ectc51909.2023.00046"
+ },
+ "10.1364/optica.559260": {
+  "title": "Low-loss integration of high-density polymer waveguides with silicon photonics for co-packaged optics",
+  "year": 2025,
+  "container": "Optica",
+  "authors": [
+   "Jef Van Asch",
+   "Jeroen Missinne",
+   "Junwen He",
+   "Arnita Podpod",
+   "Guy Lepage",
+   "Negin Golshani"
+  ],
+  "volume": "12",
+  "issue": "6",
+  "page": "821",
+  "doi": "10.1364/optica.559260"
+ },
+ "10.1109/ICOCN55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2022,
+  "container": "2022 20th International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "volume": null,
+  "issue": null,
+  "page": "1-2",
+  "doi": "10.1109/icocn55511.2022.9901157"
+ }
+}

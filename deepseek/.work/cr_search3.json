@@ -1,0 +1,1082 @@
+{
+ "optical waveguide shuffle glass low loss": [
+  {
+   "doi": "10.1063/1.1654461",
+   "title": "Fused-silica-core glass fiber as a low-loss optical waveguide",
+   "year": 1973,
+   "venue": "Applied Physics Letters",
+   "authors": [
+    "Daisuke Kato"
+   ],
+   "type": "journal-article",
+   "cited": 33
+  },
+  {
+   "doi": "10.1117/12.2611775",
+   "title": "Low-loss optical single-mode waveguide platform in thin glass with wide spectral range",
+   "year": 2022,
+   "venue": "Optical Interconnects XXII",
+   "authors": [
+    "Henning Schröder",
+    "Julian Schwietering",
+    "Oliver Kirsch",
+    "Philipp Wachholz",
+    "Wojciech Lewoczko-Adamczyk"
+   ],
+   "type": "proceedings-article",
+   "cited": 5
+  },
+  {
+   "doi": "10.1364/ofc.1986.tua1",
+   "title": "Low optical loss fluoride glass waveguides",
+   "year": 1986,
+   "venue": "Optical Fiber Communication",
+   "authors": [
+    "D. C. TRAN"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1117/1.601589",
+   "title": "Semiconductor device to optical fiber coupling using low-loss glass taper waveguide",
+   "year": 1997,
+   "venue": "Optical Engineering",
+   "authors": [
+    "M. Mashayekhi",
+    "Tahar Touam",
+    "Wei J. Wang",
+    "Ezio Berolo",
+    "S. Iraj Najafi"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1021/acsami.6c07517.s001",
+   "title": "Low-Transmission-Loss Optical Waveguide Devices of Polyimides with Trifluoromethoxy-Enhanced Ultrahigh Refractive Index for Short-Distance Optical Communication",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/ecoc.2014.6964253",
+   "title": "Low-loss telecom wavelength board-level optical interconnects in thin glass panels by ion-exchange waveguide technology",
+   "year": 2014,
+   "venue": "2014 The European Conference on Optical Communication (ECOC)",
+   "authors": [
+    "Lars Brusberg",
+    "Christian Herbst",
+    "Marcel Neitz",
+    "Henning Schroder",
+    "Klaus-Dieter Lang"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.2172/6151458",
+   "title": "Construction tolerances for low loss, dielectric coated, metallic waveguide for transmission optical radiation",
+   "year": 1984,
+   "venue": "",
+   "authors": [
+    "J. Sandweiss"
+   ],
+   "type": "report",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/icsj.2018.8602743",
+   "title": "Low propagation loss of a single mode polymer optical waveguide on a glass epoxy substrate",
+   "year": 2018,
+   "venue": "2018 IEEE CPMT Symposium Japan (ICSJ)",
+   "authors": [
+    "Dai HASHIMOTO",
+    "Takeru AMANO",
+    "Takamichi KUBOTA",
+    "Yoshinobu OKANO",
+    "Akihiro NORIKI"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.1117/12.569193",
+   "title": "Low-loss glass waveguide optical power splitter by two-step ion-exchange technology",
+   "year": 2005,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Zigang Zhou"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1364/ipnra.2009.jtub10",
+   "title": "Polarization Independent, Low Loss, Low Crosstalk Si Wire Waveguide Crossing",
+   "year": 2009,
+   "venue": "Advances in Optical Sciences Congress",
+   "authors": [
+    "Daiki Tanaka",
+    "Yuichiro Ikuma",
+    "Hiroyuki Tsuda"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "ion exchange glass waveguide bending loss radius": [
+  {
+   "doi": "10.1109/icsj66986.2025.11302545",
+   "title": "Extremely Low Bending Loss (&lt;0.5 dB at 1-mm Bending Radius) GI Core Polymer Optical Waveguide",
+   "year": 2025,
+   "venue": "2025 IEEE CPMT Symposium Japan (ICSJ)",
+   "authors": [
+    "Masahiro Karakawa",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.569193",
+   "title": "Low-loss glass waveguide optical power splitter by two-step ion-exchange technology",
+   "year": 2005,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Zigang Zhou"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.15372/aut20190107",
+   "title": "POLARIZATION TRANSFORMATION BY CONVERSION OF TM0-TE1 MODES IN AN ION-EXCHANGE GLASS WAVEGUIDE",
+   "year": 2019,
+   "venue": "Автометрия",
+   "authors": [],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.179752",
+   "title": "Ion-exchange process for glass waveguide fabrication",
+   "year": 1994,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Giancarlo C. Righini"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1109/ecoc.2014.6964253",
+   "title": "Low-loss telecom wavelength board-level optical interconnects in thin glass panels by ion-exchange waveguide technology",
+   "year": 2014,
+   "venue": "2014 The European Conference on Optical Communication (ECOC)",
+   "authors": [
+    "Lars Brusberg",
+    "Christian Herbst",
+    "Marcel Neitz",
+    "Henning Schroder",
+    "Klaus-Dieter Lang"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/ipr.1991.the5",
+   "title": "Loss reduction of ion-exchanged glass waveguide Y-junction",
+   "year": 1991,
+   "venue": "Integrated Photonics Research",
+   "authors": [
+    "Kenichi Nakama",
+    "Shigeru Kobayashi",
+    "Hideki Hashizume",
+    "Masafumi Seki"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.5772/51427",
+   "title": "Ion Exchange in Glass – The Changes of Glass Refraction",
+   "year": 2012,
+   "venue": "Ion Exchange Technologies",
+   "authors": [
+    "Roman Rogozinski"
+   ],
+   "type": "book-chapter",
+   "cited": 12
+  },
+  {
+   "doi": "10.1364/ofc.1988.pd4",
+   "title": "Purely-thermal ion exchange technique for single-mode waveguide devices in glass",
+   "year": 1988,
+   "venue": "Optical Fiber Communication",
+   "authors": [
+    "M. Seki",
+    "R. Sugawara",
+    "H. Hashizume",
+    "E. Okuda"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/smelec.2004.1620925",
+   "title": "Glass based 16 channels arrayed waveguide grating by ion exchange technique",
+   "year": 2004,
+   "venue": "2004 IEEE International Conference on Semiconductor Electronics",
+   "authors": [
+    "Heng Cherng Woei",
+    "S. Shaari"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ol.15.001206",
+   "title": "Inverse ion-exchange method for glass waveguide fabrication",
+   "year": 1990,
+   "venue": "Optics Letters",
+   "authors": [
+    "P. Pöyhönen",
+    "S. Honkanen",
+    "A. Tervonen"
+   ],
+   "type": "journal-article",
+   "cited": 3
+  }
+ ],
+ "femtosecond laser written waveguide bending loss radius": [
+  {
+   "doi": "10.1364/assl.2021.ath2a.7",
+   "title": "Femtosecond Laser Written Tm3+:BaY2F8 Waveguide Laser Operating Near 1.9 µm",
+   "year": 2021,
+   "venue": "Laser Congress 2021 (ASSL,LAC)",
+   "authors": [
+    "Yagiz Morova",
+    "Mauro Tonelli",
+    "Alphan Sennaroglu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.ijleo.2021.168308",
+   "title": "Laser action from a femtosecond laser written Yb: phosphate glass waveguide",
+   "year": 2022,
+   "venue": "Optik",
+   "authors": [
+    "Xuewen Long",
+    "Jing Bai"
+   ],
+   "type": "journal-article",
+   "cited": 8
+  },
+  {
+   "doi": "10.1364/assl.2023.sd1.3",
+   "title": "Femtosecond Laser Written Er3+:YLiF4 Channeled Waveguide Laser at 2.8 μm",
+   "year": 2023,
+   "venue": "Laser Congress 2023 (ASSL, LAC)",
+   "authors": [
+    "Berke Ayevi",
+    "Yagiz Morova",
+    "Mauro Tonelli",
+    "Alphan Sennaroglu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/icsj66986.2025.11302545",
+   "title": "Extremely Low Bending Loss (&lt;0.5 dB at 1-mm Bending Radius) GI Core Polymer Optical Waveguide",
+   "year": 2025,
+   "venue": "2025 IEEE CPMT Symposium Japan (ICSJ)",
+   "authors": [
+    "Masahiro Karakawa",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/cleo_at.2024.jtu2a.178",
+   "title": "Broadband Filters Based on Tilted Waveguide Bragg Gratings Written in Bulk Glass by Femtosecond Laser",
+   "year": 2024,
+   "venue": "CLEO 2024",
+   "authors": [
+    "Jiaming Wu",
+    "Xuewen Shu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1007/978-3-642-23366-1_13",
+   "title": "Discrete Optics in Femtosecond Laser Written Waveguide Arrays",
+   "year": 2011,
+   "venue": "Topics in Applied Physics",
+   "authors": [
+    "Alexander Szameit",
+    "Felix Dreisow",
+    "Stefan Nolte"
+   ],
+   "type": "book-chapter",
+   "cited": 6
+  },
+  {
+   "doi": "10.1109/cleo.2007.4452865",
+   "title": "Femtosecond Laser Written Waveguide Arrays with Tailored Supermodes",
+   "year": 2007,
+   "venue": "2007 Conference on Lasers and Electro-Optics (CLEO)",
+   "authors": [
+    "Michael N. Nguyen",
+    "Kenneth H. Church"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1016/j.optlastec.2013.11.006",
+   "title": "Femtosecond laser written channel optical waveguide in Nd:YAG crystal",
+   "year": 2014,
+   "venue": "Optics &amp; Laser Technology",
+   "authors": [
+    "Shi-Ling Li",
+    "Yong-Kai Ye",
+    "Ming-Wei Wang"
+   ],
+   "type": "journal-article",
+   "cited": 14
+  },
+  {
+   "doi": "10.1364/oe.18.016035",
+   "title": "Highly efficient Yb:YAG channel waveguide laser written with a femtosecond-laser",
+   "year": 2010,
+   "venue": "Optics Express",
+   "authors": [
+    "Jörg Siebenmorgen",
+    "Thomas Calmano",
+    "Klaus Petermann",
+    "Günter Huber"
+   ],
+   "type": "journal-article",
+   "cited": 156
+  },
+  {
+   "doi": "10.3788/col202321.112201",
+   "title": "Femtosecond laser writing of low-loss three-dimensional waveguide coupler in LiNbO3 crystal",
+   "year": 2023,
+   "venue": "Chinese Optics Letters",
+   "authors": [
+    "Jinman Lü",
+    "Ge Li",
+    "Yujie Ma",
+    "Feng Chen"
+   ],
+   "type": "journal-article",
+   "cited": 7
+  }
+ ],
+ "waveguide crossing loss glass optical interconnect": [
+  {
+   "doi": "10.1364/acpc.2014.ath3a.52",
+   "title": "Low loss broadband waveguide crossing for Silicon-on-insulator optical interconnect",
+   "year": 2014,
+   "venue": "Asia Communications and Photonics Conference 2014",
+   "authors": [
+    "Wanyuan Liu",
+    "Xin Tu",
+    "Huixiao Ma",
+    "H.Y. Fu",
+    "Dongyu Geng"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.21.029374",
+   "title": "Ultralow loss single layer submicron silicon waveguide crossing for SOI optical interconnect",
+   "year": 2013,
+   "venue": "Optics Express",
+   "authors": [
+    "Yangjin Ma",
+    "Yi Zhang",
+    "Shuyu Yang",
+    "Ari Novack",
+    "Ran Ding",
+    "Andy Eu-Jin Lim",
+    "Guo-Qiang Lo",
+    "Tom Baehr-Jones"
+   ],
+   "type": "journal-article",
+   "cited": 222
+  },
+  {
+   "doi": "10.1364/ofc.2017.w1b.6",
+   "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+   "year": 2017,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Kevin P.Chen",
+    "Ming-Jun Li"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ipnra.2009.jtub10",
+   "title": "Polarization Independent, Low Loss, Low Crosstalk Si Wire Waveguide Crossing",
+   "year": 2009,
+   "venue": "Advances in Optical Sciences Congress",
+   "authors": [
+    "Daiki Tanaka",
+    "Yuichiro Ikuma",
+    "Hiroyuki Tsuda"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1117/12.2037823",
+   "title": "A compact and low-loss silicon waveguide crossing for O-band optical interconnect",
+   "year": 2014,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Yi Zhang",
+    "Matthew Streshinsky",
+    "Ari Novack",
+    "Yangjin Ma",
+    "Shuyu Yang",
+    "Andy Eu-Jin Lim",
+    "Guo-Qiang Lo",
+    "Tom Baehr-Jones"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1109/oic.2014.6886117",
+   "title": "Multimode interference based ultra-low loss silicon waveguide crossing",
+   "year": 2014,
+   "venue": "2014 Optical Interconnects Conference",
+   "authors": [
+    "Yang Zhang",
+    "Amir Hosseini",
+    "Xiaochuan Xu",
+    "David Kwong",
+    "Ray T. Chen"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1007/s11801-009-9036-4",
+   "title": "Low loss optical waveguide crossing based on octagonal resonant cavity coupling",
+   "year": 2009,
+   "venue": "Optoelectronics Letters",
+   "authors": [
+    "Mohd. Zahed M. Khan"
+   ],
+   "type": "journal-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/ofc.2017.th3e.2",
+   "title": "Ultimately low-loss and compact Si wire 90° waveguide bend composed of clothoid and normal curves for dense optical interconnect PICs",
+   "year": 2017,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Shuntaro Makino",
+    "Masahiro Suga",
+    "Takanori Sato",
+    "Takeshi Fusjisawa",
+    "Kunimasa Saitoh"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/estc.2012.6542186",
+   "title": "Significant reduction of crossing loss using polynorbornene based GI-core optical waveguide",
+   "year": 2012,
+   "venue": "2012 4th Electronic System-Integration Technology Conference",
+   "authors": [
+    "S. Takayama",
+    "K. Moriya",
+    "T. Mori",
+    "K. Choki"
+   ],
+   "type": "proceedings-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1364/oe.18.024213",
+   "title": "Low bending loss characteristics of hybrid plasmonic waveguide for flexible optical interconnect",
+   "year": 2010,
+   "venue": "Optics Express",
+   "authors": [
+    "Jin Tae Kim",
+    "Suntak Park",
+    "Jung Jin Ju",
+    "Sangjun Lee",
+    "Sangin Kim"
+   ],
+   "type": "journal-article",
+   "cited": 17
+  }
+ ],
+ "three-dimensional optical waveguide routing glass": [
+  {
+   "doi": "10.1063/1.1655071",
+   "title": "Nd-glass laser with three-dimensional optical waveguide",
+   "year": 1974,
+   "venue": "Applied Physics Letters",
+   "authors": [
+    "Masatoshi Saruwatari",
+    "Tatsuo Izawa"
+   ],
+   "type": "journal-article",
+   "cited": 18
+  },
+  {
+   "doi": "10.1063/1.4796335",
+   "title": "Three-dimensional waveguide junctions inside glass",
+   "year": 2010,
+   "venue": "Physics Today",
+   "authors": [
+    "Stephen G. Benka"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.2184/lsj.26.144",
+   "title": "Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material. Optical Fabrication of Three-Dimensional Waveguide Structures in Photorefractive Material.",
+   "year": 1998,
+   "venue": "The Review of Laser Engineering",
+   "authors": [
+    "Osamu MATOBA",
+    "Tsutomu SHIMURA",
+    "Kazuo KURODA"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ofc.2018.m4f.3",
+   "title": "Three Dimensional Silicon Optical Waveguide Structure Bent by Ion Implantation for Surface Coupling",
+   "year": 2018,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Y. Sakakibara",
+    "Y. Atsumi",
+    "T. Yoshida"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1002/9781119083405.ch3",
+   "title": "Vectorial and Three‐Dimensional Beam Propagation Techniques",
+   "year": 2015,
+   "venue": "Beam Propagation Method for Design of Optical Waveguide Devices",
+   "authors": [],
+   "type": "other",
+   "cited": 0
+  },
+  {
+   "doi": "10.1029/rs017i001p00197",
+   "title": "Nonlinear optical phenomenon in a three‐dimensional LiNbO<sub>3</sub> optical waveguide",
+   "year": 1982,
+   "venue": "Radio Science",
+   "authors": [
+    "Naoshi Uesugi"
+   ],
+   "type": "journal-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1049/cp:20050636",
+   "title": "Surface mount connectors with three-dimensional waveguide arrays for board-to-board optical interconnects",
+   "year": 2005,
+   "venue": "31st European Conference on Optical Communications (ECOC 2005)",
+   "authors": [
+    "S. Hiramatsu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/dh.2017.w2a.23",
+   "title": "Optical see-through head mounted type Maxwellian display using waveguide and holographic optical element",
+   "year": 2016,
+   "venue": "Digital Holography and Three-Dimensional Imaging",
+   "authors": [
+    "Seong-Bok Kim",
+    "Jae-Hyeung Park"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/jon.4.000157",
+   "title": "Percolation routing in a three-dimensional multicomputer network topology using optical interconnection",
+   "year": 2005,
+   "venue": "Journal of Optical Networking",
+   "authors": [
+    "Ekpe Okorafor",
+    "Mi Lu"
+   ],
+   "type": "journal-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1364/oe.428014",
+   "title": "Efficient bidirectional marching solver for optical propagation in three-dimensional waveguide structures",
+   "year": 2021,
+   "venue": "Optics Express",
+   "authors": [
+    "Hao Yang"
+   ],
+   "type": "journal-article",
+   "cited": 1
+  }
+ ],
+ "copper cable 112 Gb/s PAM4 reach": [
+  {
+   "doi": "10.23919/vlsic.2019.8778136",
+   "title": "112 Gb/s PAM4 ADC Based SERDES Receiver for Long-Reach Channels in 10nm Process",
+   "year": 2019,
+   "venue": "2019 Symposium on VLSI Circuits",
+   "authors": [
+    "Yoel Krupnik",
+    "Yevgeny Perelman",
+    "Itamar Levin",
+    "Yosi Sanhedrai",
+    "Roee Eitan",
+    "Ahmad Khairi",
+    "Yoni Landau",
+    "Udi Virobnik"
+   ],
+   "type": "proceedings-article",
+   "cited": 21
+  },
+  {
+   "doi": "10.1109/oecc.2018.8730020",
+   "title": "112 Gb/s PDM to MDM PAM4 Signal Conversion for short reach hybrid networks",
+   "year": 2018,
+   "venue": "2018 23rd Opto-Electronics and Communications Conference (OECC)",
+   "authors": [
+    "H. Zhou",
+    "Y. Li",
+    "L. Feng",
+    "W. Li",
+    "X. Hong",
+    "H. Guo",
+    "Y. Zuo",
+    "J. Qiu"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/jlt.2020.2993997",
+   "title": "Digital Pre- and Post-Equalization for C-Band 112-Gb/s PAM4 Short-Reach Transport Systems",
+   "year": 2020,
+   "venue": "Journal of Lightwave Technology",
+   "authors": [
+    "Xizi Tang",
+    "Yaojun Qiao",
+    "You-Wei Chen",
+    "Yueming Lu",
+    "Gee-Kung Chang"
+   ],
+   "type": "journal-article",
+   "cited": 69
+  },
+  {
+   "doi": "10.4071/001c.164348",
+   "title": "Higher Speed Ethernet – 40 Gb/s and 100 Gb/s Copper Cable Assembly Specifications",
+   "year": 2026,
+   "venue": "IMAPSource Proceedings",
+   "authors": [
+    "Christopher DiMinico"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/vlsic.2018.8502352",
+   "title": "An Active Copper-Cable Supporting 56-Gbit/s PAM4 and 28-Gbit/s NRZ with Continuous Time Linear Equalizer IC for to-Meters Reach Interconnection",
+   "year": 2018,
+   "venue": "2018 IEEE Symposium on VLSI Circuits",
+   "authors": [
+    "Koji Maeda",
+    "Takayasu Norimatsu",
+    "Kenji Kogo",
+    "Naohiro Kohmu",
+    "Kei Nishimura",
+    "Izumi Fukasaku"
+   ],
+   "type": "proceedings-article",
+   "cited": 7
+  },
+  {
+   "doi": "10.1364/ofc.2020.w2a.45",
+   "title": "Cascade Recurrent Neural Network Enabled 100-Gb/s PAM4 Short-Reach Optical Link Based on DML",
+   "year": 2020,
+   "venue": "Optical Fiber Communication Conference (OFC) 2020",
+   "authors": [
+    "Zhaopeng Xu",
+    "Chuanbowen Sun",
+    "Tonghui Ji",
+    "Honglin Ji",
+    "William Shieh"
+   ],
+   "type": "proceedings-article",
+   "cited": 15
+  },
+  {
+   "doi": "10.1364/laop.2016.ltu3c.4",
+   "title": "106 &amp; 112 Gb/s Transmission with an Imperfect Linear PAM4 Signal",
+   "year": 2016,
+   "venue": "Latin America Optics and Photonics Conference",
+   "authors": [
+    "Jinwoo Cho",
+    "Deepthi Chakilam",
+    "Rohit Mittal"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/ofc.2022.w2a.7",
+   "title": "Single-mode 850nm VCSELs Demonstrate 96 Gb/s PAM4 OM4 Fiber Link for Extended Reach to 1km",
+   "year": 2022,
+   "venue": "Optical Fiber Communication Conference (OFC) 2022",
+   "authors": [
+    "Dufei Wu",
+    "Xin Yu",
+    "Haonan Wu",
+    "Wenning Fu",
+    "Milton Feng"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  },
+  {
+   "doi": "10.1364/ofc.2017.m3h.4",
+   "title": "4×28 Gb/s PAM4 Long-Reach PON Using Low Complexity Nonlinear Compensation",
+   "year": 2017,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Xiang Li",
+    "Shiwei Zhou",
+    "Fan Gao",
+    "Ming Luo",
+    "Qi Yang",
+    "Qi Mo",
+    "Yu Yu",
+    "Songnian Fu"
+   ],
+   "type": "proceedings-article",
+   "cited": 16
+  },
+  {
+   "doi": "10.1364/ofc.2017.tu2d.5",
+   "title": "Nonlinear Equalizer for 112-Gb/s SSB-PAM4 in 80-km Dispersion Uncompensated Link",
+   "year": 2017,
+   "venue": "Optical Fiber Communication Conference",
+   "authors": [
+    "Noriaki Kaneda",
+    "Jeffrey Lee",
+    "Young-Kai Chen"
+   ],
+   "type": "proceedings-article",
+   "cited": 28
+  }
+ ],
+ "silicon photonics bend radius low loss": [
+  {
+   "doi": "10.1364/bicop.2024.f4b.4",
+   "title": "Fabrication of GI core polymer optical waveguides enabling low loss with small bend radius (~1 mm) using high Δ resins",
+   "year": 2024,
+   "venue": "British and Irish Conference on Optics and Photonics 2024",
+   "authors": [
+    "Masahiro Karakawa",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.3390/photonics9090616",
+   "title": "Design of Compact, Broadband, and Low-Loss Silicon Waveguide Bends with Radius under 500 nm",
+   "year": 2022,
+   "venue": "Photonics",
+   "authors": [
+    "Zhekang Zhang",
+    "Yuchen Shi",
+    "Bo Shao",
+    "Taotao Zhou",
+    "Fan Luo",
+    "Yin Xu"
+   ],
+   "type": "journal-article",
+   "cited": 15
+  },
+  {
+   "doi": "10.1109/group4.2008.4638180",
+   "title": "Low loss sharp bend for silicon nanophotonic slow-light waveguide",
+   "year": 2008,
+   "venue": "2008 5th IEEE International Conference on Group IV Photonics",
+   "authors": [
+    "Huaxiang Yi",
+    "Yi Wang",
+    "Junbo Feng",
+    "Yao Chen",
+    "Zhiping Zhou"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/acp.2009.fp6",
+   "title": "Low-loss bend-bend coupler for Si-based ultra-small microrings resonator",
+   "year": 2009,
+   "venue": "Asia Communications and Photonics Conference and Exhibition",
+   "authors": [
+    "Jing Hu",
+    "Daoxin Dai"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1021/acs.nanolett.5c05838.s001",
+   "title": "Multiport Programmable Silicon Photonics Using Low-Loss Phase Change Material Sb2Se3",
+   "year": null,
+   "venue": "",
+   "authors": [],
+   "type": "component",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/oecc56963.2023.10209914",
+   "title": "Low-loss Silicon Dual-mode Waveguide Bend with 900nm Width and 3μm Radius",
+   "year": 2023,
+   "venue": "2023 Opto-Electronics and Communications Conference (OECC)",
+   "authors": [
+    "Enge Zhang",
+    "Shiqi Zhang",
+    "Junjing Huang",
+    "Xiaoran Zhu",
+    "Tongxin Yang",
+    "Liuwei Chen",
+    "Yu Zhang",
+    "Xu Yang"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.4172/2469-410x.1000147",
+   "title": "Polymer Based PCF with High Nonlinearity and Low Bend Loss: A New Modeling",
+   "year": 2017,
+   "venue": "Journal of Lasers, Optics &amp; Photonics",
+   "authors": [
+    "Muduli N"
+   ],
+   "type": "journal-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1364/oe.26.017680",
+   "title": "Low-loss and low-crosstalk multimode waveguide bend on silicon",
+   "year": 2018,
+   "venue": "Optics Express",
+   "authors": [
+    "Xiaohui Jiang",
+    "Hao Wu",
+    "Daoxin Dai"
+   ],
+   "type": "journal-article",
+   "cited": 194
+  },
+  {
+   "doi": "10.1002/lpor.201300183",
+   "title": "Ultra-low loss waveguide platform and its integration with silicon photonics",
+   "year": 2014,
+   "venue": "Laser &amp; Photonics Reviews",
+   "authors": [
+    "Martijn J. R. Heck",
+    "Jared F. Bauters",
+    "Michael L. Davenport",
+    "Daryl T. Spencer",
+    "John E. Bowers"
+   ],
+   "type": "journal-article",
+   "cited": 174
+  },
+  {
+   "doi": "10.1109/siphotonics60897.2024.10543440",
+   "title": "Low-loss Non-volatile Phase Change Material on Silicon for Neuromorphic Photonics",
+   "year": 2024,
+   "venue": "2024 IEEE Silicon Photonics Conference (SiPhotonics)",
+   "authors": [
+    "Rakshitha Kallega",
+    "Ramesh Karuppannan",
+    "Shankar Kumar Selvaraja"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  }
+ ],
+ "polymer waveguide 45 degree mirror optical backplane loss": [
+  {
+   "doi": "10.1117/12.828858",
+   "title": "45° degree polymer micro-mirror and waveguide integration for board-level optical interconnects",
+   "year": 2009,
+   "venue": "Proceedings of SPIE",
+   "authors": [
+    "Fengtao Wang",
+    "Fuhan Liu",
+    "Ali Adibi"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/icsj.2015.7357374",
+   "title": "Low-loss light coupling design for a multimode polymer optical waveguide via 45-degree mirrors",
+   "year": 2015,
+   "venue": "2015 IEEE CPMT Symposium Japan (ICSJ)",
+   "authors": [
+    "Yoshie Morimoto",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1364/oe.19.014403",
+   "title": "Photolithography-free polymer optical waveguide arrays for optical backplane bus",
+   "year": 2011,
+   "venue": "Optics Express",
+   "authors": [
+    "Xinyuan Dou",
+    "Alan X. Wang",
+    "Xiaohui Lin",
+    "Ray T. Chen"
+   ],
+   "type": "journal-article",
+   "cited": 13
+  },
+  {
+   "doi": "10.1364/psc.2021.w1a.4",
+   "title": "Simulation and experiment of low-loss optical coupling between polymer waveguide and single-mode fiber using 45 °mirror and self-formed lens",
+   "year": 2021,
+   "venue": "Photonics in Switching and Computing 2021",
+   "authors": [
+    "Qin Su",
+    "Daisuke Hikima",
+    "Ryo Kuwata",
+    "Hirotaka Oshima",
+    "Yuichi Matsushima",
+    "Hiroshi Ishikawa",
+    "Katsuyuki Utaka"
+   ],
+   "type": "proceedings-article",
+   "cited": 2
+  },
+  {
+   "doi": "10.1109/ectc.2009.5074269",
+   "title": "45 Degree polymer micro-mirror integration for board-level three-dimensional optical interconnects",
+   "year": 2009,
+   "venue": "2009 59th Electronic Components and Technology Conference",
+   "authors": [
+    "Fengtao Wang",
+    "Fuhan Liu",
+    "Ali Adibi"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1143/jjap.47.6744",
+   "title": "Low Loss Vertical Optical Path Conversion Using 45° Mirror for Coupling between Optical Waveguide Devices and Planar Devices",
+   "year": 2008,
+   "venue": "Japanese Journal of Applied Physics",
+   "authors": [
+    "Yasutomo Johraku",
+    "Yasuo Kokubun"
+   ],
+   "type": "journal-article",
+   "cited": 12
+  },
+  {
+   "doi": "10.1109/icton.2013.6602918",
+   "title": "A polymer waveguide-based 40 Gb/s optical bus backplane for board-level optical interconnects",
+   "year": 2013,
+   "venue": "2013 15th International Conference on Transparent Optical Networks (ICTON)",
+   "authors": [
+    "Nikos Bamiedakis",
+    "Aeffendi Hashim",
+    "Richard V. Penty",
+    "Ian H. White"
+   ],
+   "type": "proceedings-article",
+   "cited": 0
+  },
+  {
+   "doi": "10.1109/oic.2015.7115671",
+   "title": "Ultra low crossing loss meshed waveguide based on polynorbornene for backplane architecture",
+   "year": 2015,
+   "venue": "2015 IEEE Optical Interconnects Conference (OI)",
+   "authors": [
+    "Katsuma Kitazoe",
+    "Akihiro Horimoto",
+    "Kimio Moriya",
+    "Ryota Kinoshita",
+    "Koji Choki",
+    "Takaaki Ishigure"
+   ],
+   "type": "proceedings-article",
+   "cited": 4
+  },
+  {
+   "doi": "10.23919/oecc/psc53152.2022.9849868",
+   "title": "Low-loss optical coupling between polymer single-mode waveguide and single-mode fiber using 45° mirror",
+   "year": 2022,
+   "venue": "2022 27th OptoElectronics and Communications Conference (OECC) and 2022 International Conference on Photonics in Switching and Computing (PSC)",
+   "authors": [
+    "Ryo Kuwata",
+    "Qin Su",
+    "Hirotaka Oshima",
+    "Yuichi Matsushima",
+    "Hiroshi Ishikawa",
+    "Katsuyuki Utaka"
+   ],
+   "type": "proceedings-article",
+   "cited": 1
+  },
+  {
+   "doi": "10.1117/12.2040070",
+   "title": "Polymer waveguide with tunable optofluidic couplers for card-to-backplane optical interconnects",
+   "year": 2014,
+   "venue": "SPIE Proceedings",
+   "authors": [
+    "Guomin Jiang",
+    "Sarfaraz Baig",
+    "Michael R. Wang"
+   ],
+   "type": "proceedings-article",
+   "cited": 3
+  }
+ ]
+}

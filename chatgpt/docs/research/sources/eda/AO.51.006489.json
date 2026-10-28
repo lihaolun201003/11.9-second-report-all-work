@@ -1,0 +1,591 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        24
+      ]
+    ],
+    "date-time": "2026-03-24T20:31:29Z",
+    "timestamp": 1774384289426,
+    "version": "3.50.1"
+  },
+  "reference-count": 24,
+  "publisher": "Optica Publishing Group",
+  "issue": "27",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            9,
+            12
+          ]
+        ],
+        "date-time": "2012-09-12T00:00:00Z",
+        "timestamp": 1347408000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.1364/OA_License_v1#VOR"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            9,
+            12
+          ]
+        ],
+        "date-time": "2012-09-12T00:00:00Z",
+        "timestamp": 1347408000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "www.osapublishing.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Appl. Opt."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2012,
+        9,
+        20
+      ]
+    ]
+  },
+  "DOI": "10.1364/ao.51.006489",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        9,
+        10
+      ]
+    ],
+    "date-time": "2012-09-10T21:45:12Z",
+    "timestamp": 1347313512000
+  },
+  "page": "6489",
+  "update-policy": "https://doi.org/10.1364/osa_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 25,
+  "title": [
+    "Design of optically path-length-matched, three-dimensional photonic circuits comprising uniquely routed waveguides"
+  ],
+  "prefix": "10.1364",
+  "volume": "51",
+  "author": [
+    {
+      "given": "Ned",
+      "family": "Charles",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Nemanja",
+      "family": "Jovanovic",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Simon",
+      "family": "Gross",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Paul",
+      "family": "Stewart",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Barnaby",
+      "family": "Norris",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "John",
+      "family": "O’Byrne",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Jon S.",
+      "family": "Lawrence",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Michael J.",
+      "family": "Withford",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Peter G.",
+      "family": "Tuthill",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "285",
+  "published-online": {
+    "date-parts": [
+      [
+        2012,
+        9,
+        12
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ao-51-27-6489-R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "646",
+      "DOI": "10.1126/science.1155441",
+      "volume": "320",
+      "author": "Politi",
+      "year": "2008",
+      "journal-title": "Science"
+    },
+    {
+      "key": "ao-51-27-6489-R2",
+      "first-page": "731",
+      "article-title": "FLUOR: a stellar interferometer using single-mode infrared fibers",
+      "volume-title": "ESO Conference on High-Resolution Imaging by Interferometry II",
+      "author": "du ForestoBeckers",
+      "year": "1991"
+    },
+    {
+      "key": "ao-51-27-6489-R3",
+      "first-page": "27",
+      "article-title": "Fringe benefits: the spatial filtering advantages of single-mode fibers",
+      "volume-title": "Integrated Optics for Astronomical Interferometry",
+      "author": "du ForestoKern",
+      "year": "1997"
+    },
+    {
+      "key": "ao-51-27-6489-R4",
+      "doi-asserted-by": "crossref",
+      "first-page": "601",
+      "DOI": "10.1051/0004-6361/200811083",
+      "volume": "498",
+      "author": "Benisty",
+      "year": "2009",
+      "journal-title": "Astron. Astrophys."
+    },
+    {
+      "key": "ao-51-27-6489-R5",
+      "doi-asserted-by": "crossref",
+      "first-page": "A48",
+      "DOI": "10.1051/0004-6361/201116727",
+      "volume": "531",
+      "author": "Labadie",
+      "year": "2011",
+      "journal-title": "Astron. Astrophys."
+    },
+    {
+      "key": "ao-51-27-6489-R6",
+      "doi-asserted-by": "crossref",
+      "first-page": "392",
+      "DOI": "10.1364/OL.37.000392",
+      "volume": "37",
+      "author": "Ródenas",
+      "year": "2012",
+      "journal-title": "Opt. Lett."
+    },
+    {
+      "key": "ao-51-27-6489-R7",
+      "doi-asserted-by": "crossref",
+      "first-page": "L31",
+      "DOI": "10.1051/0004-6361:20011035",
+      "volume": "376",
+      "author": "Berger",
+      "year": "2001",
+      "journal-title": "Astron. Astrophys."
+    },
+    {
+      "key": "ao-51-27-6489-R8",
+      "doi-asserted-by": "crossref",
+      "first-page": "747",
+      "DOI": "10.1111/j.1365-2966.2006.11063.x",
+      "volume": "373",
+      "author": "Perrin",
+      "year": "2006",
+      "journal-title": "Mon. Not. R. Astron. Soc."
+    },
+    {
+      "key": "ao-51-27-6489-R9",
+      "doi-asserted-by": "crossref",
+      "first-page": "77341P",
+      "DOI": "10.1117/12.856770",
+      "volume": "7734",
+      "author": "Tuthill",
+      "year": "2010",
+      "journal-title": "Proc. SPIE"
+    },
+    {
+      "key": "ao-51-27-6489-R10",
+      "first-page": "771",
+      "article-title": "Design of 3D optical network on chip",
+      "volume-title": "Proceedings of International Symposium on Photonics and Optoelectronics",
+      "author": "Gu",
+      "year": "2009"
+    },
+    {
+      "key": "ao-51-27-6489-R11",
+      "doi-asserted-by": "crossref",
+      "first-page": "151",
+      "DOI": "10.1016/j.isprsjprs.2005.02.006",
+      "volume": "59",
+      "author": "Gruen",
+      "year": "2005",
+      "journal-title": "ISPRS J. Photogramm. Remote Sens."
+    },
+    {
+      "key": "ao-51-27-6489-R12",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.patrec.2008.08.013",
+      "volume": "30",
+      "author": "Cui",
+      "year": "2009",
+      "journal-title": "Pattern Recogn. Lett."
+    },
+    {
+      "key": "ao-51-27-6489-R13",
+      "first-page": "1019",
+      "article-title": "Connected equi-length line segments for curve and structure matching",
+      "volume-title": "Proceedings of IJPRAI",
+      "author": "Zhao",
+      "year": "2004"
+    },
+    {
+      "key": "ao-51-27-6489-R14",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1017/CBO9780511812217",
+      "volume-title": "Numerical Methods in Engineering with Python",
+      "author": "Kiusalaas",
+      "year": "2005"
+    },
+    {
+      "key": "ao-51-27-6489-R15",
+      "volume-title": "Numerical Methods Using MATLAB",
+      "author": "Mathews",
+      "year": "2003"
+    },
+    {
+      "key": "ao-51-27-6489-R16",
+      "doi-asserted-by": "crossref",
+      "first-page": "109",
+      "DOI": "10.1007/s00339-003-2088-6",
+      "volume": "77",
+      "author": "Nolte",
+      "year": "2003",
+      "journal-title": "Appl. Phys. A"
+    },
+    {
+      "key": "ao-51-27-6489-R17",
+      "doi-asserted-by": "crossref",
+      "first-page": "656",
+      "DOI": "10.1364/OE.18.000656",
+      "volume": "18",
+      "author": "Jesacher",
+      "year": "2010",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ao-51-27-6489-R18",
+      "doi-asserted-by": "crossref",
+      "first-page": "013517",
+      "DOI": "10.1063/1.1944223",
+      "volume": "98",
+      "author": "Hnatovsky",
+      "year": "2005",
+      "journal-title": "J. Appl. Phys."
+    },
+    {
+      "key": "ao-51-27-6489-R19",
+      "volume-title": "Optical Waveguide Theory",
+      "author": "Snyder",
+      "year": "1983"
+    },
+    {
+      "key": "ao-51-27-6489-R21",
+      "doi-asserted-by": "crossref",
+      "first-page": "9443",
+      "DOI": "10.1364/OE.16.009443",
+      "volume": "16",
+      "author": "Eaton",
+      "year": "2008",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ao-51-27-6489-R22",
+      "first-page": "170",
+      "article-title": "Absorption and dispersion",
+      "volume-title": "Fundamentals of Photonics",
+      "author": "Saleh",
+      "year": "2007"
+    },
+    {
+      "key": "ao-51-27-6489-R23",
+      "doi-asserted-by": "crossref",
+      "first-page": "17029",
+      "DOI": "10.1364/OE.20.017029",
+      "volume": "20",
+      "author": "Jovanovic",
+      "year": "2012",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "ao-51-27-6489-R24",
+      "first-page": "C1114",
+      "article-title": "Challenges in photonic pupil remapping for optical stellar interferometry",
+      "volume-title": "Proceedings of the International Quantum Electronics Conference and Conference on Lasers and Electro-Optics Pacific Rim 2011",
+      "author": "Norris",
+      "year": "2011"
+    },
+    {
+      "key": "ao-51-27-6489-R26",
+      "first-page": "C1212",
+      "article-title": "First stellar photons through an integrated photonic pupil remapping interferometer",
+      "volume-title": "Proceedings of the International Quantum Electronics Conference and Conference on Lasers and Electro-Optics Pacific Rim 2011",
+      "author": "Jovanovic",
+      "year": "2011"
+    }
+  ],
+  "container-title": [
+    "Applied Optics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.osapublishing.org/viewmedia.cfm?URI=ao-51-27-6489&seq=0",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        1
+      ]
+    ],
+    "date-time": "2024-08-01T20:00:34Z",
+    "timestamp": 1722542434000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://opg.optica.org/abstract.cfm?URI=ao-51-27-6489"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        9,
+        12
+      ]
+    ]
+  },
+  "references-count": 24,
+  "journal-issue": {
+    "issue": "27",
+    "published-online": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1364/ao.51.006489",
+  "relation": {},
+  "ISSN": [
+    "1559-128X",
+    "2155-3165"
+  ],
+  "issn-type": [
+    {
+      "value": "1559-128X",
+      "type": "print"
+    },
+    {
+      "value": "2155-3165",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2012,
+        9,
+        12
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "OSA - The Optical Society",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "https://doi.org/10.1364/AO.51.006489",
+      "name": "articlelink",
+      "label": "Crossref DOI link to publisher maintained version"
+    },
+    {
+      "value": "research-article",
+      "name": "content_type",
+      "label": "Article type"
+    },
+    {
+      "value": "Screened by Similarity Check",
+      "name": "cross_check",
+      "label": "Similarity check"
+    },
+    {
+      "value": "Yes",
+      "order": 0,
+      "name": "peer_reviewed",
+      "label": "Peer reviewed",
+      "group": {
+        "name": "peer_review",
+        "label": "Peer review"
+      }
+    },
+    {
+      "value": "Single blind",
+      "order": 1,
+      "name": "review_process",
+      "label": "Review process",
+      "group": {
+        "name": "peer_review",
+        "label": "Peer review"
+      }
+    },
+    {
+      "value": "5 June 2012",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "13 August 2012",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "12 September 2012",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "© 2012 Optical Society of America",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ]
+}

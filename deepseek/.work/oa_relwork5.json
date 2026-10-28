@@ -1,0 +1,144 @@
+{
+ "10.1117/1.apn.2.3.036002": {
+  "title": "Low-insertion-loss femtosecond laser-inscribed three-dimensional high-density mux/demux devices",
+  "year": 2023,
+  "venue": "Advanced Photonics Nexus",
+  "authors": [
+   "Yize Liang",
+   "Chengkun Cai",
+   "Kangrui Wang",
+   "Xiaokang Lian",
+   "Jue Wang",
+   "Jinfeng Liu",
+   "Lei Shen",
+   "Jian Wang"
+  ],
+  "abstract": "Recently, transmitting diverse signals in different cores of a multicore fiber (MCF) has greatly improved the communication capacity of a single fiber. In such an MCF-based communication system, mux/demux devices with broad bandwidth are of great significance. In this work, we design and fabricate a 19-channel mux/demux device based on femtosecond laser direct writing. The fabricated mux/demux device possesses an average insertion loss of 0.88 dB and intercore crosstalk of no more than − 29.1 dB. Moreover, the fabricated mux/demux device features a broad bandwidth across the C+L band. Such a mux/demux device enables low-loss 19-core fiber (de)multiplexing over the whole C+L band, showing a convincing potential value in wavelength-space division multiplexing applications. In addition, a 19-core fiber fan-in/fan-out system is also established based on a pair of mux/demux devices in this work.",
+  "cited": 30,
+  "type": "article",
+  "oa_url": "https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-2/issue-3/036002/Low-insertion-loss-femtosecond-laser-inscribed-three-dimensional-high-density/10.1117/1.APN.2.3.036002.pdf",
+  "oa_status": "diamond"
+ },
+ "10.1038/s41377-025-02048-w": {
+  "title": "Advances in waveguide to waveguide couplers for 3D integrated photonic packaging",
+  "year": 2026,
+  "venue": "Light Science & Applications",
+  "authors": [
+   "Drew M. Weninger",
+   "Samuel Serna",
+   "Luigi Ranno",
+   "Lionel C. Kimerling",
+   "Anu Agarwal"
+  ],
+  "abstract": "In this paper, we provide an overview and comparison of devices used for optical waveguide-to-waveguide coupling including inter-chip edge couplers, grating couplers, free form couplers, evanescent couplers, cantilever couplers, and optical wirebonds. In addition, technology for efficient transmission of light through chips is discussed including guided mode and free form photonic vias for substrates including silicon, glass, and organics. The results are discussed in the context of potential applications including co-packaged optics switch packages, replaceable biochemical sensors, optically connected memory, optical computing, integrated quantum photonics, and integrated LiDAR systems to show possible improvements in energy efficiency, performance, and cost.",
+  "cited": 25,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41377-025-02048-w.pdf",
+  "oa_status": "gold"
+ },
+ "10.1088/2631-7990/ab4d51": {
+  "title": "Femtosecond laser additive and subtractive micro-processing: enabling a high-channel-density silica interposer for multicore fibre to silicon-photonic packaging",
+  "year": 2019,
+  "venue": "International Journal of Extreme Manufacturing",
+  "authors": [
+   "Gligor Djogo",
+   "Jianzhao Li",
+   "Stephen Ho",
+   "Moez Haque",
+   "Erdem Yigit Ertorer",
+   "Jun Liu",
+   "Xiaolu Song",
+   "Jing Suo",
+   "Peter Robert Herman"
+  ],
+  "abstract": "Abstract Great strides have been made over the past decade to establish femtosecond lasers in advanced manufacturing systems for enabling new forms of non-contact processing of transparent materials. Research advances have shown that a myriad of additive and subtractive techniques is now possible for flexible 2D and 3D structuring of such materials with micro- and nano-scale precision. In this paper, these techniques have been refined and scaled up to demonstrate the potential for 3D writing of high-density optical packaging components, specifically addressing the major bottleneck for efficiently connecting optical fibres to silicon photonic (SiP) processors for use in telecom and data centres. An 84-channel fused silica interposer was introduced for high-density edge coupling of multicore fibres (MCFs) to a SiP chip. Femtosecond laser irradiation followed by chemical etching was further harnessed to open alignment sockets, permitting rapid assembly with precise locking of MCF positions for efficient coupling to laser written optical waveguides in the interposer. A 3D waveguide fanout design provided an attractive balancing of low losses, mode-matching, high channel density, compact footprint, and low crosstalk. The 3D additive and subtractive processes thus demonstrated the potential for higher scale integration and rapid photonic assembly and packaging of micro-optic components for telecom interconnects, with possible broader applications in integrated biophotonic chips or micro-displays.",
+  "cited": 52,
+  "type": "article",
+  "oa_url": "https://iopscience.iop.org/article/10.1088/2631-7990/ab4d51/pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/jlt.2014.2361438": {
+  "title": "Pluggable Electro-Optical Circuit Board Interconnect Based on Embedded Graded-Index Planar Glass Waveguides",
+  "year": 2014,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "Richard Pitwon",
+   "Lars Brusberg",
+   "H. Schröder",
+   "Simon Whalley",
+   "Kai Wang",
+   "Allen Miller",
+   "Paul Stevens",
+   "Alex Worrall",
+   "Alessandro Messina",
+   "Andrew G. Cole"
+  ],
+  "abstract": "Widespread adoption of electro-optical circuit boards based on embedded glass waveguide technology would enable seamless optical connectivity from external fiber-optic networks to system embedded optical interconnect architectures. In this paper, we report on the fabrication of planar multimode waveguides within thin glass foils based on a two-step thermal ion exchange process. Novel lamination techniques were developed to allow glass waveguide panels to be reliably integrated into a conventional electronic multilayer printed circuit board. In addition, a complete suite of optical connector technologies were developed to enable both direct fiber-to-board and board-to-board connectivity. We present the design, development, and characterization of a fully integrated connection platform, comprising a$281 \\times 233$mm2multilayer electro-optical backplane with integrated planar glass waveguides, a pluggable connector system, and five pluggable test cards. Both on-card and externally generated 850 and 1310-nm optical test data were conveyed through the connector and waveguide system and characterised for in-system and system-to-system optical connectivity at data rates up to 32 Gb/s per channel exhibiting bit error rates of less than$10^{-12}$.",
+  "cited": 27,
+  "type": "article",
+  "oa_url": "https://ieeexplore.ieee.org/ielx7/50/7046481/06915664.pdf",
+  "oa_status": "bronze"
+ },
+ "10.1109/jlt.2008.2006280": {
+  "title": "Large Scale, All-Fiber Optical Cross-Connect Switches for Automated Patch-Panels",
+  "year": 2009,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "Anthony Kewitsch"
+  ],
+  "abstract": "Transparent, all-optical cross-connect switches provide non-blocking, one-to-one reconfigurable interconnections between any ofNinput fibers and any ofNoutput fibers. Cross-connects based onall-fiberrather than free-space interconnections have the potential for low opto-mechanical complexity, miniaturization, high optical power handling and ideal optical performance. In this paper, we propose and analyze novel architectures for large-scale, all-fiber cross-connects based on the application of theory of Knots and Braids to fiber switching and compare them on the basis of scalability, modularity and reconfiguration time. A prototype 140 input by 140 output, automated all-fiber cross-connect is developed to demonstrate these concepts.",
+  "cited": 16,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ofc.2021.th1a.37": {
+  "title": "Low-Loss Three-Dimensional Fan-in/Fan-out Devices for Multi-Core Fiber Integration",
+  "year": 2021,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Yi‐Chun Ling",
+   "Shuyun Yuan",
+   "S. J. Ben Yoo"
+  ],
+  "abstract": "We demonstrate a 3D fan-in/fan-out device for multi-core fiber integration fabricated by ultrafast laser inscription using an automatic 3D waveguide routing algorithm. The low propagation loss of 0.3 dB/cm and 0.16 dB/cm have been achieved for two types of glasses.",
+  "cited": 8,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/acpc.2017.m1c.6": {
+  "title": "Topology-Adaptive Reconfigurable Network with Optical Circuit Switch for HPC Systems",
+  "year": 2017,
+  "venue": "Asia Communications and Photonics Conference",
+  "authors": [
+   "Yu Shang",
+   "Bingli Guo",
+   "Wenzhe Li",
+   "Tao Gao",
+   "Yu Zhou",
+   "Xin Li",
+   "Shanguo Huang"
+  ],
+  "abstract": "We propose a topology-adaptive hybrid packet/circuit network using optical circuit switches for HPC systems. The dynamically reconfigured topologies according to traffic patterns achieve low end-to-end latency and high throughput.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ipc60965.2024.10799666": {
+  "title": "11,520×11,520 Optical Circuit Switch for Intra- and Inter-datacenter Converged Networks",
+  "year": 2024,
+  "venue": "IEEE Photonics Conference",
+  "authors": [
+   "Takuma Kuno",
+   "Yojiro Mori",
+   "H. Hasegawa"
+  ],
+  "abstract": "This paper proposes a high-port-count optical circuit switch architecture that supports both intra- and inter-datacenter networks. A switching system prototype is constructed to transparently connect intra-datacenter networks to metropolitan networks for inter-datacenter communication. Experiments successfully confirm the feasibility of a 11,520×11,520 optical circuit switch prototype.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

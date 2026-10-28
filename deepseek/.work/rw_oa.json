@@ -1,0 +1,991 @@
+{
+ "10.1002/lpor.201700237": {
+  "title": "Silicon Photonics Circuit Design: Methods, Tools and Challenges",
+  "year": 2018,
+  "venue": "Laser & Photonics Review",
+  "authors": [
+   "Wim Bogaerts",
+   "Lukas Chrostowski"
+  ],
+  "abstract": "Abstract Silicon Photonics technology is rapidly maturing as a platform for larger‐scale photonic circuits. As a result, the associated design methodologies are also evolving from component‐oriented design to a more circuit‐oriented design flow, that makes abstraction from the very detailed geometry and enables design on a larger scale. In this paper, the state of this emerging photonic circuit design flow and its synergies with electronic design automation (EDA) are reviewed. The design flow from schematic capture, circuit simulation, layout and verification is covered. The similarities and the differences between photonic and electronic design, and the challenges and opportunities that present themselves in the new photonic design landscape, such as variability analysis, photonic‐electronic co‐simulation and compact model definition are discussed.",
+  "cited": 604,
+  "type": "article",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lpor.201700237",
+  "oa_status": "hybrid"
+ },
+ "10.1364/oe.20.017667": {
+  "title": "Photonic wire bonding: a novel concept for chip-scale interconnects",
+  "year": 2012,
+  "venue": "Optics Express",
+  "authors": [
+   "N. Lindenmann",
+   "G. Balthasar",
+   "D. Hillerkuss",
+   "R. Schmogrow",
+   "M. Jordan",
+   "Juerg Leuthold",
+   "W. Freude",
+   "Christian G. Koos"
+  ],
+  "abstract": "Photonic integration requires a versatile packaging technology that enables low-loss interconnects between photonic chips in three-dimensional configurations. In this paper we introduce the concept of photonic wire bonding, where polymer waveguides with three-dimensional freeform geometries are used to bridge the gap between nanophotonic circuits located on different chips. In a proof-of-principle experiment, we demonstrate the fabrication of single-mode photonic wire bonds (PWB) by direct-write two-photon lithography. First-generation prototypes allow for efficient broadband coupling with average insertion losses of only 1.6 dB in the C-band and can carry wavelength-division multiplexing signals with multi-Tbit/s data rates. Photonic wire bonding is well suited for automated mass production, and we expect the technology to enable optical multi-chip systems with enhanced performance and flexibility.",
+  "cited": 426,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.20.017667",
+  "oa_status": "gold"
+ },
+ "10.1145/3544216.3544265": {
+  "title": "Jupiter evolving",
+  "year": 2022,
+  "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+  "authors": [
+   "Leon Poutievski",
+   "Omid Mashayekhi",
+   "Joon Suan Ong",
+   "Arjun Singh",
+   "Mukarram Tariq",
+   "Rui Wang",
+   "Jianan Zhang",
+   "Virginia Beauregard",
+   "P. Conner",
+   "Steve Gribble",
+   "Rishi Kapoor",
+   "Stephen Kratzer",
+   "Nanfang Li",
+   "Hong Liu",
+   "Karthik Nagaraj",
+   "Jason Ornstein",
+   "Samir Sawhney",
+   "Ryohei Urata",
+   "Lorenzo Vicisano",
+   "Kevin Y. Yasumura",
+   "Shidong Zhang",
+   "Junlan Zhou",
+   "Amin M. Vahdat"
+  ],
+  "abstract": "We present a decade of evolution and production experience with Jupiter datacenter network fabrics. In this period Jupiter has delivered 5x higher speed and capacity, 30% reduction in capex, 41% reduction in power, incremental deployment and technology refresh all while serving live production traffic. A key enabler for these improvements is evolving Jupiter from a Clos to a direct-connect topology among the machine aggregation blocks. Critical architectural changes for this include: A datacenter interconnection layer employing Micro-Electro-Mechanical Systems (MEMS) based Optical Circuit Switches (OCSes) to enable dynamic topology reconfiguration, centralized Software-Defined Networking (SDN) control for traffic engineering, and automated network operations for incremental capacity delivery and topology engineering. We show that the combination of traffic and topology engineering on direct-connect fabrics achieves similar throughput as Clos fabrics for our production traffic patterns. We also optimize for path lengths: 60% of the traffic takes direct path from source to destination aggregation blocks, while the remaining transits one additional block, achieving an average block-level path length of 1.4 in our fleet today. OCS also achieves 3x faster fabric reconfiguration compared to pre-evolution Clos fabrics that used a patch panel based interconnect.",
+  "cited": 235,
+  "type": "conference-paper",
+  "oa_url": "https://doi.org/10.1145/3544216.3544265",
+  "oa_status": "hybrid"
+ },
+ "10.1515/nanoph-2015-0020": {
+  "title": "Ultrafast‐laser‐inscribed 3D integrated photonics: challenges and emerging applications",
+  "year": 2015,
+  "venue": "Nanophotonics",
+  "authors": [
+   "Simon Gross",
+   "Michael J. Withford"
+  ],
+  "abstract": "Abstract Since the discovery that tightly focused femtosecond laser pulses can induce a highly localised and permanent refractive index modification in a large number of transparent dielectrics, the technique of ultrafast laser inscription has received great attention from a wide range of applications. In particular, the capability to create three‐dimensional optical waveguide circuits has opened up new opportunities for integrated photonics that would not have been possible with traditional planar fabrication techniques because it enables full access to the many degrees of freedom in a photon. This paper reviews the basic techniques and technological challenges of 3D integrated photonics fabricated using ultrafast laser inscription as well as reviews the most recent progress in the fields of astrophotonics, optical communication, quantum photonics, emulation of quantum systems, optofluidics and sensing.",
+  "cited": 201,
+  "type": "article",
+  "oa_url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2015-0020/pdf",
+  "oa_status": "gold"
+ },
+ "10.1117/1.ap.3.2.024002": {
+  "title": "Photonic circuits written by femtosecond laser in glass: improved fabrication and recent progress in photonic devices",
+  "year": 2021,
+  "venue": "Advanced Photonics",
+  "authors": [
+   "Dezhi Tan",
+   "Zhuo Wang",
+   "Beibei Xu",
+   "Jianrong Qiu"
+  ],
+  "abstract": "Integrated photonics is attracting considerable attention and has found many applications in both classical and quantum optics, fulfilling the requirements for the ever-growing complexity in modern optical experiments and big data communication. Femtosecond (fs) laser direct writing (FLDW) is an acknowledged technique for producing waveguides (WGs) in transparent glass that have been used to construct complex integrated photonic devices. FLDW possesses unique features, such as three-dimensional fabrication geometry, rapid prototyping, and single step fabrication, which are important for integrated communication devices and quantum photonic and astrophotonic technologies. To fully take advantage of FLDW, considerable efforts have been made to produce WGs over a large depth with low propagation loss, coupling loss, bend loss, and highly symmetrical mode field. We summarize the improved techniques as well as the mechanisms for writing high-performance WGs with controllable morphology of cross-section, highly symmetrical mode field, low loss, and high processing uniformity and efficiency, and discuss the recent progress of WGs in photonic integrated devices for communication, topological physics, quantum information processing, and astrophotonics. Prospective challenges and future research directions in this field are also pointed out.",
+  "cited": 186,
+  "type": "article",
+  "oa_url": "https://www.spiedigitallibrary.org/journals/advanced-photonics/volume-3/issue-2/024002/Photonic-circuits-written-by-femtosecond-laser-in-glass--improved/10.1117/1.AP.3.2.024002.pdf",
+  "oa_status": "diamond"
+ },
+ "10.1002/lpor.201300195": {
+  "title": "Ultrafast laser inscription: perspectives on future integrated applications",
+  "year": 2014,
+  "venue": "Laser & Photonics Review",
+  "authors": [
+   "Debaditya Choudhury",
+   "John R. Macdonald",
+   "Ajoy Kumar Kar"
+  ],
+  "abstract": "Abstract This paper reviews the recent advancements achieved using ultrafast laser inscription (ULI) that highlight the cross‐disciplinary potential of the technology. An overview of waveguide fabrication is provided and the three distinct types of waveguide cross‐section architectures that have so far been fabricated in transparent dielectric materials are discussed. The paper focuses on two key emergent technologies driven by ULI processes. First, the recently developed photonic devices, such as compact mode‐locked waveguide sources and novel mid‐infrared waveguide lasers are discussed. Secondly, the phenomenon and applications of selective etching in developing ultrafast laser inscribed structures for compact lab‐on‐chip devices are elaborated. The review further discusses the conceivable future of ULI in impacting the aforementioned fields.",
+  "cited": 181,
+  "type": "article",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lpor.201300195",
+  "oa_status": "hybrid"
+ },
+ "10.1109/jlt.2014.2373051": {
+  "title": "Connecting Silicon Photonic Circuits to Multicore Fibers by Photonic Wire Bonding",
+  "year": 2014,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "N. Lindenmann",
+   "Stephan Dottermusch",
+   "Maria Laura Gödecke",
+   "T. Hoose",
+   "Muhammad Rodlin Billah",
+   "Temitope Onanuga",
+   "Andreas Hofmann",
+   "W. Freude",
+   "Christian G. Koos"
+  ],
+  "abstract": "Photonic wire bonding is demonstrated to enable highly efficient coupling between multicore fibers and planar silicon photonic circuits. The technique relies on in-situ fabrication of three-dimensional interconnect waveguides between the fiber facet and tapered silicon-on-insulator waveguides. Photonic wire bonding can easily compensate inaccuracies of core placement in the fiber cross-section, does not require active alignment, and is well suited for automated fabrication. We report on the design, on fabrication, and on characterization of photonic wire bonds. In a proof-of-principle experiment, a four-core fiber is coupled to a silicon photonic chip, leading to measured coupling losses as small as 1.7 dB.",
+  "cited": 160,
+  "type": "article",
+  "oa_url": "https://publikationen.bibliothek.kit.edu/1000049613/3838493",
+  "oa_status": "green"
+ },
+ "10.1002/admt.202300620": {
+  "title": "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices",
+  "year": 2023,
+  "venue": "Advanced Materials Technologies",
+  "authors": [
+   "Jiawei Li",
+   "Chun Cao",
+   "Yiwei Qiu",
+   "Cuifang Kuang",
+   "Xu Liu"
+  ],
+  "abstract": "Abstract As the most fundamental unit of photonic integration, optical waveguides offer the possibility of developing efficient and practical photonic chips by facilitating the on‐chip integration of devices with different functions. Femtosecond direct laser writing (FsDLW), as a burgeoning 3D microfabrication technology, can realize the rapid formation of arbitrary optical waveguides without any mask inside versatile materials, such as crystalline dielectric crystals, glasses, polymers, and photoresists. This significant material‐independence allows FsDLW to combine different materials and manufacturing processes to implement a cross‐platform solution. This review first describes the different optical loss types and suitable measurement methods for different applicable scenes, then summarizes the two fabrication mechanisms and points out the general direction for adjusting the waveguide properties by fabrication processes. Finally, the application fields and development prospects of different materials are discussed by overviewing the characteristics of different materials and the material selection preferences of different devices. With a panoramic view of the development, it is concluded with insights and perspectives of the future development of optical waveguides and processing technology via FsDLW.",
+  "cited": 46,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1103/physrevapplied.22.064079": {
+  "title": "Femtosecond-laser-written low-loss multiscan waveguides in fused silica",
+  "year": 2024,
+  "venue": "Physical Review Applied",
+  "authors": [
+   "Nikolay N. Skryabin",
+   "S. A. Zhuravitskii",
+   "I. V. Dyakonov",
+   "Stanislav S. Straupe",
+   "Alexander A. Kalinkin",
+   "S. P. Kulik"
+  ],
+  "abstract": "We report low-loss multiscan waveguides fabricated in fused silica using femtosecond-laser-writing technology. The multiscan principle allows the writing regime to be tailored to excel at key features of any integrated photonic platform: coupling losses and propagation losses. We optimized the writing parameters for different sizes of square-shaped waveguides and reached the mode overlap value with a standard single-mode optical fiber of above 98.8% and demonstrated very low coupling losses of 0.2 dB/facet on average. Propagation losses in the fabricated waveguides amounted to 0.07 dB/cm. We applied the developed recipe to the fabrication of a fiber-coupled 25-channel interferometer with total insertion losses below 1 dB. The findings of this work are of interest for broad range of applications and in particular for optical information processing and quantum photonics.",
+  "cited": 26,
+  "type": "article",
+  "oa_url": "https://arxiv.org/pdf/2408.06688",
+  "oa_status": "green"
+ },
+ "10.1364/optica.559260": {
+  "title": "Low-loss integration of high-density polymer waveguides with silicon photonics for co-packaged optics",
+  "year": 2025,
+  "venue": "Optica",
+  "authors": [
+   "Jef Van Asch",
+   "Jeroen Missinne",
+   "Junwen He",
+   "Arnita Podpod",
+   "Guy Lepage",
+   "Negin Golshani",
+   "Rafal Magdziak",
+   "Hüseyin Şar",
+   "Hakim Kobbi",
+   "Swetanshu Bipul",
+   "Dieter Bode",
+   "Yoojin Ban",
+   "Filippo Ferraro",
+   "Joris Van Campenhout",
+   "Geert Van Steenberge"
+  ],
+  "abstract": "Co-packaged optics applications require scalable and high-yield optical interfacing solutions to silicon photonic chiplets, offering low-loss, broadband, and polarization-independent optical coupling while maintaining compatibility with widely used approaches for electrical redistribution. We present two heterogeneous integration techniques that enable high-density optical I/O connections, utilizing adiabatic coupling between on-chip silicon nitride (SiN) waveguides and package-level polymer optical waveguides. In the first approach, polymer waveguides are patterned using standard lithography directly on the surface of the photonic chip, ensuring compatibility with chip embedding as commonly employed in chip-first fanout wafer-level packaging. In the second approach, photonic chips are flip-chip bonded to the package substrate. Both techniques have been experimentally validated, achieving a coupling efficiency near 1 dB between SiN and polymer waveguides in the O-band, for both TE and TM polarizations. SiN tapers were designed using the “Mono” method to optimize phase-matching conditions between the two waveguides, a critical requirement for integrating diverse optical components. These results demonstrate the potential of polymer waveguides in co-packaged optics applications, achieving sub-2 dB chip-to-chip and chip-to-fiber coupling losses.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/optica.559260",
+  "oa_status": "gold"
+ },
+ "10.1109/iccad.2013.6691109": {
+  "title": "PROTON: An automatic place-and-route tool for optical Networks-on-Chip",
+  "year": 2013,
+  "venue": null,
+  "authors": [
+   "Anja Boos",
+   "Luca Ramini",
+   "Ulf Schlichtmann",
+   "Davide Bertozzi"
+  ],
+  "abstract": "Optical Networks-on-Chip (ONoCs) are considered a promising way of improving power and bandwidth limitations in next generation multi- and many-core integrated systems. Today, most related research acknowledges the key role of the physical layer in assessing ONoC topologies (e.g., insertion loss), but overlooks the placement and routing stage in the design process, hence applying physical design considerations to topology logic schemes. Such a mismatch is fundamentally due to the lack of mature CAD tools for placement and routing of optical NoCs. The objective of this work is to bridge this gap: We propose PROTON, a fast tool for automatic placement and routing of ONoC topologies, which can support designers in quantifying the degradation of design quality metrics when moving from topology logic schemes to their physical implementation. This gap is especially relevant for Wavelength-Routed ONoCs (WRONoCs), where logic schemes typically make unrealistic assumptions about the placement of initiators and targets. For this reason, we put PROTON to work with the most promising WRONoC topologies and explore their physical design space given the placement and routing constraints of a 3D stacked system. We also compare automatically generated layouts with handcrafted ones reported in the literature for the same topologies and target system, and prove an insertion loss improvement by up to 150x. With PROTON the exploration of the physical design space of ONoC topologies is possible as well as their scalability analysis considering the layout.",
+  "cited": 40,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ol.470670": {
+  "title": "Effectively writing low propagation and bend loss waveguides in the silica glass by using a femtosecond laser",
+  "year": 2022,
+  "venue": "Optics Letters",
+  "authors": [
+   "Dezhi Tan",
+   "Xiaoyu Sun",
+   "Zengling Li",
+   "Jianrong Qiu"
+  ],
+  "abstract": "We report writing low-loss waveguides (WGs) by using a femtosecond laser in silica glass. A record low propagation loss of 0.07 dB/cm is achieved, and the lowest bend loss reaches 0.001 dB/mm with the bend radius of 30 mm. The optimal effective writing speed reaches 125 µm/s, which is two orders higher than the previous reported value. Fan-out devices with well controllable low loss for three-dimensional photonic integration are also fabricated. This work provides an effective strategy to create WG devices for 3D high-density photonic integration.",
+  "cited": 32,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1038/s41598-021-03116-y": {
+  "title": "Low bend loss femtosecond laser written waveguides exploiting integrated microcrack",
+  "year": 2021,
+  "venue": "Scientific Reports",
+  "authors": [
+   "Timothy Lee",
+   "Qi Sun",
+   "Martynas Beresna",
+   "Gilberto Brambilla"
+  ],
+  "abstract": "We introduce the fabrication and use of microcracks embedded in glass as an optical element for manipulating light propagation, in particular for enhancing waveguide performance in silica integrated optics. By using a femtosecond laser to induce a strong asymmetric stress pattern in silica, uniform cracks with set dimensions can be created within the substrate and propagated along a fixed path. The smoothness of the resulting cleave interface and large index contrast can be exploited to enhance waveguide modal confinement. As a demonstration, we tackle the longstanding high bend-loss issue in femtosecond laser written silica waveguides by using this technique to cleave the outer edge of laser written waveguide bends, to suppress radiative bend loss. The microcrack cross section is estimated to be 15 μm in height and 30 nm in width, for the 10 [Formula: see text] 10 μm waveguides. At 1550 nm wavelength, losses down to 1 dB/cm at 10 mm bend radius were achieved, without introducing additional scattering. Both the cleave stress pattern and waveguide are fabricated with the same multiscan writing procedure, without requiring additional steps, and re-characterisation of the waveguides after 1 year confirm excellent long term performance stability.",
+  "cited": 31,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41598-021-03116-y.pdf",
+  "oa_status": "gold"
+ },
+ "10.1364/ao.51.006489": {
+  "title": "Design of optically path-length-matched, three-dimensional photonic circuits comprising uniquely routed waveguides",
+  "year": 2012,
+  "venue": "Applied Optics",
+  "authors": [
+   "Ned Charles",
+   "Nemanja Jovanovic",
+   "Simon Gross",
+   "Paul Stewart",
+   "Barnaby R. M. Norris",
+   "John O’Byrne",
+   "Jon S. Lawrence",
+   "Michael J. Withford",
+   "Peter Tuthill"
+  ],
+  "abstract": "A method for designing physically path-length-matched, three-dimensional photonic circuits is described. We focus specifically on the case in which all the waveguides are uniquely routed from the input to output-a problem that has not been addressed to date and that allows for the waveguides to be used in interferometric measurements. Circuit elements were fabricated via the femtosecond laser direct-write technique. We demonstrate via interferometric methods that the fabricated circuits were indeed optically path-length matched to within 45 μm, which is within the coherence length required for many applications.",
+  "cited": 28,
+  "type": "article",
+  "oa_url": "https://arxiv.org/pdf/1209.5144",
+  "oa_status": "green"
+ },
+ "10.1364/oe.27.032465": {
+  "title": "Circular core single-mode 3-dimensional crossover polymer waveguides fabricated with the Mosquito method",
+  "year": 2019,
+  "venue": "Optics Express",
+  "authors": [
+   "MD Omar Faruk Rasel",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "We experimentally fabricate circular core 3-dimensional (3D) crossover single-mode polymer optical waveguides using a photomask free unique fabrication technique named the Mosquito method for realizing channel shuffling. The 3D crossover structure is accomplished by forming four cores (2 ch. × 2 ch.) with different heights: the last two channels cross over the first two channels with horizontal and vertical core bending. We compare the insertion losses between the fabricated 3D single-mode crossover waveguide and 3D S-bend core waveguides fabricated separately, which correspond to the lower and upper channels in the crossover waveguide. Then, we investigate the effect of the core crossover on the loss, and find that almost negligible additional loss is observed. The average insertion losses of this 6-cm long 3D crossover single-mode waveguide are 3.95 and 3.81 dB at 1310 nm, and 5.74 and 4.80 dB at 1550-nm wavelength, for the lower and upper channels, respectively. The interchannel crosstalk in this crossover waveguide is observed to be lower than -40 dB, while the 1 dB radial alignment tolerance is ± 1.7 and ± 2.1 µm at 1310 and 1550 nm, respectively. These results suggest that the fabricated circular core single-mode 3D crossover polymer waveguides could have a great impact for high-bandwidth-density on-board and inter-chip optical interconnect applications.",
+  "cited": 25,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.27.032465",
+  "oa_status": "gold"
+ },
+ "10.1364/ofc.2023.m2g.1": {
+  "title": "Apollo: Large-Scale Deployment of Optical Circuit Switching for Datacenter Networking",
+  "year": 2023,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Ryohei Urata",
+   "Hong Liu",
+   "Kevin Y. Yasumura",
+   "Erji Mao",
+   "Jill Berger",
+   "Xiang Zhou",
+   "Cedric Fung Lam",
+   "Roy Bannon",
+   "Darren Hutchinson",
+   "Daniel Nelson",
+   "Leon Poutievski",
+   "Arjun Singh",
+   "Joon Suan Ong",
+   "Amin M. Vahdat"
+  ],
+  "abstract": "In this paper, we describe Apollo, to the best of our knowledge, the world’s first large-scale production deployment of optical circuit switches (OCSes) for datacenter networking. We review the underlying hardware technologies including the design of our internally developed OCS and WDM transceivers.",
+  "cited": 24,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.3389/aot.2023.1244009": {
+  "title": "Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics",
+  "year": 2023,
+  "venue": "Advanced Optical Technologies",
+  "authors": [
+   "Jason R. Grenier",
+   "Lars Brusberg",
+   "Kristopher A. Wieland",
+   "Juergen Matthies",
+   "Chad C. Terwilliger"
+  ],
+  "abstract": "High bandwidth demanding applications such as high-performance computing and hyperscale datacenters are drivers for co-packaged optics, which aims to bring optical signals as close as possible to the electrical computing chips by integrating the electro-optic transceivers and ASICs on the same package substrate. These next-generation switches require advanced fiber-to-chip connectivity and novel packaging concepts to enable sufficient power and cost savings. As such, low-loss, high bandwidth, and high fiber-counts are required at the photonic chip interface. In this work, these challenges are addressed by enabling the multi-fiber push-on (MPO) interface at the edge of integrated glass waveguide substrates and thus leverages the existing fiber connector eco-system. An ultrafast laser process is used to singulate glass wafers into individual photonic chips leaving optical-quality end-facets with <1 μm flatness over the 6.5 mm wide connector region thereby directly enabling low-loss fiber-to-chip edge-coupling. To overcome the high-costs and complex photonic packaging associated with active alignment of the fiber connectors to the glass waveguide interfaces, ultrafast laser-ablated features are accurately positioned on the glass substrate to enable self-alignment of the MPO connector guide-pins resulting in a passive alignment approach. Subsequent mating and de-mating of the MPO connector to the glass waveguide interface yields on average a 0.19 dB increase in the coupling loss compared to using active alignment.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/aot.2023.1244009/pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/iccad51958.2021.9643451": {
+  "title": "ToPro: A Topology Projector and Waveguide Router for Wavelength-Routed Optical Networks-on-Chip",
+  "year": 2021,
+  "venue": null,
+  "authors": [
+   "Zhidan Zheng",
+   "Mengchu Li",
+   "Tsun‐Ming Tseng",
+   "Ulf Schlichtmann"
+  ],
+  "abstract": "To meet the ever-increasing requirements of on-chip communication, the trend is towards wavelength-routed optical networks-on-chip (WRONoCs), which support high-speed communication with low power. A typical WRONoC design flow consists of two consecutive steps: topological design and physical design. Current physical design tools interpret the input topology as a pure logic scheme and perform placement and routing for all network components from scratch. Due to the large design complexity and the layout constraints, additional waveguide crossings in the synthesized layouts are hardly avoidable, which results in an increase in insertion loss and crosstalk noise and thus degrades the network performance. In this work, we propose a physical design tool, ToPro, which retains the interconnection among the optical switching elements by projecting the structure of a WRONoC topology onto the physical plane, and focuses on the waveguide routing to the IP-cores. To avoid the increase in insertion loss and crosstalk noise, ToPro removes the extra crossings and long detours of waveguides by changing the routing order of nets. The experimental results demonstrate the superiority of ToPro in time- and energy-efficiency. For example, compared to a state-of-the-art design automation tool, ToPro synthesizes a network with 16 IP-cores with a 17% reduction on the worst-case insertion loss and decreases the synthesis time from more than six days to less than one second.",
+  "cited": 12,
+  "type": "conference-paper",
+  "oa_url": "https://mediatum.ub.tum.de/doc/1638644/document.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/tcpmt.2025.3526500": {
+  "title": "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+  "year": 2025,
+  "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+  "authors": [
+   "Lars Brusberg",
+   "Marissa Granados-Baez",
+   "Ryan Schilling",
+   "Jorge A. Holguín‐Lerma",
+   "Janderson R. Rodrigues",
+   "Lucas W. Yeary",
+   "Aramais R. Zakharian",
+   "Betsy J. Johnson",
+   "Matthew J. Dejneka"
+  ],
+  "abstract": "Glass provides high dimensional stability and flatness, enabling high-throughput electronic assembly with high precision optical alignment for co-packaged optics (CPO) applications. Optical waveguides can be integrated in the glass core material by the thermal silver ion-exchange (IOX) process at temperatures around 350°C for fiber to chip connectivity. Currently available IOX glasses degrade due to ion mobility at operating conditions so we designed a new glass composition enabling waveguides to be stable over a lifetime of five years at an elevated temperature of 85°C or higher without performance degradation which could impact the integrity of the optical signal. The glass composition was optimized for thermal stability and low loss IOX waveguides were fabricated with propagation loss of only 0.034 dB/cm. Waveguide designs are studied and evaluated for waveguide crossings, high-density spacing, tight bends, high-optical power transmission, and polarization dependency. The waveguide technology is demonstrated for different applications including glass waveguide bridge for fiber to chip-coupling, multi-core fan-out, optical waveguide shuffle and an optical waveguide circuit for CPO with over 1024 waveguide interconnects.",
+  "cited": 12,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/jlt.2023.3320908": {
+  "title": "Design and Fabrication of Crossing-Free Waveguide Routing Networks Using a Multi-Layer Polymer-Based Photonic Integration Platform",
+  "year": 2023,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "Madeleine Weigel",
+   "Moritz Kleinert",
+   "Martin Kresse",
+   "David de Felipe",
+   "Hauke Conradi",
+   "Jakob Reck",
+   "Klara Mihov",
+   "Tianwen Qian",
+   "Crispin Zawadzki",
+   "Anja Scheu",
+   "Norbert Keil",
+   "Martin A. Schell"
+  ],
+  "abstract": "A novel 16x4 crossing-free waveguide routing network on four layers of polymer-based stacked waveguides is presented. The design combines in-plane passive waveguide devices with vertical multimode interference couplers (1x1 3D MMIs) to connect two adjacent waveguide layers. The 16x4 multilayer waveguide routing network (MWRN) is fabricated using multilayer deposition and standard UV contact lithography. A novel fabrication method of multiple waveguide layers that includes a sequence for wafer planarization steps to reduce topographies is presented. These developments lead to a reproducible multi-layer device fabricated on wafer-scale. Our technology enables a high vertical spacing of 21.6 μm (center-to-center) between the top and bottom waveguide layers with a large waveguide-to-waveguide spacing of 7.2 μm (center-to-center). The complex 16x4 MWRN can serve as the crossing-free waveguide routing for a 4x4 3D optical switch.",
+  "cited": 10,
+  "type": "article",
+  "oa_url": "https://ieeexplore.ieee.org/ielx7/50/4357488/10284924.pdf",
+  "oa_status": "hybrid"
+ },
+ "10.1016/j.optlastec.2025.114521": {
+  "title": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+  "year": 2025,
+  "venue": "Optics & Laser Technology",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Linbin Bai",
+   "Junjie Xiong",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Zuyuan He"
+  ],
+  "abstract": null,
+  "cited": 6,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tcad.2014.2317575": {
+  "title": "Crossing-Aware Channel Routing for Integrated Optics",
+  "year": 2014,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "authors": [
+   "Christopher Condrat",
+   "Priyank Kalla",
+   "Steve Blair"
+  ],
+  "abstract": "Increasing scope and applications of integrated optics necessitates the development of automated techniques for physical design of optical systems. A key area of integrated optic design is waveguide routing, which currently lacks the level of automation found in VLSI design. Unlike VLSI, where signal nets are routed with metal layers and vias, integrated optics is a planar technology and lacks the inherent signal restoration capabilities of static-CMOS. Waveguides suffer signal loss due to planar (perpendicular) waveguide crossings and also from sharp bends. Therefore, in contrast to area or wire length, signal loss minimization - as a function of waveguide crossings and bends - is a primary objective of any routing solution. Our studies show that waveguide routing problems can be suitably formulated as planar channel routing. This paper investigates channel routing for integrated optical waveguides fabricated in a planar substrate. We present routing techniques where crossings, bends, and area are accounted for in an integrated solution. Two distinct channel routing techniques are presented: 1) a new channel router based on net sorting and utilizing non-Manhattan routing grids and 2) a router based on crossing-aware graph-constrained track assignment that also exploits waveguide curves to improve track utilization. Both techniques are crossing-minimal, and are also constrained suitably to reduce bend loss and area. We compare and evaluate the performance of our channel routers on a number of optical design benchmarks.",
+  "cited": 23,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/jphot.2020.3039900": {
+  "title": "Laser Written Glass Interposer for Fiber Coupling to Silicon Photonic Integrated Circuits",
+  "year": 2020,
+  "venue": "IEEE photonics journal",
+  "authors": [
+   "Andres Desmet",
+   "Ana Radosavljevic",
+   "Jeroen Missinne",
+   "Dries Van Thourhout",
+   "Geert Van Steenberge"
+  ],
+  "abstract": "Recent advancements in photonic-electronic integration push towards denser multichannel fiber to silicon photonic chip coupling solutions. However, current packaging schemes based on suitably polished fiber arrays do not provide sufficient scalability. Alternatively, lithographically-patterned fused silica glass interposers have been proposed, allowing for the integration of fanout waveguides between a dense array of on-chip silicon waveguides and a cleaved fiber ribbon. In this paper, we propose the use of femtosecond laser inscription for the fabrication of the fused silica glass interposer, allowing for a monolithic integration of waveguides and V-grooves for fiber alignment. The waveguides obtained by Femtosecond Laser Direct Writing (FLDW) have a propagation loss of 0.88 dB/cm at 1550 nm. The mode-field diameter is 12.8 ± 0.4 μm, allowing for a coupling loss of 1.24 ± 0.32 dB when coupling to a standard single mode optical fiber, passively aligned to the fused silica waveguide by insertion in a V-groove created by Femtosecond Laser Irradiation followed by Chemical Etching (FLICE). The average surface roughness of the etched waveguide facet is 160 ± 5 nm. Scattering loss when coupling to fiber is reduced by use of an index-matching adhesive for fiber fixation. A polished out-of-plane coupling mirror at an angle of 41.5° injects the light into standard grating couplers, providing a quasi-planar fiber-to-chip package. The excess loss of the proposed solution is limited to 2 dB per interface, including mirror, waveguide and fiber coupling losses.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://ieeexplore.ieee.org/ielx7/4563994/9311900/09269385.pdf",
+  "oa_status": "gold"
+ },
+ "10.1145/3195970.3196093": {
+  "title": "PlanarONoC",
+  "year": 2018,
+  "venue": "ACM/IEEE Design Automation Conference (DAC)",
+  "authors": [
+   "Yu-Kai Chuang",
+   "Kuan‐Jung Chen",
+   "Kun‐Lin Lin",
+   "Shao‐Yun Fang",
+   "Bing Li",
+   "Ulf Schlichtmann"
+  ],
+  "abstract": "Optical networks-on-chips (ONoCs) have become a promising solution for the on-chip communication of multi-and many-core systems to provide superior communication bandwidths, efficiency in power consumption, and latency performance compared to electronic NoCs. Serving as the critical part of ONoCs, an optical router composed of waveguides and photonic switching elements (PSEs) routes signals between two hubs or between a hub and a memory controller. Many studies focus on developing efficient architectures of optical routers, while their physical implementation that can seriously deteriorate the quality of the architectures is rarely addressed. The existing automatic place-and-route tools suffer from considerable insertion loss due to many waveguide crossings outside of PSEs, which leads to huge power consumption of laser sources. By observing that the logic schemes of most optical routers are actually planar, we develop a concurrent PSE placement and waveguide routing flow, called PlanarONoC, that guarantees optimal solutions in terms of crossings for planar logic schemes. Experimental results show that the proposed flow reduces the maximum insertion loss by 37% on average, guarantees no waveguide crossing outside of PSEs, and performs much more efficient compared to the state-of-the-art work.",
+  "cited": 18,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tcad.2020.2971536": {
+  "title": "PSION+: Combining Logical Topology and Physical Layout Optimization for Wavelength-Routed ONoCs",
+  "year": 2020,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "authors": [
+   "Alexandre Truppel",
+   "Tsun‐Ming Tseng",
+   "Davide Bertozzi",
+   "José Carlos Alves",
+   "Ulf Schlichtmann"
+  ],
+  "abstract": "Optical networks-on-chip (ONoCs) are a promising solution for high-performance multicore integration with better latency and bandwidth than traditional electrical NoCs. Wavelength-routed ONoCs (WRONoCs) offer yet additional performance guarantees. However, WRONoC design presents new EDA challenges which have not yet been fully addressed. So far, most topology analysis is abstract, i.e., overlooks layout concerns, while for layout the tools available perform place and route (P&R) but no topology optimization. Thus, a need arises for a novel optimization method combining both aspects of WRONoC design. In this article, such a method, PSION+, is laid out. This new procedure uses a linear programming model to optimize a WRONoC physical layout template to optimality. This template-based optimization scheme is a new idea in this area that seeks to minimize problem complexity while keeping design flexibility. A simple layout template format is introduced and explored. Finally, multiple model reduction techniques to reduce solver run-time are also presented and tested. When compared to the state-of-the-art design procedure, results show a decrease in maximum optical insertion loss of 41%.",
+  "cited": 18,
+  "type": "article",
+  "oa_url": "https://mediatum.ub.tum.de/doc/1585285/document.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/jlt.2008.2006280": {
+  "title": "Large Scale, All-Fiber Optical Cross-Connect Switches for Automated Patch-Panels",
+  "year": 2009,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "Anthony Kewitsch"
+  ],
+  "abstract": "Transparent, all-optical cross-connect switches provide non-blocking, one-to-one reconfigurable interconnections between any ofNinput fibers and any ofNoutput fibers. Cross-connects based onall-fiberrather than free-space interconnections have the potential for low opto-mechanical complexity, miniaturization, high optical power handling and ideal optical performance. In this paper, we propose and analyze novel architectures for large-scale, all-fiber cross-connects based on the application of theory of Knots and Braids to fiber switching and compare them on the basis of scalability, modularity and reconfiguration time. A prototype 140 input by 140 output, automated all-fiber cross-connect is developed to demonstrate these concepts.",
+  "cited": 16,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ol.551272": {
+  "title": "Low-loss and tight-bend waveguides via multiple scans of a femtosecond laser",
+  "year": 2025,
+  "venue": "Optics Letters",
+  "authors": [
+   "Kai-Heng Xiao",
+   "Yi-Hao Zan",
+   "Yang Ouyang",
+   "Si-Xue Fei",
+   "Zhi‐Yong Hu",
+   "Linan Fang",
+   "Zhen‐Nan Tian",
+   "Qi‐Dai Chen"
+  ],
+  "abstract": "In this paper, in situ multiple scans of a femtosecond laser are employed to optimize the refractive index distribution in a glass optical waveguide. The emergence of second bright core boundary (SBCB) and the increasing density of three- and four-membered rings in silica were thoroughly investigated. They can lead to a higher refractive index in a waveguide core and enhance the light confinement capability, which can increase the spatial integration density of bent waveguide structures. A 90° tightly bent single-mode waveguide is prepared at 808 nm, achieving a minimum bending loss of 1.028 dB/cm at a bending radius of 10 mm. This study will facilitate the preparation of on-chip large-scale, highly integrated photonic chips.",
+  "cited": 6,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1145/3698364.3705355": {
+  "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": "International Symposium on Physical Design",
+  "authors": [
+   "Zhou Hongjian",
+   "Keren Zhu",
+   "Jiaqi Gu"
+  ],
+  "abstract": null,
+  "cited": 6,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1038/s41598-024-84274-7": {
+  "title": "Improved S-bend optical waveguide loss formula verified by experiments",
+  "year": 2025,
+  "venue": "Scientific Reports",
+  "authors": [
+   "Ary Syahriar"
+  ],
+  "abstract": "Curvature of a dielectric waveguide always leads to attenuation of the mode power as it propagates through the curved region. In single mode guides, bending loss becomes significant as the radius of curvature reduces and is strongly dependent on the confinement of the guided mode, so that weakly guiding waveguides can tolerate only large radii of curvature. In this paper we verify our new theoretical version on power loss prediction of S-bend optical waveguides by using analytical theory based on integration of absorption coefficient and compare it to the experimental measurement of such waveguide bends. The objectives are to formulate the best analytical theory available that can predict the power loss in S-bends whose shape is defined as a function y = f(x), where its first derivative is continuous. Using this technique, the effect of post-process thermal annealing of channel guide devices fabricated by electron beam irradiation of silica PECVD materials is investigated. A particular performance characteristic is examined, which have its origin in the index reduction caused by annealing, increases in waveguide bend losses. Furthermore, to determine the waveguide shape, we used Marcatili's effective index method, employing model-dependent parameters obtained from the experimental data.",
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41598-024-84274-7.pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/tcad.2025.3624197": {
+  "title": "LiDAR 2.0: Hierarchical Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "authors": [
+   "Zhou Hongjian",
+   "Haoyu Yang",
+   "Ziang Yin",
+   "Nicholas W. Gangi",
+   "Zhaoran Huang",
+   "Haoxing Mark Ren",
+   "J. Matres",
+   "Jiaqi Gu"
+  ],
+  "abstract": "Driven by innovations in photonic computing and interconnects, photonic integrated circuit (PIC) designs advance and grow in complexity. Traditional manual physical design processes have become increasingly cumbersome. Available PIC layout tools are mostly schematic-driven, which has not alleviated the burden of manual waveguide planning and layout drawing. Previous research in PIC automated routing is largely adapted from electronic design, focusing on high-level planning and overlooking photonic-specific constraints such as curvy waveguides, bending, and port alignment. As a result, they fail to scale and cannot generate DRV-free layouts, highlighting the need for dedicated electronic-photonic design automation tools to streamline PIC physical design. In this work, we present LiDAR, the first automated PIC detailed router for large-scale designs. It features a grid-based, curvy-aware A* engine with adaptive crossing insertion, congestion-aware net ordering, and insertion-loss optimization. To enable routing in more compact and complex designs, we further extend our router to hierarchical routing as LiDAR 2.0. It introduces redundant-bend elimination, crossing space preservation, and routing order refinement for improved conflict resilience. We also develop and open-source a YAML-based PIC intermediate representation and diverse benchmarks, including TeMPO, GWOR, and Bennes, which feature hierarchical structures and high crossing densities. Evaluations across various benchmarks show that LiDAR 2.0 produces nearly DRV-free layouts, achieving up to 16% lower insertion loss and 7.69× speedup over prior methods on spacious cases, and 9% lower insertion loss with 6.95× speedup over LiDAR 1.0 on compact cases. Our codes are open-sourced at link.",
+  "cited": 4,
+  "type": "article",
+  "oa_url": "https://arxiv.org/pdf/2505.17239",
+  "oa_status": "green"
+ },
+ "10.1109/iccad66269.2025.11240728": {
+  "title": "Apollo: Automated Routing-Informed Placement for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": null,
+  "authors": [
+   "Hongjian Zhou",
+   "Haoyu Yang",
+   "Nicholas W. Gangi",
+   "Zhaoran Huang",
+   "Haoxing Mark Ren",
+   "Jiaqi Gu"
+  ],
+  "abstract": "As technology advances, photonic integrated circuits (PICs) are rapidly scaling in size and complexity, with modern designs integrating thousands of components to meet the demands of artificial intelligence (AI), high-performance computing, and chip-to-chip optical interconnects. However, the analog custom layout nature of photonics, the curvy waveguide structures, and single-layer routing resources impose stringent physical constraints, such as minimum bend radii and waveguide crossing penalties, which make manual layout the de facto standard. This manual process takes weeks to complete and is error-prone, which is fundamentally unscalable for large-scale PIC systems. Existing automation solutions have adopted force-directed placement on small benchmarks with tens of components, with limited routability and scalability. To fill this fundamental gap in the electronic-photonic design automation (EPDA) toolchain, we present Apollo, the first GPU-accelerated, routing-informed placement framework tailored for large-scale PICs. Apollo features an asymmetric bending-aware wirelength function with explicit modeling of waveguide routing congestion and crossings to preserve enough routing spacing for routability maximization. Meanwhile, conditional projection is employed to gradually enforce a variety of user-defined layout constraints, including alignment, spacing, etc. This constrained optimization is accelerated and stabilized by a custom blockwise adaptive Nesterov-accelerated optimizer, ensuring stable and high-quality convergence. To catalyze research in PIC layout automation, we also develop and open-source large-scale PIC benchmarks derived from real-world photonic tensor core designs. Compared to existing methods, Apollo can generate high-quality layouts for large-scale PICs with an average routing success rate of 94.79% across all benchmarks within minutes. By tightly coupling placement with physical-aware routing, Apollo establishes a new paradigm for automated PIC design—bringing intelligent, scalable layout synthesis to the forefront of next-generation EPDA. Our code is open-sourced at link*.",
+  "cited": 3,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1587/transele.e101.c.509": {
+  "title": "Low-Loss 3-Dimensional Shuffling Graded-Index Polymer Optical Waveguides for Optical Printed Circuit Boards",
+  "year": 2018,
+  "venue": "IEICE Transactions on Electronics",
+  "authors": [
+   "MD Omar Faruk Rasel",
+   "Akira YAMAUCHI",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "This paper introduces a formation method for 3-dimensional 6 ch.×6 ch. shuffling structures with graded-index (GI) circular core in a multimode polymer optical waveguide for optical printed circuit boards (OPCBs) using a unique photomask-free fabrication technique named the Mosquito method. The interchannel pitch of the fabricated waveguides is 250µm, where all the channels consist of both horizontal and vertical bending structures and the last 6 channels in parallel cross over the first 6 channels. We also report 3-dimensional S-shaped polymer waveguides. In the S-shaped waveguides, the first and last 6 channels with both horizontal and vertical core bending composing the above 3-dimensional shuffling waveguide are separated, in order to evaluate the effect of over-crossing on the loss. It is experimentally confirmed that there is no excess insertion loss due to the shuffling structure in the 3-D shuffling waveguide. The evaluated crosstalk of the 3-D shuffling waveguide is lower than -30dB. The 3-D shuffling waveguide proposed in this paper will be a promising component to achieve high bandwidth density wiring for on-board optical interconnects.",
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.jstage.jst.go.jp/article/transele/E101.C/7/E101.C_509/_pdf",
+  "oa_status": "bronze"
+ },
+ "10.1007/s10825-022-01989-4": {
+  "title": "Optimizing bend loss in optical waveguide channel routing on photonic integrated circuits",
+  "year": 2022,
+  "venue": "Journal of Computational Electronics",
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Kumar Roy"
+  ],
+  "abstract": null,
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.researchsquare.com/article/rs-1652266/latest.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/vlsid51830.2021.00047": {
+  "title": "Optical Waveguide Channel Routing with Reduced Bend-Loss for Photonic Integrated Circuits",
+  "year": 2021,
+  "venue": "International Conference on VLSI Design",
+  "authors": [
+   "Sumit Sharma",
+   "Sudip Kumar Roy"
+  ],
+  "abstract": "Silicon photonics (Si-photonics) is a potential technology that integrates the electronic and optical circuits on a single chip, in order to satisfy the increasing demand of highspeed and low-power dissipation in the current very-large-scale integration circuits. It has opened up the research directions in the domain of design automation for photonic integrated circuits. While deciding the physical layout of the optical circuits on the substrate, it is crucial to obtain the optimal routing of optical waveguides. The optical channel routing problem is a multiobjective optimization problem, in which all the parameters like the total bend loss, the total propagation loss, the total crossing loss, and the total number of tracks are required to be minimized. However, in comparison to propagation and crossing loss, the bending loss has a higher impact on the total signal loss. In this paper, a grid-based method has been proposed for optical waveguide channel routing (OWCR) while reducing the total bend loss and the total number of tracks. Simulation results reveals that OWCR can reduce the total bend loss by 25.82 % and 36.57 % over the state-of-the-art technique for h = 1 and h = 1.732, respectively, while increasing the total number of tracks by 18.68 %.",
+  "cited": 3,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/jlt.2025.3539231": {
+  "title": "A Zero-Crossing Optical Waveguide Routing Method",
+  "year": 2025,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "Ziyue Zhang",
+   "Didier Colle",
+   "Wouter Tavernier",
+   "Mario Pickavet"
+  ],
+  "abstract": "Photonic Network on Wafer (PNoW) for multi-chip computing systems is a promising solution for providing high inter-chip bandwidth while maintaining low energy consumption. This paper introduces a novel approach for routing optical waveguides in PNoWs on a 2-dimensional wafer plane, eliminating the need for any waveguide crossings. Our proposed method guarantees zero optical waveguide crossings, therefore high signal-to-noise ratio (SNR) and low signal loss in the photonics circuits. Notably, our proposed routing method is applicable to PNoWs with significantly higher inter-chip bandwidth, surpassing current commercial products by one magnitude. In contrast, we demonstrate that classical routing heuristics that allow waveguide crossings might result in a substantial degradation in terms of signal qualities, which is evaluated with certain approximations in this work. Furthermore, our grid-less routing method imposes minimal computational requirements, offering an efficient and practical solution for the implementation of high-performance PNoWs.",
+  "cited": 1,
+  "type": "article",
+  "oa_url": "https://biblio.ugent.be/publication/01JVKR63B29E35X3WC0V6606F4/file/01JVKR826QQ29CX5W1Y1ZGKFR8.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/oecc48412.2020.9273659": {
+  "title": "Automatic high-density polymer waveguide layout for on-board high-speed optical interconnect",
+  "year": 2020,
+  "venue": "Opto-Electronics and Communications Conference (OECC)",
+  "authors": [
+   "Zhijie Huang",
+   "Lin Ma",
+   "Wanjing Kuang",
+   "Ying Shi",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate automatic polymer waveguide layout for the first time. We succeeded in 512 multimode waveguides routing with balanced performances within an area of 150×150 mm2by optimization on algorithm and bending radius.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1143/jjap.44.l1446": {
+  "title": "Three-Dimensional Waveguide Interconnection in Planar Lightwave Circuits by Direct Writing with Femtosecond Laser",
+  "year": 2005,
+  "venue": "Japanese Journal of Applied Physics",
+  "authors": [
+   "Yusuke Nasu",
+   "Masaki Kohtoku",
+   "Yoshinori Hibino",
+   "Yasuyuki Inoue"
+  ],
+  "abstract": "The three-dimensional (3D) interconnection of waveguides in planar lightwave circuits (PLCs) is demonstrated. A femtosecond laser successfully interconnects the waveguides of PLCs with low loss by writing 3D waveguides in the PLCs. A directly written waveguide with a length of about 2000 µm crossed over another waveguide without any interaction. The excess losses at 1550 nm were 2.7 and 2.8 dB for the transverse electric (TE) and transverse magnetic (TM) modes, respectively.",
+  "cited": 4,
+  "type": "article",
+  "oa_url": "https://iopscience.iop.org/article/10.1143/JJAP.44.L1446/pdf",
+  "oa_status": "bronze"
+ },
+ "10.1117/12.3007419": {
+  "title": "A graph-based global routing method for single photonic integrated circuit waveguide connection",
+  "year": 2023,
+  "venue": "Applied Optics and Photonics China (AOPC): AI in Optics and Photonics",
+  "authors": [
+   "Xiao-Juan Yang",
+   "Guowei Cao",
+   "Jiyao Yu",
+   "Yu Li"
+  ],
+  "abstract": "With the integration and design complexity of silicon photonics chips raises, the cost of manual routing based on design experience has significantly increased, which brings urgent demand for auto routing methods. This article proposed a global auto routing method for single waveguide connection in photonic integrated circuits. The method firstly partitions all routable areas into non-uniform grids based on the layout placement information and converts the grids into an undirected graph with respect to the path length and congestion of waveguides between adjacent grids. Next, an improved A* algorithm runs in the graph to find a best path between two optical ports, with additional penalties on every bend in the path, beyond cumulative lengths and congestion penalties. Heuristic terms have also been added to increase the convergence speed of the algorithm. The optimized path in graph is further used to perform multiple adhesive lines for waveguide control points generation. Then, three types of 90-degree bends and two types of S-bend according to specific spacing and angle relationships between control points are applied to generate waveguide trace. This method can avoid collisions between target waveguide and other devices on the layout, optimize the global path length, minimize the number of waveguide’s bends, prevent waveguide congestion in specific spaces from exceeding the set threshold, and at the same time generate the optimal waveguide and insert it into layout.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/icsj.2017.8240138": {
+  "title": "Low loss multimode polymer shuffling optical waveguide for high-density optical circuit",
+  "year": 2017,
+  "venue": "IEEE CPMT Symposium Japan (ICSJ)",
+  "authors": [
+   "Kohei Abe",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "To realize free optical wiring patterns on printed circuit boards (PCBs), polymer shuffling optical waveguides are fabricated, in which both crossing and curved core structures are combined. The obtained GI polymer shuffling waveguides show low insertion loss independent of the crossing angle and core size. The GI-core polymer shuffling waveguide is a key device for low loss and high density on-board optical wiring.",
+  "cited": 1,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1117/12.3083656": {
+  "title": "Three-dimensional optical waveguides with continuously varying depths inscribed by femtosecond laser",
+  "year": 2025,
+  "venue": "AOPC: Advanced Laser Technology and Applications",
+  "authors": [
+   "Xiangyu Wang",
+   "Lei Zhu",
+   "Qi Zhang",
+   "Min Tang",
+   "Fei Xiao",
+   "Xiaodong Wang",
+   "Shiyang Shen",
+   "Lanqiang Zhang",
+   "Youming Guo"
+  ],
+  "abstract": "Femtosecond laser inscription is one of the effective techniques for fabricating optical waveguides inside transparent materials, and it has been widely applied in fields such as quantum computing, astronomy, and data communication. Compared with planar optical waveguides, three-dimensional (3D) optical waveguides with continuously varying depths can form photonic chips with complex routings and 3D structures. However, their performance is limited by optical aberrations during processing. In this paper, 3D optical waveguides with continuously varying depths from 100 to 600 μm were fabricated inside fused silica glass. To reduce bending losses, the spatial path of the optical waveguides follows a cosine function. During the fabrication process, a Shack-Hartmann wavefront sensor was used to measure the spherical aberration introduced by the refractive index mismatch, which was corrected by a liquid-crystal spatial light modulator both in real time. The loss test results show that, compared with planar optical waveguides of the same depth, the insertion losses of the 3D optical waveguides remain substantially unchanged, being 1.0 dB and 1.2 dB, respectively. The experiments in this paper provide an effective technical means for the development of 3D glass-based photonic chips.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1038/nphoton.2008.47": {
+  "title": "Femtosecond laser micromachining in transparent materials",
+  "year": 2008,
+  "venue": "Nature Photonics",
+  "authors": [
+   "Rafael R. Gattass",
+   "Eric Mazur"
+  ],
+  "abstract": null,
+  "cited": 3264,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ol.21.001729": {
+  "title": "Writing waveguides in glass with a femtosecond laser",
+  "year": 1996,
+  "venue": "Optics Letters",
+  "authors": [
+   "K. M. Davis",
+   "Kiyotaka Miura",
+   "Naoki Sugimoto",
+   "K. Hirao"
+  ],
+  "abstract": "With the goal of being able to create optical devices for the telecommunications industry, we investigated the effects of 810-nm, femtosecond laser radiation on various glasses. By focusing the laser beam through a microscope objective, we successfully wrote transparent, but visible, round-elliptical damage lines inside highsilica, borate, soda lime silicate, and f luorozirconate (ZBLAN) bulk glasses. Microellipsometer measurements of the damaged region in the pure and Ge-doped silica glasses showed a 0.01-0.035 refractive-index increase, depending on the radiation dose. The formation of several defects, including Si E' or Ge E' centers, nonbridging oxygen hole centers, and peroxy radicals, was also detected. These results suggest that multiphoton interactions occur in the glasses and that it may be possible to write three-dimensional optical circuits in bulk glasses with such a focused laser beam technique.",
+  "cited": 2619,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tec.1961.5219222": {
+  "title": "An Algorithm for Path Connections and Its Applications",
+  "year": 1961,
+  "venue": "IEEE Transactions on Electronic Computers",
+  "authors": [
+   "C. Y. Lee"
+  ],
+  "abstract": "The algorithm described in this paper is the outcome of an endeavor to answer the following question: Is it possible to find procedures which would enable a computer to solve efficiently path-connection problems inherent in logical drawing, wiring diagramming, and optimal route finding? The results are highly encouraging. Within our framework, we are able to solve the following types of problems: 1) To find a path between two points so that it crosses the least number of existing paths. 2) To find a path between two points so that it avoids as much as possible preset obstacles such as edges. 3) To find a path between two points so that the path is optimal with respect to several properties; for example, a path which is not only one of those which cross the fewest number of existing paths, but, among these, is also one of the shortest. The minimal-distance solution has been programmed on an IBM 704 computer, and a number of illustrations are presented. The class of problems solvable by our algorithm is given in a theorem in Section III. A byproduct of this algorithm is a somewhat remote, but unexpected, relation to physical optics. This is discussed in Section VI.",
+  "cited": 1622,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/oe.19.005698": {
+  "title": "Ultrafast laser inscription of an integrated photonic lantern",
+  "year": 2011,
+  "venue": "Optics Express",
+  "authors": [
+   "Robert R. Thomson",
+   "T. A. Birks",
+   "Sergio G. Leon-Saval",
+   "Ajoy Kumar Kar",
+   "Joss Bland‐Hawthorn"
+  ],
+  "abstract": "We used ultrafast laser inscription to fabricate three-dimensional integrated optical transitions that efficiently couple light from a multimode waveguide to a two-dimensional array of single mode waveguides and back. Although the entire device has an average insertion loss of 5.7 dB at 1539 nm, only ≈0.7 dB is due to mode coupling losses. Based on an analysis which is presented in the paper, we expect that our device should convert a multimode input into an array of single modes with a loss of ≈2.0 dB, assuming the input coupling losses are zero. Such devices have applications in astrophotonics and remote sensing.",
+  "cited": 252,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.19.005698",
+  "oa_status": "gold"
+ },
+ "10.1038/s41377-020-0272-5": {
+  "title": "Hybrid multi-chip assembly of optical communication engines by in situ 3D nano-lithography",
+  "year": 2020,
+  "venue": "Light Science & Applications",
+  "authors": [
+   "Matthias Blaicher",
+   "Muhammad Rodlin Billah",
+   "Juned Nassir Kemal",
+   "T. Hoose",
+   "Pablo Marin-Palomo",
+   "Andreas Hofmann",
+   "Y. Kutuvantavida",
+   "Clemens Kieninger",
+   "Philipp‐Immanuel Dietrich",
+   "Matthias Lauermann",
+   "S. Wolf",
+   "U. Troppenz",
+   "Martin Moehrle",
+   "Florian Merget",
+   "Sebastian T. Skacel",
+   "Jeremy Witzens",
+   "Sebastian Randel",
+   "W. Freude",
+   "Christian G. Koos"
+  ],
+  "abstract": "Three-dimensional (3D) nano-printing of freeform optical waveguides, also referred to as photonic wire bonding, allows for efficient coupling between photonic chips and can greatly simplify optical system assembly. As a key advantage, the shape and the trajectory of photonic wire bonds can be adapted to the mode-field profiles and the positions of the chips, thereby offering an attractive alternative to conventional optical assembly techniques that rely on technically complex and costly high-precision alignment. However, while the fundamental advantages of the photonic wire bonding concept have been shown in proof-of-concept experiments, it has so far been unclear whether the technique can also be leveraged for practically relevant use cases with stringent reproducibility and reliability requirements. In this paper, we demonstrate optical communication engines that rely on photonic wire bonding for connecting arrays of silicon photonic modulators to InP lasers and single-mode fibres. In a first experiment, we show an eight-channel transmitter offering an aggregate line rate of 448 Gbit/s by low-complexity intensity modulation. A second experiment is dedicated to a four-channel coherent transmitter, operating at a net data rate of 732.7 Gbit/s - a record for coherent silicon photonic transmitters with co-packaged lasers. Using dedicated test chips, we further demonstrate automated mass production of photonic wire bonds with insertion losses of (0.7 ± 0.15) dB, and we show their resilience in environmental-stability tests and at high optical power. These results might form the basis for simplified assembly of advanced photonic multi-chip systems that combine the distinct advantages of different integration platforms.",
+  "cited": 175,
+  "type": "article",
+  "oa_url": "https://www.nature.com/articles/s41377-020-0272-5.pdf",
+  "oa_status": "gold"
+ },
+ "10.1117/1.apn.2.3.036002": {
+  "title": "Low-insertion-loss femtosecond laser-inscribed three-dimensional high-density mux/demux devices",
+  "year": 2023,
+  "venue": "Advanced Photonics Nexus",
+  "authors": [
+   "Yize Liang",
+   "Chengkun Cai",
+   "Kangrui Wang",
+   "Xiaokang Lian",
+   "Jue Wang",
+   "Jinfeng Liu",
+   "Lei Shen",
+   "Jian Wang"
+  ],
+  "abstract": "Recently, transmitting diverse signals in different cores of a multicore fiber (MCF) has greatly improved the communication capacity of a single fiber. In such an MCF-based communication system, mux/demux devices with broad bandwidth are of great significance. In this work, we design and fabricate a 19-channel mux/demux device based on femtosecond laser direct writing. The fabricated mux/demux device possesses an average insertion loss of 0.88 dB and intercore crosstalk of no more than − 29.1 dB. Moreover, the fabricated mux/demux device features a broad bandwidth across the C+L band. Such a mux/demux device enables low-loss 19-core fiber (de)multiplexing over the whole C+L band, showing a convincing potential value in wavelength-space division multiplexing applications. In addition, a 19-core fiber fan-in/fan-out system is also established based on a pair of mux/demux devices in this work.",
+  "cited": 30,
+  "type": "article",
+  "oa_url": "https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-2/issue-3/036002/Low-insertion-loss-femtosecond-laser-inscribed-three-dimensional-high-density/10.1117/1.APN.2.3.036002.pdf",
+  "oa_status": "diamond"
+ },
+ "10.1088/2631-7990/ab4d51": {
+  "title": "Femtosecond laser additive and subtractive micro-processing: enabling a high-channel-density silica interposer for multicore fibre to silicon-photonic packaging",
+  "year": 2019,
+  "venue": "International Journal of Extreme Manufacturing",
+  "authors": [
+   "Gligor Djogo",
+   "Jianzhao Li",
+   "Stephen Ho",
+   "Moez Haque",
+   "Erdem Yigit Ertorer",
+   "Jun Liu",
+   "Xiaolu Song",
+   "Jing Suo",
+   "Peter Robert Herman"
+  ],
+  "abstract": "Abstract Great strides have been made over the past decade to establish femtosecond lasers in advanced manufacturing systems for enabling new forms of non-contact processing of transparent materials. Research advances have shown that a myriad of additive and subtractive techniques is now possible for flexible 2D and 3D structuring of such materials with micro- and nano-scale precision. In this paper, these techniques have been refined and scaled up to demonstrate the potential for 3D writing of high-density optical packaging components, specifically addressing the major bottleneck for efficiently connecting optical fibres to silicon photonic (SiP) processors for use in telecom and data centres. An 84-channel fused silica interposer was introduced for high-density edge coupling of multicore fibres (MCFs) to a SiP chip. Femtosecond laser irradiation followed by chemical etching was further harnessed to open alignment sockets, permitting rapid assembly with precise locking of MCF positions for efficient coupling to laser written optical waveguides in the interposer. A 3D waveguide fanout design provided an attractive balancing of low losses, mode-matching, high channel density, compact footprint, and low crosstalk. The 3D additive and subtractive processes thus demonstrated the potential for higher scale integration and rapid photonic assembly and packaging of micro-optic components for telecom interconnects, with possible broader applications in integrated biophotonic chips or micro-displays.",
+  "cited": 52,
+  "type": "article",
+  "oa_url": "https://iopscience.iop.org/article/10.1088/2631-7990/ab4d51/pdf",
+  "oa_status": "gold"
+ },
+ "10.1364/oe.23.001585": {
+  "title": "Fan-in/out polymer optical waveguide for a multicore fiber fabricated using the Mosquito method",
+  "year": 2015,
+  "venue": "Optics Express",
+  "authors": [
+   "Daisuke Suganuma",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "A fan-in/out polymer optical waveguide with 25-μm cores and 40-μm interchannel pitch is fabricated for a multimode multicore fiber using a microdispenser. We design a fan-in/out structure to which the Mosquito method is applicable since the Mosquito method is capable of drawing a circular graded-index core three-dimensionally. Then, we experimentally fabricate a 10-cm long fan-in/out polymer waveguide with seven cores, which is expected to connect a multicore fiber and a fiber ribbon. A minimum insertion loss of 5.26 dB at 850-nm wavelength for a 10-cm long fan-in/out waveguide is experimentally observed. Causes of variation in the insertion loss and interchannel pitch are discussed.",
+  "cited": 31,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.23.001585",
+  "oa_status": "gold"
+ },
+ "10.1109/ectc51909.2023.00046": {
+  "title": "Co-packaged Optics on Glass Substrates for 102.4 Tb/s Data Center Switches",
+  "year": 2023,
+  "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+  "authors": [
+   "Lucas W. Yeary",
+   "Lars Brusberg",
+   "Cheolbok Kim",
+   "Seong-Ho Seok",
+   "JungHyun Noh",
+   "Alon Rozenvax"
+  ],
+  "abstract": "Next generation data centers are challenged with the task of delivering increased bandwidth and data rates at manageable power consumption. Co-packaged optics offer a path forward by enabling significant power reduction when electronic and photonic chiplets are locally mounted on a packaging substrate. In this paper, we discuss a glass substrate solution where both optical and electrical connectivity can be fabricated using ion-exchange (IOX) waveguides embedded into the glass and low-loss electrical routing. Design aspects are discussed to support 102.4 Tb/s data center switch applications. Signal transmission between the ASIC and PIC is completed with a total of 5 metal layers utilizing fine-line signal routing separated by ground planes. Through glass vias (TGVs) provide both power delivery for the mounted components and data management connectivity. Low-loss evanescent coupling occurs between the waveguides embedded in the glass substrate and photonic chips with high-density silicon nitride optical IOs. This design enables low-cost assembly methods involving the pick and place alignment of optical components and offers connectivity with low-profile mechanical transfer (MT) ferrule based fiber connectors.",
+  "cited": 26,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ofc.2021.th1a.37": {
+  "title": "Low-Loss Three-Dimensional Fan-in/Fan-out Devices for Multi-Core Fiber Integration",
+  "year": 2021,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Yi‐Chun Ling",
+   "Shuyun Yuan",
+   "S. J. Ben Yoo"
+  ],
+  "abstract": "We demonstrate a 3D fan-in/fan-out device for multi-core fiber integration fabricated by ultrafast laser inscription using an automatic 3D waveguide routing algorithm. The low propagation loss of 0.3 dB/cm and 0.16 dB/cm have been achieved for two types of glasses.",
+  "cited": 8,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/icocn55511.2022.9901157": {
+  "title": "Low-Loss and Low-Crosstalk Fan-in/Fan-out Device for Multicore Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2022,
+  "venue": "International Conference on Optical Communications and Networks (ICOCN)",
+  "authors": [
+   "Zixiang Dai",
+   "Junjie Xiong",
+   "Lin Ma",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate a low-loss and low-crosstalk fan-in/fan-out device for three-core fiber using femtosecond laser direct inscription. The fabricated FI/FO device has an averaged insertion loss of 1.33 dB and a crosstalk smaller than −49 dB.",
+  "cited": 2,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/oecc.2018.8730115": {
+  "title": "Shuffle converter using 3D waveguide for MCF/SMF fan-in fan-out configuration toward over 1,000 port count optical matrix switch",
+  "year": 2018,
+  "venue": "Opto-Electronics and Communications Conference (OECC)",
+  "authors": [
+   "Kiichi Hamamoto",
+   "Yasuhiro Hinokuma",
+   "Swapan K. Ghosh",
+   "Ryota Kuwahata",
+   "Haisong Jiang"
+  ],
+  "abstract": "We newly propose shuffle converter which scales optical switch toward over 1,000 port count by using 3D waveguide of MCF/SMF ribbon fan-in fan-out configuration. The principle device showed sufficient crosstalk of less than -57.4 dB, and insertion loss of 2.1 dB successfully.",
+  "cited": 1,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ofc.2017.w1b.6": {
+  "title": "Laser Fabrications of Multi-Layer Waveguide Arrays in Multi-Core Fibers and Glass Panels for Optical Interconnect",
+  "year": 2017,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Kevin P. Chen",
+   "Ming-Jun Li"
+  ],
+  "abstract": "This paper discuss ultrafast laser fabrication of 3D lightwave circuits in optical fibers and glass substrates for optical interconnects. The interaction between embedded waveguides and surface optical structures produced by semiconductor microfabrication will be discussed.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ecoc48923.2020.9333177": {
+  "title": "Demonstration of Low-Latency ETH-switched DataCenter and 5G Fronthaul Networks Using the 1024-port $\\text{Hipo}\\lambda\\text{aos}$ Optical Packet Switch",
+  "year": 2020,
+  "venue": "European Conference on Optical Communication",
+  "authors": [
+   "George Giamougiannis",
+   "Apostolos Tsakyridis",
+   "Nikos Terzenidis",
+   "Dimosthenis Spasopoulos",
+   "Christos Vagionas",
+   "Nikos Pleros"
+  ],
+  "abstract": "We experimentally evaluate the performance of a 1024-port Hipoλaos OPS with Ethernet traffic in real-world DC and 5G fronthaul testbeds, successfully demonstrating video transmission and iperf communication through low-latency optical switching at 10Gb/s per port.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/ipc60965.2024.10799666": {
+  "title": "11,520×11,520 Optical Circuit Switch for Intra- and Inter-datacenter Converged Networks",
+  "year": 2024,
+  "venue": "IEEE Photonics Conference",
+  "authors": [
+   "Takuma Kuno",
+   "Yojiro Mori",
+   "H. Hasegawa"
+  ],
+  "abstract": "This paper proposes a high-port-count optical circuit switch architecture that supports both intra- and inter-datacenter networks. A switching system prototype is constructed to transparently connect intra-datacenter networks to metropolitan networks for inter-datacenter communication. Experiments successfully confirm the feasibility of a 11,520×11,520 optical circuit switch prototype.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/ofc.2025.m4j.5": {
+  "title": "Low-loss Fan-in/Fan-out Device for Coupled four-core Fiber Using a Femtosecond Laser Direct Inscription Technique",
+  "year": 2025,
+  "venue": "Optical Fiber Communication Conference",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Junjie Xiong",
+   "Linbin Bai",
+   "Mingjing Xu",
+   "Zuyuan He"
+  ],
+  "abstract": "We demonstrate low-loss fan-in/fan-out device for 19 μm-core-pitch coupled four-core fiber using a femtosecond laser direct inscription technique, achieving an average insertion loss of 0.49 dB before packaging and 0.92 dB after packaging.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

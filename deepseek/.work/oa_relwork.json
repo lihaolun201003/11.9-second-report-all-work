@@ -1,0 +1,303 @@
+{
+ "10.1002/admt.202300620": {
+  "title": "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing: Processes, Materials, and Devices",
+  "year": 2023,
+  "venue": "Advanced Materials Technologies",
+  "authors": [
+   "Jiawei Li",
+   "Chun Cao",
+   "Yiwei Qiu",
+   "Cuifang Kuang",
+   "Xu Liu"
+  ],
+  "abstract": "Abstract As the most fundamental unit of photonic integration, optical waveguides offer the possibility of developing efficient and practical photonic chips by facilitating the on‐chip integration of devices with different functions. Femtosecond direct laser writing (FsDLW), as a burgeoning 3D microfabrication technology, can realize the rapid formation of arbitrary optical waveguides without any mask inside versatile materials, such as crystalline dielectric crystals, glasses, polymers, and photoresists. This significant material‐independence allows FsDLW to combine different materials and manufacturing processes to implement a cross‐platform solution. This review first describes the different optical loss types and suitable measurement methods for different applicable scenes, then summarizes the two fabrication mechanisms and points out the general direction for adjusting the waveguide properties by fabrication processes. Finally, the application fields and development prospects of different materials are discussed by overviewing the characteristics of different materials and the material selection preferences of different devices. With a panoramic view of the development, it is concluded with insights and perspectives of the future development of optical waveguides and processing technology via FsDLW.",
+  "cited": 46,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1364/optica.559260": {
+  "title": "Low-loss integration of high-density polymer waveguides with silicon photonics for co-packaged optics",
+  "year": 2025,
+  "venue": "Optica",
+  "authors": [
+   "Jef Van Asch",
+   "Jeroen Missinne",
+   "Junwen He",
+   "Arnita Podpod",
+   "Guy Lepage",
+   "Negin Golshani",
+   "Rafal Magdziak",
+   "Hüseyin Şar",
+   "Hakim Kobbi",
+   "Swetanshu Bipul",
+   "Dieter Bode",
+   "Yoojin Ban",
+   "Filippo Ferraro",
+   "Joris Van Campenhout",
+   "Geert Van Steenberge"
+  ],
+  "abstract": "Co-packaged optics applications require scalable and high-yield optical interfacing solutions to silicon photonic chiplets, offering low-loss, broadband, and polarization-independent optical coupling while maintaining compatibility with widely used approaches for electrical redistribution. We present two heterogeneous integration techniques that enable high-density optical I/O connections, utilizing adiabatic coupling between on-chip silicon nitride (SiN) waveguides and package-level polymer optical waveguides. In the first approach, polymer waveguides are patterned using standard lithography directly on the surface of the photonic chip, ensuring compatibility with chip embedding as commonly employed in chip-first fanout wafer-level packaging. In the second approach, photonic chips are flip-chip bonded to the package substrate. Both techniques have been experimentally validated, achieving a coupling efficiency near 1 dB between SiN and polymer waveguides in the O-band, for both TE and TM polarizations. SiN tapers were designed using the “Mono” method to optimize phase-matching conditions between the two waveguides, a critical requirement for integrating diverse optical components. These results demonstrate the potential of polymer waveguides in co-packaged optics applications, achieving sub-2 dB chip-to-chip and chip-to-fiber coupling losses.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/optica.559260",
+  "oa_status": "gold"
+ },
+ "10.1364/ao.51.006489": {
+  "title": "Design of optically path-length-matched, three-dimensional photonic circuits comprising uniquely routed waveguides",
+  "year": 2012,
+  "venue": "Applied Optics",
+  "authors": [
+   "Ned Charles",
+   "Nemanja Jovanovic",
+   "Simon Gross",
+   "Paul Stewart",
+   "Barnaby R. M. Norris",
+   "John O’Byrne",
+   "Jon S. Lawrence",
+   "Michael J. Withford",
+   "Peter Tuthill"
+  ],
+  "abstract": "A method for designing physically path-length-matched, three-dimensional photonic circuits is described. We focus specifically on the case in which all the waveguides are uniquely routed from the input to output-a problem that has not been addressed to date and that allows for the waveguides to be used in interferometric measurements. Circuit elements were fabricated via the femtosecond laser direct-write technique. We demonstrate via interferometric methods that the fabricated circuits were indeed optically path-length matched to within 45 μm, which is within the coherence length required for many applications.",
+  "cited": 28,
+  "type": "article",
+  "oa_url": "https://arxiv.org/pdf/1209.5144",
+  "oa_status": "green"
+ },
+ "10.1364/oe.27.032465": {
+  "title": "Circular core single-mode 3-dimensional crossover polymer waveguides fabricated with the Mosquito method",
+  "year": 2019,
+  "venue": "Optics Express",
+  "authors": [
+   "MD Omar Faruk Rasel",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "We experimentally fabricate circular core 3-dimensional (3D) crossover single-mode polymer optical waveguides using a photomask free unique fabrication technique named the Mosquito method for realizing channel shuffling. The 3D crossover structure is accomplished by forming four cores (2 ch. × 2 ch.) with different heights: the last two channels cross over the first two channels with horizontal and vertical core bending. We compare the insertion losses between the fabricated 3D single-mode crossover waveguide and 3D S-bend core waveguides fabricated separately, which correspond to the lower and upper channels in the crossover waveguide. Then, we investigate the effect of the core crossover on the loss, and find that almost negligible additional loss is observed. The average insertion losses of this 6-cm long 3D crossover single-mode waveguide are 3.95 and 3.81 dB at 1310 nm, and 5.74 and 4.80 dB at 1550-nm wavelength, for the lower and upper channels, respectively. The interchannel crosstalk in this crossover waveguide is observed to be lower than -40 dB, while the 1 dB radial alignment tolerance is ± 1.7 and ± 2.1 µm at 1310 and 1550 nm, respectively. These results suggest that the fabricated circular core single-mode 3D crossover polymer waveguides could have a great impact for high-bandwidth-density on-board and inter-chip optical interconnect applications.",
+  "cited": 25,
+  "type": "article",
+  "oa_url": "https://doi.org/10.1364/oe.27.032465",
+  "oa_status": "gold"
+ },
+ "10.3389/aot.2023.1244009": {
+  "title": "Ultrafast laser processing of glass waveguide substrates for multi-fiber connectivity in co-packaged optics",
+  "year": 2023,
+  "venue": "Advanced Optical Technologies",
+  "authors": [
+   "Jason R. Grenier",
+   "Lars Brusberg",
+   "Kristopher A. Wieland",
+   "Juergen Matthies",
+   "Chad C. Terwilliger"
+  ],
+  "abstract": "High bandwidth demanding applications such as high-performance computing and hyperscale datacenters are drivers for co-packaged optics, which aims to bring optical signals as close as possible to the electrical computing chips by integrating the electro-optic transceivers and ASICs on the same package substrate. These next-generation switches require advanced fiber-to-chip connectivity and novel packaging concepts to enable sufficient power and cost savings. As such, low-loss, high bandwidth, and high fiber-counts are required at the photonic chip interface. In this work, these challenges are addressed by enabling the multi-fiber push-on (MPO) interface at the edge of integrated glass waveguide substrates and thus leverages the existing fiber connector eco-system. An ultrafast laser process is used to singulate glass wafers into individual photonic chips leaving optical-quality end-facets with <1 μm flatness over the 6.5 mm wide connector region thereby directly enabling low-loss fiber-to-chip edge-coupling. To overcome the high-costs and complex photonic packaging associated with active alignment of the fiber connectors to the glass waveguide interfaces, ultrafast laser-ablated features are accurately positioned on the glass substrate to enable self-alignment of the MPO connector guide-pins resulting in a passive alignment approach. Subsequent mating and de-mating of the MPO connector to the glass waveguide interface yields on average a 0.19 dB increase in the coupling loss compared to using active alignment.",
+  "cited": 21,
+  "type": "article",
+  "oa_url": "https://www.frontiersin.org/articles/10.3389/aot.2023.1244009/pdf",
+  "oa_status": "gold"
+ },
+ "10.1109/iccad51958.2021.9643451": {
+  "title": "ToPro: A Topology Projector and Waveguide Router for Wavelength-Routed Optical Networks-on-Chip",
+  "year": 2021,
+  "venue": null,
+  "authors": [
+   "Zhidan Zheng",
+   "Mengchu Li",
+   "Tsun‐Ming Tseng",
+   "Ulf Schlichtmann"
+  ],
+  "abstract": "To meet the ever-increasing requirements of on-chip communication, the trend is towards wavelength-routed optical networks-on-chip (WRONoCs), which support high-speed communication with low power. A typical WRONoC design flow consists of two consecutive steps: topological design and physical design. Current physical design tools interpret the input topology as a pure logic scheme and perform placement and routing for all network components from scratch. Due to the large design complexity and the layout constraints, additional waveguide crossings in the synthesized layouts are hardly avoidable, which results in an increase in insertion loss and crosstalk noise and thus degrades the network performance. In this work, we propose a physical design tool, ToPro, which retains the interconnection among the optical switching elements by projecting the structure of a WRONoC topology onto the physical plane, and focuses on the waveguide routing to the IP-cores. To avoid the increase in insertion loss and crosstalk noise, ToPro removes the extra crossings and long detours of waveguides by changing the routing order of nets. The experimental results demonstrate the superiority of ToPro in time- and energy-efficiency. For example, compared to a state-of-the-art design automation tool, ToPro synthesizes a network with 16 IP-cores with a 17% reduction on the worst-case insertion loss and decreases the synthesis time from more than six days to less than one second.",
+  "cited": 12,
+  "type": "conference-paper",
+  "oa_url": "https://mediatum.ub.tum.de/doc/1638644/document.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/tcpmt.2025.3526500": {
+  "title": "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+  "year": 2025,
+  "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+  "authors": [
+   "Lars Brusberg",
+   "Marissa Granados-Baez",
+   "Ryan Schilling",
+   "Jorge A. Holguín‐Lerma",
+   "Janderson R. Rodrigues",
+   "Lucas W. Yeary",
+   "Aramais R. Zakharian",
+   "Betsy J. Johnson",
+   "Matthew J. Dejneka"
+  ],
+  "abstract": "Glass provides high dimensional stability and flatness, enabling high-throughput electronic assembly with high precision optical alignment for co-packaged optics (CPO) applications. Optical waveguides can be integrated in the glass core material by the thermal silver ion-exchange (IOX) process at temperatures around 350°C for fiber to chip connectivity. Currently available IOX glasses degrade due to ion mobility at operating conditions so we designed a new glass composition enabling waveguides to be stable over a lifetime of five years at an elevated temperature of 85°C or higher without performance degradation which could impact the integrity of the optical signal. The glass composition was optimized for thermal stability and low loss IOX waveguides were fabricated with propagation loss of only 0.034 dB/cm. Waveguide designs are studied and evaluated for waveguide crossings, high-density spacing, tight bends, high-optical power transmission, and polarization dependency. The waveguide technology is demonstrated for different applications including glass waveguide bridge for fiber to chip-coupling, multi-core fan-out, optical waveguide shuffle and an optical waveguide circuit for CPO with over 1024 waveguide interconnects.",
+  "cited": 12,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1016/j.optlastec.2025.114521": {
+  "title": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+  "year": 2025,
+  "venue": "Optics & Laser Technology",
+  "authors": [
+   "Fengrui Yu",
+   "Lin Ma",
+   "Linbin Bai",
+   "Junjie Xiong",
+   "Mingjing Xu",
+   "Xiaoke Chen",
+   "Zuyuan He"
+  ],
+  "abstract": null,
+  "cited": 5,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tcad.2014.2317575": {
+  "title": "Crossing-Aware Channel Routing for Integrated Optics",
+  "year": 2014,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "authors": [
+   "Christopher Condrat",
+   "Priyank Kalla",
+   "Steve Blair"
+  ],
+  "abstract": "Increasing scope and applications of integrated optics necessitates the development of automated techniques for physical design of optical systems. A key area of integrated optic design is waveguide routing, which currently lacks the level of automation found in VLSI design. Unlike VLSI, where signal nets are routed with metal layers and vias, integrated optics is a planar technology and lacks the inherent signal restoration capabilities of static-CMOS. Waveguides suffer signal loss due to planar (perpendicular) waveguide crossings and also from sharp bends. Therefore, in contrast to area or wire length, signal loss minimization - as a function of waveguide crossings and bends - is a primary objective of any routing solution. Our studies show that waveguide routing problems can be suitably formulated as planar channel routing. This paper investigates channel routing for integrated optical waveguides fabricated in a planar substrate. We present routing techniques where crossings, bends, and area are accounted for in an integrated solution. Two distinct channel routing techniques are presented: 1) a new channel router based on net sorting and utilizing non-Manhattan routing grids and 2) a router based on crossing-aware graph-constrained track assignment that also exploits waveguide curves to improve track utilization. Both techniques are crossing-minimal, and are also constrained suitably to reduce bend loss and area. We compare and evaluate the performance of our channel routers on a number of optical design benchmarks.",
+  "cited": 23,
+  "type": "article",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1145/3698364.3705355": {
+  "title": "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": "International Symposium on Physical Design",
+  "authors": [
+   "Zhou Hongjian",
+   "Keren Zhu",
+   "Jiaqi Gu"
+  ],
+  "abstract": null,
+  "cited": 6,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/tcad.2025.3624197": {
+  "title": "LiDAR 2.0: Hierarchical Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "authors": [
+   "Zhou Hongjian",
+   "Haoyu Yang",
+   "Ziang Yin",
+   "Nicholas W. Gangi",
+   "Zhaoran Huang",
+   "Haoxing Mark Ren",
+   "J. Matres",
+   "Jiaqi Gu"
+  ],
+  "abstract": "Driven by innovations in photonic computing and interconnects, photonic integrated circuit (PIC) designs advance and grow in complexity. Traditional manual physical design processes have become increasingly cumbersome. Available PIC layout tools are mostly schematic-driven, which has not alleviated the burden of manual waveguide planning and layout drawing. Previous research in PIC automated routing is largely adapted from electronic design, focusing on high-level planning and overlooking photonic-specific constraints such as curvy waveguides, bending, and port alignment. As a result, they fail to scale and cannot generate DRV-free layouts, highlighting the need for dedicated electronic-photonic design automation tools to streamline PIC physical design. In this work, we present LiDAR, the first automated PIC detailed router for large-scale designs. It features a grid-based, curvy-aware A* engine with adaptive crossing insertion, congestion-aware net ordering, and insertion-loss optimization. To enable routing in more compact and complex designs, we further extend our router to hierarchical routing as LiDAR 2.0. It introduces redundant-bend elimination, crossing space preservation, and routing order refinement for improved conflict resilience. We also develop and open-source a YAML-based PIC intermediate representation and diverse benchmarks, including TeMPO, GWOR, and Bennes, which feature hierarchical structures and high crossing densities. Evaluations across various benchmarks show that LiDAR 2.0 produces nearly DRV-free layouts, achieving up to 16% lower insertion loss and 7.69× speedup over prior methods on spacious cases, and 9% lower insertion loss with 6.95× speedup over LiDAR 1.0 on compact cases. Our codes are open-sourced at link.",
+  "cited": 4,
+  "type": "article",
+  "oa_url": "https://arxiv.org/pdf/2505.17239",
+  "oa_status": "green"
+ },
+ "10.1109/iccad66269.2025.11240728": {
+  "title": "Apollo: Automated Routing-Informed Placement for Large-Scale Photonic Integrated Circuits",
+  "year": 2025,
+  "venue": null,
+  "authors": [
+   "Hongjian Zhou",
+   "Haoyu Yang",
+   "Nicholas W. Gangi",
+   "Zhaoran Huang",
+   "Haoxing Mark Ren",
+   "Jiaqi Gu"
+  ],
+  "abstract": "As technology advances, photonic integrated circuits (PICs) are rapidly scaling in size and complexity, with modern designs integrating thousands of components to meet the demands of artificial intelligence (AI), high-performance computing, and chip-to-chip optical interconnects. However, the analog custom layout nature of photonics, the curvy waveguide structures, and single-layer routing resources impose stringent physical constraints, such as minimum bend radii and waveguide crossing penalties, which make manual layout the de facto standard. This manual process takes weeks to complete and is error-prone, which is fundamentally unscalable for large-scale PIC systems. Existing automation solutions have adopted force-directed placement on small benchmarks with tens of components, with limited routability and scalability. To fill this fundamental gap in the electronic-photonic design automation (EPDA) toolchain, we present Apollo, the first GPU-accelerated, routing-informed placement framework tailored for large-scale PICs. Apollo features an asymmetric bending-aware wirelength function with explicit modeling of waveguide routing congestion and crossings to preserve enough routing spacing for routability maximization. Meanwhile, conditional projection is employed to gradually enforce a variety of user-defined layout constraints, including alignment, spacing, etc. This constrained optimization is accelerated and stabilized by a custom blockwise adaptive Nesterov-accelerated optimizer, ensuring stable and high-quality convergence. To catalyze research in PIC layout automation, we also develop and open-source large-scale PIC benchmarks derived from real-world photonic tensor core designs. Compared to existing methods, Apollo can generate high-quality layouts for large-scale PICs with an average routing success rate of 94.79% across all benchmarks within minutes. By tightly coupling placement with physical-aware routing, Apollo establishes a new paradigm for automated PIC design—bringing intelligent, scalable layout synthesis to the forefront of next-generation EPDA. Our code is open-sourced at link*.",
+  "cited": 3,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1109/date.2006.244180": {
+  "title": "Optical Routing for 3D System-On-Package",
+  "year": 2006,
+  "venue": "Design, Automation, and Test in Europe",
+  "authors": [
+   "Jacob Rajkumar Minz",
+   "S. Thyagaraja",
+   "Sung Kyu Lim"
+  ],
+  "abstract": "Optical interconnects enable faster signal propagation with virtually no crosstalk. In addition, wavelength division multiplexing allows a single waveguide to be shared among multiple interconnects. This paper proposes efficient algorithms for the construction of timing and congestion-driven waveguides considering the optical resource constraints. We develop the first optical router for System-on-Packages (SOPs), which reduce electrical wirelength by 11% and improve performance by 23%, when a single optical layer is introduced for every placement layer.",
+  "cited": 12,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1587/transele.e101.c.509": {
+  "title": "Low-Loss 3-Dimensional Shuffling Graded-Index Polymer Optical Waveguides for Optical Printed Circuit Boards",
+  "year": 2018,
+  "venue": "IEICE Transactions on Electronics",
+  "authors": [
+   "MD Omar Faruk Rasel",
+   "Akira YAMAUCHI",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "This paper introduces a formation method for 3-dimensional 6 ch.×6 ch. shuffling structures with graded-index (GI) circular core in a multimode polymer optical waveguide for optical printed circuit boards (OPCBs) using a unique photomask-free fabrication technique named the Mosquito method. The interchannel pitch of the fabricated waveguides is 250µm, where all the channels consist of both horizontal and vertical bending structures and the last 6 channels in parallel cross over the first 6 channels. We also report 3-dimensional S-shaped polymer waveguides. In the S-shaped waveguides, the first and last 6 channels with both horizontal and vertical core bending composing the above 3-dimensional shuffling waveguide are separated, in order to evaluate the effect of over-crossing on the loss. It is experimentally confirmed that there is no excess insertion loss due to the shuffling structure in the 3-D shuffling waveguide. The evaluated crosstalk of the 3-D shuffling waveguide is lower than -30dB. The 3-D shuffling waveguide proposed in this paper will be a promising component to achieve high bandwidth density wiring for on-board optical interconnects.",
+  "cited": 5,
+  "type": "article",
+  "oa_url": "https://www.jstage.jst.go.jp/article/transele/E101.C/7/E101.C_509/_pdf",
+  "oa_status": "bronze"
+ },
+ "10.1109/jlt.2025.3539231": {
+  "title": "A Zero-Crossing Optical Waveguide Routing Method",
+  "year": 2025,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "Ziyue Zhang",
+   "Didier Colle",
+   "Wouter Tavernier",
+   "Mario Pickavet"
+  ],
+  "abstract": "Photonic Network on Wafer (PNoW) for multi-chip computing systems is a promising solution for providing high inter-chip bandwidth while maintaining low energy consumption. This paper introduces a novel approach for routing optical waveguides in PNoWs on a 2-dimensional wafer plane, eliminating the need for any waveguide crossings. Our proposed method guarantees zero optical waveguide crossings, therefore high signal-to-noise ratio (SNR) and low signal loss in the photonics circuits. Notably, our proposed routing method is applicable to PNoWs with significantly higher inter-chip bandwidth, surpassing current commercial products by one magnitude. In contrast, we demonstrate that classical routing heuristics that allow waveguide crossings might result in a substantial degradation in terms of signal qualities, which is evaluated with certain approximations in this work. Furthermore, our grid-less routing method imposes minimal computational requirements, offering an efficient and practical solution for the implementation of high-performance PNoWs.",
+  "cited": 1,
+  "type": "article",
+  "oa_url": "https://biblio.ugent.be/publication/01JVKR63B29E35X3WC0V6606F4/file/01JVKR826QQ29CX5W1Y1ZGKFR8.pdf",
+  "oa_status": "green"
+ },
+ "10.1109/icsj.2017.8240138": {
+  "title": "Low loss multimode polymer shuffling optical waveguide for high-density optical circuit",
+  "year": 2017,
+  "venue": "IEEE CPMT Symposium Japan (ICSJ)",
+  "authors": [
+   "Kohei Abe",
+   "Takaaki Ishigure"
+  ],
+  "abstract": "To realize free optical wiring patterns on printed circuit boards (PCBs), polymer shuffling optical waveguides are fabricated, in which both crossing and curved core structures are combined. The obtained GI polymer shuffling waveguides show low insertion loss independent of the crossing angle and core size. The GI-core polymer shuffling waveguide is a key device for low loss and high density on-board optical wiring.",
+  "cited": 1,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ },
+ "10.1117/12.3083656": {
+  "title": "Three-dimensional optical waveguides with continuously varying depths inscribed by femtosecond laser",
+  "year": 2025,
+  "venue": "AOPC: Advanced Laser Technology and Applications",
+  "authors": [
+   "Xiangyu Wang",
+   "Lei Zhu",
+   "Qi Zhang",
+   "Min Tang",
+   "Fei Xiao",
+   "Xiaodong Wang",
+   "Shiyang Shen",
+   "Lanqiang Zhang",
+   "Youming Guo"
+  ],
+  "abstract": "Femtosecond laser inscription is one of the effective techniques for fabricating optical waveguides inside transparent materials, and it has been widely applied in fields such as quantum computing, astronomy, and data communication. Compared with planar optical waveguides, three-dimensional (3D) optical waveguides with continuously varying depths can form photonic chips with complex routings and 3D structures. However, their performance is limited by optical aberrations during processing. In this paper, 3D optical waveguides with continuously varying depths from 100 to 600 μm were fabricated inside fused silica glass. To reduce bending losses, the spatial path of the optical waveguides follows a cosine function. During the fabrication process, a Shack-Hartmann wavefront sensor was used to measure the spherical aberration introduced by the refractive index mismatch, which was corrected by a liquid-crystal spatial light modulator both in real time. The loss test results show that, compared with planar optical waveguides of the same depth, the insertion losses of the 3D optical waveguides remain substantially unchanged, being 1.0 dB and 1.2 dB, respectively. The experiments in this paper provide an effective technical means for the development of 3D glass-based photonic chips.",
+  "cited": 0,
+  "type": "conference-paper",
+  "oa_url": null,
+  "oa_status": "closed"
+ }
+}

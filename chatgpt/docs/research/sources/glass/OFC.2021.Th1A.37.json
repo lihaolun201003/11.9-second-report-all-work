@@ -1,0 +1,213 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        15
+      ]
+    ],
+    "date-time": "2026-01-15T01:50:22Z",
+    "timestamp": 1768441822242,
+    "version": "3.49.0"
+  },
+  "publisher-location": "Washington, D.C.",
+  "reference-count": 6,
+  "publisher": "Optica Publishing Group",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2021
+      ]
+    ]
+  },
+  "abstract": "<jats:p>We demonstrate a 3D fan-in/fan-out device for multi-core fiber integration fabricated by ultrafast laser inscription using an automatic 3D waveguide routing algorithm. The low propagation loss of 0.3 dB/cm and 0.16 dB/cm have been achieved for two types of glasses.</jats:p>",
+  "DOI": "10.1364/ofc.2021.th1a.37",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        10,
+        20
+      ]
+    ],
+    "date-time": "2021-10-20T15:33:51Z",
+    "timestamp": 1634744031000
+  },
+  "page": "Th1A.37",
+  "source": "Crossref",
+  "is-referenced-by-count": 8,
+  "title": [
+    "Low-Loss Three-Dimensional Fan-in/Fan-out Devices for Multi-Core Fiber Integration"
+  ],
+  "prefix": "10.1364",
+  "author": [
+    {
+      "given": "Yi-Chun",
+      "family": "Ling",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Shuyun",
+      "family": "Yuan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "S. J.",
+      "family": "Ben Yoo",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "285",
+  "reference": [
+    {
+      "key": "OFC-2021-Th1A.37-R1",
+      "doi-asserted-by": "publisher",
+      "first-page": "16576",
+      "DOI": "10.1364/OE.19.016576",
+      "volume": "19",
+      "author": "Hayashi",
+      "year": "2011",
+      "journal-title": "Opt. Express"
+    },
+    {
+      "key": "OFC-2021-Th1A.37-R2",
+      "doi-asserted-by": "publisher",
+      "first-page": "55",
+      "DOI": "10.1109/JLT.2015.2466444",
+      "volume": "34",
+      "author": "Saitoh",
+      "year": "2016",
+      "journal-title": "J. Light. Technol"
+    },
+    {
+      "key": "OFC-2021-Th1A.37-R3",
+      "doi-asserted-by": "publisher",
+      "first-page": "98",
+      "DOI": "10.1587/elex.6.98",
+      "volume": "6",
+      "author": "Koshiba",
+      "year": "2009",
+      "journal-title": "IEICE Electron. Express"
+    },
+    {
+      "key": "OFC-2021-Th1A.37-R5",
+      "first-page": "1",
+      "volume": "2",
+      "author": "BenYoo",
+      "year": "2016",
+      "journal-title": "Microsystems Nanoeng"
+    },
+    {
+      "key": "OFC-2021-Th1A.37-R6",
+      "doi-asserted-by": "publisher",
+      "first-page": "426",
+      "DOI": "10.3390/app6120426",
+      "volume": "6",
+      "author": "Carroll",
+      "year": "2016",
+      "journal-title": "Appl. Sci"
+    },
+    {
+      "key": "OFC-2021-Th1A.37-R8",
+      "doi-asserted-by": "publisher",
+      "first-page": "11691",
+      "DOI": "10.1364/OE.15.011691",
+      "volume": "15",
+      "author": "Thomson",
+      "year": "2007",
+      "journal-title": "Opt. Express"
+    }
+  ],
+  "event": {
+    "name": "Optical Fiber Communication Conference",
+    "location": "Washington, DC",
+    "acronym": "OFC",
+    "sponsor": [
+      "The Optical Society"
+    ],
+    "start": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    }
+  },
+  "container-title": [
+    "Optical Fiber Communication Conference (OFC) 2021"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://opg.optica.org/viewmedia.cfm?URI=OFC-2021-Th1A.37&seq=0",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        25
+      ]
+    ],
+    "date-time": "2022-07-25T16:12:51Z",
+    "timestamp": 1658765571000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://opg.optica.org/abstract.cfm?URI=OFC-2021-Th1A.37"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021
+      ]
+    ]
+  },
+  "references-count": 6,
+  "URL": "https://doi.org/10.1364/ofc.2021.th1a.37",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021
+      ]
+    ]
+  }
+}

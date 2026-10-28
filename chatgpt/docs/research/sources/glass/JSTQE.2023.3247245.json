@@ -1,0 +1,544 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        19
+      ]
+    ],
+    "date-time": "2026-09-19T17:07:49Z",
+    "timestamp": 1789837669522,
+    "version": "4.0.1"
+  },
+  "reference-count": 35,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2023-01-01T00:00:00Z",
+        "timestamp": 1672531200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2023-01-01T00:00:00Z",
+        "timestamp": 1672531200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2023-01-01T00:00:00Z",
+        "timestamp": 1672531200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE J. Select. Topics Quantum Electron."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "DOI": "10.1109/jstqe.2023.3247245",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        2,
+        22
+      ]
+    ],
+    "date-time": "2023-02-22T18:29:29Z",
+    "timestamp": 1677090569000
+  },
+  "page": "1-11",
+  "source": "Crossref",
+  "is-referenced-by-count": 38,
+  "title": [
+    "Glass Platform for Co-Packaged Optics"
+  ],
+  "prefix": "10.1109",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-0821-9106",
+      "authenticated-orcid": false,
+      "given": "Lars",
+      "family": "Brusberg",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jason R.",
+      "family": "Grenier",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Aramais R.",
+      "family": "Zakharian",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lucas W.",
+      "family": "Yeary",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Seong-ho",
+      "family": "Seok",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jung-hyun",
+      "family": "Noh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Young-gon",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jurgen",
+      "family": "Matthies",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Chad C.",
+      "family": "Terwilliger",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Barry J.",
+      "family": "Paddock",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Robert A.",
+      "family": "Bellman",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daniel W.",
+      "family": "Levesque",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Robin M.",
+      "family": "Force",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Clifford G.",
+      "family": "Sutton",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jeffrey S.",
+      "family": "Clark",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Betsy J.",
+      "family": "Johnson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ote2.12020"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2016.2642822"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MM.2020.2976067"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2011.2172989"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/JOCN.402676"
+    },
+    {
+      "key": "ref6",
+      "first-page": "1",
+      "article-title": "800 Gbps fully integrated Silicon photonics transmitter for data center applications",
+      "volume-title": "Proc. Opt. Fiber Commun. Conf. Exhib.",
+      "author": "Yu"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCPMT.2019.2942708"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECTC.2014.6897286"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.23.004736"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.20.017667"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2022.3149872"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/OFC.2008.4528710"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/ofc.2014.m3k.5"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2016.2529651"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/app11104472"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ESTC48849.2020.9229793"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/0960-1317/18/8/085016"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2020.3033295"
+    },
+    {
+      "key": "ref20",
+      "article-title": "Helium-tight and thermo-mechanically reliable metallized through glass vias(TGV) by conformal pinched via (CPV) approach",
+      "volume-title": "Proc. Int. Symp. Microelectron.",
+      "author": "Vaddi"
+    },
+    {
+      "key": "ref21",
+      "first-page": "1",
+      "article-title": "1.6Tbps Silicon photonics integrated circuit for Co-packaged optical-IO switch applications",
+      "volume-title": "Proc. Opt. Fiber Commun. Conf. Exhib.",
+      "author": "Fathololoumi"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECTC.2016.201"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSTQE.2018.2879018"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2020.2967235"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSTQE.2018.2812603"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSTQE.2020.2964383"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/12.2513593"
+    },
+    {
+      "key": "ref29",
+      "first-page": "1",
+      "article-title": "Silicon photonics coherent transceiver in a ball-grid array package",
+      "volume-title": "Proc. Opt. Fiber Commun. Conf. Exhib.",
+      "author": "Doerr"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECTC32862.2020.00034"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41566-018-0133-4"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2017.2757082"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OFC.2019.M4D.7"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JPHOT.2020.3039900"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICSJ.2017.8240120"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2014.2361438"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECOC52684.2021.9605856"
+    }
+  ],
+  "container-title": [
+    "IEEE Journal of Selected Topics in Quantum Electronics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/2944/4481213/10050182.pdf?arnumber=10050182",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        13
+      ]
+    ],
+    "date-time": "2024-02-13T18:19:53Z",
+    "timestamp": 1707848393000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/10050182/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  },
+  "references-count": 35,
+  "URL": "https://doi.org/10.1109/jstqe.2023.3247245",
+  "relation": {},
+  "ISSN": [
+    "1077-260X",
+    "1558-4542"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-260X",
+      "type": "print"
+    },
+    {
+      "value": "1558-4542",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023
+      ]
+    ]
+  }
+}

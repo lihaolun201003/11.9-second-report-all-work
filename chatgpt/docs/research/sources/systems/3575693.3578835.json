@@ -1,0 +1,806 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        26
+      ]
+    ],
+    "date-time": "2026-10-26T22:16:48Z",
+    "timestamp": 1793053008472,
+    "version": "4.5.0"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 83,
+  "publisher": "ACM",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            27
+          ]
+        ],
+        "date-time": "2023-01-27T00:00:00Z",
+        "timestamp": 1674777600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        1,
+        27
+      ]
+    ]
+  },
+  "DOI": "10.1145/3575693.3578835",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        1,
+        30
+      ]
+    ],
+    "date-time": "2023-01-30T17:56:55Z",
+    "timestamp": 1675101415000
+  },
+  "page": "574-587",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 358,
+  "title": [
+    "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms"
+  ],
+  "prefix": "10.1145",
+  "author": [
+    {
+      "given": "Huaicheng",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Virginia Tech, USA / Carnegie Mellon University, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daniel S.",
+      "family": "Berger",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft Azure, USA / University of Washington, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lisa",
+      "family": "Hsu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Unaffiliated, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daniel",
+      "family": "Ernst",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft Azure, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Pantea",
+      "family": "Zardoshti",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft Azure, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Stanko",
+      "family": "Novakovic",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Google, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Monish",
+      "family": "Shah",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft Azure, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Samir",
+      "family": "Rajadnya",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft Azure, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Scott",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ishwar",
+      "family": "Agarwal",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Intel, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mark D.",
+      "family": "Hill",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft Azure, USA / University of Wisconsin-Madison, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Marcus",
+      "family": "Fontoura",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Stone, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ricardo",
+      "family": "Bianchini",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Microsoft Azure, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        1,
+        30
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_1_1_1",
+      "unstructured": "2009. PCI Express Address Translation Services. https://composter.com.ua/documents/ats_r1.1_26Jan09.pdf \t\t\t\t  2009. PCI Express Address Translation Services. https://composter.com.ua/documents/ats_r1.1_26Jan09.pdf"
+    },
+    {
+      "key": "e_1_3_2_1_2_1",
+      "unstructured": "2015. Reliability Availability and Serviceability (RAS) Integration and Validation Guide for the Intel Xeon Processor E7 Family. https://www.intel.com/content/dam/develop/external/us/en/documents/emca2-integration-validation-guide-556978.pdf \t\t\t\t  2015. Reliability Availability and Serviceability (RAS) Integration and Validation Guide for the Intel Xeon Processor E7 Family. https://www.intel.com/content/dam/develop/external/us/en/documents/emca2-integration-validation-guide-556978.pdf"
+    },
+    {
+      "key": "e_1_3_2_1_3_1",
+      "unstructured": "2017. AMD EPYC brings new RAS capability. https://www.amd.com/system/files/2017-06/AMD-EPYC-Brings-New-RAS-Capability.pdf \t\t\t\t  2017. AMD EPYC brings new RAS capability. https://www.amd.com/system/files/2017-06/AMD-EPYC-Brings-New-RAS-Capability.pdf"
+    },
+    {
+      "key": "e_1_3_2_1_4_1",
+      "unstructured": "2019. Single-Root Input/Output Virtualization. httpp://www.pcisig.com/specifications/iov/single_root \t\t\t\t  2019. Single-Root Input/Output Virtualization. httpp://www.pcisig.com/specifications/iov/single_root"
+    },
+    {
+      "key": "e_1_3_2_1_5_1",
+      "unstructured": "2020. Compute Express Link Specification. Available at. https://www.computeexpresslink.org \t\t\t\t  2020. Compute Express Link Specification. Available at. https://www.computeexpresslink.org"
+    },
+    {
+      "key": "e_1_3_2_1_6_1",
+      "unstructured": "2020. CXL 2.0 Specification. https://www.computeexpresslink.org/download-the-specification \t\t\t\t  2020. CXL 2.0 Specification. https://www.computeexpresslink.org/download-the-specification"
+    },
+    {
+      "key": "e_1_3_2_1_7_1",
+      "unstructured": "2020. CXL And Gen-Z Iron Out A Coherent Interconnect Strategy. https://www.nextplatform.com/2020/04/03/cxl-and-gen-z-iron-out-a-coherent-interconnect-strategy/ \t\t\t\t  2020. CXL And Gen-Z Iron Out A Coherent Interconnect Strategy. https://www.nextplatform.com/2020/04/03/cxl-and-gen-z-iron-out-a-coherent-interconnect-strategy/"
+    },
+    {
+      "key": "e_1_3_2_1_8_1",
+      "unstructured": "2020. Intel Virtualization Technology for Directed I/O. https://software.intel.com/content/dam/develop/external/us/en/documents/vt-directed-io-spec.pdf \t\t\t\t  2020. Intel Virtualization Technology for Directed I/O. https://software.intel.com/content/dam/develop/external/us/en/documents/vt-directed-io-spec.pdf"
+    },
+    {
+      "key": "e_1_3_2_1_9_1",
+      "unstructured": "2020. Linux Memory Management Documentation - zswap. https://www.kernel.org/doc/html/latest/vm/zswap.html \t\t\t\t  2020. Linux Memory Management Documentation - zswap. https://www.kernel.org/doc/html/latest/vm/zswap.html"
+    },
+    {
+      "key": "e_1_3_2_1_10_1",
+      "unstructured": "2021. AMD EPYC Genoa and SP5 Platform Leaked. https://wccftech.com/amd-epyc-genoa-zen-4-server-cpus-and-sp5-lga-6096-server-platform-details-leaked/ \t\t\t\t  2021. AMD EPYC Genoa and SP5 Platform Leaked. https://wccftech.com/amd-epyc-genoa-zen-4-server-cpus-and-sp5-lga-6096-server-platform-details-leaked/"
+    },
+    {
+      "key": "e_1_3_2_1_11_1",
+      "unstructured": "2021. AMD Unveils Workload-Tailored Innovations and Products at The Accelerated Data Center Premiere. https://www.amd.com/en/press-releases/2021-11-08-amd-unveils-workload-tailored-innovations-and-products-the-accelerated \t\t\t\t  2021. AMD Unveils Workload-Tailored Innovations and Products at The Accelerated Data Center Premiere. https://www.amd.com/en/press-releases/2021-11-08-amd-unveils-workload-tailored-innovations-and-products-the-accelerated"
+    },
+    {
+      "key": "e_1_3_2_1_12_1",
+      "unstructured": "2021. AWS: Enhanced Networking Support. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html \t\t\t\t  2021. AWS: Enhanced Networking Support. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html"
+    },
+    {
+      "key": "e_1_3_2_1_13_1",
+      "unstructured": "2021. AWS: Optimize Disk Performance for Instance Store Volumes. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/disk-performance.html \t\t\t\t  2021. AWS: Optimize Disk Performance for Instance Store Volumes. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/disk-performance.html"
+    },
+    {
+      "key": "e_1_3_2_1_14_1",
+      "unstructured": "2021. Azure Accelerated Networking: Supported VM Instances. https://docs.microsoft.com/en-us/azure/virtual-network/accelerated-networking-overview \t\t\t\t  2021. Azure Accelerated Networking: Supported VM Instances. https://docs.microsoft.com/en-us/azure/virtual-network/accelerated-networking-overview"
+    },
+    {
+      "key": "e_1_3_2_1_15_1",
+      "unstructured": "2021. Compute Express Link 2.0 White Paper. https://b373eaf2-67af-4a29-b28c-3aae9e644f30.filesusr.com/ugd/0c1418_14c5283e7f3e40f9b2955c7d0f60bebe.pdf \t\t\t\t  2021. Compute Express Link 2.0 White Paper. https://b373eaf2-67af-4a29-b28c-3aae9e644f30.filesusr.com/ugd/0c1418_14c5283e7f3e40f9b2955c7d0f60bebe.pdf"
+    },
+    {
+      "key": "e_1_3_2_1_16_1",
+      "unstructured": "2021. CXL Consortium Member Spotlight: Arm. https://www.computeexpresslink.org/post/cxl-consortium-member-spotlight-arm \t\t\t\t  2021. CXL Consortium Member Spotlight: Arm. https://www.computeexpresslink.org/post/cxl-consortium-member-spotlight-arm"
+    },
+    {
+      "key": "e_1_3_2_1_17_1",
+      "unstructured": "2021. CXL Use-cases Driving the Need For Low Latency Performance Retimers. https://www.microchip.com/en-us/about/blog/learning-center/cxl–use-cases-driving-the-need-for-low-latency-performance-reti \t\t\t\t  2021. CXL Use-cases Driving the Need For Low Latency Performance Retimers. https://www.microchip.com/en-us/about/blog/learning-center/cxl–use-cases-driving-the-need-for-low-latency-performance-reti"
+    },
+    {
+      "key": "e_1_3_2_1_18_1",
+      "unstructured": "2021. Enabling PCIe 5.0 System Level Testing and Low Latency Mode for CXL. https://www.asteralabs.com/videos/aries-smart-retimer-for-pcie-gen-5-and-cxl/ \t\t\t\t  2021. Enabling PCIe 5.0 System Level Testing and Low Latency Mode for CXL. https://www.asteralabs.com/videos/aries-smart-retimer-for-pcie-gen-5-and-cxl/"
+    },
+    {
+      "key": "e_1_3_2_1_19_1",
+      "unstructured": "2021. HiBench: The Bigdata Micro Benchmark Suite. https://github.com/Intel-bigdata/HiBench \t\t\t\t  2021. HiBench: The Bigdata Micro Benchmark Suite. https://github.com/Intel-bigdata/HiBench"
+    },
+    {
+      "key": "e_1_3_2_1_20_1",
+      "unstructured": "2021. MIPI I3C Bus Sensor Specification. https://www.mipi.org/specifications/i3c-sensor-specification \t\t\t\t  2021. MIPI I3C Bus Sensor Specification. https://www.mipi.org/specifications/i3c-sensor-specification"
+    },
+    {
+      "key": "e_1_3_2_1_21_1",
+      "unstructured": "2021. OpenCAPI Consortium. https://opencapi.org/ \t\t\t\t  2021. OpenCAPI Consortium. https://opencapi.org/"
+    },
+    {
+      "key": "e_1_3_2_1_22_1",
+      "unstructured": "2021. Redis. https://redis.io \t\t\t\t  2021. Redis. https://redis.io"
+    },
+    {
+      "key": "e_1_3_2_1_23_1",
+      "unstructured": "2021. Sapphire Rapids Uncovered: 56 Cores 64GB HBM2E Multi-Chip Design. https://www.tomshardware.com/news/intel-sapphire-rapids-xeon-scalable-specifications-and-features \t\t\t\t  2021. Sapphire Rapids Uncovered: 56 Cores 64GB HBM2E Multi-Chip Design. https://www.tomshardware.com/news/intel-sapphire-rapids-xeon-scalable-specifications-and-features"
+    },
+    {
+      "key": "e_1_3_2_1_24_1",
+      "volume-title": "SPEC CPU 2017",
+      "year": "2017",
+      "unstructured": "2021. SPEC CPU 2017 . https://www.spec.org/cpu 2017 2021. SPEC CPU 2017. https://www.spec.org/cpu2017"
+    },
+    {
+      "key": "e_1_3_2_1_25_1",
+      "unstructured": "2021. Top-down Microarchitecture Analysis Method. https://software.intel.com/content/www/us/en/develop/documentation/vtune-cookbook/top/methodologies/top-down-microarchitecture-analysis-method.html \t\t\t\t  2021. Top-down Microarchitecture Analysis Method. https://software.intel.com/content/www/us/en/develop/documentation/vtune-cookbook/top/methodologies/top-down-microarchitecture-analysis-method.html"
+    },
+    {
+      "key": "e_1_3_2_1_26_1",
+      "unstructured": "2021. TPC-H Benchmark. http://www.tpc.org/tpch \t\t\t\t  2021. TPC-H Benchmark. http://www.tpc.org/tpch"
+    },
+    {
+      "key": "e_1_3_2_1_27_1",
+      "unstructured": "2021. VoltDB. https://www.voltdb.com \t\t\t\t  2021. VoltDB. https://www.voltdb.com"
+    },
+    {
+      "key": "e_1_3_2_1_28_1",
+      "unstructured": "2022. CXL 3.0 Specification. https://www.computeexpresslink.org/download-the-specification \t\t\t\t  2022. CXL 3.0 Specification. https://www.computeexpresslink.org/download-the-specification"
+    },
+    {
+      "key": "e_1_3_2_1_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3095770.3095773"
+    },
+    {
+      "key": "e_1_3_2_1_30_1",
+      "volume-title": "Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI).",
+      "author": "Ambati Pradeep",
+      "year": "2020",
+      "unstructured": "Pradeep Ambati , Íñigo Goiri , Felipe Vieira Frujeri , Alper Gun , Ke Wang , Brian Dolan , Brian Corell , Sekhar Pasupuleti , Thomas Moscibroda , Sameh Elnikety , Marcus Fontoura , and Ricardo Bianchini . 2020 . Providing SLOs for Resource-Harvesting VMs in Cloud Platforms . In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Pradeep Ambati, Íñigo Goiri, Felipe Vieira Frujeri, Alper Gun, Ke Wang, Brian Dolan, Brian Corell, Sekhar Pasupuleti, Thomas Moscibroda, Sameh Elnikety, Marcus Fontoura, and Ricardo Bianchini. 2020. Providing SLOs for Resource-Harvesting VMs in Cloud Platforms. In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_31_1",
+      "volume-title": "Proceedings of the 2011 USENIX Annual Technical Conference (ATC).",
+      "author": "Amit Nadav",
+      "year": "2011",
+      "unstructured": "Nadav Amit , Muli Ben-Yehuda , IBM Research , Dan Tsafrir , and Assaf Schuster . 2011 . vIOMMU: Efficient IOMMU Emulation . In Proceedings of the 2011 USENIX Annual Technical Conference (ATC). Nadav Amit, Muli Ben-Yehuda, IBM Research, Dan Tsafrir, and Assaf Schuster. 2011. vIOMMU: Efficient IOMMU Emulation. In Proceedings of the 2011 USENIX Annual Technical Conference (ATC)."
+    },
+    {
+      "key": "e_1_3_2_1_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2488608.2488730"
+    },
+    {
+      "key": "e_1_3_2_1_33_1",
+      "unstructured": "Scott Beamer Krste Asanović and David Patterson. 2015. The GAP Benchmark Suite. arXiv:1508.03619. \t\t\t\t  Scott Beamer Krste Asanović and David Patterson. 2015. The GAP Benchmark Suite. arXiv:1508.03619."
+    },
+    {
+      "key": "e_1_3_2_1_34_1",
+      "volume-title": "Proceedings of the 9th USENIX Symposium on Operating Systems Design and Implementation (OSDI).",
+      "author": "Ben-Yehuda Muli",
+      "year": "2010",
+      "unstructured": "Muli Ben-Yehuda , Michael D. Day , Zvi Dubitzky , Michael Factor , Nadav Har’El , Abel Gordon , Anthony Liguori , Orit Wasserman , and Ben-Ami Yassour . 2010 . The Turtles Project: Design and Implementation of Nested Virtualization . In Proceedings of the 9th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Muli Ben-Yehuda, Michael D. Day, Zvi Dubitzky, Michael Factor, Nadav Har’El, Abel Gordon, Anthony Liguori, Orit Wasserman, and Ben-Ami Yassour. 2010. The Turtles Project: Design and Implementation of Nested Virtualization. In Proceedings of the 9th USENIX Symposium on Operating Systems Design and Implementation (OSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1454115.1454128"
+    },
+    {
+      "key": "e_1_3_2_1_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/(SICI)1097-4571(199401)45:1<12::AID-ASI2>3.0.CO;2-L"
+    },
+    {
+      "key": "e_1_3_2_1_37_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Brendan Burns Brian Grant David Oppenheimer Eric Brewer and John Wilkes. 2016. Borg Omega and Kubernetes. Commun. ACM 59 5 (2016). \t\t\t\t  Brendan Burns Brian Grant David Oppenheimer Eric Brewer and John Wilkes. 2016. Borg Omega and Kubernetes. Commun. ACM 59 5 (2016).",
+      "DOI": "10.1145/2890784"
+    },
+    {
+      "key": "e_1_3_2_1_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3445814.3446713"
+    },
+    {
+      "key": "e_1_3_2_1_39_1",
+      "unstructured": "Elene Chobanyan Casey Morrison and Pegah Alavi. 2020. End-to-End System-Level Simulations with Retimers for PCIe Gen5 & CXL. DesignCon slides available at. https://www.asteralabs.com/wp-content/themes/astera-labs/images/retimer-cxl.pdf \t\t\t\t  Elene Chobanyan Casey Morrison and Pegah Alavi. 2020. End-to-End System-Level Simulations with Retimers for PCIe Gen5 & CXL. DesignCon slides available at. https://www.asteralabs.com/wp-content/themes/astera-labs/images/retimer-cxl.pdf"
+    },
+    {
+      "key": "e_1_3_2_1_40_1",
+      "unstructured": "Jonathan Corbet. 2012. AutoNUMA: the other approach to NUMA scheduling. https://lwn.net/Articles/488709/ \t\t\t\t  Jonathan Corbet. 2012. AutoNUMA: the other approach to NUMA scheduling. https://lwn.net/Articles/488709/"
+    },
+    {
+      "key": "e_1_3_2_1_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3132747.3132772"
+    },
+    {
+      "key": "e_1_3_2_1_42_1",
+      "volume-title": "Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI).",
+      "author": "Crankshaw Daniel",
+      "year": "2017",
+      "unstructured": "Daniel Crankshaw , Xin Wang , Guilio Zhou , Michael J. Franklin , Joseph E. Gonzalez , and Ion Stoica . 2017 . Clipper: A Low-Latency Online Prediction Serving System . In Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI). Daniel Crankshaw, Xin Wang, Guilio Zhou, Michael J. Franklin, Joseph E. Gonzalez, and Ion Stoica. 2017. Clipper: A Low-Latency Online Prediction Serving System. In Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_43_1",
+      "volume-title": "Proceedings of the 2022 USENIX Annual Technical Conference (ATC).",
+      "author": "Gouk Donghyun",
+      "year": "2022",
+      "unstructured": "Donghyun Gouk , Sangwon Lee , Miryeong Kwon , and Myoungsoo Jung . 2022 . Direct Access, High-Performance Memory Disaggregation with DirectCXL . In Proceedings of the 2022 USENIX Annual Technical Conference (ATC). Donghyun Gouk, Sangwon Lee, Miryeong Kwon, and Myoungsoo Jung. 2022. Direct Access, High-Performance Memory Disaggregation with DirectCXL. In Proceedings of the 2022 USENIX Annual Technical Conference (ATC)."
+    },
+    {
+      "key": "e_1_3_2_1_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2619239.2626334"
+    },
+    {
+      "key": "e_1_3_2_1_45_1",
+      "volume-title": "Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI).",
+      "author": "Gu Juncheng",
+      "unstructured": "Juncheng Gu , Youngmoon Lee , Yiwen Zhang , Mosharaf Chowdhury , and Kang G. Shin . 2017. Efficient Memory Disaggregation with Infiniswap . In Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI). Juncheng Gu, Youngmoon Lee, Yiwen Zhang, Mosharaf Chowdhury, and Kang G. Shin. 2017. Efficient Memory Disaggregation with Infiniswap. In Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3503222.3507762"
+    },
+    {
+      "key": "e_1_3_2_1_47_1",
+      "volume-title": "Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI).",
+      "author": "Hadary Ori",
+      "year": "2020",
+      "unstructured": "Ori Hadary , Luke Marshall , Ishai Menache , Abhisek Pan , Esaias E Greeff , David Dion , Star Dorminey , Shailesh Joshi , Yang Chen , Mark Russinovich , and Thomas Moscibroda . 2020 . Protean: VM Allocation Service at Scale . In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Ori Hadary, Luke Marshall, Ishai Menache, Abhisek Pan, Esaias E Greeff, David Dion, Star Dorminey, Shailesh Joshi, Yang Chen, Mark Russinovich, and Thomas Moscibroda. 2020. Protean: VM Allocation Service at Scale. In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_48_1",
+      "volume-title": "Lightgbm: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems (NIPS).",
+      "author": "Ke Guolin",
+      "year": "2017",
+      "unstructured": "Guolin Ke , Qi Meng , Thomas Finley , Taifeng Wang , Wei Chen , Weidong Ma , Qiwei Ye , and Tie-Yan Liu . 2017 . Lightgbm: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems (NIPS). Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, and Tie-Yan Liu. 2017. Lightgbm: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems (NIPS)."
+    },
+    {
+      "key": "e_1_3_2_1_49_1",
+      "volume-title": "Proceedings of the 2021 USENIX Annual Technical Conference (ATC).",
+      "author": "Kim Jonghyeon",
+      "year": "2021",
+      "unstructured": "Jonghyeon Kim , Wonkyo Choe , and Jeongseob Ahn . 2021 . Exploring the Design Space of Page Management for Multi-Tiered Memory Systems . In Proceedings of the 2021 USENIX Annual Technical Conference (ATC). Jonghyeon Kim, Wonkyo Choe, and Jeongseob Ahn. 2021. Exploring the Design Space of Page Management for Multi-Tiered Memory Systems. In Proceedings of the 2021 USENIX Annual Technical Conference (ATC)."
+    },
+    {
+      "key": "e_1_3_2_1_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3297858.3304053"
+    },
+    {
+      "key": "e_1_3_2_1_51_1",
+      "unstructured": "Christopher Lameter. 2019. Flavors of Memory supported by Linux Their Use and Benefit. https://events19.linuxfoundation.org/wp-content/uploads/2017/11/The-Flavors-of-Memory-Supported-by-Linux-their-Use-and-Benefit-Christoph-Lameter-Jump-Trading-LLC.pdf \t\t\t\t  Christopher Lameter. 2019. Flavors of Memory supported by Linux Their Use and Benefit. https://events19.linuxfoundation.org/wp-content/uploads/2017/11/The-Flavors-of-Memory-Supported-by-Linux-their-Use-and-Benefit-Christoph-Lameter-Jump-Trading-LLC.pdf"
+    },
+    {
+      "key": "e_1_3_2_1_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/264107.264206"
+    },
+    {
+      "key": "e_1_3_2_1_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/2813767.2813788"
+    },
+    {
+      "key": "e_1_3_2_1_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3037697.3037710"
+    },
+    {
+      "key": "e_1_3_2_1_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3373376.3378531"
+    },
+    {
+      "key": "e_1_3_2_1_56_1",
+      "volume-title": "Proceedings of the 36th Annual International Symposium on Computer Architecture (ISCA).",
+      "author": "Lim Kevin T.",
+      "unstructured": "Kevin T. Lim , Jichuan Chang , Trevor N. Mudge , Parthasarathy Ranganathan , Steven K. Reinhardt , and Thomas F. Wenisch . 2009. Disaggregated Memory for Expansion and Sharing in Blade Servers . In Proceedings of the 36th Annual International Symposium on Computer Architecture (ISCA). Kevin T. Lim, Jichuan Chang, Trevor N. Mudge, Parthasarathy Ranganathan, Steven K. Reinhardt, and Thomas F. Wenisch. 2009. Disaggregated Memory for Expansion and Sharing in Blade Servers. In Proceedings of the 36th Annual International Symposium on Computer Architecture (ISCA)."
+    },
+    {
+      "key": "e_1_3_2_1_57_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3373376.3378525"
+    },
+    {
+      "key": "e_1_3_2_1_58_1",
+      "volume-title": "Proceedings of the 2020 USENIX Annual Technical Conference (ATC).",
+      "author": "Maruf Hasan Al",
+      "year": "2020",
+      "unstructured": "Hasan Al Maruf and Mosharaf Chowdhury . 2020 . Effectively Prefetching Remote Memory with Leap . In Proceedings of the 2020 USENIX Annual Technical Conference (ATC). Hasan Al Maruf and Mosharaf Chowdhury. 2020. Effectively Prefetching Remote Memory with Leap. In Proceedings of the 2020 USENIX Annual Technical Conference (ATC)."
+    },
+    {
+      "key": "e_1_3_2_1_59_1",
+      "volume-title": "TPP: Transparent Page Placement for CXL-Enabled Tiered Memory. arXiv:2206.02878.",
+      "author": "Maruf Hasan Al",
+      "year": "2022",
+      "unstructured": "Hasan Al Maruf , Hao Wang , Abhishek Dhanotia , Johannes Weiner , Niket Agarwal , Pallab Bhattacharya , Chris Petersen , Mosharaf Chowdhury , Shobhit Kanaujia , and Prakash Chauhan . 2022 . TPP: Transparent Page Placement for CXL-Enabled Tiered Memory. arXiv:2206.02878. Hasan Al Maruf, Hao Wang, Abhishek Dhanotia, Johannes Weiner, Niket Agarwal, Pallab Bhattacharya, Chris Petersen, Mosharaf Chowdhury, Shobhit Kanaujia, and Prakash Chauhan. 2022. TPP: Transparent Page Placement for CXL-Enabled Tiered Memory. arXiv:2206.02878."
+    },
+    {
+      "key": "e_1_3_2_1_60_1",
+      "unstructured": "Timothy Prickett Morgan. 2021. PCI-Express 5.0: The Unintended but formidable datacenter interconnect. DesignCon slides available at. https://www.nextplatform.com/2021/02/03/pci-express-5-0-the-unintended-but-formidable-datacenter-interconnect/ \t\t\t\t  Timothy Prickett Morgan. 2021. PCI-Express 5.0: The Unintended but formidable datacenter interconnect. DesignCon slides available at. https://www.nextplatform.com/2021/02/03/pci-express-5-0-the-unintended-but-formidable-datacenter-interconnect/"
+    },
+    {
+      "key": "e_1_3_2_1_61_1",
+      "unstructured": "ONNX. 2021. Open Neural Network Exchange: the Open Standard for Machine Learning Interoperability. https://onnx.ai/ \t\t\t\t  ONNX. 2021. Open Neural Network Exchange: the Open Standard for Machine Learning Interoperability. https://onnx.ai/"
+    },
+    {
+      "key": "e_1_3_2_1_62_1",
+      "article-title": "Scikit-learn: Machine Learning in Python",
+      "volume": "12",
+      "author": "Pedregosa F.",
+      "year": "2011",
+      "unstructured": "F. Pedregosa , G. Varoquaux , A. Gramfort , V. Michel , B. Thirion , O. Grisel , M. Blondel , P. Prettenhofer , R. Weiss , V. Dubourg , J. Vanderplas , A. Passos , D. Cournapeau , M. Brucher , M. Perrot , and E. Duchesnay . 2011 . Scikit-learn: Machine Learning in Python . Journal of Machine Learning Research (JMLR) , 12 , 85 (2011). F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. 2011. Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research (JMLR), 12, 85 (2011).",
+      "journal-title": "Journal of Machine Learning Research (JMLR)"
+    },
+    {
+      "key": "e_1_3_2_1_63_1",
+      "volume-title": "HW/SW Co-Designed Interconnect Stack for Rack-Scale Memory Disaggregation. In 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO-53)",
+      "author": "Pinto Christian",
+      "year": "2020",
+      "unstructured": "Christian Pinto , Dimitris Syrivelis , Michele Gazzetti , Panos Koutsovasilis , Andrea Reale , Kostas Katrinis , and Peter Hofstee . 2020 . ThymesisFlow: A Software-Defined , HW/SW Co-Designed Interconnect Stack for Rack-Scale Memory Disaggregation. In 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO-53) . Christian Pinto, Dimitris Syrivelis, Michele Gazzetti, Panos Koutsovasilis, Andrea Reale, Kostas Katrinis, and Peter Hofstee. 2020. ThymesisFlow: A Software-Defined, HW/SW Co-Designed Interconnect Stack for Rack-Scale Memory Disaggregation. In 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO-53)."
+    },
+    {
+      "key": "e_1_3_2_1_64_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3477132.3483550"
+    },
+    {
+      "key": "e_1_3_2_1_65_1",
+      "volume-title": "Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI).",
+      "author": "Ruan Zhenyuan",
+      "year": "2020",
+      "unstructured": "Zhenyuan Ruan , Malte Schwarzkopf , Marcos K. Aguilera , and Adam Belay . 2020 . AIFM: High-Performance, Application-Integrated Far Memory . In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Zhenyuan Ruan, Malte Schwarzkopf, Marcos K. Aguilera, and Adam Belay. 2020. AIFM: High-Performance, Application-Integrated Far Memory. In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_66_1",
+      "volume-title": "VM Live Migration at Scale. ACM SIGPLAN Notices, 53, 3",
+      "author": "Ruprecht Adam",
+      "year": "2018",
+      "unstructured": "Adam Ruprecht , Danny Jones , Dmitry Shiraev , Greg Harmon , Maya Spivak , Michael Krebs , Miche Baker-Harvey , and Tyler Sanderson . 2018. VM Live Migration at Scale. ACM SIGPLAN Notices, 53, 3 ( 2018 ). Adam Ruprecht, Danny Jones, Dmitry Shiraev, Greg Harmon, Maya Spivak, Michael Krebs, Miche Baker-Harvey, and Tyler Sanderson. 2018. VM Live Migration at Scale. ACM SIGPLAN Notices, 53, 3 (2018)."
+    },
+    {
+      "key": "e_1_3_2_1_67_1",
+      "volume-title": "Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI).",
+      "author": "Shan Yizhou",
+      "year": "2018",
+      "unstructured": "Yizhou Shan , Yutong Huang , Yilun Chen , and Yiying Zhang . 2018 . LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation . In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Yizhou Shan, Yutong Huang, Yilun Chen, and Yiying Zhang. 2018. LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation. In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_68_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HOTI55740.2022.00017"
+    },
+    {
+      "key": "e_1_3_2_1_69_1",
+      "unstructured": "Debendra Das Sharma. 2022. CXL 3.0: New Features for Increased Scale and Optimized Resource Utilization. In Flash Memory Summit. \t\t\t\t  Debendra Das Sharma. 2022. CXL 3.0: New Features for Increased Scale and Optimized Resource Utilization. In Flash Memory Summit."
+    },
+    {
+      "key": "e_1_3_2_1_70_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3352460.3358319"
+    },
+    {
+      "key": "e_1_3_2_1_71_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3445814.3446752"
+    },
+    {
+      "key": "e_1_3_2_1_72_1",
+      "volume-title": "Scaling and Performance Challenges of Future DRAM. In IEEE International Memory Workshop (IMW).",
+      "author": "Shiratake Shigeru",
+      "year": "2020",
+      "unstructured": "Shigeru Shiratake . 2020 . Scaling and Performance Challenges of Future DRAM. In IEEE International Memory Workshop (IMW). Shigeru Shiratake. 2020. Scaling and Performance Challenges of Future DRAM. In IEEE International Memory Workshop (IMW)."
+    },
+    {
+      "key": "e_1_3_2_1_73_1",
+      "volume-title": "Proceedings of the 2020 USENIX Annual Technical Conference (ATC).",
+      "author": "Tian Kun",
+      "year": "2020",
+      "unstructured": "Kun Tian , Yu Zhang , Luwei Kang , Yan Zhao , and Yaozu Dong . 2020 . coIOMMU: A Virtual IOMMU with Cooperative DMA Buffer Tracking for Efficient Memory Management in Direct I/O . In Proceedings of the 2020 USENIX Annual Technical Conference (ATC). Kun Tian, Yu Zhang, Luwei Kang, Yan Zhao, and Yaozu Dong. 2020. coIOMMU: A Virtual IOMMU with Cooperative DMA Buffer Tracking for Efficient Memory Management in Direct I/O. In Proceedings of the 2020 USENIX Annual Technical Conference (ATC)."
+    },
+    {
+      "key": "e_1_3_2_1_74_1",
+      "unstructured": "UEFI. 2021. Advanced Configuration and Power Interface Specification. \t\t\t\t  UEFI. 2021. Advanced Configuration and Power Interface Specification."
+    },
+    {
+      "key": "e_1_3_2_1_75_1",
+      "volume-title": "Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI).",
+      "author": "Wang Chenxi",
+      "year": "2020",
+      "unstructured": "Chenxi Wang , Haoran Ma , Shi Liu , Yuanqi Li , Zhenyuan Ruan , Khanh Nguyen , Michael D. Bond , Ravi Netravali , Miryung Kim , and Guoqing Harry Xu . 2020 . Semeru: A Memory-Disaggregated Managed Runtime . In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Chenxi Wang, Haoran Ma, Shi Liu, Yuanqi Li, Zhenyuan Ruan, Khanh Nguyen, Michael D. Bond, Ravi Netravali, Miryung Kim, and Guoqing Harry Xu. 2020. Semeru: A Memory-Disaggregated Managed Runtime. In Proceedings of the 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI)."
+    },
+    {
+      "key": "e_1_3_2_1_76_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3447786.3456225"
+    },
+    {
+      "key": "e_1_3_2_1_77_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3503222.3507731"
+    },
+    {
+      "key": "e_1_3_2_1_78_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3297858.3304024"
+    },
+    {
+      "key": "e_1_3_2_1_79_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISPASS.2014.6844459"
+    },
+    {
+      "key": "e_1_3_2_1_80_1",
+      "unstructured": "Huang Ying. 2019. AutoNUMA: Optimize Memory Placement for Memory Tiering System. https://lwn.net/Articles/835402/ \t\t\t\t  Huang Ying. 2019. AutoNUMA: Optimize Memory Placement for Memory Tiering System. https://lwn.net/Articles/835402/"
+    },
+    {
+      "key": "e_1_3_2_1_81_1",
+      "article-title": "PARSEC3.0: A Multicore Benchmark Suite with Network Stacks and SPLASH-2X",
+      "volume": "44",
+      "author": "Zhan Xusheng",
+      "year": "2017",
+      "unstructured": "Xusheng Zhan , Yungang Bao , Christian Bienia , and Kai Li . 2017 . PARSEC3.0: A Multicore Benchmark Suite with Network Stacks and SPLASH-2X . ACM SIGARCH Computer Architecture News (CAN) , 44 , 5 (2017). Xusheng Zhan, Yungang Bao, Christian Bienia, and Kai Li. 2017. PARSEC3.0: A Multicore Benchmark Suite with Network Stacks and SPLASH-2X. ACM SIGARCH Computer Architecture News (CAN), 44, 5 (2017).",
+      "journal-title": "ACM SIGARCH Computer Architecture News (CAN)"
+    },
+    {
+      "key": "e_1_3_2_1_82_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3445814.3446693"
+    },
+    {
+      "key": "e_1_3_2_1_83_1",
+      "volume-title": "Proceedings of the 4th Conference on Machine Learning and Systems (MLSys).",
+      "author": "Zhou Giulio",
+      "year": "2021",
+      "unstructured": "Giulio Zhou and Martin Maas . 2021 . Learning on Distributed Traces for Data Center Storage Systems . In Proceedings of the 4th Conference on Machine Learning and Systems (MLSys). Giulio Zhou and Martin Maas. 2021. Learning on Distributed Traces for Data Center Storage Systems. In Proceedings of the 4th Conference on Machine Learning and Systems (MLSys)."
+    }
+  ],
+  "event": {
+    "name": "ASPLOS '23: 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2",
+    "location": "Vancouver BC Canada",
+    "acronym": "ASPLOS '23",
+    "sponsor": [
+      "SIGARCH ACM Special Interest Group on Computer Architecture",
+      "SIGOPS ACM Special Interest Group on Operating Systems",
+      "SIGPLAN ACM Special Interest Group on Programming Languages"
+    ]
+  },
+  "container-title": [
+    "Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3575693.3578835",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3575693.3578835",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        17
+      ]
+    ],
+    "date-time": "2025-06-17T13:51:20Z",
+    "timestamp": 1750168280000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3575693.3578835"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        1,
+        27
+      ]
+    ]
+  },
+  "references-count": 83,
+  "alternative-id": [
+    "10.1145/3575693.3578835",
+    "10.1145/3575693"
+  ],
+  "URL": "https://doi.org/10.1145/3575693.3578835",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        1,
+        27
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2023-01-30",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

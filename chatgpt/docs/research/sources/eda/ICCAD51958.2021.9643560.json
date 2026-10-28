@@ -1,0 +1,330 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        4
+      ]
+    ],
+    "date-time": "2026-09-04T16:19:50Z",
+    "timestamp": 1788538790836,
+    "version": "build-2803163510"
+  },
+  "reference-count": 25,
+  "publisher": "IEEE",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2021-11-01T00:00:00Z",
+        "timestamp": 1635724800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2021-11-01T00:00:00Z",
+        "timestamp": 1635724800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1109/iccad51958.2021.9643560",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        3,
+        7
+      ]
+    ],
+    "date-time": "2022-03-07T16:10:36Z",
+    "timestamp": 1646669436000
+  },
+  "page": "1-6",
+  "source": "Crossref",
+  "is-referenced-by-count": 6,
+  "title": [
+    "On-chip Optical Routing with Waveguide Matching Constraints"
+  ],
+  "prefix": "10.1109",
+  "author": [
+    {
+      "given": "Fu-Yu",
+      "family": "Chuang",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "National Taiwan University,Department of Electrical Engineering,Taipei,Taiwan,106"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yao-Wen",
+      "family": "Chang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "National Taiwan University,Department of Electrical Engineering,Taipei,Taiwan,106"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1629911.1629983"
+    },
+    {
+      "key": "ref11",
+      "first-page": "175",
+      "article-title": "A linear-time heuristic for improving network partitions",
+      "author": "fiduccia",
+      "year": "1982",
+      "journal-title": "Proc of ACM/IEEE DAC"
+    },
+    {
+      "key": "ref12",
+      "year": "0",
+      "journal-title": "CPLEX Optimizers"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3240765.3240789"
+    },
+    {
+      "key": "ref14",
+      "first-page": "392",
+      "article-title": "Approximating hexagonal Steiner minimal trees by fast optimal layout of minimum spanning trees",
+      "author": "lin",
+      "year": "0",
+      "journal-title": "Proc of IEEE ICCAD"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3195970.3196084"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DAC18072.2020.9218637"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DAC18072.2020.9218625"
+    },
+    {
+      "key": "ref18",
+      "first-page": "264",
+      "author": "mortenson",
+      "year": "1999",
+      "journal-title": "Mathematics for Computer Graphics Applications"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCAD.2014.2363394"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/5.920578"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAD.2013.6691109"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/AO.51.006489"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1353629.1353649"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3828.3830"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3195970.3196093"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OL.32.002801"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ASPDAC.2012.6165031"
+    },
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/lpor.201700237"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCAS.2006.1692953"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.optcom.2009.01.021"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPT.2007.904330"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAD.2005.1560098"
+    },
+    {
+      "key": "ref23",
+      "author": "sherwani",
+      "year": "1996",
+      "journal-title": "Algorithms for VLSI Physical Design Automation"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVLSI.2018.2839698"
+    }
+  ],
+  "event": {
+    "name": "2021 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+    "location": "Munich, Germany",
+    "start": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "end": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          4
+        ]
+      ]
+    }
+  },
+  "container-title": [
+    "2021 IEEE/ACM International Conference On Computer Aided Design (ICCAD)"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/9643423/9643432/09643560.pdf?arnumber=9643560",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        8,
+        2
+      ]
+    ],
+    "date-time": "2022-08-02T20:12:14Z",
+    "timestamp": 1659471134000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/9643560/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        1
+      ]
+    ]
+  },
+  "references-count": 25,
+  "URL": "https://doi.org/10.1109/iccad51958.2021.9643560",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        1
+      ]
+    ]
+  }
+}

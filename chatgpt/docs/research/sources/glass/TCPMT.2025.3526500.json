@@ -1,0 +1,438 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        27
+      ]
+    ],
+    "date-time": "2026-10-27T19:48:25Z",
+    "timestamp": 1793130505058,
+    "version": "4.5.0"
+  },
+  "reference-count": 22,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "8",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2025-08-01T00:00:00Z",
+        "timestamp": 1754006400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2025-08-01T00:00:00Z",
+        "timestamp": 1754006400000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2025-08-01T00:00:00Z",
+        "timestamp": 1754006400000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Compon., Packag. Manufact. Technol."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        8
+      ]
+    ]
+  },
+  "DOI": "10.1109/tcpmt.2025.3526500",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        1,
+        6
+      ]
+    ],
+    "date-time": "2025-01-06T14:37:42Z",
+    "timestamp": 1736174262000
+  },
+  "page": "1614-1624",
+  "source": "Crossref",
+  "is-referenced-by-count": 13,
+  "title": [
+    "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits"
+  ],
+  "prefix": "10.1109",
+  "volume": "15",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-0821-9106",
+      "authenticated-orcid": false,
+      "given": "Lars",
+      "family": "Brusberg",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Marissa",
+      "family": "Granados-Baez",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ryan D.",
+      "family": "Schilling",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jorge A.",
+      "family": "Holguin-Lerma",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-2768-4900",
+      "authenticated-orcid": false,
+      "given": "Janderson R.",
+      "family": "Rodrigues",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lucas W.",
+      "family": "Yeary",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Aramais R.",
+      "family": "Zakharian",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Betsy J.",
+      "family": "Johnson",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0007-4614-8245",
+      "authenticated-orcid": false,
+      "given": "Matthew J.",
+      "family": "Dejneka",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Corning Research and Development Corporation, Corning, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2022.3219379"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECOC48923.2020.9333175"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.23919/ETR.2023.10438941"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/JOCN.501427"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSTQE.2019.2908790"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SiPhotonics55903.2023.10141969"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/WFOPC.2005.1462110"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2004.834471"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/ofc.2023.m3c.3"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/oe.14.011622"
+    },
+    {
+      "key": "ref11",
+      "first-page": "1",
+      "article-title": "Sub-1 dB loss SiN-to-Polymer waveguide coupling: An enabler for co-packaged optics",
+      "volume-title": "Proc. Opt. Fiber Commun. Conf. (OFC)",
+      "author": "Van Asch"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IPCon.2018.8527162"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/GFP51802.2021.9673874"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICSJ59341.2023.10339533"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICSJ.2018.8602743"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECTC51529.2024.00023"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2014.2361438"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECTC.2016.312"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/aot.2023.1244009"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ECOC52684.2021.9605856"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OFC.2023.Th1A.4"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSTQE.2023.3247245"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Components, Packaging and Manufacturing Technology"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/5503870/11134680/10829687.pdf?arnumber=10829687",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        8,
+        25
+      ]
+    ],
+    "date-time": "2025-08-25T20:46:31Z",
+    "timestamp": 1756154791000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/10829687/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        8
+      ]
+    ]
+  },
+  "references-count": 22,
+  "journal-issue": {
+    "issue": "8"
+  },
+  "URL": "https://doi.org/10.1109/tcpmt.2025.3526500",
+  "relation": {},
+  "ISSN": [
+    "2156-3950",
+    "2156-3985"
+  ],
+  "issn-type": [
+    {
+      "value": "2156-3950",
+      "type": "print"
+    },
+    {
+      "value": "2156-3985",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        8
+      ]
+    ]
+  }
+}

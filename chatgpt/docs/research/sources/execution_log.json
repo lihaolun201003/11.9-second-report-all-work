@@ -1,0 +1,123 @@
+{
+  "prisma_s": {
+    "1_database_information": {
+      "used": [
+        "publisher original pages",
+        "author/university repositories",
+        "arXiv original records",
+        "Crossref exact DOI",
+        "official vendor/standards documentation"
+      ],
+      "not_used": [
+        "OpenAlex API",
+        "Semantic Scholar API",
+        "PubMed systematic search"
+      ]
+    },
+    "2_multi_database_searching": {
+      "note": "Primary-source web retrieval plus Crossref. Not a five-database systematic run."
+    },
+    "3_study_registries": {
+      "performed": false,
+      "reason": "engineering topic"
+    },
+    "4_online_resources_browsing": {
+      "performed": true,
+      "sources": "IEEE/Optica/ACM/Nature/Wiley/ScienceDirect, Google, Intel, Corning, Molex, JEDEC/CXL, tool docs"
+    },
+    "5_citation_searching": {
+      "performed": true,
+      "method": "manual source/reference chasing Charles/Yoo/Ling/Castro and APR-LiDAR lines",
+      "max_hops": "not quantified; no API graph coverage claim"
+    },
+    "6_contacts": {
+      "performed": false
+    },
+    "7_other_methods": {
+      "methods": [
+        "parallel evidence classification in three subject groups",
+        "primary-source cross-check"
+      ]
+    },
+    "8_full_search_strategies": {
+      "date": "2026-10-28",
+      "language": "zh",
+      "purpose": "topic-focused deep research, not systematic review",
+      "concept_groups": [
+        "OCS/Shuffle/CPO",
+        "3D glass/FLDW/IOX",
+        "automatic routing/EDA",
+        "HBM/GPU/CPU/CXL and counterevidence"
+      ],
+      "queries": [
+        "Optical Design and Applications for Ion-Exchanged Glass Waveguide Circuits",
+        "Fully-assembled low-loss fan-in/fan-out device laser direct writing 114521",
+        "Optical Waveguides Fabricated via Femtosecond Direct Laser Writing 202300620",
+        "three dimensional glass waveguide shuffle automatic routing 1024",
+        "Jupiter Evolving optical circuit switches Google Apollo",
+        "Photonic Chip with Embedded Data Center Fabric",
+        "fiber shuffle CPO 1024 fibers automated FlexPlane",
+        "three-dimensional waveguide routing curvature manufacturability",
+        "HBM optical interconnect optical compute interconnect chiplet",
+        "memory disaggregation photonics Pond A Case Against CXL Memory Pooling",
+        "gdsfactory routing IPKISS Lumerical bent waveguides femto",
+        "Synopsys Ansys acquisition completed Keysight Optical Solutions Group"
+      ],
+      "cutoff": "2026-10-28",
+      "classic_years_included": true
+    },
+    "9_limits_and_restrictions": {
+      "cutoff": "2026-10-28",
+      "language": "Chinese report; primary materials mainly English",
+      "publication_types": "papers, preprints, official products/standards/docs"
+    },
+    "10_search_filters": {
+      "validated_filter": null
+    },
+    "11_prior_work": {
+      "seeds": [
+        "10.1109/TCPMT.2025.3526500",
+        "10.1016/j.optlastec.2025.114521",
+        "10.1002/admt.202300620",
+        "user Google/Corning/Intel/Microsoft URLs"
+      ]
+    },
+    "12_updates": {
+      "incremental_search": false
+    },
+    "13_dates_of_searches": {
+      "date": "2026-10-28",
+      "timezone": "Asia/Shanghai"
+    },
+    "14_total_records": {
+      "retained_unique_sources": 74,
+      "papers_or_preprints": 38,
+      "official_materials": 36,
+      "papers_fulltext_relevant_sections": 16,
+      "universe_retrieval_count": null,
+      "coverage_estimate": null
+    },
+    "15_deduplication": {
+      "method": "case-insensitive DOI, URL and title/manual version relation; preprint/formal versions explicitly related"
+    },
+    "16_record_management": {
+      "outputs": [
+        "12 requested files",
+        "source catalog JSON",
+        "BibTeX/RIS/CSV",
+        "methods log",
+        "HTML",
+        "raw primary texts where available"
+      ],
+      "limitations": "No fabricated abstracts/citation counts/saturation."
+    }
+  },
+  "errors": [
+    "OpenAlex and Semantic Scholar API credentials absent; public-source fallback used",
+    "some publisher full texts unavailable; access graded C/C+",
+    "API helper initially missing PyYAML; installed in local venv"
+  ],
+  "stop_reason": "topic coverage, direct competitors and counterevidence established; key remaining gaps are full texts and project-specific process/implementation data",
+  "generated_at": "2026-10-28",
+  "scope": "adapted deep topic research"
+}

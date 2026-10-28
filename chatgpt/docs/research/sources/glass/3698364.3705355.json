@@ -1,0 +1,426 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        9
+      ]
+    ],
+    "date-time": "2026-10-09T23:59:37Z",
+    "timestamp": 1791590377246,
+    "version": "4.3.4"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 37,
+  "publisher": "ACM",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2025-03-16T00:00:00Z",
+        "timestamp": 1742083200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        16
+      ]
+    ]
+  },
+  "DOI": "10.1145/3698364.3705355",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        13
+      ]
+    ],
+    "date-time": "2025-03-13T18:22:31Z",
+    "timestamp": 1741890151000
+  },
+  "page": "64-72",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 7,
+  "title": [
+    "LiDAR: Automated Curvy Waveguide Detailed Routing for Large-Scale Photonic Integrated Circuits"
+  ],
+  "prefix": "10.1145",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0005-6164-1607",
+      "authenticated-orcid": false,
+      "given": "Hongjian",
+      "family": "Zhou",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Arizona State University, Tempe, AZ, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-2698-141X",
+      "authenticated-orcid": false,
+      "given": "Keren",
+      "family": "Zhu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Fudan University, Shanghai, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8535-7698",
+      "authenticated-orcid": false,
+      "given": "Jiaqi",
+      "family": "Gu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Arizona State University, Tempe, AZ, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        16
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_1_1_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1631/jzus.2006.A1961"
+    },
+    {
+      "key": "e_1_3_2_1_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/B978-0-323-91224-2.00008-4"
+    },
+    {
+      "key": "e_1_3_2_1_3_1",
+      "volume-title": "Nature",
+      "author": "Feldmann Johannes",
+      "year": "2021",
+      "unstructured": "Johannes Feldmann, Nathan Youngblood, Maxim Karpov, Helge Gehring, Xuan Li, Maik Stappers, Manuel Le Gallo, Xin Fu, Anton Lukashchuk, Arslan Raja, Junqiu Liu, David Wright, Abu Sebastian, Tobias Kippenberg, Wolfram Pernice, and Harish Bhaskaran. Parallel convolutional processing using an integrated photonic tensor core. Nature, 2021."
+    },
+    {
+      "key": "e_1_3_2_1_4_1",
+      "volume-title": "Nature Photonics",
+      "author": "Shen Yichen",
+      "year": "2017",
+      "unstructured": "Yichen Shen, Nicholas C. Harris, Scott Skirlo, et al. Deep learning with coherent nanophotonic circuits. Nature Photonics, 2017."
+    },
+    {
+      "key": "e_1_3_2_1_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CICC53496.2022.9772845"
+    },
+    {
+      "key": "e_1_3_2_1_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCAPT.2007.906300"
+    },
+    {
+      "key": "e_1_3_2_1_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1572471.1572475"
+    },
+    {
+      "key": "e_1_3_2_1_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1629911.1629983"
+    },
+    {
+      "key": "e_1_3_2_1_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAD.2013.6691109"
+    },
+    {
+      "key": "e_1_3_2_1_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2872334.2872356"
+    },
+    {
+      "key": "e_1_3_2_1_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3195970.3196093"
+    },
+    {
+      "key": "e_1_3_2_1_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MWSCAS.2012.6292091"
+    },
+    {
+      "key": "e_1_3_2_1_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SLIP.2013.6681678"
+    },
+    {
+      "key": "e_1_3_2_1_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3505170.3511477"
+    },
+    {
+      "key": "e_1_3_2_1_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCAD.2021.3079268"
+    },
+    {
+      "key": "e_1_3_2_1_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2228360.2228441"
+    },
+    {
+      "key": "e_1_3_2_1_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAD45719.2019.8942074"
+    },
+    {
+      "key": "e_1_3_2_1_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3240765.3240777"
+    },
+    {
+      "key": "e_1_3_2_1_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/FPGA.1995.242049"
+    },
+    {
+      "key": "e_1_3_2_1_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ACCESS.2023.3265481"
+    },
+    {
+      "key": "e_1_3_2_1_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCAD.2014.2363394"
+    },
+    {
+      "key": "e_1_3_2_1_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAD.2010.5654190"
+    },
+    {
+      "key": "e_1_3_2_1_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DAC56929.2023.10247728"
+    },
+    {
+      "key": "e_1_3_2_1_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DAC18074.2021.9586143"
+    },
+    {
+      "key": "e_1_3_2_1_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DAC56929.2023.10247899"
+    },
+    {
+      "key": "e_1_3_2_1_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAD57390.2023.10323679"
+    },
+    {
+      "key": "e_1_3_2_1_27_1",
+      "first-page": "9",
+      "volume-title": "Chan Kim, et al. Schematic driven silicon photonics design. In Smart Photonic and Optoelectronic Integrated Circuits XVIII",
+      "author": "Chrostowski Lukas",
+      "year": "2016",
+      "unstructured": "Lukas Chrostowski, Zeqin Lu, Jonas Flückiger, James Pond, Jackson Klein, Xu Wang, Sarah Li, Wei Tai, En Yao Hsu, Chan Kim, et al. Schematic driven silicon photonics design. In Smart Photonic and Optoelectronic Integrated Circuits XVIII, volume 9751, pages 9--22. SPIE, 2016."
+    },
+    {
+      "key": "e_1_3_2_1_28_1",
+      "volume-title": "https://github.com/gdsfactory/gdsfactory",
+      "author": "Gdsfactory Joaquin Matres",
+      "year": "2024",
+      "unstructured": "Joaquin Matres et al. Gdsfactory. https://github.com/gdsfactory/gdsfactory, 2024."
+    },
+    {
+      "key": "e_1_3_2_1_29_1",
+      "volume-title": "Multithreaded collision-aware global routing with bounded-length maze routing",
+      "author": "Liu Wen-Hao",
+      "year": "2013",
+      "unstructured": "Wen-Hao Liu, Wei-Chun Kao, Yih-Lang Li, and Kai-Yuan Chao. Nctu-gr 2.0: Multithreaded collision-aware global routing with bounded-length maze routing. IEEE Transactions on computer-aided design of integrated circuits and systems, 32 :709--722, 2013."
+    },
+    {
+      "key": "e_1_3_2_1_30_1",
+      "volume-title": "Optica",
+      "author": "Clements William R.",
+      "year": "2018",
+      "unstructured": "William R. Clements, Peter C. Humphreys, Benjamin J. Metcalf, et al. Optimal Design for Universal Multiport Interferometers. Optica, 2018."
+    },
+    {
+      "key": "e_1_3_2_1_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3489517.3530562"
+    },
+    {
+      "key": "e_1_3_2_1_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3299902.3309747"
+    },
+    {
+      "key": "e_1_3_2_1_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JLT.2010.2044231"
+    },
+    {
+      "key": "e_1_3_2_1_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JPHOT.2021.3091539"
+    },
+    {
+      "key": "e_1_3_2_1_35_1",
+      "volume-title": "12.5-gb/s operation with 0.29-v· cm v - l using silicon mach-zehnder modulator based-on forward-biased pin diode. Optics express, 20 :2911--2923",
+      "author": "Akiyama Suguru",
+      "year": "2012",
+      "unstructured": "Suguru Akiyama, Takeshi Baba, Masahiko Imai, Takeshi Akagawa, Masashi Takahashi, Naoki Hirayama, Hiroyuki Takahashi, Yoshiji Noguchi, Hideaki Okayama, Tsuyoshi Horikawa, et al. 12.5-gb/s operation with 0.29-v· cm v - l using silicon mach-zehnder modulator based-on forward-biased pin diode. Optics express, 20 :2911--2923, 2012."
+    },
+    {
+      "key": "e_1_3_2_1_36_1",
+      "first-page": "T3H",
+      "volume-title": "Optical Fiber Communication Conference",
+      "author": "Rakowski Michal",
+      "year": "2020",
+      "unstructured": "Michal Rakowski, Colleen Meagher, Karen Nummy, Abdelsalam Aboketaf, Javier Ayala, Yusheng Bian, Brendan Harris, Kate Mclean, Kevin McStay, Asli Sahin, et al. 45nm cmos-silicon photonics monolithic technology (45clo) for next-generation, low power and high speed optical interconnects. In Optical Fiber Communication Conference, pages T3H--3. Optica Publishing Group, 2020."
+    },
+    {
+      "key": "e_1_3_2_1_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAD51958.2021.9643451"
+    }
+  ],
+  "event": {
+    "name": "ISPD '25: International Symposium on Physical Design",
+    "location": "Austin TX USA",
+    "acronym": "ISPD '25",
+    "sponsor": [
+      "SIGDA ACM Special Interest Group on Design Automation"
+    ]
+  },
+  "container-title": [
+    "Proceedings of the 2025 International Symposium on Physical Design"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3698364.3705355",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3698364.3705355",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        8,
+        23
+      ]
+    ],
+    "date-time": "2025-08-23T00:04:37Z",
+    "timestamp": 1755907477000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3698364.3705355"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        16
+      ]
+    ]
+  },
+  "references-count": 37,
+  "alternative-id": [
+    "10.1145/3698364.3705355",
+    "10.1145/3698364"
+  ],
+  "URL": "https://doi.org/10.1145/3698364.3705355",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        16
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2025-03-16",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

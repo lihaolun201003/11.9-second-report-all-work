@@ -1,0 +1,57 @@
+{
+ "10.1515/nanoph-2015-0020": {
+  "title": "Ultrafast‐laser‐inscribed 3D integrated photonics: challenges and emerging applications",
+  "year": 2015,
+  "venue": "Nanophotonics",
+  "authors": [
+   "Simon Gross",
+   "Michael J. Withford"
+  ],
+  "abstract": "Abstract Since the discovery that tightly focused femtosecond laser pulses can induce a highly localised and permanent refractive index modification in a large number of transparent dielectrics, the technique of ultrafast laser inscription has received great attention from a wide range of applications. In particular, the capability to create three‐dimensional optical waveguide circuits has opened up new opportunities for integrated photonics that would not have been possible with traditional planar fabrication techniques because it enables full access to the many degrees of freedom in a photon. This paper reviews the basic techniques and technological challenges of 3D integrated photonics fabricated using ultrafast laser inscription as well as reviews the most recent progress in the fields of astrophotonics, optical communication, quantum photonics, emulation of quantum systems, optofluidics and sensing.",
+  "cited": 201,
+  "type": "article",
+  "oa_url": "https://www.degruyter.com/document/doi/10.1515/nanoph-2015-0020/pdf",
+  "oa_status": "gold"
+ },
+ "10.1002/lpor.202000167": {
+  "title": "Space Qualification of Ultrafast Laser‐Written Integrated Waveguide Optics",
+  "year": 2020,
+  "venue": "Laser & Photonics Review",
+  "authors": [
+   "Simone Piacentini",
+   "Tobias Vogl",
+   "Giacomo Corrielli",
+   "Ping Koy Lam",
+   "Roberto Osellame"
+  ],
+  "abstract": "Abstract Satellite‐based quantum technologies represent a possible route for extending the achievable range of quantum communication, allowing the construction of worldwide quantum networks without quantum repeaters. In space missions, however, the volume available for the instrumentation is limited, and footprint is a crucial specification of the devices that can be employed. Integrated optics could be highly beneficial in this sense, as it allows for the miniaturization of different functionalities in small and monolithic photonic circuits. This article reports on qualification of waveguides fabricated in glass by femtosecond laser micromachining for their use in a low Earth orbit space environment. In particular, different laser‐written integrated devices, such as straight waveguides, directional couplers, and Mach–Zehnder interferometers, are exposed to suitable proton and γ‐ray irradiation. This experiment shows that no significant changes have been induced to their characteristics and performances by the radiation exposure. These results, combined with the high compatibility of laser‐written optical circuits to quantum communication applications, pave the way for the use of laser‐written integrated photonic components in future satellite missions.",
+  "cited": 29,
+  "type": "article",
+  "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/lpor.202000167",
+  "oa_status": "hybrid"
+ },
+ "10.1109/jlt.2023.3320908": {
+  "title": "Design and Fabrication of Crossing-Free Waveguide Routing Networks Using a Multi-Layer Polymer-Based Photonic Integration Platform",
+  "year": 2023,
+  "venue": "Journal of Lightwave Technology",
+  "authors": [
+   "Madeleine Weigel",
+   "Moritz Kleinert",
+   "Martin Kresse",
+   "David de Felipe",
+   "Hauke Conradi",
+   "Jakob Reck",
+   "Klara Mihov",
+   "Tianwen Qian",
+   "Crispin Zawadzki",
+   "Anja Scheu",
+   "Norbert Keil",
+   "Martin A. Schell"
+  ],
+  "abstract": "A novel 16x4 crossing-free waveguide routing network on four layers of polymer-based stacked waveguides is presented. The design combines in-plane passive waveguide devices with vertical multimode interference couplers (1x1 3D MMIs) to connect two adjacent waveguide layers. The 16x4 multilayer waveguide routing network (MWRN) is fabricated using multilayer deposition and standard UV contact lithography. A novel fabrication method of multiple waveguide layers that includes a sequence for wafer planarization steps to reduce topographies is presented. These developments lead to a reproducible multi-layer device fabricated on wafer-scale. Our technology enables a high vertical spacing of 21.6 μm (center-to-center) between the top and bottom waveguide layers with a large waveguide-to-waveguide spacing of 7.2 μm (center-to-center). The complex 16x4 MWRN can serve as the crossing-free waveguide routing for a 4x4 3D optical switch.",
+  "cited": 10,
+  "type": "article",
+  "oa_url": "https://ieeexplore.ieee.org/ielx7/50/4357488/10284924.pdf",
+  "oa_status": "hybrid"
+ }
+}
