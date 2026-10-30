@@ -1,0 +1,312 @@
+{
+ "tag": "D3_z2retune_vs_E1C_best",
+ "metrics": [
+  {
+   "metric": "routed",
+   "before": 1024,
+   "after": 1024,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "unique_crossing_pairs",
+   "before": 3850,
+   "after": 3594,
+   "delta": -256.0,
+   "delta_pct": -6.649
+  },
+  {
+   "metric": "z1_crossing_pairs",
+   "before": 2608,
+   "after": 2608,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "z2_crossing_pairs",
+   "before": 752,
+   "after": 240,
+   "delta": -512.0,
+   "delta_pct": -68.085
+  },
+  {
+   "metric": "high_layer_crossing_pairs",
+   "before": 490,
+   "after": 746,
+   "delta": 256.0,
+   "delta_pct": 52.245
+  },
+  {
+   "metric": "adjacent_related_events",
+   "before": 2336,
+   "after": 2336,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "adjacent_related_pairs",
+   "before": 2336,
+   "after": 2336,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "adjacent_line_events",
+   "before": 932,
+   "after": 932,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "adjacent_arc_events",
+   "before": 1404,
+   "after": 1404,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "opposite_opposite_events",
+   "before": 272,
+   "after": 272,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "z1_hv_same_height_pairs",
+   "before": 272,
+   "after": 272,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "transitions",
+   "before": 1240,
+   "after": 1240,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "total_length_mm",
+   "before": 97221.5367,
+   "after": 97221.5367,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "fabrication_hours",
+   "before": 27.006,
+   "after": 27.006,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "l6_routes",
+   "before": 128,
+   "after": 128,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "l7_routes",
+   "before": 0,
+   "after": 0,
+   "delta": 0.0,
+   "delta_pct": null
+  },
+  {
+   "metric": "violations",
+   "before": 0,
+   "after": 0,
+   "delta": 0.0,
+   "delta_pct": null
+  },
+  {
+   "metric": "validation_status",
+   "before": "exploratory_only",
+   "after": "exploratory_only",
+   "delta": null,
+   "delta_pct": null
+  }
+ ],
+ "routes_changed": 8,
+ "changed_route_ids": [
+  592,
+  593,
+  594,
+  595,
+  880,
+  881,
+  882,
+  883
+ ],
+ "changes": [
+  {
+   "route_id": 592,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 593,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 594,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 595,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 880,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 881,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 882,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 883,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  }
+ ]
+}

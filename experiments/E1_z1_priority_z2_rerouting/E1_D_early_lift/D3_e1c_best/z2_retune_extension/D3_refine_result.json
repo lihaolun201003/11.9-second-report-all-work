@@ -1,0 +1,396 @@
+{
+ "stats": {
+  "movable_routes": 364,
+  "searched_routes": 80,
+  "routes_changed": 8,
+  "base_unique_crossing_pairs": 3850,
+  "after_unique_crossing_pairs": 3594,
+  "base_adjacent_related_events": 2336,
+  "after_adjacent_related_events": 2336,
+  "base_adjacent_line_events": 932,
+  "after_adjacent_line_events": 932,
+  "base_adjacent_arc_events": 1404,
+  "after_adjacent_arc_events": 1404,
+  "base_z1_crossing_pairs": 2608,
+  "after_z1_crossing_pairs": 2608,
+  "base_high_layer_crossing_pairs": 490,
+  "after_high_layer_crossing_pairs": 746,
+  "engine_check": {
+   "engine_events": 3636,
+   "core_movable_events": 3636,
+   "engine_pairs": 3594,
+   "core_pairs": 3594,
+   "engine_adjacent": 2336,
+   "core_adjacent": 2336
+  },
+  "search_seconds": 390.4,
+  "engine_build_seconds": 8.8,
+  "refine_seconds": 526.05
+ },
+ "pass_stats": [
+  {
+   "pass_index": 1,
+   "accepted": 8,
+   "seconds": 66.85
+  },
+  {
+   "pass_index": 2,
+   "accepted": 0,
+   "seconds": 55.56
+  }
+ ],
+ "raw_changes": [
+  {
+   "route_id": 592,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 593,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 594,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 595,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 880,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 881,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 882,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 883,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  }
+ ],
+ "applied_changes": [
+  {
+   "route_id": 592,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 593,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 594,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 595,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 880,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 881,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 882,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  },
+  {
+   "route_id": 883,
+   "old": [
+    48.0,
+    48.0,
+    4
+   ],
+   "new": [
+    15.0,
+    15.0,
+    4
+   ],
+   "pair_id": "",
+   "base_stub_total": 96.0,
+   "new_stub_total": 30.0,
+   "delta_pairs": -32,
+   "delta_events": -32,
+   "delta_adjacent": 0,
+   "delta_line": 0,
+   "delta_arc": 0
+  }
+ ],
+ "reverted_changes": [],
+ "raw_violations": 0,
+ "repaired_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "repair_log": []
+}

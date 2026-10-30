@@ -1,0 +1,215 @@
+{
+ "experiment": "baseline",
+ "routed": 1024,
+ "unique_crossing_pairs": 6078,
+ "z1_crossing_pairs": 5256,
+ "z2_crossing_pairs": 752,
+ "high_layer_crossing_pairs": 70,
+ "crossing_pairs_by_height": {
+  "0.0": 5256,
+  "0.5": 752,
+  "0.65": 0,
+  "0.8": 42,
+  "0.95": 24,
+  "1.1": 4
+ },
+ "crossing_events_by_height": {
+  "0.0": 5768,
+  "0.5": 752,
+  "0.65": 0,
+  "0.8": 84,
+  "0.95": 24,
+  "1.1": 4
+ },
+ "crossing_breakdown_by_height": {
+  "0.0": {
+   "adjacent_z1 x opposite_z1_NS": 3312,
+   "adjacent_z1 x opposite_z1_EW": 368,
+   "opposite_z1_EW x opposite_z1_NS": 1064,
+   "opposite_z1_NS x same_u_z1": 512
+  },
+  "0.5": {
+   "adjacent_z2 x opposite_z2_NS": 368,
+   "adjacent_z2 x opposite_z2_EW": 368,
+   "opposite_z2_EW x opposite_z2_NS": 16
+  },
+  "0.65": {},
+  "0.8": {
+   "opposite_z1_NS x same_u_z1": 42
+  },
+  "0.95": {
+   "opposite_z1_EW x opposite_z1_NS": 24
+  },
+  "1.1": {
+   "opposite_z1_EW x opposite_z1_NS": 4
+  }
+ },
+ "z1_hv_same_height_pairs": 1092,
+ "adjacent_related_events": 3680,
+ "adjacent_related_pairs": 3680,
+ "adjacent_arc_events": 1404,
+ "adjacent_line_events": 2276,
+ "opposite_opposite_events": 1064,
+ "transitions": 940,
+ "total_length_mm": 97205.1808,
+ "fabrication_hours": 27.0014,
+ "layer_route_counts": {
+  "1": 554,
+  "2": 90,
+  "3": 210,
+  "4": 100,
+  "5": 70
+ },
+ "layer_usage": {
+  "2": {
+   "z": 0.65,
+   "routes": 90,
+   "segments": 90
+  },
+  "3": {
+   "z": 0.8,
+   "routes": 210,
+   "segments": 210
+  },
+  "4": {
+   "z": 0.95,
+   "routes": 100,
+   "segments": 100
+  },
+  "5": {
+   "z": 1.1,
+   "routes": 70,
+   "segments": 70
+  },
+  "6": {
+   "z": 1.25,
+   "routes": 0,
+   "segments": 0
+  },
+  "7": {
+   "z": 1.4,
+   "routes": 0,
+   "segments": 0
+  }
+ },
+ "l6_route_count": 0,
+ "l7_route_count": 0,
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "validation_exploratory_pass": true,
+ "n_violations": 0,
+ "per_layer": {
+  "0.65": 90,
+  "0.8": 210,
+  "0.95": 100,
+  "1.1": 70,
+  "1.25": 0,
+  "1.4": 0
+ },
+ "save_seconds": 8.87,
+ "note": "BASE = published best_solution (6,078 unique crossing pairs)",
+ "provenance": "z1_topology_global_7L/best_solution (published BASE)",
+ "unlifted_pairs": [
+  "1_EW",
+  "1_NS",
+  "36_EW",
+  "36_NS",
+  "40_EW",
+  "40_NS",
+  "41_EW",
+  "41_NS",
+  "42_EW",
+  "42_NS",
+  "43_EW",
+  "43_NS",
+  "44_EW",
+  "44_NS",
+  "46_EW",
+  "46_NS",
+  "47_EW",
+  "47_NS",
+  "48_EW",
+  "48_NS",
+  "49_EW",
+  "49_NS",
+  "113_NS",
+  "114_NS",
+  "115_NS",
+  "116_NS",
+  "117_NS",
+  "118_NS",
+  "119_NS"
+ ],
+ "unlifted_route_ids": [
+  2,
+  211,
+  1,
+  212,
+  84,
+  281,
+  55,
+  282,
+  73,
+  289,
+  59,
+  290,
+  74,
+  291,
+  60,
+  292,
+  75,
+  293,
+  61,
+  294,
+  76,
+  295,
+  62,
+  296,
+  77,
+  297,
+  63,
+  298,
+  79,
+  301,
+  65,
+  302,
+  80,
+  303,
+  66,
+  304,
+  81,
+  305,
+  67,
+  306,
+  82,
+  307,
+  68,
+  308,
+  163,
+  482,
+  164,
+  484,
+  165,
+  486,
+  166,
+  488,
+  167,
+  490,
+  168,
+  492,
+  169,
+  494
+ ],
+ "analysis_seconds": 1.08,
+ "unique_pairs_involving_unlifted": 792
+}

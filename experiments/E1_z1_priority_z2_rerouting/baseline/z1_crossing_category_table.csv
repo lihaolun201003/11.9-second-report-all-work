@@ -1,0 +1,5 @@
+﻿category,unique_pairs,events
+adjacent x opposite,3680,3680
+opposite x opposite,1064,1064
+opposite x same,512,1024
+ALL,5256,5768

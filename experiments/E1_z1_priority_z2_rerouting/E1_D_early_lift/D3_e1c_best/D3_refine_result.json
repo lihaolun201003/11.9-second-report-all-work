@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "movable_routes": 228,
+  "searched_routes": 72,
+  "routes_changed": 0,
+  "base_unique_crossing_pairs": 3850,
+  "after_unique_crossing_pairs": 3850,
+  "base_adjacent_related_events": 2336,
+  "after_adjacent_related_events": 2336,
+  "base_adjacent_line_events": 932,
+  "after_adjacent_line_events": 932,
+  "base_adjacent_arc_events": 1404,
+  "after_adjacent_arc_events": 1404,
+  "base_z1_crossing_pairs": 2608,
+  "after_z1_crossing_pairs": 2608,
+  "base_high_layer_crossing_pairs": 490,
+  "after_high_layer_crossing_pairs": 490,
+  "engine_check": {
+   "engine_events": 3140,
+   "core_movable_events": 3140,
+   "engine_pairs": 3098,
+   "core_pairs": 3098,
+   "engine_adjacent": 2336,
+   "core_adjacent": 2336
+  },
+  "search_seconds": 220.73,
+  "engine_build_seconds": 2.59,
+  "refine_seconds": 268.69
+ },
+ "pass_stats": [
+  {
+   "pass_index": 1,
+   "accepted": 0,
+   "seconds": 41.84
+  }
+ ],
+ "raw_changes": [],
+ "applied_changes": [],
+ "reverted_changes": [],
+ "raw_violations": 0,
+ "repaired_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "repair_log": []
+}

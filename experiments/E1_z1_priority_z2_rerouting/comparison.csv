@@ -1,0 +1,10 @@
+﻿experiment,kind,routed,unique_crossing_pairs,z1_crossing_pairs,z2_crossing_pairs,high_layer_crossing_pairs,adjacent_related_events,adjacent_line_events,adjacent_arc_events,z1_hv_same_height_pairs,opposite_opposite_events,transitions,total_length_mm,fabrication_hours,l6_routes,l7_routes,validation_status,violations,note
+BASE,complete,1024,6078,5256,752,70,3680,2276,1404,1092,1064,940,97205.1808,27.0014,0,0,exploratory_only,0,"published best_solution (7L, Z1 206 lifted / 58 flat)"
+C1,complete,1024,5286,4464,752,70,3680,2276,1404,300,272,1052,97212.1306,27.0034,0,0,exploratory_only,0,"Z1-only: extra legal lift windows, Z2 identical to BASE"
+C2,complete,1024,5286,4464,752,70,3680,2276,1404,300,272,1052,97212.1306,27.0034,0,0,exploratory_only,0,Z1 priority + single-line Z2 local layer swaps
+C3,complete,1024,3850,2608,752,490,2336,932,1404,272,272,1240,97221.5367,27.006,128,0,exploratory_only,0,Z1 priority + bundle-level Z2 clearance + Z1 window re-optimisation
+B1 (diagnostic),diagnostic,512,6518,4464,0,2054,3680,2276,1404,2284,272,656,55263.8182,15.3511,0,0,not_validated (diagnostic only),,all 512 Z2 routes removed from the world - diagnostic only
+B2 (diagnostic),diagnostic,824,4838,4464,0,374,3680,2276,1404,604,272,652,79709.2422,22.1415,0,0,not_validated (diagnostic only),,movable Z2 removed (same_u_z2 + opposite_z2 kept out) - diagnostic only
+D2,complete,1024,4670,3400,752,518,2336,932,1404,1092,1064,940,97205.1808,27.0014,0,0,exploratory_only,0,BASE layout + asymmetric S-bend windows for the 206 lifted Z1 routes
+D3,complete,1024,3850,2608,752,490,2336,932,1404,272,272,1240,97221.5367,27.006,128,0,exploratory_only,0,E1-C best layout + asymmetric S-bend window refinement
+D3+Z2retune,complete,1024,3594,2608,240,746,2336,932,1404,272,272,1240,97221.5367,27.006,128,0,exploratory_only,0,C3 layout + re-windowed 8 opposite_z2 L4 routes (48->15 mm) - D3 extension

@@ -1,0 +1,2 @@
+﻿pair_id,key,route_ids,n_evaluated,independent_legal,independent_windows,failure_classes,failure_sources
+49_NS,NS,68;308,773,False,"[None, None]","{'z1_route_conflict': 40, 'not_diagnosed': 733}",{'mixed': 40}

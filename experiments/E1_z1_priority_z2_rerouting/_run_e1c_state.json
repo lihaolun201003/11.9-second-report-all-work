@@ -1,0 +1,21 @@
+{
+ "C2": {
+  "experiment": "C2",
+  "routed": 1024,
+  "unique_crossing_pairs": 5286,
+  "z1_crossing_pairs": 4464,
+  "z2_crossing_pairs": 752,
+  "high_layer_crossing_pairs": 70,
+  "adjacent_related_events": 3680,
+  "adjacent_line_events": 2276,
+  "adjacent_arc_events": 1404,
+  "z1_hv_pairs": 300,
+  "transitions": 1052,
+  "total_length_mm": 97212.1306,
+  "fabrication_hours": 27.0034,
+  "l6_routes": 0,
+  "l7_routes": 0,
+  "validation_status": "exploratory_only",
+  "violations": 0
+ }
+}

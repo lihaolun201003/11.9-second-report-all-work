@@ -1,0 +1,727 @@
+{
+ "numbers": {
+  "routed": 512,
+  "z1_routes": 512,
+  "unique_crossing_pairs": 6518,
+  "base_unique_crossing_pairs": 5326,
+  "delta_unique_crossing_pairs": 1192,
+  "z1_crossing_pairs": 4464,
+  "base_z1_crossing_pairs": 5256,
+  "delta_z1_crossing_pairs": -792,
+  "z2_crossing_pairs": 0,
+  "high_layer_crossing_pairs": 2054,
+  "base_high_layer_crossing_pairs": 70,
+  "z1_subset_z1_crossing_pairs": 4464,
+  "z1_subset_high_crossing_pairs": 2054,
+  "base_z1_subset_z1_crossing_pairs": 5256,
+  "base_z1_subset_high_crossing_pairs": 70,
+  "transitions": 656,
+  "base_transitions": 540,
+  "total_length_mm": 55263.8182,
+  "base_total_length_mm": 55258.5691
+ },
+ "lifted_pairs": [
+  {
+   "pair_id": "1_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "1_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "36_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "36_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "40_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "40_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "41_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "41_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "42_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "42_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "43_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "43_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "44_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "44_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "46_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "46_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "47_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "47_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "48_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "48_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "49_EW",
+   "layer": 2,
+   "a_in": 1.2,
+   "a_out": 1.2,
+   "per_layer_windows": "L2:1.20/1.20|L3:4.50/4.50|L4:5.00/5.00|L5:5.00/5.00|L6:5.00/5.00|L7:5.00/5.00"
+  },
+  {
+   "pair_id": "49_NS",
+   "layer": 2,
+   "a_in": 5.0,
+   "a_out": 5.0,
+   "per_layer_windows": "L2:5.00/5.00|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "113_NS",
+   "layer": 2,
+   "a_in": 13.0,
+   "a_out": 85.7889,
+   "per_layer_windows": "L2:13.00/85.79|L3:5.50/5.50|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "114_NS",
+   "layer": 2,
+   "a_in": 13.0,
+   "a_out": 85.7889,
+   "per_layer_windows": "L2:13.00/85.79|L3:6.00/95.12|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "115_NS",
+   "layer": 2,
+   "a_in": 13.0,
+   "a_out": 85.7889,
+   "per_layer_windows": "L2:13.00/85.79|L3:13.00/95.12|L4:6.00/94.51|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "116_NS",
+   "layer": 2,
+   "a_in": 13.0,
+   "a_out": 85.7889,
+   "per_layer_windows": "L2:13.00/85.79|L3:6.00/95.12|L4:5.50/5.50|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "117_NS",
+   "layer": 2,
+   "a_in": 6.0,
+   "a_out": 85.7889,
+   "per_layer_windows": "L2:6.00/85.79|L3:13.00/95.12|L4:6.00/94.51|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "118_NS",
+   "layer": 2,
+   "a_in": 6.0,
+   "a_out": 85.7889,
+   "per_layer_windows": "L2:6.00/85.79|L3:13.00/95.12|L4:6.00/94.51|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  },
+  {
+   "pair_id": "119_NS",
+   "layer": 2,
+   "a_in": 6.0,
+   "a_out": 85.7889,
+   "per_layer_windows": "L2:6.00/85.79|L3:13.00/95.12|L4:6.00/94.51|L5:5.50/5.50|L6:5.50/5.50|L7:5.50/5.50"
+  }
+ ],
+ "failed_pairs": [],
+ "independent_mode": [
+  {
+   "pair_id": "1_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "1_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "36_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "36_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "40_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "40_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "41_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "41_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "42_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "42_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "43_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "43_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "44_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "44_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "46_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "46_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "47_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "47_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "48_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "48_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "49_EW",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     1.2,
+     1.2
+    ],
+    [
+     2,
+     1.2,
+     1.2
+    ]
+   ],
+   "n_evaluated": 2
+  },
+  {
+   "pair_id": "49_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     5.0,
+     5.0
+    ],
+    [
+     2,
+     5.0,
+     5.0
+    ]
+   ],
+   "n_evaluated": 26
+  },
+  {
+   "pair_id": "113_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     13.0,
+     85.7889
+    ],
+    [
+     2,
+     13.0,
+     85.7889
+    ]
+   ],
+   "n_evaluated": 162
+  },
+  {
+   "pair_id": "114_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     13.0,
+     85.7889
+    ],
+    [
+     2,
+     13.0,
+     85.7889
+    ]
+   ],
+   "n_evaluated": 162
+  },
+  {
+   "pair_id": "115_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     13.0,
+     85.7889
+    ],
+    [
+     2,
+     13.0,
+     85.7889
+    ]
+   ],
+   "n_evaluated": 162
+  },
+  {
+   "pair_id": "116_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     13.0,
+     85.7889
+    ],
+    [
+     2,
+     13.0,
+     85.7889
+    ]
+   ],
+   "n_evaluated": 162
+  },
+  {
+   "pair_id": "117_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     6.0,
+     85.7889
+    ],
+    [
+     2,
+     6.0,
+     85.7889
+    ]
+   ],
+   "n_evaluated": 148
+  },
+  {
+   "pair_id": "118_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     6.0,
+     85.7889
+    ],
+    [
+     2,
+     6.0,
+     85.7889
+    ]
+   ],
+   "n_evaluated": 148
+  },
+  {
+   "pair_id": "119_NS",
+   "legal": true,
+   "windows": [
+    [
+     2,
+     6.0,
+     85.7889
+    ],
+    [
+     2,
+     6.0,
+     85.7889
+    ]
+   ],
+   "n_evaluated": 148
+  }
+ ],
+ "removed_routes": 512,
+ "present_routes": 512,
+ "diagnostic_only": true
+}

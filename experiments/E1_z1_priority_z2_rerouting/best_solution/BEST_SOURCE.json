@@ -1,0 +1,24 @@
+{
+ "source_experiment": "D3+Z2retune",
+ "source_folder": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\z1_multilayer_150um\\E1_z1_priority_z2_rerouting\\E1_D_early_lift\\D3_e1c_best\\z2_retune_extension",
+ "unique_crossing_pairs": 3594,
+ "summary": {
+  "experiment": "D3+Z2retune",
+  "routed": 1024,
+  "unique_crossing_pairs": 3594,
+  "z1_crossing_pairs": 2608,
+  "z2_crossing_pairs": 240,
+  "high_layer_crossing_pairs": 746,
+  "adjacent_related_events": 2336,
+  "adjacent_line_events": 932,
+  "adjacent_arc_events": 1404,
+  "z1_hv_pairs": 272,
+  "transitions": 1240,
+  "total_length_mm": 97221.5367,
+  "fabrication_hours": 27.006,
+  "l6_routes": 128,
+  "l7_routes": 0,
+  "validation_status": "exploratory_only",
+  "violations": 0
+ }
+}

@@ -1,0 +1,6 @@
+==============================================================================
+DIAGNOSTIC ONLY - NOT A VALID 1024-CHANNEL SOLUTION
+This directory is a Z2-removal diagnostic, not a router solution.
+The payload in routes_1024.json intentionally misses Z2 routes and
+is saved as "not_validated". Do NOT use it as a deliverable.
+==============================================================================

@@ -1,0 +1,134 @@
+{
+ "tag": "D3_vs_E1C_best",
+ "metrics": [
+  {
+   "metric": "routed",
+   "before": 1024,
+   "after": 1024,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "unique_crossing_pairs",
+   "before": 3850,
+   "after": 3850,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "z1_crossing_pairs",
+   "before": 2608,
+   "after": 2608,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "z2_crossing_pairs",
+   "before": 752,
+   "after": 752,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "high_layer_crossing_pairs",
+   "before": 490,
+   "after": 490,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "adjacent_related_events",
+   "before": 2336,
+   "after": 2336,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "adjacent_related_pairs",
+   "before": 2336,
+   "after": 2336,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "adjacent_line_events",
+   "before": 932,
+   "after": 932,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "adjacent_arc_events",
+   "before": 1404,
+   "after": 1404,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "opposite_opposite_events",
+   "before": 272,
+   "after": 272,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "z1_hv_same_height_pairs",
+   "before": 272,
+   "after": 272,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "transitions",
+   "before": 1240,
+   "after": 1240,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "total_length_mm",
+   "before": 97221.5367,
+   "after": 97221.5367,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "fabrication_hours",
+   "before": 27.006,
+   "after": 27.006,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "l6_routes",
+   "before": 128,
+   "after": 128,
+   "delta": 0.0,
+   "delta_pct": 0.0
+  },
+  {
+   "metric": "l7_routes",
+   "before": 0,
+   "after": 0,
+   "delta": 0.0,
+   "delta_pct": null
+  },
+  {
+   "metric": "violations",
+   "before": 0,
+   "after": 0,
+   "delta": 0.0,
+   "delta_pct": null
+  },
+  {
+   "metric": "validation_status",
+   "before": "exploratory_only",
+   "after": "exploratory_only",
+   "delta": null,
+   "delta_pct": null
+  }
+ ],
+ "routes_changed": 0,
+ "changed_route_ids": [],
+ "changes": []
+}

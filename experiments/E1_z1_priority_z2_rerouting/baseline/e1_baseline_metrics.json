@@ -1,0 +1,19 @@
+{
+ "experiment": "BASE",
+ "routed": 1024,
+ "unique_crossing_pairs": 6078,
+ "z1_crossing_pairs": 5256,
+ "z2_crossing_pairs": 752,
+ "high_layer_crossing_pairs": 70,
+ "adjacent_related_events": 3680,
+ "adjacent_line_events": 2276,
+ "adjacent_arc_events": 1404,
+ "z1_hv_pairs": 1092,
+ "transitions": 940,
+ "total_length_mm": 97205.1808,
+ "fabrication_hours": 27.0014,
+ "l6_routes": 0,
+ "l7_routes": 0,
+ "validation_status": "exploratory_only",
+ "violations": 0
+}

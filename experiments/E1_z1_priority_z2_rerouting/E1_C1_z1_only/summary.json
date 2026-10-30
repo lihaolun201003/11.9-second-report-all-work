@@ -1,0 +1,531 @@
+{
+ "experiment": "E1_C1_z1_only",
+ "routed": 1024,
+ "unique_crossing_pairs": 5286,
+ "z1_crossing_pairs": 4464,
+ "z2_crossing_pairs": 752,
+ "high_layer_crossing_pairs": 70,
+ "crossing_pairs_by_height": {
+  "0.0": 4464,
+  "0.5": 752,
+  "0.65": 0,
+  "0.8": 42,
+  "0.95": 24,
+  "1.1": 4
+ },
+ "crossing_events_by_height": {
+  "0.0": 4976,
+  "0.5": 752,
+  "0.65": 0,
+  "0.8": 84,
+  "0.95": 24,
+  "1.1": 4
+ },
+ "crossing_breakdown_by_height": {
+  "0.0": {
+   "adjacent_z1 x opposite_z1_NS": 3312,
+   "adjacent_z1 x opposite_z1_EW": 368,
+   "opposite_z1_EW x opposite_z1_NS": 272,
+   "opposite_z1_NS x same_u_z1": 512
+  },
+  "0.5": {
+   "adjacent_z2 x opposite_z2_NS": 368,
+   "adjacent_z2 x opposite_z2_EW": 368,
+   "opposite_z2_EW x opposite_z2_NS": 16
+  },
+  "0.65": {},
+  "0.8": {
+   "opposite_z1_NS x same_u_z1": 42
+  },
+  "0.95": {
+   "opposite_z1_EW x opposite_z1_NS": 24
+  },
+  "1.1": {
+   "opposite_z1_EW x opposite_z1_NS": 4
+  }
+ },
+ "z1_hv_same_height_pairs": 300,
+ "adjacent_related_events": 3680,
+ "adjacent_related_pairs": 3680,
+ "adjacent_arc_events": 1404,
+ "adjacent_line_events": 2276,
+ "opposite_opposite_events": 272,
+ "transitions": 1052,
+ "total_length_mm": 97212.1306,
+ "fabrication_hours": 27.0034,
+ "layer_route_counts": {
+  "1": 498,
+  "2": 112,
+  "3": 232,
+  "4": 104,
+  "5": 78
+ },
+ "layer_usage": {
+  "2": {
+   "z": 0.65,
+   "routes": 112,
+   "segments": 112
+  },
+  "3": {
+   "z": 0.8,
+   "routes": 232,
+   "segments": 232
+  },
+  "4": {
+   "z": 0.95,
+   "routes": 104,
+   "segments": 104
+  },
+  "5": {
+   "z": 1.1,
+   "routes": 78,
+   "segments": 78
+  },
+  "6": {
+   "z": 1.25,
+   "routes": 0,
+   "segments": 0
+  },
+  "7": {
+   "z": 1.4,
+   "routes": 0,
+   "segments": 0
+  }
+ },
+ "l6_route_count": 0,
+ "l7_route_count": 0,
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "validation_exploratory_pass": true,
+ "n_violations": 0,
+ "per_layer": {
+  "0.65": 112,
+  "0.8": 232,
+  "0.95": 104,
+  "1.1": 78,
+  "1.25": 0,
+  "1.4": 0
+ },
+ "save_seconds": 11.42,
+ "note": "C1: Z1-only refinement; Z2 geometry identical to BASE",
+ "c1_lifted_pairs": [
+  {
+   "pair_id": "1_EW",
+   "layer": 2,
+   "a_in": 56.0,
+   "a_out": 56.0,
+   "delta": [
+    -72,
+    112.0
+   ],
+   "route_ids": [
+    2,
+    211
+   ]
+  },
+  {
+   "pair_id": "1_NS",
+   "layer": 3,
+   "a_in": 60.0,
+   "a_out": 60.0,
+   "delta": [
+    -40,
+    120.0
+   ],
+   "route_ids": [
+    1,
+    212
+   ]
+  },
+  {
+   "pair_id": "36_EW",
+   "layer": 2,
+   "a_in": 64.0,
+   "a_out": 64.0,
+   "delta": [
+    -40,
+    128.0
+   ],
+   "route_ids": [
+    84,
+    281
+   ]
+  },
+  {
+   "pair_id": "36_NS",
+   "layer": 3,
+   "a_in": 65.0,
+   "a_out": 65.0,
+   "delta": [
+    -36,
+    130.0
+   ],
+   "route_ids": [
+    55,
+    282
+   ]
+  },
+  {
+   "pair_id": "40_EW",
+   "layer": 2,
+   "a_in": 62.0,
+   "a_out": 62.0,
+   "delta": [
+    -36,
+    124.0
+   ],
+   "route_ids": [
+    73,
+    289
+   ]
+  },
+  {
+   "pair_id": "40_NS",
+   "layer": 3,
+   "a_in": 60.0,
+   "a_out": 60.0,
+   "delta": [
+    -32,
+    120.0
+   ],
+   "route_ids": [
+    59,
+    290
+   ]
+  },
+  {
+   "pair_id": "41_EW",
+   "layer": 2,
+   "a_in": 54.0,
+   "a_out": 54.0,
+   "delta": [
+    -60,
+    108.0
+   ],
+   "route_ids": [
+    74,
+    291
+   ]
+  },
+  {
+   "pair_id": "41_NS",
+   "layer": 3,
+   "a_in": 54.0,
+   "a_out": 54.0,
+   "delta": [
+    -28,
+    108.0
+   ],
+   "route_ids": [
+    60,
+    292
+   ]
+  },
+  {
+   "pair_id": "42_EW",
+   "layer": 2,
+   "a_in": 62.0,
+   "a_out": 62.0,
+   "delta": [
+    -28,
+    124.0
+   ],
+   "route_ids": [
+    75,
+    293
+   ]
+  },
+  {
+   "pair_id": "42_NS",
+   "layer": 3,
+   "a_in": 54.0,
+   "a_out": 54.0,
+   "delta": [
+    -24,
+    108.0
+   ],
+   "route_ids": [
+    61,
+    294
+   ]
+  },
+  {
+   "pair_id": "43_EW",
+   "layer": 2,
+   "a_in": 62.0,
+   "a_out": 62.0,
+   "delta": [
+    -24,
+    124.0
+   ],
+   "route_ids": [
+    76,
+    295
+   ]
+  },
+  {
+   "pair_id": "43_NS",
+   "layer": 3,
+   "a_in": 61.0,
+   "a_out": 61.0,
+   "delta": [
+    -20,
+    122.0
+   ],
+   "route_ids": [
+    62,
+    296
+   ]
+  },
+  {
+   "pair_id": "44_EW",
+   "layer": 2,
+   "a_in": 63.0,
+   "a_out": 63.0,
+   "delta": [
+    -20,
+    126.0
+   ],
+   "route_ids": [
+    77,
+    297
+   ]
+  },
+  {
+   "pair_id": "44_NS",
+   "layer": 3,
+   "a_in": 62.0,
+   "a_out": 62.0,
+   "delta": [
+    -16,
+    124.0
+   ],
+   "route_ids": [
+    63,
+    298
+   ]
+  },
+  {
+   "pair_id": "46_EW",
+   "layer": 2,
+   "a_in": 64.0,
+   "a_out": 64.0,
+   "delta": [
+    -16,
+    128.0
+   ],
+   "route_ids": [
+    79,
+    301
+   ]
+  },
+  {
+   "pair_id": "46_NS",
+   "layer": 3,
+   "a_in": 63.0,
+   "a_out": 63.0,
+   "delta": [
+    -12,
+    126.0
+   ],
+   "route_ids": [
+    65,
+    302
+   ]
+  },
+  {
+   "pair_id": "47_EW",
+   "layer": 2,
+   "a_in": 65.0,
+   "a_out": 65.0,
+   "delta": [
+    -12,
+    130.0
+   ],
+   "route_ids": [
+    80,
+    303
+   ]
+  },
+  {
+   "pair_id": "47_NS",
+   "layer": 3,
+   "a_in": 63.0,
+   "a_out": 63.0,
+   "delta": [
+    -8,
+    126.0
+   ],
+   "route_ids": [
+    66,
+    304
+   ]
+  },
+  {
+   "pair_id": "48_EW",
+   "layer": 2,
+   "a_in": 65.0,
+   "a_out": 65.0,
+   "delta": [
+    -8,
+    130.0
+   ],
+   "route_ids": [
+    81,
+    305
+   ]
+  },
+  {
+   "pair_id": "48_NS",
+   "layer": 3,
+   "a_in": 63.0,
+   "a_out": 63.0,
+   "delta": [
+    -4,
+    126.0
+   ],
+   "route_ids": [
+    67,
+    306
+   ]
+  },
+  {
+   "pair_id": "49_EW",
+   "layer": 2,
+   "a_in": 52.0,
+   "a_out": 52.0,
+   "delta": [
+    -32,
+    104.0
+   ],
+   "route_ids": [
+    82,
+    307
+   ]
+  },
+  {
+   "pair_id": "113_NS",
+   "layer": 3,
+   "a_in": 60.0,
+   "a_out": 60.0,
+   "delta": [
+    -32,
+    120.0
+   ],
+   "route_ids": [
+    163,
+    482
+   ]
+  },
+  {
+   "pair_id": "114_NS",
+   "layer": 4,
+   "a_in": 56.0,
+   "a_out": 56.0,
+   "delta": [
+    -32,
+    112.0
+   ],
+   "route_ids": [
+    164,
+    484
+   ]
+  },
+  {
+   "pair_id": "115_NS",
+   "layer": 5,
+   "a_in": 54.0,
+   "a_out": 54.0,
+   "delta": [
+    -32,
+    108.0
+   ],
+   "route_ids": [
+    165,
+    486
+   ]
+  },
+  {
+   "pair_id": "116_NS",
+   "layer": 4,
+   "a_in": 60.0,
+   "a_out": 60.0,
+   "delta": [
+    -32,
+    120.0
+   ],
+   "route_ids": [
+    166,
+    488
+   ]
+  },
+  {
+   "pair_id": "117_NS",
+   "layer": 5,
+   "a_in": 44.0,
+   "a_out": 44.0,
+   "delta": [
+    -32,
+    88.0
+   ],
+   "route_ids": [
+    167,
+    490
+   ]
+  },
+  {
+   "pair_id": "118_NS",
+   "layer": 5,
+   "a_in": 44.0,
+   "a_out": 44.0,
+   "delta": [
+    -32,
+    88.0
+   ],
+   "route_ids": [
+    168,
+    492
+   ]
+  },
+  {
+   "pair_id": "119_NS",
+   "layer": 5,
+   "a_in": 46.0,
+   "a_out": 46.0,
+   "delta": [
+    -32,
+    92.0
+   ],
+   "route_ids": [
+    169,
+    494
+   ]
+  }
+ ],
+ "c1_failed_pairs": [
+  "49_NS"
+ ],
+ "c1_flat_pair_count": 1,
+ "z1_stubs": {
+  "n_routes_with_stub": 200,
+  "max_stub": 150.0,
+  "stub_hist": {
+   "60": 36,
+   "50": 124,
+   "90": 2,
+   "20": 28,
+   "10": 4,
+   "40": 6
+  }
+ }
+}
