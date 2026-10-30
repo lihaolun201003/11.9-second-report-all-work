@@ -1,0 +1,50 @@
+{
+ "routed": 1024,
+ "unique_crossing_pairs": 13920,
+ "crossing_pairs_by_height": {
+  "0.0": 12912,
+  "0.5": 1008,
+  "0.65": 0,
+  "0.8": 0,
+  "0.95": 0,
+  "1.1": 0
+ },
+ "crossing_breakdown_by_height": {
+  "0.0": {
+   "adjacent x opposite_z1_NS": 3312,
+   "adjacent x opposite_z1_EW": 1264,
+   "opposite_z1_NS x same_U": 1024,
+   "opposite_z1_EW x opposite_z1_NS": 7824
+  },
+  "0.5": {
+   "adjacent x opposite_z2_NS": 496,
+   "adjacent x opposite_z2_EW": 496,
+   "opposite_z2_EW x opposite_z2_NS": 16
+  },
+  "0.65": {},
+  "0.8": {},
+  "0.95": {},
+  "1.1": {}
+ },
+ "z1_hv_same_height_pairs": 7824,
+ "transitions": 784,
+ "total_length_mm": 97192.4605,
+ "layer_counts": {
+  "0.0": 512,
+  "0.5": 512
+ },
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "validation_exploratory_pass": true,
+ "max_layer": 5
+}

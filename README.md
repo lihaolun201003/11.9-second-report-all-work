@@ -96,3 +96,16 @@
 ---
 
 *整理日期：2026-10-28（2026-10-30 补充实验数据）*
+
+---
+
+## 七、Z1 多层 / 边缘 / 拓扑优化实验数据（2026-10-30 补充）
+
+新增以下实验目录（均基于 150 µm 层栈：Z1=0、Z2=0.5、L2=0.65 起、层距 0.15 mm）：
+
+- [z1_multilayer_150um](experiments/z1_multilayer_150um/README.md)：5L 基线 + 5/7/9/11L Z1 优化；五组均 1024/1024、3D violations=0。全局交叉：5L 基线 13,920；5L 优化 12,000；7L 11,984；9L 12,360；11L 12,240。
+- [z1_edge_optimization](experiments/z1_edge_optimization/experiment_report.md)：7L 边缘交叉专项；全局 11,984→6,078（−40.9%），Z1 10,976→5,256（−52.1%），Z1 横纵 5,888→1,092。
+- [z1_topology_global_7L](experiments/z1_topology_global_7L/experiment_report.md)：7L 全局层分配 + 邻边拓扑 A/B/C/D 实验；四组均未找到优于 6,078 的合法方案，最佳仍为 6,078（1024/1024、violations=0）。结果诚实记录：邻边 0.125 mm 引出段无法容纳 ≥6.2 mm 的 S 升降，直接抬层产生违规；替代多段圆弧拓扑在板边/R15/端口切向下未找到合法解。
+- `experiments/code_z1/`：新增实验代码（150 µm 层栈、交叉溯源、联合重布、多层验证器副本）。
+
+> 说明：以上均为真实重新生成的 1024 条 XYZ 结果，不是只改层标签；验证状态为 `exploratory_only`（层高仍为未确认仿真参数）。

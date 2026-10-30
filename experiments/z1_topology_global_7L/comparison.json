@@ -1,0 +1,81 @@
+{
+ "rows": [
+  {
+   "experiment": "BASE",
+   "global_unique": 6078,
+   "z1": 5256,
+   "z2": 752,
+   "z1_hv": 1092,
+   "adjacent": 3680,
+   "adjacent_line": 2276,
+   "transitions": 940,
+   "length": 97205.1808,
+   "hours": 27.0014,
+   "L6": 0,
+   "L7": 0,
+   "violations": 0
+  },
+  {
+   "experiment": "A 全局开放层",
+   "global_unique": 6078,
+   "z1": 5256,
+   "z2": 752,
+   "z1_hv": 1092,
+   "adjacent": 3680,
+   "adjacent_line": 2276,
+   "transitions": 940,
+   "length": 97205.1808,
+   "hours": 27.0014,
+   "L6": 0,
+   "L7": 0,
+   "violations": 0
+  },
+  {
+   "experiment": "B 邻边拓扑",
+   "global_unique": 6078,
+   "z1": 5256,
+   "z2": 752,
+   "z1_hv": 1092,
+   "adjacent": 3680,
+   "adjacent_line": 2276,
+   "transitions": 940,
+   "length": 97205.1808,
+   "hours": 27.0014,
+   "L6": 0,
+   "L7": 0,
+   "violations": 0
+  },
+  {
+   "experiment": "C 联合优化",
+   "global_unique": 6078,
+   "z1": 5256,
+   "z2": 752,
+   "z1_hv": 1092,
+   "adjacent": 3680,
+   "adjacent_line": 2276,
+   "transitions": 940,
+   "length": 97205.1808,
+   "hours": 27.0014,
+   "L6": 0,
+   "L7": 0,
+   "violations": 0
+  },
+  {
+   "experiment": "D 局部重布",
+   "global_unique": 6078,
+   "z1": 5256,
+   "z2": 752,
+   "z1_hv": 1092,
+   "adjacent": 3680,
+   "adjacent_line": 2276,
+   "transitions": 940,
+   "length": 97205.1808,
+   "hours": 27.0014,
+   "L6": 0,
+   "L7": 0,
+   "violations": 0
+  }
+ ],
+ "base": 6078,
+ "note": "A/B/C/D did not find a valid improvement; remaining crossings are interface-level adjacent/U structures"
+}

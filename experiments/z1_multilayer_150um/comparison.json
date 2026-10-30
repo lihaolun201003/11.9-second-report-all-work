@@ -1,0 +1,102 @@
+{
+ "5L 基线": {
+  "unique_crossing_pairs": 13920,
+  "z1_hv": 7824,
+  "transitions": 784,
+  "length_mm": 97192.4605,
+  "fabrication_hours": 26.9979,
+  "max_layer": 5,
+  "validation": "exploratory_only",
+  "counts": {
+   "violations": 0,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 0,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  }
+ },
+ "optimized_5L": {
+  "unique_crossing_pairs": 12000,
+  "z1_hv": 5904,
+  "transitions": 848,
+  "length_mm": 97201.0794,
+  "fabrication_hours": 27.0003,
+  "max_layer": 5,
+  "validation": "exploratory_only",
+  "counts": {
+   "violations": 0,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 0,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  }
+ },
+ "optimized_7L": {
+  "unique_crossing_pairs": 11984,
+  "z1_hv": 5888,
+  "transitions": 848,
+  "length_mm": 97203.7012,
+  "fabrication_hours": 27.001,
+  "max_layer": 7,
+  "validation": "exploratory_only",
+  "counts": {
+   "violations": 0,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 0,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  }
+ },
+ "optimized_9L": {
+  "unique_crossing_pairs": 12360,
+  "z1_hv": 6264,
+  "transitions": 836,
+  "length_mm": 97206.2779,
+  "fabrication_hours": 27.0017,
+  "max_layer": 9,
+  "validation": "exploratory_only",
+  "counts": {
+   "violations": 0,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 0,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  }
+ },
+ "optimized_11L": {
+  "unique_crossing_pairs": 12240,
+  "z1_hv": 6144,
+  "transitions": 840,
+  "length_mm": 97215.9393,
+  "fabrication_hours": 27.0044,
+  "max_layer": 11,
+  "validation": "exploratory_only",
+  "counts": {
+   "violations": 0,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 0,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  }
+ }
+}

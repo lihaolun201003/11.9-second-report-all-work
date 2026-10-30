@@ -1,0 +1,6 @@
+﻿experiment,global_unique_pairs,z1_hv_pairs,transitions,length_mm,fabrication_s,fabrication_h,max_layer,validation,violations
+5L 基线,13920,7824,784,97192.4605,97192.4605,26.9979,5,exploratory_only,0
+optimized_5L,12000,5904,848,97201.0794,97201.0794,27.0003,5,exploratory_only,0
+optimized_7L,11984,5888,848,97203.7012,97203.7012,27.001,7,exploratory_only,0
+optimized_9L,12360,6264,836,97206.2779,97206.2779,27.0017,9,exploratory_only,0
+optimized_11L,12240,6144,840,97215.9393,97215.9393,27.0044,11,exploratory_only,0

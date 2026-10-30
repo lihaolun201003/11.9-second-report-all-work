@@ -1,0 +1,67 @@
+{
+ "routed": 1024,
+ "unique_crossing_pairs": 6078,
+ "crossing_pairs_by_height": {
+  "0.0": 5256,
+  "0.5": 752,
+  "0.65": 0,
+  "0.8": 42,
+  "0.95": 24,
+  "1.1": 4
+ },
+ "crossing_breakdown_by_height": {
+  "0.0": {
+   "adjacent x opposite_z1_EW": 368,
+   "adjacent x opposite_z1_NS": 3312,
+   "opposite_z1_NS x same_U": 1024,
+   "opposite_z1_EW x opposite_z1_NS": 1064
+  },
+  "0.5": {
+   "adjacent x opposite_z2_NS": 368,
+   "adjacent x opposite_z2_EW": 368,
+   "opposite_z2_EW x opposite_z2_NS": 16
+  },
+  "0.65": {},
+  "0.8": {
+   "opposite_z1_NS x same_U": 84
+  },
+  "0.95": {
+   "opposite_z1_EW x opposite_z1_NS": 24
+  },
+  "1.1": {
+   "opposite_z1_EW x opposite_z1_NS": 4
+  }
+ },
+ "z1_hv_same_height_pairs": 1092,
+ "transitions": 940,
+ "total_length_mm": 97205.1808,
+ "layer_counts": {
+  "0.0": 512,
+  "0.5": 512
+ },
+ "fallback_pairs": 29,
+ "z1_layer_counts": {
+  "3": 41,
+  "2": 45,
+  "4": 14,
+  "5": 3
+ },
+ "fixed_routes": 752,
+ "z2_opposite_routes": 8,
+ "z1_routes": 264,
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "validation_exploratory_pass": true,
+ "runtime_seconds": 46.1,
+ "max_layer": 7
+}

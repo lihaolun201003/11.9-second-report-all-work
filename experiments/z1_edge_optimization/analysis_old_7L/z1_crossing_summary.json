@@ -1,0 +1,41 @@
+{
+ "plane_z": 0.0,
+ "total_unique_pairs": 10976,
+ "total_events": 11488,
+ "category_events": {
+  "adjacent x opposite": 4576,
+  "opposite x same": 1024,
+  "opposite x opposite": 5888
+ },
+ "category_pairs": {
+  "adjacent x opposite": 4576,
+  "opposite x same": 512,
+  "opposite x opposite": 5888
+ },
+ "geometry_by_category": {
+  "adjacent x opposite | arc x line": 2300,
+  "adjacent x opposite | line x line": 2276,
+  "opposite x same | line x line": 1024,
+  "opposite x opposite | line x line": 5888
+ },
+ "region_by_category": {
+  "adjacent x opposite | port_lead": 1976,
+  "adjacent x opposite | edge_lead": 2600,
+  "opposite x same | edge_lead": 1024,
+  "opposite x opposite | edge_lead": 3824,
+  "opposite x opposite | port_lead": 1296,
+  "opposite x opposite | central_trunk": 768
+ },
+ "adjacent_events": 4576,
+ "adjacent_pairs": 4576,
+ "adjacent_geometry": {
+  "arc x line": 2300,
+  "line x line": 2276
+ },
+ "adjacent_regions": {
+  "port_lead": 1976,
+  "edge_lead": 2600
+ },
+ "adjacent_arc_events": 2300,
+ "adjacent_line_events": 2276
+}
