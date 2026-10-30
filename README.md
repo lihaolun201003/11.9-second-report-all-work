@@ -164,3 +164,57 @@
 > 仓库仅收录结果、代码与图件，不改变本地实验输出；`_e1a_diagnosis_cache.pkl` 等
 > 可再生成缓存未上传。
 
+---
+
+## 九、C4-SYMMETRIC：1024 通道严格四元旋转对称多层三维布线（2026-10-31 补充）
+
+新增 `experiments/c4_symmetric_multilayer/`：在 **严格 C4 旋转对称**约束下
+（`R(x,y,z) = (150-y, x, z)`，z 不变，256 个连接 group 即 256 个 C4 轨道），
+把布线层数作为可优化变量（7 / 9 / 11 / 13 层），联合优化四元组层分配、
+S 型升降窗口与 Z1/Z2 协同避让。
+
+- 说明文档：[experiment_report.md](experiments/c4_symmetric_multilayer/experiment_report.md)；
+  技术报告 [c4_symmetric_multilayer.md](docs/reports/c4_symmetric_multilayer.md)；
+  代码 [experiments/code_c4/](experiments/code_c4/README.md)。
+- 每组完整方案含 `routes_1024.json`（真实 XYZ）、`summary.json`、`validation.json`、
+  `c4_validation.json`（独立 C4 验证器）、`per_route.csv`、`per_layer.csv`、
+  `search_log.json`、`figures/`（10 张强制图：01_overall_3d、02_overall_xy、
+  03_c4_four_orbits、04_c4_rotation_overlay、05_layer_usage、
+  06_all_layers_contact_sheet、07_crossing_hotspots、08_before_after、
+  09_transitions_3d、10_c4_validation）。
+
+| 方案 | 层数 | 全局唯一交叉 | 相对 E1(3,594) | Z1 | Z2 | 高层 | 升降段 | 加工时间(h) | C4 通过 | violations |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---:|
+| C4-BASE（仅对称、不优化） | 7 | 42,584 | +38,990 | 29,376 | 13,208 | 0 | 0 | 27.0662 | True | 0 |
+| C4-7L | 7 | 30,620 | +27,026 | 29,376 | 1,116 | 128 | 784 | 27.0692 | True | 0 |
+| **C4-9L（最优）** | 9 | **30,556** | +26,962 | 25,828 | 4,652 | 76 | 456 | 27.0758 | True | 0 |
+| C4-11L | 11 | 31,464 | +27,870 | 26,436 | 4,972 | 56 | 432 | 27.0757 | True | 0 |
+| C4-13L | 13 | 30,936 | +27,342 | 25,824 | 5,052 | 60 | 440 | 27.0768 | True | 0 |
+
+关键结论（真实运行、真实验证）：
+
+- **E1 最优 3,594 不是严格 C4 的**。独立 C4 验证器审计 E1 best_solution：
+  `symmetry_pass = False`，61 / 256 个轨道层分配不一致、64 个轨道升降段参数不一致、
+  64 个轨道几何不一致，最大 XYZ 偏差 1.1 mm（全部集中在 z1-opposite 轨道）。
+- **严格 C4 的代价是量级性的**：本实现的最优严格 C4 结果为 C4-9L 的 30,556，
+  约为 E1 非对称结果的 8.5 倍。原因不是搜索不足，而是约束结构：z1 对边轨道由
+  2 条东西向 + 2 条南北向直线组成，C4 要求四条同层；同层时轨道内部必交（4 个），
+  两条轨道同层还成组相交（8 个），因此每层交叉随"每层轨道数平方"增长，
+  层数收益上限被锁死。
+- **层数不是越多越好**：7L=30,620、9L=30,556、11L=31,464、13L=30,936，
+  差异仅 ~3%。新增层同时被 Z2 线束与 z1 轨道争夺，且更高层的 S 型升降足迹更大
+  （L13 约 11.5 mm），3D 净空约束更紧，抵消了分层收益。
+- **抬升轨道数受限**：低交叉搜索候选在冻结验证器的严格三维净空（稠密采样）下
+  会出现数百个 marginal clearance 违规，整轨道回退到接口层后 violations=0
+  （回退 116–119 / 256 个轨道，清单见各 `summary.json` 的
+  `repair_reverted_orbit_ids`）。残余交叉主要来自未抬升的 z1 对边轨道在接口层。
+- **邻边波导仍不可整条抬升**：0.125 mm 直线引出段 vs L2 需 6.2 mm（L13 需 11.5 mm）
+  S 型足迹，层数增加只会让足迹更大——与 E1 结论一致。
+- 全部方案 1024/1024 布通、冻结验证器 violations = 0（contract/port/geometry/
+  curvature/clearance/same-plane/self-clearance 全 0），独立 C4 验证器
+  `symmetry_pass = True`、最大 XYZ 偏差 ~4e-14 mm；层高仍为
+  `unconfirmed_simulation` 研究仿真假设。
+
+> 数据来源：本地 `OpticalWaveguideRouter2D/outputs/manual_c4_new_connectivity/c4_symmetric_multilayer/`；
+> 仓库仅收录结果、代码与图件，不改变本地实验输出。
+

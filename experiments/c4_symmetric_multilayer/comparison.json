@@ -1,0 +1,90 @@
+{
+ "rows": [
+  {
+   "experiment": "C4-BASE",
+   "layers": 7,
+   "unique_crossing_pairs": 42584,
+   "z1_crossing_pairs": 29376,
+   "z2_crossing_pairs": 13208,
+   "high_layer_crossing_pairs": 0,
+   "transitions": 0,
+   "total_length_mm": 97438.4405,
+   "fabrication_hours": 27.0662,
+   "max_z_mm": 0.0,
+   "c4_symmetry_pass": true,
+   "max_xyz_deviation_mm": 2.842170943040401e-14,
+   "violations": 0,
+   "routed": 1024
+  },
+  {
+   "experiment": "C4-7L",
+   "layers": 7,
+   "unique_crossing_pairs": 30620,
+   "z1_crossing_pairs": 29376,
+   "z2_crossing_pairs": 1116,
+   "high_layer_crossing_pairs": 128,
+   "transitions": 784,
+   "total_length_mm": 97449.088,
+   "fabrication_hours": 27.0692,
+   "max_z_mm": 1.4,
+   "c4_symmetry_pass": true,
+   "max_xyz_deviation_mm": 2.842170943040401e-14,
+   "violations": 0,
+   "routed": 1024
+  },
+  {
+   "experiment": "C4-9L",
+   "layers": 9,
+   "unique_crossing_pairs": 30556,
+   "z1_crossing_pairs": 25828,
+   "z2_crossing_pairs": 4652,
+   "high_layer_crossing_pairs": 76,
+   "transitions": 456,
+   "total_length_mm": 97472.7625,
+   "fabrication_hours": 27.0758,
+   "max_z_mm": 1.7,
+   "c4_symmetry_pass": true,
+   "max_xyz_deviation_mm": 4.263256414560601e-14,
+   "violations": 0,
+   "routed": 1024
+  },
+  {
+   "experiment": "C4-11L",
+   "layers": 11,
+   "unique_crossing_pairs": 31464,
+   "z1_crossing_pairs": 26436,
+   "z2_crossing_pairs": 4972,
+   "high_layer_crossing_pairs": 56,
+   "transitions": 432,
+   "total_length_mm": 97472.4008,
+   "fabrication_hours": 27.0757,
+   "max_z_mm": 2.0,
+   "c4_symmetry_pass": true,
+   "max_xyz_deviation_mm": 4.263256414560601e-14,
+   "violations": 0,
+   "routed": 1024
+  },
+  {
+   "experiment": "C4-13L",
+   "layers": 13,
+   "unique_crossing_pairs": 30936,
+   "z1_crossing_pairs": 25824,
+   "z2_crossing_pairs": 5052,
+   "high_layer_crossing_pairs": 60,
+   "transitions": 440,
+   "total_length_mm": 97476.4377,
+   "fabrication_hours": 27.0768,
+   "max_z_mm": 2.3,
+   "c4_symmetry_pass": true,
+   "max_xyz_deviation_mm": 4.263256414560601e-14,
+   "violations": 0,
+   "routed": 1024
+  }
+ ],
+ "ablation": [],
+ "e1_reference": {
+  "experiment": "E1-BASE (asymmetric)",
+  "layers": 7,
+  "unique_crossing_pairs": 3594
+ }
+}

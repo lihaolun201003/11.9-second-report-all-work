@@ -1,0 +1,12 @@
+{
+ "experiment": "C4-BASE",
+ "log": [
+  "[c4-engine] loaded 91536 cached events",
+  "orbits=256 kinds={('z1', 'opposite'): 66, ('z1', 'same'): 16, ('z1', 'adjacent'): 46, ('z2', 'adjacent'): 78, ('z2', 'same'): 48, ('z2', 'opposite'): 2}",
+  "[C4-BASE flat] unique=42584 z1=29376 z2=13208",
+  "[C4-BASE] frozen validation 4.7s status=exploratory_only counts={'violations': 0, 'contract_errors': 0, 'port_errors': 0, 'geometry_errors': 0, 'curvature_violations': 0, 'clearance_violations': 0, 'same_plane_violations': 0, 'self_clearance_violations': 0, 'other_errors': 0}"
+ ],
+ "extra": {
+  "note": "strict C4 interface-only baseline (ablation A: symmetry only, no 3D lifting optimisation)"
+ }
+}

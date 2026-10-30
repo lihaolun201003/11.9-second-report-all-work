@@ -1,0 +1,74 @@
+{
+ "experiment": "C4-BASE",
+ "routed": 1024,
+ "unique_crossing_pairs": 42584,
+ "z1_crossing_pairs": 29376,
+ "z2_crossing_pairs": 13208,
+ "high_layer_crossing_pairs": 0,
+ "z1_hv_pairs": 17424,
+ "adjacent_related_events": 6624,
+ "adjacent_line_events": 4294,
+ "adjacent_arc_events": 2330,
+ "opposite_opposite_events": 17424,
+ "transitions": 0,
+ "total_length_mm": 97438.4405,
+ "fabrication_hours": 27.0662,
+ "max_z_mm": 0.0,
+ "layer_usage": {
+  "2": {
+   "z": 0.65,
+   "routes": 0,
+   "segments": 0
+  },
+  "3": {
+   "z": 0.8,
+   "routes": 0,
+   "segments": 0
+  },
+  "4": {
+   "z": 0.95,
+   "routes": 0,
+   "segments": 0
+  },
+  "5": {
+   "z": 1.1,
+   "routes": 0,
+   "segments": 0
+  },
+  "6": {
+   "z": 1.25,
+   "routes": 0,
+   "segments": 0
+  },
+  "7": {
+   "z": 1.4,
+   "routes": 0,
+   "segments": 0
+  }
+ },
+ "per_height": {
+  "0.0": 29376,
+  "0.5": 13208
+ },
+ "max_layer": 7,
+ "layer_stack_max": 1.4,
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "n_violations": 0,
+ "provenance": "unconfirmed_simulation",
+ "note": "strict C4 interface-only baseline (ablation A: symmetry only, no 3D lifting optimisation)",
+ "c4_symmetry": {
+  "pass_": true,
+  "max_xyz_deviation_mm": 2.842170943040401e-14
+ }
+}

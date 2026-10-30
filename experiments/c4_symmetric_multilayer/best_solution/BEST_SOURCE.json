@@ -1,0 +1,20 @@
+{
+ "source_experiment": "C4-9L",
+ "layer_total": 9,
+ "summary": {
+  "experiment": "C4-9L",
+  "layers": 9,
+  "unique_crossing_pairs": 30556,
+  "z1_crossing_pairs": 25828,
+  "z2_crossing_pairs": 4652,
+  "high_layer_crossing_pairs": 76,
+  "transitions": 456,
+  "total_length_mm": 97472.7625,
+  "fabrication_hours": 27.0758,
+  "max_z_mm": 1.7,
+  "c4_symmetry_pass": true,
+  "max_xyz_deviation_mm": 4.263256414560601e-14,
+  "violations": 0,
+  "routed": 1024
+ }
+}
