@@ -1,0 +1,117 @@
+{
+ "variants": [
+  {
+   "name": "best",
+   "assignment": {
+    "0": 3,
+    "1": 3,
+    "2": 4,
+    "3": 5
+   },
+   "unique_crossing_pairs": 12960,
+   "transitions": 784,
+   "length": 98736.0862,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\best"
+  },
+  {
+   "name": "greedy",
+   "assignment": {
+    "0": 2,
+    "1": 3,
+    "2": 3,
+    "3": 3
+   },
+   "unique_crossing_pairs": 14104,
+   "transitions": 784,
+   "length": 98422.0329,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\greedy"
+  },
+  {
+   "name": "alt_c0L2_c1L3_c2L4_c3L5",
+   "assignment": {
+    "0": 2,
+    "1": 3,
+    "2": 4,
+    "3": 5
+   },
+   "unique_crossing_pairs": 13080,
+   "transitions": 784,
+   "length": 98606.9579,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\alt_c0L2_c1L3_c2L4_c3L5"
+  },
+  {
+   "name": "alt_c0L2_c1L3_c2L5_c3L4",
+   "assignment": {
+    "0": 2,
+    "1": 3,
+    "2": 5,
+    "3": 4
+   },
+   "unique_crossing_pairs": 13080,
+   "transitions": 784,
+   "length": 98606.9579,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\alt_c0L2_c1L3_c2L5_c3L4"
+  },
+  {
+   "name": "alt_c0L2_c1L4_c2L3_c3L5",
+   "assignment": {
+    "0": 2,
+    "1": 4,
+    "2": 3,
+    "3": 5
+   },
+   "unique_crossing_pairs": 13080,
+   "transitions": 784,
+   "length": 98006.9579,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\alt_c0L2_c1L4_c2L3_c3L5"
+  },
+  {
+   "name": "alt_c0L2_c1L4_c2L5_c3L3",
+   "assignment": {
+    "0": 2,
+    "1": 4,
+    "2": 5,
+    "3": 3
+   },
+   "unique_crossing_pairs": 13080,
+   "transitions": 784,
+   "length": 98606.9579,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\alt_c0L2_c1L4_c2L5_c3L3"
+  },
+  {
+   "name": "alt_c0L2_c1L5_c2L3_c3L4",
+   "assignment": {
+    "0": 2,
+    "1": 5,
+    "2": 3,
+    "3": 4
+   },
+   "unique_crossing_pairs": 13080,
+   "transitions": 784,
+   "length": 98004.5579,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\alt_c0L2_c1L5_c2L3_c3L4"
+  },
+  {
+   "name": "alt_c0L2_c1L5_c2L4_c3L3",
+   "assignment": {
+    "0": 2,
+    "1": 5,
+    "2": 4,
+    "3": 3
+   },
+   "unique_crossing_pairs": 13080,
+   "transitions": 784,
+   "length": 98194.9579,
+   "min3d": null,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\auto_u_bundle_hybrid\\variants\\alt_c0L2_c1L5_c2L4_c3L3"
+  }
+ ],
+ "seconds": 286.3
+}

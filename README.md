@@ -76,4 +76,23 @@
 
 ---
 
-*整理日期：2026-10-28*
+---
+
+## 六、1024 通道三维布线实验数据（2026-10-30 补充）
+
+新增 `experiments/auto_u_bundle_hybrid/`：仅收录 2026-10-30 开始的「Hybrid 基线上自动 U 分组 + 自动层分配」实验数据（此前的 Structured/Spatial/Hybrid 等方案数据不在此仓库）：
+
+- [Auto U 实验说明](experiments/auto_u_bundle_hybrid/README.md)：自动分组 + 自动层分配实验；代码在 `experiments/auto_u_bundle_hybrid/code/`；主结果 `routes_1024.json`（1024 条完整 XYZ）、`validation.json`、`summary.json`、`comparison.json`、8 个层分配变体与逐层图。
+
+关键结论（诚实版）：
+
+- 自动 k-means 分组（k=4）精确复现手动 BUNDLES 的 4 个 U 束（20–35 / 144–159 / 160–175 / 176–191）；
+- 自动层搜索最优解回到 L3/L3/L4/L5，1024/1024，全局唯一交叉 **12,960，与 Hybrid H 持平**，`PASS`；总长 98,736.09 mm（比 Hybrid +716.16 mm）；
+- 贪心初解 14,104，其他层排列均为 13,080；未找到优于 Hybrid 的自动分层；
+- 手动 Spatial U 的 12,824 来自 V2 基线（U 层 L2/L2/L3/L4），与 Hybrid 基线不可直接比较，且该层分配在 Hybrid 基线上不可行。
+
+> 数据来源：`OpticalWaveguideRouter2D/outputs/manual_c4_new_connectivity/`；仅上传结果、代码与图件，不改变本地实验输出。
+
+---
+
+*整理日期：2026-10-28（2026-10-30 补充实验数据）*
