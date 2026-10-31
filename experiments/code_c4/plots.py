@@ -1766,12 +1766,11 @@ def _figure_c4_vs_e1(path, rows, e1_row):
                        % (e1_name, _fmt_metric(e1_value)))
             ax.legend(fontsize=7.8, loc='best')
         ax.grid(alpha=0.15, axis='y')
-        ax.set_title(label, fontsize=10)
+        suffix = ('  (lower is better)'
+                  if key in ('unique_crossing_pairs', 'total_length_mm',
+                             'fabrication_hours') else '')
+        ax.set_title(label + suffix, fontsize=10)
         ax.set_ylabel(label, fontsize=8.5)
-        if key in ('unique_crossing_pairs', 'total_length_mm',
-                   'fabrication_hours'):
-            ax.text(0.01, 0.985, 'lower is better', transform=ax.transAxes,
-                    fontsize=7, va='top', color='#495057')
     fig.suptitle('C4 strict-symmetry multilayer study vs E1 asymmetric '
                  'reference (%s)\nHatched/dashed line = E1 reference value; '
                  'bars coloured by stack height' % e1_name, fontsize=10.6)
