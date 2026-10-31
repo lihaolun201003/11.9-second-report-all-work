@@ -1,0 +1,15 @@
+{
+ "schema": "four_side_1024_z2_strict_c4_validation_v1",
+ "scope": "Z2 subsystem only (Z1 asymmetric by design)",
+ "total_routes": 512,
+ "total_orbits": 128,
+ "orbit_size_errors": 0,
+ "endpoint_rotation_errors": 0,
+ "layer_symmetry_errors": 0,
+ "transition_symmetry_errors": 0,
+ "geometry_symmetry_errors": 0,
+ "maximum_xyz_deviation_mm": 2.842170943040401e-14,
+ "failed_orbits": [],
+ "symmetry_pass": true,
+ "validator": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\.\\four_side_1024\\f123\\core.py"
+}

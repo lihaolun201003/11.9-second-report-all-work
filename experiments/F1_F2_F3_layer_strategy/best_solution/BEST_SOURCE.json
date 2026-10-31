@@ -1,0 +1,10 @@
+{
+ "source_experiment": "E1 baseline (asymmetric, 3,594)",
+ "reason": "no F1/F2/F3 scheme reached violations=0; E1 best_solution kept as the only fully validated 1024-route result",
+ "new_schemes": {
+  "F1": 9192,
+  "F2 initial": 10516,
+  "F2 local": 11697,
+  "F3": 9814
+ }
+}

@@ -1,0 +1,9 @@
+﻿z_mm,category_a,category_b,unique_crossing_pairs,crossing_events
+0.0,adjacent_z1,opposite_z1_EW,1564,1564
+0.0,adjacent_z1,opposite_z1_NS,3312,3312
+0.0,opposite_z1_EW,opposite_z1_NS,2244,2244
+0.0,opposite_z1_EW,same_u_z1,244,488
+0.0,opposite_z1_NS,same_u_z1,1680,1824
+0.65,opposite_z1_EW,same_u_z1,128,128
+0.8,same_u_z2,same_u_z2,4,8
+1.4,opposite_z2_EW,opposite_z2_NS,16,16

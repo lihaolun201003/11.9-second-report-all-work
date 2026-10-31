@@ -1,0 +1,4479 @@
+{
+ "schema": "four_side_1024_v2_l3d_validation_v1",
+ "validator": "four_side_1024.l3d.validate_l3d",
+ "routes_file": "<memory>",
+ "layer_stack_source": "embedded",
+ "layer_stack": {
+  "schema": "four_side_1024_v2_l3d_layer_stack_v1",
+  "provenance": "unconfirmed_simulation",
+  "note": "z1_multilayer_150um: 0.15 mm pitch above Z2=0.5; layers L2..L7",
+  "source": "embedded",
+  "valid": true,
+  "confirmed": false,
+  "height_defined": true,
+  "errors": [],
+  "warnings": [],
+  "layers": {
+   "1": {
+    "layer_id": 1,
+    "layer_type": "interface",
+    "physical_z_mm": null,
+    "interface_rows": {
+     "z1": 0.0,
+     "z2": 0.5
+    },
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "2": {
+    "layer_id": 2,
+    "layer_type": "routing",
+    "physical_z_mm": 0.65,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "3": {
+    "layer_id": 3,
+    "layer_type": "routing",
+    "physical_z_mm": 0.8,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "4": {
+    "layer_id": 4,
+    "layer_type": "routing",
+    "physical_z_mm": 0.95,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "5": {
+    "layer_id": 5,
+    "layer_type": "routing",
+    "physical_z_mm": 1.1,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "6": {
+    "layer_id": 6,
+    "layer_type": "routing",
+    "physical_z_mm": 1.25,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "7": {
+    "layer_id": 7,
+    "layer_type": "routing",
+    "physical_z_mm": 1.4,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "allowed_transitions": {
+   "1": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "2": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "3": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "4": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "5": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "6": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "7": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "physical_planes": [
+   {
+    "z_mm": 0.0,
+    "layer_ids": [
+     1
+    ],
+    "interface_row": "z1",
+    "label": "L1 row z1"
+   },
+   {
+    "z_mm": 0.5,
+    "layer_ids": [
+     1
+    ],
+    "interface_row": "z2",
+    "label": "L1 row z2"
+   },
+   {
+    "z_mm": 0.65,
+    "layer_ids": [
+     2
+    ],
+    "interface_row": null,
+    "label": "L2"
+   },
+   {
+    "z_mm": 0.8,
+    "layer_ids": [
+     3
+    ],
+    "interface_row": null,
+    "label": "L3"
+   },
+   {
+    "z_mm": 0.95,
+    "layer_ids": [
+     4
+    ],
+    "interface_row": null,
+    "label": "L4"
+   },
+   {
+    "z_mm": 1.1,
+    "layer_ids": [
+     5
+    ],
+    "interface_row": null,
+    "label": "L5"
+   },
+   {
+    "z_mm": 1.25,
+    "layer_ids": [
+     6
+    ],
+    "interface_row": null,
+    "label": "L6"
+   },
+   {
+    "z_mm": 1.4,
+    "layer_ids": [
+     7
+    ],
+    "interface_row": null,
+    "label": "L7"
+   }
+  ],
+  "reported_formal_acceptance_allowed": false
+ },
+ "formal_acceptance": false,
+ "exploratory_pass": false,
+ "geometry_pass": false,
+ "geometry_executed": true,
+ "status": "exploratory_only",
+ "exit_code": 1,
+ "allow_exploratory": true,
+ "counts": {
+  "violations": 220,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 220,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "stats": {
+  "routed": 1024,
+  "failed": 0,
+  "total": 1024,
+  "lifted": 564,
+  "flat_routes": 460,
+  "multi_transition_routes": 564,
+  "transition_count": 1128,
+  "interface_transition_count": 1128,
+  "intermediate_transition_count": 0,
+  "back_to_back_transition_count": 0,
+  "transition_pairs": {
+   "1->2": 115,
+   "2->1": 115,
+   "1->3": 149,
+   "3->1": 149,
+   "1->4": 53,
+   "4->1": 53,
+   "1->6": 151,
+   "6->1": 151,
+   "1->5": 88,
+   "5->1": 88,
+   "1->7": 8,
+   "7->1": 8
+  },
+  "layers_used_histogram": {
+   "1->2": 115,
+   "1->3": 149,
+   "1": 460,
+   "1->4": 53,
+   "1->6": 151,
+   "1->5": 88,
+   "1->7": 8
+  },
+  "transitions_histogram": {
+   "0": 460,
+   "2": 564
+  },
+  "flat_parts": 2152,
+  "flat_lines": 3360,
+  "flat_arcs": 1008,
+  "flat_arc_radius_values": [
+   15.0
+  ],
+  "transition_radius_values": [
+   15.0
+  ],
+  "total_length_mm": 96459.331244726,
+  "xy_length_mm": 96405.000461139,
+  "z_span_max_mm": 1.25,
+  "duplicate_route_ids": [],
+  "min_curvature_radius_mm": 14.999999965,
+  "curvature_routes_checked": 1024,
+  "same_plane_crossings": 10938,
+  "physical_planes": [
+   {
+    "z_mm": 0.0,
+    "layer_ids": [
+     1
+    ],
+    "interface_rows": [
+     "z1"
+    ],
+    "parts": 748,
+    "routes": 512,
+    "label": "L1"
+   },
+   {
+    "z_mm": 0.5,
+    "layer_ids": [
+     1
+    ],
+    "interface_rows": [
+     "z2"
+    ],
+    "parts": 840,
+    "routes": 512,
+    "label": "L1"
+   },
+   {
+    "z_mm": 0.65,
+    "layer_ids": [
+     2
+    ],
+    "interface_rows": [],
+    "parts": 115,
+    "routes": 115,
+    "label": "L2"
+   },
+   {
+    "z_mm": 0.8,
+    "layer_ids": [
+     3
+    ],
+    "interface_rows": [],
+    "parts": 149,
+    "routes": 149,
+    "label": "L3"
+   },
+   {
+    "z_mm": 0.95,
+    "layer_ids": [
+     4
+    ],
+    "interface_rows": [],
+    "parts": 53,
+    "routes": 53,
+    "label": "L4"
+   },
+   {
+    "z_mm": 1.1,
+    "layer_ids": [
+     5
+    ],
+    "interface_rows": [],
+    "parts": 88,
+    "routes": 88,
+    "label": "L5"
+   },
+   {
+    "z_mm": 1.25,
+    "layer_ids": [
+     6
+    ],
+    "interface_rows": [],
+    "parts": 151,
+    "routes": 151,
+    "label": "L6"
+   },
+   {
+    "z_mm": 1.4,
+    "layer_ids": [
+     7
+    ],
+    "interface_rows": [],
+    "parts": 8,
+    "routes": 8,
+    "label": "L7"
+   }
+  ],
+  "min_self_clearance_mm": null,
+  "declared_statistics": {},
+  "min_3d_clearance_mm": 0.0,
+  "min_3d_clearance_bound": "measured",
+  "sampling": {
+   "curvature_step_mm": 0.02,
+   "transition_step_mm": 0.02,
+   "flat_line_step_mm": 0.1,
+   "flat_arc_step_mm": 0.02,
+   "clearance_query_radius_mm": 0.18,
+   "curvature_limit_mm": 14.985,
+   "clearance_limit_mm": 0.08,
+   "clearance_tolerance_mm": 1e-07
+  }
+ },
+ "checks": {
+  "layer_stack": {
+   "schema": "four_side_1024_v2_l3d_layer_stack_v1",
+   "provenance": "unconfirmed_simulation",
+   "note": "z1_multilayer_150um: 0.15 mm pitch above Z2=0.5; layers L2..L7",
+   "source": "embedded",
+   "valid": true,
+   "confirmed": false,
+   "height_defined": true,
+   "errors": [],
+   "warnings": [],
+   "layers": {
+    "1": {
+     "layer_id": 1,
+     "layer_type": "interface",
+     "physical_z_mm": null,
+     "interface_rows": {
+      "z1": 0.0,
+      "z2": 0.5
+     },
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "2": {
+     "layer_id": 2,
+     "layer_type": "routing",
+     "physical_z_mm": 0.65,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "3": {
+     "layer_id": 3,
+     "layer_type": "routing",
+     "physical_z_mm": 0.8,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "4": {
+     "layer_id": 4,
+     "layer_type": "routing",
+     "physical_z_mm": 0.95,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "5": {
+     "layer_id": 5,
+     "layer_type": "routing",
+     "physical_z_mm": 1.1,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "6": {
+     "layer_id": 6,
+     "layer_type": "routing",
+     "physical_z_mm": 1.25,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "7": {
+     "layer_id": 7,
+     "layer_type": "routing",
+     "physical_z_mm": 1.4,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "allowed_transitions": {
+    "1": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "2": [
+     1,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "3": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7
+    ],
+    "4": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7
+    ],
+    "5": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7
+    ],
+    "6": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7
+    ],
+    "7": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z1",
+     "label": "L1 row z1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z2",
+     "label": "L1 row z2"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_row": null,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_row": null,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_row": null,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_row": null,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_row": null,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_row": null,
+     "label": "L7"
+    }
+   ],
+   "reported_formal_acceptance_allowed": false
+  },
+  "port_model": {
+   "enabled": true,
+   "pairs_checked": 1024,
+   "pairs_expected": 1024,
+   "min_3d_distance_mm": 0.5,
+   "row_heights_mm": {
+    "z1": 0.0,
+    "z2": 0.5
+   },
+   "ok": true,
+   "errors": []
+  },
+  "route_ports": {
+   "routed_routes": 1024,
+   "failed_routes": 0,
+   "checked": 1024,
+   "identity_checked": true,
+   "ok": true,
+   "unique_ports_used": 2048
+  },
+  "transitions": {
+   "interface_transitions": 1128,
+   "intermediate_transitions": 0,
+   "back_to_back_transitions": 0,
+   "transition_pairs": {
+    "1->2": 115,
+    "2->1": 115,
+    "1->3": 149,
+    "3->1": 149,
+    "1->4": 53,
+    "4->1": 53,
+    "1->6": 151,
+    "6->1": 151,
+    "1->5": 88,
+    "5->1": 88,
+    "1->7": 8,
+    "7->1": 8
+   },
+   "transition_radius_values": [
+    15.0
+   ],
+   "interface_transitions_ok": true,
+   "intermediate_transitions_ok": true
+  },
+  "curvature": {
+   "min_curvature_radius_mm": 14.999999965,
+   "limit_mm": 14.985,
+   "sampled": 1024,
+   "flat_arc_radius_values": [
+    15.0
+   ],
+   "transition_radius_values": [
+    15.0
+   ],
+   "violations": 0,
+   "ok": true
+  },
+  "clearance": {
+   "same_plane": {
+    "planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z1"
+      ],
+      "parts": 748,
+      "routes": 512,
+      "violations": 0,
+      "crossings": 9082,
+      "crossing_pairs": 8808,
+      "min_non_crossing_centerline_mm": 0.099811243,
+      "runtime_seconds": 1.352
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z2"
+      ],
+      "parts": 840,
+      "routes": 512,
+      "violations": 0,
+      "crossings": 0,
+      "crossing_pairs": 0,
+      "min_non_crossing_centerline_mm": 0.210878153,
+      "runtime_seconds": 0.381
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_rows": [],
+      "parts": 115,
+      "routes": 115,
+      "violations": 0,
+      "crossings": 964,
+      "crossing_pairs": 961,
+      "min_non_crossing_centerline_mm": 1.007810594,
+      "runtime_seconds": 0.066
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_rows": [],
+      "parts": 149,
+      "routes": 149,
+      "violations": 0,
+      "crossings": 856,
+      "crossing_pairs": 856,
+      "min_non_crossing_centerline_mm": 0.207762704,
+      "runtime_seconds": 0.179
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_rows": [],
+      "parts": 53,
+      "routes": 53,
+      "violations": 0,
+      "crossings": 4,
+      "crossing_pairs": 4,
+      "min_non_crossing_centerline_mm": 0.25819452,
+      "runtime_seconds": 0.035
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_rows": [],
+      "parts": 88,
+      "routes": 88,
+      "violations": 0,
+      "crossings": 8,
+      "crossing_pairs": 4,
+      "min_non_crossing_centerline_mm": 0.25819452,
+      "runtime_seconds": 0.106
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_rows": [],
+      "parts": 151,
+      "routes": 151,
+      "violations": 0,
+      "crossings": 8,
+      "crossing_pairs": 4,
+      "min_non_crossing_centerline_mm": 0.252049043,
+      "runtime_seconds": 0.181
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_rows": [],
+      "parts": 8,
+      "routes": 8,
+      "violations": 0,
+      "crossings": 16,
+      "crossing_pairs": 16,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.001
+     }
+    ],
+    "total_violations": 0,
+    "crossings": 10938,
+    "min_non_crossing_centerline_mm": 0.09981124280635179
+   },
+   "transition_vs_flat": {
+    "violations": 10992,
+    "min_mm": 0.0
+   },
+   "transition_vs_transition": {
+    "violations": 216,
+    "min_mm": 0.023176076
+   },
+   "transition_vs_flat_min_mm": 0.0,
+   "transition_vs_transition_min_mm": 0.023176076,
+   "cross_plane": {
+    "plane_pairs": [
+     {
+      "z_a": 0.0,
+      "z_b": 0.5,
+      "dz_mm": 0.5,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       1
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.5,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.65,
+      "dz_mm": 0.65,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       2
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.65,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.8,
+      "dz_mm": 0.8,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.8,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.95,
+      "dz_mm": 0.95,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.95,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.1,
+      "dz_mm": 1.1,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.1,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.25,
+      "dz_mm": 1.25,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.25,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.4,
+      "dz_mm": 1.4,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.4,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.65,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       2
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.8,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.95,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.1,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.25,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.4,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 0.8,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 0.95,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.1,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.25,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.4,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 0.95,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.1,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.25,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.4,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.1,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.25,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.4,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.25,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.4,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 1.4,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     }
+    ],
+    "violations": 0,
+    "min_lower_bound_mm": 0.1499999999999999,
+    "guaranteed_by_plane_gap": true
+   },
+   "cross_plane_violations": 0,
+   "min_3d_clearance_mm": 0.0,
+   "min_3d_clearance_bound": "measured",
+   "transition_clearance_ok": false,
+   "plane_rules_ok": true,
+   "ok": false
+  },
+  "layer_id_not_z": {
+   "ok": true,
+   "physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_rows": [
+      "z1"
+     ],
+     "parts": 748,
+     "routes": 512,
+     "label": "L1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_rows": [
+      "z2"
+     ],
+     "parts": 840,
+     "routes": 512,
+     "label": "L1"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_rows": [],
+     "parts": 115,
+     "routes": 115,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_rows": [],
+     "parts": 149,
+     "routes": 149,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_rows": [],
+     "parts": 53,
+     "routes": 53,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_rows": [],
+     "parts": 88,
+     "routes": 88,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_rows": [],
+     "parts": 151,
+     "routes": 151,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_rows": [],
+     "parts": 8,
+     "routes": 8,
+     "label": "L7"
+    }
+   ],
+   "stack_physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z1",
+     "label": "L1 row z1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z2",
+     "label": "L1 row z2"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_row": null,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_row": null,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_row": null,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_row": null,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_row": null,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_row": null,
+     "label": "L7"
+    }
+   ],
+   "same_layer_different_z_groups": {
+    "L1": 2,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1,
+    "L7": 1
+   },
+   "different_layer_same_z_groups": 0,
+   "note": "planes are grouped by physical z, never by layer_id; L1's two rows share layer_id=1 but are distinct planes"
+  },
+  "self_clearance": {
+   "min_mm": null,
+   "violations": 0,
+   "ok": true
+  },
+  "acceptance": {
+   "formal_acceptance": false,
+   "status": "exploratory_only",
+   "exit_code": 1,
+   "exploratory_pass": false,
+   "allow_exploratory": true,
+   "geometry_executed": true,
+   "geometry_pass": false,
+   "provenance": "unconfirmed_simulation",
+   "stack_valid": true,
+   "stack_confirmed": false,
+   "reported_router_formal_flag": false,
+   "note": "formal process acceptance requires provenance='confirmed' and a valid layer stack; unconfirmed heights are exploratory only"
+  }
+ },
+ "items": [
+  {
+   "item": "layer_stack_L1_interface",
+   "requirement": 1,
+   "status": "pass",
+   "detail": "L1 is the interface layer with rows z1=0.0 / z2=0.5",
+   "metrics": {
+    "provenance": "unconfirmed_simulation",
+    "confirmed": false,
+    "height_defined": true,
+    "planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z1",
+      "label": "L1 row z1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z2",
+      "label": "L1 row z2"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_row": null,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_row": null,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_row": null,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_row": null,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_row": null,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_row": null,
+      "label": "L7"
+     }
+    ]
+   }
+  },
+  {
+   "item": "port_rows_real_3d_separation",
+   "requirement": 2,
+   "status": "pass",
+   "detail": "1024 same-XY row pairs, min 3D distance 0.5 mm",
+   "metrics": {
+    "enabled": true,
+    "pairs_checked": 1024,
+    "pairs_expected": 1024,
+    "min_3d_distance_mm": 0.5,
+    "row_heights_mm": {
+     "z1": 0.0,
+     "z2": 0.5
+    },
+    "ok": true,
+    "errors": []
+   }
+  },
+  {
+   "item": "routes_start_end_on_L1_ports",
+   "requirement": 3,
+   "status": "pass",
+   "detail": "routed=1024, identity_checked=True, port_errors=0",
+   "metrics": {
+    "routed_routes": 1024,
+    "failed_routes": 0,
+    "checked": 1024,
+    "identity_checked": true,
+    "ok": true,
+    "unique_ports_used": 2048
+   }
+  },
+  {
+   "item": "transitions_from_interface",
+   "requirement": 4,
+   "status": "pass",
+   "detail": "interface transitions=1128, geometry/curvature/clearance violations=0",
+   "metrics": {
+    "interface_transitions": 1128,
+    "intermediate_transitions": 0,
+    "back_to_back_transitions": 0,
+    "transition_pairs": {
+     "1->2": 115,
+     "2->1": 115,
+     "1->3": 149,
+     "3->1": 149,
+     "1->4": 53,
+     "4->1": 53,
+     "1->6": 151,
+     "6->1": 151,
+     "1->5": 88,
+     "5->1": 88,
+     "1->7": 8,
+     "7->1": 8
+    },
+    "transition_radius_values": [
+     15.0
+    ],
+    "interface_transitions_ok": true,
+    "intermediate_transitions_ok": true
+   }
+  },
+  {
+   "item": "transitions_intermediate_multi",
+   "requirement": 5,
+   "status": "pass",
+   "detail": "intermediate transitions=0, multi-transition routes=564, back-to-back=0",
+   "metrics": {
+    "interface_transitions": 1128,
+    "intermediate_transitions": 0,
+    "back_to_back_transitions": 0,
+    "transition_pairs": {
+     "1->2": 115,
+     "2->1": 115,
+     "1->3": 149,
+     "3->1": 149,
+     "1->4": 53,
+     "4->1": 53,
+     "1->6": 151,
+     "6->1": 151,
+     "1->5": 88,
+     "5->1": 88,
+     "1->7": 8,
+     "7->1": 8
+    },
+    "transition_radius_values": [
+     15.0
+    ],
+    "interface_transitions_ok": true,
+    "intermediate_transitions_ok": true
+   }
+  },
+  {
+   "item": "curvature_3d_min_radius",
+   "requirement": 6,
+   "status": "pass",
+   "detail": "min sampled 3D radius=14.999999965 mm (limit 14.985), analytic violations=0",
+   "metrics": {
+    "min_curvature_radius_mm": 14.999999965,
+    "limit_mm": 14.985,
+    "sampled": 1024,
+    "flat_arc_radius_values": [
+     15.0
+    ],
+    "transition_radius_values": [
+     15.0
+    ],
+    "violations": 0,
+    "ok": true
+   }
+  },
+  {
+   "item": "transition_vs_L1_clearance",
+   "requirement": 7,
+   "status": "fail",
+   "detail": "transition-vs-flat min=0.0 mm, transition-vs-transition min=0.023176076 mm, violations=220",
+   "metrics": {
+    "same_plane": {
+     "planes": [
+      {
+       "z_mm": 0.0,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z1"
+       ],
+       "parts": 748,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 9082,
+       "crossing_pairs": 8808,
+       "min_non_crossing_centerline_mm": 0.099811243,
+       "runtime_seconds": 1.352
+      },
+      {
+       "z_mm": 0.5,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z2"
+       ],
+       "parts": 840,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 0,
+       "crossing_pairs": 0,
+       "min_non_crossing_centerline_mm": 0.210878153,
+       "runtime_seconds": 0.381
+      },
+      {
+       "z_mm": 0.65,
+       "layer_ids": [
+        2
+       ],
+       "interface_rows": [],
+       "parts": 115,
+       "routes": 115,
+       "violations": 0,
+       "crossings": 964,
+       "crossing_pairs": 961,
+       "min_non_crossing_centerline_mm": 1.007810594,
+       "runtime_seconds": 0.066
+      },
+      {
+       "z_mm": 0.8,
+       "layer_ids": [
+        3
+       ],
+       "interface_rows": [],
+       "parts": 149,
+       "routes": 149,
+       "violations": 0,
+       "crossings": 856,
+       "crossing_pairs": 856,
+       "min_non_crossing_centerline_mm": 0.207762704,
+       "runtime_seconds": 0.179
+      },
+      {
+       "z_mm": 0.95,
+       "layer_ids": [
+        4
+       ],
+       "interface_rows": [],
+       "parts": 53,
+       "routes": 53,
+       "violations": 0,
+       "crossings": 4,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.035
+      },
+      {
+       "z_mm": 1.1,
+       "layer_ids": [
+        5
+       ],
+       "interface_rows": [],
+       "parts": 88,
+       "routes": 88,
+       "violations": 0,
+       "crossings": 8,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.106
+      },
+      {
+       "z_mm": 1.25,
+       "layer_ids": [
+        6
+       ],
+       "interface_rows": [],
+       "parts": 151,
+       "routes": 151,
+       "violations": 0,
+       "crossings": 8,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.181
+      },
+      {
+       "z_mm": 1.4,
+       "layer_ids": [
+        7
+       ],
+       "interface_rows": [],
+       "parts": 8,
+       "routes": 8,
+       "violations": 0,
+       "crossings": 16,
+       "crossing_pairs": 16,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.001
+      }
+     ],
+     "total_violations": 0,
+     "crossings": 10938,
+     "min_non_crossing_centerline_mm": 0.09981124280635179
+    },
+    "transition_vs_flat": {
+     "violations": 10992,
+     "min_mm": 0.0
+    },
+    "transition_vs_transition": {
+     "violations": 216,
+     "min_mm": 0.023176076
+    },
+    "transition_vs_flat_min_mm": 0.0,
+    "transition_vs_transition_min_mm": 0.023176076,
+    "cross_plane": {
+     "plane_pairs": [
+      {
+       "z_a": 0.0,
+       "z_b": 0.5,
+       "dz_mm": 0.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        1
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.65,
+       "dz_mm": 0.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.8,
+       "dz_mm": 0.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.95,
+       "dz_mm": 0.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.1,
+       "dz_mm": 1.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.25,
+       "dz_mm": 1.25,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.25,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.4,
+       "dz_mm": 1.4,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.4,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.65,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.8,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.95,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.1,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.25,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.4,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.8,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.95,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.1,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.25,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.4,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 0.95,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.1,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.25,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.4,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.1,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.25,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.4,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.25,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.4,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.4,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      }
+     ],
+     "violations": 0,
+     "min_lower_bound_mm": 0.1499999999999999,
+     "guaranteed_by_plane_gap": true
+    },
+    "cross_plane_violations": 0,
+    "min_3d_clearance_mm": 0.0,
+    "min_3d_clearance_bound": "measured",
+    "transition_clearance_ok": false,
+    "plane_rules_ok": true,
+    "ok": false
+   }
+  },
+  {
+   "item": "same_plane_strict_and_cross_plane",
+   "requirement": 8,
+   "status": "pass",
+   "detail": "same-plane strict violations=0, cross-plane violations=0, min 3D clearance=0.0 mm",
+   "metrics": {
+    "same_plane": {
+     "planes": [
+      {
+       "z_mm": 0.0,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z1"
+       ],
+       "parts": 748,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 9082,
+       "crossing_pairs": 8808,
+       "min_non_crossing_centerline_mm": 0.099811243,
+       "runtime_seconds": 1.352
+      },
+      {
+       "z_mm": 0.5,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z2"
+       ],
+       "parts": 840,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 0,
+       "crossing_pairs": 0,
+       "min_non_crossing_centerline_mm": 0.210878153,
+       "runtime_seconds": 0.381
+      },
+      {
+       "z_mm": 0.65,
+       "layer_ids": [
+        2
+       ],
+       "interface_rows": [],
+       "parts": 115,
+       "routes": 115,
+       "violations": 0,
+       "crossings": 964,
+       "crossing_pairs": 961,
+       "min_non_crossing_centerline_mm": 1.007810594,
+       "runtime_seconds": 0.066
+      },
+      {
+       "z_mm": 0.8,
+       "layer_ids": [
+        3
+       ],
+       "interface_rows": [],
+       "parts": 149,
+       "routes": 149,
+       "violations": 0,
+       "crossings": 856,
+       "crossing_pairs": 856,
+       "min_non_crossing_centerline_mm": 0.207762704,
+       "runtime_seconds": 0.179
+      },
+      {
+       "z_mm": 0.95,
+       "layer_ids": [
+        4
+       ],
+       "interface_rows": [],
+       "parts": 53,
+       "routes": 53,
+       "violations": 0,
+       "crossings": 4,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.035
+      },
+      {
+       "z_mm": 1.1,
+       "layer_ids": [
+        5
+       ],
+       "interface_rows": [],
+       "parts": 88,
+       "routes": 88,
+       "violations": 0,
+       "crossings": 8,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.106
+      },
+      {
+       "z_mm": 1.25,
+       "layer_ids": [
+        6
+       ],
+       "interface_rows": [],
+       "parts": 151,
+       "routes": 151,
+       "violations": 0,
+       "crossings": 8,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.181
+      },
+      {
+       "z_mm": 1.4,
+       "layer_ids": [
+        7
+       ],
+       "interface_rows": [],
+       "parts": 8,
+       "routes": 8,
+       "violations": 0,
+       "crossings": 16,
+       "crossing_pairs": 16,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.001
+      }
+     ],
+     "total_violations": 0,
+     "crossings": 10938,
+     "min_non_crossing_centerline_mm": 0.09981124280635179
+    },
+    "transition_vs_flat": {
+     "violations": 10992,
+     "min_mm": 0.0
+    },
+    "transition_vs_transition": {
+     "violations": 216,
+     "min_mm": 0.023176076
+    },
+    "transition_vs_flat_min_mm": 0.0,
+    "transition_vs_transition_min_mm": 0.023176076,
+    "cross_plane": {
+     "plane_pairs": [
+      {
+       "z_a": 0.0,
+       "z_b": 0.5,
+       "dz_mm": 0.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        1
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.65,
+       "dz_mm": 0.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.8,
+       "dz_mm": 0.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.95,
+       "dz_mm": 0.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.1,
+       "dz_mm": 1.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.25,
+       "dz_mm": 1.25,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.25,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.4,
+       "dz_mm": 1.4,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.4,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.65,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.8,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.95,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.1,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.25,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.4,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.8,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.95,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.1,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.25,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.4,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 0.95,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.1,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.25,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.4,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.1,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.25,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.4,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.25,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.4,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.4,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      }
+     ],
+     "violations": 0,
+     "min_lower_bound_mm": 0.1499999999999999,
+     "guaranteed_by_plane_gap": true
+    },
+    "cross_plane_violations": 0,
+    "min_3d_clearance_mm": 0.0,
+    "min_3d_clearance_bound": "measured",
+    "transition_clearance_ok": false,
+    "plane_rules_ok": true,
+    "ok": false
+   }
+  },
+  {
+   "item": "layer_id_is_not_a_z_coordinate",
+   "requirement": 9,
+   "status": "pass",
+   "detail": "8 distinct physical planes; same layer id in {'L1': 2, 'L2': 1, 'L3': 1, 'L4': 1, 'L5': 1, 'L6': 1, 'L7': 1} distinct-z groups; different layer ids sharing one physical plane: 0",
+   "metrics": {
+    "ok": true,
+    "physical_planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z1"
+      ],
+      "parts": 748,
+      "routes": 512,
+      "label": "L1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z2"
+      ],
+      "parts": 840,
+      "routes": 512,
+      "label": "L1"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_rows": [],
+      "parts": 115,
+      "routes": 115,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_rows": [],
+      "parts": 149,
+      "routes": 149,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_rows": [],
+      "parts": 53,
+      "routes": 53,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_rows": [],
+      "parts": 88,
+      "routes": 88,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_rows": [],
+      "parts": 151,
+      "routes": 151,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_rows": [],
+      "parts": 8,
+      "routes": 8,
+      "label": "L7"
+     }
+    ],
+    "stack_physical_planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z1",
+      "label": "L1 row z1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z2",
+      "label": "L1 row z2"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_row": null,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_row": null,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_row": null,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_row": null,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_row": null,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_row": null,
+      "label": "L7"
+     }
+    ],
+    "same_layer_different_z_groups": {
+     "L1": 2,
+     "L2": 1,
+     "L3": 1,
+     "L4": 1,
+     "L5": 1,
+     "L6": 1,
+     "L7": 1
+    },
+    "different_layer_same_z_groups": 0,
+    "note": "planes are grouped by physical z, never by layer_id; L1's two rows share layer_id=1 but are distinct planes"
+   }
+  },
+  {
+   "item": "formal_acceptance",
+   "requirement": 10,
+   "status": "pass",
+   "detail": "formal acceptance refused: layer heights are not supervisor-confirmed (provenance='unconfirmed_simulation'); exploratory only; formal_acceptance=False, status=exploratory_only, exit_code=1, allow_exploratory=True, exploratory_pass=False, geometry_executed=True",
+   "metrics": {
+    "formal_acceptance": false,
+    "status": "exploratory_only",
+    "exit_code": 1,
+    "exploratory_pass": false,
+    "allow_exploratory": true,
+    "geometry_executed": true,
+    "geometry_pass": false,
+    "provenance": "unconfirmed_simulation",
+    "stack_valid": true,
+    "stack_confirmed": false,
+    "reported_router_formal_flag": false,
+    "note": "formal process acceptance requires provenance='confirmed' and a valid layer stack; unconfirmed heights are exploratory only"
+   }
+  }
+ ],
+ "violations": [
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0748166305 at (136.561094,143.125,0.00642266937)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0730372399 at (136.561094,143.125,0.00642266937)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0731341981 at (136.561094,143.125,0.00642266937)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0767762624 at (136.561094,143.125,0.00642266937)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0715109159 at (136.541149,143.125,0.0070197718)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0608956562 at (136.541149,143.125,0.0070197718)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0556650512 at (136.541149,143.125,0.0070197718)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0554088394 at (136.541149,143.125,0.0070197718)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.057312853 at (136.541149,143.125,0.0070197718)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0653205648 at (136.541149,143.125,0.0070197718)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0777472533 at (136.541149,143.125,0.0070197718)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0662038556 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0511441353 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.040562156 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.037944031 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0383620906 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0457690655 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0592854071 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0757066964 at (136.521206,143.125,0.00764340366)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 26,
+   "other_route": 313,
+   "detail": "distance=0.0656780483 at (136.512883,143.125,0.00791474445)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0784291881 at (5.79873453,52.875,0.00225063503)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0762986667 at (5.79873453,52.875,0.00225063503)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.059194179 at (5.81871957,52.875,0.00261019351)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.056340925 at (5.81871957,52.875,0.00261019351)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0406942374 at (5.83870411,52.875,0.00299638275)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0364193624 at (5.83870411,52.875,0.00299638275)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0246444964 at (5.85868812,52.875,0.00340920207)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0166643393 at (5.85868812,52.875,0.00340920207)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.018542958 at (5.87491718,52.875,0.00376608963)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.00376700014 at (5.87491718,52.875,0.00376608963)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.018919393 at (5.87867156,52.875,0.00384865073)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.00531906296 at (5.87867156,52.875,0.00384865073)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0301296877 at (5.89865439,52.875,0.00431472795)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0240446893 at (5.89865439,52.875,0.00431472795)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0475069909 at (5.91863659,52.875,0.00480743291)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0439006057 at (5.91863659,52.875,0.00480743291)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0663723537 at (5.93861811,52.875,0.00532676473)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 19,
+   "detail": "distance=0.0638407263 at (5.93861811,52.875,0.00532676473)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 17,
+   "detail": "distance=0.0792382279 at (6.29812977,52.875,0.0192266501)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 137,
+   "other_route": 17,
+   "detail": "distance=0.0630740129 at (6.31809174,52.875,0.0202516632)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 896,
+   "detail": "distance=0.0762166523 at (33.6255804,14.625,0.425493152)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 896,
+   "detail": "distance=0.0745091087 at (33.6255804,14.625,0.425493152)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 896,
+   "detail": "distance=0.0752303469 at (33.6376207,14.625,0.427591764)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 896,
+   "detail": "distance=0.0734998931 at (33.6376207,14.625,0.427591764)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 896,
+   "detail": "distance=0.0756301711 at (33.6452718,14.625,0.428925342)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 896,
+   "detail": "distance=0.0739090791 at (33.6452718,14.625,0.428925342)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 896,
+   "detail": "distance=0.0785905444 at (33.6649677,14.625,0.432331289)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0666857689 at (33.8226952,14.625,0.458633411)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0669578711 at (33.8424305,14.625,0.461802906)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0501974915 at (33.8424305,14.625,0.461802906)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0748746146 at (33.8424305,14.625,0.461802906)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0579391928 at (33.8621701,14.625,0.4649461)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0373280285 at (33.8621701,14.625,0.4649461)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.066931319 at (33.8621701,14.625,0.4649461)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0550265694 at (33.8800873,14.625,0.467774635)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0326244539 at (33.8800873,14.625,0.467774635)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0644265065 at (33.8800873,14.625,0.467774635)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0550576316 at (33.8819139,14.625,0.468062988)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0326768182 at (33.8819139,14.625,0.468062988)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 215,
+   "other_route": 899,
+   "detail": "distance=0.0644530387 at (33.8819139,14.625,0.468062988)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 235,
+   "detail": "distance=0.075 at (51.375,7.2,0)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 235,
+   "detail": "distance=0.0790569415 at (51.375,7.2,0)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0752357723 at (51.375,7.29976496,0.000331771905)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0552845017 at (51.375,7.31971756,0.000477750768)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0633727612 at (51.375,7.31971756,0.000477750768)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0774431362 at (51.375,7.33966995,0.000650270633)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0353360295 at (51.375,7.33966995,0.000650270633)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0469932519 at (51.375,7.33966995,0.000650270633)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0706116532 at (51.375,7.3596221,0.000849331193)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0154013379 at (51.375,7.3596221,0.000849331193)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0345967043 at (51.375,7.3596221,0.000849331193)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0689191642 at (51.375,7.37498843,0.00102308232)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.00102314772 at (51.375,7.37498843,0.00102308232)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0309964122 at (51.375,7.37498843,0.00102308232)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.069071564 at (51.375,7.37957396,0.0010749321)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.00469857391 at (51.375,7.37957396,0.0010749321)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.031333805 at (51.375,7.37957396,0.0010749321)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0731578149 at (51.375,7.39952551,0.00132707294)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.0245613828 at (51.375,7.39952551,0.00132707294)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 273,
+   "other_route": 233,
+   "detail": "distance=0.039534697 at (51.375,7.39952551,0.00132707294)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0783900622 at (142.378345,44.625,0.871609938)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0781290427 at (142.358868,44.625,0.876056034)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0739439662 at (142.358868,44.625,0.876056034)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0697607276 at (142.339384,44.625,0.880476184)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0695238159 at (142.339384,44.625,0.880476184)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0651296193 at (142.319895,44.625,0.884870381)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0665641507 at (142.319895,44.625,0.884870381)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0607613841 at (142.3004,44.625,0.889238616)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0665589977 at (142.319087,44.625,0.885051474)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0730925577 at (142.280899,44.625,0.893580882)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0564191181 at (142.280899,44.625,0.893580882)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0692591453 at (142.3004,44.625,0.889238616)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0586659912 at (142.261393,44.625,0.897897171)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0521028289 at (142.261393,44.625,0.897897171)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0772313901 at (142.280899,44.625,0.893580882)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0483895402 at (142.24188,44.625,0.902187476)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0478125242 at (142.24188,44.625,0.902187476)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0435482117 at (142.222362,44.625,0.906451788)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0451203957 at (142.224799,44.625,0.90591941)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 473,
+   "other_route": 789,
+   "detail": "distance=0.0782149279 at (142.202839,44.625,0.910690101)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0672973076 at (6.375,144.440665,0.964640193)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.049058591 at (6.375,144.420877,0.967303376)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0328737596 at (6.375,144.401085,0.969940216)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0234679805 at (6.375,144.381289,0.972550708)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0232322713 at (6.375,144.377999,0.972980099)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0285820295 at (6.375,144.36149,0.975134848)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0433502307 at (6.375,144.341688,0.97769263)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0611365234 at (6.375,144.321882,0.98022405)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0799513922 at (6.375,144.302073,0.982729104)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 558,
+   "detail": "distance=0.0749157636 at (6.375,144.183149,0.997205489)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 558,
+   "detail": "distance=0.0626396094 at (6.375,144.163318,0.999525857)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 558,
+   "detail": "distance=0.0550415808 at (6.375,144.143483,1.00181982)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 558,
+   "detail": "distance=0.0536084131 at (6.375,144.131085,1.00323696)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 558,
+   "detail": "distance=0.0541289023 at (6.375,144.123645,1.00408739)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 558,
+   "detail": "distance=0.06020638 at (6.375,144.103805,1.00632854)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 558,
+   "detail": "distance=0.0715135286 at (6.375,144.083961,1.00854328)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 557,
+   "detail": "distance=0.0799292719 at (6.375,143.885368,1.02923717)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 557,
+   "detail": "distance=0.0798841612 at (6.375,143.882696,1.02949589)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 544,
+   "other_route": 540,
+   "detail": "distance=0.0775744022 at (6.35272638,140.625,1.17345676)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 544,
+   "other_route": 540,
+   "detail": "distance=0.0767594255 at (6.35272638,140.625,1.17345676)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0733562255 at (5.59544296,8.875,1.01713805)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0749706903 at (5.59544296,8.875,1.01713805)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0698968656 at (5.61530098,8.875,1.01922067)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0715893875 at (5.61530098,8.875,1.01922067)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0698514549 at (5.61780673,8.875,1.01948009)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0715450511 at (5.61780673,8.875,1.01948009)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0719975759 at (5.63516175,8.875,1.02127685)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0736418327 at (5.63516175,8.875,1.02127685)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 710,
+   "other_route": 797,
+   "detail": "distance=0.0792172495 at (5.65502524,8.875,1.0233066)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0733562255 at (141.125,5.59544296,1.01713805)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0749706903 at (141.125,5.59544296,1.01713805)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0698968656 at (141.125,5.61530098,1.01922067)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0715893875 at (141.125,5.61530098,1.01922067)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0698514549 at (141.125,5.61780673,1.01948009)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0715450511 at (141.125,5.61780673,1.01948009)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0719975759 at (141.125,5.63516175,1.02127685)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0736418327 at (141.125,5.63516175,1.02127685)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 711,
+   "other_route": 798,
+   "detail": "distance=0.0792172495 at (141.125,5.65502524,1.0233066)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 712,
+   "other_route": 799,
+   "detail": "distance=0.0733562255 at (144.404557,141.125,1.01713805)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 712,
+   "other_route": 799,
+   "detail": "distance=0.0749706903 at (144.404557,141.125,1.01713805)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0706250409 at (144.153814,142.125,0.886167297)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0700347136 at (144.153814,142.125,0.886167297)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0618464671 at (144.134129,142.125,0.889513616)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0611714819 at (144.134129,142.125,0.889513616)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0588361938 at (144.115335,142.125,0.892682944)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0581262627 at (144.115335,142.125,0.892682944)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0588431816 at (144.114441,142.125,0.89283373)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0581333358 at (144.114441,142.125,0.89283373)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0624539882 at (144.094747,142.125,0.896127633)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0617856403 at (144.094747,142.125,0.896127633)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0716863066 at (144.075049,142.125,0.899395318)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 796,
+   "detail": "distance=0.0711047908 at (144.075049,142.125,0.899395318)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.068941285 at (143.937046,142.125,0.92153455)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.0682641275 at (143.937046,142.125,0.92153455)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.0502890478 at (143.917315,142.125,0.924592293)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.0493566477 at (143.917315,142.125,0.924592293)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.0332178266 at (143.897579,142.125,0.927623767)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.0317885883 at (143.897579,142.125,0.927623767)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.0218222438 at (143.87784,142.125,0.930628969)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 724,
+   "other_route": 793,
+   "detail": "distance=0.0195780659 at (143.87784,142.125,0.930628969)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0798452207 at (147.444255,14.875,0.561393817)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0797068136 at (147.424373,14.875,0.563211516)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0792521425 at (147.424373,14.875,0.563211516)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0795450601 at (147.433573,14.875,0.562370384)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0793292491 at (147.404494,14.875,0.565055676)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0788378657 at (147.404494,14.875,0.565055676)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0790373937 at (147.414108,14.875,0.56416373)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0791400135 at (147.384617,14.875,0.566926293)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0786102548 at (147.384617,14.875,0.566926293)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0787113689 at (147.394655,14.875,0.565981565)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0796250592 at (147.404494,14.875,0.565055676)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0791456568 at (147.364742,14.875,0.568823364)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0785685153 at (147.370368,14.875,0.568286362)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0785742939 at (147.375214,14.875,0.56782384)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0793545447 at (147.384617,14.875,0.566926293)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0793513741 at (147.344871,14.875,0.570746885)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0786322466 at (147.355784,14.875,0.569690506)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0785760172 at (147.364742,14.875,0.568823364)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0792752646 at (147.364742,14.875,0.568823364)"
+  },
+  {
+   "kind": "transition_vs_flat",
+   "category": "clearance_violations",
+   "route_id": 882,
+   "other_route": 660,
+   "detail": "distance=0.0797608779 at (147.325001,14.875,0.572696854)"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0672777954"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0697256995"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0773943828"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0490318797"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0523408202"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0621931702"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.076105389"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0328339704"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0375974737"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0504203187"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0668326088"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0234123314"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0297271125"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0448614219"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0627477649"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.023176076"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0295415793"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0447390763"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0626608047"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 540,
+   "other_route": 559,
+   "detail": "distance=0.0285364522"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0672777954"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0697256995"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0773943828"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0490318797"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0523408202"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0621931702"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.076105389"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0328339704"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0375974737"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0504203187"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0668326088"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0234123314"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0297271125"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0448614219"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0627477649"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.023176076"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0295415793"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0447390763"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0626608047"
+  },
+  {
+   "kind": "transition_vs_transition",
+   "category": "clearance_violations",
+   "route_id": 740,
+   "other_route": 797,
+   "detail": "distance=0.0285364522"
+  }
+ ],
+ "violation_kinds": {
+  "clearance_violations:transition_vs_flat": 180,
+  "clearance_violations:transition_vs_transition": 40
+ },
+ "warnings": [
+  "payload has no process record"
+ ],
+ "runtime_seconds": 9.193
+}

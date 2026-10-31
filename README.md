@@ -218,3 +218,48 @@ S 型升降窗口与 Z1/Z2 协同避让。
 > 数据来源：本地 `OpticalWaveguideRouter2D/outputs/manual_c4_new_connectivity/c4_symmetric_multilayer/`；
 > 仓库仅收录结果、代码与图件，不改变本地实验输出。
 
+---
+
+## 十、F1/F2/F3：1024 通道分层策略与邻边专项优化实验（2026-10-31 补充）
+
+新增 `experiments/F1_F2_F3_layer_strategy/`：研究 Z1 对边/邻边的分层策略，以及 Z2
+作为独立 512 通道子系统（**严格四元旋转对称，128 个 C4 轨道**）对全局物理交叉的影响。
+Z1 不要求四元对称（NS/EW/邻边可独立选层与升降窗口），Z2 严格按四元组整体调整。
+
+- 结果文档：[experiment_report.md](experiments/F1_F2_F3_layer_strategy/experiment_report.md)；
+  技术报告 [F1_F2_F3_layer_strategy.md](docs/reports/F1_F2_F3_layer_strategy.md)；
+  代码 [experiments/code_f123/](experiments/code_f123/README.md)。
+- 每组方案含 `routes_1024.json`（真实 XYZ）、`summary.json`、`validation.json`、
+  `z2_c4_validation.json`（Z2 独立严格 C4 验收）、`per_route.csv`、`per_layer.csv`、
+  `crossing_sources.csv`、`assignment_table.csv`、`figures/`（22 张：01_overall_3d、
+  02_overall_xy、03_L1_Z1 … 10_L7、all_layers_contact_sheet、z1/z2_before_after、
+  ns_ew_layer_separation、adjacent_routes_before_after、corner_routes_zoom、
+  crossing_hotspots、transition_windows_3d）。
+
+| 方案 | 全局唯一交叉 | Z1 | Z2 | 高层 | 升降段 | 时间(h) | 1024 | violations | Z2 C4 |
+|---|---:|---:|---:|---:|---:|---:|---|---:|---|
+| E1 基线（参考最优） | **3,594** | 2,608 | 240 | 746 | 1,240 | 27.0060 | 1024/1024 | 0 | — |
+| F1：邻边+NS 留 Z1，EW→L2 | 9,192 | 9,044 | 0 | 148 | 950 | 26.8997 | 1024/1024 | 80 | PASS |
+| F2 初始：邻边留 Z1，NS→L2，EW→L3 | 10,516 | 8,672 | 0 | 1,845 | 1,128 | 26.7943 | 1024/1024 | 220 | PASS |
+| F2 局部优化 | 11,697 | 10,332 | 0 | 1,366 | 1,062 | 26.9082 | 1024/1024 | 180 | PASS |
+| F3：F2 + 邻边选择性抬升 | 9,814 | 8,310 | 0 | 1,504 | 1,198 | 26.9509 | 1024/1024 | 240 | PASS |
+
+关键结论（真实运行、逐项验证）：
+
+- **Z2 严格 C4 全部达成**：四个方案 Z2 独立 C4 验证 PASS（128 轨道、最大 XYZ 偏差
+  2.84e-14 mm）；Z1 保持非对称，未被判为错误。
+- **预设分层实况**（不是只报"执行了"）：F1 EW 132 条中 115 条进入 L2、17 条回退；
+  F2 初始 NS 132 条中 94 条进入 L2（33 回退 L1、5 改 L4），EW 132 条中 86 条进入 L3
+  （30 回退、13 改 L2、3 改 L6）；F3 最终 94/184 条 Z1 邻边抬升到 L3。
+- **Z2 独立优化**：接口层 Z2 交叉 240 → 0（Z2 全部离开接口层），代价是高层交叉上升；
+  L4–L7 使用量（F2 局部）：48 / 108 / 148 / 12 条。
+- **未突破 E1 3,594**：本轮所有新方案残余 80–240 个三维净空违规（`transition_vs_flat`
+  边缘近距 0.06–0.078 mm），未通过冻结验证器最终验收；按任务要求失败结果如实保存，
+  未伪造合法几何。E1 3,594 仍是唯一完全合法的最优 1024 通道方案。
+- **失败原因**：快速碰撞世界与冻结验证器对 S 型升降段三维净空的稠密采样仍有差距；
+  回退式修复会破坏已构造的分层策略并显著增加交叉；单次全量冻结验证约 5 s，
+  逐条/逐轨道修复难以在本轮时间预算内收敛到 0 violations。
+- 加工时间 26.79–26.95 h（基线 27.0060 h），升降段 950–1,198（基线 1,240）。
+
+> 数据来源：本地 `OpticalWaveguideRouter2D/outputs/manual_c4_new_connectivity/F1_F2_F3_layer_strategy/`。
+

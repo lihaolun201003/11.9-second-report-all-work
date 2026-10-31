@@ -1,0 +1,15 @@
+﻿z_mm,category_a,category_b,unique_crossing_pairs,crossing_events
+0.0,adjacent_z1,opposite_z1_EW,2251,2251
+0.0,adjacent_z1,opposite_z1_NS,2502,2502
+0.0,opposite_z1_EW,opposite_z1_NS,2817,2817
+0.0,opposite_z1_EW,same_u_z1,446,601
+0.0,opposite_z1_NS,same_u_z1,656,911
+0.65,opposite_z1_EW,opposite_z1_NS,811,811
+0.65,opposite_z1_EW,same_u_z1,7,10
+0.65,opposite_z1_NS,same_u_z1,143,143
+0.8,opposite_z1_EW,same_u_z1,735,735
+0.8,opposite_z1_EW,same_u_z2,121,121
+0.95,opposite_z1_NS,same_u_z1,4,4
+1.1,same_u_z2,same_u_z2,4,8
+1.25,same_u_z2,same_u_z2,4,8
+1.4,opposite_z2_EW,opposite_z2_NS,16,16

@@ -1,0 +1,6 @@
+﻿experiment,kind,unique_crossing_pairs,z1_crossing_pairs,z2_crossing_pairs,high_layer_crossing_pairs,transitions,fabrication_hours,total_length_mm,violations,routed
+E1 baseline,baseline,3594,2608,240,746,1240,27.006,97221.5367,0,1024
+F1,experiment,9192,9044,0,148,950,26.8997,96838.8576,80,1024
+F2 initial,experiment,10516,8672,0,1845,1128,26.7943,96459.3312,220,1024
+F2 local,experiment,11697,10332,0,1366,1062,26.9082,96869.3776,180,1024
+F3,experiment,9814,8310,0,1504,1198,26.9509,97023.2746,240,1024

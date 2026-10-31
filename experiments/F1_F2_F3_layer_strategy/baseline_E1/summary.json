@@ -1,0 +1,199 @@
+{
+ "experiment": "E1-D D3 e1c_best z2 retune",
+ "routed": 1024,
+ "unique_crossing_pairs": 3594,
+ "z1_crossing_pairs": 2608,
+ "z2_crossing_pairs": 240,
+ "high_layer_crossing_pairs": 746,
+ "crossing_pairs_by_height": {
+  "0.0": 2608,
+  "0.5": 240,
+  "0.65": 0,
+  "0.8": 490,
+  "0.95": 256,
+  "1.1": 0,
+  "1.25": 0
+ },
+ "crossing_events_by_height": {
+  "0.0": 2608,
+  "0.5": 240,
+  "0.65": 0,
+  "0.8": 532,
+  "0.95": 256,
+  "1.1": 0,
+  "1.25": 0
+ },
+ "crossing_breakdown_by_height": {
+  "0.0": {
+   "adjacent_z1 x opposite_z1_NS": 1968,
+   "adjacent_z1 x opposite_z1_EW": 368,
+   "opposite_z1_EW x opposite_z1_NS": 272
+  },
+  "0.5": {
+   "adjacent_z2 x opposite_z2_NS": 112,
+   "adjacent_z2 x opposite_z2_EW": 112,
+   "opposite_z2_EW x opposite_z2_NS": 16
+  },
+  "0.65": {},
+  "0.8": {
+   "opposite_z1_NS x same_u_z2": 448,
+   "opposite_z1_NS x same_u_z1": 42
+  },
+  "0.95": {
+   "opposite_z2_NS x same_u_z2": 128,
+   "opposite_z2_EW x same_u_z2": 128
+  },
+  "1.1": {},
+  "1.25": {}
+ },
+ "z1_hv_same_height_pairs": 272,
+ "adjacent_related_events": 2336,
+ "adjacent_related_pairs": 2336,
+ "adjacent_arc_events": 1404,
+ "adjacent_line_events": 932,
+ "opposite_opposite_events": 272,
+ "transitions": 1240,
+ "total_length_mm": 97221.5367,
+ "fabrication_hours": 27.006,
+ "layer_route_counts": {
+  "1": 404,
+  "2": 112,
+  "3": 210,
+  "4": 100,
+  "5": 70,
+  "6": 128
+ },
+ "layer_usage": {
+  "2": {
+   "z": 0.65,
+   "routes": 112,
+   "segments": 112
+  },
+  "3": {
+   "z": 0.8,
+   "routes": 210,
+   "segments": 210
+  },
+  "4": {
+   "z": 0.95,
+   "routes": 100,
+   "segments": 100
+  },
+  "5": {
+   "z": 1.1,
+   "routes": 70,
+   "segments": 70
+  },
+  "6": {
+   "z": 1.25,
+   "routes": 128,
+   "segments": 128
+  },
+  "7": {
+   "z": 1.4,
+   "routes": 0,
+   "segments": 0
+  }
+ },
+ "l6_route_count": 128,
+ "l7_route_count": 0,
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "validation_exploratory_pass": true,
+ "n_violations": 0,
+ "per_layer": {
+  "0.65": 112,
+  "0.8": 210,
+  "0.95": 100,
+  "1.1": 70,
+  "1.25": 128,
+  "1.4": 0
+ },
+ "save_seconds": 10.42,
+ "note": "E1-C best solution refined with independent a_in/a_out S-bend windows for its lifted Z1 opposite routes and the Z2 routes E1-C moved (validated greedy refiner, exact incremental crossing accounting).",
+ "source_solution": "outputs\\manual_c4_new_connectivity\\z1_multilayer_150um\\E1_z1_priority_z2_rerouting\\E1_C3_z2_bundle",
+ "refiner": "four_side_1024.e1.refine.refine",
+ "include_z2_movable": true,
+ "source_unique_crossing_pairs": 3850,
+ "source_adjacent_related_events": 2336,
+ "refine_stats": {
+  "movable_routes": 364,
+  "searched_routes": 80,
+  "routes_changed": 8,
+  "base_unique_crossing_pairs": 3850,
+  "after_unique_crossing_pairs": 3594,
+  "base_adjacent_related_events": 2336,
+  "after_adjacent_related_events": 2336,
+  "base_adjacent_line_events": 932,
+  "after_adjacent_line_events": 932,
+  "base_adjacent_arc_events": 1404,
+  "after_adjacent_arc_events": 1404,
+  "base_z1_crossing_pairs": 2608,
+  "after_z1_crossing_pairs": 2608,
+  "base_high_layer_crossing_pairs": 490,
+  "after_high_layer_crossing_pairs": 746,
+  "engine_check": {
+   "engine_events": 3636,
+   "core_movable_events": 3636,
+   "engine_pairs": 3594,
+   "core_pairs": 3594,
+   "engine_adjacent": 2336,
+   "core_adjacent": 2336
+  },
+  "search_seconds": 390.4,
+  "engine_build_seconds": 8.8,
+  "refine_seconds": 526.05
+ },
+ "pass_stats": [
+  {
+   "pass_index": 1,
+   "accepted": 8,
+   "seconds": 66.85
+  },
+  {
+   "pass_index": 2,
+   "accepted": 0,
+   "seconds": 55.56
+  }
+ ],
+ "raw_changes": 8,
+ "applied_changes": 8,
+ "reverted_route_ids": [],
+ "reverted_changes": [],
+ "raw_validation": {
+  "counts": {
+   "violations": 0,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 0,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  },
+  "n_violations": 0
+ },
+ "repair_log": [],
+ "repair_seconds": 8.74,
+ "changed_route_ids": [
+  592,
+  593,
+  594,
+  595,
+  880,
+  881,
+  882,
+  883
+ ]
+}
