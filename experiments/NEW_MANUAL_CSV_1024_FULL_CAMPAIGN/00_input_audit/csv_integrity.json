@@ -1,0 +1,3269 @@
+{
+ "schema": "new_manual_csv_input_audit_csv_integrity_v1",
+ "title": "Integrity audit of the two new section-2 manual connectivity CSVs",
+ "board_mm": 150.0,
+ "tolerance_mm": 1e-09,
+ "port_model": {
+  "name": "real_2x16_dual_height (IEC 61754-7-3:2019 2x16 MPO)",
+  "source_module": "four_side_1024.fslw.ports.build_plane_endpoints",
+  "endpoints": 2048,
+  "connectors": 64,
+  "rows": 2,
+  "columns": 16,
+  "holes_per_connector": 32,
+  "ports_per_plane": 1024,
+  "connector_pitch_mm": 9.0,
+  "column_pitch_mm": 0.25,
+  "row_pitch_mm": 0.5,
+  "z_mm": {
+   "z1": 0.0,
+   "z2": 0.5
+  }
+ },
+ "inputs": {
+  "z1_new": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full_section2.csv",
+   "sha256": "9d5e0b5e15c4b2774130403c94cc56f91b79584496676cbffb7ee81acf54cfbd"
+  },
+  "z2_new": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full_section2.csv",
+   "sha256": "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a"
+  },
+  "old": {
+   "z1": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full.csv",
+    "sha256": "74e43d068d5844719ae0f0d5c13ee76fb2523a6846cebbf4e4489f80e8d82ffc"
+   },
+   "z2": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full.csv",
+    "sha256": "43d58fd10df16065c0a271ca17b2c31602bbf915f8ac731fd209786b28462f63"
+   },
+   "z1_campaign": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\manual_z1_c4_full.csv",
+    "sha256": "74e43d068d5844719ae0f0d5c13ee76fb2523a6846cebbf4e4489f80e8d82ffc"
+   },
+   "z2_campaign": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\manual_z2_c4_full.csv",
+    "sha256": "5e74b26704573680af52a3a019fd9114053d1bb308c52928d5b83fe7520e4028"
+   },
+   "combined_campaign": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\connectivity_1024.csv",
+    "sha256": "4c425adde0795a96b5b65eb471ea89fb000b45209e074db16787ac617f71d7f8"
+   }
+  }
+ },
+ "checks": [
+  {
+   "id": "z1-01",
+   "section": "z1",
+   "name": "file exists and is readable",
+   "passed": true,
+   "severity": "error",
+   "detail": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full_section2.csv"
+  },
+  {
+   "id": "z1-02",
+   "section": "z1",
+   "name": "header = 19-column manual schema",
+   "passed": true,
+   "severity": "error",
+   "detail": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  {
+   "id": "z1-03",
+   "section": "z1",
+   "name": "UTF-8 BOM present",
+   "passed": true,
+   "severity": "error"
+  },
+  {
+   "id": "z1-04",
+   "section": "z1",
+   "name": "CRLF-only line endings",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "line_count": 513
+   }
+  },
+  {
+   "id": "z1-05",
+   "section": "z1",
+   "name": "512 data rows",
+   "passed": true,
+   "severity": "error",
+   "detail": 512
+  },
+  {
+   "id": "z1-06",
+   "section": "z1",
+   "name": "route_id = 1..512 exactly once",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "count": 512,
+    "min": 1,
+    "max": 512,
+    "unique": 512
+   }
+  },
+  {
+   "id": "z1-07",
+   "section": "z1",
+   "name": "layer tag = 'z1' on every row",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "z1": 512
+   }
+  },
+  {
+   "id": "z1-08",
+   "section": "z1",
+   "name": "all source_row and target_row = 1",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "source_rows": {
+     "1": 512
+    },
+    "target_rows": {
+     "1": 512
+    }
+   }
+  },
+  {
+   "id": "z1-09",
+   "section": "z1",
+   "name": "channel = column (row-1 IEC convention)",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "channel_equals_column": true,
+    "channel_equals_16_plus_column": false
+   }
+  },
+  {
+   "id": "z1-10",
+   "section": "z1",
+   "name": "all port ids exist in the frozen 2048-port model",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "count": 1024,
+    "rows_checked": 1024,
+    "missing_from_model": 0,
+    "missing_sample": [],
+    "wrong_plane": 0,
+    "wrong_plane_sample": []
+   }
+  },
+  {
+   "id": "z1-11",
+   "section": "z1",
+   "name": "every port id belongs to plane z1",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "wrong_plane": 0
+   }
+  },
+  {
+   "id": "z1-12",
+   "section": "z1",
+   "name": "port_id column equals connector:row:column columns",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "mismatches": 0,
+    "sample": []
+   }
+  },
+  {
+   "id": "z1-13",
+   "section": "z1",
+   "name": "side/connector/row/column/channel match the port model",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "errors": 0,
+    "sample": []
+   }
+  },
+  {
+   "id": "z1-14",
+   "section": "z1",
+   "name": "x/y coordinates match the port model within 1e-9 mm",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "compared": 1024,
+    "tolerance_mm": 1e-09,
+    "max_abs_error_x_mm": 0.0,
+    "max_abs_error_y_mm": 0.0,
+    "max_abs_error_mm": 0.0,
+    "over_tolerance": 0,
+    "over_tolerance_sample": []
+   }
+  },
+  {
+   "id": "z1-15",
+   "section": "z1",
+   "name": "relation field consistent with the two sides",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "field_counts": {
+     "opposite": 256,
+     "same": 256
+    },
+    "consistent_with_sides_mismatches": 0
+   }
+  },
+  {
+   "id": "z1-16",
+   "section": "z1",
+   "name": "no duplicate unordered connection",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "duplicate_connections": 0
+   }
+  },
+  {
+   "id": "z1-17",
+   "section": "z1",
+   "name": "1024 endpoints used exactly once = full z1 port set",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "unique": 1024,
+    "missing": 0,
+    "extra": 0
+   }
+  },
+  {
+   "id": "z1-18",
+   "section": "z1",
+   "name": "all coordinates inside the 150x150 mm board",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "x_min": 0.0,
+    "x_max": 150.0,
+    "y_min": 0.0,
+    "y_max": 150.0,
+    "inside_board": true,
+    "unique_xy": 1024
+   }
+  },
+  {
+   "id": "z1-19",
+   "section": "z1",
+   "name": "512 connections form 128 strict C4 orbits of size 4",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "closure_missing": {
+     "90deg": 0,
+     "180deg": 0,
+     "270deg": 0
+    },
+    "orbit_size_histogram": {
+     "4": 128
+    },
+    "orbit_relations": {
+     "opposite": 64,
+     "same": 64
+    }
+   }
+  },
+  {
+   "id": "z1-20",
+   "section": "z1",
+   "name": "relation counts = opposite 256 / same 256",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "opposite": 256,
+    "same": 256
+   }
+  },
+  {
+   "id": "z1-21",
+   "section": "z1",
+   "name": "used endpoints are balanced 256 per board side",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "E": 256,
+    "N": 256,
+    "S": 256,
+    "W": 256
+   }
+  },
+  {
+   "id": "z2-01",
+   "section": "z2_base",
+   "name": "file exists and is readable",
+   "passed": true,
+   "severity": "error",
+   "detail": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full_section2.csv"
+  },
+  {
+   "id": "z2-02",
+   "section": "z2_base",
+   "name": "header = 19-column manual schema",
+   "passed": true,
+   "severity": "error",
+   "detail": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  {
+   "id": "z2-03",
+   "section": "z2_base",
+   "name": "UTF-8 BOM present",
+   "passed": true,
+   "severity": "error"
+  },
+  {
+   "id": "z2-04",
+   "section": "z2_base",
+   "name": "CRLF-only line endings",
+   "passed": true,
+   "severity": "error"
+  },
+  {
+   "id": "z2-05",
+   "section": "z2_base",
+   "name": "128 data rows (= 512 / 4 C4 base connections)",
+   "passed": true,
+   "severity": "error",
+   "detail": 128
+  },
+  {
+   "id": "z2-06",
+   "section": "z2_base",
+   "name": "route_id unique (legacy, non-contiguous ids)",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "count": 128,
+    "min": 34,
+    "max": 270,
+    "contiguous_minus_1": false
+   }
+  },
+  {
+   "id": "z2-07",
+   "section": "z2_base",
+   "name": "raw port ids exist in the 2048-port model",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "count": 256,
+    "rows_checked": 256,
+    "missing_from_model": 0,
+    "missing_sample": [],
+    "wrong_plane": 0,
+    "wrong_plane_sample": []
+   }
+  },
+  {
+   "id": "z2-08",
+   "section": "z2_base",
+   "name": "raw ids/labels are internally consistent with the legacy row-1/z1 convention",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "plane_of_ids": "z1",
+    "layer": {
+     "z1": 128
+    },
+    "rows": {
+     "source_rows": {
+      "1": 128
+     },
+     "target_rows": {
+      "1": 128
+     }
+    },
+    "channel_equals_column": true
+   }
+  },
+  {
+   "id": "z2-09",
+   "section": "z2_base",
+   "name": "metadata match the port model",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "errors": 0,
+    "sample": []
+   }
+  },
+  {
+   "id": "z2-10",
+   "section": "z2_base",
+   "name": "x/y coordinates match the port model within 1e-9 mm",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "compared": 256,
+    "tolerance_mm": 1e-09,
+    "max_abs_error_x_mm": 0.0,
+    "max_abs_error_y_mm": 0.0,
+    "max_abs_error_mm": 0.0,
+    "over_tolerance": 0,
+    "over_tolerance_sample": []
+   }
+  },
+  {
+   "id": "z2-11",
+   "section": "z2_base",
+   "name": "relation field consistent with the two sides",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "field_counts": {
+     "adjacent": 100,
+     "same": 28
+    },
+    "consistent_with_sides_mismatches": 0
+   }
+  },
+  {
+   "id": "z2-12",
+   "section": "z2_base",
+   "name": "no duplicate unordered connection",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "duplicate_connections": 0
+   }
+  },
+  {
+   "id": "z2-13",
+   "section": "z2_base",
+   "name": "256 endpoints used exactly once (1/4 base set)",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "unique": 256,
+    "max_use": 1,
+    "used_once": true,
+    "duplicated": 0,
+    "side_distribution": {
+     "E": 64,
+     "N": 156,
+     "W": 36
+    }
+   }
+  },
+  {
+   "id": "z2-14",
+   "section": "z2_base",
+   "name": "all coordinates inside the 150x150 mm board",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "x_min": 0.0,
+    "x_max": 150.0,
+    "y_min": 5.625,
+    "y_max": 150.0,
+    "inside_board": true,
+    "unique_xy": 256
+   }
+  },
+  {
+   "id": "z2-15",
+   "section": "z2_base",
+   "name": "relation counts = adjacent 100 / same 28 as stated",
+   "passed": true,
+   "severity": "error",
+   "detail": {
+    "adjacent": 100,
+    "same": 28
+   }
+  },
+  {
+   "id": "z2-16",
+   "section": "z2_base",
+   "name": "legacy label: layer='z1'/row=1/channel=1..16 are row-1 ids while the campaign plane is z2 (row 2), so a documented remap is required",
+   "passed": true,
+   "severity": "warning",
+   "detail": {
+    "legacy_layer": {
+     "z1": 128
+    },
+    "legacy_rows": {
+     "source_rows": {
+      "1": 128
+     },
+     "target_rows": {
+      "1": 128
+     }
+    },
+    "note": "not an error: the ids are consistent among themselves; the remap is validated in z2_c4_expansion.json"
+   }
+  },
+  {
+   "id": "z2-17",
+   "section": "z2_base",
+   "name": "raw row-1 ids of Z1 and Z2 share the same identity space (would collide if used without the row-1 -> row-2 remap)",
+   "passed": true,
+   "severity": "warning",
+   "detail": {
+    "overlap": 256
+   }
+  }
+ ],
+ "files": {
+  "z1": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full_section2.csv",
+   "sha256": "9d5e0b5e15c4b2774130403c94cc56f91b79584496676cbffb7ee81acf54cfbd",
+   "bytes": 42184,
+   "rows": 512,
+   "bom": true,
+   "crlf_only": true,
+   "line_count": 513,
+   "data_lines": 512,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ],
+   "header_ok": true,
+   "columns": 19
+  },
+  "z2": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full_section2.csv",
+   "sha256": "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a",
+   "bytes": 10836,
+   "rows": 128,
+   "bom": true,
+   "crlf_only": true,
+   "line_count": 129,
+   "data_lines": 128,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ],
+   "header_ok": true,
+   "columns": 19
+  }
+ },
+ "z1": {
+  "rows": 512,
+  "port_ids": {
+   "count": 1024,
+   "rows_checked": 1024,
+   "missing_from_model": 0,
+   "missing_sample": [],
+   "wrong_plane": 0,
+   "wrong_plane_sample": []
+  },
+  "coordinates": {
+   "compared": 1024,
+   "tolerance_mm": 1e-09,
+   "max_abs_error_x_mm": 0.0,
+   "max_abs_error_y_mm": 0.0,
+   "max_abs_error_mm": 0.0,
+   "over_tolerance": 0,
+   "over_tolerance_sample": []
+  },
+  "metadata": {
+   "errors": 0,
+   "sample": []
+  },
+  "port_id_column": {
+   "mismatches": 0,
+   "sample": []
+  },
+  "relation": {
+   "field_counts": {
+    "opposite": 256,
+    "same": 256
+   },
+   "consistent_with_sides_mismatches": 0
+  },
+  "duplicate_connections": 0,
+  "usage": {
+   "unique": 1024,
+   "max_use": 1,
+   "used_once": true,
+   "duplicated": 0,
+   "side_distribution": {
+    "E": 256,
+    "N": 256,
+    "S": 256,
+    "W": 256
+   }
+  },
+  "ranges": {
+   "x_min": 0.0,
+   "x_max": 150.0,
+   "y_min": 0.0,
+   "y_max": 150.0,
+   "inside_board": true,
+   "unique_xy": 1024
+  },
+  "row_distribution": {
+   "source_rows": {
+    "1": 512
+   },
+   "target_rows": {
+    "1": 512
+   }
+  },
+  "layer": {
+   "z1": 512
+  },
+  "channel_convention": {
+   "channel_equals_column": true,
+   "channel_equals_16_plus_column": false
+  },
+  "side_distribution": {
+   "source": {
+    "E": 128,
+    "N": 133,
+    "S": 123,
+    "W": 128
+   },
+   "target": {
+    "E": 128,
+    "N": 123,
+    "S": 133,
+    "W": 128
+   }
+  },
+  "pair_distribution": {
+   "EE": 64,
+   "EW": 128,
+   "NN": 64,
+   "NS": 128,
+   "SS": 64,
+   "WW": 64
+  },
+  "field_parse_errors": [],
+  "endpoint_ids": {
+   "unique": 1024,
+   "sample": [
+    "E01:1:1",
+    "E01:1:10",
+    "E01:1:11"
+   ],
+   "min": "E01:1:1",
+   "max": "W16:1:9"
+  },
+  "rotation_analysis": {
+   "connections": 512,
+   "closure_missing": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   },
+   "orbit_size_histogram": {
+    "4": 128
+   },
+   "orbit_relations": {
+    "opposite": 64,
+    "same": 64
+   },
+   "orbits": [
+    [
+     [
+      "N01:1:1",
+      "S01:1:1"
+     ],
+     [
+      "E01:1:1",
+      "W01:1:1"
+     ],
+     [
+      "N16:1:16",
+      "S16:1:16"
+     ],
+     [
+      "E16:1:16",
+      "W16:1:16"
+     ]
+    ],
+    [
+     [
+      "N01:1:2",
+      "S02:1:1"
+     ],
+     [
+      "E02:1:1",
+      "W01:1:2"
+     ],
+     [
+      "N15:1:16",
+      "S16:1:15"
+     ],
+     [
+      "E16:1:15",
+      "W15:1:16"
+     ]
+    ],
+    [
+     [
+      "N01:1:3",
+      "S03:1:1"
+     ],
+     [
+      "E03:1:1",
+      "W01:1:3"
+     ],
+     [
+      "N14:1:16",
+      "S16:1:14"
+     ],
+     [
+      "E16:1:14",
+      "W14:1:16"
+     ]
+    ],
+    [
+     [
+      "N01:1:4",
+      "S04:1:1"
+     ],
+     [
+      "E04:1:1",
+      "W01:1:4"
+     ],
+     [
+      "N13:1:16",
+      "S16:1:13"
+     ],
+     [
+      "E16:1:13",
+      "W13:1:16"
+     ]
+    ],
+    [
+     [
+      "N01:1:5",
+      "S05:1:1"
+     ],
+     [
+      "E05:1:1",
+      "W01:1:5"
+     ],
+     [
+      "N12:1:16",
+      "S16:1:12"
+     ],
+     [
+      "E16:1:12",
+      "W12:1:16"
+     ]
+    ],
+    [
+     [
+      "N01:1:6",
+      "S06:1:1"
+     ],
+     [
+      "E06:1:1",
+      "W01:1:6"
+     ],
+     [
+      "N11:1:16",
+      "S16:1:11"
+     ],
+     [
+      "E16:1:11",
+      "W11:1:16"
+     ]
+    ],
+    [
+     [
+      "N01:1:7",
+      "S07:1:1"
+     ],
+     [
+      "E07:1:1",
+      "W01:1:7"
+     ],
+     [
+      "N10:1:16",
+      "S16:1:10"
+     ],
+     [
+      "E16:1:10",
+      "W10:1:16"
+     ]
+    ],
+    [
+     [
+      "N01:1:8",
+      "S08:1:1"
+     ],
+     [
+      "E08:1:1",
+      "W01:1:8"
+     ],
+     [
+      "N09:1:16",
+      "S16:1:9"
+     ],
+     [
+      "E16:1:9",
+      "W09:1:16"
+     ]
+    ],
+    [
+     [
+      "N16:1:15",
+      "S15:1:16"
+     ],
+     [
+      "E15:1:16",
+      "W16:1:15"
+     ],
+     [
+      "N02:1:1",
+      "S01:1:2"
+     ],
+     [
+      "E01:1:2",
+      "W02:1:1"
+     ]
+    ],
+    [
+     [
+      "N16:1:14",
+      "S14:1:16"
+     ],
+     [
+      "E14:1:16",
+      "W16:1:14"
+     ],
+     [
+      "N03:1:1",
+      "S01:1:3"
+     ],
+     [
+      "E01:1:3",
+      "W03:1:1"
+     ]
+    ],
+    [
+     [
+      "N16:1:13",
+      "S13:1:16"
+     ],
+     [
+      "E13:1:16",
+      "W16:1:13"
+     ],
+     [
+      "N04:1:1",
+      "S01:1:4"
+     ],
+     [
+      "E01:1:4",
+      "W04:1:1"
+     ]
+    ],
+    [
+     [
+      "N16:1:12",
+      "S12:1:16"
+     ],
+     [
+      "E12:1:16",
+      "W16:1:12"
+     ],
+     [
+      "N05:1:1",
+      "S01:1:5"
+     ],
+     [
+      "E01:1:5",
+      "W05:1:1"
+     ]
+    ],
+    [
+     [
+      "N16:1:11",
+      "S11:1:16"
+     ],
+     [
+      "E11:1:16",
+      "W16:1:11"
+     ],
+     [
+      "N06:1:1",
+      "S01:1:6"
+     ],
+     [
+      "E01:1:6",
+      "W06:1:1"
+     ]
+    ],
+    [
+     [
+      "N16:1:10",
+      "S10:1:16"
+     ],
+     [
+      "E10:1:16",
+      "W16:1:10"
+     ],
+     [
+      "N07:1:1",
+      "S01:1:7"
+     ],
+     [
+      "E01:1:7",
+      "W07:1:1"
+     ]
+    ],
+    [
+     [
+      "N16:1:9",
+      "S09:1:16"
+     ],
+     [
+      "E09:1:16",
+      "W16:1:9"
+     ],
+     [
+      "N08:1:1",
+      "S01:1:8"
+     ],
+     [
+      "E01:1:8",
+      "W08:1:1"
+     ]
+    ],
+    [
+     [
+      "N02:1:16",
+      "N15:1:1"
+     ],
+     [
+      "W02:1:16",
+      "W15:1:1"
+     ],
+     [
+      "S02:1:16",
+      "S15:1:1"
+     ],
+     [
+      "E02:1:16",
+      "E15:1:1"
+     ]
+    ],
+    [
+     [
+      "N02:1:15",
+      "N15:1:2"
+     ],
+     [
+      "W02:1:15",
+      "W15:1:2"
+     ],
+     [
+      "S02:1:15",
+      "S15:1:2"
+     ],
+     [
+      "E02:1:15",
+      "E15:1:2"
+     ]
+    ],
+    [
+     [
+      "N02:1:14",
+      "N15:1:3"
+     ],
+     [
+      "W02:1:14",
+      "W15:1:3"
+     ],
+     [
+      "S02:1:14",
+      "S15:1:3"
+     ],
+     [
+      "E02:1:14",
+      "E15:1:3"
+     ]
+    ],
+    [
+     [
+      "N02:1:13",
+      "N15:1:4"
+     ],
+     [
+      "W02:1:13",
+      "W15:1:4"
+     ],
+     [
+      "S02:1:13",
+      "S15:1:4"
+     ],
+     [
+      "E02:1:13",
+      "E15:1:4"
+     ]
+    ],
+    [
+     [
+      "N02:1:12",
+      "N15:1:5"
+     ],
+     [
+      "W02:1:12",
+      "W15:1:5"
+     ],
+     [
+      "S02:1:12",
+      "S15:1:5"
+     ],
+     [
+      "E02:1:12",
+      "E15:1:5"
+     ]
+    ],
+    [
+     [
+      "N02:1:11",
+      "N15:1:6"
+     ],
+     [
+      "W02:1:11",
+      "W15:1:6"
+     ],
+     [
+      "S02:1:11",
+      "S15:1:6"
+     ],
+     [
+      "E02:1:11",
+      "E15:1:6"
+     ]
+    ],
+    [
+     [
+      "N02:1:10",
+      "N15:1:7"
+     ],
+     [
+      "W02:1:10",
+      "W15:1:7"
+     ],
+     [
+      "S02:1:10",
+      "S15:1:7"
+     ],
+     [
+      "E02:1:10",
+      "E15:1:7"
+     ]
+    ],
+    [
+     [
+      "N02:1:9",
+      "N15:1:8"
+     ],
+     [
+      "W02:1:9",
+      "W15:1:8"
+     ],
+     [
+      "S02:1:9",
+      "S15:1:8"
+     ],
+     [
+      "E02:1:9",
+      "E15:1:8"
+     ]
+    ],
+    [
+     [
+      "N02:1:2",
+      "S02:1:2"
+     ],
+     [
+      "E02:1:2",
+      "W02:1:2"
+     ],
+     [
+      "N15:1:15",
+      "S15:1:15"
+     ],
+     [
+      "E15:1:15",
+      "W15:1:15"
+     ]
+    ],
+    [
+     [
+      "N02:1:3",
+      "S03:1:2"
+     ],
+     [
+      "E03:1:2",
+      "W02:1:3"
+     ],
+     [
+      "N14:1:15",
+      "S15:1:14"
+     ],
+     [
+      "E15:1:14",
+      "W14:1:15"
+     ]
+    ],
+    [
+     [
+      "N02:1:4",
+      "S04:1:2"
+     ],
+     [
+      "E04:1:2",
+      "W02:1:4"
+     ],
+     [
+      "N13:1:15",
+      "S15:1:13"
+     ],
+     [
+      "E15:1:13",
+      "W13:1:15"
+     ]
+    ],
+    [
+     [
+      "N02:1:5",
+      "S05:1:2"
+     ],
+     [
+      "E05:1:2",
+      "W02:1:5"
+     ],
+     [
+      "N12:1:15",
+      "S15:1:12"
+     ],
+     [
+      "E15:1:12",
+      "W12:1:15"
+     ]
+    ],
+    [
+     [
+      "N02:1:6",
+      "S06:1:2"
+     ],
+     [
+      "E06:1:2",
+      "W02:1:6"
+     ],
+     [
+      "N11:1:15",
+      "S15:1:11"
+     ],
+     [
+      "E15:1:11",
+      "W11:1:15"
+     ]
+    ],
+    [
+     [
+      "N02:1:7",
+      "S07:1:2"
+     ],
+     [
+      "E07:1:2",
+      "W02:1:7"
+     ],
+     [
+      "N10:1:15",
+      "S15:1:10"
+     ],
+     [
+      "E15:1:10",
+      "W10:1:15"
+     ]
+    ],
+    [
+     [
+      "N02:1:8",
+      "S08:1:2"
+     ],
+     [
+      "E08:1:2",
+      "W02:1:8"
+     ],
+     [
+      "N09:1:15",
+      "S15:1:9"
+     ],
+     [
+      "E15:1:9",
+      "W09:1:15"
+     ]
+    ],
+    [
+     [
+      "N03:1:2",
+      "S02:1:3"
+     ],
+     [
+      "E02:1:3",
+      "W03:1:2"
+     ],
+     [
+      "N15:1:14",
+      "S14:1:15"
+     ],
+     [
+      "E14:1:15",
+      "W15:1:14"
+     ]
+    ],
+    [
+     [
+      "N03:1:3",
+      "S03:1:3"
+     ],
+     [
+      "E03:1:3",
+      "W03:1:3"
+     ],
+     [
+      "N14:1:14",
+      "S14:1:14"
+     ],
+     [
+      "E14:1:14",
+      "W14:1:14"
+     ]
+    ],
+    [
+     [
+      "N03:1:4",
+      "S04:1:3"
+     ],
+     [
+      "E04:1:3",
+      "W03:1:4"
+     ],
+     [
+      "N13:1:14",
+      "S14:1:13"
+     ],
+     [
+      "E14:1:13",
+      "W13:1:14"
+     ]
+    ],
+    [
+     [
+      "N03:1:5",
+      "S05:1:3"
+     ],
+     [
+      "E05:1:3",
+      "W03:1:5"
+     ],
+     [
+      "N12:1:14",
+      "S14:1:12"
+     ],
+     [
+      "E14:1:12",
+      "W12:1:14"
+     ]
+    ],
+    [
+     [
+      "N03:1:6",
+      "S06:1:3"
+     ],
+     [
+      "E06:1:3",
+      "W03:1:6"
+     ],
+     [
+      "N11:1:14",
+      "S14:1:11"
+     ],
+     [
+      "E14:1:11",
+      "W11:1:14"
+     ]
+    ],
+    [
+     [
+      "N03:1:7",
+      "S07:1:3"
+     ],
+     [
+      "E07:1:3",
+      "W03:1:7"
+     ],
+     [
+      "N10:1:14",
+      "S14:1:10"
+     ],
+     [
+      "E14:1:10",
+      "W10:1:14"
+     ]
+    ],
+    [
+     [
+      "N03:1:8",
+      "S08:1:3"
+     ],
+     [
+      "E08:1:3",
+      "W03:1:8"
+     ],
+     [
+      "N09:1:14",
+      "S14:1:9"
+     ],
+     [
+      "E14:1:9",
+      "W09:1:14"
+     ]
+    ],
+    [
+     [
+      "N04:1:16",
+      "N13:1:1"
+     ],
+     [
+      "W04:1:16",
+      "W13:1:1"
+     ],
+     [
+      "S04:1:16",
+      "S13:1:1"
+     ],
+     [
+      "E04:1:16",
+      "E13:1:1"
+     ]
+    ],
+    [
+     [
+      "N04:1:15",
+      "N13:1:2"
+     ],
+     [
+      "W04:1:15",
+      "W13:1:2"
+     ],
+     [
+      "S04:1:15",
+      "S13:1:2"
+     ],
+     [
+      "E04:1:15",
+      "E13:1:2"
+     ]
+    ],
+    [
+     [
+      "N04:1:14",
+      "N13:1:3"
+     ],
+     [
+      "W04:1:14",
+      "W13:1:3"
+     ],
+     [
+      "S04:1:14",
+      "S13:1:3"
+     ],
+     [
+      "E04:1:14",
+      "E13:1:3"
+     ]
+    ],
+    [
+     [
+      "N04:1:13",
+      "N13:1:4"
+     ],
+     [
+      "W04:1:13",
+      "W13:1:4"
+     ],
+     [
+      "S04:1:13",
+      "S13:1:4"
+     ],
+     [
+      "E04:1:13",
+      "E13:1:4"
+     ]
+    ],
+    [
+     [
+      "N04:1:12",
+      "N13:1:5"
+     ],
+     [
+      "W04:1:12",
+      "W13:1:5"
+     ],
+     [
+      "S04:1:12",
+      "S13:1:5"
+     ],
+     [
+      "E04:1:12",
+      "E13:1:5"
+     ]
+    ],
+    [
+     [
+      "N04:1:11",
+      "N13:1:6"
+     ],
+     [
+      "W04:1:11",
+      "W13:1:6"
+     ],
+     [
+      "S04:1:11",
+      "S13:1:6"
+     ],
+     [
+      "E04:1:11",
+      "E13:1:6"
+     ]
+    ],
+    [
+     [
+      "N04:1:10",
+      "N13:1:7"
+     ],
+     [
+      "W04:1:10",
+      "W13:1:7"
+     ],
+     [
+      "S04:1:10",
+      "S13:1:7"
+     ],
+     [
+      "E04:1:10",
+      "E13:1:7"
+     ]
+    ],
+    [
+     [
+      "N04:1:9",
+      "N13:1:8"
+     ],
+     [
+      "W04:1:9",
+      "W13:1:8"
+     ],
+     [
+      "S04:1:9",
+      "S13:1:8"
+     ],
+     [
+      "E04:1:9",
+      "E13:1:8"
+     ]
+    ],
+    [
+     [
+      "N05:1:16",
+      "N12:1:1"
+     ],
+     [
+      "W05:1:16",
+      "W12:1:1"
+     ],
+     [
+      "S05:1:16",
+      "S12:1:1"
+     ],
+     [
+      "E05:1:16",
+      "E12:1:1"
+     ]
+    ],
+    [
+     [
+      "N05:1:15",
+      "N12:1:2"
+     ],
+     [
+      "W05:1:15",
+      "W12:1:2"
+     ],
+     [
+      "S05:1:15",
+      "S12:1:2"
+     ],
+     [
+      "E05:1:15",
+      "E12:1:2"
+     ]
+    ],
+    [
+     [
+      "N05:1:14",
+      "N12:1:3"
+     ],
+     [
+      "W05:1:14",
+      "W12:1:3"
+     ],
+     [
+      "S05:1:14",
+      "S12:1:3"
+     ],
+     [
+      "E05:1:14",
+      "E12:1:3"
+     ]
+    ],
+    [
+     [
+      "N05:1:13",
+      "N12:1:4"
+     ],
+     [
+      "W05:1:13",
+      "W12:1:4"
+     ],
+     [
+      "S05:1:13",
+      "S12:1:4"
+     ],
+     [
+      "E05:1:13",
+      "E12:1:4"
+     ]
+    ],
+    [
+     [
+      "N05:1:12",
+      "N12:1:5"
+     ],
+     [
+      "W05:1:12",
+      "W12:1:5"
+     ],
+     [
+      "S05:1:12",
+      "S12:1:5"
+     ],
+     [
+      "E05:1:12",
+      "E12:1:5"
+     ]
+    ],
+    [
+     [
+      "N05:1:11",
+      "N12:1:6"
+     ],
+     [
+      "W05:1:11",
+      "W12:1:6"
+     ],
+     [
+      "S05:1:11",
+      "S12:1:6"
+     ],
+     [
+      "E05:1:11",
+      "E12:1:6"
+     ]
+    ],
+    [
+     [
+      "N05:1:10",
+      "N12:1:7"
+     ],
+     [
+      "W05:1:10",
+      "W12:1:7"
+     ],
+     [
+      "S05:1:10",
+      "S12:1:7"
+     ],
+     [
+      "E05:1:10",
+      "E12:1:7"
+     ]
+    ],
+    [
+     [
+      "N05:1:9",
+      "N12:1:8"
+     ],
+     [
+      "W05:1:9",
+      "W12:1:8"
+     ],
+     [
+      "S05:1:9",
+      "S12:1:8"
+     ],
+     [
+      "E05:1:9",
+      "E12:1:8"
+     ]
+    ],
+    [
+     [
+      "N06:1:16",
+      "N11:1:1"
+     ],
+     [
+      "W06:1:16",
+      "W11:1:1"
+     ],
+     [
+      "S06:1:16",
+      "S11:1:1"
+     ],
+     [
+      "E06:1:16",
+      "E11:1:1"
+     ]
+    ],
+    [
+     [
+      "N06:1:15",
+      "N11:1:2"
+     ],
+     [
+      "W06:1:15",
+      "W11:1:2"
+     ],
+     [
+      "S06:1:15",
+      "S11:1:2"
+     ],
+     [
+      "E06:1:15",
+      "E11:1:2"
+     ]
+    ],
+    [
+     [
+      "N06:1:14",
+      "N11:1:3"
+     ],
+     [
+      "W06:1:14",
+      "W11:1:3"
+     ],
+     [
+      "S06:1:14",
+      "S11:1:3"
+     ],
+     [
+      "E06:1:14",
+      "E11:1:3"
+     ]
+    ],
+    [
+     [
+      "N06:1:13",
+      "N11:1:4"
+     ],
+     [
+      "W06:1:13",
+      "W11:1:4"
+     ],
+     [
+      "S06:1:13",
+      "S11:1:4"
+     ],
+     [
+      "E06:1:13",
+      "E11:1:4"
+     ]
+    ],
+    [
+     [
+      "N06:1:12",
+      "N11:1:5"
+     ],
+     [
+      "W06:1:12",
+      "W11:1:5"
+     ],
+     [
+      "S06:1:12",
+      "S11:1:5"
+     ],
+     [
+      "E06:1:12",
+      "E11:1:5"
+     ]
+    ],
+    [
+     [
+      "N06:1:11",
+      "N11:1:6"
+     ],
+     [
+      "W06:1:11",
+      "W11:1:6"
+     ],
+     [
+      "S06:1:11",
+      "S11:1:6"
+     ],
+     [
+      "E06:1:11",
+      "E11:1:6"
+     ]
+    ],
+    [
+     [
+      "N06:1:10",
+      "N11:1:7"
+     ],
+     [
+      "W06:1:10",
+      "W11:1:7"
+     ],
+     [
+      "S06:1:10",
+      "S11:1:7"
+     ],
+     [
+      "E06:1:10",
+      "E11:1:7"
+     ]
+    ],
+    [
+     [
+      "N06:1:9",
+      "N11:1:8"
+     ],
+     [
+      "W06:1:9",
+      "W11:1:8"
+     ],
+     [
+      "S06:1:9",
+      "S11:1:8"
+     ],
+     [
+      "E06:1:9",
+      "E11:1:8"
+     ]
+    ],
+    [
+     [
+      "N03:1:9",
+      "N07:1:16"
+     ],
+     [
+      "W03:1:9",
+      "W07:1:16"
+     ],
+     [
+      "S10:1:1",
+      "S14:1:8"
+     ],
+     [
+      "E10:1:1",
+      "E14:1:8"
+     ]
+    ],
+    [
+     [
+      "N03:1:10",
+      "N07:1:15"
+     ],
+     [
+      "W03:1:10",
+      "W07:1:15"
+     ],
+     [
+      "S10:1:2",
+      "S14:1:7"
+     ],
+     [
+      "E10:1:2",
+      "E14:1:7"
+     ]
+    ],
+    [
+     [
+      "N03:1:11",
+      "N07:1:14"
+     ],
+     [
+      "W03:1:11",
+      "W07:1:14"
+     ],
+     [
+      "S10:1:3",
+      "S14:1:6"
+     ],
+     [
+      "E10:1:3",
+      "E14:1:6"
+     ]
+    ],
+    [
+     [
+      "N03:1:12",
+      "N07:1:13"
+     ],
+     [
+      "W03:1:12",
+      "W07:1:13"
+     ],
+     [
+      "S10:1:4",
+      "S14:1:5"
+     ],
+     [
+      "E10:1:4",
+      "E14:1:5"
+     ]
+    ],
+    [
+     [
+      "N03:1:13",
+      "N07:1:12"
+     ],
+     [
+      "W03:1:13",
+      "W07:1:12"
+     ],
+     [
+      "S10:1:5",
+      "S14:1:4"
+     ],
+     [
+      "E10:1:5",
+      "E14:1:4"
+     ]
+    ],
+    [
+     [
+      "N03:1:14",
+      "N07:1:11"
+     ],
+     [
+      "W03:1:14",
+      "W07:1:11"
+     ],
+     [
+      "S10:1:6",
+      "S14:1:3"
+     ],
+     [
+      "E10:1:6",
+      "E14:1:3"
+     ]
+    ],
+    [
+     [
+      "N03:1:15",
+      "N07:1:10"
+     ],
+     [
+      "W03:1:15",
+      "W07:1:10"
+     ],
+     [
+      "S10:1:7",
+      "S14:1:2"
+     ],
+     [
+      "E10:1:7",
+      "E14:1:2"
+     ]
+    ],
+    [
+     [
+      "N03:1:16",
+      "N07:1:9"
+     ],
+     [
+      "W03:1:16",
+      "W07:1:9"
+     ],
+     [
+      "S10:1:8",
+      "S14:1:1"
+     ],
+     [
+      "E10:1:8",
+      "E14:1:1"
+     ]
+    ],
+    [
+     [
+      "N01:1:9",
+      "N08:1:16"
+     ],
+     [
+      "W01:1:9",
+      "W08:1:16"
+     ],
+     [
+      "S09:1:1",
+      "S16:1:8"
+     ],
+     [
+      "E09:1:1",
+      "E16:1:8"
+     ]
+    ],
+    [
+     [
+      "N01:1:10",
+      "N08:1:15"
+     ],
+     [
+      "W01:1:10",
+      "W08:1:15"
+     ],
+     [
+      "S09:1:2",
+      "S16:1:7"
+     ],
+     [
+      "E09:1:2",
+      "E16:1:7"
+     ]
+    ],
+    [
+     [
+      "N01:1:11",
+      "N08:1:14"
+     ],
+     [
+      "W01:1:11",
+      "W08:1:14"
+     ],
+     [
+      "S09:1:3",
+      "S16:1:6"
+     ],
+     [
+      "E09:1:3",
+      "E16:1:6"
+     ]
+    ],
+    [
+     [
+      "N01:1:12",
+      "N08:1:13"
+     ],
+     [
+      "W01:1:12",
+      "W08:1:13"
+     ],
+     [
+      "S09:1:4",
+      "S16:1:5"
+     ],
+     [
+      "E09:1:4",
+      "E16:1:5"
+     ]
+    ],
+    [
+     [
+      "N01:1:13",
+      "N08:1:12"
+     ],
+     [
+      "W01:1:13",
+      "W08:1:12"
+     ],
+     [
+      "S09:1:5",
+      "S16:1:4"
+     ],
+     [
+      "E09:1:5",
+      "E16:1:4"
+     ]
+    ],
+    [
+     [
+      "N01:1:14",
+      "N08:1:11"
+     ],
+     [
+      "W01:1:14",
+      "W08:1:11"
+     ],
+     [
+      "S09:1:6",
+      "S16:1:3"
+     ],
+     [
+      "E09:1:6",
+      "E16:1:3"
+     ]
+    ],
+    [
+     [
+      "N01:1:15",
+      "N08:1:10"
+     ],
+     [
+      "W01:1:15",
+      "W08:1:10"
+     ],
+     [
+      "S09:1:7",
+      "S16:1:2"
+     ],
+     [
+      "E09:1:7",
+      "E16:1:2"
+     ]
+    ],
+    [
+     [
+      "N01:1:16",
+      "N08:1:9"
+     ],
+     [
+      "W01:1:16",
+      "W08:1:9"
+     ],
+     [
+      "S09:1:8",
+      "S16:1:1"
+     ],
+     [
+      "E09:1:8",
+      "E16:1:1"
+     ]
+    ],
+    [
+     [
+      "N09:1:1",
+      "N16:1:8"
+     ],
+     [
+      "W09:1:1",
+      "W16:1:8"
+     ],
+     [
+      "S01:1:9",
+      "S08:1:16"
+     ],
+     [
+      "E01:1:9",
+      "E08:1:16"
+     ]
+    ],
+    [
+     [
+      "N09:1:2",
+      "N16:1:7"
+     ],
+     [
+      "W09:1:2",
+      "W16:1:7"
+     ],
+     [
+      "S01:1:10",
+      "S08:1:15"
+     ],
+     [
+      "E01:1:10",
+      "E08:1:15"
+     ]
+    ],
+    [
+     [
+      "N09:1:3",
+      "N16:1:6"
+     ],
+     [
+      "W09:1:3",
+      "W16:1:6"
+     ],
+     [
+      "S01:1:11",
+      "S08:1:14"
+     ],
+     [
+      "E01:1:11",
+      "E08:1:14"
+     ]
+    ],
+    [
+     [
+      "N09:1:4",
+      "N16:1:5"
+     ],
+     [
+      "W09:1:4",
+      "W16:1:5"
+     ],
+     [
+      "S01:1:12",
+      "S08:1:13"
+     ],
+     [
+      "E01:1:12",
+      "E08:1:13"
+     ]
+    ],
+    [
+     [
+      "N09:1:5",
+      "N16:1:4"
+     ],
+     [
+      "W09:1:5",
+      "W16:1:4"
+     ],
+     [
+      "S01:1:13",
+      "S08:1:12"
+     ],
+     [
+      "E01:1:13",
+      "E08:1:12"
+     ]
+    ],
+    [
+     [
+      "N09:1:6",
+      "N16:1:3"
+     ],
+     [
+      "W09:1:6",
+      "W16:1:3"
+     ],
+     [
+      "S01:1:14",
+      "S08:1:11"
+     ],
+     [
+      "E01:1:14",
+      "E08:1:11"
+     ]
+    ],
+    [
+     [
+      "N09:1:7",
+      "N16:1:2"
+     ],
+     [
+      "W09:1:7",
+      "W16:1:2"
+     ],
+     [
+      "S01:1:15",
+      "S08:1:10"
+     ],
+     [
+      "E01:1:15",
+      "E08:1:10"
+     ]
+    ],
+    [
+     [
+      "N09:1:8",
+      "N16:1:1"
+     ],
+     [
+      "W09:1:8",
+      "W16:1:1"
+     ],
+     [
+      "S01:1:16",
+      "S08:1:9"
+     ],
+     [
+      "E01:1:16",
+      "E08:1:9"
+     ]
+    ],
+    [
+     [
+      "N10:1:1",
+      "N14:1:8"
+     ],
+     [
+      "W10:1:1",
+      "W14:1:8"
+     ],
+     [
+      "S03:1:9",
+      "S07:1:16"
+     ],
+     [
+      "E03:1:9",
+      "E07:1:16"
+     ]
+    ],
+    [
+     [
+      "N10:1:2",
+      "N14:1:7"
+     ],
+     [
+      "W10:1:2",
+      "W14:1:7"
+     ],
+     [
+      "S03:1:10",
+      "S07:1:15"
+     ],
+     [
+      "E03:1:10",
+      "E07:1:15"
+     ]
+    ],
+    [
+     [
+      "N10:1:3",
+      "N14:1:6"
+     ],
+     [
+      "W10:1:3",
+      "W14:1:6"
+     ],
+     [
+      "S03:1:11",
+      "S07:1:14"
+     ],
+     [
+      "E03:1:11",
+      "E07:1:14"
+     ]
+    ],
+    [
+     [
+      "N10:1:4",
+      "N14:1:5"
+     ],
+     [
+      "W10:1:4",
+      "W14:1:5"
+     ],
+     [
+      "S03:1:12",
+      "S07:1:13"
+     ],
+     [
+      "E03:1:12",
+      "E07:1:13"
+     ]
+    ],
+    [
+     [
+      "N10:1:5",
+      "N14:1:4"
+     ],
+     [
+      "W10:1:5",
+      "W14:1:4"
+     ],
+     [
+      "S03:1:13",
+      "S07:1:12"
+     ],
+     [
+      "E03:1:13",
+      "E07:1:12"
+     ]
+    ],
+    [
+     [
+      "N10:1:6",
+      "N14:1:3"
+     ],
+     [
+      "W10:1:6",
+      "W14:1:3"
+     ],
+     [
+      "S03:1:14",
+      "S07:1:11"
+     ],
+     [
+      "E03:1:14",
+      "E07:1:11"
+     ]
+    ],
+    [
+     [
+      "N10:1:7",
+      "N14:1:2"
+     ],
+     [
+      "W10:1:7",
+      "W14:1:2"
+     ],
+     [
+      "S03:1:15",
+      "S07:1:10"
+     ],
+     [
+      "E03:1:15",
+      "E07:1:10"
+     ]
+    ],
+    [
+     [
+      "N10:1:8",
+      "N14:1:1"
+     ],
+     [
+      "W10:1:8",
+      "W14:1:1"
+     ],
+     [
+      "S03:1:16",
+      "S07:1:9"
+     ],
+     [
+      "E03:1:16",
+      "E07:1:9"
+     ]
+    ],
+    [
+     [
+      "N04:1:2",
+      "S02:1:4"
+     ],
+     [
+      "E02:1:4",
+      "W04:1:2"
+     ],
+     [
+      "N15:1:13",
+      "S13:1:15"
+     ],
+     [
+      "E13:1:15",
+      "W15:1:13"
+     ]
+    ],
+    [
+     [
+      "N04:1:3",
+      "S03:1:4"
+     ],
+     [
+      "E03:1:4",
+      "W04:1:3"
+     ],
+     [
+      "N14:1:13",
+      "S13:1:14"
+     ],
+     [
+      "E13:1:14",
+      "W14:1:13"
+     ]
+    ],
+    [
+     [
+      "N04:1:4",
+      "S04:1:4"
+     ],
+     [
+      "E04:1:4",
+      "W04:1:4"
+     ],
+     [
+      "N13:1:13",
+      "S13:1:13"
+     ],
+     [
+      "E13:1:13",
+      "W13:1:13"
+     ]
+    ],
+    [
+     [
+      "N04:1:5",
+      "S05:1:4"
+     ],
+     [
+      "E05:1:4",
+      "W04:1:5"
+     ],
+     [
+      "N12:1:13",
+      "S13:1:12"
+     ],
+     [
+      "E13:1:12",
+      "W12:1:13"
+     ]
+    ],
+    [
+     [
+      "N04:1:6",
+      "S06:1:4"
+     ],
+     [
+      "E06:1:4",
+      "W04:1:6"
+     ],
+     [
+      "N11:1:13",
+      "S13:1:11"
+     ],
+     [
+      "E13:1:11",
+      "W11:1:13"
+     ]
+    ],
+    [
+     [
+      "N04:1:7",
+      "S07:1:4"
+     ],
+     [
+      "E07:1:4",
+      "W04:1:7"
+     ],
+     [
+      "N10:1:13",
+      "S13:1:10"
+     ],
+     [
+      "E13:1:10",
+      "W10:1:13"
+     ]
+    ],
+    [
+     [
+      "N04:1:8",
+      "S08:1:4"
+     ],
+     [
+      "E08:1:4",
+      "W04:1:8"
+     ],
+     [
+      "N09:1:13",
+      "S13:1:9"
+     ],
+     [
+      "E13:1:9",
+      "W09:1:13"
+     ]
+    ],
+    [
+     [
+      "N05:1:2",
+      "S02:1:5"
+     ],
+     [
+      "E02:1:5",
+      "W05:1:2"
+     ],
+     [
+      "N15:1:12",
+      "S12:1:15"
+     ],
+     [
+      "E12:1:15",
+      "W15:1:12"
+     ]
+    ],
+    [
+     [
+      "N05:1:3",
+      "S03:1:5"
+     ],
+     [
+      "E03:1:5",
+      "W05:1:3"
+     ],
+     [
+      "N14:1:12",
+      "S12:1:14"
+     ],
+     [
+      "E12:1:14",
+      "W14:1:12"
+     ]
+    ],
+    [
+     [
+      "N05:1:4",
+      "S04:1:5"
+     ],
+     [
+      "E04:1:5",
+      "W05:1:4"
+     ],
+     [
+      "N13:1:12",
+      "S12:1:13"
+     ],
+     [
+      "E12:1:13",
+      "W13:1:12"
+     ]
+    ],
+    [
+     [
+      "N05:1:5",
+      "S05:1:5"
+     ],
+     [
+      "E05:1:5",
+      "W05:1:5"
+     ],
+     [
+      "N12:1:12",
+      "S12:1:12"
+     ],
+     [
+      "E12:1:12",
+      "W12:1:12"
+     ]
+    ],
+    [
+     [
+      "N05:1:6",
+      "S06:1:5"
+     ],
+     [
+      "E06:1:5",
+      "W05:1:6"
+     ],
+     [
+      "N11:1:12",
+      "S12:1:11"
+     ],
+     [
+      "E12:1:11",
+      "W11:1:12"
+     ]
+    ],
+    [
+     [
+      "N05:1:7",
+      "S07:1:5"
+     ],
+     [
+      "E07:1:5",
+      "W05:1:7"
+     ],
+     [
+      "N10:1:12",
+      "S12:1:10"
+     ],
+     [
+      "E12:1:10",
+      "W10:1:12"
+     ]
+    ],
+    [
+     [
+      "N05:1:8",
+      "S08:1:5"
+     ],
+     [
+      "E08:1:5",
+      "W05:1:8"
+     ],
+     [
+      "N09:1:12",
+      "S12:1:9"
+     ],
+     [
+      "E12:1:9",
+      "W09:1:12"
+     ]
+    ],
+    [
+     [
+      "N06:1:2",
+      "S02:1:6"
+     ],
+     [
+      "E02:1:6",
+      "W06:1:2"
+     ],
+     [
+      "N15:1:11",
+      "S11:1:15"
+     ],
+     [
+      "E11:1:15",
+      "W15:1:11"
+     ]
+    ],
+    [
+     [
+      "N06:1:3",
+      "S03:1:6"
+     ],
+     [
+      "E03:1:6",
+      "W06:1:3"
+     ],
+     [
+      "N14:1:11",
+      "S11:1:14"
+     ],
+     [
+      "E11:1:14",
+      "W14:1:11"
+     ]
+    ],
+    [
+     [
+      "N06:1:4",
+      "S04:1:6"
+     ],
+     [
+      "E04:1:6",
+      "W06:1:4"
+     ],
+     [
+      "N13:1:11",
+      "S11:1:13"
+     ],
+     [
+      "E11:1:13",
+      "W13:1:11"
+     ]
+    ],
+    [
+     [
+      "N06:1:5",
+      "S05:1:6"
+     ],
+     [
+      "E05:1:6",
+      "W06:1:5"
+     ],
+     [
+      "N12:1:11",
+      "S11:1:12"
+     ],
+     [
+      "E11:1:12",
+      "W12:1:11"
+     ]
+    ],
+    [
+     [
+      "N06:1:6",
+      "S06:1:6"
+     ],
+     [
+      "E06:1:6",
+      "W06:1:6"
+     ],
+     [
+      "N11:1:11",
+      "S11:1:11"
+     ],
+     [
+      "E11:1:11",
+      "W11:1:11"
+     ]
+    ],
+    [
+     [
+      "N06:1:7",
+      "S07:1:6"
+     ],
+     [
+      "E07:1:6",
+      "W06:1:7"
+     ],
+     [
+      "N10:1:11",
+      "S11:1:10"
+     ],
+     [
+      "E11:1:10",
+      "W10:1:11"
+     ]
+    ],
+    [
+     [
+      "N06:1:8",
+      "S08:1:6"
+     ],
+     [
+      "E08:1:6",
+      "W06:1:8"
+     ],
+     [
+      "N09:1:11",
+      "S11:1:9"
+     ],
+     [
+      "E11:1:9",
+      "W09:1:11"
+     ]
+    ],
+    [
+     [
+      "N07:1:2",
+      "S02:1:7"
+     ],
+     [
+      "E02:1:7",
+      "W07:1:2"
+     ],
+     [
+      "N15:1:10",
+      "S10:1:15"
+     ],
+     [
+      "E10:1:15",
+      "W15:1:10"
+     ]
+    ],
+    [
+     [
+      "N07:1:3",
+      "S03:1:7"
+     ],
+     [
+      "E03:1:7",
+      "W07:1:3"
+     ],
+     [
+      "N14:1:10",
+      "S10:1:14"
+     ],
+     [
+      "E10:1:14",
+      "W14:1:10"
+     ]
+    ],
+    [
+     [
+      "N07:1:4",
+      "S04:1:7"
+     ],
+     [
+      "E04:1:7",
+      "W07:1:4"
+     ],
+     [
+      "N13:1:10",
+      "S10:1:13"
+     ],
+     [
+      "E10:1:13",
+      "W13:1:10"
+     ]
+    ],
+    [
+     [
+      "N07:1:5",
+      "S05:1:7"
+     ],
+     [
+      "E05:1:7",
+      "W07:1:5"
+     ],
+     [
+      "N12:1:10",
+      "S10:1:12"
+     ],
+     [
+      "E10:1:12",
+      "W12:1:10"
+     ]
+    ],
+    [
+     [
+      "N07:1:6",
+      "S06:1:7"
+     ],
+     [
+      "E06:1:7",
+      "W07:1:6"
+     ],
+     [
+      "N11:1:10",
+      "S10:1:11"
+     ],
+     [
+      "E10:1:11",
+      "W11:1:10"
+     ]
+    ],
+    [
+     [
+      "N07:1:7",
+      "S07:1:7"
+     ],
+     [
+      "E07:1:7",
+      "W07:1:7"
+     ],
+     [
+      "N10:1:10",
+      "S10:1:10"
+     ],
+     [
+      "E10:1:10",
+      "W10:1:10"
+     ]
+    ],
+    [
+     [
+      "N07:1:8",
+      "S08:1:7"
+     ],
+     [
+      "E08:1:7",
+      "W07:1:8"
+     ],
+     [
+      "N09:1:10",
+      "S10:1:9"
+     ],
+     [
+      "E10:1:9",
+      "W09:1:10"
+     ]
+    ],
+    [
+     [
+      "N08:1:2",
+      "S02:1:8"
+     ],
+     [
+      "E02:1:8",
+      "W08:1:2"
+     ],
+     [
+      "N15:1:9",
+      "S09:1:15"
+     ],
+     [
+      "E09:1:15",
+      "W15:1:9"
+     ]
+    ],
+    [
+     [
+      "N08:1:3",
+      "S03:1:8"
+     ],
+     [
+      "E03:1:8",
+      "W08:1:3"
+     ],
+     [
+      "N14:1:9",
+      "S09:1:14"
+     ],
+     [
+      "E09:1:14",
+      "W14:1:9"
+     ]
+    ],
+    [
+     [
+      "N08:1:4",
+      "S04:1:8"
+     ],
+     [
+      "E04:1:8",
+      "W08:1:4"
+     ],
+     [
+      "N13:1:9",
+      "S09:1:13"
+     ],
+     [
+      "E09:1:13",
+      "W13:1:9"
+     ]
+    ],
+    [
+     [
+      "N08:1:5",
+      "S05:1:8"
+     ],
+     [
+      "E05:1:8",
+      "W08:1:5"
+     ],
+     [
+      "N12:1:9",
+      "S09:1:12"
+     ],
+     [
+      "E09:1:12",
+      "W12:1:9"
+     ]
+    ],
+    [
+     [
+      "N08:1:6",
+      "S06:1:8"
+     ],
+     [
+      "E06:1:8",
+      "W08:1:6"
+     ],
+     [
+      "N11:1:9",
+      "S09:1:11"
+     ],
+     [
+      "E09:1:11",
+      "W11:1:9"
+     ]
+    ],
+    [
+     [
+      "N08:1:7",
+      "S07:1:8"
+     ],
+     [
+      "E07:1:8",
+      "W08:1:7"
+     ],
+     [
+      "N10:1:9",
+      "S09:1:10"
+     ],
+     [
+      "E09:1:10",
+      "W10:1:9"
+     ]
+    ],
+    [
+     [
+      "N08:1:8",
+      "S08:1:8"
+     ],
+     [
+      "E08:1:8",
+      "W08:1:8"
+     ],
+     [
+      "N09:1:9",
+      "S09:1:9"
+     ],
+     [
+      "E09:1:9",
+      "W09:1:9"
+     ]
+    ]
+   ]
+  }
+ },
+ "z2_base": {
+  "rows": 128,
+  "port_ids": {
+   "count": 256,
+   "rows_checked": 256,
+   "missing_from_model": 0,
+   "missing_sample": [],
+   "wrong_plane": 0,
+   "wrong_plane_sample": []
+  },
+  "coordinates": {
+   "compared": 256,
+   "tolerance_mm": 1e-09,
+   "max_abs_error_x_mm": 0.0,
+   "max_abs_error_y_mm": 0.0,
+   "max_abs_error_mm": 0.0,
+   "over_tolerance": 0,
+   "over_tolerance_sample": []
+  },
+  "metadata": {
+   "errors": 0,
+   "sample": []
+  },
+  "port_id_column": {
+   "mismatches": 0,
+   "sample": []
+  },
+  "relation": {
+   "field_counts": {
+    "adjacent": 100,
+    "same": 28
+   },
+   "consistent_with_sides_mismatches": 0
+  },
+  "duplicate_connections": 0,
+  "usage": {
+   "unique": 256,
+   "max_use": 1,
+   "used_once": true,
+   "duplicated": 0,
+   "side_distribution": {
+    "E": 64,
+    "N": 156,
+    "W": 36
+   }
+  },
+  "ranges": {
+   "x_min": 0.0,
+   "x_max": 150.0,
+   "y_min": 5.625,
+   "y_max": 150.0,
+   "inside_board": true,
+   "unique_xy": 256
+  },
+  "row_distribution": {
+   "source_rows": {
+    "1": 128
+   },
+   "target_rows": {
+    "1": 128
+   }
+  },
+  "layer": {
+   "z1": 128
+  },
+  "channel_convention": {
+   "channel_equals_column": true,
+   "channel_equals_16_plus_column": false
+  },
+  "side_distribution": {
+   "source": {
+    "E": 31,
+    "N": 79,
+    "W": 18
+   },
+   "target": {
+    "E": 33,
+    "N": 77,
+    "W": 18
+   }
+  },
+  "pair_distribution": {
+   "EN": 64,
+   "NN": 28,
+   "NW": 36
+  },
+  "field_parse_errors": [],
+  "endpoint_ids": {
+   "unique": 256,
+   "sample": [
+    "E01:1:1",
+    "E01:1:2",
+    "E01:1:3"
+   ],
+   "min": "E01:1:1",
+   "max": "W14:1:8"
+  }
+ },
+ "old_files_inventory": {
+  "z1_old_export": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full.csv",
+   "sha256": "74e43d068d5844719ae0f0d5c13ee76fb2523a6846cebbf4e4489f80e8d82ffc",
+   "bytes": 42952,
+   "rows": 512,
+   "relations": {
+    "adjacent": 184,
+    "opposite": 264,
+    "same": 64
+   },
+   "layers": {
+    "z1": 512
+   },
+   "source_rows": {
+    "1": 512
+   }
+  },
+  "z2_old_export": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full.csv",
+   "sha256": "43d58fd10df16065c0a271ca17b2c31602bbf915f8ac731fd209786b28462f63",
+   "bytes": 42440,
+   "rows": 512,
+   "relations": {
+    "adjacent": 312,
+    "opposite": 8,
+    "same": 192
+   },
+   "layers": {
+    "z1": 512
+   },
+   "source_rows": {
+    "1": 512
+   }
+  },
+  "z1_old_campaign": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\manual_z1_c4_full.csv",
+   "sha256": "74e43d068d5844719ae0f0d5c13ee76fb2523a6846cebbf4e4489f80e8d82ffc",
+   "bytes": 42952,
+   "rows": 512,
+   "relations": {
+    "adjacent": 184,
+    "opposite": 264,
+    "same": 64
+   },
+   "layers": {
+    "z1": 512
+   },
+   "source_rows": {
+    "1": 512
+   }
+  },
+  "z2_old_campaign": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\manual_z2_c4_full.csv",
+   "sha256": "5e74b26704573680af52a3a019fd9114053d1bb308c52928d5b83fe7520e4028",
+   "bytes": 43016,
+   "rows": 512,
+   "relations": {
+    "adjacent": 312,
+    "opposite": 8,
+    "same": 192
+   },
+   "layers": {
+    "z2": 512
+   },
+   "source_rows": {
+    "2": 512
+   }
+  }
+ },
+ "old_combined_inventory": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\connectivity_1024.csv",
+  "sha256": "4c425adde0795a96b5b65eb471ea89fb000b45209e074db16787ac617f71d7f8",
+  "header": [
+   "route_id",
+   "source_side",
+   "source_connector",
+   "source_row",
+   "source_column",
+   "source_channel",
+   "target_side",
+   "target_connector",
+   "target_row",
+   "target_column",
+   "target_channel",
+   "relation"
+  ]
+ },
+ "verdict": {
+  "errors": 0,
+  "error_ids": [],
+  "warnings": [
+   {
+    "id": "z2-16",
+    "note": {
+     "legacy_layer": {
+      "z1": 128
+     },
+     "legacy_rows": {
+      "source_rows": {
+       "1": 128
+      },
+      "target_rows": {
+       "1": 128
+      }
+     },
+     "note": "not an error: the ids are consistent among themselves; the remap is validated in z2_c4_expansion.json"
+    }
+   },
+   {
+    "id": "z2-17",
+    "note": {
+     "overlap": 256
+    }
+   }
+  ],
+  "passed": true
+ }
+}

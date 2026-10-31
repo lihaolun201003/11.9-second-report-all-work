@@ -1,0 +1,19 @@
+[sweep] L5 heights=[0.65, 0.8, 0.95, 1.1] LAYER_IDS=(2, 3, 4, 5)
+[lift] before: pairs=116748 points=156792 per-plane={0.0: 53500, 0.5: 63248}
+[lift] group 211 (adjacent) -> L2 removed=1060 pairs now=115688 len+0.0mm
+[lift] group 130 (adjacent) -> L3 removed=1052 pairs now=114640 len+0.1mm
+[lift] group 162 (adjacent) -> L5 removed=1162 pairs now=113478 len+0.3mm
+[lift] group 170 (adjacent) -> L4 removed=584 pairs now=112894 len+0.2mm
+[lift] group 135 (adjacent) -> L2 removed=996 pairs now=111910 len+0.0mm
+[lift] group 161 (adjacent) -> L2 removed=488 pairs now=111430 len+0.0mm
+[lift] group 252 (same    ) -> L5 removed=1180 pairs now=110254 len+0.3mm
+[lift] group 153 (adjacent) -> L3 removed=1200 pairs now=109054 len+0.1mm
+[lift] group 169 (adjacent) -> L4 removed=592 pairs now=108462 len+0.2mm
+[lift] group 172 (adjacent) -> L4 removed=976 pairs now=107490 len+0.2mm
+[lift] group 171 (adjacent) -> L2 removed=880 pairs now=106634 len+0.0mm
+[lift] group 160 (adjacent) -> L3 removed=690 pairs now=105952 len+0.1mm
+[lift] group 164 (adjacent) -> L4 removed=804 pairs now=105160 len+0.2mm
+[lift] group 167 (adjacent) -> L3 removed=838 pairs now=104338 len+0.1mm
+[lift] group 173 (adjacent) -> L2 removed=1114 pairs now=103260 len+0.0mm
+[lift] group 174 (adjacent) -> L2 removed=1044 pairs now=102264 len+0.0mm
+[lift] group 228 (adjacent) -> L5 removed=596 pairs now=101676 len+0.3mm

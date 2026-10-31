@@ -1,0 +1,38 @@
+{
+ "schema": "manual_c4_2d_run_summary_v1",
+ "stage": "phase2_2d",
+ "total": 1024,
+ "routed": 992,
+ "failed": 32,
+ "routed_by_plane": {
+  "z1": 512,
+  "z2": 480
+ },
+ "routed_by_relation": {
+  "opposite": 256,
+  "same": 352,
+  "adjacent": 384
+ },
+ "total_by_relation": {
+  "opposite": 256,
+  "same": 368,
+  "adjacent": 400
+ },
+ "routed_groups": 248,
+ "total_groups": 256,
+ "total_length_mm": 159400.0216,
+ "plane_crossings": {
+  "z1": {
+   "crossing_count": 70944,
+   "crossing_pair_count": 53500,
+   "violation_count": 0
+  },
+  "z2": {
+   "crossing_count": 85848,
+   "crossing_pair_count": 63248,
+   "violation_count": 0
+  }
+ },
+ "validation_passed": true,
+ "output": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_selected"
+}

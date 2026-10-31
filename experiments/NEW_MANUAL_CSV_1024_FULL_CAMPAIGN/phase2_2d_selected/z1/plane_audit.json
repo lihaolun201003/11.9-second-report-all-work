@@ -1,0 +1,184 @@
+{
+ "schema": "manual_c4_2d_validation_v1",
+ "plane": "z1",
+ "label": "SELECTED_z1",
+ "csv_sha256": "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+ "radius_mm": 40.0,
+ "board_mm": 150.0,
+ "clearance_mm": 0.08,
+ "width_mm": 0.05,
+ "strict_policy": "fslw.validate_fslw strict",
+ "routed": 512,
+ "failed": 0,
+ "total": 512,
+ "geometry_errors": [
+  [
+   2,
+   [
+    "arc_radius:1:15",
+    "arc_radius:2:15",
+    "short_s_pair_invalid:1:2:lateral_displacement_mismatch",
+    "short_s_unpaired_arc:2:|sweep|=0.783662048798"
+   ]
+  ],
+  [
+   3,
+   [
+    "arc_radius:1:15",
+    "arc_radius:2:15",
+    "short_s_pair_invalid:1:2:lateral_displacement_mismatch",
+    "short_s_unpaired_arc:2:|sweep|=1.14102089549"
+   ]
+  ],
+  [
+   4,
+   [
+    "arc_radius:1:15",
+    "arc_radius:2:15",
+    "short_s_pair_invalid:1:2:lateral_displacement_mismatch",
+    "short_s_unpaired_arc:2:|sweep|=1.44546849563"
+   ]
+  ],
+  [
+   5,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   6,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   7,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   8,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   10,
+   [
+    "arc_radius:1:15",
+    "arc_radius:2:15",
+    "short_s_pair_invalid:1:2:lateral_displacement_mismatch",
+    "short_s_unpaired_arc:2:|sweep|=0.783662048798"
+   ]
+  ],
+  [
+   11,
+   [
+    "arc_radius:1:15",
+    "arc_radius:2:15",
+    "short_s_pair_invalid:1:2:lateral_displacement_mismatch",
+    "short_s_unpaired_arc:2:|sweep|=1.14102089549"
+   ]
+  ],
+  [
+   12,
+   [
+    "arc_radius:1:15",
+    "arc_radius:2:15",
+    "short_s_pair_invalid:1:2:lateral_displacement_mismatch",
+    "short_s_unpaired_arc:2:|sweep|=1.44546849563"
+   ]
+  ],
+  [
+   13,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   14,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   15,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   16,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   17,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   18,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   19,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   20,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   21,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ],
+  [
+   22,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15"
+   ]
+  ]
+ ],
+ "geometry_error_count": 480,
+ "pair_parse_errors": [],
+ "pair_audit": {
+  "policy": "strict",
+  "candidate_pair_count": 62396,
+  "crossing_count": 70944,
+  "crossing_pair_count": 53500,
+  "min_non_crossing_centerline_mm": 0.10865739284964084,
+  "violations": [],
+  "violation_count": 0
+ },
+ "total_length_mm": 76156.3028,
+ "mean_length_mm": 148.7428,
+ "failed_routes": [],
+ "passed": false,
+ "errors": []
+}

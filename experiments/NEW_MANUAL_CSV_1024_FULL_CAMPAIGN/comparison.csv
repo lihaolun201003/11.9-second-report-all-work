@@ -1,0 +1,7 @@
+layer_count,routed,failed,violations,unique_crossing_pairs,transitions,fabrication_hours,z2_c4_symmetry_pass
+5,992,32,0,92220,224,44.2792,True
+7,992,32,0,79928,392,44.2825,True
+9,992,32,0,80196,368,44.2848,True
+11,992,32,0,76952,400,44.2867,True
+13,992,32,0,79586,368,44.2882,True
+15,992,32,0,75794,384,44.2894,True

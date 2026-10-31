@@ -1,0 +1,5005 @@
+{
+ "schema": "new_manual_csv_input_audit_z2_c4_expansion_v1",
+ "title": "C4 expansion of the 128 Z2 base connections into 512 z2-plane connections",
+ "operation": "two base rows -> four lines per C4 orbit: rotate both endpoints by 0/90/180/270 deg about the board centre (75, 75) mm; an undirected connection {A,B} is identified with {B,A}",
+ "board_mm": 150.0,
+ "rotation_formula": {
+  "matrix": [
+   [
+    0.0,
+    -1.0
+   ],
+   [
+    1.0,
+    0.0
+   ]
+  ],
+  "offset": [
+   150.0,
+   0.0
+  ],
+  "text": "(x, y) -> (150 - y, x), z unchanged"
+ },
+ "base": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full_section2.csv",
+  "sha256": "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a",
+  "bytes": 10836,
+  "rows": 128,
+  "relations": {
+   "adjacent": 100,
+   "same": 28
+  },
+  "route_ids": {
+   "count": 128,
+   "min": 34,
+   "max": 270,
+   "contiguous": false
+  },
+  "raw_row_convention": {
+   "layer": {
+    "z1": 128
+   },
+   "source_row": {
+    "1": 128
+   }
+  },
+  "note": "128 base rows carry legacy row-1 port ids; the campaign plane is z2"
+ },
+ "remap": {
+  "rule": "same connector and column, row 1 -> row 2, z 0.0 mm -> 0.5 mm",
+  "example": {
+   "N03:1:3": "N03:2:3"
+  },
+  "endpoints_remapped": 256,
+  "base_source_ids_are_row1": true,
+  "rotation_commutes_with_remap": true,
+  "equivalence_mismatches": 0,
+  "check_detail": "rot90(row1_to_row2(e)) == row1_to_row2(rot90(e)) for all 1024 row-1 endpoints"
+ },
+ "expansion": {
+  "base_connections": 128,
+  "expanded_connections": 512,
+  "multiplier": 4,
+  "orbits": 128,
+  "orbit_size_histogram": {
+   "4": 128
+  },
+  "conflicts": [],
+  "endpoint_count": 1024,
+  "endpoints_used_once": true,
+  "endpoint_set_equals_plane_z2": true,
+  "closure": {
+   "90deg": 0,
+   "180deg": 0,
+   "270deg": 0
+  },
+  "relation_counts": {
+   "adjacent": 400,
+   "same": 112
+  },
+  "pair_counts": {
+   "EE": 28,
+   "EN": 100,
+   "ES": 100,
+   "NN": 28,
+   "NW": 100,
+   "SS": 28,
+   "SW": 100,
+   "WW": 28
+  },
+  "per_connector": {
+   "N01": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "N02": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "N03": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N04": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N05": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N06": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N07": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N08": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N09": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N10": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N11": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N12": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N13": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N14": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "N15": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "N16": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "S01": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "S02": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "S03": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S04": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S05": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S06": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S07": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S08": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S09": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S10": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S11": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S12": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S13": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S14": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "S15": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "S16": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "E01": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "E02": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "E03": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E04": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E05": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E06": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E07": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E08": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E09": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E10": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E11": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E12": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E13": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E14": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "E15": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "E16": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "W01": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "W02": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "W03": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W04": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W05": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W06": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W07": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W08": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W09": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W10": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W11": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W12": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W13": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W14": {
+    "adjacent_endpoints": 14,
+    "same_endpoints": 2,
+    "total": 16
+   },
+   "W15": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   },
+   "W16": {
+    "adjacent_endpoints": 8,
+    "same_endpoints": 8,
+    "total": 16
+   }
+  },
+  "expected_relation_counts": {
+   "adjacent": 400,
+   "same": 112
+  },
+  "relation_counts_match_expected": true
+ },
+ "per_base_orbits": [
+  {
+   "base_route_id": 34,
+   "base_source": "N03:1:3",
+   "base_target": "E03:1:3",
+   "plane2_source": "N03:2:3",
+   "plane2_target": "E03:2:3",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:3",
+     "N03:2:3"
+    ],
+    [
+     "N14:2:14",
+     "W03:2:3"
+    ],
+    [
+     "S14:2:14",
+     "W14:2:14"
+    ],
+    [
+     "E14:2:14",
+     "S03:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 35,
+   "base_source": "N03:1:4",
+   "base_target": "E04:1:3",
+   "plane2_source": "N03:2:4",
+   "plane2_target": "E04:2:3",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:3",
+     "N03:2:4"
+    ],
+    [
+     "N13:2:14",
+     "W03:2:4"
+    ],
+    [
+     "S14:2:13",
+     "W13:2:14"
+    ],
+    [
+     "E14:2:13",
+     "S04:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 36,
+   "base_source": "E05:1:3",
+   "base_target": "N03:1:5",
+   "plane2_source": "E05:2:3",
+   "plane2_target": "N03:2:5",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:3",
+     "N03:2:5"
+    ],
+    [
+     "N12:2:14",
+     "W03:2:5"
+    ],
+    [
+     "S14:2:12",
+     "W12:2:14"
+    ],
+    [
+     "E14:2:12",
+     "S05:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 37,
+   "base_source": "N03:1:6",
+   "base_target": "E06:1:3",
+   "plane2_source": "N03:2:6",
+   "plane2_target": "E06:2:3",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:3",
+     "N03:2:6"
+    ],
+    [
+     "N11:2:14",
+     "W03:2:6"
+    ],
+    [
+     "S14:2:11",
+     "W11:2:14"
+    ],
+    [
+     "E14:2:11",
+     "S06:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 38,
+   "base_source": "E07:1:3",
+   "base_target": "N03:1:7",
+   "plane2_source": "E07:2:3",
+   "plane2_target": "N03:2:7",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:3",
+     "N03:2:7"
+    ],
+    [
+     "N10:2:14",
+     "W03:2:7"
+    ],
+    [
+     "S14:2:10",
+     "W10:2:14"
+    ],
+    [
+     "E14:2:10",
+     "S07:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 39,
+   "base_source": "N03:1:8",
+   "base_target": "E08:1:3",
+   "plane2_source": "N03:2:8",
+   "plane2_target": "E08:2:3",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:3",
+     "N03:2:8"
+    ],
+    [
+     "N09:2:14",
+     "W03:2:8"
+    ],
+    [
+     "S14:2:9",
+     "W09:2:14"
+    ],
+    [
+     "E14:2:9",
+     "S08:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 46,
+   "base_source": "N04:1:3",
+   "base_target": "E03:1:4",
+   "plane2_source": "N04:2:3",
+   "plane2_target": "E03:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:4",
+     "N04:2:3"
+    ],
+    [
+     "N14:2:13",
+     "W04:2:3"
+    ],
+    [
+     "S13:2:14",
+     "W14:2:13"
+    ],
+    [
+     "E13:2:14",
+     "S03:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 47,
+   "base_source": "E04:1:4",
+   "base_target": "N04:1:4",
+   "plane2_source": "E04:2:4",
+   "plane2_target": "N04:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:4",
+     "N04:2:4"
+    ],
+    [
+     "N13:2:13",
+     "W04:2:4"
+    ],
+    [
+     "S13:2:13",
+     "W13:2:13"
+    ],
+    [
+     "E13:2:13",
+     "S04:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 48,
+   "base_source": "N04:1:5",
+   "base_target": "E05:1:4",
+   "plane2_source": "N04:2:5",
+   "plane2_target": "E05:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:4",
+     "N04:2:5"
+    ],
+    [
+     "N12:2:13",
+     "W04:2:5"
+    ],
+    [
+     "S13:2:12",
+     "W12:2:13"
+    ],
+    [
+     "E13:2:12",
+     "S05:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 49,
+   "base_source": "E06:1:4",
+   "base_target": "N04:1:6",
+   "plane2_source": "E06:2:4",
+   "plane2_target": "N04:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:4",
+     "N04:2:6"
+    ],
+    [
+     "N11:2:13",
+     "W04:2:6"
+    ],
+    [
+     "S13:2:11",
+     "W11:2:13"
+    ],
+    [
+     "E13:2:11",
+     "S06:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 50,
+   "base_source": "N04:1:7",
+   "base_target": "E07:1:4",
+   "plane2_source": "N04:2:7",
+   "plane2_target": "E07:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:4",
+     "N04:2:7"
+    ],
+    [
+     "N10:2:13",
+     "W04:2:7"
+    ],
+    [
+     "S13:2:10",
+     "W10:2:13"
+    ],
+    [
+     "E13:2:10",
+     "S07:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 51,
+   "base_source": "E08:1:4",
+   "base_target": "N04:1:8",
+   "plane2_source": "E08:2:4",
+   "plane2_target": "N04:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:4",
+     "N04:2:8"
+    ],
+    [
+     "N09:2:13",
+     "W04:2:8"
+    ],
+    [
+     "S13:2:9",
+     "W09:2:13"
+    ],
+    [
+     "E13:2:9",
+     "S08:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 62,
+   "base_source": "N05:1:3",
+   "base_target": "E03:1:5",
+   "plane2_source": "N05:2:3",
+   "plane2_target": "E03:2:5",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:5",
+     "N05:2:3"
+    ],
+    [
+     "N14:2:12",
+     "W05:2:3"
+    ],
+    [
+     "S12:2:14",
+     "W14:2:12"
+    ],
+    [
+     "E12:2:14",
+     "S03:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 63,
+   "base_source": "E04:1:5",
+   "base_target": "N05:1:4",
+   "plane2_source": "E04:2:5",
+   "plane2_target": "N05:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:5",
+     "N05:2:4"
+    ],
+    [
+     "N13:2:12",
+     "W05:2:4"
+    ],
+    [
+     "S12:2:13",
+     "W13:2:12"
+    ],
+    [
+     "E12:2:13",
+     "S04:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 64,
+   "base_source": "N05:1:5",
+   "base_target": "E05:1:5",
+   "plane2_source": "N05:2:5",
+   "plane2_target": "E05:2:5",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:5",
+     "N05:2:5"
+    ],
+    [
+     "N12:2:12",
+     "W05:2:5"
+    ],
+    [
+     "S12:2:12",
+     "W12:2:12"
+    ],
+    [
+     "E12:2:12",
+     "S05:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 65,
+   "base_source": "E06:1:5",
+   "base_target": "N05:1:6",
+   "plane2_source": "E06:2:5",
+   "plane2_target": "N05:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:5",
+     "N05:2:6"
+    ],
+    [
+     "N11:2:12",
+     "W05:2:6"
+    ],
+    [
+     "S12:2:11",
+     "W11:2:12"
+    ],
+    [
+     "E12:2:11",
+     "S06:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 66,
+   "base_source": "N05:1:7",
+   "base_target": "E07:1:5",
+   "plane2_source": "N05:2:7",
+   "plane2_target": "E07:2:5",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:5",
+     "N05:2:7"
+    ],
+    [
+     "N10:2:12",
+     "W05:2:7"
+    ],
+    [
+     "S12:2:10",
+     "W10:2:12"
+    ],
+    [
+     "E12:2:10",
+     "S07:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 67,
+   "base_source": "E08:1:5",
+   "base_target": "N05:1:8",
+   "plane2_source": "E08:2:5",
+   "plane2_target": "N05:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:5",
+     "N05:2:8"
+    ],
+    [
+     "N09:2:12",
+     "W05:2:8"
+    ],
+    [
+     "S12:2:9",
+     "W09:2:12"
+    ],
+    [
+     "E12:2:9",
+     "S08:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 74,
+   "base_source": "N06:1:3",
+   "base_target": "E03:1:6",
+   "plane2_source": "N06:2:3",
+   "plane2_target": "E03:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:6",
+     "N06:2:3"
+    ],
+    [
+     "N14:2:11",
+     "W06:2:3"
+    ],
+    [
+     "S11:2:14",
+     "W14:2:11"
+    ],
+    [
+     "E11:2:14",
+     "S03:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 75,
+   "base_source": "E04:1:6",
+   "base_target": "N06:1:4",
+   "plane2_source": "E04:2:6",
+   "plane2_target": "N06:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:6",
+     "N06:2:4"
+    ],
+    [
+     "N13:2:11",
+     "W06:2:4"
+    ],
+    [
+     "S11:2:13",
+     "W13:2:11"
+    ],
+    [
+     "E11:2:13",
+     "S04:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 76,
+   "base_source": "N06:1:5",
+   "base_target": "E05:1:6",
+   "plane2_source": "N06:2:5",
+   "plane2_target": "E05:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:6",
+     "N06:2:5"
+    ],
+    [
+     "N12:2:11",
+     "W06:2:5"
+    ],
+    [
+     "S11:2:12",
+     "W12:2:11"
+    ],
+    [
+     "E11:2:12",
+     "S05:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 77,
+   "base_source": "E06:1:6",
+   "base_target": "N06:1:6",
+   "plane2_source": "E06:2:6",
+   "plane2_target": "N06:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:6",
+     "N06:2:6"
+    ],
+    [
+     "N11:2:11",
+     "W06:2:6"
+    ],
+    [
+     "S11:2:11",
+     "W11:2:11"
+    ],
+    [
+     "E11:2:11",
+     "S06:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 78,
+   "base_source": "N06:1:7",
+   "base_target": "E07:1:6",
+   "plane2_source": "N06:2:7",
+   "plane2_target": "E07:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:6",
+     "N06:2:7"
+    ],
+    [
+     "N10:2:11",
+     "W06:2:7"
+    ],
+    [
+     "S11:2:10",
+     "W10:2:11"
+    ],
+    [
+     "E11:2:10",
+     "S07:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 79,
+   "base_source": "E08:1:6",
+   "base_target": "N06:1:8",
+   "plane2_source": "E08:2:6",
+   "plane2_target": "N06:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:6",
+     "N06:2:8"
+    ],
+    [
+     "N09:2:11",
+     "W06:2:8"
+    ],
+    [
+     "S11:2:9",
+     "W09:2:11"
+    ],
+    [
+     "E11:2:9",
+     "S08:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 86,
+   "base_source": "N01:1:1",
+   "base_target": "E01:1:1",
+   "plane2_source": "N01:2:1",
+   "plane2_target": "E01:2:1",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:1",
+     "N01:2:1"
+    ],
+    [
+     "N16:2:16",
+     "W01:2:1"
+    ],
+    [
+     "S16:2:16",
+     "W16:2:16"
+    ],
+    [
+     "E16:2:16",
+     "S01:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 88,
+   "base_source": "E02:1:1",
+   "base_target": "N01:1:2",
+   "plane2_source": "E02:2:1",
+   "plane2_target": "N01:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:1",
+     "N01:2:2"
+    ],
+    [
+     "N15:2:16",
+     "W01:2:2"
+    ],
+    [
+     "S16:2:15",
+     "W15:2:16"
+    ],
+    [
+     "E16:2:15",
+     "S02:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 89,
+   "base_source": "N01:1:3",
+   "base_target": "E03:1:1",
+   "plane2_source": "N01:2:3",
+   "plane2_target": "E03:2:1",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:1",
+     "N01:2:3"
+    ],
+    [
+     "N14:2:16",
+     "W01:2:3"
+    ],
+    [
+     "S16:2:14",
+     "W14:2:16"
+    ],
+    [
+     "E16:2:14",
+     "S03:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 90,
+   "base_source": "E04:1:1",
+   "base_target": "N01:1:4",
+   "plane2_source": "E04:2:1",
+   "plane2_target": "N01:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:1",
+     "N01:2:4"
+    ],
+    [
+     "N13:2:16",
+     "W01:2:4"
+    ],
+    [
+     "S16:2:13",
+     "W13:2:16"
+    ],
+    [
+     "E16:2:13",
+     "S04:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 91,
+   "base_source": "N01:1:5",
+   "base_target": "E05:1:1",
+   "plane2_source": "N01:2:5",
+   "plane2_target": "E05:2:1",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:1",
+     "N01:2:5"
+    ],
+    [
+     "N12:2:16",
+     "W01:2:5"
+    ],
+    [
+     "S16:2:12",
+     "W12:2:16"
+    ],
+    [
+     "E16:2:12",
+     "S05:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 92,
+   "base_source": "E06:1:1",
+   "base_target": "N01:1:6",
+   "plane2_source": "E06:2:1",
+   "plane2_target": "N01:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:1",
+     "N01:2:6"
+    ],
+    [
+     "N11:2:16",
+     "W01:2:6"
+    ],
+    [
+     "S16:2:11",
+     "W11:2:16"
+    ],
+    [
+     "E16:2:11",
+     "S06:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 93,
+   "base_source": "N01:1:7",
+   "base_target": "E07:1:1",
+   "plane2_source": "N01:2:7",
+   "plane2_target": "E07:2:1",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:1",
+     "N01:2:7"
+    ],
+    [
+     "N10:2:16",
+     "W01:2:7"
+    ],
+    [
+     "S16:2:10",
+     "W10:2:16"
+    ],
+    [
+     "E16:2:10",
+     "S07:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 94,
+   "base_source": "E08:1:1",
+   "base_target": "N01:1:8",
+   "plane2_source": "E08:2:1",
+   "plane2_target": "N01:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:1",
+     "N01:2:8"
+    ],
+    [
+     "N09:2:16",
+     "W01:2:8"
+    ],
+    [
+     "S16:2:9",
+     "W09:2:16"
+    ],
+    [
+     "E16:2:9",
+     "S08:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 101,
+   "base_source": "N02:1:1",
+   "base_target": "E01:1:2",
+   "plane2_source": "N02:2:1",
+   "plane2_target": "E01:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:2",
+     "N02:2:1"
+    ],
+    [
+     "N16:2:15",
+     "W02:2:1"
+    ],
+    [
+     "S15:2:16",
+     "W16:2:15"
+    ],
+    [
+     "E15:2:16",
+     "S01:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 102,
+   "base_source": "E02:1:2",
+   "base_target": "N02:1:2",
+   "plane2_source": "E02:2:2",
+   "plane2_target": "N02:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:2",
+     "N02:2:2"
+    ],
+    [
+     "N15:2:15",
+     "W02:2:2"
+    ],
+    [
+     "S15:2:15",
+     "W15:2:15"
+    ],
+    [
+     "E15:2:15",
+     "S02:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 103,
+   "base_source": "N02:1:3",
+   "base_target": "E03:1:2",
+   "plane2_source": "N02:2:3",
+   "plane2_target": "E03:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:2",
+     "N02:2:3"
+    ],
+    [
+     "N14:2:15",
+     "W02:2:3"
+    ],
+    [
+     "S15:2:14",
+     "W14:2:15"
+    ],
+    [
+     "E15:2:14",
+     "S03:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 104,
+   "base_source": "E04:1:2",
+   "base_target": "N02:1:4",
+   "plane2_source": "E04:2:2",
+   "plane2_target": "N02:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:2",
+     "N02:2:4"
+    ],
+    [
+     "N13:2:15",
+     "W02:2:4"
+    ],
+    [
+     "S15:2:13",
+     "W13:2:15"
+    ],
+    [
+     "E15:2:13",
+     "S04:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 105,
+   "base_source": "N02:1:5",
+   "base_target": "E05:1:2",
+   "plane2_source": "N02:2:5",
+   "plane2_target": "E05:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:2",
+     "N02:2:5"
+    ],
+    [
+     "N12:2:15",
+     "W02:2:5"
+    ],
+    [
+     "S15:2:12",
+     "W12:2:15"
+    ],
+    [
+     "E15:2:12",
+     "S05:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 106,
+   "base_source": "E06:1:2",
+   "base_target": "N02:1:6",
+   "plane2_source": "E06:2:2",
+   "plane2_target": "N02:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:2",
+     "N02:2:6"
+    ],
+    [
+     "N11:2:15",
+     "W02:2:6"
+    ],
+    [
+     "S15:2:11",
+     "W11:2:15"
+    ],
+    [
+     "E15:2:11",
+     "S06:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 107,
+   "base_source": "N02:1:7",
+   "base_target": "E07:1:2",
+   "plane2_source": "N02:2:7",
+   "plane2_target": "E07:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:2",
+     "N02:2:7"
+    ],
+    [
+     "N10:2:15",
+     "W02:2:7"
+    ],
+    [
+     "S15:2:10",
+     "W10:2:15"
+    ],
+    [
+     "E15:2:10",
+     "S07:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 108,
+   "base_source": "E08:1:2",
+   "base_target": "N02:1:8",
+   "plane2_source": "E08:2:2",
+   "plane2_target": "N02:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:2",
+     "N02:2:8"
+    ],
+    [
+     "N09:2:15",
+     "W02:2:8"
+    ],
+    [
+     "S15:2:9",
+     "W09:2:15"
+    ],
+    [
+     "E15:2:9",
+     "S08:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 116,
+   "base_source": "N03:1:1",
+   "base_target": "E01:1:3",
+   "plane2_source": "N03:2:1",
+   "plane2_target": "E01:2:3",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:3",
+     "N03:2:1"
+    ],
+    [
+     "N16:2:14",
+     "W03:2:1"
+    ],
+    [
+     "S14:2:16",
+     "W16:2:14"
+    ],
+    [
+     "E14:2:16",
+     "S01:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 117,
+   "base_source": "E02:1:3",
+   "base_target": "N03:1:2",
+   "plane2_source": "E02:2:3",
+   "plane2_target": "N03:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:3",
+     "N03:2:2"
+    ],
+    [
+     "N15:2:14",
+     "W03:2:2"
+    ],
+    [
+     "S14:2:15",
+     "W15:2:14"
+    ],
+    [
+     "E14:2:15",
+     "S02:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 118,
+   "base_source": "N04:1:1",
+   "base_target": "E01:1:4",
+   "plane2_source": "N04:2:1",
+   "plane2_target": "E01:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:4",
+     "N04:2:1"
+    ],
+    [
+     "N16:2:13",
+     "W04:2:1"
+    ],
+    [
+     "S13:2:16",
+     "W16:2:13"
+    ],
+    [
+     "E13:2:16",
+     "S01:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 119,
+   "base_source": "E02:1:4",
+   "base_target": "N04:1:2",
+   "plane2_source": "E02:2:4",
+   "plane2_target": "N04:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:4",
+     "N04:2:2"
+    ],
+    [
+     "N15:2:13",
+     "W04:2:2"
+    ],
+    [
+     "S13:2:15",
+     "W15:2:13"
+    ],
+    [
+     "E13:2:15",
+     "S02:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 120,
+   "base_source": "N05:1:1",
+   "base_target": "E01:1:5",
+   "plane2_source": "N05:2:1",
+   "plane2_target": "E01:2:5",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:5",
+     "N05:2:1"
+    ],
+    [
+     "N16:2:12",
+     "W05:2:1"
+    ],
+    [
+     "S12:2:16",
+     "W16:2:12"
+    ],
+    [
+     "E12:2:16",
+     "S01:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 121,
+   "base_source": "E02:1:5",
+   "base_target": "N05:1:2",
+   "plane2_source": "E02:2:5",
+   "plane2_target": "N05:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:5",
+     "N05:2:2"
+    ],
+    [
+     "N15:2:12",
+     "W05:2:2"
+    ],
+    [
+     "S12:2:15",
+     "W15:2:12"
+    ],
+    [
+     "E12:2:15",
+     "S02:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 122,
+   "base_source": "N06:1:1",
+   "base_target": "E01:1:6",
+   "plane2_source": "N06:2:1",
+   "plane2_target": "E01:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:6",
+     "N06:2:1"
+    ],
+    [
+     "N16:2:11",
+     "W06:2:1"
+    ],
+    [
+     "S11:2:16",
+     "W16:2:11"
+    ],
+    [
+     "E11:2:16",
+     "S01:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 123,
+   "base_source": "E02:1:6",
+   "base_target": "N06:1:2",
+   "plane2_source": "E02:2:6",
+   "plane2_target": "N06:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:6",
+     "N06:2:2"
+    ],
+    [
+     "N15:2:11",
+     "W06:2:2"
+    ],
+    [
+     "S11:2:15",
+     "W15:2:11"
+    ],
+    [
+     "E11:2:15",
+     "S02:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 124,
+   "base_source": "N07:1:1",
+   "base_target": "E01:1:7",
+   "plane2_source": "N07:2:1",
+   "plane2_target": "E01:2:7",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:7",
+     "N07:2:1"
+    ],
+    [
+     "N16:2:10",
+     "W07:2:1"
+    ],
+    [
+     "S10:2:16",
+     "W16:2:10"
+    ],
+    [
+     "E10:2:16",
+     "S01:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 125,
+   "base_source": "E02:1:7",
+   "base_target": "N07:1:2",
+   "plane2_source": "E02:2:7",
+   "plane2_target": "N07:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:7",
+     "N07:2:2"
+    ],
+    [
+     "N15:2:10",
+     "W07:2:2"
+    ],
+    [
+     "S10:2:15",
+     "W15:2:10"
+    ],
+    [
+     "E10:2:15",
+     "S02:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 126,
+   "base_source": "N07:1:3",
+   "base_target": "E03:1:7",
+   "plane2_source": "N07:2:3",
+   "plane2_target": "E03:2:7",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:7",
+     "N07:2:3"
+    ],
+    [
+     "N14:2:10",
+     "W07:2:3"
+    ],
+    [
+     "S10:2:14",
+     "W14:2:10"
+    ],
+    [
+     "E10:2:14",
+     "S03:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 127,
+   "base_source": "E04:1:7",
+   "base_target": "N07:1:4",
+   "plane2_source": "E04:2:7",
+   "plane2_target": "N07:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:7",
+     "N07:2:4"
+    ],
+    [
+     "N13:2:10",
+     "W07:2:4"
+    ],
+    [
+     "S10:2:13",
+     "W13:2:10"
+    ],
+    [
+     "E10:2:13",
+     "S04:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 128,
+   "base_source": "N07:1:5",
+   "base_target": "E05:1:7",
+   "plane2_source": "N07:2:5",
+   "plane2_target": "E05:2:7",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:7",
+     "N07:2:5"
+    ],
+    [
+     "N12:2:10",
+     "W07:2:5"
+    ],
+    [
+     "S10:2:12",
+     "W12:2:10"
+    ],
+    [
+     "E10:2:12",
+     "S05:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 129,
+   "base_source": "E06:1:7",
+   "base_target": "N07:1:6",
+   "plane2_source": "E06:2:7",
+   "plane2_target": "N07:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:7",
+     "N07:2:6"
+    ],
+    [
+     "N11:2:10",
+     "W07:2:6"
+    ],
+    [
+     "S10:2:11",
+     "W11:2:10"
+    ],
+    [
+     "E10:2:11",
+     "S06:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 130,
+   "base_source": "N07:1:7",
+   "base_target": "E07:1:7",
+   "plane2_source": "N07:2:7",
+   "plane2_target": "E07:2:7",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:7",
+     "N07:2:7"
+    ],
+    [
+     "N10:2:10",
+     "W07:2:7"
+    ],
+    [
+     "S10:2:10",
+     "W10:2:10"
+    ],
+    [
+     "E10:2:10",
+     "S07:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 131,
+   "base_source": "E08:1:7",
+   "base_target": "N07:1:8",
+   "plane2_source": "E08:2:7",
+   "plane2_target": "N07:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:7",
+     "N07:2:8"
+    ],
+    [
+     "N09:2:10",
+     "W07:2:8"
+    ],
+    [
+     "S10:2:9",
+     "W09:2:10"
+    ],
+    [
+     "E10:2:9",
+     "S08:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 138,
+   "base_source": "N08:1:1",
+   "base_target": "E01:1:8",
+   "plane2_source": "N08:2:1",
+   "plane2_target": "E01:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E01:2:8",
+     "N08:2:1"
+    ],
+    [
+     "N16:2:9",
+     "W08:2:1"
+    ],
+    [
+     "S09:2:16",
+     "W16:2:9"
+    ],
+    [
+     "E09:2:16",
+     "S01:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 139,
+   "base_source": "E02:1:8",
+   "base_target": "N08:1:2",
+   "plane2_source": "E02:2:8",
+   "plane2_target": "N08:2:2",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E02:2:8",
+     "N08:2:2"
+    ],
+    [
+     "N15:2:9",
+     "W08:2:2"
+    ],
+    [
+     "S09:2:15",
+     "W15:2:9"
+    ],
+    [
+     "E09:2:15",
+     "S02:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 140,
+   "base_source": "N08:1:3",
+   "base_target": "E03:1:8",
+   "plane2_source": "N08:2:3",
+   "plane2_target": "E03:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E03:2:8",
+     "N08:2:3"
+    ],
+    [
+     "N14:2:9",
+     "W08:2:3"
+    ],
+    [
+     "S09:2:14",
+     "W14:2:9"
+    ],
+    [
+     "E09:2:14",
+     "S03:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 141,
+   "base_source": "E04:1:8",
+   "base_target": "N08:1:4",
+   "plane2_source": "E04:2:8",
+   "plane2_target": "N08:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E04:2:8",
+     "N08:2:4"
+    ],
+    [
+     "N13:2:9",
+     "W08:2:4"
+    ],
+    [
+     "S09:2:13",
+     "W13:2:9"
+    ],
+    [
+     "E09:2:13",
+     "S04:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 142,
+   "base_source": "N08:1:5",
+   "base_target": "E05:1:8",
+   "plane2_source": "N08:2:5",
+   "plane2_target": "E05:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E05:2:8",
+     "N08:2:5"
+    ],
+    [
+     "N12:2:9",
+     "W08:2:5"
+    ],
+    [
+     "S09:2:12",
+     "W12:2:9"
+    ],
+    [
+     "E09:2:12",
+     "S05:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 143,
+   "base_source": "E06:1:8",
+   "base_target": "N08:1:6",
+   "plane2_source": "E06:2:8",
+   "plane2_target": "N08:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E06:2:8",
+     "N08:2:6"
+    ],
+    [
+     "N11:2:9",
+     "W08:2:6"
+    ],
+    [
+     "S09:2:11",
+     "W11:2:9"
+    ],
+    [
+     "E09:2:11",
+     "S06:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 144,
+   "base_source": "N08:1:7",
+   "base_target": "E07:1:8",
+   "plane2_source": "N08:2:7",
+   "plane2_target": "E07:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E07:2:8",
+     "N08:2:7"
+    ],
+    [
+     "N10:2:9",
+     "W08:2:7"
+    ],
+    [
+     "S09:2:10",
+     "W10:2:9"
+    ],
+    [
+     "E09:2:10",
+     "S07:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 145,
+   "base_source": "E08:1:8",
+   "base_target": "N08:1:8",
+   "plane2_source": "E08:2:8",
+   "plane2_target": "N08:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "E08:2:8",
+     "N08:2:8"
+    ],
+    [
+     "N09:2:9",
+     "W08:2:8"
+    ],
+    [
+     "S09:2:9",
+     "W09:2:9"
+    ],
+    [
+     "E09:2:9",
+     "S08:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 161,
+   "base_source": "N01:1:15",
+   "base_target": "N16:1:2",
+   "plane2_source": "N01:2:15",
+   "plane2_target": "N16:2:2",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:15",
+     "N16:2:2"
+    ],
+    [
+     "W01:2:15",
+     "W16:2:2"
+    ],
+    [
+     "S01:2:15",
+     "S16:2:2"
+    ],
+    [
+     "E01:2:15",
+     "E16:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 162,
+   "base_source": "N16:1:1",
+   "base_target": "N09:1:1",
+   "plane2_source": "N16:2:1",
+   "plane2_target": "N09:2:1",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N09:2:1",
+     "N16:2:1"
+    ],
+    [
+     "W09:2:1",
+     "W16:2:1"
+    ],
+    [
+     "S01:2:16",
+     "S08:2:16"
+    ],
+    [
+     "E01:2:16",
+     "E08:2:16"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 164,
+   "base_source": "N08:1:16",
+   "base_target": "N01:1:16",
+   "plane2_source": "N08:2:16",
+   "plane2_target": "N01:2:16",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:16",
+     "N08:2:16"
+    ],
+    [
+     "W01:2:16",
+     "W08:2:16"
+    ],
+    [
+     "S09:2:1",
+     "S16:2:1"
+    ],
+    [
+     "E09:2:1",
+     "E16:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 166,
+   "base_source": "N08:1:15",
+   "base_target": "N02:1:15",
+   "plane2_source": "N08:2:15",
+   "plane2_target": "N02:2:15",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:15",
+     "N08:2:15"
+    ],
+    [
+     "W02:2:15",
+     "W08:2:15"
+    ],
+    [
+     "S09:2:2",
+     "S15:2:2"
+    ],
+    [
+     "E09:2:2",
+     "E15:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 167,
+   "base_source": "N02:1:16",
+   "base_target": "N07:1:16",
+   "plane2_source": "N02:2:16",
+   "plane2_target": "N07:2:16",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:16",
+     "N07:2:16"
+    ],
+    [
+     "W02:2:16",
+     "W07:2:16"
+    ],
+    [
+     "S10:2:1",
+     "S15:2:1"
+    ],
+    [
+     "E10:2:1",
+     "E15:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 168,
+   "base_source": "N07:1:15",
+   "base_target": "N03:1:15",
+   "plane2_source": "N07:2:15",
+   "plane2_target": "N03:2:15",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:15",
+     "N07:2:15"
+    ],
+    [
+     "W03:2:15",
+     "W07:2:15"
+    ],
+    [
+     "S10:2:2",
+     "S14:2:2"
+    ],
+    [
+     "E10:2:2",
+     "E14:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 169,
+   "base_source": "N09:1:2",
+   "base_target": "N15:1:2",
+   "plane2_source": "N09:2:2",
+   "plane2_target": "N15:2:2",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N09:2:2",
+     "N15:2:2"
+    ],
+    [
+     "W09:2:2",
+     "W15:2:2"
+    ],
+    [
+     "S02:2:15",
+     "S08:2:15"
+    ],
+    [
+     "E02:2:15",
+     "E08:2:15"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 170,
+   "base_source": "N15:1:1",
+   "base_target": "N10:1:1",
+   "plane2_source": "N15:2:1",
+   "plane2_target": "N10:2:1",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N10:2:1",
+     "N15:2:1"
+    ],
+    [
+     "W10:2:1",
+     "W15:2:1"
+    ],
+    [
+     "S02:2:16",
+     "S07:2:16"
+    ],
+    [
+     "E02:2:16",
+     "E07:2:16"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 171,
+   "base_source": "N10:1:2",
+   "base_target": "N14:1:2",
+   "plane2_source": "N10:2:2",
+   "plane2_target": "N14:2:2",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N10:2:2",
+     "N14:2:2"
+    ],
+    [
+     "W10:2:2",
+     "W14:2:2"
+    ],
+    [
+     "S03:2:15",
+     "S07:2:15"
+    ],
+    [
+     "E03:2:15",
+     "E07:2:15"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 172,
+   "base_source": "N11:1:1",
+   "base_target": "N06:1:16",
+   "plane2_source": "N11:2:1",
+   "plane2_target": "N06:2:16",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:16",
+     "N11:2:1"
+    ],
+    [
+     "W06:2:16",
+     "W11:2:1"
+    ],
+    [
+     "S06:2:16",
+     "S11:2:1"
+    ],
+    [
+     "E06:2:16",
+     "E11:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 173,
+   "base_source": "N06:1:15",
+   "base_target": "N11:1:2",
+   "plane2_source": "N06:2:15",
+   "plane2_target": "N11:2:2",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:15",
+     "N11:2:2"
+    ],
+    [
+     "W06:2:15",
+     "W11:2:2"
+    ],
+    [
+     "S06:2:15",
+     "S11:2:2"
+    ],
+    [
+     "E06:2:15",
+     "E11:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 174,
+   "base_source": "N12:1:1",
+   "base_target": "N05:1:16",
+   "plane2_source": "N12:2:1",
+   "plane2_target": "N05:2:16",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:16",
+     "N12:2:1"
+    ],
+    [
+     "W05:2:16",
+     "W12:2:1"
+    ],
+    [
+     "S05:2:16",
+     "S12:2:1"
+    ],
+    [
+     "E05:2:16",
+     "E12:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 175,
+   "base_source": "N05:1:15",
+   "base_target": "N12:1:2",
+   "plane2_source": "N05:2:15",
+   "plane2_target": "N12:2:2",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:15",
+     "N12:2:2"
+    ],
+    [
+     "W05:2:15",
+     "W12:2:2"
+    ],
+    [
+     "S05:2:15",
+     "S12:2:2"
+    ],
+    [
+     "E05:2:15",
+     "E12:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 176,
+   "base_source": "N13:1:1",
+   "base_target": "N04:1:16",
+   "plane2_source": "N13:2:1",
+   "plane2_target": "N04:2:16",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:16",
+     "N13:2:1"
+    ],
+    [
+     "W04:2:16",
+     "W13:2:1"
+    ],
+    [
+     "S04:2:16",
+     "S13:2:1"
+    ],
+    [
+     "E04:2:16",
+     "E13:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 177,
+   "base_source": "N04:1:15",
+   "base_target": "N13:1:2",
+   "plane2_source": "N04:2:15",
+   "plane2_target": "N13:2:2",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:15",
+     "N13:2:2"
+    ],
+    [
+     "W04:2:15",
+     "W13:2:2"
+    ],
+    [
+     "S04:2:15",
+     "S13:2:2"
+    ],
+    [
+     "E04:2:15",
+     "E13:2:2"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 178,
+   "base_source": "N14:1:1",
+   "base_target": "N03:1:16",
+   "plane2_source": "N14:2:1",
+   "plane2_target": "N03:2:16",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:16",
+     "N14:2:1"
+    ],
+    [
+     "W03:2:16",
+     "W14:2:1"
+    ],
+    [
+     "S03:2:16",
+     "S14:2:1"
+    ],
+    [
+     "E03:2:16",
+     "E14:2:1"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 222,
+   "base_source": "W14:1:3",
+   "base_target": "N08:1:9",
+   "plane2_source": "W14:2:3",
+   "plane2_target": "N08:2:9",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N08:2:9",
+     "W14:2:3"
+    ],
+    [
+     "S03:2:14",
+     "W08:2:9"
+    ],
+    [
+     "E03:2:14",
+     "S09:2:8"
+    ],
+    [
+     "E09:2:8",
+     "N14:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 223,
+   "base_source": "N07:1:9",
+   "base_target": "W14:1:4",
+   "plane2_source": "N07:2:9",
+   "plane2_target": "W14:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N07:2:9",
+     "W14:2:4"
+    ],
+    [
+     "S03:2:13",
+     "W07:2:9"
+    ],
+    [
+     "E03:2:13",
+     "S10:2:8"
+    ],
+    [
+     "E10:2:8",
+     "N14:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 224,
+   "base_source": "W14:1:5",
+   "base_target": "N06:1:9",
+   "plane2_source": "W14:2:5",
+   "plane2_target": "N06:2:9",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:9",
+     "W14:2:5"
+    ],
+    [
+     "S03:2:12",
+     "W06:2:9"
+    ],
+    [
+     "E03:2:12",
+     "S11:2:8"
+    ],
+    [
+     "E11:2:8",
+     "N14:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 225,
+   "base_source": "N05:1:9",
+   "base_target": "W14:1:6",
+   "plane2_source": "N05:2:9",
+   "plane2_target": "W14:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:9",
+     "W14:2:6"
+    ],
+    [
+     "S03:2:11",
+     "W05:2:9"
+    ],
+    [
+     "E03:2:11",
+     "S12:2:8"
+    ],
+    [
+     "E12:2:8",
+     "N14:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 226,
+   "base_source": "W14:1:7",
+   "base_target": "N04:1:9",
+   "plane2_source": "W14:2:7",
+   "plane2_target": "N04:2:9",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:9",
+     "W14:2:7"
+    ],
+    [
+     "S03:2:10",
+     "W04:2:9"
+    ],
+    [
+     "E03:2:10",
+     "S13:2:8"
+    ],
+    [
+     "E13:2:8",
+     "N14:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 227,
+   "base_source": "N03:1:9",
+   "base_target": "W14:1:8",
+   "plane2_source": "N03:2:9",
+   "plane2_target": "W14:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:9",
+     "W14:2:8"
+    ],
+    [
+     "S03:2:9",
+     "W03:2:9"
+    ],
+    [
+     "E03:2:9",
+     "S14:2:8"
+    ],
+    [
+     "E14:2:8",
+     "N14:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 228,
+   "base_source": "W13:1:3",
+   "base_target": "N08:1:10",
+   "plane2_source": "W13:2:3",
+   "plane2_target": "N08:2:10",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N08:2:10",
+     "W13:2:3"
+    ],
+    [
+     "S04:2:14",
+     "W08:2:10"
+    ],
+    [
+     "E04:2:14",
+     "S09:2:7"
+    ],
+    [
+     "E09:2:7",
+     "N13:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 229,
+   "base_source": "N07:1:10",
+   "base_target": "W13:1:4",
+   "plane2_source": "N07:2:10",
+   "plane2_target": "W13:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N07:2:10",
+     "W13:2:4"
+    ],
+    [
+     "S04:2:13",
+     "W07:2:10"
+    ],
+    [
+     "E04:2:13",
+     "S10:2:7"
+    ],
+    [
+     "E10:2:7",
+     "N13:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 230,
+   "base_source": "W13:1:5",
+   "base_target": "N06:1:10",
+   "plane2_source": "W13:2:5",
+   "plane2_target": "N06:2:10",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:10",
+     "W13:2:5"
+    ],
+    [
+     "S04:2:12",
+     "W06:2:10"
+    ],
+    [
+     "E04:2:12",
+     "S11:2:7"
+    ],
+    [
+     "E11:2:7",
+     "N13:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 231,
+   "base_source": "N05:1:10",
+   "base_target": "W13:1:6",
+   "plane2_source": "N05:2:10",
+   "plane2_target": "W13:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:10",
+     "W13:2:6"
+    ],
+    [
+     "S04:2:11",
+     "W05:2:10"
+    ],
+    [
+     "E04:2:11",
+     "S12:2:7"
+    ],
+    [
+     "E12:2:7",
+     "N13:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 232,
+   "base_source": "W13:1:7",
+   "base_target": "N04:1:10",
+   "plane2_source": "W13:2:7",
+   "plane2_target": "N04:2:10",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:10",
+     "W13:2:7"
+    ],
+    [
+     "S04:2:10",
+     "W04:2:10"
+    ],
+    [
+     "E04:2:10",
+     "S13:2:7"
+    ],
+    [
+     "E13:2:7",
+     "N13:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 233,
+   "base_source": "N03:1:10",
+   "base_target": "W13:1:8",
+   "plane2_source": "N03:2:10",
+   "plane2_target": "W13:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:10",
+     "W13:2:8"
+    ],
+    [
+     "S04:2:9",
+     "W03:2:10"
+    ],
+    [
+     "E04:2:9",
+     "S14:2:7"
+    ],
+    [
+     "E14:2:7",
+     "N13:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 234,
+   "base_source": "W12:1:3",
+   "base_target": "N08:1:11",
+   "plane2_source": "W12:2:3",
+   "plane2_target": "N08:2:11",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N08:2:11",
+     "W12:2:3"
+    ],
+    [
+     "S05:2:14",
+     "W08:2:11"
+    ],
+    [
+     "E05:2:14",
+     "S09:2:6"
+    ],
+    [
+     "E09:2:6",
+     "N12:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 235,
+   "base_source": "N07:1:11",
+   "base_target": "W12:1:4",
+   "plane2_source": "N07:2:11",
+   "plane2_target": "W12:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N07:2:11",
+     "W12:2:4"
+    ],
+    [
+     "S05:2:13",
+     "W07:2:11"
+    ],
+    [
+     "E05:2:13",
+     "S10:2:6"
+    ],
+    [
+     "E10:2:6",
+     "N12:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 236,
+   "base_source": "W12:1:5",
+   "base_target": "N06:1:11",
+   "plane2_source": "W12:2:5",
+   "plane2_target": "N06:2:11",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:11",
+     "W12:2:5"
+    ],
+    [
+     "S05:2:12",
+     "W06:2:11"
+    ],
+    [
+     "E05:2:12",
+     "S11:2:6"
+    ],
+    [
+     "E11:2:6",
+     "N12:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 237,
+   "base_source": "N05:1:11",
+   "base_target": "W12:1:6",
+   "plane2_source": "N05:2:11",
+   "plane2_target": "W12:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:11",
+     "W12:2:6"
+    ],
+    [
+     "S05:2:11",
+     "W05:2:11"
+    ],
+    [
+     "E05:2:11",
+     "S12:2:6"
+    ],
+    [
+     "E12:2:6",
+     "N12:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 238,
+   "base_source": "W12:1:7",
+   "base_target": "N04:1:11",
+   "plane2_source": "W12:2:7",
+   "plane2_target": "N04:2:11",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:11",
+     "W12:2:7"
+    ],
+    [
+     "S05:2:10",
+     "W04:2:11"
+    ],
+    [
+     "E05:2:10",
+     "S13:2:6"
+    ],
+    [
+     "E13:2:6",
+     "N12:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 239,
+   "base_source": "N03:1:11",
+   "base_target": "W12:1:8",
+   "plane2_source": "N03:2:11",
+   "plane2_target": "W12:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:11",
+     "W12:2:8"
+    ],
+    [
+     "S05:2:9",
+     "W03:2:11"
+    ],
+    [
+     "E05:2:9",
+     "S14:2:6"
+    ],
+    [
+     "E14:2:6",
+     "N12:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 240,
+   "base_source": "W11:1:3",
+   "base_target": "N08:1:12",
+   "plane2_source": "W11:2:3",
+   "plane2_target": "N08:2:12",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N08:2:12",
+     "W11:2:3"
+    ],
+    [
+     "S06:2:14",
+     "W08:2:12"
+    ],
+    [
+     "E06:2:14",
+     "S09:2:5"
+    ],
+    [
+     "E09:2:5",
+     "N11:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 241,
+   "base_source": "N07:1:12",
+   "base_target": "W11:1:4",
+   "plane2_source": "N07:2:12",
+   "plane2_target": "W11:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N07:2:12",
+     "W11:2:4"
+    ],
+    [
+     "S06:2:13",
+     "W07:2:12"
+    ],
+    [
+     "E06:2:13",
+     "S10:2:5"
+    ],
+    [
+     "E10:2:5",
+     "N11:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 242,
+   "base_source": "W11:1:5",
+   "base_target": "N06:1:12",
+   "plane2_source": "W11:2:5",
+   "plane2_target": "N06:2:12",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:12",
+     "W11:2:5"
+    ],
+    [
+     "S06:2:12",
+     "W06:2:12"
+    ],
+    [
+     "E06:2:12",
+     "S11:2:5"
+    ],
+    [
+     "E11:2:5",
+     "N11:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 243,
+   "base_source": "N05:1:12",
+   "base_target": "W11:1:6",
+   "plane2_source": "N05:2:12",
+   "plane2_target": "W11:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:12",
+     "W11:2:6"
+    ],
+    [
+     "S06:2:11",
+     "W05:2:12"
+    ],
+    [
+     "E06:2:11",
+     "S12:2:5"
+    ],
+    [
+     "E12:2:5",
+     "N11:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 244,
+   "base_source": "W11:1:7",
+   "base_target": "N04:1:12",
+   "plane2_source": "W11:2:7",
+   "plane2_target": "N04:2:12",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:12",
+     "W11:2:7"
+    ],
+    [
+     "S06:2:10",
+     "W04:2:12"
+    ],
+    [
+     "E06:2:10",
+     "S13:2:5"
+    ],
+    [
+     "E13:2:5",
+     "N11:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 245,
+   "base_source": "N03:1:12",
+   "base_target": "W11:1:8",
+   "plane2_source": "N03:2:12",
+   "plane2_target": "W11:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:12",
+     "W11:2:8"
+    ],
+    [
+     "S06:2:9",
+     "W03:2:12"
+    ],
+    [
+     "E06:2:9",
+     "S14:2:5"
+    ],
+    [
+     "E14:2:5",
+     "N11:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 246,
+   "base_source": "W10:1:3",
+   "base_target": "N08:1:13",
+   "plane2_source": "W10:2:3",
+   "plane2_target": "N08:2:13",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N08:2:13",
+     "W10:2:3"
+    ],
+    [
+     "S07:2:14",
+     "W08:2:13"
+    ],
+    [
+     "E07:2:14",
+     "S09:2:4"
+    ],
+    [
+     "E09:2:4",
+     "N10:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 247,
+   "base_source": "N07:1:13",
+   "base_target": "W10:1:4",
+   "plane2_source": "N07:2:13",
+   "plane2_target": "W10:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N07:2:13",
+     "W10:2:4"
+    ],
+    [
+     "S07:2:13",
+     "W07:2:13"
+    ],
+    [
+     "E07:2:13",
+     "S10:2:4"
+    ],
+    [
+     "E10:2:4",
+     "N10:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 248,
+   "base_source": "W10:1:5",
+   "base_target": "N06:1:13",
+   "plane2_source": "W10:2:5",
+   "plane2_target": "N06:2:13",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:13",
+     "W10:2:5"
+    ],
+    [
+     "S07:2:12",
+     "W06:2:13"
+    ],
+    [
+     "E07:2:12",
+     "S11:2:4"
+    ],
+    [
+     "E11:2:4",
+     "N10:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 249,
+   "base_source": "N05:1:13",
+   "base_target": "W10:1:6",
+   "plane2_source": "N05:2:13",
+   "plane2_target": "W10:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:13",
+     "W10:2:6"
+    ],
+    [
+     "S07:2:11",
+     "W05:2:13"
+    ],
+    [
+     "E07:2:11",
+     "S12:2:4"
+    ],
+    [
+     "E12:2:4",
+     "N10:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 250,
+   "base_source": "W10:1:7",
+   "base_target": "N04:1:13",
+   "plane2_source": "W10:2:7",
+   "plane2_target": "N04:2:13",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:13",
+     "W10:2:7"
+    ],
+    [
+     "S07:2:10",
+     "W04:2:13"
+    ],
+    [
+     "E07:2:10",
+     "S13:2:4"
+    ],
+    [
+     "E13:2:4",
+     "N10:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 251,
+   "base_source": "N03:1:13",
+   "base_target": "W10:1:8",
+   "plane2_source": "N03:2:13",
+   "plane2_target": "W10:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:13",
+     "W10:2:8"
+    ],
+    [
+     "S07:2:9",
+     "W03:2:13"
+    ],
+    [
+     "E07:2:9",
+     "S14:2:4"
+    ],
+    [
+     "E14:2:4",
+     "N10:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 252,
+   "base_source": "W09:1:3",
+   "base_target": "N08:1:14",
+   "plane2_source": "W09:2:3",
+   "plane2_target": "N08:2:14",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N08:2:14",
+     "W09:2:3"
+    ],
+    [
+     "S08:2:14",
+     "W08:2:14"
+    ],
+    [
+     "E08:2:14",
+     "S09:2:3"
+    ],
+    [
+     "E09:2:3",
+     "N09:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 253,
+   "base_source": "N07:1:14",
+   "base_target": "W09:1:4",
+   "plane2_source": "N07:2:14",
+   "plane2_target": "W09:2:4",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N07:2:14",
+     "W09:2:4"
+    ],
+    [
+     "S08:2:13",
+     "W07:2:14"
+    ],
+    [
+     "E08:2:13",
+     "S10:2:3"
+    ],
+    [
+     "E10:2:3",
+     "N09:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 254,
+   "base_source": "W09:1:5",
+   "base_target": "N06:1:14",
+   "plane2_source": "W09:2:5",
+   "plane2_target": "N06:2:14",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N06:2:14",
+     "W09:2:5"
+    ],
+    [
+     "S08:2:12",
+     "W06:2:14"
+    ],
+    [
+     "E08:2:12",
+     "S11:2:3"
+    ],
+    [
+     "E11:2:3",
+     "N09:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 255,
+   "base_source": "N05:1:14",
+   "base_target": "W09:1:6",
+   "plane2_source": "N05:2:14",
+   "plane2_target": "W09:2:6",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N05:2:14",
+     "W09:2:6"
+    ],
+    [
+     "S08:2:11",
+     "W05:2:14"
+    ],
+    [
+     "E08:2:11",
+     "S12:2:3"
+    ],
+    [
+     "E12:2:3",
+     "N09:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 256,
+   "base_source": "W09:1:7",
+   "base_target": "N04:1:14",
+   "plane2_source": "W09:2:7",
+   "plane2_target": "N04:2:14",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N04:2:14",
+     "W09:2:7"
+    ],
+    [
+     "S08:2:10",
+     "W04:2:14"
+    ],
+    [
+     "E08:2:10",
+     "S13:2:3"
+    ],
+    [
+     "E13:2:3",
+     "N09:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 257,
+   "base_source": "N03:1:14",
+   "base_target": "W09:1:8",
+   "plane2_source": "N03:2:14",
+   "plane2_target": "W09:2:8",
+   "relation": "adjacent",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N03:2:14",
+     "W09:2:8"
+    ],
+    [
+     "S08:2:9",
+     "W03:2:14"
+    ],
+    [
+     "E08:2:9",
+     "S14:2:3"
+    ],
+    [
+     "E14:2:3",
+     "N09:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 259,
+   "base_source": "N01:1:9",
+   "base_target": "N16:1:8",
+   "plane2_source": "N01:2:9",
+   "plane2_target": "N16:2:8",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:9",
+     "N16:2:8"
+    ],
+    [
+     "W01:2:9",
+     "W16:2:8"
+    ],
+    [
+     "S01:2:9",
+     "S16:2:8"
+    ],
+    [
+     "E01:2:9",
+     "E16:2:8"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 260,
+   "base_source": "N16:1:7",
+   "base_target": "N01:1:10",
+   "plane2_source": "N16:2:7",
+   "plane2_target": "N01:2:10",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:10",
+     "N16:2:7"
+    ],
+    [
+     "W01:2:10",
+     "W16:2:7"
+    ],
+    [
+     "S01:2:10",
+     "S16:2:7"
+    ],
+    [
+     "E01:2:10",
+     "E16:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 261,
+   "base_source": "N01:1:11",
+   "base_target": "N16:1:6",
+   "plane2_source": "N01:2:11",
+   "plane2_target": "N16:2:6",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:11",
+     "N16:2:6"
+    ],
+    [
+     "W01:2:11",
+     "W16:2:6"
+    ],
+    [
+     "S01:2:11",
+     "S16:2:6"
+    ],
+    [
+     "E01:2:11",
+     "E16:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 262,
+   "base_source": "N16:1:5",
+   "base_target": "N01:1:12",
+   "plane2_source": "N16:2:5",
+   "plane2_target": "N01:2:12",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:12",
+     "N16:2:5"
+    ],
+    [
+     "W01:2:12",
+     "W16:2:5"
+    ],
+    [
+     "S01:2:12",
+     "S16:2:5"
+    ],
+    [
+     "E01:2:12",
+     "E16:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 263,
+   "base_source": "N01:1:13",
+   "base_target": "N16:1:4",
+   "plane2_source": "N01:2:13",
+   "plane2_target": "N16:2:4",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:13",
+     "N16:2:4"
+    ],
+    [
+     "W01:2:13",
+     "W16:2:4"
+    ],
+    [
+     "S01:2:13",
+     "S16:2:4"
+    ],
+    [
+     "E01:2:13",
+     "E16:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 264,
+   "base_source": "N16:1:3",
+   "base_target": "N01:1:14",
+   "plane2_source": "N16:2:3",
+   "plane2_target": "N01:2:14",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N01:2:14",
+     "N16:2:3"
+    ],
+    [
+     "W01:2:14",
+     "W16:2:3"
+    ],
+    [
+     "S01:2:14",
+     "S16:2:3"
+    ],
+    [
+     "E01:2:14",
+     "E16:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 265,
+   "base_source": "N02:1:14",
+   "base_target": "N15:1:3",
+   "plane2_source": "N02:2:14",
+   "plane2_target": "N15:2:3",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:14",
+     "N15:2:3"
+    ],
+    [
+     "W02:2:14",
+     "W15:2:3"
+    ],
+    [
+     "S02:2:14",
+     "S15:2:3"
+    ],
+    [
+     "E02:2:14",
+     "E15:2:3"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 266,
+   "base_source": "N15:1:4",
+   "base_target": "N02:1:13",
+   "plane2_source": "N15:2:4",
+   "plane2_target": "N02:2:13",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:13",
+     "N15:2:4"
+    ],
+    [
+     "W02:2:13",
+     "W15:2:4"
+    ],
+    [
+     "S02:2:13",
+     "S15:2:4"
+    ],
+    [
+     "E02:2:13",
+     "E15:2:4"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 267,
+   "base_source": "N02:1:12",
+   "base_target": "N15:1:5",
+   "plane2_source": "N02:2:12",
+   "plane2_target": "N15:2:5",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:12",
+     "N15:2:5"
+    ],
+    [
+     "W02:2:12",
+     "W15:2:5"
+    ],
+    [
+     "S02:2:12",
+     "S15:2:5"
+    ],
+    [
+     "E02:2:12",
+     "E15:2:5"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 268,
+   "base_source": "N15:1:6",
+   "base_target": "N02:1:11",
+   "plane2_source": "N15:2:6",
+   "plane2_target": "N02:2:11",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:11",
+     "N15:2:6"
+    ],
+    [
+     "W02:2:11",
+     "W15:2:6"
+    ],
+    [
+     "S02:2:11",
+     "S15:2:6"
+    ],
+    [
+     "E02:2:11",
+     "E15:2:6"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 269,
+   "base_source": "N02:1:10",
+   "base_target": "N15:1:7",
+   "plane2_source": "N02:2:10",
+   "plane2_target": "N15:2:7",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:10",
+     "N15:2:7"
+    ],
+    [
+     "W02:2:10",
+     "W15:2:7"
+    ],
+    [
+     "S02:2:10",
+     "S15:2:7"
+    ],
+    [
+     "E02:2:10",
+     "E15:2:7"
+    ]
+   ]
+  },
+  {
+   "base_route_id": 270,
+   "base_source": "N15:1:8",
+   "base_target": "N02:1:9",
+   "plane2_source": "N15:2:8",
+   "plane2_target": "N02:2:9",
+   "relation": "same",
+   "orbit_size": 4,
+   "distinct_orbits": 4,
+   "orbit": [
+    [
+     "N02:2:9",
+     "N15:2:8"
+    ],
+    [
+     "W02:2:9",
+     "W15:2:8"
+    ],
+    [
+     "S02:2:9",
+     "S15:2:8"
+    ],
+    [
+     "E02:2:9",
+     "E15:2:8"
+    ]
+   ]
+  }
+ ],
+ "route_id_map": {
+  "34": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "35": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "36": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "37": [
+   13,
+   14,
+   15,
+   16
+  ],
+  "38": [
+   17,
+   18,
+   19,
+   20
+  ],
+  "39": [
+   21,
+   22,
+   23,
+   24
+  ],
+  "46": [
+   25,
+   26,
+   27,
+   28
+  ],
+  "47": [
+   29,
+   30,
+   31,
+   32
+  ],
+  "48": [
+   33,
+   34,
+   35,
+   36
+  ],
+  "49": [
+   37,
+   38,
+   39,
+   40
+  ],
+  "50": [
+   41,
+   42,
+   43,
+   44
+  ],
+  "51": [
+   45,
+   46,
+   47,
+   48
+  ],
+  "62": [
+   49,
+   50,
+   51,
+   52
+  ],
+  "63": [
+   53,
+   54,
+   55,
+   56
+  ],
+  "64": [
+   57,
+   58,
+   59,
+   60
+  ],
+  "65": [
+   61,
+   62,
+   63,
+   64
+  ],
+  "66": [
+   65,
+   66,
+   67,
+   68
+  ],
+  "67": [
+   69,
+   70,
+   71,
+   72
+  ],
+  "74": [
+   73,
+   74,
+   75,
+   76
+  ],
+  "75": [
+   77,
+   78,
+   79,
+   80
+  ],
+  "76": [
+   81,
+   82,
+   83,
+   84
+  ],
+  "77": [
+   85,
+   86,
+   87,
+   88
+  ],
+  "78": [
+   89,
+   90,
+   91,
+   92
+  ],
+  "79": [
+   93,
+   94,
+   95,
+   96
+  ],
+  "86": [
+   97,
+   98,
+   99,
+   100
+  ],
+  "88": [
+   101,
+   102,
+   103,
+   104
+  ],
+  "89": [
+   105,
+   106,
+   107,
+   108
+  ],
+  "90": [
+   109,
+   110,
+   111,
+   112
+  ],
+  "91": [
+   113,
+   114,
+   115,
+   116
+  ],
+  "92": [
+   117,
+   118,
+   119,
+   120
+  ],
+  "93": [
+   121,
+   122,
+   123,
+   124
+  ],
+  "94": [
+   125,
+   126,
+   127,
+   128
+  ],
+  "101": [
+   129,
+   130,
+   131,
+   132
+  ],
+  "102": [
+   133,
+   134,
+   135,
+   136
+  ],
+  "103": [
+   137,
+   138,
+   139,
+   140
+  ],
+  "104": [
+   141,
+   142,
+   143,
+   144
+  ],
+  "105": [
+   145,
+   146,
+   147,
+   148
+  ],
+  "106": [
+   149,
+   150,
+   151,
+   152
+  ],
+  "107": [
+   153,
+   154,
+   155,
+   156
+  ],
+  "108": [
+   157,
+   158,
+   159,
+   160
+  ],
+  "116": [
+   161,
+   162,
+   163,
+   164
+  ],
+  "117": [
+   165,
+   166,
+   167,
+   168
+  ],
+  "118": [
+   169,
+   170,
+   171,
+   172
+  ],
+  "119": [
+   173,
+   174,
+   175,
+   176
+  ],
+  "120": [
+   177,
+   178,
+   179,
+   180
+  ],
+  "121": [
+   181,
+   182,
+   183,
+   184
+  ],
+  "122": [
+   185,
+   186,
+   187,
+   188
+  ],
+  "123": [
+   189,
+   190,
+   191,
+   192
+  ],
+  "124": [
+   193,
+   194,
+   195,
+   196
+  ],
+  "125": [
+   197,
+   198,
+   199,
+   200
+  ],
+  "126": [
+   201,
+   202,
+   203,
+   204
+  ],
+  "127": [
+   205,
+   206,
+   207,
+   208
+  ],
+  "128": [
+   209,
+   210,
+   211,
+   212
+  ],
+  "129": [
+   213,
+   214,
+   215,
+   216
+  ],
+  "130": [
+   217,
+   218,
+   219,
+   220
+  ],
+  "131": [
+   221,
+   222,
+   223,
+   224
+  ],
+  "138": [
+   225,
+   226,
+   227,
+   228
+  ],
+  "139": [
+   229,
+   230,
+   231,
+   232
+  ],
+  "140": [
+   233,
+   234,
+   235,
+   236
+  ],
+  "141": [
+   237,
+   238,
+   239,
+   240
+  ],
+  "142": [
+   241,
+   242,
+   243,
+   244
+  ],
+  "143": [
+   245,
+   246,
+   247,
+   248
+  ],
+  "144": [
+   249,
+   250,
+   251,
+   252
+  ],
+  "145": [
+   253,
+   254,
+   255,
+   256
+  ],
+  "161": [
+   257,
+   258,
+   259,
+   260
+  ],
+  "162": [
+   261,
+   262,
+   263,
+   264
+  ],
+  "164": [
+   265,
+   266,
+   267,
+   268
+  ],
+  "166": [
+   269,
+   270,
+   271,
+   272
+  ],
+  "167": [
+   273,
+   274,
+   275,
+   276
+  ],
+  "168": [
+   277,
+   278,
+   279,
+   280
+  ],
+  "169": [
+   281,
+   282,
+   283,
+   284
+  ],
+  "170": [
+   285,
+   286,
+   287,
+   288
+  ],
+  "171": [
+   289,
+   290,
+   291,
+   292
+  ],
+  "172": [
+   293,
+   294,
+   295,
+   296
+  ],
+  "173": [
+   297,
+   298,
+   299,
+   300
+  ],
+  "174": [
+   301,
+   302,
+   303,
+   304
+  ],
+  "175": [
+   305,
+   306,
+   307,
+   308
+  ],
+  "176": [
+   309,
+   310,
+   311,
+   312
+  ],
+  "177": [
+   313,
+   314,
+   315,
+   316
+  ],
+  "178": [
+   317,
+   318,
+   319,
+   320
+  ],
+  "222": [
+   321,
+   322,
+   323,
+   324
+  ],
+  "223": [
+   325,
+   326,
+   327,
+   328
+  ],
+  "224": [
+   329,
+   330,
+   331,
+   332
+  ],
+  "225": [
+   333,
+   334,
+   335,
+   336
+  ],
+  "226": [
+   337,
+   338,
+   339,
+   340
+  ],
+  "227": [
+   341,
+   342,
+   343,
+   344
+  ],
+  "228": [
+   345,
+   346,
+   347,
+   348
+  ],
+  "229": [
+   349,
+   350,
+   351,
+   352
+  ],
+  "230": [
+   353,
+   354,
+   355,
+   356
+  ],
+  "231": [
+   357,
+   358,
+   359,
+   360
+  ],
+  "232": [
+   361,
+   362,
+   363,
+   364
+  ],
+  "233": [
+   365,
+   366,
+   367,
+   368
+  ],
+  "234": [
+   369,
+   370,
+   371,
+   372
+  ],
+  "235": [
+   373,
+   374,
+   375,
+   376
+  ],
+  "236": [
+   377,
+   378,
+   379,
+   380
+  ],
+  "237": [
+   381,
+   382,
+   383,
+   384
+  ],
+  "238": [
+   385,
+   386,
+   387,
+   388
+  ],
+  "239": [
+   389,
+   390,
+   391,
+   392
+  ],
+  "240": [
+   393,
+   394,
+   395,
+   396
+  ],
+  "241": [
+   397,
+   398,
+   399,
+   400
+  ],
+  "242": [
+   401,
+   402,
+   403,
+   404
+  ],
+  "243": [
+   405,
+   406,
+   407,
+   408
+  ],
+  "244": [
+   409,
+   410,
+   411,
+   412
+  ],
+  "245": [
+   413,
+   414,
+   415,
+   416
+  ],
+  "246": [
+   417,
+   418,
+   419,
+   420
+  ],
+  "247": [
+   421,
+   422,
+   423,
+   424
+  ],
+  "248": [
+   425,
+   426,
+   427,
+   428
+  ],
+  "249": [
+   429,
+   430,
+   431,
+   432
+  ],
+  "250": [
+   433,
+   434,
+   435,
+   436
+  ],
+  "251": [
+   437,
+   438,
+   439,
+   440
+  ],
+  "252": [
+   441,
+   442,
+   443,
+   444
+  ],
+  "253": [
+   445,
+   446,
+   447,
+   448
+  ],
+  "254": [
+   449,
+   450,
+   451,
+   452
+  ],
+  "255": [
+   453,
+   454,
+   455,
+   456
+  ],
+  "256": [
+   457,
+   458,
+   459,
+   460
+  ],
+  "257": [
+   461,
+   462,
+   463,
+   464
+  ],
+  "259": [
+   465,
+   466,
+   467,
+   468
+  ],
+  "260": [
+   469,
+   470,
+   471,
+   472
+  ],
+  "261": [
+   473,
+   474,
+   475,
+   476
+  ],
+  "262": [
+   477,
+   478,
+   479,
+   480
+  ],
+  "263": [
+   481,
+   482,
+   483,
+   484
+  ],
+  "264": [
+   485,
+   486,
+   487,
+   488
+  ],
+  "265": [
+   489,
+   490,
+   491,
+   492
+  ],
+  "266": [
+   493,
+   494,
+   495,
+   496
+  ],
+  "267": [
+   497,
+   498,
+   499,
+   500
+  ],
+  "268": [
+   501,
+   502,
+   503,
+   504
+  ],
+  "269": [
+   505,
+   506,
+   507,
+   508
+  ],
+  "270": [
+   509,
+   510,
+   511,
+   512
+  ]
+ },
+ "output_csv": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\z2_expanded_512.csv",
+  "sha256": "90a06c31fd1c300d58c4d12e997059e30cfef090edcae5ce8deefb424d8b9c08",
+  "bytes": 43336,
+  "rows": 512,
+  "header": [
+   "route_id",
+   "source_side",
+   "source_connector",
+   "source_row",
+   "source_column",
+   "source_channel",
+   "target_side",
+   "target_connector",
+   "target_row",
+   "target_column",
+   "target_channel",
+   "relation",
+   "source_port_id",
+   "target_port_id",
+   "source_x_mm",
+   "source_y_mm",
+   "target_x_mm",
+   "target_y_mm",
+   "layer"
+  ],
+  "readback_ok": true,
+  "route_id_range": [
+   1,
+   512
+  ],
+  "layer": "z2",
+  "source_row": 2,
+  "channel_convention": "channel = 16 + column",
+  "route_id_assignment": "base route_id ascending, then C4 phase 0/90/180/270 -> route_id 1..512"
+ },
+ "cross_validation": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\inputs\\manual_z2_c4_full_section2_expanded_row2.csv",
+  "available": true,
+  "sha256": "d98d70d21f3e99e534406cd5248d75a146564764bbaa71260ea2e17bcef86fd9",
+  "rows": 512,
+  "header": [
+   "route_id",
+   "source_side",
+   "source_connector",
+   "source_row",
+   "source_column",
+   "source_channel",
+   "target_side",
+   "target_connector",
+   "target_row",
+   "target_column",
+   "target_channel",
+   "relation",
+   "source_port_id",
+   "target_port_id",
+   "source_x_mm",
+   "source_y_mm",
+   "target_x_mm",
+   "target_y_mm",
+   "layer"
+  ],
+  "common": 512,
+  "only_audit": 0,
+  "only_builder": 0,
+  "connection_sets_equal": true
+ },
+ "checks": [
+  {
+   "id": "z2x-01",
+   "name": "all 256 base port ids are row-1 ids",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "id": "z2x-02",
+   "name": "row-1 -> row-2 remap commutes with the 90 deg rotation",
+   "passed": true,
+   "detail": 0
+  },
+  {
+   "id": "z2x-03",
+   "name": "base csv relation equals relation recomputed from physical z2 sides",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "z2x-04",
+   "name": "each of the 128 base connections generates exactly 4 distinct rotated ring connections",
+   "passed": true,
+   "detail": {
+    "orbit_size_histogram": {
+     "4": 128
+    }
+   }
+  },
+  {
+   "id": "z2x-05",
+   "name": "no base connection degenerates under rotation (no 90/180/270 self-symmetric connection)",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "z2x-06",
+   "name": "expanded set holds exactly 512 distinct unordered connections",
+   "passed": true,
+   "detail": {
+    "rows": 512
+   }
+  },
+  {
+   "id": "z2x-07",
+   "name": "no cross-base orbit collision (all 128 orbits disjoint)",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "z2x-08",
+   "name": "1024 endpoints, each used exactly once",
+   "passed": true,
+   "detail": {
+    "unique": 1024,
+    "max_use": 1
+   }
+  },
+  {
+   "id": "z2x-09",
+   "name": "expanded endpoint set equals the full 1024-port z2 plane",
+   "passed": true,
+   "detail": {
+    "missing": 0,
+    "extra": 0
+   }
+  },
+  {
+   "id": "z2x-10",
+   "name": "every expanded endpoint is a physical row-2 / z2 port",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "id": "z2x-11",
+   "name": "C4 closure: rotating the expanded 512-set by 90/180/270 deg returns the same set",
+   "passed": true,
+   "detail": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   }
+  },
+  {
+   "id": "z2x-12",
+   "name": "expanded relation counts = adjacent 400 / same 112",
+   "passed": true,
+   "detail": {
+    "adjacent": 400,
+    "same": 112
+   }
+  },
+  {
+   "id": "z2x-13",
+   "name": "expanded z2 plane contains no opposite relation",
+   "passed": true,
+   "detail": {
+    "opposite": 0
+   }
+  },
+  {
+   "id": "z2x-14",
+   "name": "per-connector z2 split is uniform: end connectors 8 adjacent/8 U, middle connectors 14 adjacent/2 U",
+   "passed": true,
+   "detail": {
+    "uniform": true
+   }
+  },
+  {
+   "id": "z2x-15",
+   "name": "z2_expanded_512.csv round-trips: schema, 512 rows, z2 row-2 ids, channel = 16 + column",
+   "passed": true,
+   "detail": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\z2_expanded_512.csv",
+    "sha256": "90a06c31fd1c300d58c4d12e997059e30cfef090edcae5ce8deefb424d8b9c08",
+    "bytes": 43336,
+    "rows": 512,
+    "header": [
+     "route_id",
+     "source_side",
+     "source_connector",
+     "source_row",
+     "source_column",
+     "source_channel",
+     "target_side",
+     "target_connector",
+     "target_row",
+     "target_column",
+     "target_channel",
+     "relation",
+     "source_port_id",
+     "target_port_id",
+     "source_x_mm",
+     "source_y_mm",
+     "target_x_mm",
+     "target_y_mm",
+     "layer"
+    ],
+    "readback_ok": true,
+    "route_id_range": [
+     1,
+     512
+    ],
+    "layer": "z2",
+    "source_row": 2,
+    "channel_convention": "channel = 16 + column",
+    "route_id_assignment": "base route_id ascending, then C4 phase 0/90/180/270 -> route_id 1..512"
+   }
+  },
+  {
+   "id": "z2x-16",
+   "name": "connection set equals the independently built campaign expanded z2 CSV (only route_id ordering may differ)",
+   "passed": true,
+   "detail": {
+    "common": 512,
+    "only_audit": 0,
+    "only_builder": 0
+   }
+  }
+ ],
+ "verdict": {
+  "errors": 0,
+  "passed": true
+ }
+}

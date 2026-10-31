@@ -1,0 +1,9 @@
+{
+ "plane": "z2",
+ "routed": 480,
+ "failed": 32,
+ "recovered_groups": 3,
+ "still_failed": 41,
+ "validation_passed": true,
+ "seconds": 218.25
+}

@@ -1,0 +1,20 @@
+[
+ {
+  "plane": "z1",
+  "routed": 512,
+  "failed": 0,
+  "recovered_groups": 6,
+  "still_failed": 18,
+  "validation_passed": true,
+  "seconds": 9.32
+ },
+ {
+  "plane": "z2",
+  "routed": 480,
+  "failed": 32,
+  "recovered_groups": 3,
+  "still_failed": 41,
+  "validation_passed": true,
+  "seconds": 218.25
+ }
+]

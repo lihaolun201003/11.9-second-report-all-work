@@ -1,0 +1,47 @@
+[
+ {
+  "plane": "z1",
+  "order": "opposite_first",
+  "budget": 2000,
+  "routed": 452,
+  "failed_groups": 15,
+  "validation_passed": true,
+  "seconds": 51.4
+ },
+ {
+  "plane": "z1",
+  "order": "frame_easy",
+  "budget": 2000,
+  "routed": 468,
+  "failed_groups": 11,
+  "validation_passed": true,
+  "seconds": 45.9
+ },
+ {
+  "plane": "z1",
+  "order": "csv",
+  "budget": 2000,
+  "routed": 480,
+  "failed_groups": 8,
+  "validation_passed": true,
+  "seconds": 45.4
+ },
+ {
+  "plane": "z2",
+  "order": "same_first",
+  "budget": 2000,
+  "routed": 456,
+  "failed_groups": 14,
+  "validation_passed": true,
+  "seconds": 461.3
+ },
+ {
+  "plane": "z2",
+  "order": "adjacent_first",
+  "budget": 2000,
+  "routed": 444,
+  "failed_groups": 17,
+  "validation_passed": true,
+  "seconds": 537.5
+ }
+]

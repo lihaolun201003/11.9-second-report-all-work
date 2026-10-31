@@ -1,0 +1,317 @@
+{
+ "schema": "manual_c4_2d_validation_v1",
+ "plane": "z2",
+ "label": "SELECTED_z2",
+ "csv_sha256": "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+ "radius_mm": 40.0,
+ "board_mm": 150.0,
+ "clearance_mm": 0.08,
+ "width_mm": 0.05,
+ "strict_policy": "fslw.validate_fslw strict",
+ "routed": 480,
+ "failed": 32,
+ "total": 512,
+ "geometry_errors": [
+  [
+   513,
+   [
+    "arc_radius:0:15",
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "short_s_pair_invalid:0:1:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   514,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "arc_radius:4:15",
+    "short_s_pair_invalid:3:4:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   515,
+   [
+    "arc_radius:0:15",
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "short_s_pair_invalid:0:1:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   516,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "arc_radius:4:15",
+    "short_s_pair_invalid:3:4:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   517,
+   [
+    "arc_radius:0:15",
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "short_s_pair_invalid:0:1:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   518,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "arc_radius:4:15",
+    "short_s_pair_invalid:3:4:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   519,
+   [
+    "arc_radius:0:15",
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "short_s_pair_invalid:0:1:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   520,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "arc_radius:4:15",
+    "short_s_pair_invalid:3:4:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   521,
+   [
+    "arc_radius:1:15"
+   ]
+  ],
+  [
+   522,
+   [
+    "arc_radius:1:15"
+   ]
+  ],
+  [
+   523,
+   [
+    "arc_radius:1:15"
+   ]
+  ],
+  [
+   524,
+   [
+    "arc_radius:1:15"
+   ]
+  ],
+  [
+   525,
+   [
+    "arc_radius:0:15",
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "short_s_pair_invalid:0:1:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   526,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "arc_radius:4:15",
+    "short_s_pair_invalid:3:4:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   527,
+   [
+    "arc_radius:0:15",
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "short_s_pair_invalid:0:1:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   528,
+   [
+    "arc_radius:1:15",
+    "arc_radius:3:15",
+    "arc_radius:4:15",
+    "short_s_pair_invalid:3:4:lateral_displacement_mismatch"
+   ]
+  ],
+  [
+   529,
+   [
+    "arc_radius:1:15"
+   ]
+  ],
+  [
+   530,
+   [
+    "arc_radius:1:15"
+   ]
+  ],
+  [
+   531,
+   [
+    "arc_radius:1:15"
+   ]
+  ],
+  [
+   532,
+   [
+    "arc_radius:1:15"
+   ]
+  ]
+ ],
+ "geometry_error_count": 480,
+ "pair_parse_errors": [],
+ "pair_audit": {
+  "policy": "strict",
+  "candidate_pair_count": 82908,
+  "crossing_count": 85848,
+  "crossing_pair_count": 63248,
+  "min_non_crossing_centerline_mm": 0.0815681628093543,
+  "violations": [],
+  "violation_count": 0
+ },
+ "total_length_mm": 83243.7188,
+ "mean_length_mm": 173.4244,
+ "failed_routes": [
+  {
+   "route_id": 613,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 614,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 615,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 616,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 621,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 622,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 623,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 624,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 629,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 630,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 631,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 632,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 853,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 854,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 855,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 856,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 981,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 982,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 983,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 984,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 993,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 994,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 995,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 996,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 997,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 998,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 999,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 1000,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 1013,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 1014,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 1015,
+   "reason": "no_legal_quad_after_extended_search"
+  },
+  {
+   "route_id": 1016,
+   "reason": "no_legal_quad_after_extended_search"
+  }
+ ],
+ "passed": false,
+ "errors": []
+}

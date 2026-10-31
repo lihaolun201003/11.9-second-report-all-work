@@ -1,0 +1,208 @@
+{
+ "schema": "new_manual_csv_campaign_inputs_v1",
+ "source_z1": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full_section2.csv",
+  "sha256": "9d5e0b5e15c4b2774130403c94cc56f91b79584496676cbffb7ee81acf54cfbd"
+ },
+ "source_z2": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full_section2.csv",
+  "sha256": "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a"
+ },
+ "steps": [
+  {
+   "step": "z1_read",
+   "rows": 512
+  },
+  {
+   "step": "z1_stats",
+   "rows": 512,
+   "relations": {
+    "opposite": 256,
+    "same": 256
+   }
+  },
+  {
+   "step": "z2_read",
+   "rows": 128
+  },
+  {
+   "step": "z2_c4_expansion",
+   "base": 128,
+   "expanded": 512
+  }
+ ],
+ "checks": [
+  {
+   "name": "z1 route_id 1..512 unique",
+   "passed": true,
+   "detail": 512
+  },
+  {
+   "name": "z1 row/port/metadata/xy/relation consistent",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "z1 uses all 1024 z1 ports exactly once",
+   "passed": true,
+   "detail": {
+    "unique": 1024,
+    "dup": 0,
+    "missing": 0
+   }
+  },
+  {
+   "name": "z2 base rows convert to row-2 ports",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "z2 expanded = 512 connections, all 1024 z2 ports once",
+   "passed": true,
+   "detail": {
+    "expanded": 512,
+    "ports": 1024,
+    "missing": 0
+   }
+  },
+  {
+   "name": "z2 expanded C4 closure (0 missing at 90/180/270)",
+   "passed": true,
+   "detail": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   }
+  }
+ ],
+ "local_versions": {
+  "note": "local section-2 exports are the authoritative source for this campaign"
+ },
+ "z1": {
+  "info": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full_section2.csv",
+   "sha256": "9d5e0b5e15c4b2774130403c94cc56f91b79584496676cbffb7ee81acf54cfbd",
+   "bytes": 42184,
+   "rows": 512,
+   "bom": true,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "relations": {
+   "opposite": 256,
+   "same": 256
+  },
+  "endpoints_unique": 1024
+ },
+ "z2": {
+  "info": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full_section2.csv",
+   "sha256": "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a",
+   "bytes": 10836,
+   "rows": 128,
+   "bom": true,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "base_rows": 128,
+  "base_relations": {
+   "adjacent": 100,
+   "same": 28
+  },
+  "expanded": 512,
+  "closure": {
+   "90deg": 0,
+   "180deg": 0,
+   "270deg": 0
+  },
+  "relations": {
+   "adjacent": 400,
+   "same": 112
+  },
+  "expanded_csv": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\inputs\\manual_z2_c4_full_section2_expanded_row2.csv",
+   "sha256": "d98d70d21f3e99e534406cd5248d75a146564764bbaa71260ea2e17bcef86fd9",
+   "rows": 512
+  }
+ },
+ "validation": {
+  "passed": true,
+  "checks": 35,
+  "failed": []
+ },
+ "topology": {
+  "connections": 1024,
+  "groups": 256,
+  "relation_counts": {
+   "opposite": 256,
+   "same": 368,
+   "adjacent": 400
+  },
+  "group_kinds": {
+   "opposite": 64,
+   "same": 92,
+   "adjacent": 100
+  },
+  "rotation_closure": {
+   "90deg": 0,
+   "180deg": 0,
+   "270deg": 0
+  },
+  "combined_csv": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\inputs\\connectivity_1024.csv",
+   "sha256": "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+   "fields": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation"
+   ]
+  }
+ }
+}

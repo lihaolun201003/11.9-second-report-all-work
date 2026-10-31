@@ -1,0 +1,8631 @@
+{
+ "schema": "four_side_1024_v2_l3d_validation_v1",
+ "validator": "four_side_1024.l3d.validate_l3d",
+ "routes_file": "<memory>",
+ "layer_stack_source": "embedded",
+ "layer_stack": {
+  "schema": "four_side_1024_v2_l3d_layer_stack_v1",
+  "provenance": "unconfirmed_simulation",
+  "note": "ablation_custom: explicitly configured exploratory heights",
+  "source": "embedded",
+  "valid": true,
+  "confirmed": false,
+  "height_defined": false,
+  "errors": [],
+  "warnings": [],
+  "layers": {
+   "1": {
+    "layer_id": 1,
+    "layer_type": "interface",
+    "physical_z_mm": null,
+    "interface_rows": {
+     "z1": 0.0,
+     "z2": 0.5
+    },
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "2": {
+    "layer_id": 2,
+    "layer_type": "routing",
+    "physical_z_mm": 0.65,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "3": {
+    "layer_id": 3,
+    "layer_type": "routing",
+    "physical_z_mm": 0.8,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "4": {
+    "layer_id": 4,
+    "layer_type": "routing",
+    "physical_z_mm": 0.95,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "5": {
+    "layer_id": 5,
+    "layer_type": "routing",
+    "physical_z_mm": 1.1,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "6": {
+    "layer_id": 6,
+    "layer_type": "routing",
+    "physical_z_mm": 1.25,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "7": {
+    "layer_id": 7,
+    "layer_type": "routing",
+    "physical_z_mm": 1.4,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "8": {
+    "layer_id": 8,
+    "layer_type": "routing",
+    "physical_z_mm": 1.55,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "9": {
+    "layer_id": 9,
+    "layer_type": "routing",
+    "physical_z_mm": 1.7,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "10": {
+    "layer_id": 10,
+    "layer_type": "routing",
+    "physical_z_mm": 1.85,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "11": {
+    "layer_id": 11,
+    "layer_type": "routing",
+    "physical_z_mm": 2.0,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "12": {
+    "layer_id": 12,
+    "layer_type": "routing",
+    "physical_z_mm": 2.15,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "13": {
+    "layer_id": 13,
+    "layer_type": "routing",
+    "physical_z_mm": 2.3,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "14": {
+    "layer_id": 14,
+    "layer_type": "routing",
+    "physical_z_mm": 2.45,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "15": {
+    "layer_id": 15,
+    "layer_type": "routing",
+    "physical_z_mm": 2.6,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  },
+  "allowed_transitions": {
+   "1": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "2": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "3": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "4": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "5": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "6": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "7": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "8": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "9": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "10": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "11": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15
+   ],
+   "12": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15
+   ],
+   "13": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15
+   ],
+   "14": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+   ],
+   "15": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  "physical_planes": [
+   {
+    "z_mm": 0.0,
+    "layer_ids": [
+     1
+    ],
+    "interface_row": "z1",
+    "label": "L1 row z1"
+   },
+   {
+    "z_mm": 0.5,
+    "layer_ids": [
+     1
+    ],
+    "interface_row": "z2",
+    "label": "L1 row z2"
+   },
+   {
+    "z_mm": 0.65,
+    "layer_ids": [
+     2
+    ],
+    "interface_row": null,
+    "label": "L2"
+   },
+   {
+    "z_mm": 0.8,
+    "layer_ids": [
+     3
+    ],
+    "interface_row": null,
+    "label": "L3"
+   },
+   {
+    "z_mm": 0.95,
+    "layer_ids": [
+     4
+    ],
+    "interface_row": null,
+    "label": "L4"
+   },
+   {
+    "z_mm": 1.1,
+    "layer_ids": [
+     5
+    ],
+    "interface_row": null,
+    "label": "L5"
+   },
+   {
+    "z_mm": 1.25,
+    "layer_ids": [
+     6
+    ],
+    "interface_row": null,
+    "label": "L6"
+   },
+   {
+    "z_mm": 1.4,
+    "layer_ids": [
+     7
+    ],
+    "interface_row": null,
+    "label": "L7"
+   },
+   {
+    "z_mm": 1.55,
+    "layer_ids": [
+     8
+    ],
+    "interface_row": null,
+    "label": "L8"
+   },
+   {
+    "z_mm": 1.7,
+    "layer_ids": [
+     9
+    ],
+    "interface_row": null,
+    "label": "L9"
+   },
+   {
+    "z_mm": 1.85,
+    "layer_ids": [
+     10
+    ],
+    "interface_row": null,
+    "label": "L10"
+   },
+   {
+    "z_mm": 2.0,
+    "layer_ids": [
+     11
+    ],
+    "interface_row": null,
+    "label": "L11"
+   },
+   {
+    "z_mm": 2.15,
+    "layer_ids": [
+     12
+    ],
+    "interface_row": null,
+    "label": "L12"
+   },
+   {
+    "z_mm": 2.3,
+    "layer_ids": [
+     13
+    ],
+    "interface_row": null,
+    "label": "L13"
+   },
+   {
+    "z_mm": 2.45,
+    "layer_ids": [
+     14
+    ],
+    "interface_row": null,
+    "label": "L14"
+   },
+   {
+    "z_mm": 2.6,
+    "layer_ids": [
+     15
+    ],
+    "interface_row": null,
+    "label": "L15"
+   }
+  ],
+  "reported_formal_acceptance_allowed": false
+ },
+ "formal_acceptance": false,
+ "exploratory_pass": null,
+ "geometry_pass": false,
+ "geometry_executed": false,
+ "status": "exploratory_only",
+ "exit_code": 2,
+ "allow_exploratory": true,
+ "counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "stats": {
+  "routed": 992,
+  "failed": 32,
+  "total": 1024,
+  "lifted": 192,
+  "flat_routes": 800,
+  "multi_transition_routes": 192,
+  "transition_count": 384,
+  "interface_transition_count": 384,
+  "intermediate_transition_count": 0,
+  "back_to_back_transition_count": 0,
+  "transition_pairs": {
+   "1->2": 24,
+   "2->1": 24,
+   "1->4": 16,
+   "4->1": 16,
+   "1->8": 20,
+   "8->1": 20,
+   "1->11": 12,
+   "11->1": 12,
+   "1->3": 12,
+   "3->1": 12,
+   "1->15": 12,
+   "15->1": 12,
+   "1->7": 12,
+   "7->1": 12,
+   "1->9": 16,
+   "9->1": 16,
+   "1->10": 16,
+   "10->1": 16,
+   "1->6": 16,
+   "6->1": 16,
+   "1->12": 8,
+   "12->1": 8,
+   "1->5": 16,
+   "5->1": 16,
+   "1->13": 8,
+   "13->1": 8,
+   "1->14": 4,
+   "14->1": 4
+  },
+  "layers_used_histogram": {
+   "1": 800,
+   "1->2": 24,
+   "1->4": 16,
+   "1->8": 20,
+   "1->11": 12,
+   "1->3": 12,
+   "1->15": 12,
+   "1->7": 12,
+   "1->9": 16,
+   "1->10": 16,
+   "1->6": 16,
+   "1->12": 8,
+   "1->5": 16,
+   "1->13": 8,
+   "1->14": 4
+  },
+  "transitions_histogram": {
+   "0": 800,
+   "2": 192
+  },
+  "flat_parts": 1376,
+  "flat_lines": 2808,
+  "flat_arcs": 2200,
+  "flat_arc_radius_values": [
+   15.0
+  ],
+  "transition_radius_values": [
+   15.0
+  ],
+  "total_length_mm": 159441.75264046,
+  "xy_length_mm": 159400.02157106,
+  "z_span_max_mm": 2.6,
+  "duplicate_route_ids": [],
+  "min_curvature_radius_mm": 14.999999961,
+  "curvature_routes_checked": 992,
+  "same_plane_crossings": 95628,
+  "physical_planes": [
+   {
+    "z_mm": 0.0,
+    "layer_ids": [
+     1
+    ],
+    "interface_rows": [
+     "z1"
+    ],
+    "parts": 552,
+    "routes": 512,
+    "label": "L1"
+   },
+   {
+    "z_mm": 0.5,
+    "layer_ids": [
+     1
+    ],
+    "interface_rows": [
+     "z2"
+    ],
+    "parts": 632,
+    "routes": 480,
+    "label": "L1"
+   },
+   {
+    "z_mm": 0.65,
+    "layer_ids": [
+     2
+    ],
+    "interface_rows": [],
+    "parts": 24,
+    "routes": 24,
+    "label": "L2"
+   },
+   {
+    "z_mm": 0.8,
+    "layer_ids": [
+     3
+    ],
+    "interface_rows": [],
+    "parts": 12,
+    "routes": 12,
+    "label": "L3"
+   },
+   {
+    "z_mm": 0.95,
+    "layer_ids": [
+     4
+    ],
+    "interface_rows": [],
+    "parts": 16,
+    "routes": 16,
+    "label": "L4"
+   },
+   {
+    "z_mm": 1.1,
+    "layer_ids": [
+     5
+    ],
+    "interface_rows": [],
+    "parts": 16,
+    "routes": 16,
+    "label": "L5"
+   },
+   {
+    "z_mm": 1.25,
+    "layer_ids": [
+     6
+    ],
+    "interface_rows": [],
+    "parts": 16,
+    "routes": 16,
+    "label": "L6"
+   },
+   {
+    "z_mm": 1.4,
+    "layer_ids": [
+     7
+    ],
+    "interface_rows": [],
+    "parts": 12,
+    "routes": 12,
+    "label": "L7"
+   },
+   {
+    "z_mm": 1.55,
+    "layer_ids": [
+     8
+    ],
+    "interface_rows": [],
+    "parts": 20,
+    "routes": 20,
+    "label": "L8"
+   },
+   {
+    "z_mm": 1.7,
+    "layer_ids": [
+     9
+    ],
+    "interface_rows": [],
+    "parts": 16,
+    "routes": 16,
+    "label": "L9"
+   },
+   {
+    "z_mm": 1.85,
+    "layer_ids": [
+     10
+    ],
+    "interface_rows": [],
+    "parts": 16,
+    "routes": 16,
+    "label": "L10"
+   },
+   {
+    "z_mm": 2.0,
+    "layer_ids": [
+     11
+    ],
+    "interface_rows": [],
+    "parts": 12,
+    "routes": 12,
+    "label": "L11"
+   },
+   {
+    "z_mm": 2.15,
+    "layer_ids": [
+     12
+    ],
+    "interface_rows": [],
+    "parts": 8,
+    "routes": 8,
+    "label": "L12"
+   },
+   {
+    "z_mm": 2.3,
+    "layer_ids": [
+     13
+    ],
+    "interface_rows": [],
+    "parts": 8,
+    "routes": 8,
+    "label": "L13"
+   },
+   {
+    "z_mm": 2.45,
+    "layer_ids": [
+     14
+    ],
+    "interface_rows": [],
+    "parts": 4,
+    "routes": 4,
+    "label": "L14"
+   },
+   {
+    "z_mm": 2.6,
+    "layer_ids": [
+     15
+    ],
+    "interface_rows": [],
+    "parts": 12,
+    "routes": 12,
+    "label": "L15"
+   }
+  ],
+  "min_self_clearance_mm": null,
+  "declared_statistics": {},
+  "min_3d_clearance_mm": 0.081568163,
+  "min_3d_clearance_bound": "measured",
+  "sampling": {
+   "curvature_step_mm": 0.02,
+   "transition_step_mm": 0.02,
+   "flat_line_step_mm": 0.1,
+   "flat_arc_step_mm": 0.02,
+   "clearance_query_radius_mm": 0.18,
+   "curvature_limit_mm": 14.985,
+   "clearance_limit_mm": 0.08,
+   "clearance_tolerance_mm": 1e-07
+  }
+ },
+ "checks": {
+  "layer_stack": {
+   "schema": "four_side_1024_v2_l3d_layer_stack_v1",
+   "provenance": "unconfirmed_simulation",
+   "note": "ablation_custom: explicitly configured exploratory heights",
+   "source": "embedded",
+   "valid": true,
+   "confirmed": false,
+   "height_defined": false,
+   "errors": [],
+   "warnings": [],
+   "layers": {
+    "1": {
+     "layer_id": 1,
+     "layer_type": "interface",
+     "physical_z_mm": null,
+     "interface_rows": {
+      "z1": 0.0,
+      "z2": 0.5
+     },
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "2": {
+     "layer_id": 2,
+     "layer_type": "routing",
+     "physical_z_mm": 0.65,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "3": {
+     "layer_id": 3,
+     "layer_type": "routing",
+     "physical_z_mm": 0.8,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "4": {
+     "layer_id": 4,
+     "layer_type": "routing",
+     "physical_z_mm": 0.95,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "5": {
+     "layer_id": 5,
+     "layer_type": "routing",
+     "physical_z_mm": 1.1,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "6": {
+     "layer_id": 6,
+     "layer_type": "routing",
+     "physical_z_mm": 1.25,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "7": {
+     "layer_id": 7,
+     "layer_type": "routing",
+     "physical_z_mm": 1.4,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "8": {
+     "layer_id": 8,
+     "layer_type": "routing",
+     "physical_z_mm": 1.55,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "9": {
+     "layer_id": 9,
+     "layer_type": "routing",
+     "physical_z_mm": 1.7,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "10": {
+     "layer_id": 10,
+     "layer_type": "routing",
+     "physical_z_mm": 1.85,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "11": {
+     "layer_id": 11,
+     "layer_type": "routing",
+     "physical_z_mm": 2.0,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "12": {
+     "layer_id": 12,
+     "layer_type": "routing",
+     "physical_z_mm": 2.15,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "13": {
+     "layer_id": 13,
+     "layer_type": "routing",
+     "physical_z_mm": 2.3,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "14": {
+     "layer_id": 14,
+     "layer_type": "routing",
+     "physical_z_mm": 2.45,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    },
+    "15": {
+     "layer_id": 15,
+     "layer_type": "routing",
+     "physical_z_mm": 2.6,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ]
+    }
+   },
+   "allowed_transitions": {
+    "1": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "2": [
+     1,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "3": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "4": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "5": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "6": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "7": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "8": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "9": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "10": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "11": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12,
+     13,
+     14,
+     15
+    ],
+    "12": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     13,
+     14,
+     15
+    ],
+    "13": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     14,
+     15
+    ],
+    "14": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     15
+    ],
+    "15": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   "physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z1",
+     "label": "L1 row z1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z2",
+     "label": "L1 row z2"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_row": null,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_row": null,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_row": null,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_row": null,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_row": null,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_row": null,
+     "label": "L7"
+    },
+    {
+     "z_mm": 1.55,
+     "layer_ids": [
+      8
+     ],
+     "interface_row": null,
+     "label": "L8"
+    },
+    {
+     "z_mm": 1.7,
+     "layer_ids": [
+      9
+     ],
+     "interface_row": null,
+     "label": "L9"
+    },
+    {
+     "z_mm": 1.85,
+     "layer_ids": [
+      10
+     ],
+     "interface_row": null,
+     "label": "L10"
+    },
+    {
+     "z_mm": 2.0,
+     "layer_ids": [
+      11
+     ],
+     "interface_row": null,
+     "label": "L11"
+    },
+    {
+     "z_mm": 2.15,
+     "layer_ids": [
+      12
+     ],
+     "interface_row": null,
+     "label": "L12"
+    },
+    {
+     "z_mm": 2.3,
+     "layer_ids": [
+      13
+     ],
+     "interface_row": null,
+     "label": "L13"
+    },
+    {
+     "z_mm": 2.45,
+     "layer_ids": [
+      14
+     ],
+     "interface_row": null,
+     "label": "L14"
+    },
+    {
+     "z_mm": 2.6,
+     "layer_ids": [
+      15
+     ],
+     "interface_row": null,
+     "label": "L15"
+    }
+   ],
+   "reported_formal_acceptance_allowed": false
+  },
+  "port_model": {
+   "enabled": true,
+   "pairs_checked": 1024,
+   "pairs_expected": 1024,
+   "min_3d_distance_mm": 0.5,
+   "row_heights_mm": {
+    "z1": 0.0,
+    "z2": 0.5
+   },
+   "ok": true,
+   "errors": []
+  },
+  "route_ports": {
+   "routed_routes": 992,
+   "failed_routes": 32,
+   "checked": 992,
+   "identity_checked": true,
+   "ok": true,
+   "unique_ports_used": 2048
+  },
+  "transitions": {
+   "interface_transitions": 384,
+   "intermediate_transitions": 0,
+   "back_to_back_transitions": 0,
+   "transition_pairs": {
+    "1->2": 24,
+    "2->1": 24,
+    "1->4": 16,
+    "4->1": 16,
+    "1->8": 20,
+    "8->1": 20,
+    "1->11": 12,
+    "11->1": 12,
+    "1->3": 12,
+    "3->1": 12,
+    "1->15": 12,
+    "15->1": 12,
+    "1->7": 12,
+    "7->1": 12,
+    "1->9": 16,
+    "9->1": 16,
+    "1->10": 16,
+    "10->1": 16,
+    "1->6": 16,
+    "6->1": 16,
+    "1->12": 8,
+    "12->1": 8,
+    "1->5": 16,
+    "5->1": 16,
+    "1->13": 8,
+    "13->1": 8,
+    "1->14": 4,
+    "14->1": 4
+   },
+   "transition_radius_values": [
+    15.0
+   ],
+   "interface_transitions_ok": true,
+   "intermediate_transitions_ok": true
+  },
+  "curvature": {
+   "min_curvature_radius_mm": 14.999999961,
+   "limit_mm": 14.985,
+   "sampled": 992,
+   "flat_arc_radius_values": [
+    15.0
+   ],
+   "transition_radius_values": [
+    15.0
+   ],
+   "violations": 0,
+   "ok": true
+  },
+  "clearance": {
+   "same_plane": {
+    "planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z1"
+      ],
+      "parts": 552,
+      "routes": 512,
+      "violations": 0,
+      "crossings": 62600,
+      "crossing_pairs": 48888,
+      "min_non_crossing_centerline_mm": 0.108657393,
+      "runtime_seconds": 6.208
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z2"
+      ],
+      "parts": 632,
+      "routes": 480,
+      "violations": 0,
+      "crossings": 32232,
+      "crossing_pairs": 26768,
+      "min_non_crossing_centerline_mm": 0.081568163,
+      "runtime_seconds": 3.88
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_rows": [],
+      "parts": 24,
+      "routes": 24,
+      "violations": 0,
+      "crossings": 268,
+      "crossing_pairs": 178,
+      "min_non_crossing_centerline_mm": 8.618289576,
+      "runtime_seconds": 0.033
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "violations": 0,
+      "crossings": 48,
+      "crossing_pairs": 34,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.004
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "violations": 0,
+      "crossings": 12,
+      "crossing_pairs": 12,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.001
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "violations": 0,
+      "crossings": 80,
+      "crossing_pairs": 60,
+      "min_non_crossing_centerline_mm": 1.146654127,
+      "runtime_seconds": 0.008
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "violations": 0,
+      "crossings": 76,
+      "crossing_pairs": 74,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.009
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "violations": 0,
+      "crossings": 48,
+      "crossing_pairs": 46,
+      "min_non_crossing_centerline_mm": 2.239828478,
+      "runtime_seconds": 0.004
+     },
+     {
+      "z_mm": 1.55,
+      "layer_ids": [
+       8
+      ],
+      "interface_rows": [],
+      "parts": 20,
+      "routes": 20,
+      "violations": 0,
+      "crossings": 68,
+      "crossing_pairs": 58,
+      "min_non_crossing_centerline_mm": 0.490882139,
+      "runtime_seconds": 0.007
+     },
+     {
+      "z_mm": 1.7,
+      "layer_ids": [
+       9
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "violations": 0,
+      "crossings": 36,
+      "crossing_pairs": 34,
+      "min_non_crossing_centerline_mm": 2.325118723,
+      "runtime_seconds": 0.004
+     },
+     {
+      "z_mm": 1.85,
+      "layer_ids": [
+       10
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "violations": 0,
+      "crossings": 68,
+      "crossing_pairs": 58,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.005
+     },
+     {
+      "z_mm": 2.0,
+      "layer_ids": [
+       11
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "violations": 0,
+      "crossings": 20,
+      "crossing_pairs": 20,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.005
+     },
+     {
+      "z_mm": 2.15,
+      "layer_ids": [
+       12
+      ],
+      "interface_rows": [],
+      "parts": 8,
+      "routes": 8,
+      "violations": 0,
+      "crossings": 16,
+      "crossing_pairs": 16,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.002
+     },
+     {
+      "z_mm": 2.3,
+      "layer_ids": [
+       13
+      ],
+      "interface_rows": [],
+      "parts": 8,
+      "routes": 8,
+      "violations": 0,
+      "crossings": 16,
+      "crossing_pairs": 16,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.004
+     },
+     {
+      "z_mm": 2.45,
+      "layer_ids": [
+       14
+      ],
+      "interface_rows": [],
+      "parts": 4,
+      "routes": 4,
+      "violations": 0,
+      "crossings": 8,
+      "crossing_pairs": 4,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.001
+     },
+     {
+      "z_mm": 2.6,
+      "layer_ids": [
+       15
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "violations": 0,
+      "crossings": 32,
+      "crossing_pairs": 20,
+      "min_non_crossing_centerline_mm": 2.577299242,
+      "runtime_seconds": 0.006
+     }
+    ],
+    "total_violations": 0,
+    "crossings": 95628,
+    "min_non_crossing_centerline_mm": 0.0815681628093543
+   },
+   "transition_vs_flat": {
+    "violations": 0,
+    "min_mm": 0.091968278
+   },
+   "transition_vs_transition": {
+    "violations": 0,
+    "min_mm": 0.114658525
+   },
+   "transition_vs_flat_min_mm": 0.091968278,
+   "transition_vs_transition_min_mm": 0.114658525,
+   "cross_plane": {
+    "plane_pairs": [
+     {
+      "z_a": 0.0,
+      "z_b": 0.5,
+      "dz_mm": 0.5,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       1
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.5,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.65,
+      "dz_mm": 0.65,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       2
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.65,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.8,
+      "dz_mm": 0.8,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.8,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.95,
+      "dz_mm": 0.95,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.95,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.1,
+      "dz_mm": 1.1,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.1,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.25,
+      "dz_mm": 1.25,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.25,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.4,
+      "dz_mm": 1.4,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.4,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.55,
+      "dz_mm": 1.55,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.55,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.7,
+      "dz_mm": 1.7,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.7,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.85,
+      "dz_mm": 1.85,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.85,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 2.0,
+      "dz_mm": 2.0,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 2.0,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 2.15,
+      "dz_mm": 2.15,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 2.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 2.3,
+      "dz_mm": 2.3,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 2.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 2.45,
+      "dz_mm": 2.45,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 2.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 2.6,
+      "dz_mm": 2.6,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 2.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.65,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       2
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.8,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.95,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.1,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.25,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.4,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.55,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.7,
+      "dz_mm": 1.2,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.2,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.85,
+      "dz_mm": 1.35,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.35,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 2.0,
+      "dz_mm": 1.5,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.5,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 2.15,
+      "dz_mm": 1.65,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.65,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 2.3,
+      "dz_mm": 1.8,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.8,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 2.45,
+      "dz_mm": 1.95,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.95,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 2.6,
+      "dz_mm": 2.1,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 2.1,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 0.8,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 0.95,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.1,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.25,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.4,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.55,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.7,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.85,
+      "dz_mm": 1.2,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.2,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 2.0,
+      "dz_mm": 1.35,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.35,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 2.15,
+      "dz_mm": 1.5,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.5,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 2.3,
+      "dz_mm": 1.65,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.65,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 2.45,
+      "dz_mm": 1.8,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.8,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 2.6,
+      "dz_mm": 1.95,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.95,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 0.95,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.1,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.25,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.4,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.55,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.7,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.85,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 2.0,
+      "dz_mm": 1.2,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.2,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 2.15,
+      "dz_mm": 1.35,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.35,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 2.3,
+      "dz_mm": 1.5,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.5,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 2.45,
+      "dz_mm": 1.65,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.65,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 2.6,
+      "dz_mm": 1.8,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.8,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.1,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.25,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.4,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.55,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.7,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.85,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 2.0,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 2.15,
+      "dz_mm": 1.2,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.2,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 2.3,
+      "dz_mm": 1.35,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.35,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 2.45,
+      "dz_mm": 1.5,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.5,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 2.6,
+      "dz_mm": 1.65,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.65,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.25,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.4,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.55,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.7,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.85,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 2.0,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 2.15,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 2.3,
+      "dz_mm": 1.2,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.2,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 2.45,
+      "dz_mm": 1.35,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.35,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 2.6,
+      "dz_mm": 1.5,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.5,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 1.4,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 1.55,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 1.7,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 1.85,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 2.0,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 2.15,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 2.3,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 2.45,
+      "dz_mm": 1.2,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.2,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 2.6,
+      "dz_mm": 1.35,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.35,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 1.55,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       8
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 1.7,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 1.85,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 2.0,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 2.15,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 2.3,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 2.45,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 1.4,
+      "z_b": 2.6,
+      "dz_mm": 1.2,
+      "layer_ids_a": [
+       7
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.2,
+      "violations": 0
+     },
+     {
+      "z_a": 1.55,
+      "z_b": 1.7,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       8
+      ],
+      "layer_ids_b": [
+       9
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.55,
+      "z_b": 1.85,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       8
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.55,
+      "z_b": 2.0,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       8
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.55,
+      "z_b": 2.15,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       8
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 1.55,
+      "z_b": 2.3,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       8
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 1.55,
+      "z_b": 2.45,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       8
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 1.55,
+      "z_b": 2.6,
+      "dz_mm": 1.05,
+      "layer_ids_a": [
+       8
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.05,
+      "violations": 0
+     },
+     {
+      "z_a": 1.7,
+      "z_b": 1.85,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       9
+      ],
+      "layer_ids_b": [
+       10
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.7,
+      "z_b": 2.0,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       9
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.7,
+      "z_b": 2.15,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       9
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.7,
+      "z_b": 2.3,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       9
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 1.7,
+      "z_b": 2.45,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       9
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 1.7,
+      "z_b": 2.6,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       9
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 1.85,
+      "z_b": 2.0,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       10
+      ],
+      "layer_ids_b": [
+       11
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.85,
+      "z_b": 2.15,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       10
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.85,
+      "z_b": 2.3,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       10
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.85,
+      "z_b": 2.45,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       10
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 1.85,
+      "z_b": 2.6,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       10
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 2.0,
+      "z_b": 2.15,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       11
+      ],
+      "layer_ids_b": [
+       12
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 2.0,
+      "z_b": 2.3,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       11
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 2.0,
+      "z_b": 2.45,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       11
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 2.0,
+      "z_b": 2.6,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       11
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 2.15,
+      "z_b": 2.3,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       12
+      ],
+      "layer_ids_b": [
+       13
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 2.15,
+      "z_b": 2.45,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       12
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 2.15,
+      "z_b": 2.6,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       12
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 2.3,
+      "z_b": 2.45,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       13
+      ],
+      "layer_ids_b": [
+       14
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 2.3,
+      "z_b": 2.6,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       13
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 2.45,
+      "z_b": 2.6,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       14
+      ],
+      "layer_ids_b": [
+       15
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     }
+    ],
+    "violations": 0,
+    "min_lower_bound_mm": 0.1499999999999999,
+    "guaranteed_by_plane_gap": true
+   },
+   "cross_plane_violations": 0,
+   "min_3d_clearance_mm": 0.081568163,
+   "min_3d_clearance_bound": "measured",
+   "transition_clearance_ok": true,
+   "plane_rules_ok": true,
+   "ok": true
+  },
+  "layer_id_not_z": {
+   "ok": true,
+   "physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_rows": [
+      "z1"
+     ],
+     "parts": 552,
+     "routes": 512,
+     "label": "L1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_rows": [
+      "z2"
+     ],
+     "parts": 632,
+     "routes": 480,
+     "label": "L1"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_rows": [],
+     "parts": 24,
+     "routes": 24,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_rows": [],
+     "parts": 12,
+     "routes": 12,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_rows": [],
+     "parts": 16,
+     "routes": 16,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_rows": [],
+     "parts": 16,
+     "routes": 16,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_rows": [],
+     "parts": 16,
+     "routes": 16,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_rows": [],
+     "parts": 12,
+     "routes": 12,
+     "label": "L7"
+    },
+    {
+     "z_mm": 1.55,
+     "layer_ids": [
+      8
+     ],
+     "interface_rows": [],
+     "parts": 20,
+     "routes": 20,
+     "label": "L8"
+    },
+    {
+     "z_mm": 1.7,
+     "layer_ids": [
+      9
+     ],
+     "interface_rows": [],
+     "parts": 16,
+     "routes": 16,
+     "label": "L9"
+    },
+    {
+     "z_mm": 1.85,
+     "layer_ids": [
+      10
+     ],
+     "interface_rows": [],
+     "parts": 16,
+     "routes": 16,
+     "label": "L10"
+    },
+    {
+     "z_mm": 2.0,
+     "layer_ids": [
+      11
+     ],
+     "interface_rows": [],
+     "parts": 12,
+     "routes": 12,
+     "label": "L11"
+    },
+    {
+     "z_mm": 2.15,
+     "layer_ids": [
+      12
+     ],
+     "interface_rows": [],
+     "parts": 8,
+     "routes": 8,
+     "label": "L12"
+    },
+    {
+     "z_mm": 2.3,
+     "layer_ids": [
+      13
+     ],
+     "interface_rows": [],
+     "parts": 8,
+     "routes": 8,
+     "label": "L13"
+    },
+    {
+     "z_mm": 2.45,
+     "layer_ids": [
+      14
+     ],
+     "interface_rows": [],
+     "parts": 4,
+     "routes": 4,
+     "label": "L14"
+    },
+    {
+     "z_mm": 2.6,
+     "layer_ids": [
+      15
+     ],
+     "interface_rows": [],
+     "parts": 12,
+     "routes": 12,
+     "label": "L15"
+    }
+   ],
+   "stack_physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z1",
+     "label": "L1 row z1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z2",
+     "label": "L1 row z2"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_row": null,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_row": null,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_row": null,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_row": null,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_row": null,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_row": null,
+     "label": "L7"
+    },
+    {
+     "z_mm": 1.55,
+     "layer_ids": [
+      8
+     ],
+     "interface_row": null,
+     "label": "L8"
+    },
+    {
+     "z_mm": 1.7,
+     "layer_ids": [
+      9
+     ],
+     "interface_row": null,
+     "label": "L9"
+    },
+    {
+     "z_mm": 1.85,
+     "layer_ids": [
+      10
+     ],
+     "interface_row": null,
+     "label": "L10"
+    },
+    {
+     "z_mm": 2.0,
+     "layer_ids": [
+      11
+     ],
+     "interface_row": null,
+     "label": "L11"
+    },
+    {
+     "z_mm": 2.15,
+     "layer_ids": [
+      12
+     ],
+     "interface_row": null,
+     "label": "L12"
+    },
+    {
+     "z_mm": 2.3,
+     "layer_ids": [
+      13
+     ],
+     "interface_row": null,
+     "label": "L13"
+    },
+    {
+     "z_mm": 2.45,
+     "layer_ids": [
+      14
+     ],
+     "interface_row": null,
+     "label": "L14"
+    },
+    {
+     "z_mm": 2.6,
+     "layer_ids": [
+      15
+     ],
+     "interface_row": null,
+     "label": "L15"
+    }
+   ],
+   "same_layer_different_z_groups": {
+    "L1": 2,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1,
+    "L7": 1,
+    "L8": 1,
+    "L9": 1,
+    "L10": 1,
+    "L11": 1,
+    "L12": 1,
+    "L13": 1,
+    "L14": 1,
+    "L15": 1
+   },
+   "different_layer_same_z_groups": 0,
+   "note": "planes are grouped by physical z, never by layer_id; L1's two rows share layer_id=1 but are distinct planes"
+  },
+  "self_clearance": {
+   "min_mm": null,
+   "violations": 0,
+   "ok": true
+  },
+  "acceptance": {
+   "formal_acceptance": false,
+   "status": "exploratory_only",
+   "exit_code": 2,
+   "exploratory_pass": null,
+   "allow_exploratory": true,
+   "geometry_executed": false,
+   "geometry_pass": false,
+   "provenance": "unconfirmed_simulation",
+   "stack_valid": true,
+   "stack_confirmed": false,
+   "reported_router_formal_flag": false,
+   "note": "formal process acceptance requires provenance='confirmed' and a valid layer stack; unconfirmed heights are exploratory only"
+  }
+ },
+ "items": [
+  {
+   "item": "layer_stack_L1_interface",
+   "requirement": 1,
+   "status": "pass",
+   "detail": "L1 is the interface layer with rows z1=0.0 / z2=0.5",
+   "metrics": {
+    "provenance": "unconfirmed_simulation",
+    "confirmed": false,
+    "height_defined": false,
+    "planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z1",
+      "label": "L1 row z1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z2",
+      "label": "L1 row z2"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_row": null,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_row": null,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_row": null,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_row": null,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_row": null,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_row": null,
+      "label": "L7"
+     },
+     {
+      "z_mm": 1.55,
+      "layer_ids": [
+       8
+      ],
+      "interface_row": null,
+      "label": "L8"
+     },
+     {
+      "z_mm": 1.7,
+      "layer_ids": [
+       9
+      ],
+      "interface_row": null,
+      "label": "L9"
+     },
+     {
+      "z_mm": 1.85,
+      "layer_ids": [
+       10
+      ],
+      "interface_row": null,
+      "label": "L10"
+     },
+     {
+      "z_mm": 2.0,
+      "layer_ids": [
+       11
+      ],
+      "interface_row": null,
+      "label": "L11"
+     },
+     {
+      "z_mm": 2.15,
+      "layer_ids": [
+       12
+      ],
+      "interface_row": null,
+      "label": "L12"
+     },
+     {
+      "z_mm": 2.3,
+      "layer_ids": [
+       13
+      ],
+      "interface_row": null,
+      "label": "L13"
+     },
+     {
+      "z_mm": 2.45,
+      "layer_ids": [
+       14
+      ],
+      "interface_row": null,
+      "label": "L14"
+     },
+     {
+      "z_mm": 2.6,
+      "layer_ids": [
+       15
+      ],
+      "interface_row": null,
+      "label": "L15"
+     }
+    ]
+   }
+  },
+  {
+   "item": "port_rows_real_3d_separation",
+   "requirement": 2,
+   "status": "pass",
+   "detail": "1024 same-XY row pairs, min 3D distance 0.5 mm",
+   "metrics": {
+    "enabled": true,
+    "pairs_checked": 1024,
+    "pairs_expected": 1024,
+    "min_3d_distance_mm": 0.5,
+    "row_heights_mm": {
+     "z1": 0.0,
+     "z2": 0.5
+    },
+    "ok": true,
+    "errors": []
+   }
+  },
+  {
+   "item": "routes_start_end_on_L1_ports",
+   "requirement": 3,
+   "status": "pass",
+   "detail": "routed=992, identity_checked=True, port_errors=0",
+   "metrics": {
+    "routed_routes": 992,
+    "failed_routes": 32,
+    "checked": 992,
+    "identity_checked": true,
+    "ok": true,
+    "unique_ports_used": 2048
+   }
+  },
+  {
+   "item": "transitions_from_interface",
+   "requirement": 4,
+   "status": "pass",
+   "detail": "interface transitions=384, geometry/curvature/clearance violations=0",
+   "metrics": {
+    "interface_transitions": 384,
+    "intermediate_transitions": 0,
+    "back_to_back_transitions": 0,
+    "transition_pairs": {
+     "1->2": 24,
+     "2->1": 24,
+     "1->4": 16,
+     "4->1": 16,
+     "1->8": 20,
+     "8->1": 20,
+     "1->11": 12,
+     "11->1": 12,
+     "1->3": 12,
+     "3->1": 12,
+     "1->15": 12,
+     "15->1": 12,
+     "1->7": 12,
+     "7->1": 12,
+     "1->9": 16,
+     "9->1": 16,
+     "1->10": 16,
+     "10->1": 16,
+     "1->6": 16,
+     "6->1": 16,
+     "1->12": 8,
+     "12->1": 8,
+     "1->5": 16,
+     "5->1": 16,
+     "1->13": 8,
+     "13->1": 8,
+     "1->14": 4,
+     "14->1": 4
+    },
+    "transition_radius_values": [
+     15.0
+    ],
+    "interface_transitions_ok": true,
+    "intermediate_transitions_ok": true
+   }
+  },
+  {
+   "item": "transitions_intermediate_multi",
+   "requirement": 5,
+   "status": "pass",
+   "detail": "intermediate transitions=0, multi-transition routes=192, back-to-back=0",
+   "metrics": {
+    "interface_transitions": 384,
+    "intermediate_transitions": 0,
+    "back_to_back_transitions": 0,
+    "transition_pairs": {
+     "1->2": 24,
+     "2->1": 24,
+     "1->4": 16,
+     "4->1": 16,
+     "1->8": 20,
+     "8->1": 20,
+     "1->11": 12,
+     "11->1": 12,
+     "1->3": 12,
+     "3->1": 12,
+     "1->15": 12,
+     "15->1": 12,
+     "1->7": 12,
+     "7->1": 12,
+     "1->9": 16,
+     "9->1": 16,
+     "1->10": 16,
+     "10->1": 16,
+     "1->6": 16,
+     "6->1": 16,
+     "1->12": 8,
+     "12->1": 8,
+     "1->5": 16,
+     "5->1": 16,
+     "1->13": 8,
+     "13->1": 8,
+     "1->14": 4,
+     "14->1": 4
+    },
+    "transition_radius_values": [
+     15.0
+    ],
+    "interface_transitions_ok": true,
+    "intermediate_transitions_ok": true
+   }
+  },
+  {
+   "item": "curvature_3d_min_radius",
+   "requirement": 6,
+   "status": "pass",
+   "detail": "min sampled 3D radius=14.999999961 mm (limit 14.985), analytic violations=0",
+   "metrics": {
+    "min_curvature_radius_mm": 14.999999961,
+    "limit_mm": 14.985,
+    "sampled": 992,
+    "flat_arc_radius_values": [
+     15.0
+    ],
+    "transition_radius_values": [
+     15.0
+    ],
+    "violations": 0,
+    "ok": true
+   }
+  },
+  {
+   "item": "transition_vs_L1_clearance",
+   "requirement": 7,
+   "status": "pass",
+   "detail": "transition-vs-flat min=0.091968278 mm, transition-vs-transition min=0.114658525 mm, violations=0",
+   "metrics": {
+    "same_plane": {
+     "planes": [
+      {
+       "z_mm": 0.0,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z1"
+       ],
+       "parts": 552,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 62600,
+       "crossing_pairs": 48888,
+       "min_non_crossing_centerline_mm": 0.108657393,
+       "runtime_seconds": 6.208
+      },
+      {
+       "z_mm": 0.5,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z2"
+       ],
+       "parts": 632,
+       "routes": 480,
+       "violations": 0,
+       "crossings": 32232,
+       "crossing_pairs": 26768,
+       "min_non_crossing_centerline_mm": 0.081568163,
+       "runtime_seconds": 3.88
+      },
+      {
+       "z_mm": 0.65,
+       "layer_ids": [
+        2
+       ],
+       "interface_rows": [],
+       "parts": 24,
+       "routes": 24,
+       "violations": 0,
+       "crossings": 268,
+       "crossing_pairs": 178,
+       "min_non_crossing_centerline_mm": 8.618289576,
+       "runtime_seconds": 0.033
+      },
+      {
+       "z_mm": 0.8,
+       "layer_ids": [
+        3
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 48,
+       "crossing_pairs": 34,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 0.95,
+       "layer_ids": [
+        4
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 12,
+       "crossing_pairs": 12,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.001
+      },
+      {
+       "z_mm": 1.1,
+       "layer_ids": [
+        5
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 80,
+       "crossing_pairs": 60,
+       "min_non_crossing_centerline_mm": 1.146654127,
+       "runtime_seconds": 0.008
+      },
+      {
+       "z_mm": 1.25,
+       "layer_ids": [
+        6
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 76,
+       "crossing_pairs": 74,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.009
+      },
+      {
+       "z_mm": 1.4,
+       "layer_ids": [
+        7
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 48,
+       "crossing_pairs": 46,
+       "min_non_crossing_centerline_mm": 2.239828478,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 1.55,
+       "layer_ids": [
+        8
+       ],
+       "interface_rows": [],
+       "parts": 20,
+       "routes": 20,
+       "violations": 0,
+       "crossings": 68,
+       "crossing_pairs": 58,
+       "min_non_crossing_centerline_mm": 0.490882139,
+       "runtime_seconds": 0.007
+      },
+      {
+       "z_mm": 1.7,
+       "layer_ids": [
+        9
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 36,
+       "crossing_pairs": 34,
+       "min_non_crossing_centerline_mm": 2.325118723,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 1.85,
+       "layer_ids": [
+        10
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 68,
+       "crossing_pairs": 58,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.005
+      },
+      {
+       "z_mm": 2.0,
+       "layer_ids": [
+        11
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 20,
+       "crossing_pairs": 20,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.005
+      },
+      {
+       "z_mm": 2.15,
+       "layer_ids": [
+        12
+       ],
+       "interface_rows": [],
+       "parts": 8,
+       "routes": 8,
+       "violations": 0,
+       "crossings": 16,
+       "crossing_pairs": 16,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.002
+      },
+      {
+       "z_mm": 2.3,
+       "layer_ids": [
+        13
+       ],
+       "interface_rows": [],
+       "parts": 8,
+       "routes": 8,
+       "violations": 0,
+       "crossings": 16,
+       "crossing_pairs": 16,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 2.45,
+       "layer_ids": [
+        14
+       ],
+       "interface_rows": [],
+       "parts": 4,
+       "routes": 4,
+       "violations": 0,
+       "crossings": 8,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.001
+      },
+      {
+       "z_mm": 2.6,
+       "layer_ids": [
+        15
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 32,
+       "crossing_pairs": 20,
+       "min_non_crossing_centerline_mm": 2.577299242,
+       "runtime_seconds": 0.006
+      }
+     ],
+     "total_violations": 0,
+     "crossings": 95628,
+     "min_non_crossing_centerline_mm": 0.0815681628093543
+    },
+    "transition_vs_flat": {
+     "violations": 0,
+     "min_mm": 0.091968278
+    },
+    "transition_vs_transition": {
+     "violations": 0,
+     "min_mm": 0.114658525
+    },
+    "transition_vs_flat_min_mm": 0.091968278,
+    "transition_vs_transition_min_mm": 0.114658525,
+    "cross_plane": {
+     "plane_pairs": [
+      {
+       "z_a": 0.0,
+       "z_b": 0.5,
+       "dz_mm": 0.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        1
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.65,
+       "dz_mm": 0.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.8,
+       "dz_mm": 0.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.95,
+       "dz_mm": 0.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.1,
+       "dz_mm": 1.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.25,
+       "dz_mm": 1.25,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.25,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.4,
+       "dz_mm": 1.4,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.4,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.55,
+       "dz_mm": 1.55,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.55,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.7,
+       "dz_mm": 1.7,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.7,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.85,
+       "dz_mm": 1.85,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.85,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.0,
+       "dz_mm": 2.0,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.0,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.15,
+       "dz_mm": 2.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.3,
+       "dz_mm": 2.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.45,
+       "dz_mm": 2.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.6,
+       "dz_mm": 2.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.65,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.8,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.95,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.1,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.25,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.4,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.55,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.7,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.85,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.0,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.15,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.3,
+       "dz_mm": 1.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.45,
+       "dz_mm": 1.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.6,
+       "dz_mm": 2.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.8,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.95,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.1,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.25,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.4,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.55,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.7,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.85,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.0,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.15,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.3,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.45,
+       "dz_mm": 1.8,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.6,
+       "dz_mm": 1.95,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 0.95,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.1,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.25,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.4,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.55,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.7,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.85,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.0,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.15,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.3,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.45,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.6,
+       "dz_mm": 1.8,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.1,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.25,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.4,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.55,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.7,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.85,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.0,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.15,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.3,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.45,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.6,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.25,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.4,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.55,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.7,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.85,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.0,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.15,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.3,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.45,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.6,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.4,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.55,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.7,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.85,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.0,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.15,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.3,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.45,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.6,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 1.55,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 1.7,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 1.85,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.0,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.15,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.3,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.45,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.6,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 1.7,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 1.85,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.0,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.15,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.3,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.45,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.6,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 1.85,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.0,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.15,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.3,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.45,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.6,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.0,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.15,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.3,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.45,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.6,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.15,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.3,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.45,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.6,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 2.15,
+       "z_b": 2.3,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        12
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 2.15,
+       "z_b": 2.45,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        12
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 2.15,
+       "z_b": 2.6,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        12
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 2.3,
+       "z_b": 2.45,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        13
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 2.3,
+       "z_b": 2.6,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        13
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 2.45,
+       "z_b": 2.6,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        14
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      }
+     ],
+     "violations": 0,
+     "min_lower_bound_mm": 0.1499999999999999,
+     "guaranteed_by_plane_gap": true
+    },
+    "cross_plane_violations": 0,
+    "min_3d_clearance_mm": 0.081568163,
+    "min_3d_clearance_bound": "measured",
+    "transition_clearance_ok": true,
+    "plane_rules_ok": true,
+    "ok": true
+   }
+  },
+  {
+   "item": "same_plane_strict_and_cross_plane",
+   "requirement": 8,
+   "status": "pass",
+   "detail": "same-plane strict violations=0, cross-plane violations=0, min 3D clearance=0.081568163 mm",
+   "metrics": {
+    "same_plane": {
+     "planes": [
+      {
+       "z_mm": 0.0,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z1"
+       ],
+       "parts": 552,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 62600,
+       "crossing_pairs": 48888,
+       "min_non_crossing_centerline_mm": 0.108657393,
+       "runtime_seconds": 6.208
+      },
+      {
+       "z_mm": 0.5,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z2"
+       ],
+       "parts": 632,
+       "routes": 480,
+       "violations": 0,
+       "crossings": 32232,
+       "crossing_pairs": 26768,
+       "min_non_crossing_centerline_mm": 0.081568163,
+       "runtime_seconds": 3.88
+      },
+      {
+       "z_mm": 0.65,
+       "layer_ids": [
+        2
+       ],
+       "interface_rows": [],
+       "parts": 24,
+       "routes": 24,
+       "violations": 0,
+       "crossings": 268,
+       "crossing_pairs": 178,
+       "min_non_crossing_centerline_mm": 8.618289576,
+       "runtime_seconds": 0.033
+      },
+      {
+       "z_mm": 0.8,
+       "layer_ids": [
+        3
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 48,
+       "crossing_pairs": 34,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 0.95,
+       "layer_ids": [
+        4
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 12,
+       "crossing_pairs": 12,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.001
+      },
+      {
+       "z_mm": 1.1,
+       "layer_ids": [
+        5
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 80,
+       "crossing_pairs": 60,
+       "min_non_crossing_centerline_mm": 1.146654127,
+       "runtime_seconds": 0.008
+      },
+      {
+       "z_mm": 1.25,
+       "layer_ids": [
+        6
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 76,
+       "crossing_pairs": 74,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.009
+      },
+      {
+       "z_mm": 1.4,
+       "layer_ids": [
+        7
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 48,
+       "crossing_pairs": 46,
+       "min_non_crossing_centerline_mm": 2.239828478,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 1.55,
+       "layer_ids": [
+        8
+       ],
+       "interface_rows": [],
+       "parts": 20,
+       "routes": 20,
+       "violations": 0,
+       "crossings": 68,
+       "crossing_pairs": 58,
+       "min_non_crossing_centerline_mm": 0.490882139,
+       "runtime_seconds": 0.007
+      },
+      {
+       "z_mm": 1.7,
+       "layer_ids": [
+        9
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 36,
+       "crossing_pairs": 34,
+       "min_non_crossing_centerline_mm": 2.325118723,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 1.85,
+       "layer_ids": [
+        10
+       ],
+       "interface_rows": [],
+       "parts": 16,
+       "routes": 16,
+       "violations": 0,
+       "crossings": 68,
+       "crossing_pairs": 58,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.005
+      },
+      {
+       "z_mm": 2.0,
+       "layer_ids": [
+        11
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 20,
+       "crossing_pairs": 20,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.005
+      },
+      {
+       "z_mm": 2.15,
+       "layer_ids": [
+        12
+       ],
+       "interface_rows": [],
+       "parts": 8,
+       "routes": 8,
+       "violations": 0,
+       "crossings": 16,
+       "crossing_pairs": 16,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.002
+      },
+      {
+       "z_mm": 2.3,
+       "layer_ids": [
+        13
+       ],
+       "interface_rows": [],
+       "parts": 8,
+       "routes": 8,
+       "violations": 0,
+       "crossings": 16,
+       "crossing_pairs": 16,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.004
+      },
+      {
+       "z_mm": 2.45,
+       "layer_ids": [
+        14
+       ],
+       "interface_rows": [],
+       "parts": 4,
+       "routes": 4,
+       "violations": 0,
+       "crossings": 8,
+       "crossing_pairs": 4,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.001
+      },
+      {
+       "z_mm": 2.6,
+       "layer_ids": [
+        15
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 32,
+       "crossing_pairs": 20,
+       "min_non_crossing_centerline_mm": 2.577299242,
+       "runtime_seconds": 0.006
+      }
+     ],
+     "total_violations": 0,
+     "crossings": 95628,
+     "min_non_crossing_centerline_mm": 0.0815681628093543
+    },
+    "transition_vs_flat": {
+     "violations": 0,
+     "min_mm": 0.091968278
+    },
+    "transition_vs_transition": {
+     "violations": 0,
+     "min_mm": 0.114658525
+    },
+    "transition_vs_flat_min_mm": 0.091968278,
+    "transition_vs_transition_min_mm": 0.114658525,
+    "cross_plane": {
+     "plane_pairs": [
+      {
+       "z_a": 0.0,
+       "z_b": 0.5,
+       "dz_mm": 0.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        1
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.65,
+       "dz_mm": 0.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.8,
+       "dz_mm": 0.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.95,
+       "dz_mm": 0.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.1,
+       "dz_mm": 1.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.25,
+       "dz_mm": 1.25,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.25,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.4,
+       "dz_mm": 1.4,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.4,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.55,
+       "dz_mm": 1.55,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.55,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.7,
+       "dz_mm": 1.7,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.7,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.85,
+       "dz_mm": 1.85,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.85,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.0,
+       "dz_mm": 2.0,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.0,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.15,
+       "dz_mm": 2.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.3,
+       "dz_mm": 2.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.45,
+       "dz_mm": 2.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 2.6,
+       "dz_mm": 2.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.65,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.8,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.95,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.1,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.25,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.4,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.55,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.7,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.85,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.0,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.15,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.3,
+       "dz_mm": 1.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.45,
+       "dz_mm": 1.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 2.6,
+       "dz_mm": 2.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 2.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.8,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.95,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.1,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.25,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.4,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.55,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.7,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.85,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.0,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.15,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.3,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.45,
+       "dz_mm": 1.8,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 2.6,
+       "dz_mm": 1.95,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 0.95,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.1,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.25,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.4,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.55,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.7,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.85,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.0,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.15,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.3,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.45,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 2.6,
+       "dz_mm": 1.8,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.1,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.25,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.4,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.55,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.7,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.85,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.0,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.15,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.3,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.45,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 2.6,
+       "dz_mm": 1.65,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.65,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.25,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.4,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.55,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.7,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.85,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.0,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.15,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.3,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.45,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 2.6,
+       "dz_mm": 1.5,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.5,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.4,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.55,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.7,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.85,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.0,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.15,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.3,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.45,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 2.6,
+       "dz_mm": 1.35,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.35,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 1.55,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        8
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 1.7,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 1.85,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.0,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.15,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.3,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.45,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.4,
+       "z_b": 2.6,
+       "dz_mm": 1.2,
+       "layer_ids_a": [
+        7
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.2,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 1.7,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        9
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 1.85,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.0,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.15,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.3,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.45,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.55,
+       "z_b": 2.6,
+       "dz_mm": 1.05,
+       "layer_ids_a": [
+        8
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.05,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 1.85,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        10
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.0,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.15,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.3,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.45,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 1.7,
+       "z_b": 2.6,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        9
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.0,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        11
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.15,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.3,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.45,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 1.85,
+       "z_b": 2.6,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        10
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.15,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        12
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.3,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.45,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 2.0,
+       "z_b": 2.6,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        11
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 2.15,
+       "z_b": 2.3,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        12
+       ],
+       "layer_ids_b": [
+        13
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 2.15,
+       "z_b": 2.45,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        12
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 2.15,
+       "z_b": 2.6,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        12
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 2.3,
+       "z_b": 2.45,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        13
+       ],
+       "layer_ids_b": [
+        14
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 2.3,
+       "z_b": 2.6,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        13
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 2.45,
+       "z_b": 2.6,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        14
+       ],
+       "layer_ids_b": [
+        15
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      }
+     ],
+     "violations": 0,
+     "min_lower_bound_mm": 0.1499999999999999,
+     "guaranteed_by_plane_gap": true
+    },
+    "cross_plane_violations": 0,
+    "min_3d_clearance_mm": 0.081568163,
+    "min_3d_clearance_bound": "measured",
+    "transition_clearance_ok": true,
+    "plane_rules_ok": true,
+    "ok": true
+   }
+  },
+  {
+   "item": "layer_id_is_not_a_z_coordinate",
+   "requirement": 9,
+   "status": "pass",
+   "detail": "16 distinct physical planes; same layer id in {'L1': 2, 'L2': 1, 'L3': 1, 'L4': 1, 'L5': 1, 'L6': 1, 'L7': 1, 'L8': 1, 'L9': 1, 'L10': 1, 'L11': 1, 'L12': 1, 'L13': 1, 'L14': 1, 'L15': 1} distinct-z groups; different layer ids sharing one physical plane: 0",
+   "metrics": {
+    "ok": true,
+    "physical_planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z1"
+      ],
+      "parts": 552,
+      "routes": 512,
+      "label": "L1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z2"
+      ],
+      "parts": 632,
+      "routes": 480,
+      "label": "L1"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_rows": [],
+      "parts": 24,
+      "routes": 24,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "label": "L7"
+     },
+     {
+      "z_mm": 1.55,
+      "layer_ids": [
+       8
+      ],
+      "interface_rows": [],
+      "parts": 20,
+      "routes": 20,
+      "label": "L8"
+     },
+     {
+      "z_mm": 1.7,
+      "layer_ids": [
+       9
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "label": "L9"
+     },
+     {
+      "z_mm": 1.85,
+      "layer_ids": [
+       10
+      ],
+      "interface_rows": [],
+      "parts": 16,
+      "routes": 16,
+      "label": "L10"
+     },
+     {
+      "z_mm": 2.0,
+      "layer_ids": [
+       11
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "label": "L11"
+     },
+     {
+      "z_mm": 2.15,
+      "layer_ids": [
+       12
+      ],
+      "interface_rows": [],
+      "parts": 8,
+      "routes": 8,
+      "label": "L12"
+     },
+     {
+      "z_mm": 2.3,
+      "layer_ids": [
+       13
+      ],
+      "interface_rows": [],
+      "parts": 8,
+      "routes": 8,
+      "label": "L13"
+     },
+     {
+      "z_mm": 2.45,
+      "layer_ids": [
+       14
+      ],
+      "interface_rows": [],
+      "parts": 4,
+      "routes": 4,
+      "label": "L14"
+     },
+     {
+      "z_mm": 2.6,
+      "layer_ids": [
+       15
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "label": "L15"
+     }
+    ],
+    "stack_physical_planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z1",
+      "label": "L1 row z1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z2",
+      "label": "L1 row z2"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_row": null,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_row": null,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_row": null,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_row": null,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_row": null,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_row": null,
+      "label": "L7"
+     },
+     {
+      "z_mm": 1.55,
+      "layer_ids": [
+       8
+      ],
+      "interface_row": null,
+      "label": "L8"
+     },
+     {
+      "z_mm": 1.7,
+      "layer_ids": [
+       9
+      ],
+      "interface_row": null,
+      "label": "L9"
+     },
+     {
+      "z_mm": 1.85,
+      "layer_ids": [
+       10
+      ],
+      "interface_row": null,
+      "label": "L10"
+     },
+     {
+      "z_mm": 2.0,
+      "layer_ids": [
+       11
+      ],
+      "interface_row": null,
+      "label": "L11"
+     },
+     {
+      "z_mm": 2.15,
+      "layer_ids": [
+       12
+      ],
+      "interface_row": null,
+      "label": "L12"
+     },
+     {
+      "z_mm": 2.3,
+      "layer_ids": [
+       13
+      ],
+      "interface_row": null,
+      "label": "L13"
+     },
+     {
+      "z_mm": 2.45,
+      "layer_ids": [
+       14
+      ],
+      "interface_row": null,
+      "label": "L14"
+     },
+     {
+      "z_mm": 2.6,
+      "layer_ids": [
+       15
+      ],
+      "interface_row": null,
+      "label": "L15"
+     }
+    ],
+    "same_layer_different_z_groups": {
+     "L1": 2,
+     "L2": 1,
+     "L3": 1,
+     "L4": 1,
+     "L5": 1,
+     "L6": 1,
+     "L7": 1,
+     "L8": 1,
+     "L9": 1,
+     "L10": 1,
+     "L11": 1,
+     "L12": 1,
+     "L13": 1,
+     "L14": 1,
+     "L15": 1
+    },
+    "different_layer_same_z_groups": 0,
+    "note": "planes are grouped by physical z, never by layer_id; L1's two rows share layer_id=1 but are distinct planes"
+   }
+  },
+  {
+   "item": "formal_acceptance",
+   "requirement": 10,
+   "status": "pass",
+   "detail": "formal acceptance refused: layer heights are not supervisor-confirmed (provenance='unconfirmed_simulation'); exploratory only; formal_acceptance=False, status=exploratory_only, exit_code=2, allow_exploratory=True, exploratory_pass=None, geometry_executed=False",
+   "metrics": {
+    "formal_acceptance": false,
+    "status": "exploratory_only",
+    "exit_code": 2,
+    "exploratory_pass": null,
+    "allow_exploratory": true,
+    "geometry_executed": false,
+    "geometry_pass": false,
+    "provenance": "unconfirmed_simulation",
+    "stack_valid": true,
+    "stack_confirmed": false,
+    "reported_router_formal_flag": false,
+    "note": "formal process acceptance requires provenance='confirmed' and a valid layer stack; unconfirmed heights are exploratory only"
+   }
+  }
+ ],
+ "violations": [],
+ "violation_kinds": {},
+ "warnings": [
+  "payload has no process record"
+ ],
+ "runtime_seconds": 13.728
+}

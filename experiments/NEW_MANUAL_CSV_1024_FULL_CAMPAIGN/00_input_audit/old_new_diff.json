@@ -1,0 +1,989 @@
+{
+ "schema": "new_manual_csv_input_audit_old_new_diff_v1",
+ "title": "Oct-22 manual tables vs new section-2 manual tables: full diff",
+ "inputs": {
+  "z1_old_export": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full.csv",
+   "sha256": "74e43d068d5844719ae0f0d5c13ee76fb2523a6846cebbf4e4489f80e8d82ffc",
+   "bytes": 42952,
+   "rows": 512,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "z2_old_export": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full.csv",
+   "sha256": "43d58fd10df16065c0a271ca17b2c31602bbf915f8ac731fd209786b28462f63",
+   "bytes": 42440,
+   "rows": 512,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "z1_old_campaign": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\manual_z1_c4_full.csv",
+   "sha256": "74e43d068d5844719ae0f0d5c13ee76fb2523a6846cebbf4e4489f80e8d82ffc",
+   "bytes": 42952,
+   "rows": 512,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "z2_old_campaign": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\manual_z2_c4_full.csv",
+   "sha256": "5e74b26704573680af52a3a019fd9114053d1bb308c52928d5b83fe7520e4028",
+   "bytes": 43016,
+   "rows": 512,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "z1_new": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full_section2.csv",
+   "sha256": "9d5e0b5e15c4b2774130403c94cc56f91b79584496676cbffb7ee81acf54cfbd",
+   "bytes": 42184,
+   "rows": 512,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "z2_new_base": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z2_c4_full_section2.csv",
+   "sha256": "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a",
+   "bytes": 10836,
+   "rows": 128,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "z2_new_expanded": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\z2_expanded_512.csv",
+   "sha256": "90a06c31fd1c300d58c4d12e997059e30cfef090edcae5ce8deefb424d8b9c08",
+   "bytes": 43336,
+   "rows": 512,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation",
+    "source_port_id",
+    "target_port_id",
+    "source_x_mm",
+    "source_y_mm",
+    "target_x_mm",
+    "target_y_mm",
+    "layer"
+   ]
+  },
+  "combined_old": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\connectivity_1024.csv",
+   "sha256": "4c425adde0795a96b5b65eb471ea89fb000b45209e074db16787ac617f71d7f8",
+   "bytes": 40330,
+   "rows": 1024,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation"
+   ]
+  },
+  "combined_new": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\connectivity_1024_proposed.csv",
+   "sha256": "b66b72c7f47d710c83bd752c896f429f6e128b295f888ceb67f1009091517f26",
+   "bytes": 39885,
+   "rows": 1024,
+   "header": [
+    "route_id",
+    "source_side",
+    "source_connector",
+    "source_row",
+    "source_column",
+    "source_channel",
+    "target_side",
+    "target_connector",
+    "target_row",
+    "target_column",
+    "target_channel",
+    "relation"
+   ]
+  }
+ },
+ "old_campaign_equivalence": {
+  "old_campaign_z1_equals_old_export_z1": true,
+  "old_campaign_z2_equals_old_export_z2_after_row1_to_row2_remap": true,
+  "old_campaign_z2_rows": 512,
+  "old_campaign_z2_row_labels": {
+   "2": 512
+  },
+  "old_campaign_z2_layers": {
+   "z2": 512
+  }
+ },
+ "z1_diff": {
+  "old_label": "old Oct-22 z1 (row-1 plane ids)",
+  "new_label": "new section-2 z1 (row-1 plane ids)",
+  "old_rows": 512,
+  "new_rows": 512,
+  "old_relation_counts": {
+   "adjacent": 184,
+   "opposite": 264,
+   "same": 64
+  },
+  "new_relation_counts": {
+   "opposite": 256,
+   "same": 256
+  },
+  "connection_overlap": 52,
+  "old_only": 460,
+  "new_only": 460,
+  "overlap_fraction_of_new": 0.101562,
+  "overlap_fraction_of_old": 0.101562,
+  "jaccard": 0.053498,
+  "same_connection_at_same_route_id": 0,
+  "relation_label_transition_at_same_route_id": {
+   "adjacent->opposite": 75,
+   "adjacent->same": 109,
+   "opposite->opposite": 163,
+   "opposite->same": 101,
+   "same->opposite": 18,
+   "same->same": 46
+  },
+  "common_relation_counts": {
+   "opposite": 20,
+   "same": 32
+  },
+  "route_id_pairs_of_common_connections": [
+   [
+    3,
+    26
+   ],
+   [
+    20,
+    1
+   ],
+   [
+    21,
+    138
+   ],
+   [
+    38,
+    200
+   ],
+   [
+    39,
+    57
+   ],
+   [
+    40,
+    58
+   ],
+   [
+    41,
+    59
+   ],
+   [
+    42,
+    60
+   ],
+   [
+    43,
+    61
+   ],
+   [
+    44,
+    62
+   ],
+   [
+    45,
+    63
+   ],
+   [
+    46,
+    64
+   ],
+   [
+    63,
+    136
+   ],
+   [
+    77,
+    512
+   ],
+   [
+    131,
+    288
+   ],
+   [
+    132,
+    291
+   ],
+   [
+    133,
+    294
+   ],
+   [
+    134,
+    297
+   ],
+   [
+    135,
+    300
+   ],
+   [
+    136,
+    303
+   ],
+   [
+    137,
+    306
+   ],
+   [
+    138,
+    309
+   ],
+   [
+    151,
+    109
+   ],
+   [
+    169,
+    127
+   ],
+   [
+    183,
+    440
+   ],
+   [
+    201,
+    488
+   ],
+   [
+    213,
+    198
+   ],
+   [
+    214,
+    199
+   ],
+   [
+    247,
+    137
+   ],
+   [
+    248,
+    9
+   ],
+   [
+    249,
+    289
+   ],
+   [
+    250,
+    290
+   ],
+   [
+    251,
+    292
+   ],
+   [
+    252,
+    293
+   ],
+   [
+    253,
+    295
+   ],
+   [
+    254,
+    296
+   ],
+   [
+    255,
+    298
+   ],
+   [
+    256,
+    299
+   ],
+   [
+    257,
+    301
+   ],
+   [
+    258,
+    302
+   ],
+   [
+    259,
+    304
+   ],
+   [
+    260,
+    305
+   ],
+   [
+    261,
+    307
+   ],
+   [
+    262,
+    308
+   ],
+   [
+    263,
+    310
+   ],
+   [
+    264,
+    311
+   ],
+   [
+    297,
+    510
+   ],
+   [
+    298,
+    511
+   ],
+   [
+    457,
+    438
+   ],
+   [
+    458,
+    439
+   ],
+   [
+    493,
+    486
+   ],
+   [
+    494,
+    487
+   ]
+  ],
+  "spearman_route_id_correlation": 0.725775,
+  "route_id_moves": {
+   "same": 0,
+   "moved": 52,
+   "mean_abs_move": 85.884615,
+   "max_abs_move": 435
+  },
+  "old_rotation": {
+   "connections": 512,
+   "closure_missing": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   },
+   "orbit_size_histogram": {
+    "4": 128
+   },
+   "orbit_relation_counts": {
+    "adjacent": 46,
+    "opposite": 66,
+    "same": 16
+   }
+  },
+  "new_rotation": {
+   "connections": 512,
+   "closure_missing": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   },
+   "orbit_size_histogram": {
+    "4": 128
+   },
+   "orbit_relation_counts": {
+    "opposite": 64,
+    "same": 64
+   }
+  },
+  "endpoint_sets": {
+   "old": 1024,
+   "new": 1024,
+   "both_cover_all_z1_ports": true
+  }
+ },
+ "z2_diff": {
+  "old_label": "old Oct-22 z2 (legacy row-1 ids)",
+  "new_label": "new section-2 z2 C4-expanded (physical row-2 ids, compared on connector:column)",
+  "old_rows": 512,
+  "new_rows": 512,
+  "old_relation_counts": {
+   "adjacent": 312,
+   "opposite": 8,
+   "same": 192
+  },
+  "new_relation_counts": {
+   "adjacent": 400,
+   "same": 112
+  },
+  "connection_overlap": 24,
+  "old_only": 488,
+  "new_only": 488,
+  "overlap_fraction_of_new": 0.046875,
+  "overlap_fraction_of_old": 0.046875,
+  "jaccard": 0.024,
+  "same_connection_at_same_route_id": 0,
+  "relation_label_transition_at_same_route_id": {
+   "adjacent->adjacent": 263,
+   "adjacent->same": 49,
+   "opposite->adjacent": 8,
+   "same->adjacent": 129,
+   "same->same": 63
+  },
+  "common_relation_counts": {
+   "adjacent": 16,
+   "same": 8
+  },
+  "route_id_pairs_of_common_connections": [
+   [
+    48,
+    293
+   ],
+   [
+    49,
+    297
+   ],
+   [
+    72,
+    341
+   ],
+   [
+    84,
+    294
+   ],
+   [
+    85,
+    298
+   ],
+   [
+    109,
+    361
+   ],
+   [
+    128,
+    421
+   ],
+   [
+    145,
+    441
+   ],
+   [
+    288,
+    295
+   ],
+   [
+    289,
+    296
+   ],
+   [
+    290,
+    299
+   ],
+   [
+    291,
+    300
+   ],
+   [
+    344,
+    342
+   ],
+   [
+    345,
+    343
+   ],
+   [
+    346,
+    344
+   ],
+   [
+    399,
+    362
+   ],
+   [
+    400,
+    363
+   ],
+   [
+    401,
+    364
+   ],
+   [
+    456,
+    422
+   ],
+   [
+    457,
+    423
+   ],
+   [
+    458,
+    424
+   ],
+   [
+    507,
+    442
+   ],
+   [
+    508,
+    443
+   ],
+   [
+    509,
+    444
+   ]
+  ],
+  "spearman_route_id_correlation": 0.776522,
+  "route_id_moves": {
+   "same": 0,
+   "moved": 24,
+   "mean_abs_move": 103.0,
+   "max_abs_move": 296
+  },
+  "old_rotation": {
+   "connections": 512,
+   "closure_missing": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   },
+   "orbit_size_histogram": {
+    "4": 128
+   },
+   "orbit_relation_counts": {
+    "adjacent": 78,
+    "opposite": 2,
+    "same": 48
+   }
+  },
+  "new_rotation": {
+   "connections": 512,
+   "closure_missing": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   },
+   "orbit_size_histogram": {
+    "4": 128
+   },
+   "orbit_relation_counts": {
+    "adjacent": 100,
+    "same": 28
+   }
+  },
+  "base_rows_new": 128,
+  "base_relation_counts_new": {
+   "adjacent": 100,
+   "same": 28
+  }
+ },
+ "combined_diff": {
+  "old_rows": 1024,
+  "new_rows": 1024,
+  "old_relation_counts": {
+   "adjacent": 496,
+   "opposite": 272,
+   "same": 256
+  },
+  "new_relation_counts": {
+   "adjacent": 400,
+   "opposite": 256,
+   "same": 368
+  },
+  "old_cross_endpoints": 1536,
+  "new_cross_endpoints": 1312,
+  "old_u_endpoints": 512,
+  "new_u_endpoints": 736,
+  "connection_overlap": 76,
+  "old_only": 948,
+  "new_only": 948,
+  "overlap_fraction_of_new": 0.074219,
+  "jaccard": 0.03854,
+  "same_connection_at_same_route_id": 0,
+  "old_orbit_relations": {
+   "connections": 1024,
+   "closure_missing": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   },
+   "orbit_size_histogram": {
+    "4": 256
+   },
+   "orbit_relation_counts": {
+    "adjacent": 124,
+    "opposite": 68,
+    "same": 64
+   }
+  },
+  "new_orbit_relations": {
+   "connections": 1024,
+   "closure_missing": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   },
+   "orbit_size_histogram": {
+    "4": 256
+   },
+   "orbit_relation_counts": {
+    "adjacent": 100,
+    "opposite": 64,
+    "same": 92
+   }
+  },
+  "old_relation_by_plane": {
+   "z1": {
+    "adjacent": 184,
+    "opposite": 264,
+    "same": 64
+   },
+   "z2": {
+    "adjacent": 312,
+    "opposite": 8,
+    "same": 192
+   }
+  },
+  "new_relation_by_plane": {
+   "z1": {
+    "opposite": 256,
+    "same": 256
+   },
+   "z2": {
+    "adjacent": 400,
+    "same": 112
+   }
+  }
+ },
+ "summary": {
+  "z1_relation_change": {
+   "opposite": {
+    "old": 264,
+    "new": 256
+   },
+   "adjacent": {
+    "old": 184,
+    "new": 0
+   },
+   "same": {
+    "old": 64,
+    "new": 256
+   }
+  },
+  "z2_relation_change": {
+   "opposite": {
+    "old": 8,
+    "new": 0
+   },
+   "adjacent": {
+    "old": 312,
+    "new": 400
+   },
+   "same": {
+    "old": 192,
+    "new": 112
+   }
+  },
+  "combined_relation_change": {
+   "opposite": {
+    "old": 272,
+    "new": 256
+   },
+   "adjacent": {
+    "old": 496,
+    "new": 400
+   },
+   "same": {
+    "old": 256,
+    "new": 368
+   }
+  },
+  "statement": "the new section-2 CSVs are not an edit of the Oct-22 tables: only 52/512 Z1 and 24/512 Z2 connections are shared, route ids are fully re-ordered, and the relation composition changed (Z1: opposite 264 + adjacent 184 + same 64 -> opposite 256 + same 256; Z2: opposite 8 + adjacent 312 + same 192 -> adjacent 400 + same 112); the combined topology is a new design with 1312 cross endpoints and 736 U endpoints instead of the old 1536 cross / 512 U",
+  "old_results_not_reusable": true
+ },
+ "checks": [
+  {
+   "id": "d-01",
+   "name": "old campaign z1 input is byte-identical to the Oct-22 export",
+   "passed": true,
+   "detail": {
+    "sha256": "74e43d068d5844719ae0f0d5c13ee76fb2523a6846cebbf4e4489f80e8d82ffc"
+   }
+  },
+  {
+   "id": "d-02",
+   "name": "old campaign z2 input equals the Oct-22 export after the documented row-1 -> row-2 remap",
+   "passed": true,
+   "detail": {
+    "rows": 512,
+    "layers": {
+     "z2": 512
+    }
+   }
+  },
+  {
+   "id": "d-03",
+   "name": "old combined 1024 CSV = old z1 (route 1..512) + old z2 remapped (route 513..1024)",
+   "passed": true,
+   "detail": {
+    "z1_match": true,
+    "z2_match": true
+   }
+  },
+  {
+   "id": "d-04",
+   "name": "Z1: both tables are C4-closed with 128 strict orbits of size 4",
+   "passed": true,
+   "detail": {
+    "old": {
+     "connections": 512,
+     "closure_missing": {
+      "90deg": 0,
+      "180deg": 0,
+      "270deg": 0
+     },
+     "orbit_size_histogram": {
+      "4": 128
+     },
+     "orbit_relation_counts": {
+      "adjacent": 46,
+      "opposite": 66,
+      "same": 16
+     }
+    },
+    "new": {
+     "connections": 512,
+     "closure_missing": {
+      "90deg": 0,
+      "180deg": 0,
+      "270deg": 0
+     },
+     "orbit_size_histogram": {
+      "4": 128
+     },
+     "orbit_relation_counts": {
+      "opposite": 64,
+      "same": 64
+     }
+    }
+   }
+  },
+  {
+   "id": "d-05",
+   "name": "Z1: the two tables share only a small fraction of connections (expected: full redesign, not an edit)",
+   "passed": true,
+   "detail": {
+    "overlap": 52,
+    "overlap_fraction_of_new": 0.101562
+   }
+  },
+  {
+   "id": "d-06",
+   "name": "Z2: both tables are C4-closed with 128 strict orbits of size 4",
+   "passed": true,
+   "detail": {
+    "old": {
+     "connections": 512,
+     "closure_missing": {
+      "90deg": 0,
+      "180deg": 0,
+      "270deg": 0
+     },
+     "orbit_size_histogram": {
+      "4": 128
+     },
+     "orbit_relation_counts": {
+      "adjacent": 78,
+      "opposite": 2,
+      "same": 48
+     }
+    },
+    "new": {
+     "connections": 512,
+     "closure_missing": {
+      "90deg": 0,
+      "180deg": 0,
+      "270deg": 0
+     },
+     "orbit_size_histogram": {
+      "4": 128
+     },
+     "orbit_relation_counts": {
+      "adjacent": 100,
+      "same": 28
+     }
+    }
+   }
+  },
+  {
+   "id": "d-07",
+   "name": "Z2: the two tables share only a small fraction of connections",
+   "passed": true,
+   "detail": {
+    "overlap": 24,
+    "overlap_fraction_of_new": 0.046875
+   }
+  },
+  {
+   "id": "d-08",
+   "name": "combined: both tables hold 1024 connections / 2048 endpoints, but the cross/U split changed substantially",
+   "passed": true,
+   "detail": {
+    "old": {
+     "adjacent": 496,
+     "opposite": 272,
+     "same": 256
+    },
+    "new": {
+     "adjacent": 400,
+     "opposite": 256,
+     "same": 368
+    },
+    "old_cross": 1536,
+    "new_cross": 1312
+   }
+  },
+  {
+   "id": "d-09",
+   "name": "combined: old and new connection sets are almost disjoint",
+   "passed": true,
+   "detail": {
+    "overlap": 76,
+    "old_only": 948,
+    "new_only": 948
+   }
+  }
+ ],
+ "verdict": {
+  "errors": 0,
+  "passed": true
+ },
+ "markdown": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\old_new_diff.md"
+}

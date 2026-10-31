@@ -1,0 +1,95 @@
+{
+ "layer_count": 15,
+ "layer_heights_mm": [
+  0.65,
+  0.8,
+  0.95,
+  1.1,
+  1.25,
+  1.4,
+  1.55,
+  1.7,
+  1.85,
+  2.0,
+  2.15,
+  2.3,
+  2.45,
+  2.6
+ ],
+ "routed": 992,
+ "failed": 32,
+ "violations": 0,
+ "curvature_violations": 0,
+ "clearance_violations": 0,
+ "unique_crossing_pairs": 75794,
+ "crossing_points": 95628,
+ "new_high_layer_pairs": 108,
+ "transitions": 384,
+ "xyz_length_mm": 159441.754,
+ "fabrication_hours": 44.2894,
+ "layer_route_counts": {
+  "0.0": 512,
+  "0.5": 480,
+  "0.65": 24,
+  "0.8": 12,
+  "0.95": 16,
+  "1.1": 16,
+  "1.25": 16,
+  "1.4": 12,
+  "1.55": 20,
+  "1.7": 16,
+  "1.85": 16,
+  "2.0": 12,
+  "2.15": 8,
+  "2.3": 8,
+  "2.45": 4,
+  "2.6": 12
+ },
+ "z2_c4": {
+  "schema": "new_manual_z2_strict_c4_validation_v1",
+  "scope": "Z2 subsystem (Z1 kept C4 as well)",
+  "total_routes": 480,
+  "total_orbits": 128,
+  "complete_orbits": 120,
+  "incomplete_orbits": 8,
+  "layer_symmetry_errors": 0,
+  "transition_symmetry_errors": 0,
+  "geometry_symmetry_errors": 0,
+  "maximum_xyz_deviation_mm": 6.572520305780927e-14,
+  "failed_orbits": [
+   {
+    "group_id": 154,
+    "reason": "incomplete"
+   },
+   {
+    "group_id": 156,
+    "reason": "incomplete"
+   },
+   {
+    "group_id": 158,
+    "reason": "incomplete"
+   },
+   {
+    "group_id": 214,
+    "reason": "incomplete"
+   },
+   {
+    "group_id": 246,
+    "reason": "incomplete"
+   },
+   {
+    "group_id": 249,
+    "reason": "incomplete"
+   },
+   {
+    "group_id": 250,
+    "reason": "incomplete"
+   },
+   {
+    "group_id": 254,
+    "reason": "incomplete"
+   }
+  ],
+  "symmetry_pass": true
+ }
+}

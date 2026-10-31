@@ -1,0 +1,363 @@
+{
+ "schema": "corner_r15_final_verification_v1",
+ "passed": true,
+ "check_count": 61,
+ "failed": [],
+ "checks": [
+  {
+   "check": "analysis has 1024 connections",
+   "passed": true,
+   "detail": 1024
+  },
+  {
+   "check": "route ids are 1..1024",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "all 1024 templates feasible at R=15",
+   "passed": true,
+   "detail": 0
+  },
+  {
+   "check": "per-connection geometric quantities re-derived formula-consistent",
+   "passed": true,
+   "detail": 0
+  },
+  {
+   "check": "global judgement class counts match the report",
+   "passed": true,
+   "detail": {
+    "not_limited": 44,
+    "pure90_template_limited": 144,
+    "conflict_needs_joint_search": 224,
+    "same_u_family_capacity_limited": 368,
+    "rigid_template_conflict": 240,
+    "lift_limited": 4
+   }
+  },
+  {
+   "check": "no radius-limited connection",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "relations 368/400/256",
+   "passed": true,
+   "detail": {
+    "opposite": 256,
+    "same": 368,
+    "adjacent": 400
+   }
+  },
+  {
+   "check": "2048 physical ports used exactly once",
+   "passed": true,
+   "detail": 2048
+  },
+  {
+   "check": "16 corner connectors",
+   "passed": true,
+   "detail": 16
+  },
+  {
+   "check": "4 corners x 2 connectors per side",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "396 unique corner connections",
+   "passed": true,
+   "detail": 396
+  },
+  {
+   "check": "corner unique relations 112/172/112",
+   "passed": true,
+   "detail": {
+    "opposite": 112,
+    "same": 172,
+    "adjacent": 112
+   }
+  },
+  {
+   "check": "corner unique class counts match report",
+   "passed": true,
+   "detail": {
+    "not_limited": 4,
+    "pure90_template_limited": 48,
+    "conflict_needs_joint_search": 60,
+    "same_u_family_capacity_limited": 172,
+    "rigid_template_conflict": 112
+   }
+  },
+  {
+   "check": "NE: 128 connection-corner entries",
+   "passed": true,
+   "detail": 128
+  },
+  {
+   "check": "NE: judgement counts sum to 128",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "NE: phase-2 failed list length matches count",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "SE: 128 connection-corner entries",
+   "passed": true,
+   "detail": 128
+  },
+  {
+   "check": "SE: judgement counts sum to 128",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "SE: phase-2 failed list length matches count",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "SW: 128 connection-corner entries",
+   "passed": true,
+   "detail": 128
+  },
+  {
+   "check": "SW: judgement counts sum to 128",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "SW: phase-2 failed list length matches count",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "NW: 128 connection-corner entries",
+   "passed": true,
+   "detail": 128
+  },
+  {
+   "check": "NW: judgement counts sum to 128",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "NW: phase-2 failed list length matches count",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "connector E01: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector E02: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector E15: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector E16: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector N01: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector N02: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector N15: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector N16: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector S01: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector S02: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector S15: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector S16: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector W01: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector W02: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector W15: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "connector W16: 32 holes -> 32 connections",
+   "passed": true,
+   "detail": 32
+  },
+  {
+   "check": "phase-2 routed+failed == 1024",
+   "passed": true,
+   "detail": [
+    944,
+    80
+   ]
+  },
+  {
+   "check": "phase-2 failures by relation same 64 / adjacent 16",
+   "passed": true,
+   "detail": {
+    "same": 64,
+    "adjacent": 16
+   }
+  },
+  {
+   "check": "U family capacity: 4 depth tracks",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "U family capacity: all sides exceed 4 coverage",
+   "passed": true,
+   "detail": {
+    "z1_E": 32,
+    "z1_N": 32,
+    "z1_S": 32,
+    "z1_W": 32,
+    "z2_E": 20,
+    "z2_N": 20,
+    "z2_S": 20,
+    "z2_W": 20
+   }
+  },
+  {
+   "check": "adjacent rigid conflicts: 240 routes / 212 pairs",
+   "passed": true,
+   "detail": 212
+  },
+  {
+   "check": "opposite forced conflicts == 0",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "verification block present",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "22 structural checks passed",
+   "passed": true,
+   "detail": 22
+  },
+  {
+   "check": "no coordinate mismatch",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "6 PNG figures present",
+   "passed": true,
+   "detail": [
+    "fig01_spacing_distributions.png",
+    "fig02_class_stats.png",
+    "fig03_corner_NE.png",
+    "fig03_corner_NW.png",
+    "fig03_corner_SE.png",
+    "fig03_corner_SW.png"
+   ]
+  },
+  {
+   "check": "all figures > 50 kB",
+   "passed": true,
+   "detail": {
+    "fig01_spacing_distributions.png": 188948,
+    "fig02_class_stats.png": 206618,
+    "fig03_corner_NE.png": 1233177,
+    "fig03_corner_NW.png": 1293555,
+    "fig03_corner_SE.png": 1274113,
+    "fig03_corner_SW.png": 1210331
+   }
+  },
+  {
+   "check": "report exists with substantial content",
+   "passed": true,
+   "detail": 18045
+  },
+  {
+   "check": "report contains 34.25",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report contains 10.625",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report contains 3.75",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report contains 144",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report contains 368",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report contains 240",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report contains 0.125",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "check": "report contains 944/1024",
+   "passed": true,
+   "detail": ""
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+00:04:52 MANUAL_C4_2D plane=z1 groups=128 order=opposite_first budget=2000 rr_rounds=1 retry_passes=1
+00:04:52 radius=15.0 mm fixed40=False width=0.05 clearance=0.08
+00:04:52 plane group kinds: {'opposite': 64, 'same': 64}
+00:04:54 same-side U candidate groups: 64 (candidate counts: [(64, 64)])
+00:04:54 C4 sequential: 8/128 groups applied=8 routed_routes=32 elapsed=0.0s
+00:04:54 C4 sequential: 16/128 groups applied=16 routed_routes=64 elapsed=0.1s
+00:04:54 C4 sequential: 24/128 groups applied=24 routed_routes=96 elapsed=0.2s
+00:04:54 C4 sequential: 32/128 groups applied=32 routed_routes=128 elapsed=0.5s
+00:04:55 C4 sequential: 40/128 groups applied=40 routed_routes=160 elapsed=0.9s
+00:04:55 C4 sequential: 48/128 groups applied=48 routed_routes=192 elapsed=1.3s
+00:04:56 C4 sequential: 56/128 groups applied=56 routed_routes=224 elapsed=1.9s
+00:04:56 C4 sequential: 64/128 groups applied=64 routed_routes=256 elapsed=2.5s
+00:04:57 C4 sequential: 72/128 groups applied=71 routed_routes=284 elapsed=3.4s
+00:04:59 C4 sequential: 80/128 groups applied=75 routed_routes=300 elapsed=5.0s
+00:05:00 C4 sequential: 88/128 groups applied=80 routed_routes=320 elapsed=5.9s
+00:05:01 C4 sequential: 96/128 groups applied=81 routed_routes=324 elapsed=7.0s
+00:05:02 C4 sequential: 104/128 groups applied=88 routed_routes=352 elapsed=7.9s
+00:05:03 C4 sequential: 112/128 groups applied=96 routed_routes=384 elapsed=8.9s
+00:05:04 C4 sequential: 120/128 groups applied=100 routed_routes=400 elapsed=10.0s
+00:05:05 C4 sequential: 128/128 groups applied=107 routed_routes=428 elapsed=11.2s
+00:05:05 C4 sequential done groups=107/128 routed_routes=428 (11.2s)
+00:05:06   group R&R round 1: recovered group 85 (+1) routed_routes=428
+00:05:07   group R&R round 1: recovered group 44 (+2) routed_routes=428
+00:05:09   group R&R round 1: recovered group 84 (+3) routed_routes=432
+00:05:11   group R&R round 1: recovered group 82 (+4) routed_routes=428
+00:05:12   group R&R round 1: recovered group 83 (+5) routed_routes=428
+00:05:14   group R&R round 1: recovered group 42 (+6) routed_routes=432
+00:05:15   group R&R round 1: recovered group 49 (+7) routed_routes=436
+00:05:17   group R&R round 1: recovered group 58 (+8) routed_routes=440
+00:05:18   group R&R round 1: recovered group 60 (+9) routed_routes=444
+00:05:20   group R&R round 1: recovered group 52 (+10) routed_routes=448
+00:05:22   group R&R round 1: recovered group 57 (+11) routed_routes=448
+00:05:24   group R&R round 1: recovered group 93 (+12) routed_routes=452
+00:05:25   group R&R round 1: recovered group 53 (+13) routed_routes=452
+00:05:25 C4 group R&R round 1: recovered=13 routed_routes=452 failed_groups=15
+00:05:26 C4 sequential: 8/15 groups applied=0 routed_routes=452 elapsed=0.9s
+00:05:26 C4 retry pass 1: routed_routes=452 failed_groups=15
+00:05:28   group R&R round 1: recovered group 74 (+1) routed_routes=456
+00:05:29   group R&R round 1: recovered group 71 (+2) routed_routes=460
+00:05:31   group R&R round 1: recovered group 23 (+3) routed_routes=460
+00:05:33   group R&R round 1: recovered group 43 (+4) routed_routes=460
+00:05:34   group R&R round 1: recovered group 17 (+5) routed_routes=452
+00:05:36   group R&R round 1: recovered group 45 (+6) routed_routes=452
+00:05:37   group R&R round 1: recovered group 59 (+7) routed_routes=452
+00:05:37 C4 group R&R round 1: recovered=7 routed_routes=452 failed_groups=15
+00:05:43 [audit2d] MANUAL_C4_2D_z1: routed=452 failed=60 geometry_errors=0 strict_violations=0 -> PASS
+00:05:43 [validate2d] C4 groups: complete=113 partial=0 empty=15 errors=0 -> PASS
+00:05:43 written C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\phase2_2d_screen\z1_opposite_first routed_routes=452 routed_groups=113 validation=PASS
+[screen] plane=z1 order=opposite_first routed=452 failed_groups=15 (51.4s)
+00:05:43 MANUAL_C4_2D plane=z1 groups=128 order=frame_easy budget=2000 rr_rounds=1 retry_passes=1
+00:05:43 radius=15.0 mm fixed40=False width=0.05 clearance=0.08
+00:05:43 plane group kinds: {'opposite': 64, 'same': 64}
+00:05:45 same-side U candidate groups: 64 (candidate counts: [(64, 64)])
+00:05:45 C4 sequential: 8/128 groups applied=8 routed_routes=32 elapsed=0.0s
+00:05:45 C4 sequential: 16/128 groups applied=16 routed_routes=64 elapsed=0.1s
+00:05:45 C4 sequential: 24/128 groups applied=24 routed_routes=96 elapsed=0.2s
+00:05:46 C4 sequential: 32/128 groups applied=32 routed_routes=128 elapsed=0.5s
+00:05:46 C4 sequential: 40/128 groups applied=40 routed_routes=160 elapsed=0.9s
+00:05:47 C4 sequential: 48/128 groups applied=48 routed_routes=192 elapsed=1.3s
+00:05:47 C4 sequential: 56/128 groups applied=56 routed_routes=224 elapsed=1.9s
+00:05:48 C4 sequential: 64/128 groups applied=63 routed_routes=252 elapsed=2.4s
+00:05:49 C4 sequential: 72/128 groups applied=71 routed_routes=284 elapsed=3.4s
+00:05:50 C4 sequential: 80/128 groups applied=79 routed_routes=316 elapsed=4.4s
+00:05:54 C4 sequential: 88/128 groups applied=86 routed_routes=344 elapsed=8.5s
+00:05:55 C4 sequential: 96/128 groups applied=90 routed_routes=360 elapsed=9.5s
+00:05:56 C4 sequential: 104/128 groups applied=96 routed_routes=384 elapsed=10.6s
+00:05:57 C4 sequential: 112/128 groups applied=104 routed_routes=416 elapsed=11.8s
+00:05:59 C4 sequential: 120/128 groups applied=105 routed_routes=420 elapsed=13.5s
+00:06:00 C4 sequential: 128/128 groups applied=105 routed_routes=420 elapsed=14.4s
+00:06:00 C4 sequential done groups=105/128 routed_routes=420 (14.4s)
+00:06:01   group R&R round 1: recovered group 53 (+1) routed_routes=424
+00:06:02   group R&R round 1: recovered group 49 (+2) routed_routes=428
+00:06:04   group R&R round 1: recovered group 67 (+3) routed_routes=432
+00:06:05   group R&R round 1: recovered group 42 (+4) routed_routes=436
+00:06:07   group R&R round 1: recovered group 52 (+5) routed_routes=440
+00:06:09   group R&R round 1: recovered group 48 (+6) routed_routes=444
+00:06:11   group R&R round 1: recovered group 21 (+7) routed_routes=444
+00:06:13   group R&R round 1: recovered group 17 (+8) routed_routes=448
+00:06:15   group R&R round 1: recovered group 7 (+9) routed_routes=452
+00:06:15 C4 group R&R round 1: recovered=9 routed_routes=452 failed_groups=15
+00:06:16 C4 sequential: 8/15 groups applied=1 routed_routes=456 elapsed=0.7s
+00:06:16 C4 retry pass 1: routed_routes=456 failed_groups=14
+00:06:18   group R&R round 1: recovered group 44 (+1) routed_routes=460
+00:06:20   group R&R round 1: recovered group 18 (+2) routed_routes=460
+00:06:22   group R&R round 1: recovered group 43 (+3) routed_routes=464
+00:06:23   group R&R round 1: recovered group 20 (+4) routed_routes=468
+00:06:23 C4 group R&R round 1: recovered=4 routed_routes=468 failed_groups=11
+00:06:29 [audit2d] MANUAL_C4_2D_z1: routed=468 failed=44 geometry_errors=0 strict_violations=0 -> PASS
+00:06:29 [validate2d] C4 groups: complete=117 partial=0 empty=11 errors=0 -> PASS
+00:06:29 written C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\phase2_2d_screen\z1_frame_easy routed_routes=468 routed_groups=117 validation=PASS
+[screen] plane=z1 order=frame_easy routed=468 failed_groups=11 (45.9s)
+00:06:29 MANUAL_C4_2D plane=z1 groups=128 order=csv budget=2000 rr_rounds=1 retry_passes=1
+00:06:29 radius=15.0 mm fixed40=False width=0.05 clearance=0.08
+00:06:29 plane group kinds: {'opposite': 64, 'same': 64}
+00:06:31 same-side U candidate groups: 64 (candidate counts: [(64, 64)])
+00:06:31 C4 sequential: 8/128 groups applied=8 routed_routes=32 elapsed=0.1s
+00:06:31 C4 sequential: 16/128 groups applied=16 routed_routes=64 elapsed=0.2s
+00:06:31 C4 sequential: 24/128 groups applied=23 routed_routes=92 elapsed=0.6s
+00:06:32 C4 sequential: 32/128 groups applied=31 routed_routes=124 elapsed=0.9s
+00:06:32 C4 sequential: 40/128 groups applied=39 routed_routes=156 elapsed=1.3s
+00:06:33 C4 sequential: 48/128 groups applied=47 routed_routes=188 elapsed=1.8s
+00:06:34 C4 sequential: 56/128 groups applied=55 routed_routes=220 elapsed=2.7s
+00:06:34 C4 sequential: 64/128 groups applied=60 routed_routes=240 elapsed=3.5s
+00:06:35 C4 sequential: 72/128 groups applied=68 routed_routes=272 elapsed=4.2s
+00:06:36 C4 sequential: 80/128 groups applied=76 routed_routes=304 elapsed=5.0s
+00:06:37 C4 sequential: 88/128 groups applied=82 routed_routes=328 elapsed=5.8s
+00:06:39 C4 sequential: 96/128 groups applied=86 routed_routes=344 elapsed=8.5s
+00:06:40 C4 sequential: 104/128 groups applied=94 routed_routes=376 elapsed=9.4s
+00:06:41 C4 sequential: 112/128 groups applied=101 routed_routes=404 elapsed=10.4s
+00:06:44 C4 sequential: 120/128 groups applied=108 routed_routes=432 elapsed=13.4s
+00:06:51 C4 sequential: 128/128 groups applied=114 routed_routes=456 elapsed=19.7s
+00:06:51 C4 sequential done groups=114/128 routed_routes=456 (19.7s)
+00:06:51   group R&R round 1: recovered group 128 (+1) routed_routes=460
+00:06:52   group R&R round 1: recovered group 22 (+2) routed_routes=460
+00:06:54   group R&R round 1: recovered group 84 (+3) routed_routes=460
+00:06:55   group R&R round 1: recovered group 91 (+4) routed_routes=464
+00:06:56   group R&R round 1: recovered group 92 (+5) routed_routes=464
+00:06:58   group R&R round 1: recovered group 94 (+6) routed_routes=468
+00:06:59   group R&R round 1: recovered group 119 (+7) routed_routes=472
+00:07:01   group R&R round 1: recovered group 124 (+8) routed_routes=476
+00:07:01 C4 group R&R round 1: recovered=8 routed_routes=476 failed_groups=9
+00:07:02 C4 sequential: 8/9 groups applied=0 routed_routes=476 elapsed=0.7s
+00:07:02 C4 retry pass 1: routed_routes=476 failed_groups=9
+00:07:03   group R&R round 1: recovered group 78 (+1) routed_routes=476
+00:07:05   group R&R round 1: recovered group 64 (+2) routed_routes=480
+00:07:06   group R&R round 1: recovered group 85 (+3) routed_routes=480
+00:07:07   group R&R round 1: recovered group 90 (+4) routed_routes=480
+00:07:08 C4 group R&R round 1: recovered=4 routed_routes=480 failed_groups=8
+00:07:15 [audit2d] MANUAL_C4_2D_z1: routed=480 failed=32 geometry_errors=0 strict_violations=0 -> PASS
+00:07:15 [validate2d] C4 groups: complete=120 partial=0 empty=8 errors=0 -> PASS
+00:07:15 written C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\phase2_2d_screen\z1_csv routed_routes=480 routed_groups=120 validation=PASS
+[screen] plane=z1 order=csv routed=480 failed_groups=8 (45.4s)
+00:07:15 MANUAL_C4_2D plane=z2 groups=128 order=same_first budget=2000 rr_rounds=1 retry_passes=1
+00:07:15 radius=15.0 mm fixed40=False width=0.05 clearance=0.08
+00:07:15 plane group kinds: {'adjacent': 100, 'same': 28}
+00:07:15 same-side U candidate groups: 28 (candidate counts: [(64, 28)])
+00:07:16 C4 sequential: 8/128 groups applied=8 routed_routes=32 elapsed=0.1s
+00:07:16 C4 sequential: 16/128 groups applied=16 routed_routes=64 elapsed=0.2s
+00:07:16 C4 sequential: 24/128 groups applied=24 routed_routes=96 elapsed=0.5s
+00:07:18 C4 sequential: 32/128 groups applied=32 routed_routes=128 elapsed=2.3s
+00:07:25 C4 sequential: 40/128 groups applied=39 routed_routes=156 elapsed=9.3s
+00:07:36 C4 sequential: 48/128 groups applied=46 routed_routes=184 elapsed=20.7s
+00:07:45 C4 sequential: 56/128 groups applied=53 routed_routes=212 elapsed=29.6s
+00:07:50 C4 sequential: 64/128 groups applied=61 routed_routes=244 elapsed=34.1s
+00:08:02 C4 sequential: 72/128 groups applied=67 routed_routes=268 elapsed=46.8s
+00:08:10 C4 sequential: 80/128 groups applied=74 routed_routes=296 elapsed=54.2s
+00:08:20 C4 sequential: 88/128 groups applied=81 routed_routes=324 elapsed=64.9s
+00:08:36 C4 sequential: 96/128 groups applied=88 routed_routes=352 elapsed=80.6s
+00:08:58 C4 sequential: 104/128 groups applied=93 routed_routes=372 elapsed=102.1s
+00:09:10 C4 sequential: 112/128 groups applied=100 routed_routes=400 elapsed=114.5s
+00:09:15 C4 sequential: 120/128 groups applied=108 routed_routes=432 elapsed=119.8s
+00:09:55 C4 sequential: 128/128 groups applied=112 routed_routes=448 elapsed=159.9s
+00:09:55 C4 sequential done groups=112/128 routed_routes=448 (159.9s)
+00:10:11   group R&R round 1: recovered group 212 (+1) routed_routes=448
+00:10:32   group R&R round 1: recovered group 173 (+2) routed_routes=440
+00:10:33   group R&R round 1: recovered group 171 (+3) routed_routes=444
+00:10:41   group R&R round 1: recovered group 232 (+4) routed_routes=444
+00:10:56   group R&R round 1: recovered group 142 (+5) routed_routes=440
+00:11:01   group R&R round 1: recovered group 240 (+6) routed_routes=444
+00:11:11   group R&R round 1: recovered group 241 (+7) routed_routes=444
+00:11:19   group R&R round 1: recovered group 185 (+8) routed_routes=444
+00:11:28   group R&R round 1: recovered group 229 (+9) routed_routes=448
+00:11:31   group R&R round 1: recovered group 178 (+10) routed_routes=452
+00:11:41   group R&R round 1: recovered group 186 (+11) routed_routes=456
+00:11:48 C4 group R&R round 1: recovered=11 routed_routes=456 failed_groups=14
+00:12:22 C4 sequential: 8/14 groups applied=1 routed_routes=460 elapsed=34.3s
+00:13:10 C4 retry pass 1: routed_routes=460 failed_groups=13
+00:13:49   group R&R round 1: recovered group 169 (+1) routed_routes=452
+00:13:54   group R&R round 1: recovered group 235 (+2) routed_routes=456
+00:13:58   group R&R round 1: recovered group 147 (+3) routed_routes=460
+00:14:25   group R&R round 1: recovered group 160 (+4) routed_routes=456
+00:14:33   group R&R round 1: recovered group 137 (+5) routed_routes=456
+00:14:48 C4 group R&R round 1: recovered=5 routed_routes=456 failed_groups=14
+00:14:56 [audit2d] MANUAL_C4_2D_z2: routed=456 failed=56 geometry_errors=0 strict_violations=0 -> PASS
+00:14:56 [validate2d] C4 groups: complete=114 partial=0 empty=14 errors=0 -> PASS
+00:14:56 written C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\phase2_2d_screen\z2_same_first routed_routes=456 routed_groups=114 validation=PASS
+[screen] plane=z2 order=same_first routed=456 failed_groups=14 (461.3s)
+00:14:56 MANUAL_C4_2D plane=z2 groups=128 order=adjacent_first budget=2000 rr_rounds=1 retry_passes=1
+00:14:56 radius=15.0 mm fixed40=False width=0.05 clearance=0.08
+00:14:56 plane group kinds: {'adjacent': 100, 'same': 28}
+00:14:57 same-side U candidate groups: 28 (candidate counts: [(64, 28)])
+00:14:58 C4 sequential: 8/128 groups applied=8 routed_routes=32 elapsed=0.9s
+00:15:00 C4 sequential: 16/128 groups applied=16 routed_routes=64 elapsed=3.5s
+00:15:07 C4 sequential: 24/128 groups applied=24 routed_routes=96 elapsed=10.5s
+00:15:15 C4 sequential: 32/128 groups applied=31 routed_routes=124 elapsed=18.4s
+00:15:29 C4 sequential: 40/128 groups applied=39 routed_routes=156 elapsed=32.5s
+00:15:44 C4 sequential: 48/128 groups applied=45 routed_routes=180 elapsed=46.9s
+00:15:53 C4 sequential: 56/128 groups applied=52 routed_routes=208 elapsed=56.1s
+00:16:01 C4 sequential: 64/128 groups applied=59 routed_routes=236 elapsed=64.6s
+00:16:07 C4 sequential: 72/128 groups applied=67 routed_routes=268 elapsed=70.4s
+00:16:21 C4 sequential: 80/128 groups applied=74 routed_routes=296 elapsed=83.9s
+00:16:35 C4 sequential: 88/128 groups applied=81 routed_routes=324 elapsed=98.7s
+00:17:04 C4 sequential: 96/128 groups applied=86 routed_routes=344 elapsed=127.6s
+00:17:32 C4 sequential: 104/128 groups applied=89 routed_routes=356 elapsed=155.4s
+00:17:33 C4 sequential: 112/128 groups applied=95 routed_routes=380 elapsed=156.6s
+00:17:35 C4 sequential: 120/128 groups applied=100 routed_routes=400 elapsed=158.0s
+00:17:36 C4 sequential: 128/128 groups applied=101 routed_routes=404 elapsed=159.3s
+00:17:36 C4 sequential done groups=101/128 routed_routes=404 (159.3s)
+00:17:43   group R&R round 1: recovered group 197 (+1) routed_routes=404
+00:17:46   group R&R round 1: recovered group 195 (+2) routed_routes=408
+00:17:53   group R&R round 1: recovered group 201 (+3) routed_routes=412
+00:18:21   group R&R round 1: recovered group 220 (+4) routed_routes=408
+00:18:45   group R&R round 1: recovered group 205 (+5) routed_routes=408
+00:18:58   group R&R round 1: recovered group 219 (+6) routed_routes=404
+00:19:04   group R&R round 1: recovered group 232 (+7) routed_routes=408
+00:19:17   group R&R round 1: recovered group 185 (+8) routed_routes=408
+00:19:28   group R&R round 1: recovered group 180 (+9) routed_routes=408
+00:20:01   group R&R round 1: recovered group 182 (+10) routed_routes=404
+00:20:03   group R&R round 1: recovered group 132 (+11) routed_routes=408
+00:20:06   group R&R round 1: recovered group 189 (+12) routed_routes=412
+00:20:12   group R&R round 1: recovered group 221 (+13) routed_routes=416
+00:20:12 C4 group R&R round 1: recovered=13 routed_routes=416 failed_groups=24
+00:20:48 C4 sequential: 8/24 groups applied=4 routed_routes=432 elapsed=36.2s
+00:21:41 C4 sequential: 16/24 groups applied=4 routed_routes=432 elapsed=89.7s
+00:21:42 C4 sequential: 24/24 groups applied=4 routed_routes=432 elapsed=90.6s
+00:21:42 C4 retry pass 1: routed_routes=432 failed_groups=20
+00:22:07   group R&R round 1: recovered group 254 (+1) routed_routes=432
+00:22:15   group R&R round 1: recovered group 256 (+2) routed_routes=436
+00:22:55   group R&R round 1: recovered group 218 (+3) routed_routes=440
+00:23:07   group R&R round 1: recovered group 148 (+4) routed_routes=440
+00:23:21   group R&R round 1: recovered group 177 (+5) routed_routes=440
+00:23:31   group R&R round 1: recovered group 176 (+6) routed_routes=440
+00:23:36   group R&R round 1: recovered group 149 (+7) routed_routes=444
+00:23:44   group R&R round 1: recovered group 161 (+8) routed_routes=444
+00:23:44 C4 group R&R round 1: recovered=8 routed_routes=444 failed_groups=17
+00:23:53 [audit2d] MANUAL_C4_2D_z2: routed=444 failed=68 geometry_errors=0 strict_violations=0 -> PASS
+00:23:53 [validate2d] C4 groups: complete=111 partial=0 empty=17 errors=0 -> PASS
+00:23:53 written C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\phase2_2d_screen\z2_adjacent_first routed_routes=444 routed_groups=111 validation=PASS
+[screen] plane=z2 order=adjacent_first routed=444 failed_groups=17 (537.5s)
+[
+ {
+  "plane": "z1",
+  "order": "opposite_first",
+  "budget": 2000,
+  "routed": 452,
+  "failed_groups": 15,
+  "validation_passed": true,
+  "seconds": 51.4
+ },
+ {
+  "plane": "z1",
+  "order": "frame_easy",
+  "budget": 2000,
+  "routed": 468,
+  "failed_groups": 11,
+  "validation_passed": true,
+  "seconds": 45.9
+ },
+ {
+  "plane": "z1",
+  "order": "csv",
+  "budget": 2000,
+  "routed": 480,
+  "failed_groups": 8,
+  "validation_passed": true,
+  "seconds": 45.4
+ },
+ {
+  "plane": "z2",
+  "order": "same_first",
+  "budget": 2000,
+  "routed": 456,
+  "failed_groups": 14,
+  "validation_passed": true,
+  "seconds": 461.3
+ },
+ {
+  "plane": "z2",
+  "order": "adjacent_first",
+  "budget": 2000,
+  "routed": 444,
+  "failed_groups": 17,
+  "validation_passed": true,
+  "seconds": 537.5
+ }
+]

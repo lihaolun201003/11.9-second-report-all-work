@@ -1,0 +1,1595 @@
+{
+ "load_checks": {
+  "passed": true,
+  "total": 22,
+  "failed": []
+ },
+ "stats": {
+  "total": 1024,
+  "relations": {
+   "opposite": 256,
+   "same": 368,
+   "adjacent": 400
+  },
+  "relations_by_plane": {
+   "z1": {
+    "opposite": 256,
+    "same": 256
+   },
+   "z2": {
+    "adjacent": 400,
+    "same": 112
+   }
+  },
+  "same": {
+   "count": 368,
+   "min_sep": 34.25,
+   "max_sep": 134.75,
+   "below_2R": 0,
+   "below_R": 0,
+   "below_clearance": 0,
+   "distinct": {
+    "34.25": 8,
+    "34.75": 8,
+    "35.25": 8,
+    "35.75": 8,
+    "36.0": 8,
+    "36.25": 8,
+    "36.75": 8,
+    "37.25": 8,
+    "37.75": 8,
+    "41.25": 8,
+    "41.75": 8,
+    "42.25": 4,
+    "42.75": 4,
+    "43.25": 4,
+    "43.75": 4,
+    "44.25": 4,
+    "44.75": 4,
+    "45.0": 8,
+    "54.0": 8,
+    "59.25": 8,
+    "59.75": 8,
+    "60.25": 4,
+    "60.75": 4,
+    "61.25": 12,
+    "61.75": 12,
+    "62.25": 12,
+    "62.75": 12,
+    "63.0": 8,
+    "63.25": 8,
+    "63.75": 8,
+    "64.25": 8,
+    "64.75": 8,
+    "77.25": 8,
+    "77.75": 8,
+    "78.25": 4,
+    "78.75": 4,
+    "79.25": 4,
+    "79.75": 4,
+    "80.25": 4,
+    "80.75": 4,
+    "95.25": 4,
+    "113.25": 4,
+    "113.75": 4,
+    "114.25": 8,
+    "114.75": 8,
+    "115.25": 8,
+    "115.75": 8,
+    "116.25": 8,
+    "116.75": 8,
+    "131.75": 4,
+    "132.25": 4,
+    "132.75": 4,
+    "133.25": 4,
+    "133.75": 4,
+    "134.25": 4,
+    "134.75": 4
+   },
+   "side_pairs": {
+    "NN": 92,
+    "WW": 92,
+    "SS": 92,
+    "EE": 92
+   },
+   "same_connector": 0
+  },
+  "adjacent": {
+   "count": 400,
+   "side_pairs": {
+    "EN": 100,
+    "ES": 100,
+    "NW": 100,
+    "SW": 100
+   },
+   "min_corner_distance": 25.625,
+   "max_corner_distance": 144.375,
+   "min_leg": 10.625,
+   "max_leg": 129.375,
+   "neg_leg_count": 0,
+   "distance_pairs": {
+    "125.875000|125.875000": 4,
+    "116.875000|125.625000": 4,
+    "125.625000|116.875000": 4,
+    "107.875000|125.375000": 4,
+    "125.375000|107.875000": 4,
+    "98.875000|125.125000": 4,
+    "125.125000|98.875000": 4,
+    "89.875000|124.875000": 4,
+    "124.875000|89.875000": 4,
+    "80.875000|124.625000": 4,
+    "124.625000|80.875000": 4,
+    "116.625000|116.625000": 4,
+    "107.625000|116.375000": 4,
+    "116.375000|107.625000": 4,
+    "98.625000|116.125000": 4,
+    "116.125000|98.625000": 4,
+    "89.625000|115.875000": 4,
+    "115.875000|89.625000": 4,
+    "80.625000|115.625000": 4,
+    "115.625000|80.625000": 4,
+    "107.375000|107.375000": 4,
+    "98.375000|107.125000": 4,
+    "107.125000|98.375000": 4,
+    "89.375000|106.875000": 4,
+    "106.875000|89.375000": 4,
+    "80.375000|106.625000": 4,
+    "106.625000|80.375000": 4,
+    "98.125000|98.125000": 4,
+    "89.125000|97.875000": 4,
+    "97.875000|89.125000": 4,
+    "80.125000|97.625000": 4,
+    "97.625000|80.125000": 4,
+    "144.375000|144.375000": 4,
+    "135.375000|144.125000": 4,
+    "144.125000|135.375000": 4,
+    "126.375000|143.875000": 4,
+    "143.875000|126.375000": 4,
+    "117.375000|143.625000": 4,
+    "143.625000|117.375000": 4,
+    "108.375000|143.375000": 4,
+    "143.375000|108.375000": 4,
+    "99.375000|143.125000": 4,
+    "143.125000|99.375000": 4,
+    "90.375000|142.875000": 4,
+    "142.875000|90.375000": 4,
+    "81.375000|142.625000": 4,
+    "142.625000|81.375000": 4,
+    "135.125000|135.125000": 4,
+    "126.125000|134.875000": 4,
+    "134.875000|126.125000": 4,
+    "117.125000|134.625000": 4,
+    "134.625000|117.125000": 4,
+    "108.125000|134.375000": 4,
+    "134.375000|108.125000": 4,
+    "99.125000|134.125000": 4,
+    "134.125000|99.125000": 4,
+    "90.125000|133.875000": 4,
+    "133.875000|90.125000": 4,
+    "81.125000|133.625000": 4,
+    "133.625000|81.125000": 4,
+    "88.875000|88.875000": 4,
+    "79.875000|88.625000": 4,
+    "88.625000|79.875000": 4,
+    "79.625000|79.625000": 4,
+    "26.875000|70.625000": 4,
+    "70.625000|26.875000": 4,
+    "26.625000|61.625000": 4,
+    "61.625000|26.625000": 4,
+    "26.375000|52.625000": 4,
+    "52.625000|26.375000": 4,
+    "26.125000|43.625000": 4,
+    "43.625000|26.125000": 4,
+    "25.875000|34.625000": 4,
+    "34.625000|25.875000": 4,
+    "25.625000|25.625000": 4,
+    "35.875000|70.875000": 4,
+    "70.875000|35.875000": 4,
+    "35.625000|61.875000": 4,
+    "61.875000|35.625000": 4,
+    "35.375000|52.875000": 4,
+    "52.875000|35.375000": 4,
+    "35.125000|43.875000": 4,
+    "43.875000|35.125000": 4,
+    "34.875000|34.875000": 4,
+    "44.875000|71.125000": 4,
+    "71.125000|44.875000": 4,
+    "44.625000|62.125000": 4,
+    "62.125000|44.625000": 4,
+    "44.375000|53.125000": 4,
+    "53.125000|44.375000": 4,
+    "44.125000|44.125000": 4,
+    "53.875000|71.375000": 4,
+    "71.375000|53.875000": 4,
+    "53.625000|62.375000": 4,
+    "62.375000|53.625000": 4,
+    "53.375000|53.375000": 4,
+    "62.875000|71.625000": 4,
+    "71.625000|62.875000": 4,
+    "62.625000|62.625000": 4,
+    "71.875000|71.875000": 4
+   }
+  },
+  "opposite": {
+   "count": 256,
+   "shifts": null,
+   "min_shift": 0.0,
+   "max_shift": 61.25,
+   "distinct_shifts": {
+    "0.0": 32,
+    "8.75": 56,
+    "17.5": 48,
+    "26.25": 40,
+    "35.0": 32,
+    "43.75": 24,
+    "52.5": 16,
+    "61.25": 8
+   },
+   "strict90_feasible": 112,
+   "short_s_required": 144
+  }
+ },
+ "summary": {
+  "connections": 1024,
+  "relations": {
+   "opposite": 256,
+   "same": 368,
+   "adjacent": 400
+  },
+  "relations_by_plane": {
+   "z1": {
+    "opposite": 256,
+    "same": 256
+   },
+   "z2": {
+    "adjacent": 400,
+    "same": 112
+   }
+  },
+  "template_feasible": 1024,
+  "template_infeasible": 0,
+  "category": {
+   "same": {
+    "A_template_feasible": 368
+   },
+   "adjacent": {
+    "A_template_feasible": 400
+   },
+   "opposite": {
+    "A_template_feasible": 112,
+    "A_template_feasible_short_s": 144
+   }
+  },
+  "category_all": {
+   "A_template_feasible": 880,
+   "A_template_feasible_short_s": 144
+  },
+  "strict_90": {
+   "opposite_strict90_feasible": 112,
+   "opposite_short_s_required": 144
+  },
+  "margins": {
+   "same_D_minus_2R": {
+    "count": 368,
+    "min": 4.25,
+    "max": 104.75,
+    "p05": 5.25,
+    "median": 32.25
+   },
+   "adjacent_min_leg": {
+    "count": 400,
+    "min": 10.625,
+    "max": 129.375,
+    "p05": 11.125,
+    "median": 66.375
+   },
+   "opposite": {
+    "count": 224,
+    "min": 3.75,
+    "max": 31.25,
+    "p05": 3.75,
+    "median": 12.5
+   }
+  },
+  "same_separation": {
+   "count": 368,
+   "min_mm": 34.25,
+   "max_mm": 134.75,
+   "below_2R": 0,
+   "below_R": 0,
+   "below_2R_plus_1": 0,
+   "below_2R_plus_3": 0,
+   "below_2R_plus_5": 16,
+   "distinct_values": {
+    "34.25": 8,
+    "34.75": 8,
+    "35.25": 8,
+    "35.75": 8,
+    "36.0": 8,
+    "36.25": 8,
+    "36.75": 8,
+    "37.25": 8,
+    "37.75": 8,
+    "41.25": 8,
+    "41.75": 8,
+    "42.25": 4,
+    "42.75": 4,
+    "43.25": 4,
+    "43.75": 4,
+    "44.25": 4,
+    "44.75": 4,
+    "45.0": 8,
+    "54.0": 8,
+    "59.25": 8,
+    "59.75": 8,
+    "60.25": 4,
+    "60.75": 4,
+    "61.25": 12,
+    "61.75": 12,
+    "62.25": 12,
+    "62.75": 12,
+    "63.0": 8,
+    "63.25": 8,
+    "63.75": 8,
+    "64.25": 8,
+    "64.75": 8,
+    "77.25": 8,
+    "77.75": 8,
+    "78.25": 4,
+    "78.75": 4,
+    "79.25": 4,
+    "79.75": 4,
+    "80.25": 4,
+    "80.75": 4,
+    "95.25": 4,
+    "113.25": 4,
+    "113.75": 4,
+    "114.25": 8,
+    "114.75": 8,
+    "115.25": 8,
+    "115.75": 8,
+    "116.25": 8,
+    "116.75": 8,
+    "131.75": 4,
+    "132.25": 4,
+    "132.75": 4,
+    "133.25": 4,
+    "133.75": 4,
+    "134.25": 4,
+    "134.75": 4
+   }
+  },
+  "tightest": {
+   "same": [
+    {
+     "route_id": 72,
+     "plane": "z1",
+     "source": "N03:1:16",
+     "target": "N07:1:9",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 96,
+     "plane": "z1",
+     "source": "N10:1:8",
+     "target": "N14:1:1",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 333,
+     "plane": "z1",
+     "source": "W03:1:16",
+     "target": "W07:1:9",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 334,
+     "plane": "z1",
+     "source": "S14:1:1",
+     "target": "S10:1:8",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 335,
+     "plane": "z1",
+     "source": "E14:1:1",
+     "target": "E10:1:8",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 405,
+     "plane": "z1",
+     "source": "W10:1:8",
+     "target": "W14:1:1",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 406,
+     "plane": "z1",
+     "source": "S07:1:9",
+     "target": "S03:1:16",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 407,
+     "plane": "z1",
+     "source": "E07:1:9",
+     "target": "E03:1:16",
+     "D_mm": 34.25,
+     "margin_mm": 4.25,
+     "intermediate_ports": 56
+    },
+    {
+     "route_id": 71,
+     "plane": "z1",
+     "source": "N07:1:10",
+     "target": "N03:1:15",
+     "D_mm": 34.75,
+     "margin_mm": 4.75,
+     "intermediate_ports": 58
+    },
+    {
+     "route_id": 95,
+     "plane": "z1",
+     "source": "N14:1:2",
+     "target": "N10:1:7",
+     "D_mm": 34.75,
+     "margin_mm": 4.75,
+     "intermediate_ports": 58
+    },
+    {
+     "route_id": 330,
+     "plane": "z1",
+     "source": "W07:1:10",
+     "target": "W03:1:15",
+     "D_mm": 34.75,
+     "margin_mm": 4.75,
+     "intermediate_ports": 58
+    },
+    {
+     "route_id": 331,
+     "plane": "z1",
+     "source": "S10:1:7",
+     "target": "S14:1:2",
+     "D_mm": 34.75,
+     "margin_mm": 4.75,
+     "intermediate_ports": 58
+    }
+   ],
+   "adjacent": [
+    {
+     "route_id": 853,
+     "plane": "z2",
+     "source": "E03:2:9",
+     "target": "S14:2:8",
+     "min_leg_mm": 10.625,
+     "corner": [
+      150.0,
+      0.0
+     ]
+    },
+    {
+     "route_id": 854,
+     "plane": "z2",
+     "source": "E14:2:8",
+     "target": "N14:2:8",
+     "min_leg_mm": 10.625,
+     "corner": [
+      150.0,
+      150.0
+     ]
+    },
+    {
+     "route_id": 855,
+     "plane": "z2",
+     "source": "N03:2:9",
+     "target": "W14:2:8",
+     "min_leg_mm": 10.625,
+     "corner": [
+      0.0,
+      150.0
+     ]
+    },
+    {
+     "route_id": 856,
+     "plane": "z2",
+     "source": "S03:2:9",
+     "target": "W03:2:9",
+     "min_leg_mm": 10.625,
+     "corner": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "route_id": 849,
+     "plane": "z2",
+     "source": "E03:2:10",
+     "target": "S13:2:8",
+     "min_leg_mm": 10.875,
+     "corner": [
+      150.0,
+      0.0
+     ]
+    },
+    {
+     "route_id": 850,
+     "plane": "z2",
+     "source": "E13:2:8",
+     "target": "N14:2:7",
+     "min_leg_mm": 10.875,
+     "corner": [
+      150.0,
+      150.0
+     ]
+    },
+    {
+     "route_id": 851,
+     "plane": "z2",
+     "source": "N04:2:9",
+     "target": "W14:2:7",
+     "min_leg_mm": 10.875,
+     "corner": [
+      0.0,
+      150.0
+     ]
+    },
+    {
+     "route_id": 852,
+     "plane": "z2",
+     "source": "S03:2:10",
+     "target": "W04:2:9",
+     "min_leg_mm": 10.875,
+     "corner": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "route_id": 877,
+     "plane": "z2",
+     "source": "E04:2:9",
+     "target": "S14:2:7",
+     "min_leg_mm": 10.875,
+     "corner": [
+      150.0,
+      0.0
+     ]
+    },
+    {
+     "route_id": 878,
+     "plane": "z2",
+     "source": "E14:2:7",
+     "target": "N13:2:8",
+     "min_leg_mm": 10.875,
+     "corner": [
+      150.0,
+      150.0
+     ]
+    },
+    {
+     "route_id": 879,
+     "plane": "z2",
+     "source": "N03:2:10",
+     "target": "W13:2:8",
+     "min_leg_mm": 10.875,
+     "corner": [
+      0.0,
+      150.0
+     ]
+    },
+    {
+     "route_id": 880,
+     "plane": "z2",
+     "source": "S04:2:9",
+     "target": "W03:2:10",
+     "min_leg_mm": 10.875,
+     "corner": [
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "opposite": [
+    {
+     "route_id": 2,
+     "plane": "z1",
+     "source": "N01:1:2",
+     "target": "S02:1:1",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 10,
+     "plane": "z1",
+     "source": "N16:1:15",
+     "target": "S15:1:16",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 25,
+     "plane": "z1",
+     "source": "N02:1:1",
+     "target": "S01:1:2",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 27,
+     "plane": "z1",
+     "source": "S03:1:2",
+     "target": "N02:1:3",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 34,
+     "plane": "z1",
+     "source": "N03:1:2",
+     "target": "S02:1:3",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 36,
+     "plane": "z1",
+     "source": "N03:1:4",
+     "target": "S04:1:3",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 99,
+     "plane": "z1",
+     "source": "N04:1:3",
+     "target": "S03:1:4",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 101,
+     "plane": "z1",
+     "source": "N04:1:5",
+     "target": "S05:1:4",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 108,
+     "plane": "z1",
+     "source": "S04:1:5",
+     "target": "N05:1:4",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 110,
+     "plane": "z1",
+     "source": "S06:1:5",
+     "target": "N05:1:6",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 117,
+     "plane": "z1",
+     "source": "N06:1:5",
+     "target": "S05:1:6",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    },
+    {
+     "route_id": 119,
+     "plane": "z1",
+     "source": "N06:1:7",
+     "target": "S07:1:6",
+     "delta_mm": 8.75,
+     "regime": "short_s_pair"
+    }
+   ]
+  },
+  "s_lift": {
+   "layer_z": {
+    "1": null,
+    "2": 0.65,
+    "3": 0.8,
+    "4": 0.95,
+    "5": 1.1,
+    "6": 1.25,
+    "7": 1.4,
+    "8": 1.55,
+    "9": 1.7,
+    "10": 1.85,
+    "11": 2.0
+   },
+   "routing_layers": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "port_margin_mm": 1.2,
+   "segment_margin_mm": 0.25,
+   "formula": "footprint(dz) = 2R sin(theta), theta = acos(1 - dz/(2R)); required straight length = margin + footprint",
+   "per_relation": {
+    "same": {
+     "count": 368,
+     "max_dz_min": 30.0,
+     "max_dz_max": 30.0,
+     "max_dz_median": 30.0,
+     "connections_can_reach_all_layers": 368,
+     "connections_limited": 0
+    },
+    "adjacent": {
+     "count": 400,
+     "max_dz_min": 1.437448,
+     "max_dz_max": 30.0,
+     "max_dz_median": 30.0,
+     "connections_can_reach_all_layers": 396,
+     "connections_limited": 4
+    },
+    "opposite": {
+     "count": 256,
+     "max_dz_min": 30.0,
+     "max_dz_max": 30.0,
+     "max_dz_median": 30.0,
+     "connections_can_reach_all_layers": 256,
+     "connections_limited": 0
+    }
+   },
+   "unreachable_by_relation": {
+    "same": {},
+    "adjacent": {
+     "11": 4
+    },
+    "opposite": {}
+   }
+  },
+  "judgement_class_all": {
+   "not_limited": 44,
+   "pure90_template_limited": 144,
+   "conflict_needs_joint_search": 224,
+   "same_u_family_capacity_limited": 368,
+   "rigid_template_conflict": 240,
+   "lift_limited": 4
+  },
+  "judgement_class_by_relation": {
+   "opposite": {
+    "not_limited": 28,
+    "pure90_template_limited": 144,
+    "conflict_needs_joint_search": 84
+   },
+   "same": {
+    "same_u_family_capacity_limited": 368
+   },
+   "adjacent": {
+    "rigid_template_conflict": 240,
+    "not_limited": 16,
+    "conflict_needs_joint_search": 140,
+    "lift_limited": 4
+   }
+  },
+  "collision_summary": {
+   "z1": {
+    "routes": 512,
+    "spacing_conflict_partner_min": 0,
+    "spacing_conflict_partner_max": 17,
+    "spacing_conflict_partner_median": 5,
+    "spacing_conflict_partner_mean": 5.0,
+    "spacing_conflict_routes": 411,
+    "crossing_partner_median": 208
+   },
+   "z2": {
+    "routes": 512,
+    "spacing_conflict_partner_min": 0,
+    "spacing_conflict_partner_max": 31,
+    "spacing_conflict_partner_median": 3,
+    "spacing_conflict_partner_mean": 7.418,
+    "spacing_conflict_routes": 496,
+    "crossing_partner_median": 277
+   }
+  },
+  "collision_method": {
+   "sample_step_mm": 0.1,
+   "query_radius_mm": 0.11,
+   "min_cross_angle_deg": 5.0,
+   "note": "canonical representative templates only; proxy for route conflicts"
+  },
+  "judgement_definitions": {
+   "radius_limited_2d": "no template of the frozen family reaches R=15 (proven by the per-connection inequality)",
+   "pure90_template_limited": "pure two-90deg-turn template cannot generate the connection; the frozen two-arc short-S pair can",
+   "rigid_template_conflict": "the unique single-arc L of this adjacent pair comes closer than 0.08 mm to another unique single-arc L; both cannot share one layer -> alternative template or 3D layer needed",
+   "same_u_family_capacity_limited": "the frozen U family has only 4 middle-straight depth tracks and this side has more overlapping U intervals than tracks -> pigeonhole proves unavoidable coincidence; ordering/layer change needed",
+   "conflict_needs_joint_search": "template exists with free parameters but the representative geometry conflicts; joint routing search needed (not single-connection geometry)",
+   "lift_limited": "2D template exists but no straight is long enough for the vertical S-lift to some routing layer",
+   "not_limited": "template exists and representative geometry is clean"
+  },
+  "structural_categories": {
+   "radius_limited_2d": 0,
+   "template_family_limited": 144,
+   "rigid_template_conflict": 240,
+   "same_u_family_capacity_limited": 368,
+   "conflict_needs_joint_search": 224,
+   "lift_limited": 4,
+   "not_limited": 44
+  }
+ },
+ "same_u_family_capacity": {
+  "z1_E": {
+   "u_count": 64,
+   "max_coverage": 32,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  },
+  "z1_N": {
+   "u_count": 64,
+   "max_coverage": 32,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  },
+  "z1_S": {
+   "u_count": 64,
+   "max_coverage": 32,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  },
+  "z1_W": {
+   "u_count": 64,
+   "max_coverage": 32,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  },
+  "z2_E": {
+   "u_count": 28,
+   "max_coverage": 20,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  },
+  "z2_N": {
+   "u_count": 28,
+   "max_coverage": 20,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  },
+  "z2_S": {
+   "u_count": 28,
+   "max_coverage": 20,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  },
+  "z2_W": {
+   "u_count": 28,
+   "max_coverage": 20,
+   "at_x": 69.375,
+   "pigeonhole": true,
+   "tracks": 4
+  }
+ },
+ "adjacent_rigid": {
+  "method": "all 400 unique single-arc L centrelines sampled at 0.05 mm; point pairs closer than 0.08 mm whose tangent angle is < 5.0 deg (parallel) are counted; a pair with >= 1 mm of such parallel coincidence is reported as a substantial rigid-template conflict (crossings are permitted and not counted)",
+  "adjacent_routes": 400,
+  "substantial_conflict_pairs": 212,
+  "routes_with_rigid_conflict": 240,
+  "routes_with_severe_conflict": 240,
+  "min_pair_distance_mm": 8.3e-05,
+  "max_overlap_mm": 111.5,
+  "sample_pairs": [
+   {
+    "a": 609,
+    "b": 611,
+    "overlap_mm": 111.5,
+    "min_distance_mm": 0.020748
+   },
+   {
+    "a": 609,
+    "b": 610,
+    "overlap_mm": 111.5,
+    "min_distance_mm": 0.020748
+   },
+   {
+    "a": 610,
+    "b": 612,
+    "overlap_mm": 111.5,
+    "min_distance_mm": 0.020748
+   },
+   {
+    "a": 611,
+    "b": 612,
+    "overlap_mm": 111.5,
+    "min_distance_mm": 0.020748
+   },
+   {
+    "a": 613,
+    "b": 643,
+    "overlap_mm": 111.0,
+    "min_distance_mm": 0.020693
+   },
+   {
+    "a": 614,
+    "b": 641,
+    "overlap_mm": 111.0,
+    "min_distance_mm": 0.020693
+   },
+   {
+    "a": 615,
+    "b": 644,
+    "overlap_mm": 111.0,
+    "min_distance_mm": 0.020693
+   },
+   {
+    "a": 616,
+    "b": 642,
+    "overlap_mm": 111.0,
+    "min_distance_mm": 0.020693
+   },
+   {
+    "a": 617,
+    "b": 675,
+    "overlap_mm": 110.5,
+    "min_distance_mm": 0.020637
+   },
+   {
+    "a": 618,
+    "b": 673,
+    "overlap_mm": 110.5,
+    "min_distance_mm": 0.020637
+   },
+   {
+    "a": 619,
+    "b": 676,
+    "overlap_mm": 110.5,
+    "min_distance_mm": 0.020637
+   },
+   {
+    "a": 620,
+    "b": 674,
+    "overlap_mm": 110.5,
+    "min_distance_mm": 0.020637
+   }
+  ]
+ },
+ "opposite_forced": {
+  "forced_pairs": 0,
+  "examples": [],
+  "note": "delta=0 straight routes are rigid; a route whose port sits on the same slot is blocked. Non-zero delta transfers slide freely along the 150 mm corridor (free s1), so no rigid pair conflict is forced by single-connection geometry."
+ },
+ "phase2": {
+  "total_routed": 944,
+  "total_failed": 80,
+  "failed_by_relation": {
+   "same": 64,
+   "adjacent": 16
+  },
+  "failed_by_class": {
+   "same_u_family_capacity_limited": 64,
+   "rigid_template_conflict": 12,
+   "lift_limited": 4
+  },
+  "note": "phase-2 routing is the Lead pipeline output; it is quoted here only as an independent confirmation, never modified"
+ },
+ "phase2_planes": {
+  "z1": {
+   "routed": 476,
+   "failed": 36,
+   "total": 512,
+   "routed_groups": 119,
+   "failed_groups": 9,
+   "failed_group_kinds": {
+    "same": 9
+   },
+   "failures_by_relation": {
+    "same": 36
+   },
+   "failures_by_class": {
+    "same_u_family_capacity_limited": 36
+   }
+  },
+  "z2": {
+   "routed": 468,
+   "failed": 44,
+   "total": 512,
+   "routed_groups": 117,
+   "failed_groups": 11,
+   "failed_group_kinds": {
+    "adjacent": 4,
+    "same": 7
+   },
+   "failures_by_relation": {
+    "adjacent": 16,
+    "same": 28
+   },
+   "failures_by_class": {
+    "rigid_template_conflict": 12,
+    "same_u_family_capacity_limited": 28,
+    "lift_limited": 4
+   }
+  }
+ },
+ "corner_global": {
+  "corner_connectors": 16,
+  "corner_connections": 396,
+  "connections_by_relation": {
+   "opposite": 112,
+   "same": 172,
+   "adjacent": 112
+  },
+  "connections_by_plane": {
+   "z1": 208,
+   "z2": 188
+  },
+  "judgement_class": {
+   "not_limited": 4,
+   "pure90_template_limited": 48,
+   "conflict_needs_joint_search": 60,
+   "same_u_family_capacity_limited": 172,
+   "rigid_template_conflict": 112
+  },
+  "judgement_by_relation": {
+   "opposite": {
+    "not_limited": 4,
+    "pure90_template_limited": 48,
+    "conflict_needs_joint_search": 60
+   },
+   "same": {
+    "same_u_family_capacity_limited": 172
+   },
+   "adjacent": {
+    "rigid_template_conflict": 112
+   }
+  },
+  "strict90": {
+   "ok": 348,
+   "short_s_required": 48
+  },
+  "s_lift_limited": 0,
+  "radius_limited": 0,
+  "spacing_conflict_flagged": 377,
+  "max_spacing_conflict_partners": 31,
+  "connections_per_corner": {
+   "NE": 128,
+   "SE": 128,
+   "SW": 128,
+   "NW": 128
+  },
+  "structural_evidence": {
+   "radius_limited": 0,
+   "pure90_template_limited": 48,
+   "rigid_template_conflict": 112,
+   "same_u_family_capacity_limited": 172,
+   "conflict_needs_joint_search": 60,
+   "lift_limited": 0,
+   "not_limited": 4
+  },
+  "incidence_counts": {
+   "corner_connection_incidences": 512,
+   "connections_by_relation": {
+    "opposite": 128,
+    "same": 256,
+    "adjacent": 128
+   },
+   "note": "a connection between two corner connectors of different corners is listed once per corner; unique counts are above"
+  }
+ },
+ "corner_per_corner": {
+  "NE": {
+   "connectors": [
+    "E15",
+    "E16",
+    "N15",
+    "N16"
+   ],
+   "connector_min_dist": [
+    5.625,
+    14.625,
+    5.625,
+    14.625
+   ],
+   "connections": 128,
+   "relation_counts": {
+    "opposite": 32,
+    "same": 64,
+    "adjacent": 32
+   },
+   "judgement_counts": {
+    "not_limited": 2,
+    "pure90_template_limited": 14,
+    "conflict_needs_joint_search": 16,
+    "same_u_family_capacity_limited": 64,
+    "rigid_template_conflict": 32
+   },
+   "min_margins": {
+    "same": 15.0,
+    "adjacent": 66.125,
+    "opposite": 3.75
+   },
+   "phase2_failed": 22,
+   "max_spacing": 30
+  },
+  "SE": {
+   "connectors": [
+    "E01",
+    "E02",
+    "S15",
+    "S16"
+   ],
+   "connector_min_dist": [
+    5.625,
+    14.625,
+    5.625,
+    14.625
+   ],
+   "connections": 128,
+   "relation_counts": {
+    "opposite": 32,
+    "same": 64,
+    "adjacent": 32
+   },
+   "judgement_counts": {
+    "not_limited": 2,
+    "pure90_template_limited": 14,
+    "conflict_needs_joint_search": 16,
+    "same_u_family_capacity_limited": 64,
+    "rigid_template_conflict": 32
+   },
+   "min_margins": {
+    "same": 15.0,
+    "adjacent": 66.125,
+    "opposite": 3.75
+   },
+   "phase2_failed": 22,
+   "max_spacing": 30
+  },
+  "SW": {
+   "connectors": [
+    "S01",
+    "S02",
+    "W01",
+    "W02"
+   ],
+   "connector_min_dist": [
+    5.625,
+    14.625,
+    5.625,
+    14.625
+   ],
+   "connections": 128,
+   "relation_counts": {
+    "opposite": 32,
+    "same": 64,
+    "adjacent": 32
+   },
+   "judgement_counts": {
+    "not_limited": 2,
+    "pure90_template_limited": 14,
+    "conflict_needs_joint_search": 16,
+    "same_u_family_capacity_limited": 64,
+    "rigid_template_conflict": 32
+   },
+   "min_margins": {
+    "same": 15.0,
+    "adjacent": 66.125,
+    "opposite": 3.75
+   },
+   "phase2_failed": 22,
+   "max_spacing": 31
+  },
+  "NW": {
+   "connectors": [
+    "N01",
+    "N02",
+    "W15",
+    "W16"
+   ],
+   "connector_min_dist": [
+    5.625,
+    14.625,
+    5.625,
+    14.625
+   ],
+   "connections": 128,
+   "relation_counts": {
+    "opposite": 32,
+    "same": 64,
+    "adjacent": 32
+   },
+   "judgement_counts": {
+    "not_limited": 2,
+    "pure90_template_limited": 14,
+    "conflict_needs_joint_search": 16,
+    "same_u_family_capacity_limited": 64,
+    "rigid_template_conflict": 32
+   },
+   "min_margins": {
+    "same": 15.0,
+    "adjacent": 66.125,
+    "opposite": 3.75
+   },
+   "phase2_failed": 22,
+   "max_spacing": 31
+  }
+ },
+ "examples": {
+  "same_tightest": [
+   {
+    "route_id": 72,
+    "plane": "z1",
+    "src": "N03:1:16",
+    "dst": "N07:1:9",
+    "D": 34.25,
+    "m": 4.25,
+    "blockers": 23
+   },
+   {
+    "route_id": 96,
+    "plane": "z1",
+    "src": "N10:1:8",
+    "dst": "N14:1:1",
+    "D": 34.25,
+    "m": 4.25,
+    "blockers": 23
+   },
+   {
+    "route_id": 333,
+    "plane": "z1",
+    "src": "W03:1:16",
+    "dst": "W07:1:9",
+    "D": 34.25,
+    "m": 4.25,
+    "blockers": 23
+   },
+   {
+    "route_id": 334,
+    "plane": "z1",
+    "src": "S14:1:1",
+    "dst": "S10:1:8",
+    "D": 34.25,
+    "m": 4.25,
+    "blockers": 23
+   },
+   {
+    "route_id": 335,
+    "plane": "z1",
+    "src": "E14:1:1",
+    "dst": "E10:1:8",
+    "D": 34.25,
+    "m": 4.25,
+    "blockers": 23
+   },
+   {
+    "route_id": 405,
+    "plane": "z1",
+    "src": "W10:1:8",
+    "dst": "W14:1:1",
+    "D": 34.25,
+    "m": 4.25,
+    "blockers": 23
+   }
+  ],
+  "same_loosest": [
+   {
+    "route_id": 978,
+    "plane": "z2",
+    "D": 134.75
+   },
+   {
+    "route_id": 979,
+    "plane": "z2",
+    "D": 134.75
+   },
+   {
+    "route_id": 980,
+    "plane": "z2",
+    "D": 134.75
+   }
+  ],
+  "adjacent_tightest": [
+   {
+    "route_id": 853,
+    "plane": "z2",
+    "src": "E03:2:9",
+    "dst": "S14:2:8",
+    "a": 25.625,
+    "b": 25.625,
+    "leg_min": 10.625
+   },
+   {
+    "route_id": 854,
+    "plane": "z2",
+    "src": "E14:2:8",
+    "dst": "N14:2:8",
+    "a": 25.625,
+    "b": 25.625,
+    "leg_min": 10.625
+   },
+   {
+    "route_id": 855,
+    "plane": "z2",
+    "src": "N03:2:9",
+    "dst": "W14:2:8",
+    "a": 25.625,
+    "b": 25.625,
+    "leg_min": 10.625
+   },
+   {
+    "route_id": 856,
+    "plane": "z2",
+    "src": "S03:2:9",
+    "dst": "W03:2:9",
+    "a": 25.625,
+    "b": 25.625,
+    "leg_min": 10.625
+   },
+   {
+    "route_id": 849,
+    "plane": "z2",
+    "src": "E03:2:10",
+    "dst": "S13:2:8",
+    "a": 25.875,
+    "b": 34.625,
+    "leg_min": 10.875
+   },
+   {
+    "route_id": 850,
+    "plane": "z2",
+    "src": "E13:2:8",
+    "dst": "N14:2:7",
+    "a": 34.625,
+    "b": 25.875,
+    "leg_min": 10.875
+   }
+  ],
+  "opposite_short_s": [
+   {
+    "route_id": 2,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 10,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 25,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 27,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 34,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 36,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 99,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 101,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 108,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 110,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 117,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   },
+   {
+    "route_id": 119,
+    "delta": 8.75,
+    "theta": 44.90052796068898,
+    "advance": 21.176342932621772,
+    "margin": 21.25
+   }
+  ]
+ },
+ "opposite_regimes": {
+  "straight": 32,
+  "short_s_pair": 144,
+  "quarter_arc_pair": 80
+ },
+ "opposite_short_s_margins": [
+  3.75,
+  12.5,
+  21.25
+ ],
+ "s_lift": {
+  "layer_z": {
+   "1": null,
+   "2": 0.65,
+   "3": 0.8,
+   "4": 0.95,
+   "5": 1.1,
+   "6": 1.25,
+   "7": 1.4,
+   "8": 1.55,
+   "9": 1.7,
+   "10": 1.85,
+   "11": 2.0
+  },
+  "routing_layers": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "port_margin_mm": 1.2,
+  "segment_margin_mm": 0.25,
+  "formula": "footprint(dz) = 2R sin(theta), theta = acos(1 - dz/(2R)); required straight length = margin + footprint",
+  "per_relation": {
+   "same": {
+    "count": 368,
+    "max_dz_min": 30.0,
+    "max_dz_max": 30.0,
+    "max_dz_median": 30.0,
+    "connections_can_reach_all_layers": 368,
+    "connections_limited": 0
+   },
+   "adjacent": {
+    "count": 400,
+    "max_dz_min": 1.437448,
+    "max_dz_max": 30.0,
+    "max_dz_median": 30.0,
+    "connections_can_reach_all_layers": 396,
+    "connections_limited": 4
+   },
+   "opposite": {
+    "count": 256,
+    "max_dz_min": 30.0,
+    "max_dz_max": 30.0,
+    "max_dz_median": 30.0,
+    "connections_can_reach_all_layers": 256,
+    "connections_limited": 0
+   }
+  },
+  "unreachable_by_relation": {
+   "same": {},
+   "adjacent": {
+    "11": 4
+   },
+   "opposite": {}
+  }
+ },
+ "s_lift_footprints": [
+  {
+   "dz": 0.15,
+   "footprint": 2.9962
+  },
+  {
+   "dz": 0.3,
+   "footprint": 4.232
+  },
+  {
+   "dz": 0.5,
+   "footprint": 5.4544
+  },
+  {
+   "dz": 0.65,
+   "footprint": 6.2111
+  },
+  {
+   "dz": 0.8,
+   "footprint": 6.8819
+  },
+  {
+   "dz": 1.0,
+   "footprint": 7.6811
+  },
+  {
+   "dz": 1.35,
+   "footprint": 8.8982
+  },
+  {
+   "dz": 1.5,
+   "footprint": 9.3675
+  },
+  {
+   "dz": 2.0,
+   "footprint": 10.7703
+  }
+ ],
+ "historical_old_campaign": {
+  "z1": {
+   "rows": 512,
+   "relations": {
+    "opposite": 264,
+    "same": 64,
+    "adjacent": 184
+   },
+   "adjacent_leg_min": 0.125,
+   "adjacent_legs_below_1mm": 16,
+   "adjacent_legs_below_R": 120,
+   "same_min_sep": 41.25,
+   "same_below_2R": 0
+  },
+  "z2": {
+   "rows": 512,
+   "relations": {
+    "adjacent": 312,
+    "same": 192,
+    "opposite": 8
+   },
+   "adjacent_leg_min": 0.125,
+   "adjacent_legs_below_1mm": 16,
+   "adjacent_legs_below_R": 120,
+   "same_min_sep": 32.25,
+   "same_below_2R": 0
+  }
+ }
+}

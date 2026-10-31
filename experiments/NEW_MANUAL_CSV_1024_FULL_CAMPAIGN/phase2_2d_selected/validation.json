@@ -1,0 +1,251 @@
+{
+ "schema": "manual_c4_2d_integrated_validation_v1",
+ "stage": "phase2_2d",
+ "passed": true,
+ "routed": 992,
+ "failed": 32,
+ "routed_by_plane": {
+  "z1": 512,
+  "z2": 480
+ },
+ "routed_by_relation": {
+  "opposite": 256,
+  "same": 352,
+  "adjacent": 384
+ },
+ "planes": {
+  "z1": {
+   "manifest": {
+    "schema": "manual_c4_2d_validation_v1",
+    "plane": "z1",
+    "label": "MANUAL_C4_2D_REPAIR_z1",
+    "csv_sha256": "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+    "radius_mm": 15.0,
+    "board_mm": 150.0,
+    "clearance_mm": 0.08,
+    "width_mm": 0.05,
+    "strict_policy": "fslw.validate_fslw strict",
+    "routed": 512,
+    "failed": 0,
+    "total": 512,
+    "geometry_errors": [],
+    "geometry_error_count": 0,
+    "pair_parse_errors": [],
+    "pair_audit": {
+     "policy": "strict",
+     "candidate_pair_count": 62396,
+     "crossing_count": 70944,
+     "crossing_pair_count": 53500,
+     "min_non_crossing_centerline_mm": 0.10865739284964084,
+     "violations": [],
+     "violation_count": 0
+    },
+    "total_length_mm": 76156.3028,
+    "mean_length_mm": 148.7428,
+    "failed_routes": [],
+    "passed": true,
+    "errors": []
+   },
+   "passed": true
+  },
+  "z2": {
+   "manifest": {
+    "schema": "manual_c4_2d_validation_v1",
+    "plane": "z2",
+    "label": "MANUAL_C4_2D_REPAIR_z2",
+    "csv_sha256": "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+    "radius_mm": 15.0,
+    "board_mm": 150.0,
+    "clearance_mm": 0.08,
+    "width_mm": 0.05,
+    "strict_policy": "fslw.validate_fslw strict",
+    "routed": 480,
+    "failed": 32,
+    "total": 512,
+    "geometry_errors": [],
+    "geometry_error_count": 0,
+    "pair_parse_errors": [],
+    "pair_audit": {
+     "policy": "strict",
+     "candidate_pair_count": 82908,
+     "crossing_count": 85848,
+     "crossing_pair_count": 63248,
+     "min_non_crossing_centerline_mm": 0.0815681628093543,
+     "violations": [],
+     "violation_count": 0
+    },
+    "total_length_mm": 83243.7188,
+    "mean_length_mm": 173.4244,
+    "failed_routes": [
+     {
+      "route_id": 613,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 614,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 615,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 616,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 621,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 622,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 623,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 624,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 629,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 630,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 631,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 632,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 853,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 854,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 855,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 856,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 981,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 982,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 983,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 984,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 993,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 994,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 995,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 996,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 997,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 998,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 999,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 1000,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 1013,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 1014,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 1015,
+      "reason": "not_attempted"
+     },
+     {
+      "route_id": 1016,
+      "reason": "not_attempted"
+     }
+    ],
+    "passed": true,
+    "errors": []
+   },
+   "passed": true
+  }
+ },
+ "coverage": {
+  "schema": "manual_c4_coverage_validation_v1",
+  "records": 1024,
+  "routed": 992,
+  "unique_ports": 2048,
+  "port_set_match": true,
+  "ports_used_once": true,
+  "errors": [],
+  "passed": true
+ },
+ "identity": {
+  "schema": "manual_c4_identity_validation_v1",
+  "records": 1024,
+  "connections": 1024,
+  "errors": [],
+  "error_count": 0,
+  "passed": true
+ },
+ "geometry_uniqueness": {
+  "schema": "manual_c4_geometry_uniqueness_v1",
+  "routed": 992,
+  "errors": [],
+  "error_count": 0,
+  "passed": true
+ },
+ "c4_symmetry": {
+  "complete_groups": 248,
+  "partial_groups": 0,
+  "empty_groups": 8,
+  "errors": [],
+  "error_count": 0,
+  "passed": true,
+  "schema": "manual_c4_c4_symmetry_validation_v1"
+ },
+ "errors": [],
+ "strict_policy": "fslw.validate_fslw strict"
+}

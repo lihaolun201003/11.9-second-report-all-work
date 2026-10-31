@@ -1,0 +1,80 @@
+{
+ "chosen": {
+  "z1": {
+   "routed": 512,
+   "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_repaired\\z1",
+   "failed": 0
+  },
+  "z2": {
+   "routed": 480,
+   "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_repaired\\z2",
+   "failed": 32
+  }
+ },
+ "ranking": {
+  "z1": [
+   {
+    "routed": 512,
+    "failed": 0,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_repaired\\z1"
+   },
+   {
+    "routed": 488,
+    "failed": 24,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_order_same_first\\z1"
+   },
+   {
+    "routed": 480,
+    "failed": 32,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_screen\\z1_csv"
+   },
+   {
+    "routed": 476,
+    "failed": 36,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d\\z1"
+   },
+   {
+    "routed": 468,
+    "failed": 44,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_screen\\z1_frame_easy"
+   },
+   {
+    "routed": 452,
+    "failed": 60,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_screen\\z1_opposite_first"
+   }
+  ],
+  "z2": [
+   {
+    "routed": 480,
+    "failed": 32,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_repaired\\z2"
+   },
+   {
+    "routed": 468,
+    "failed": 44,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d\\z2"
+   },
+   {
+    "routed": 444,
+    "failed": 68,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_screen\\z2_adjacent_first"
+   },
+   {
+    "routed": 456,
+    "failed": 56,
+    "validation_passed": true,
+    "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_screen\\z2_same_first"
+   }
+  ]
+ }
+}

@@ -1,0 +1,8098 @@
+{
+ "schema": "new_manual_csv_input_audit_combined_1024_v1",
+ "title": "Merged 1024-connection topology audit (Z1 512 + Z2 C4-expanded 512)",
+ "numbering_rule": {
+  "z1": "route_id 1..512 exactly as in the Z1 CSV",
+  "z2": "expanded z2 route_id 1..512 (base route_id ascending, C4 phase 0/90/180/270) + 512 -> 513..1024"
+ },
+ "inputs": {
+  "z1": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\manual_z1_c4_full_section2.csv",
+   "sha256": "9d5e0b5e15c4b2774130403c94cc56f91b79584496676cbffb7ee81acf54cfbd",
+   "rows": 512
+  },
+  "z2_expanded": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\z2_expanded_512.csv",
+   "sha256": "90a06c31fd1c300d58c4d12e997059e30cfef090edcae5ce8deefb424d8b9c08",
+   "rows": 512
+  }
+ },
+ "totals": {
+  "connections": 1024,
+  "endpoints": 2048,
+  "endpoints_used_once": true,
+  "connectors": 64,
+  "holes_per_connector": 32,
+  "planes": {
+   "z1": 512,
+   "z2": 512
+  },
+  "relation_by_plane": {
+   "z1": {
+    "opposite": 256,
+    "same": 256
+   },
+   "z2": {
+    "adjacent": 400,
+    "same": 112
+   }
+  },
+  "relation_total": {
+   "adjacent": 400,
+   "opposite": 256,
+   "same": 368
+  },
+  "pair_by_plane": {
+   "z1": {
+    "EE": 64,
+    "EW": 128,
+    "NN": 64,
+    "NS": 128,
+    "SS": 64,
+    "WW": 64
+   },
+   "z2": {
+    "EE": 28,
+    "EN": 100,
+    "ES": 100,
+    "NN": 28,
+    "NW": 100,
+    "SS": 28,
+    "SW": 100,
+    "WW": 28
+   }
+  },
+  "pair_total": {
+   "EE": 92,
+   "EN": 100,
+   "ES": 100,
+   "EW": 128,
+   "NN": 92,
+   "NS": 128,
+   "NW": 100,
+   "SS": 92,
+   "SW": 100,
+   "WW": 92
+  },
+  "side_endpoints": {
+   "E": 512,
+   "N": 512,
+   "S": 512,
+   "W": 512
+  },
+  "cross_edge_endpoints": 1312,
+  "u_endpoints": 736
+ },
+ "per_connector": {
+  "N01": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N02": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N03": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N04": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N05": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N06": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N07": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N08": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N09": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N10": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N11": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N12": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N13": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N14": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N15": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "N16": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S01": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S02": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S03": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S04": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S05": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S06": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S07": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S08": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S09": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S10": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S11": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S12": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S13": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S14": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S15": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "S16": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E01": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E02": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E03": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E04": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E05": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E06": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E07": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E08": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E09": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E10": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E11": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E12": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E13": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E14": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E15": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "E16": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W01": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W02": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W03": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W04": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W05": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W06": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W07": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W08": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W09": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W10": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W11": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W12": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W13": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W14": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W15": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  },
+  "W16": {
+   "ports": 32,
+   "used_once": 32,
+   "z1_ports": 16,
+   "z2_ports": 16,
+   "complete": true
+  }
+ },
+ "c4_groups": {
+  "count": 256,
+  "per_plane": {
+   "z1": 128,
+   "z2": 128
+  },
+  "kinds": {
+   "adjacent": 100,
+   "opposite": 64,
+   "same": 92
+  },
+  "closure": {
+   "90deg": 0,
+   "180deg": 0,
+   "270deg": 0
+  },
+  "orbit_size_histogram": {
+   "4": 256
+  },
+  "groups": [
+   {
+    "group_id": 1,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     1,
+     137,
+     9,
+     138
+    ]
+   },
+   {
+    "group_id": 2,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     2,
+     139,
+     140,
+     141
+    ]
+   },
+   {
+    "group_id": 3,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     3,
+     142,
+     143,
+     144
+    ]
+   },
+   {
+    "group_id": 4,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     4,
+     145,
+     146,
+     147
+    ]
+   },
+   {
+    "group_id": 5,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     5,
+     148,
+     149,
+     150
+    ]
+   },
+   {
+    "group_id": 6,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     6,
+     151,
+     152,
+     153
+    ]
+   },
+   {
+    "group_id": 7,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     7,
+     154,
+     155,
+     156
+    ]
+   },
+   {
+    "group_id": 8,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     8,
+     157,
+     158,
+     159
+    ]
+   },
+   {
+    "group_id": 9,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     10,
+     160,
+     25,
+     161
+    ]
+   },
+   {
+    "group_id": 10,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     11,
+     162,
+     33,
+     163
+    ]
+   },
+   {
+    "group_id": 11,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     12,
+     164,
+     97,
+     165
+    ]
+   },
+   {
+    "group_id": 12,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     13,
+     166,
+     105,
+     167
+    ]
+   },
+   {
+    "group_id": 13,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     14,
+     168,
+     113,
+     169
+    ]
+   },
+   {
+    "group_id": 14,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     15,
+     170,
+     121,
+     171
+    ]
+   },
+   {
+    "group_id": 15,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     16,
+     172,
+     129,
+     173
+    ]
+   },
+   {
+    "group_id": 16,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     17,
+     174,
+     175,
+     176
+    ]
+   },
+   {
+    "group_id": 17,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     18,
+     177,
+     178,
+     179
+    ]
+   },
+   {
+    "group_id": 18,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     19,
+     180,
+     181,
+     182
+    ]
+   },
+   {
+    "group_id": 19,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     20,
+     183,
+     184,
+     185
+    ]
+   },
+   {
+    "group_id": 20,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     21,
+     186,
+     187,
+     188
+    ]
+   },
+   {
+    "group_id": 21,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     22,
+     189,
+     190,
+     191
+    ]
+   },
+   {
+    "group_id": 22,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     23,
+     192,
+     193,
+     194
+    ]
+   },
+   {
+    "group_id": 23,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     24,
+     195,
+     196,
+     197
+    ]
+   },
+   {
+    "group_id": 24,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     26,
+     198,
+     199,
+     200
+    ]
+   },
+   {
+    "group_id": 25,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     27,
+     201,
+     202,
+     203
+    ]
+   },
+   {
+    "group_id": 26,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     28,
+     204,
+     205,
+     206
+    ]
+   },
+   {
+    "group_id": 27,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     29,
+     207,
+     208,
+     209
+    ]
+   },
+   {
+    "group_id": 28,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     30,
+     210,
+     211,
+     212
+    ]
+   },
+   {
+    "group_id": 29,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     31,
+     213,
+     214,
+     215
+    ]
+   },
+   {
+    "group_id": 30,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     32,
+     216,
+     217,
+     218
+    ]
+   },
+   {
+    "group_id": 31,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     34,
+     219,
+     220,
+     221
+    ]
+   },
+   {
+    "group_id": 32,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     35,
+     222,
+     223,
+     224
+    ]
+   },
+   {
+    "group_id": 33,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     36,
+     225,
+     226,
+     227
+    ]
+   },
+   {
+    "group_id": 34,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     37,
+     228,
+     229,
+     230
+    ]
+   },
+   {
+    "group_id": 35,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     38,
+     231,
+     232,
+     233
+    ]
+   },
+   {
+    "group_id": 36,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     39,
+     234,
+     235,
+     236
+    ]
+   },
+   {
+    "group_id": 37,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     40,
+     237,
+     238,
+     239
+    ]
+   },
+   {
+    "group_id": 38,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     41,
+     240,
+     241,
+     242
+    ]
+   },
+   {
+    "group_id": 39,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     42,
+     243,
+     244,
+     245
+    ]
+   },
+   {
+    "group_id": 40,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     43,
+     246,
+     247,
+     248
+    ]
+   },
+   {
+    "group_id": 41,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     44,
+     249,
+     250,
+     251
+    ]
+   },
+   {
+    "group_id": 42,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     45,
+     252,
+     253,
+     254
+    ]
+   },
+   {
+    "group_id": 43,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     46,
+     255,
+     256,
+     257
+    ]
+   },
+   {
+    "group_id": 44,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     47,
+     258,
+     259,
+     260
+    ]
+   },
+   {
+    "group_id": 45,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     48,
+     261,
+     262,
+     263
+    ]
+   },
+   {
+    "group_id": 46,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     49,
+     264,
+     265,
+     266
+    ]
+   },
+   {
+    "group_id": 47,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     50,
+     267,
+     268,
+     269
+    ]
+   },
+   {
+    "group_id": 48,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     51,
+     270,
+     271,
+     272
+    ]
+   },
+   {
+    "group_id": 49,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     52,
+     273,
+     274,
+     275
+    ]
+   },
+   {
+    "group_id": 50,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     53,
+     276,
+     277,
+     278
+    ]
+   },
+   {
+    "group_id": 51,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     54,
+     279,
+     280,
+     281
+    ]
+   },
+   {
+    "group_id": 52,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     55,
+     282,
+     283,
+     284
+    ]
+   },
+   {
+    "group_id": 53,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     56,
+     285,
+     286,
+     287
+    ]
+   },
+   {
+    "group_id": 54,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     57,
+     288,
+     289,
+     290
+    ]
+   },
+   {
+    "group_id": 55,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     58,
+     291,
+     292,
+     293
+    ]
+   },
+   {
+    "group_id": 56,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     59,
+     294,
+     295,
+     296
+    ]
+   },
+   {
+    "group_id": 57,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     60,
+     297,
+     298,
+     299
+    ]
+   },
+   {
+    "group_id": 58,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     61,
+     300,
+     301,
+     302
+    ]
+   },
+   {
+    "group_id": 59,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     62,
+     303,
+     304,
+     305
+    ]
+   },
+   {
+    "group_id": 60,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     63,
+     306,
+     307,
+     308
+    ]
+   },
+   {
+    "group_id": 61,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     64,
+     309,
+     310,
+     311
+    ]
+   },
+   {
+    "group_id": 62,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     65,
+     312,
+     313,
+     314
+    ]
+   },
+   {
+    "group_id": 63,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     66,
+     315,
+     316,
+     317
+    ]
+   },
+   {
+    "group_id": 64,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     67,
+     318,
+     319,
+     320
+    ]
+   },
+   {
+    "group_id": 65,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     68,
+     321,
+     322,
+     323
+    ]
+   },
+   {
+    "group_id": 66,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     69,
+     324,
+     325,
+     326
+    ]
+   },
+   {
+    "group_id": 67,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     70,
+     327,
+     328,
+     329
+    ]
+   },
+   {
+    "group_id": 68,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     71,
+     330,
+     331,
+     332
+    ]
+   },
+   {
+    "group_id": 69,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     72,
+     333,
+     334,
+     335
+    ]
+   },
+   {
+    "group_id": 70,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     73,
+     336,
+     337,
+     338
+    ]
+   },
+   {
+    "group_id": 71,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     74,
+     339,
+     340,
+     341
+    ]
+   },
+   {
+    "group_id": 72,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     75,
+     342,
+     343,
+     344
+    ]
+   },
+   {
+    "group_id": 73,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     76,
+     345,
+     346,
+     347
+    ]
+   },
+   {
+    "group_id": 74,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     77,
+     348,
+     349,
+     350
+    ]
+   },
+   {
+    "group_id": 75,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     78,
+     351,
+     352,
+     353
+    ]
+   },
+   {
+    "group_id": 76,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     79,
+     354,
+     355,
+     356
+    ]
+   },
+   {
+    "group_id": 77,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     80,
+     357,
+     358,
+     359
+    ]
+   },
+   {
+    "group_id": 78,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     81,
+     360,
+     361,
+     362
+    ]
+   },
+   {
+    "group_id": 79,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     82,
+     363,
+     364,
+     365
+    ]
+   },
+   {
+    "group_id": 80,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     83,
+     366,
+     367,
+     368
+    ]
+   },
+   {
+    "group_id": 81,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     84,
+     369,
+     370,
+     371
+    ]
+   },
+   {
+    "group_id": 82,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     85,
+     372,
+     373,
+     374
+    ]
+   },
+   {
+    "group_id": 83,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     86,
+     375,
+     376,
+     377
+    ]
+   },
+   {
+    "group_id": 84,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     87,
+     378,
+     379,
+     380
+    ]
+   },
+   {
+    "group_id": 85,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     88,
+     381,
+     382,
+     383
+    ]
+   },
+   {
+    "group_id": 86,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     89,
+     384,
+     385,
+     386
+    ]
+   },
+   {
+    "group_id": 87,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     90,
+     387,
+     388,
+     389
+    ]
+   },
+   {
+    "group_id": 88,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     91,
+     390,
+     391,
+     392
+    ]
+   },
+   {
+    "group_id": 89,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     92,
+     393,
+     394,
+     395
+    ]
+   },
+   {
+    "group_id": 90,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     93,
+     396,
+     397,
+     398
+    ]
+   },
+   {
+    "group_id": 91,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     94,
+     399,
+     400,
+     401
+    ]
+   },
+   {
+    "group_id": 92,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     95,
+     402,
+     403,
+     404
+    ]
+   },
+   {
+    "group_id": 93,
+    "plane": "z1",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     96,
+     405,
+     406,
+     407
+    ]
+   },
+   {
+    "group_id": 94,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     98,
+     408,
+     409,
+     410
+    ]
+   },
+   {
+    "group_id": 95,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     99,
+     411,
+     412,
+     413
+    ]
+   },
+   {
+    "group_id": 96,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     100,
+     414,
+     415,
+     416
+    ]
+   },
+   {
+    "group_id": 97,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     101,
+     417,
+     418,
+     419
+    ]
+   },
+   {
+    "group_id": 98,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     102,
+     420,
+     421,
+     422
+    ]
+   },
+   {
+    "group_id": 99,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     103,
+     423,
+     424,
+     425
+    ]
+   },
+   {
+    "group_id": 100,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     104,
+     426,
+     427,
+     428
+    ]
+   },
+   {
+    "group_id": 101,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     106,
+     429,
+     430,
+     431
+    ]
+   },
+   {
+    "group_id": 102,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     107,
+     432,
+     433,
+     434
+    ]
+   },
+   {
+    "group_id": 103,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     108,
+     435,
+     436,
+     437
+    ]
+   },
+   {
+    "group_id": 104,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     109,
+     438,
+     439,
+     440
+    ]
+   },
+   {
+    "group_id": 105,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     110,
+     441,
+     442,
+     443
+    ]
+   },
+   {
+    "group_id": 106,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     111,
+     444,
+     445,
+     446
+    ]
+   },
+   {
+    "group_id": 107,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     112,
+     447,
+     448,
+     449
+    ]
+   },
+   {
+    "group_id": 108,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     114,
+     450,
+     451,
+     452
+    ]
+   },
+   {
+    "group_id": 109,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     115,
+     453,
+     454,
+     455
+    ]
+   },
+   {
+    "group_id": 110,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     116,
+     456,
+     457,
+     458
+    ]
+   },
+   {
+    "group_id": 111,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     117,
+     459,
+     460,
+     461
+    ]
+   },
+   {
+    "group_id": 112,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     118,
+     462,
+     463,
+     464
+    ]
+   },
+   {
+    "group_id": 113,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     119,
+     465,
+     466,
+     467
+    ]
+   },
+   {
+    "group_id": 114,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     120,
+     468,
+     469,
+     470
+    ]
+   },
+   {
+    "group_id": 115,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     122,
+     471,
+     472,
+     473
+    ]
+   },
+   {
+    "group_id": 116,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     123,
+     474,
+     475,
+     476
+    ]
+   },
+   {
+    "group_id": 117,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     124,
+     477,
+     478,
+     479
+    ]
+   },
+   {
+    "group_id": 118,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     125,
+     480,
+     481,
+     482
+    ]
+   },
+   {
+    "group_id": 119,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     126,
+     483,
+     484,
+     485
+    ]
+   },
+   {
+    "group_id": 120,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     127,
+     486,
+     487,
+     488
+    ]
+   },
+   {
+    "group_id": 121,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     128,
+     489,
+     490,
+     491
+    ]
+   },
+   {
+    "group_id": 122,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     130,
+     492,
+     493,
+     494
+    ]
+   },
+   {
+    "group_id": 123,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     131,
+     495,
+     496,
+     497
+    ]
+   },
+   {
+    "group_id": 124,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     132,
+     498,
+     499,
+     500
+    ]
+   },
+   {
+    "group_id": 125,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     133,
+     501,
+     502,
+     503
+    ]
+   },
+   {
+    "group_id": 126,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     134,
+     504,
+     505,
+     506
+    ]
+   },
+   {
+    "group_id": 127,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     135,
+     507,
+     508,
+     509
+    ]
+   },
+   {
+    "group_id": 128,
+    "plane": "z1",
+    "kind": "opposite",
+    "pair": "NS",
+    "route_ids": [
+     136,
+     510,
+     511,
+     512
+    ]
+   },
+   {
+    "group_id": 129,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     513,
+     514,
+     515,
+     516
+    ]
+   },
+   {
+    "group_id": 130,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     517,
+     518,
+     519,
+     520
+    ]
+   },
+   {
+    "group_id": 131,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     521,
+     522,
+     523,
+     524
+    ]
+   },
+   {
+    "group_id": 132,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     525,
+     526,
+     527,
+     528
+    ]
+   },
+   {
+    "group_id": 133,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     529,
+     530,
+     531,
+     532
+    ]
+   },
+   {
+    "group_id": 134,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     533,
+     534,
+     535,
+     536
+    ]
+   },
+   {
+    "group_id": 135,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     537,
+     538,
+     539,
+     540
+    ]
+   },
+   {
+    "group_id": 136,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     541,
+     542,
+     543,
+     544
+    ]
+   },
+   {
+    "group_id": 137,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     545,
+     546,
+     547,
+     548
+    ]
+   },
+   {
+    "group_id": 138,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     549,
+     550,
+     551,
+     552
+    ]
+   },
+   {
+    "group_id": 139,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     553,
+     554,
+     555,
+     556
+    ]
+   },
+   {
+    "group_id": 140,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     557,
+     558,
+     559,
+     560
+    ]
+   },
+   {
+    "group_id": 141,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     561,
+     562,
+     563,
+     564
+    ]
+   },
+   {
+    "group_id": 142,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     565,
+     566,
+     567,
+     568
+    ]
+   },
+   {
+    "group_id": 143,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     569,
+     570,
+     571,
+     572
+    ]
+   },
+   {
+    "group_id": 144,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     573,
+     574,
+     575,
+     576
+    ]
+   },
+   {
+    "group_id": 145,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     577,
+     578,
+     579,
+     580
+    ]
+   },
+   {
+    "group_id": 146,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     581,
+     582,
+     583,
+     584
+    ]
+   },
+   {
+    "group_id": 147,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     585,
+     586,
+     587,
+     588
+    ]
+   },
+   {
+    "group_id": 148,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     589,
+     590,
+     591,
+     592
+    ]
+   },
+   {
+    "group_id": 149,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     593,
+     594,
+     595,
+     596
+    ]
+   },
+   {
+    "group_id": 150,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     597,
+     598,
+     599,
+     600
+    ]
+   },
+   {
+    "group_id": 151,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     601,
+     602,
+     603,
+     604
+    ]
+   },
+   {
+    "group_id": 152,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     605,
+     606,
+     607,
+     608
+    ]
+   },
+   {
+    "group_id": 153,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     609,
+     610,
+     611,
+     612
+    ]
+   },
+   {
+    "group_id": 154,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     613,
+     614,
+     615,
+     616
+    ]
+   },
+   {
+    "group_id": 155,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     617,
+     618,
+     619,
+     620
+    ]
+   },
+   {
+    "group_id": 156,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     621,
+     622,
+     623,
+     624
+    ]
+   },
+   {
+    "group_id": 157,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     625,
+     626,
+     627,
+     628
+    ]
+   },
+   {
+    "group_id": 158,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     629,
+     630,
+     631,
+     632
+    ]
+   },
+   {
+    "group_id": 159,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     633,
+     634,
+     635,
+     636
+    ]
+   },
+   {
+    "group_id": 160,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     637,
+     638,
+     639,
+     640
+    ]
+   },
+   {
+    "group_id": 161,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     641,
+     642,
+     643,
+     644
+    ]
+   },
+   {
+    "group_id": 162,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     645,
+     646,
+     647,
+     648
+    ]
+   },
+   {
+    "group_id": 163,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     649,
+     650,
+     651,
+     652
+    ]
+   },
+   {
+    "group_id": 164,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     653,
+     654,
+     655,
+     656
+    ]
+   },
+   {
+    "group_id": 165,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     657,
+     658,
+     659,
+     660
+    ]
+   },
+   {
+    "group_id": 166,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     661,
+     662,
+     663,
+     664
+    ]
+   },
+   {
+    "group_id": 167,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     665,
+     666,
+     667,
+     668
+    ]
+   },
+   {
+    "group_id": 168,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     669,
+     670,
+     671,
+     672
+    ]
+   },
+   {
+    "group_id": 169,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     673,
+     674,
+     675,
+     676
+    ]
+   },
+   {
+    "group_id": 170,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     677,
+     678,
+     679,
+     680
+    ]
+   },
+   {
+    "group_id": 171,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     681,
+     682,
+     683,
+     684
+    ]
+   },
+   {
+    "group_id": 172,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     685,
+     686,
+     687,
+     688
+    ]
+   },
+   {
+    "group_id": 173,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     689,
+     690,
+     691,
+     692
+    ]
+   },
+   {
+    "group_id": 174,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     693,
+     694,
+     695,
+     696
+    ]
+   },
+   {
+    "group_id": 175,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     697,
+     698,
+     699,
+     700
+    ]
+   },
+   {
+    "group_id": 176,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     701,
+     702,
+     703,
+     704
+    ]
+   },
+   {
+    "group_id": 177,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     705,
+     706,
+     707,
+     708
+    ]
+   },
+   {
+    "group_id": 178,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     709,
+     710,
+     711,
+     712
+    ]
+   },
+   {
+    "group_id": 179,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     713,
+     714,
+     715,
+     716
+    ]
+   },
+   {
+    "group_id": 180,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     717,
+     718,
+     719,
+     720
+    ]
+   },
+   {
+    "group_id": 181,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     721,
+     722,
+     723,
+     724
+    ]
+   },
+   {
+    "group_id": 182,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     725,
+     726,
+     727,
+     728
+    ]
+   },
+   {
+    "group_id": 183,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     729,
+     730,
+     731,
+     732
+    ]
+   },
+   {
+    "group_id": 184,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     733,
+     734,
+     735,
+     736
+    ]
+   },
+   {
+    "group_id": 185,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     737,
+     738,
+     739,
+     740
+    ]
+   },
+   {
+    "group_id": 186,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     741,
+     742,
+     743,
+     744
+    ]
+   },
+   {
+    "group_id": 187,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     745,
+     746,
+     747,
+     748
+    ]
+   },
+   {
+    "group_id": 188,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     749,
+     750,
+     751,
+     752
+    ]
+   },
+   {
+    "group_id": 189,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     753,
+     754,
+     755,
+     756
+    ]
+   },
+   {
+    "group_id": 190,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     757,
+     758,
+     759,
+     760
+    ]
+   },
+   {
+    "group_id": 191,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     761,
+     762,
+     763,
+     764
+    ]
+   },
+   {
+    "group_id": 192,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "EN",
+    "route_ids": [
+     765,
+     766,
+     767,
+     768
+    ]
+   },
+   {
+    "group_id": 193,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     769,
+     770,
+     771,
+     772
+    ]
+   },
+   {
+    "group_id": 194,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     773,
+     774,
+     775,
+     776
+    ]
+   },
+   {
+    "group_id": 195,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     777,
+     778,
+     779,
+     780
+    ]
+   },
+   {
+    "group_id": 196,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     781,
+     782,
+     783,
+     784
+    ]
+   },
+   {
+    "group_id": 197,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     785,
+     786,
+     787,
+     788
+    ]
+   },
+   {
+    "group_id": 198,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     789,
+     790,
+     791,
+     792
+    ]
+   },
+   {
+    "group_id": 199,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     793,
+     794,
+     795,
+     796
+    ]
+   },
+   {
+    "group_id": 200,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     797,
+     798,
+     799,
+     800
+    ]
+   },
+   {
+    "group_id": 201,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     801,
+     802,
+     803,
+     804
+    ]
+   },
+   {
+    "group_id": 202,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     805,
+     806,
+     807,
+     808
+    ]
+   },
+   {
+    "group_id": 203,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     809,
+     810,
+     811,
+     812
+    ]
+   },
+   {
+    "group_id": 204,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     813,
+     814,
+     815,
+     816
+    ]
+   },
+   {
+    "group_id": 205,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     817,
+     818,
+     819,
+     820
+    ]
+   },
+   {
+    "group_id": 206,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     821,
+     822,
+     823,
+     824
+    ]
+   },
+   {
+    "group_id": 207,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     825,
+     826,
+     827,
+     828
+    ]
+   },
+   {
+    "group_id": 208,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     829,
+     830,
+     831,
+     832
+    ]
+   },
+   {
+    "group_id": 209,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     833,
+     834,
+     835,
+     836
+    ]
+   },
+   {
+    "group_id": 210,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     837,
+     838,
+     839,
+     840
+    ]
+   },
+   {
+    "group_id": 211,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     841,
+     842,
+     843,
+     844
+    ]
+   },
+   {
+    "group_id": 212,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     845,
+     846,
+     847,
+     848
+    ]
+   },
+   {
+    "group_id": 213,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     849,
+     850,
+     851,
+     852
+    ]
+   },
+   {
+    "group_id": 214,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     853,
+     854,
+     855,
+     856
+    ]
+   },
+   {
+    "group_id": 215,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     857,
+     858,
+     859,
+     860
+    ]
+   },
+   {
+    "group_id": 216,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     861,
+     862,
+     863,
+     864
+    ]
+   },
+   {
+    "group_id": 217,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     865,
+     866,
+     867,
+     868
+    ]
+   },
+   {
+    "group_id": 218,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     869,
+     870,
+     871,
+     872
+    ]
+   },
+   {
+    "group_id": 219,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     873,
+     874,
+     875,
+     876
+    ]
+   },
+   {
+    "group_id": 220,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     877,
+     878,
+     879,
+     880
+    ]
+   },
+   {
+    "group_id": 221,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     881,
+     882,
+     883,
+     884
+    ]
+   },
+   {
+    "group_id": 222,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     885,
+     886,
+     887,
+     888
+    ]
+   },
+   {
+    "group_id": 223,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     889,
+     890,
+     891,
+     892
+    ]
+   },
+   {
+    "group_id": 224,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     893,
+     894,
+     895,
+     896
+    ]
+   },
+   {
+    "group_id": 225,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     897,
+     898,
+     899,
+     900
+    ]
+   },
+   {
+    "group_id": 226,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     901,
+     902,
+     903,
+     904
+    ]
+   },
+   {
+    "group_id": 227,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     905,
+     906,
+     907,
+     908
+    ]
+   },
+   {
+    "group_id": 228,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     909,
+     910,
+     911,
+     912
+    ]
+   },
+   {
+    "group_id": 229,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     913,
+     914,
+     915,
+     916
+    ]
+   },
+   {
+    "group_id": 230,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     917,
+     918,
+     919,
+     920
+    ]
+   },
+   {
+    "group_id": 231,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     921,
+     922,
+     923,
+     924
+    ]
+   },
+   {
+    "group_id": 232,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     925,
+     926,
+     927,
+     928
+    ]
+   },
+   {
+    "group_id": 233,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     929,
+     930,
+     931,
+     932
+    ]
+   },
+   {
+    "group_id": 234,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     933,
+     934,
+     935,
+     936
+    ]
+   },
+   {
+    "group_id": 235,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     937,
+     938,
+     939,
+     940
+    ]
+   },
+   {
+    "group_id": 236,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     941,
+     942,
+     943,
+     944
+    ]
+   },
+   {
+    "group_id": 237,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     945,
+     946,
+     947,
+     948
+    ]
+   },
+   {
+    "group_id": 238,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     949,
+     950,
+     951,
+     952
+    ]
+   },
+   {
+    "group_id": 239,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     953,
+     954,
+     955,
+     956
+    ]
+   },
+   {
+    "group_id": 240,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     957,
+     958,
+     959,
+     960
+    ]
+   },
+   {
+    "group_id": 241,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     961,
+     962,
+     963,
+     964
+    ]
+   },
+   {
+    "group_id": 242,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     965,
+     966,
+     967,
+     968
+    ]
+   },
+   {
+    "group_id": 243,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     969,
+     970,
+     971,
+     972
+    ]
+   },
+   {
+    "group_id": 244,
+    "plane": "z2",
+    "kind": "adjacent",
+    "pair": "NW",
+    "route_ids": [
+     973,
+     974,
+     975,
+     976
+    ]
+   },
+   {
+    "group_id": 245,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     977,
+     978,
+     979,
+     980
+    ]
+   },
+   {
+    "group_id": 246,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     981,
+     982,
+     983,
+     984
+    ]
+   },
+   {
+    "group_id": 247,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     985,
+     986,
+     987,
+     988
+    ]
+   },
+   {
+    "group_id": 248,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     989,
+     990,
+     991,
+     992
+    ]
+   },
+   {
+    "group_id": 249,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     993,
+     994,
+     995,
+     996
+    ]
+   },
+   {
+    "group_id": 250,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     997,
+     998,
+     999,
+     1000
+    ]
+   },
+   {
+    "group_id": 251,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     1001,
+     1002,
+     1003,
+     1004
+    ]
+   },
+   {
+    "group_id": 252,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     1005,
+     1006,
+     1007,
+     1008
+    ]
+   },
+   {
+    "group_id": 253,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     1009,
+     1010,
+     1011,
+     1012
+    ]
+   },
+   {
+    "group_id": 254,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     1013,
+     1014,
+     1015,
+     1016
+    ]
+   },
+   {
+    "group_id": 255,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     1017,
+     1018,
+     1019,
+     1020
+    ]
+   },
+   {
+    "group_id": 256,
+    "plane": "z2",
+    "kind": "same",
+    "pair": "NN",
+    "route_ids": [
+     1021,
+     1022,
+     1023,
+     1024
+    ]
+   }
+  ]
+ },
+ "route_group": {
+  "1": [
+   1,
+   0
+  ],
+  "2": [
+   2,
+   0
+  ],
+  "3": [
+   3,
+   0
+  ],
+  "4": [
+   4,
+   0
+  ],
+  "5": [
+   5,
+   0
+  ],
+  "6": [
+   6,
+   0
+  ],
+  "7": [
+   7,
+   0
+  ],
+  "8": [
+   8,
+   0
+  ],
+  "9": [
+   1,
+   2
+  ],
+  "10": [
+   9,
+   0
+  ],
+  "11": [
+   10,
+   0
+  ],
+  "12": [
+   11,
+   0
+  ],
+  "13": [
+   12,
+   0
+  ],
+  "14": [
+   13,
+   0
+  ],
+  "15": [
+   14,
+   0
+  ],
+  "16": [
+   15,
+   0
+  ],
+  "17": [
+   16,
+   0
+  ],
+  "18": [
+   17,
+   0
+  ],
+  "19": [
+   18,
+   0
+  ],
+  "20": [
+   19,
+   0
+  ],
+  "21": [
+   20,
+   0
+  ],
+  "22": [
+   21,
+   0
+  ],
+  "23": [
+   22,
+   0
+  ],
+  "24": [
+   23,
+   0
+  ],
+  "25": [
+   9,
+   2
+  ],
+  "26": [
+   24,
+   0
+  ],
+  "27": [
+   25,
+   0
+  ],
+  "28": [
+   26,
+   0
+  ],
+  "29": [
+   27,
+   0
+  ],
+  "30": [
+   28,
+   0
+  ],
+  "31": [
+   29,
+   0
+  ],
+  "32": [
+   30,
+   0
+  ],
+  "33": [
+   10,
+   2
+  ],
+  "34": [
+   31,
+   0
+  ],
+  "35": [
+   32,
+   0
+  ],
+  "36": [
+   33,
+   0
+  ],
+  "37": [
+   34,
+   0
+  ],
+  "38": [
+   35,
+   0
+  ],
+  "39": [
+   36,
+   0
+  ],
+  "40": [
+   37,
+   0
+  ],
+  "41": [
+   38,
+   0
+  ],
+  "42": [
+   39,
+   0
+  ],
+  "43": [
+   40,
+   0
+  ],
+  "44": [
+   41,
+   0
+  ],
+  "45": [
+   42,
+   0
+  ],
+  "46": [
+   43,
+   0
+  ],
+  "47": [
+   44,
+   0
+  ],
+  "48": [
+   45,
+   0
+  ],
+  "49": [
+   46,
+   0
+  ],
+  "50": [
+   47,
+   0
+  ],
+  "51": [
+   48,
+   0
+  ],
+  "52": [
+   49,
+   0
+  ],
+  "53": [
+   50,
+   0
+  ],
+  "54": [
+   51,
+   0
+  ],
+  "55": [
+   52,
+   0
+  ],
+  "56": [
+   53,
+   0
+  ],
+  "57": [
+   54,
+   0
+  ],
+  "58": [
+   55,
+   0
+  ],
+  "59": [
+   56,
+   0
+  ],
+  "60": [
+   57,
+   0
+  ],
+  "61": [
+   58,
+   0
+  ],
+  "62": [
+   59,
+   0
+  ],
+  "63": [
+   60,
+   0
+  ],
+  "64": [
+   61,
+   0
+  ],
+  "65": [
+   62,
+   0
+  ],
+  "66": [
+   63,
+   0
+  ],
+  "67": [
+   64,
+   0
+  ],
+  "68": [
+   65,
+   0
+  ],
+  "69": [
+   66,
+   0
+  ],
+  "70": [
+   67,
+   0
+  ],
+  "71": [
+   68,
+   0
+  ],
+  "72": [
+   69,
+   0
+  ],
+  "73": [
+   70,
+   0
+  ],
+  "74": [
+   71,
+   0
+  ],
+  "75": [
+   72,
+   0
+  ],
+  "76": [
+   73,
+   0
+  ],
+  "77": [
+   74,
+   0
+  ],
+  "78": [
+   75,
+   0
+  ],
+  "79": [
+   76,
+   0
+  ],
+  "80": [
+   77,
+   0
+  ],
+  "81": [
+   78,
+   0
+  ],
+  "82": [
+   79,
+   0
+  ],
+  "83": [
+   80,
+   0
+  ],
+  "84": [
+   81,
+   0
+  ],
+  "85": [
+   82,
+   0
+  ],
+  "86": [
+   83,
+   0
+  ],
+  "87": [
+   84,
+   0
+  ],
+  "88": [
+   85,
+   0
+  ],
+  "89": [
+   86,
+   0
+  ],
+  "90": [
+   87,
+   0
+  ],
+  "91": [
+   88,
+   0
+  ],
+  "92": [
+   89,
+   0
+  ],
+  "93": [
+   90,
+   0
+  ],
+  "94": [
+   91,
+   0
+  ],
+  "95": [
+   92,
+   0
+  ],
+  "96": [
+   93,
+   0
+  ],
+  "97": [
+   11,
+   2
+  ],
+  "98": [
+   94,
+   0
+  ],
+  "99": [
+   95,
+   0
+  ],
+  "100": [
+   96,
+   0
+  ],
+  "101": [
+   97,
+   0
+  ],
+  "102": [
+   98,
+   0
+  ],
+  "103": [
+   99,
+   0
+  ],
+  "104": [
+   100,
+   0
+  ],
+  "105": [
+   12,
+   2
+  ],
+  "106": [
+   101,
+   0
+  ],
+  "107": [
+   102,
+   0
+  ],
+  "108": [
+   103,
+   0
+  ],
+  "109": [
+   104,
+   0
+  ],
+  "110": [
+   105,
+   0
+  ],
+  "111": [
+   106,
+   0
+  ],
+  "112": [
+   107,
+   0
+  ],
+  "113": [
+   13,
+   2
+  ],
+  "114": [
+   108,
+   0
+  ],
+  "115": [
+   109,
+   0
+  ],
+  "116": [
+   110,
+   0
+  ],
+  "117": [
+   111,
+   0
+  ],
+  "118": [
+   112,
+   0
+  ],
+  "119": [
+   113,
+   0
+  ],
+  "120": [
+   114,
+   0
+  ],
+  "121": [
+   14,
+   2
+  ],
+  "122": [
+   115,
+   0
+  ],
+  "123": [
+   116,
+   0
+  ],
+  "124": [
+   117,
+   0
+  ],
+  "125": [
+   118,
+   0
+  ],
+  "126": [
+   119,
+   0
+  ],
+  "127": [
+   120,
+   0
+  ],
+  "128": [
+   121,
+   0
+  ],
+  "129": [
+   15,
+   2
+  ],
+  "130": [
+   122,
+   0
+  ],
+  "131": [
+   123,
+   0
+  ],
+  "132": [
+   124,
+   0
+  ],
+  "133": [
+   125,
+   0
+  ],
+  "134": [
+   126,
+   0
+  ],
+  "135": [
+   127,
+   0
+  ],
+  "136": [
+   128,
+   0
+  ],
+  "137": [
+   1,
+   1
+  ],
+  "138": [
+   1,
+   3
+  ],
+  "139": [
+   2,
+   1
+  ],
+  "140": [
+   2,
+   2
+  ],
+  "141": [
+   2,
+   3
+  ],
+  "142": [
+   3,
+   1
+  ],
+  "143": [
+   3,
+   2
+  ],
+  "144": [
+   3,
+   3
+  ],
+  "145": [
+   4,
+   1
+  ],
+  "146": [
+   4,
+   2
+  ],
+  "147": [
+   4,
+   3
+  ],
+  "148": [
+   5,
+   1
+  ],
+  "149": [
+   5,
+   2
+  ],
+  "150": [
+   5,
+   3
+  ],
+  "151": [
+   6,
+   1
+  ],
+  "152": [
+   6,
+   2
+  ],
+  "153": [
+   6,
+   3
+  ],
+  "154": [
+   7,
+   1
+  ],
+  "155": [
+   7,
+   2
+  ],
+  "156": [
+   7,
+   3
+  ],
+  "157": [
+   8,
+   1
+  ],
+  "158": [
+   8,
+   2
+  ],
+  "159": [
+   8,
+   3
+  ],
+  "160": [
+   9,
+   1
+  ],
+  "161": [
+   9,
+   3
+  ],
+  "162": [
+   10,
+   1
+  ],
+  "163": [
+   10,
+   3
+  ],
+  "164": [
+   11,
+   1
+  ],
+  "165": [
+   11,
+   3
+  ],
+  "166": [
+   12,
+   1
+  ],
+  "167": [
+   12,
+   3
+  ],
+  "168": [
+   13,
+   1
+  ],
+  "169": [
+   13,
+   3
+  ],
+  "170": [
+   14,
+   1
+  ],
+  "171": [
+   14,
+   3
+  ],
+  "172": [
+   15,
+   1
+  ],
+  "173": [
+   15,
+   3
+  ],
+  "174": [
+   16,
+   1
+  ],
+  "175": [
+   16,
+   2
+  ],
+  "176": [
+   16,
+   3
+  ],
+  "177": [
+   17,
+   1
+  ],
+  "178": [
+   17,
+   2
+  ],
+  "179": [
+   17,
+   3
+  ],
+  "180": [
+   18,
+   1
+  ],
+  "181": [
+   18,
+   2
+  ],
+  "182": [
+   18,
+   3
+  ],
+  "183": [
+   19,
+   1
+  ],
+  "184": [
+   19,
+   2
+  ],
+  "185": [
+   19,
+   3
+  ],
+  "186": [
+   20,
+   1
+  ],
+  "187": [
+   20,
+   2
+  ],
+  "188": [
+   20,
+   3
+  ],
+  "189": [
+   21,
+   1
+  ],
+  "190": [
+   21,
+   2
+  ],
+  "191": [
+   21,
+   3
+  ],
+  "192": [
+   22,
+   1
+  ],
+  "193": [
+   22,
+   2
+  ],
+  "194": [
+   22,
+   3
+  ],
+  "195": [
+   23,
+   1
+  ],
+  "196": [
+   23,
+   2
+  ],
+  "197": [
+   23,
+   3
+  ],
+  "198": [
+   24,
+   1
+  ],
+  "199": [
+   24,
+   2
+  ],
+  "200": [
+   24,
+   3
+  ],
+  "201": [
+   25,
+   1
+  ],
+  "202": [
+   25,
+   2
+  ],
+  "203": [
+   25,
+   3
+  ],
+  "204": [
+   26,
+   1
+  ],
+  "205": [
+   26,
+   2
+  ],
+  "206": [
+   26,
+   3
+  ],
+  "207": [
+   27,
+   1
+  ],
+  "208": [
+   27,
+   2
+  ],
+  "209": [
+   27,
+   3
+  ],
+  "210": [
+   28,
+   1
+  ],
+  "211": [
+   28,
+   2
+  ],
+  "212": [
+   28,
+   3
+  ],
+  "213": [
+   29,
+   1
+  ],
+  "214": [
+   29,
+   2
+  ],
+  "215": [
+   29,
+   3
+  ],
+  "216": [
+   30,
+   1
+  ],
+  "217": [
+   30,
+   2
+  ],
+  "218": [
+   30,
+   3
+  ],
+  "219": [
+   31,
+   1
+  ],
+  "220": [
+   31,
+   2
+  ],
+  "221": [
+   31,
+   3
+  ],
+  "222": [
+   32,
+   1
+  ],
+  "223": [
+   32,
+   2
+  ],
+  "224": [
+   32,
+   3
+  ],
+  "225": [
+   33,
+   1
+  ],
+  "226": [
+   33,
+   2
+  ],
+  "227": [
+   33,
+   3
+  ],
+  "228": [
+   34,
+   1
+  ],
+  "229": [
+   34,
+   2
+  ],
+  "230": [
+   34,
+   3
+  ],
+  "231": [
+   35,
+   1
+  ],
+  "232": [
+   35,
+   2
+  ],
+  "233": [
+   35,
+   3
+  ],
+  "234": [
+   36,
+   1
+  ],
+  "235": [
+   36,
+   2
+  ],
+  "236": [
+   36,
+   3
+  ],
+  "237": [
+   37,
+   1
+  ],
+  "238": [
+   37,
+   2
+  ],
+  "239": [
+   37,
+   3
+  ],
+  "240": [
+   38,
+   1
+  ],
+  "241": [
+   38,
+   2
+  ],
+  "242": [
+   38,
+   3
+  ],
+  "243": [
+   39,
+   1
+  ],
+  "244": [
+   39,
+   2
+  ],
+  "245": [
+   39,
+   3
+  ],
+  "246": [
+   40,
+   1
+  ],
+  "247": [
+   40,
+   2
+  ],
+  "248": [
+   40,
+   3
+  ],
+  "249": [
+   41,
+   1
+  ],
+  "250": [
+   41,
+   2
+  ],
+  "251": [
+   41,
+   3
+  ],
+  "252": [
+   42,
+   1
+  ],
+  "253": [
+   42,
+   2
+  ],
+  "254": [
+   42,
+   3
+  ],
+  "255": [
+   43,
+   1
+  ],
+  "256": [
+   43,
+   2
+  ],
+  "257": [
+   43,
+   3
+  ],
+  "258": [
+   44,
+   1
+  ],
+  "259": [
+   44,
+   2
+  ],
+  "260": [
+   44,
+   3
+  ],
+  "261": [
+   45,
+   1
+  ],
+  "262": [
+   45,
+   2
+  ],
+  "263": [
+   45,
+   3
+  ],
+  "264": [
+   46,
+   1
+  ],
+  "265": [
+   46,
+   2
+  ],
+  "266": [
+   46,
+   3
+  ],
+  "267": [
+   47,
+   1
+  ],
+  "268": [
+   47,
+   2
+  ],
+  "269": [
+   47,
+   3
+  ],
+  "270": [
+   48,
+   1
+  ],
+  "271": [
+   48,
+   2
+  ],
+  "272": [
+   48,
+   3
+  ],
+  "273": [
+   49,
+   1
+  ],
+  "274": [
+   49,
+   2
+  ],
+  "275": [
+   49,
+   3
+  ],
+  "276": [
+   50,
+   1
+  ],
+  "277": [
+   50,
+   2
+  ],
+  "278": [
+   50,
+   3
+  ],
+  "279": [
+   51,
+   1
+  ],
+  "280": [
+   51,
+   2
+  ],
+  "281": [
+   51,
+   3
+  ],
+  "282": [
+   52,
+   1
+  ],
+  "283": [
+   52,
+   2
+  ],
+  "284": [
+   52,
+   3
+  ],
+  "285": [
+   53,
+   1
+  ],
+  "286": [
+   53,
+   2
+  ],
+  "287": [
+   53,
+   3
+  ],
+  "288": [
+   54,
+   1
+  ],
+  "289": [
+   54,
+   2
+  ],
+  "290": [
+   54,
+   3
+  ],
+  "291": [
+   55,
+   1
+  ],
+  "292": [
+   55,
+   2
+  ],
+  "293": [
+   55,
+   3
+  ],
+  "294": [
+   56,
+   1
+  ],
+  "295": [
+   56,
+   2
+  ],
+  "296": [
+   56,
+   3
+  ],
+  "297": [
+   57,
+   1
+  ],
+  "298": [
+   57,
+   2
+  ],
+  "299": [
+   57,
+   3
+  ],
+  "300": [
+   58,
+   1
+  ],
+  "301": [
+   58,
+   2
+  ],
+  "302": [
+   58,
+   3
+  ],
+  "303": [
+   59,
+   1
+  ],
+  "304": [
+   59,
+   2
+  ],
+  "305": [
+   59,
+   3
+  ],
+  "306": [
+   60,
+   1
+  ],
+  "307": [
+   60,
+   2
+  ],
+  "308": [
+   60,
+   3
+  ],
+  "309": [
+   61,
+   1
+  ],
+  "310": [
+   61,
+   2
+  ],
+  "311": [
+   61,
+   3
+  ],
+  "312": [
+   62,
+   1
+  ],
+  "313": [
+   62,
+   2
+  ],
+  "314": [
+   62,
+   3
+  ],
+  "315": [
+   63,
+   1
+  ],
+  "316": [
+   63,
+   2
+  ],
+  "317": [
+   63,
+   3
+  ],
+  "318": [
+   64,
+   1
+  ],
+  "319": [
+   64,
+   2
+  ],
+  "320": [
+   64,
+   3
+  ],
+  "321": [
+   65,
+   1
+  ],
+  "322": [
+   65,
+   2
+  ],
+  "323": [
+   65,
+   3
+  ],
+  "324": [
+   66,
+   1
+  ],
+  "325": [
+   66,
+   2
+  ],
+  "326": [
+   66,
+   3
+  ],
+  "327": [
+   67,
+   1
+  ],
+  "328": [
+   67,
+   2
+  ],
+  "329": [
+   67,
+   3
+  ],
+  "330": [
+   68,
+   1
+  ],
+  "331": [
+   68,
+   2
+  ],
+  "332": [
+   68,
+   3
+  ],
+  "333": [
+   69,
+   1
+  ],
+  "334": [
+   69,
+   2
+  ],
+  "335": [
+   69,
+   3
+  ],
+  "336": [
+   70,
+   1
+  ],
+  "337": [
+   70,
+   2
+  ],
+  "338": [
+   70,
+   3
+  ],
+  "339": [
+   71,
+   1
+  ],
+  "340": [
+   71,
+   2
+  ],
+  "341": [
+   71,
+   3
+  ],
+  "342": [
+   72,
+   1
+  ],
+  "343": [
+   72,
+   2
+  ],
+  "344": [
+   72,
+   3
+  ],
+  "345": [
+   73,
+   1
+  ],
+  "346": [
+   73,
+   2
+  ],
+  "347": [
+   73,
+   3
+  ],
+  "348": [
+   74,
+   1
+  ],
+  "349": [
+   74,
+   2
+  ],
+  "350": [
+   74,
+   3
+  ],
+  "351": [
+   75,
+   1
+  ],
+  "352": [
+   75,
+   2
+  ],
+  "353": [
+   75,
+   3
+  ],
+  "354": [
+   76,
+   1
+  ],
+  "355": [
+   76,
+   2
+  ],
+  "356": [
+   76,
+   3
+  ],
+  "357": [
+   77,
+   1
+  ],
+  "358": [
+   77,
+   2
+  ],
+  "359": [
+   77,
+   3
+  ],
+  "360": [
+   78,
+   1
+  ],
+  "361": [
+   78,
+   2
+  ],
+  "362": [
+   78,
+   3
+  ],
+  "363": [
+   79,
+   1
+  ],
+  "364": [
+   79,
+   2
+  ],
+  "365": [
+   79,
+   3
+  ],
+  "366": [
+   80,
+   1
+  ],
+  "367": [
+   80,
+   2
+  ],
+  "368": [
+   80,
+   3
+  ],
+  "369": [
+   81,
+   1
+  ],
+  "370": [
+   81,
+   2
+  ],
+  "371": [
+   81,
+   3
+  ],
+  "372": [
+   82,
+   1
+  ],
+  "373": [
+   82,
+   2
+  ],
+  "374": [
+   82,
+   3
+  ],
+  "375": [
+   83,
+   1
+  ],
+  "376": [
+   83,
+   2
+  ],
+  "377": [
+   83,
+   3
+  ],
+  "378": [
+   84,
+   1
+  ],
+  "379": [
+   84,
+   2
+  ],
+  "380": [
+   84,
+   3
+  ],
+  "381": [
+   85,
+   1
+  ],
+  "382": [
+   85,
+   2
+  ],
+  "383": [
+   85,
+   3
+  ],
+  "384": [
+   86,
+   1
+  ],
+  "385": [
+   86,
+   2
+  ],
+  "386": [
+   86,
+   3
+  ],
+  "387": [
+   87,
+   1
+  ],
+  "388": [
+   87,
+   2
+  ],
+  "389": [
+   87,
+   3
+  ],
+  "390": [
+   88,
+   1
+  ],
+  "391": [
+   88,
+   2
+  ],
+  "392": [
+   88,
+   3
+  ],
+  "393": [
+   89,
+   1
+  ],
+  "394": [
+   89,
+   2
+  ],
+  "395": [
+   89,
+   3
+  ],
+  "396": [
+   90,
+   1
+  ],
+  "397": [
+   90,
+   2
+  ],
+  "398": [
+   90,
+   3
+  ],
+  "399": [
+   91,
+   1
+  ],
+  "400": [
+   91,
+   2
+  ],
+  "401": [
+   91,
+   3
+  ],
+  "402": [
+   92,
+   1
+  ],
+  "403": [
+   92,
+   2
+  ],
+  "404": [
+   92,
+   3
+  ],
+  "405": [
+   93,
+   1
+  ],
+  "406": [
+   93,
+   2
+  ],
+  "407": [
+   93,
+   3
+  ],
+  "408": [
+   94,
+   1
+  ],
+  "409": [
+   94,
+   2
+  ],
+  "410": [
+   94,
+   3
+  ],
+  "411": [
+   95,
+   1
+  ],
+  "412": [
+   95,
+   2
+  ],
+  "413": [
+   95,
+   3
+  ],
+  "414": [
+   96,
+   1
+  ],
+  "415": [
+   96,
+   2
+  ],
+  "416": [
+   96,
+   3
+  ],
+  "417": [
+   97,
+   1
+  ],
+  "418": [
+   97,
+   2
+  ],
+  "419": [
+   97,
+   3
+  ],
+  "420": [
+   98,
+   1
+  ],
+  "421": [
+   98,
+   2
+  ],
+  "422": [
+   98,
+   3
+  ],
+  "423": [
+   99,
+   1
+  ],
+  "424": [
+   99,
+   2
+  ],
+  "425": [
+   99,
+   3
+  ],
+  "426": [
+   100,
+   1
+  ],
+  "427": [
+   100,
+   2
+  ],
+  "428": [
+   100,
+   3
+  ],
+  "429": [
+   101,
+   1
+  ],
+  "430": [
+   101,
+   2
+  ],
+  "431": [
+   101,
+   3
+  ],
+  "432": [
+   102,
+   1
+  ],
+  "433": [
+   102,
+   2
+  ],
+  "434": [
+   102,
+   3
+  ],
+  "435": [
+   103,
+   1
+  ],
+  "436": [
+   103,
+   2
+  ],
+  "437": [
+   103,
+   3
+  ],
+  "438": [
+   104,
+   1
+  ],
+  "439": [
+   104,
+   2
+  ],
+  "440": [
+   104,
+   3
+  ],
+  "441": [
+   105,
+   1
+  ],
+  "442": [
+   105,
+   2
+  ],
+  "443": [
+   105,
+   3
+  ],
+  "444": [
+   106,
+   1
+  ],
+  "445": [
+   106,
+   2
+  ],
+  "446": [
+   106,
+   3
+  ],
+  "447": [
+   107,
+   1
+  ],
+  "448": [
+   107,
+   2
+  ],
+  "449": [
+   107,
+   3
+  ],
+  "450": [
+   108,
+   1
+  ],
+  "451": [
+   108,
+   2
+  ],
+  "452": [
+   108,
+   3
+  ],
+  "453": [
+   109,
+   1
+  ],
+  "454": [
+   109,
+   2
+  ],
+  "455": [
+   109,
+   3
+  ],
+  "456": [
+   110,
+   1
+  ],
+  "457": [
+   110,
+   2
+  ],
+  "458": [
+   110,
+   3
+  ],
+  "459": [
+   111,
+   1
+  ],
+  "460": [
+   111,
+   2
+  ],
+  "461": [
+   111,
+   3
+  ],
+  "462": [
+   112,
+   1
+  ],
+  "463": [
+   112,
+   2
+  ],
+  "464": [
+   112,
+   3
+  ],
+  "465": [
+   113,
+   1
+  ],
+  "466": [
+   113,
+   2
+  ],
+  "467": [
+   113,
+   3
+  ],
+  "468": [
+   114,
+   1
+  ],
+  "469": [
+   114,
+   2
+  ],
+  "470": [
+   114,
+   3
+  ],
+  "471": [
+   115,
+   1
+  ],
+  "472": [
+   115,
+   2
+  ],
+  "473": [
+   115,
+   3
+  ],
+  "474": [
+   116,
+   1
+  ],
+  "475": [
+   116,
+   2
+  ],
+  "476": [
+   116,
+   3
+  ],
+  "477": [
+   117,
+   1
+  ],
+  "478": [
+   117,
+   2
+  ],
+  "479": [
+   117,
+   3
+  ],
+  "480": [
+   118,
+   1
+  ],
+  "481": [
+   118,
+   2
+  ],
+  "482": [
+   118,
+   3
+  ],
+  "483": [
+   119,
+   1
+  ],
+  "484": [
+   119,
+   2
+  ],
+  "485": [
+   119,
+   3
+  ],
+  "486": [
+   120,
+   1
+  ],
+  "487": [
+   120,
+   2
+  ],
+  "488": [
+   120,
+   3
+  ],
+  "489": [
+   121,
+   1
+  ],
+  "490": [
+   121,
+   2
+  ],
+  "491": [
+   121,
+   3
+  ],
+  "492": [
+   122,
+   1
+  ],
+  "493": [
+   122,
+   2
+  ],
+  "494": [
+   122,
+   3
+  ],
+  "495": [
+   123,
+   1
+  ],
+  "496": [
+   123,
+   2
+  ],
+  "497": [
+   123,
+   3
+  ],
+  "498": [
+   124,
+   1
+  ],
+  "499": [
+   124,
+   2
+  ],
+  "500": [
+   124,
+   3
+  ],
+  "501": [
+   125,
+   1
+  ],
+  "502": [
+   125,
+   2
+  ],
+  "503": [
+   125,
+   3
+  ],
+  "504": [
+   126,
+   1
+  ],
+  "505": [
+   126,
+   2
+  ],
+  "506": [
+   126,
+   3
+  ],
+  "507": [
+   127,
+   1
+  ],
+  "508": [
+   127,
+   2
+  ],
+  "509": [
+   127,
+   3
+  ],
+  "510": [
+   128,
+   1
+  ],
+  "511": [
+   128,
+   2
+  ],
+  "512": [
+   128,
+   3
+  ],
+  "513": [
+   129,
+   0
+  ],
+  "514": [
+   129,
+   1
+  ],
+  "515": [
+   129,
+   2
+  ],
+  "516": [
+   129,
+   3
+  ],
+  "517": [
+   130,
+   0
+  ],
+  "518": [
+   130,
+   1
+  ],
+  "519": [
+   130,
+   2
+  ],
+  "520": [
+   130,
+   3
+  ],
+  "521": [
+   131,
+   0
+  ],
+  "522": [
+   131,
+   1
+  ],
+  "523": [
+   131,
+   2
+  ],
+  "524": [
+   131,
+   3
+  ],
+  "525": [
+   132,
+   0
+  ],
+  "526": [
+   132,
+   1
+  ],
+  "527": [
+   132,
+   2
+  ],
+  "528": [
+   132,
+   3
+  ],
+  "529": [
+   133,
+   0
+  ],
+  "530": [
+   133,
+   1
+  ],
+  "531": [
+   133,
+   2
+  ],
+  "532": [
+   133,
+   3
+  ],
+  "533": [
+   134,
+   0
+  ],
+  "534": [
+   134,
+   1
+  ],
+  "535": [
+   134,
+   2
+  ],
+  "536": [
+   134,
+   3
+  ],
+  "537": [
+   135,
+   0
+  ],
+  "538": [
+   135,
+   1
+  ],
+  "539": [
+   135,
+   2
+  ],
+  "540": [
+   135,
+   3
+  ],
+  "541": [
+   136,
+   0
+  ],
+  "542": [
+   136,
+   1
+  ],
+  "543": [
+   136,
+   2
+  ],
+  "544": [
+   136,
+   3
+  ],
+  "545": [
+   137,
+   0
+  ],
+  "546": [
+   137,
+   1
+  ],
+  "547": [
+   137,
+   2
+  ],
+  "548": [
+   137,
+   3
+  ],
+  "549": [
+   138,
+   0
+  ],
+  "550": [
+   138,
+   1
+  ],
+  "551": [
+   138,
+   2
+  ],
+  "552": [
+   138,
+   3
+  ],
+  "553": [
+   139,
+   0
+  ],
+  "554": [
+   139,
+   1
+  ],
+  "555": [
+   139,
+   2
+  ],
+  "556": [
+   139,
+   3
+  ],
+  "557": [
+   140,
+   0
+  ],
+  "558": [
+   140,
+   1
+  ],
+  "559": [
+   140,
+   2
+  ],
+  "560": [
+   140,
+   3
+  ],
+  "561": [
+   141,
+   0
+  ],
+  "562": [
+   141,
+   1
+  ],
+  "563": [
+   141,
+   2
+  ],
+  "564": [
+   141,
+   3
+  ],
+  "565": [
+   142,
+   0
+  ],
+  "566": [
+   142,
+   1
+  ],
+  "567": [
+   142,
+   2
+  ],
+  "568": [
+   142,
+   3
+  ],
+  "569": [
+   143,
+   0
+  ],
+  "570": [
+   143,
+   1
+  ],
+  "571": [
+   143,
+   2
+  ],
+  "572": [
+   143,
+   3
+  ],
+  "573": [
+   144,
+   0
+  ],
+  "574": [
+   144,
+   1
+  ],
+  "575": [
+   144,
+   2
+  ],
+  "576": [
+   144,
+   3
+  ],
+  "577": [
+   145,
+   0
+  ],
+  "578": [
+   145,
+   1
+  ],
+  "579": [
+   145,
+   2
+  ],
+  "580": [
+   145,
+   3
+  ],
+  "581": [
+   146,
+   0
+  ],
+  "582": [
+   146,
+   1
+  ],
+  "583": [
+   146,
+   2
+  ],
+  "584": [
+   146,
+   3
+  ],
+  "585": [
+   147,
+   0
+  ],
+  "586": [
+   147,
+   1
+  ],
+  "587": [
+   147,
+   2
+  ],
+  "588": [
+   147,
+   3
+  ],
+  "589": [
+   148,
+   0
+  ],
+  "590": [
+   148,
+   1
+  ],
+  "591": [
+   148,
+   2
+  ],
+  "592": [
+   148,
+   3
+  ],
+  "593": [
+   149,
+   0
+  ],
+  "594": [
+   149,
+   1
+  ],
+  "595": [
+   149,
+   2
+  ],
+  "596": [
+   149,
+   3
+  ],
+  "597": [
+   150,
+   0
+  ],
+  "598": [
+   150,
+   1
+  ],
+  "599": [
+   150,
+   2
+  ],
+  "600": [
+   150,
+   3
+  ],
+  "601": [
+   151,
+   0
+  ],
+  "602": [
+   151,
+   1
+  ],
+  "603": [
+   151,
+   2
+  ],
+  "604": [
+   151,
+   3
+  ],
+  "605": [
+   152,
+   0
+  ],
+  "606": [
+   152,
+   1
+  ],
+  "607": [
+   152,
+   2
+  ],
+  "608": [
+   152,
+   3
+  ],
+  "609": [
+   153,
+   0
+  ],
+  "610": [
+   153,
+   1
+  ],
+  "611": [
+   153,
+   2
+  ],
+  "612": [
+   153,
+   3
+  ],
+  "613": [
+   154,
+   0
+  ],
+  "614": [
+   154,
+   1
+  ],
+  "615": [
+   154,
+   2
+  ],
+  "616": [
+   154,
+   3
+  ],
+  "617": [
+   155,
+   0
+  ],
+  "618": [
+   155,
+   1
+  ],
+  "619": [
+   155,
+   2
+  ],
+  "620": [
+   155,
+   3
+  ],
+  "621": [
+   156,
+   0
+  ],
+  "622": [
+   156,
+   1
+  ],
+  "623": [
+   156,
+   2
+  ],
+  "624": [
+   156,
+   3
+  ],
+  "625": [
+   157,
+   0
+  ],
+  "626": [
+   157,
+   1
+  ],
+  "627": [
+   157,
+   2
+  ],
+  "628": [
+   157,
+   3
+  ],
+  "629": [
+   158,
+   0
+  ],
+  "630": [
+   158,
+   1
+  ],
+  "631": [
+   158,
+   2
+  ],
+  "632": [
+   158,
+   3
+  ],
+  "633": [
+   159,
+   0
+  ],
+  "634": [
+   159,
+   1
+  ],
+  "635": [
+   159,
+   2
+  ],
+  "636": [
+   159,
+   3
+  ],
+  "637": [
+   160,
+   0
+  ],
+  "638": [
+   160,
+   1
+  ],
+  "639": [
+   160,
+   2
+  ],
+  "640": [
+   160,
+   3
+  ],
+  "641": [
+   161,
+   0
+  ],
+  "642": [
+   161,
+   1
+  ],
+  "643": [
+   161,
+   2
+  ],
+  "644": [
+   161,
+   3
+  ],
+  "645": [
+   162,
+   0
+  ],
+  "646": [
+   162,
+   1
+  ],
+  "647": [
+   162,
+   2
+  ],
+  "648": [
+   162,
+   3
+  ],
+  "649": [
+   163,
+   0
+  ],
+  "650": [
+   163,
+   1
+  ],
+  "651": [
+   163,
+   2
+  ],
+  "652": [
+   163,
+   3
+  ],
+  "653": [
+   164,
+   0
+  ],
+  "654": [
+   164,
+   1
+  ],
+  "655": [
+   164,
+   2
+  ],
+  "656": [
+   164,
+   3
+  ],
+  "657": [
+   165,
+   0
+  ],
+  "658": [
+   165,
+   1
+  ],
+  "659": [
+   165,
+   2
+  ],
+  "660": [
+   165,
+   3
+  ],
+  "661": [
+   166,
+   0
+  ],
+  "662": [
+   166,
+   1
+  ],
+  "663": [
+   166,
+   2
+  ],
+  "664": [
+   166,
+   3
+  ],
+  "665": [
+   167,
+   0
+  ],
+  "666": [
+   167,
+   1
+  ],
+  "667": [
+   167,
+   2
+  ],
+  "668": [
+   167,
+   3
+  ],
+  "669": [
+   168,
+   0
+  ],
+  "670": [
+   168,
+   1
+  ],
+  "671": [
+   168,
+   2
+  ],
+  "672": [
+   168,
+   3
+  ],
+  "673": [
+   169,
+   0
+  ],
+  "674": [
+   169,
+   1
+  ],
+  "675": [
+   169,
+   2
+  ],
+  "676": [
+   169,
+   3
+  ],
+  "677": [
+   170,
+   0
+  ],
+  "678": [
+   170,
+   1
+  ],
+  "679": [
+   170,
+   2
+  ],
+  "680": [
+   170,
+   3
+  ],
+  "681": [
+   171,
+   0
+  ],
+  "682": [
+   171,
+   1
+  ],
+  "683": [
+   171,
+   2
+  ],
+  "684": [
+   171,
+   3
+  ],
+  "685": [
+   172,
+   0
+  ],
+  "686": [
+   172,
+   1
+  ],
+  "687": [
+   172,
+   2
+  ],
+  "688": [
+   172,
+   3
+  ],
+  "689": [
+   173,
+   0
+  ],
+  "690": [
+   173,
+   1
+  ],
+  "691": [
+   173,
+   2
+  ],
+  "692": [
+   173,
+   3
+  ],
+  "693": [
+   174,
+   0
+  ],
+  "694": [
+   174,
+   1
+  ],
+  "695": [
+   174,
+   2
+  ],
+  "696": [
+   174,
+   3
+  ],
+  "697": [
+   175,
+   0
+  ],
+  "698": [
+   175,
+   1
+  ],
+  "699": [
+   175,
+   2
+  ],
+  "700": [
+   175,
+   3
+  ],
+  "701": [
+   176,
+   0
+  ],
+  "702": [
+   176,
+   1
+  ],
+  "703": [
+   176,
+   2
+  ],
+  "704": [
+   176,
+   3
+  ],
+  "705": [
+   177,
+   0
+  ],
+  "706": [
+   177,
+   1
+  ],
+  "707": [
+   177,
+   2
+  ],
+  "708": [
+   177,
+   3
+  ],
+  "709": [
+   178,
+   0
+  ],
+  "710": [
+   178,
+   1
+  ],
+  "711": [
+   178,
+   2
+  ],
+  "712": [
+   178,
+   3
+  ],
+  "713": [
+   179,
+   0
+  ],
+  "714": [
+   179,
+   1
+  ],
+  "715": [
+   179,
+   2
+  ],
+  "716": [
+   179,
+   3
+  ],
+  "717": [
+   180,
+   0
+  ],
+  "718": [
+   180,
+   1
+  ],
+  "719": [
+   180,
+   2
+  ],
+  "720": [
+   180,
+   3
+  ],
+  "721": [
+   181,
+   0
+  ],
+  "722": [
+   181,
+   1
+  ],
+  "723": [
+   181,
+   2
+  ],
+  "724": [
+   181,
+   3
+  ],
+  "725": [
+   182,
+   0
+  ],
+  "726": [
+   182,
+   1
+  ],
+  "727": [
+   182,
+   2
+  ],
+  "728": [
+   182,
+   3
+  ],
+  "729": [
+   183,
+   0
+  ],
+  "730": [
+   183,
+   1
+  ],
+  "731": [
+   183,
+   2
+  ],
+  "732": [
+   183,
+   3
+  ],
+  "733": [
+   184,
+   0
+  ],
+  "734": [
+   184,
+   1
+  ],
+  "735": [
+   184,
+   2
+  ],
+  "736": [
+   184,
+   3
+  ],
+  "737": [
+   185,
+   0
+  ],
+  "738": [
+   185,
+   1
+  ],
+  "739": [
+   185,
+   2
+  ],
+  "740": [
+   185,
+   3
+  ],
+  "741": [
+   186,
+   0
+  ],
+  "742": [
+   186,
+   1
+  ],
+  "743": [
+   186,
+   2
+  ],
+  "744": [
+   186,
+   3
+  ],
+  "745": [
+   187,
+   0
+  ],
+  "746": [
+   187,
+   1
+  ],
+  "747": [
+   187,
+   2
+  ],
+  "748": [
+   187,
+   3
+  ],
+  "749": [
+   188,
+   0
+  ],
+  "750": [
+   188,
+   1
+  ],
+  "751": [
+   188,
+   2
+  ],
+  "752": [
+   188,
+   3
+  ],
+  "753": [
+   189,
+   0
+  ],
+  "754": [
+   189,
+   1
+  ],
+  "755": [
+   189,
+   2
+  ],
+  "756": [
+   189,
+   3
+  ],
+  "757": [
+   190,
+   0
+  ],
+  "758": [
+   190,
+   1
+  ],
+  "759": [
+   190,
+   2
+  ],
+  "760": [
+   190,
+   3
+  ],
+  "761": [
+   191,
+   0
+  ],
+  "762": [
+   191,
+   1
+  ],
+  "763": [
+   191,
+   2
+  ],
+  "764": [
+   191,
+   3
+  ],
+  "765": [
+   192,
+   0
+  ],
+  "766": [
+   192,
+   1
+  ],
+  "767": [
+   192,
+   2
+  ],
+  "768": [
+   192,
+   3
+  ],
+  "769": [
+   193,
+   0
+  ],
+  "770": [
+   193,
+   1
+  ],
+  "771": [
+   193,
+   2
+  ],
+  "772": [
+   193,
+   3
+  ],
+  "773": [
+   194,
+   0
+  ],
+  "774": [
+   194,
+   1
+  ],
+  "775": [
+   194,
+   2
+  ],
+  "776": [
+   194,
+   3
+  ],
+  "777": [
+   195,
+   0
+  ],
+  "778": [
+   195,
+   1
+  ],
+  "779": [
+   195,
+   2
+  ],
+  "780": [
+   195,
+   3
+  ],
+  "781": [
+   196,
+   0
+  ],
+  "782": [
+   196,
+   1
+  ],
+  "783": [
+   196,
+   2
+  ],
+  "784": [
+   196,
+   3
+  ],
+  "785": [
+   197,
+   0
+  ],
+  "786": [
+   197,
+   1
+  ],
+  "787": [
+   197,
+   2
+  ],
+  "788": [
+   197,
+   3
+  ],
+  "789": [
+   198,
+   0
+  ],
+  "790": [
+   198,
+   1
+  ],
+  "791": [
+   198,
+   2
+  ],
+  "792": [
+   198,
+   3
+  ],
+  "793": [
+   199,
+   0
+  ],
+  "794": [
+   199,
+   1
+  ],
+  "795": [
+   199,
+   2
+  ],
+  "796": [
+   199,
+   3
+  ],
+  "797": [
+   200,
+   0
+  ],
+  "798": [
+   200,
+   1
+  ],
+  "799": [
+   200,
+   2
+  ],
+  "800": [
+   200,
+   3
+  ],
+  "801": [
+   201,
+   0
+  ],
+  "802": [
+   201,
+   1
+  ],
+  "803": [
+   201,
+   2
+  ],
+  "804": [
+   201,
+   3
+  ],
+  "805": [
+   202,
+   0
+  ],
+  "806": [
+   202,
+   1
+  ],
+  "807": [
+   202,
+   2
+  ],
+  "808": [
+   202,
+   3
+  ],
+  "809": [
+   203,
+   0
+  ],
+  "810": [
+   203,
+   1
+  ],
+  "811": [
+   203,
+   2
+  ],
+  "812": [
+   203,
+   3
+  ],
+  "813": [
+   204,
+   0
+  ],
+  "814": [
+   204,
+   1
+  ],
+  "815": [
+   204,
+   2
+  ],
+  "816": [
+   204,
+   3
+  ],
+  "817": [
+   205,
+   0
+  ],
+  "818": [
+   205,
+   1
+  ],
+  "819": [
+   205,
+   2
+  ],
+  "820": [
+   205,
+   3
+  ],
+  "821": [
+   206,
+   0
+  ],
+  "822": [
+   206,
+   1
+  ],
+  "823": [
+   206,
+   2
+  ],
+  "824": [
+   206,
+   3
+  ],
+  "825": [
+   207,
+   0
+  ],
+  "826": [
+   207,
+   1
+  ],
+  "827": [
+   207,
+   2
+  ],
+  "828": [
+   207,
+   3
+  ],
+  "829": [
+   208,
+   0
+  ],
+  "830": [
+   208,
+   1
+  ],
+  "831": [
+   208,
+   2
+  ],
+  "832": [
+   208,
+   3
+  ],
+  "833": [
+   209,
+   0
+  ],
+  "834": [
+   209,
+   1
+  ],
+  "835": [
+   209,
+   2
+  ],
+  "836": [
+   209,
+   3
+  ],
+  "837": [
+   210,
+   0
+  ],
+  "838": [
+   210,
+   1
+  ],
+  "839": [
+   210,
+   2
+  ],
+  "840": [
+   210,
+   3
+  ],
+  "841": [
+   211,
+   0
+  ],
+  "842": [
+   211,
+   1
+  ],
+  "843": [
+   211,
+   2
+  ],
+  "844": [
+   211,
+   3
+  ],
+  "845": [
+   212,
+   0
+  ],
+  "846": [
+   212,
+   1
+  ],
+  "847": [
+   212,
+   2
+  ],
+  "848": [
+   212,
+   3
+  ],
+  "849": [
+   213,
+   0
+  ],
+  "850": [
+   213,
+   1
+  ],
+  "851": [
+   213,
+   2
+  ],
+  "852": [
+   213,
+   3
+  ],
+  "853": [
+   214,
+   0
+  ],
+  "854": [
+   214,
+   1
+  ],
+  "855": [
+   214,
+   2
+  ],
+  "856": [
+   214,
+   3
+  ],
+  "857": [
+   215,
+   0
+  ],
+  "858": [
+   215,
+   1
+  ],
+  "859": [
+   215,
+   2
+  ],
+  "860": [
+   215,
+   3
+  ],
+  "861": [
+   216,
+   0
+  ],
+  "862": [
+   216,
+   1
+  ],
+  "863": [
+   216,
+   2
+  ],
+  "864": [
+   216,
+   3
+  ],
+  "865": [
+   217,
+   0
+  ],
+  "866": [
+   217,
+   1
+  ],
+  "867": [
+   217,
+   2
+  ],
+  "868": [
+   217,
+   3
+  ],
+  "869": [
+   218,
+   0
+  ],
+  "870": [
+   218,
+   1
+  ],
+  "871": [
+   218,
+   2
+  ],
+  "872": [
+   218,
+   3
+  ],
+  "873": [
+   219,
+   0
+  ],
+  "874": [
+   219,
+   1
+  ],
+  "875": [
+   219,
+   2
+  ],
+  "876": [
+   219,
+   3
+  ],
+  "877": [
+   220,
+   0
+  ],
+  "878": [
+   220,
+   1
+  ],
+  "879": [
+   220,
+   2
+  ],
+  "880": [
+   220,
+   3
+  ],
+  "881": [
+   221,
+   0
+  ],
+  "882": [
+   221,
+   1
+  ],
+  "883": [
+   221,
+   2
+  ],
+  "884": [
+   221,
+   3
+  ],
+  "885": [
+   222,
+   0
+  ],
+  "886": [
+   222,
+   1
+  ],
+  "887": [
+   222,
+   2
+  ],
+  "888": [
+   222,
+   3
+  ],
+  "889": [
+   223,
+   0
+  ],
+  "890": [
+   223,
+   1
+  ],
+  "891": [
+   223,
+   2
+  ],
+  "892": [
+   223,
+   3
+  ],
+  "893": [
+   224,
+   0
+  ],
+  "894": [
+   224,
+   1
+  ],
+  "895": [
+   224,
+   2
+  ],
+  "896": [
+   224,
+   3
+  ],
+  "897": [
+   225,
+   0
+  ],
+  "898": [
+   225,
+   1
+  ],
+  "899": [
+   225,
+   2
+  ],
+  "900": [
+   225,
+   3
+  ],
+  "901": [
+   226,
+   0
+  ],
+  "902": [
+   226,
+   1
+  ],
+  "903": [
+   226,
+   2
+  ],
+  "904": [
+   226,
+   3
+  ],
+  "905": [
+   227,
+   0
+  ],
+  "906": [
+   227,
+   1
+  ],
+  "907": [
+   227,
+   2
+  ],
+  "908": [
+   227,
+   3
+  ],
+  "909": [
+   228,
+   0
+  ],
+  "910": [
+   228,
+   1
+  ],
+  "911": [
+   228,
+   2
+  ],
+  "912": [
+   228,
+   3
+  ],
+  "913": [
+   229,
+   0
+  ],
+  "914": [
+   229,
+   1
+  ],
+  "915": [
+   229,
+   2
+  ],
+  "916": [
+   229,
+   3
+  ],
+  "917": [
+   230,
+   0
+  ],
+  "918": [
+   230,
+   1
+  ],
+  "919": [
+   230,
+   2
+  ],
+  "920": [
+   230,
+   3
+  ],
+  "921": [
+   231,
+   0
+  ],
+  "922": [
+   231,
+   1
+  ],
+  "923": [
+   231,
+   2
+  ],
+  "924": [
+   231,
+   3
+  ],
+  "925": [
+   232,
+   0
+  ],
+  "926": [
+   232,
+   1
+  ],
+  "927": [
+   232,
+   2
+  ],
+  "928": [
+   232,
+   3
+  ],
+  "929": [
+   233,
+   0
+  ],
+  "930": [
+   233,
+   1
+  ],
+  "931": [
+   233,
+   2
+  ],
+  "932": [
+   233,
+   3
+  ],
+  "933": [
+   234,
+   0
+  ],
+  "934": [
+   234,
+   1
+  ],
+  "935": [
+   234,
+   2
+  ],
+  "936": [
+   234,
+   3
+  ],
+  "937": [
+   235,
+   0
+  ],
+  "938": [
+   235,
+   1
+  ],
+  "939": [
+   235,
+   2
+  ],
+  "940": [
+   235,
+   3
+  ],
+  "941": [
+   236,
+   0
+  ],
+  "942": [
+   236,
+   1
+  ],
+  "943": [
+   236,
+   2
+  ],
+  "944": [
+   236,
+   3
+  ],
+  "945": [
+   237,
+   0
+  ],
+  "946": [
+   237,
+   1
+  ],
+  "947": [
+   237,
+   2
+  ],
+  "948": [
+   237,
+   3
+  ],
+  "949": [
+   238,
+   0
+  ],
+  "950": [
+   238,
+   1
+  ],
+  "951": [
+   238,
+   2
+  ],
+  "952": [
+   238,
+   3
+  ],
+  "953": [
+   239,
+   0
+  ],
+  "954": [
+   239,
+   1
+  ],
+  "955": [
+   239,
+   2
+  ],
+  "956": [
+   239,
+   3
+  ],
+  "957": [
+   240,
+   0
+  ],
+  "958": [
+   240,
+   1
+  ],
+  "959": [
+   240,
+   2
+  ],
+  "960": [
+   240,
+   3
+  ],
+  "961": [
+   241,
+   0
+  ],
+  "962": [
+   241,
+   1
+  ],
+  "963": [
+   241,
+   2
+  ],
+  "964": [
+   241,
+   3
+  ],
+  "965": [
+   242,
+   0
+  ],
+  "966": [
+   242,
+   1
+  ],
+  "967": [
+   242,
+   2
+  ],
+  "968": [
+   242,
+   3
+  ],
+  "969": [
+   243,
+   0
+  ],
+  "970": [
+   243,
+   1
+  ],
+  "971": [
+   243,
+   2
+  ],
+  "972": [
+   243,
+   3
+  ],
+  "973": [
+   244,
+   0
+  ],
+  "974": [
+   244,
+   1
+  ],
+  "975": [
+   244,
+   2
+  ],
+  "976": [
+   244,
+   3
+  ],
+  "977": [
+   245,
+   0
+  ],
+  "978": [
+   245,
+   1
+  ],
+  "979": [
+   245,
+   2
+  ],
+  "980": [
+   245,
+   3
+  ],
+  "981": [
+   246,
+   0
+  ],
+  "982": [
+   246,
+   1
+  ],
+  "983": [
+   246,
+   2
+  ],
+  "984": [
+   246,
+   3
+  ],
+  "985": [
+   247,
+   0
+  ],
+  "986": [
+   247,
+   1
+  ],
+  "987": [
+   247,
+   2
+  ],
+  "988": [
+   247,
+   3
+  ],
+  "989": [
+   248,
+   0
+  ],
+  "990": [
+   248,
+   1
+  ],
+  "991": [
+   248,
+   2
+  ],
+  "992": [
+   248,
+   3
+  ],
+  "993": [
+   249,
+   0
+  ],
+  "994": [
+   249,
+   1
+  ],
+  "995": [
+   249,
+   2
+  ],
+  "996": [
+   249,
+   3
+  ],
+  "997": [
+   250,
+   0
+  ],
+  "998": [
+   250,
+   1
+  ],
+  "999": [
+   250,
+   2
+  ],
+  "1000": [
+   250,
+   3
+  ],
+  "1001": [
+   251,
+   0
+  ],
+  "1002": [
+   251,
+   1
+  ],
+  "1003": [
+   251,
+   2
+  ],
+  "1004": [
+   251,
+   3
+  ],
+  "1005": [
+   252,
+   0
+  ],
+  "1006": [
+   252,
+   1
+  ],
+  "1007": [
+   252,
+   2
+  ],
+  "1008": [
+   252,
+   3
+  ],
+  "1009": [
+   253,
+   0
+  ],
+  "1010": [
+   253,
+   1
+  ],
+  "1011": [
+   253,
+   2
+  ],
+  "1012": [
+   253,
+   3
+  ],
+  "1013": [
+   254,
+   0
+  ],
+  "1014": [
+   254,
+   1
+  ],
+  "1015": [
+   254,
+   2
+  ],
+  "1016": [
+   254,
+   3
+  ],
+  "1017": [
+   255,
+   0
+  ],
+  "1018": [
+   255,
+   1
+  ],
+  "1019": [
+   255,
+   2
+  ],
+  "1020": [
+   255,
+   3
+  ],
+  "1021": [
+   256,
+   0
+  ],
+  "1022": [
+   256,
+   1
+  ],
+  "1023": [
+   256,
+   2
+  ],
+  "1024": [
+   256,
+   3
+  ]
+ },
+ "output_csv": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\connectivity_1024_proposed.csv",
+  "sha256": "b66b72c7f47d710c83bd752c896f429f6e128b295f888ceb67f1009091517f26",
+  "bytes": 39885,
+  "rows": 1024,
+  "header": [
+   "route_id",
+   "source_side",
+   "source_connector",
+   "source_row",
+   "source_column",
+   "source_channel",
+   "target_side",
+   "target_connector",
+   "target_row",
+   "target_column",
+   "target_channel",
+   "relation"
+  ],
+  "header_matches_reference": true,
+  "reference_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\inputs\\connectivity_1024.csv",
+  "reference_header": [
+   "route_id",
+   "source_side",
+   "source_connector",
+   "source_row",
+   "source_column",
+   "source_channel",
+   "target_side",
+   "target_connector",
+   "target_row",
+   "target_column",
+   "target_channel",
+   "relation"
+  ],
+  "schema_note": "same 12-column V3/V4 topology schema as the old campaign connectivity_1024.csv"
+ },
+ "output_csv_annotated": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\connectivity_1024_proposed_annotated.csv",
+  "sha256": "5b80d99ea22c2a0c8cd1c0960fd15ead49fff4883d7a6148547cc783aa496bec",
+  "rows": 1024,
+  "columns": 21,
+  "fields": [
+   "route_id",
+   "source_side",
+   "source_connector",
+   "source_row",
+   "source_column",
+   "source_channel",
+   "target_side",
+   "target_connector",
+   "target_row",
+   "target_column",
+   "target_channel",
+   "relation",
+   "source_port_id",
+   "target_port_id",
+   "source_x_mm",
+   "source_y_mm",
+   "target_x_mm",
+   "target_y_mm",
+   "layer",
+   "plane",
+   "pair"
+  ],
+  "note": "19-column manual schema plus plane/pair annotations; convenience variant, not the engineering topology schema"
+ },
+ "cross_validation_with_campaign_builder": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\inputs\\connectivity_1024.csv",
+  "sha256": "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+  "rows": 1024,
+  "header": [
+   "route_id",
+   "source_side",
+   "source_connector",
+   "source_row",
+   "source_column",
+   "source_channel",
+   "target_side",
+   "target_connector",
+   "target_row",
+   "target_column",
+   "target_channel",
+   "relation"
+  ],
+  "header_equals": true,
+  "common": 1024,
+  "only_audit": 0,
+  "only_builder": 0,
+  "connection_sets_equal": true,
+  "route_id_identity": 604,
+  "route_id_identity_note": "Z1 route_id 1..512 identical; Z2 route_id 513..1024 depend on the C4 phase ordering"
+ },
+ "checks": [
+  {
+   "id": "c-01",
+   "name": "exactly 1024 connections",
+   "passed": true,
+   "detail": 1024
+  },
+  {
+   "id": "c-02",
+   "name": "route_id = 1..1024 exactly once",
+   "passed": true,
+   "detail": {
+    "count": 1024,
+    "unique": 1024
+   }
+  },
+  {
+   "id": "c-03",
+   "name": "plane split 512 z1 + 512 z2",
+   "passed": true,
+   "detail": {
+    "z1": 512,
+    "z2": 512
+   }
+  },
+  {
+   "id": "c-04",
+   "name": "every z1 route uses row 1 and every z2 route uses row 2",
+   "passed": true,
+   "detail": {
+    "('z1', 1, 1)": 512,
+    "('z2', 2, 2)": 512
+   }
+  },
+  {
+   "id": "c-05",
+   "name": "2048 endpoints used, each exactly once",
+   "passed": true,
+   "detail": {
+    "unique": 2048,
+    "max_use": 1
+   }
+  },
+  {
+   "id": "c-06",
+   "name": "endpoint set equals the full frozen 2048-port model",
+   "passed": true,
+   "detail": {
+    "missing": 0,
+    "extra": 0
+   }
+  },
+  {
+   "id": "c-07",
+   "name": "64 connectors x 32 holes: every connector fully covered, each hole once",
+   "passed": true,
+   "detail": {
+    "connectors": 64,
+    "min_holes": 32,
+    "max_holes": 32
+   }
+  },
+  {
+   "id": "c-08",
+   "name": "each board side provides 512 used endpoints",
+   "passed": true,
+   "detail": {
+    "E": 512,
+    "N": 512,
+    "S": 512,
+    "W": 512
+   }
+  },
+  {
+   "id": "c-09",
+   "name": "no duplicate unordered connection",
+   "passed": true,
+   "detail": {
+    "unique": 1024
+   }
+  },
+  {
+   "id": "c-10",
+   "name": "z1 relations = opposite 256 / same 256",
+   "passed": true,
+   "detail": {
+    "opposite": 256,
+    "same": 256
+   }
+  },
+  {
+   "id": "c-11",
+   "name": "z2 relations = adjacent 400 / same 112",
+   "passed": true,
+   "detail": {
+    "adjacent": 400,
+    "same": 112
+   }
+  },
+  {
+   "id": "c-12",
+   "name": "combined relation totals = opposite 256 / adjacent 400 / same 368",
+   "passed": true,
+   "detail": {
+    "adjacent": 400,
+    "opposite": 256,
+    "same": 368
+   }
+  },
+  {
+   "id": "c-13",
+   "name": "relation field equals frozen-model relation on every row",
+   "passed": true,
+   "detail": {
+    "mismatches": 0
+   }
+  },
+  {
+   "id": "c-14",
+   "name": "cross-edge endpoints 1312 / same-side U endpoints 736",
+   "passed": true,
+   "detail": {
+    "cross_connections": 656,
+    "cross_endpoints": 1312,
+    "u_connections": 368,
+    "u_endpoints": 736,
+    "total_endpoints": 2048
+   }
+  },
+  {
+   "id": "c-15",
+   "name": "256 strict C4 orbits of 4 connections, 128 per plane",
+   "passed": true,
+   "detail": {
+    "groups": 256,
+    "per_plane": {
+     "z1": 128,
+     "z2": 128
+    },
+    "orbit_size_histogram": {
+     "4": 256
+    }
+   }
+  },
+  {
+   "id": "c-16",
+   "name": "rotation closure 0 missing at 90/180/270 deg",
+   "passed": true,
+   "detail": {
+    "90deg": 0,
+    "180deg": 0,
+    "270deg": 0
+   }
+  },
+  {
+   "id": "c-17",
+   "name": "group kinds = opposite 64 / adjacent 100 / same 92",
+   "passed": true,
+   "detail": {
+    "adjacent": 100,
+    "opposite": 64,
+    "same": 92
+   }
+  },
+  {
+   "id": "c-18",
+   "name": "every C4 orbit stays inside one plane and one relation class",
+   "passed": true,
+   "detail": {
+    "kinds": {
+     "adjacent": 100,
+     "opposite": 64,
+     "same": 92
+    },
+    "per_plane": {
+     "z1": 128,
+     "z2": 128
+    }
+   }
+  },
+  {
+   "id": "c-19",
+   "name": "proposed CSV has the same 12-column schema as the engineering V3/V4 connectivity table",
+   "passed": true,
+   "detail": {
+    "header": [
+     "route_id",
+     "source_side",
+     "source_connector",
+     "source_row",
+     "source_column",
+     "source_channel",
+     "target_side",
+     "target_connector",
+     "target_row",
+     "target_column",
+     "target_channel",
+     "relation"
+    ],
+    "rows": 1024
+   }
+  },
+  {
+   "id": "c-20",
+   "name": "proposed CSV round-trips: 1024 rows, route_id 1..1024, all port identities resolvable",
+   "passed": true,
+   "detail": {
+    "rows": 1024
+   }
+  },
+  {
+   "id": "c-21",
+   "name": "annotated CSV has 1024 rows and 21 columns",
+   "passed": true,
+   "detail": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\connectivity_1024_proposed_annotated.csv",
+    "sha256": "5b80d99ea22c2a0c8cd1c0960fd15ead49fff4883d7a6148547cc783aa496bec",
+    "rows": 1024,
+    "columns": 21,
+    "fields": [
+     "route_id",
+     "source_side",
+     "source_connector",
+     "source_row",
+     "source_column",
+     "source_channel",
+     "target_side",
+     "target_connector",
+     "target_row",
+     "target_column",
+     "target_channel",
+     "relation",
+     "source_port_id",
+     "target_port_id",
+     "source_x_mm",
+     "source_y_mm",
+     "target_x_mm",
+     "target_y_mm",
+     "layer",
+     "plane",
+     "pair"
+    ],
+    "note": "19-column manual schema plus plane/pair annotations; convenience variant, not the engineering topology schema"
+   }
+  },
+  {
+   "id": "c-22",
+   "name": "Z1 512 connections preserved with the same route_id and ordering",
+   "passed": true,
+   "detail": {
+    "rows": 512
+   }
+  },
+  {
+   "id": "c-23",
+   "name": "Z2 512 connections use route_id 513..1024 (expanded order + 512)",
+   "passed": true,
+   "detail": {
+    "rows": 512
+   }
+  },
+  {
+   "id": "c-24",
+   "name": "connection set equals the independently built campaign combined CSV",
+   "passed": true,
+   "detail": {
+    "common": 1024,
+    "only_audit": 0,
+    "only_builder": 0,
+    "same_route_ids": 604
+   }
+  }
+ ],
+ "verdict": {
+  "errors": 0,
+  "passed": true
+ }
+}

@@ -1,0 +1,9473 @@
+{
+ "schema": "new_manual_csv_input_audit_teacher_coverage_v1",
+ "title": "Teacher dual-port-group requirement vs actual 1024-connection topology",
+ "board_mm": 150.0,
+ "teacher_nominal": {
+  "groups": 32,
+  "holes_per_group": 64,
+  "cross_holes": 48,
+  "u_holes": 16,
+  "required_cross_endpoints": 1536,
+  "required_u_endpoints": 512,
+  "actual_cross_endpoints": 1312,
+  "actual_u_endpoints": 736,
+  "nominal_is_globally_feasible": false,
+  "note": "the teacher nominal 48/16 for all 32 groups would need 1536 cross and 512 U endpoints, but the topology contains 1312 cross and 736 U endpoints, so the uniform 48/16 split cannot be produced by any 32-group partition of these 2048 endpoints"
+ },
+ "precheck": {
+  "corner_groups": 8,
+  "corner_cross": 32,
+  "corner_u": 32,
+  "other_groups": 24,
+  "other_cross": 44,
+  "other_u": 20,
+  "total_cross": 1312,
+  "total_u": 736
+ },
+ "per_connector": {
+  "classes": {
+   "end": {
+    "connectors": 16,
+    "cross_values": [
+     16
+    ],
+    "u_values": [
+     16
+    ],
+    "cross_total": 256,
+    "u_total": 256,
+    "ports_total": 512
+   },
+   "middle": {
+    "connectors": 48,
+    "cross_values": [
+     22
+    ],
+    "u_values": [
+     10
+    ],
+    "cross_total": 1056,
+    "u_total": 480,
+    "ports_total": 1536
+   }
+  },
+  "table": {
+   "N01": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   },
+   "N02": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "N03": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "N04": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "N05": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "N06": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "N07": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "N08": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "N09": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "N10": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "N11": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "N12": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "N13": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "N14": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "N15": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "N16": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   },
+   "S01": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   },
+   "S02": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "S03": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "S04": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "S05": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "S06": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "S07": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "S08": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "S09": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "S10": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "S11": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "S12": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "S13": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "S14": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "S15": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "S16": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   },
+   "E01": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   },
+   "E02": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "E03": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "E04": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "E05": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "E06": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "E07": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "E08": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "E09": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "E10": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "E11": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "E12": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "E13": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "E14": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "E15": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "E16": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   },
+   "W01": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   },
+   "W02": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "W03": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "W04": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "W05": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "W06": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "W07": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "W08": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "W09": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 70.5
+   },
+   "W10": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 61.5
+   },
+   "W11": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 52.5
+   },
+   "W12": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 43.5
+   },
+   "W13": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 34.5
+   },
+   "W14": {
+    "cross": 22,
+    "u": 10,
+    "total": 32,
+    "connector_class": "middle",
+    "min_corner_distance_mm": 25.5
+   },
+   "W15": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 16.5
+   },
+   "W16": {
+    "cross": 16,
+    "u": 16,
+    "total": 32,
+    "connector_class": "end",
+    "min_corner_distance_mm": 7.5
+   }
+  },
+  "end_connectors": [
+   "N01",
+   "N02",
+   "N15",
+   "N16",
+   "S01",
+   "S02",
+   "S15",
+   "S16",
+   "E01",
+   "E02",
+   "E15",
+   "E16",
+   "W01",
+   "W02",
+   "W15",
+   "W16"
+  ],
+  "middle_connectors": [
+   "N03",
+   "N04",
+   "N05",
+   "N06",
+   "N07",
+   "N08",
+   "N09",
+   "N10",
+   "N11",
+   "N12",
+   "N13",
+   "N14",
+   "S03",
+   "S04",
+   "S05",
+   "S06",
+   "S07",
+   "S08",
+   "S09",
+   "S10",
+   "S11",
+   "S12",
+   "S13",
+   "S14",
+   "E03",
+   "E04",
+   "E05",
+   "E06",
+   "E07",
+   "E08",
+   "E09",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "W03",
+   "W04",
+   "W05",
+   "W06",
+   "W07",
+   "W08",
+   "W09",
+   "W10",
+   "W11",
+   "W12",
+   "W13",
+   "W14"
+  ]
+ },
+ "pairing_constraint_derivation": {
+  "cross_count_histogram": {
+   "16": 16,
+   "22": 48
+  },
+  "u_count_histogram": {
+   "10": 48,
+   "16": 16
+  },
+  "pair_cross_sum_histogram": {
+   "32": 120,
+   "38": 768,
+   "44": 1128
+  },
+  "end_connectors": [
+   "N01",
+   "N02",
+   "N15",
+   "N16",
+   "S01",
+   "S02",
+   "S15",
+   "S16",
+   "E01",
+   "E02",
+   "E15",
+   "E16",
+   "W01",
+   "W02",
+   "W15",
+   "W16"
+  ],
+  "middle_connectors": [
+   "N03",
+   "N04",
+   "N05",
+   "N06",
+   "N07",
+   "N08",
+   "N09",
+   "N10",
+   "N11",
+   "N12",
+   "N13",
+   "N14",
+   "S03",
+   "S04",
+   "S05",
+   "S06",
+   "S07",
+   "S08",
+   "S09",
+   "S10",
+   "S11",
+   "S12",
+   "S13",
+   "S14",
+   "E03",
+   "E04",
+   "E05",
+   "E06",
+   "E07",
+   "E08",
+   "E09",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "W03",
+   "W04",
+   "W05",
+   "W06",
+   "W07",
+   "W08",
+   "W09",
+   "W10",
+   "W11",
+   "W12",
+   "W13",
+   "W14"
+  ],
+  "end_connector_count": 16,
+  "middle_connector_count": 48,
+  "target_group_cross_values": {
+   "corner": 32,
+   "other": 44
+  },
+  "end_end_pairs_available": 120,
+  "end_middle_pairs_producing_38": 768,
+  "middle_middle_pairs_available": 1128,
+  "argument": [
+   "每个连接器 32 个孔全部使用；跨边端点计数为：16 个端部连接器（每边 01/02/15/16）各 16 个，48 个中部连接器（每边 03..14）各 22 个",
+   "因此 2 连接器组的跨边孔只可能是 32（16+16）、38（16+22）或 44（22+22）",
+   "任务书预检要求恰好 8 组为 32、24 组为 44；38 不允许出现，故任何组都不能把端部连接器与中部连接器配在一起",
+   "16 个端部连接器因此只能两两互配、恰好 8 对（即 8 个角部组）；48 个中部连接器只能两两互配、恰好 24 对（即 24 个其他组）",
+   "所以 8×(32 跨边/32 U) + 24×(44 跨边/20 U) 不是巧合，而是由每个连接器的跨边/U 拆分强制的；任何满足\"端部-端部、中部-中部\"的完美匹配都能精确复现该计数，因此仅凭计数无法确定绝对配对，需再按几何定位选择规则"
+  ],
+  "conclusion": "预检分解可由任何\"端部-端部、中部-中部\"完美匹配复现；绝对配对必须用几何（角部定位与最小配对距离）确定，见候选规则"
+ },
+ "candidate_rules": {
+  "A_same_side_adjacent": {
+   "label": "同边相邻连接器两两配对 (01-02),(03-04),...,(15-16)",
+   "summary": {
+    "groups": 32,
+    "cross_u_histogram": {
+     "(32, 32)": 8,
+     "(44, 20)": 24
+    },
+    "corner_localised_groups": 8,
+    "corner_groups_per_corner": {
+     "NW": 2,
+     "NE": 2,
+     "SW": 2,
+     "SE": 2
+    },
+    "cross_total": 1312,
+    "u_total": 736,
+    "total_pair_distance_mm": 288.0,
+    "max_pair_distance_mm": 9.0,
+    "classes": {
+     "corner": 8,
+     "other": 24
+    },
+    "class_stats": {
+     "corner": {
+      "groups": 8,
+      "cross_each": [
+       32
+      ],
+      "u_each": [
+       32
+      ],
+      "cross_total": 256,
+      "u_total": 256,
+      "z1_cross": 128,
+      "z1_u": 128,
+      "z2_cross": 128,
+      "z2_u": 128
+     },
+     "other": {
+      "groups": 24,
+      "cross_each": [
+       44
+      ],
+      "u_each": [
+       20
+      ],
+      "cross_total": 1056,
+      "u_total": 480,
+      "z1_cross": 384,
+      "z1_u": 384,
+      "z2_cross": 672,
+      "z2_u": 96
+     }
+    },
+    "reproduces_precheck": true,
+    "cross_totals_match": true,
+    "u_totals_match": true
+   },
+   "groups": [
+    {
+     "group_id": 1,
+     "connectors": [
+      "N01",
+      "N02"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N01": 16,
+      "N02": 16
+     },
+     "u_per_connector": {
+      "N01": 16,
+      "N02": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 2,
+     "connectors": [
+      "N03",
+      "N04"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N03": 22,
+      "N04": 22
+     },
+     "u_per_connector": {
+      "N03": 10,
+      "N04": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 3,
+     "connectors": [
+      "N05",
+      "N06"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N05": 22,
+      "N06": 22
+     },
+     "u_per_connector": {
+      "N05": 10,
+      "N06": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 4,
+     "connectors": [
+      "N07",
+      "N08"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N07": 22,
+      "N08": 22
+     },
+     "u_per_connector": {
+      "N07": 10,
+      "N08": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 5,
+     "connectors": [
+      "N09",
+      "N10"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N09": 22,
+      "N10": 22
+     },
+     "u_per_connector": {
+      "N09": 10,
+      "N10": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 6,
+     "connectors": [
+      "N11",
+      "N12"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N11": 22,
+      "N12": 22
+     },
+     "u_per_connector": {
+      "N11": 10,
+      "N12": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 7,
+     "connectors": [
+      "N13",
+      "N14"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N13": 22,
+      "N14": 22
+     },
+     "u_per_connector": {
+      "N13": 10,
+      "N14": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 8,
+     "connectors": [
+      "N15",
+      "N16"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N15": 16,
+      "N16": 16
+     },
+     "u_per_connector": {
+      "N15": 16,
+      "N16": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 9,
+     "connectors": [
+      "S01",
+      "S02"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S01": 16,
+      "S02": 16
+     },
+     "u_per_connector": {
+      "S01": 16,
+      "S02": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 10,
+     "connectors": [
+      "S03",
+      "S04"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S03": 22,
+      "S04": 22
+     },
+     "u_per_connector": {
+      "S03": 10,
+      "S04": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 11,
+     "connectors": [
+      "S05",
+      "S06"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S05": 22,
+      "S06": 22
+     },
+     "u_per_connector": {
+      "S05": 10,
+      "S06": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 12,
+     "connectors": [
+      "S07",
+      "S08"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S07": 22,
+      "S08": 22
+     },
+     "u_per_connector": {
+      "S07": 10,
+      "S08": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 13,
+     "connectors": [
+      "S09",
+      "S10"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S09": 22,
+      "S10": 22
+     },
+     "u_per_connector": {
+      "S09": 10,
+      "S10": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 14,
+     "connectors": [
+      "S11",
+      "S12"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S11": 22,
+      "S12": 22
+     },
+     "u_per_connector": {
+      "S11": 10,
+      "S12": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 15,
+     "connectors": [
+      "S13",
+      "S14"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S13": 22,
+      "S14": 22
+     },
+     "u_per_connector": {
+      "S13": 10,
+      "S14": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 16,
+     "connectors": [
+      "S15",
+      "S16"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S15": 16,
+      "S16": 16
+     },
+     "u_per_connector": {
+      "S15": 16,
+      "S16": 16
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 17,
+     "connectors": [
+      "E01",
+      "E02"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "E01": 16,
+      "E02": 16
+     },
+     "u_per_connector": {
+      "E01": 16,
+      "E02": 16
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 18,
+     "connectors": [
+      "E03",
+      "E04"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E03": 22,
+      "E04": 22
+     },
+     "u_per_connector": {
+      "E03": 10,
+      "E04": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 19,
+     "connectors": [
+      "E05",
+      "E06"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E05": 22,
+      "E06": 22
+     },
+     "u_per_connector": {
+      "E05": 10,
+      "E06": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 20,
+     "connectors": [
+      "E07",
+      "E08"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E07": 22,
+      "E08": 22
+     },
+     "u_per_connector": {
+      "E07": 10,
+      "E08": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 21,
+     "connectors": [
+      "E09",
+      "E10"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E09": 22,
+      "E10": 22
+     },
+     "u_per_connector": {
+      "E09": 10,
+      "E10": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 22,
+     "connectors": [
+      "E11",
+      "E12"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E11": 22,
+      "E12": 22
+     },
+     "u_per_connector": {
+      "E11": 10,
+      "E12": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 23,
+     "connectors": [
+      "E13",
+      "E14"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E13": 22,
+      "E14": 22
+     },
+     "u_per_connector": {
+      "E13": 10,
+      "E14": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 24,
+     "connectors": [
+      "E15",
+      "E16"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "E15": 16,
+      "E16": 16
+     },
+     "u_per_connector": {
+      "E15": 16,
+      "E16": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 25,
+     "connectors": [
+      "W01",
+      "W02"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "W01": 16,
+      "W02": 16
+     },
+     "u_per_connector": {
+      "W01": 16,
+      "W02": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 26,
+     "connectors": [
+      "W03",
+      "W04"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W03": 22,
+      "W04": 22
+     },
+     "u_per_connector": {
+      "W03": 10,
+      "W04": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 27,
+     "connectors": [
+      "W05",
+      "W06"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W05": 22,
+      "W06": 22
+     },
+     "u_per_connector": {
+      "W05": 10,
+      "W06": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 28,
+     "connectors": [
+      "W07",
+      "W08"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W07": 22,
+      "W08": 22
+     },
+     "u_per_connector": {
+      "W07": 10,
+      "W08": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 29,
+     "connectors": [
+      "W09",
+      "W10"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W09": 22,
+      "W10": 22
+     },
+     "u_per_connector": {
+      "W09": 10,
+      "W10": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 30,
+     "connectors": [
+      "W11",
+      "W12"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W11": 22,
+      "W12": 22
+     },
+     "u_per_connector": {
+      "W11": 10,
+      "W12": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 31,
+     "connectors": [
+      "W13",
+      "W14"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W13": 22,
+      "W14": 22
+     },
+     "u_per_connector": {
+      "W13": 10,
+      "W14": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 32,
+     "connectors": [
+      "W15",
+      "W16"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "W15": 16,
+      "W16": 16
+     },
+     "u_per_connector": {
+      "W15": 16,
+      "W16": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    }
+   ]
+  },
+  "B_shifted_adjacent": {
+   "label": "错位相邻配对 (01-16),(02-03),(04-05),...,(14-15)",
+   "summary": {
+    "groups": 32,
+    "cross_u_histogram": {
+     "(32, 32)": 4,
+     "(38, 26)": 8,
+     "(44, 20)": 20
+    },
+    "corner_localised_groups": 0,
+    "corner_groups_per_corner": {},
+    "cross_total": 1312,
+    "u_total": 736,
+    "total_pair_distance_mm": 792.0,
+    "max_pair_distance_mm": 135.0,
+    "classes": {
+     "other": 32
+    },
+    "class_stats": {
+     "other": {
+      "groups": 32,
+      "cross_each": [
+       32,
+       38,
+       44
+      ],
+      "u_each": [
+       20,
+       26,
+       32
+      ],
+      "cross_total": 1312,
+      "u_total": 736,
+      "z1_cross": 512,
+      "z1_u": 512,
+      "z2_cross": 800,
+      "z2_u": 224
+     }
+    },
+    "reproduces_precheck": false,
+    "cross_totals_match": true,
+    "u_totals_match": true
+   },
+   "groups": [
+    {
+     "group_id": 1,
+     "connectors": [
+      "N01",
+      "N16"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N01": 16,
+      "N16": 16
+     },
+     "u_per_connector": {
+      "N01": 16,
+      "N16": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 2,
+     "connectors": [
+      "N02",
+      "N03"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "N02": 16,
+      "N03": 22
+     },
+     "u_per_connector": {
+      "N02": 16,
+      "N03": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    },
+    {
+     "group_id": 3,
+     "connectors": [
+      "N04",
+      "N05"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N04": 22,
+      "N05": 22
+     },
+     "u_per_connector": {
+      "N04": 10,
+      "N05": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 4,
+     "connectors": [
+      "N06",
+      "N07"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N06": 22,
+      "N07": 22
+     },
+     "u_per_connector": {
+      "N06": 10,
+      "N07": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 5,
+     "connectors": [
+      "N08",
+      "N09"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N08": 22,
+      "N09": 22
+     },
+     "u_per_connector": {
+      "N08": 10,
+      "N09": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 6,
+     "connectors": [
+      "N10",
+      "N11"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N10": 22,
+      "N11": 22
+     },
+     "u_per_connector": {
+      "N10": 10,
+      "N11": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 7,
+     "connectors": [
+      "N12",
+      "N13"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N12": 22,
+      "N13": 22
+     },
+     "u_per_connector": {
+      "N12": 10,
+      "N13": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 8,
+     "connectors": [
+      "N14",
+      "N15"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "N14": 22,
+      "N15": 16
+     },
+     "u_per_connector": {
+      "N14": 10,
+      "N15": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    },
+    {
+     "group_id": 9,
+     "connectors": [
+      "S01",
+      "S16"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S01": 16,
+      "S16": 16
+     },
+     "u_per_connector": {
+      "S01": 16,
+      "S16": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 10,
+     "connectors": [
+      "S02",
+      "S03"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "S02": 16,
+      "S03": 22
+     },
+     "u_per_connector": {
+      "S02": 16,
+      "S03": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    },
+    {
+     "group_id": 11,
+     "connectors": [
+      "S04",
+      "S05"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S04": 22,
+      "S05": 22
+     },
+     "u_per_connector": {
+      "S04": 10,
+      "S05": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 12,
+     "connectors": [
+      "S06",
+      "S07"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S06": 22,
+      "S07": 22
+     },
+     "u_per_connector": {
+      "S06": 10,
+      "S07": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 13,
+     "connectors": [
+      "S08",
+      "S09"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S08": 22,
+      "S09": 22
+     },
+     "u_per_connector": {
+      "S08": 10,
+      "S09": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 14,
+     "connectors": [
+      "S10",
+      "S11"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S10": 22,
+      "S11": 22
+     },
+     "u_per_connector": {
+      "S10": 10,
+      "S11": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 15,
+     "connectors": [
+      "S12",
+      "S13"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S12": 22,
+      "S13": 22
+     },
+     "u_per_connector": {
+      "S12": 10,
+      "S13": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 16,
+     "connectors": [
+      "S14",
+      "S15"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "S14": 22,
+      "S15": 16
+     },
+     "u_per_connector": {
+      "S14": 10,
+      "S15": 16
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    },
+    {
+     "group_id": 17,
+     "connectors": [
+      "E01",
+      "E16"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "E01": 16,
+      "E16": 16
+     },
+     "u_per_connector": {
+      "E01": 16,
+      "E16": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 18,
+     "connectors": [
+      "E02",
+      "E03"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "E02": 16,
+      "E03": 22
+     },
+     "u_per_connector": {
+      "E02": 16,
+      "E03": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    },
+    {
+     "group_id": 19,
+     "connectors": [
+      "E04",
+      "E05"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E04": 22,
+      "E05": 22
+     },
+     "u_per_connector": {
+      "E04": 10,
+      "E05": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 20,
+     "connectors": [
+      "E06",
+      "E07"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E06": 22,
+      "E07": 22
+     },
+     "u_per_connector": {
+      "E06": 10,
+      "E07": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 21,
+     "connectors": [
+      "E08",
+      "E09"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E08": 22,
+      "E09": 22
+     },
+     "u_per_connector": {
+      "E08": 10,
+      "E09": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 22,
+     "connectors": [
+      "E10",
+      "E11"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E10": 22,
+      "E11": 22
+     },
+     "u_per_connector": {
+      "E10": 10,
+      "E11": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 23,
+     "connectors": [
+      "E12",
+      "E13"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E12": 22,
+      "E13": 22
+     },
+     "u_per_connector": {
+      "E12": 10,
+      "E13": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 24,
+     "connectors": [
+      "E14",
+      "E15"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "E14": 22,
+      "E15": 16
+     },
+     "u_per_connector": {
+      "E14": 10,
+      "E15": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    },
+    {
+     "group_id": 25,
+     "connectors": [
+      "W01",
+      "W16"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "W01": 16,
+      "W16": 16
+     },
+     "u_per_connector": {
+      "W01": 16,
+      "W16": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 26,
+     "connectors": [
+      "W02",
+      "W03"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "W02": 16,
+      "W03": 22
+     },
+     "u_per_connector": {
+      "W02": 16,
+      "W03": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    },
+    {
+     "group_id": 27,
+     "connectors": [
+      "W04",
+      "W05"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W04": 22,
+      "W05": 22
+     },
+     "u_per_connector": {
+      "W04": 10,
+      "W05": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 28,
+     "connectors": [
+      "W06",
+      "W07"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W06": 22,
+      "W07": 22
+     },
+     "u_per_connector": {
+      "W06": 10,
+      "W07": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 29,
+     "connectors": [
+      "W08",
+      "W09"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W08": 22,
+      "W09": 22
+     },
+     "u_per_connector": {
+      "W08": 10,
+      "W09": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 30,
+     "connectors": [
+      "W10",
+      "W11"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W10": 22,
+      "W11": 22
+     },
+     "u_per_connector": {
+      "W10": 10,
+      "W11": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 61.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 31,
+     "connectors": [
+      "W12",
+      "W13"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W12": 22,
+      "W13": 22
+     },
+     "u_per_connector": {
+      "W12": 10,
+      "W13": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 43.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 32,
+     "connectors": [
+      "W14",
+      "W15"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 38,
+     "u": 26,
+     "cross_connections": 38,
+     "u_connections": 26,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 22,
+      "u": 10
+     },
+     "cross_per_connector": {
+      "W14": 22,
+      "W15": 16
+     },
+     "u_per_connector": {
+      "W14": 10,
+      "W15": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 25.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -10,
+      "u": 10
+     }
+    }
+   ]
+  },
+  "C_corner_cross_plus_side_mid": {
+   "label": "角部跨边配对 (N01-W16 等 4 组) + 同边 (02-15) 4 组",
+   "summary": {
+    "groups": 32,
+    "cross_u_histogram": {
+     "(32, 32)": 8,
+     "(44, 20)": 24
+    },
+    "corner_localised_groups": 4,
+    "corner_groups_per_corner": {
+     "NW": 1,
+     "NE": 1,
+     "SE": 1,
+     "SW": 1
+    },
+    "cross_total": 1312,
+    "u_total": 736,
+    "total_pair_distance_mm": 726.426408,
+    "max_pair_distance_mm": 117.0,
+    "classes": {
+     "corner": 4,
+     "other": 28
+    },
+    "class_stats": {
+     "corner": {
+      "groups": 4,
+      "cross_each": [
+       32
+      ],
+      "u_each": [
+       32
+      ],
+      "cross_total": 128,
+      "u_total": 128,
+      "z1_cross": 64,
+      "z1_u": 64,
+      "z2_cross": 64,
+      "z2_u": 64
+     },
+     "other": {
+      "groups": 28,
+      "cross_each": [
+       32,
+       44
+      ],
+      "u_each": [
+       20,
+       32
+      ],
+      "cross_total": 1184,
+      "u_total": 608,
+      "z1_cross": 448,
+      "z1_u": 448,
+      "z2_cross": 736,
+      "z2_u": 160
+     }
+    },
+    "reproduces_precheck": false,
+    "cross_totals_match": true,
+    "u_totals_match": true
+   },
+   "groups": [
+    {
+     "group_id": 1,
+     "connectors": [
+      "N01",
+      "W16"
+     ],
+     "sides": [
+      "N",
+      "W"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N01": 16,
+      "W16": 16
+     },
+     "u_per_connector": {
+      "N01": 16,
+      "W16": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 2,
+     "connectors": [
+      "N16",
+      "E16"
+     ],
+     "sides": [
+      "E",
+      "N"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N16": 16,
+      "E16": 16
+     },
+     "u_per_connector": {
+      "N16": 16,
+      "E16": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 3,
+     "connectors": [
+      "S16",
+      "E01"
+     ],
+     "sides": [
+      "E",
+      "S"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S16": 16,
+      "E01": 16
+     },
+     "u_per_connector": {
+      "S16": 16,
+      "E01": 16
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 4,
+     "connectors": [
+      "S01",
+      "W01"
+     ],
+     "sides": [
+      "S",
+      "W"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S01": 16,
+      "W01": 16
+     },
+     "u_per_connector": {
+      "S01": 16,
+      "W01": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 5,
+     "connectors": [
+      "N02",
+      "N15"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N02": 16,
+      "N15": 16
+     },
+     "u_per_connector": {
+      "N02": 16,
+      "N15": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 6,
+     "connectors": [
+      "S02",
+      "S15"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S02": 16,
+      "S15": 16
+     },
+     "u_per_connector": {
+      "S02": 16,
+      "S15": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 7,
+     "connectors": [
+      "E02",
+      "E15"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "E02": 16,
+      "E15": 16
+     },
+     "u_per_connector": {
+      "E02": 16,
+      "E15": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 8,
+     "connectors": [
+      "W02",
+      "W15"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "W02": 16,
+      "W15": 16
+     },
+     "u_per_connector": {
+      "W02": 16,
+      "W15": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 9,
+     "connectors": [
+      "N03",
+      "N04"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N03": 22,
+      "N04": 22
+     },
+     "u_per_connector": {
+      "N03": 10,
+      "N04": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 10,
+     "connectors": [
+      "N05",
+      "N06"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N05": 22,
+      "N06": 22
+     },
+     "u_per_connector": {
+      "N05": 10,
+      "N06": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 11,
+     "connectors": [
+      "N07",
+      "N08"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N07": 22,
+      "N08": 22
+     },
+     "u_per_connector": {
+      "N07": 10,
+      "N08": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 12,
+     "connectors": [
+      "N09",
+      "N10"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N09": 22,
+      "N10": 22
+     },
+     "u_per_connector": {
+      "N09": 10,
+      "N10": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 13,
+     "connectors": [
+      "N11",
+      "N12"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N11": 22,
+      "N12": 22
+     },
+     "u_per_connector": {
+      "N11": 10,
+      "N12": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 14,
+     "connectors": [
+      "N13",
+      "N14"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N13": 22,
+      "N14": 22
+     },
+     "u_per_connector": {
+      "N13": 10,
+      "N14": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 15,
+     "connectors": [
+      "S03",
+      "S04"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S03": 22,
+      "S04": 22
+     },
+     "u_per_connector": {
+      "S03": 10,
+      "S04": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 16,
+     "connectors": [
+      "S05",
+      "S06"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S05": 22,
+      "S06": 22
+     },
+     "u_per_connector": {
+      "S05": 10,
+      "S06": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 17,
+     "connectors": [
+      "S07",
+      "S08"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S07": 22,
+      "S08": 22
+     },
+     "u_per_connector": {
+      "S07": 10,
+      "S08": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 18,
+     "connectors": [
+      "S09",
+      "S10"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S09": 22,
+      "S10": 22
+     },
+     "u_per_connector": {
+      "S09": 10,
+      "S10": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 19,
+     "connectors": [
+      "S11",
+      "S12"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S11": 22,
+      "S12": 22
+     },
+     "u_per_connector": {
+      "S11": 10,
+      "S12": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 20,
+     "connectors": [
+      "S13",
+      "S14"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S13": 22,
+      "S14": 22
+     },
+     "u_per_connector": {
+      "S13": 10,
+      "S14": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 21,
+     "connectors": [
+      "E03",
+      "E04"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E03": 22,
+      "E04": 22
+     },
+     "u_per_connector": {
+      "E03": 10,
+      "E04": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 22,
+     "connectors": [
+      "E05",
+      "E06"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E05": 22,
+      "E06": 22
+     },
+     "u_per_connector": {
+      "E05": 10,
+      "E06": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 23,
+     "connectors": [
+      "E07",
+      "E08"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E07": 22,
+      "E08": 22
+     },
+     "u_per_connector": {
+      "E07": 10,
+      "E08": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 24,
+     "connectors": [
+      "E09",
+      "E10"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E09": 22,
+      "E10": 22
+     },
+     "u_per_connector": {
+      "E09": 10,
+      "E10": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 25,
+     "connectors": [
+      "E11",
+      "E12"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E11": 22,
+      "E12": 22
+     },
+     "u_per_connector": {
+      "E11": 10,
+      "E12": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 26,
+     "connectors": [
+      "E13",
+      "E14"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E13": 22,
+      "E14": 22
+     },
+     "u_per_connector": {
+      "E13": 10,
+      "E14": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 27,
+     "connectors": [
+      "W03",
+      "W04"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W03": 22,
+      "W04": 22
+     },
+     "u_per_connector": {
+      "W03": 10,
+      "W04": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 28,
+     "connectors": [
+      "W05",
+      "W06"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W05": 22,
+      "W06": 22
+     },
+     "u_per_connector": {
+      "W05": 10,
+      "W06": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 29,
+     "connectors": [
+      "W07",
+      "W08"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W07": 22,
+      "W08": 22
+     },
+     "u_per_connector": {
+      "W07": 10,
+      "W08": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 30,
+     "connectors": [
+      "W09",
+      "W10"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W09": 22,
+      "W10": 22
+     },
+     "u_per_connector": {
+      "W09": 10,
+      "W10": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 31,
+     "connectors": [
+      "W11",
+      "W12"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W11": 22,
+      "W12": 22
+     },
+     "u_per_connector": {
+      "W11": 10,
+      "W12": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 32,
+     "connectors": [
+      "W13",
+      "W14"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W13": 22,
+      "W14": 22
+     },
+     "u_per_connector": {
+      "W13": 10,
+      "W14": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    }
+   ]
+  },
+  "D_same_side_mirror": {
+   "label": "同边镜像配对 (i, 17-i)",
+   "summary": {
+    "groups": 32,
+    "cross_u_histogram": {
+     "(32, 32)": 8,
+     "(44, 20)": 24
+    },
+    "corner_localised_groups": 0,
+    "corner_groups_per_corner": {},
+    "cross_total": 1312,
+    "u_total": 736,
+    "total_pair_distance_mm": 2304.0,
+    "max_pair_distance_mm": 135.0,
+    "classes": {
+     "other": 32
+    },
+    "class_stats": {
+     "other": {
+      "groups": 32,
+      "cross_each": [
+       32,
+       44
+      ],
+      "u_each": [
+       20,
+       32
+      ],
+      "cross_total": 1312,
+      "u_total": 736,
+      "z1_cross": 512,
+      "z1_u": 512,
+      "z2_cross": 800,
+      "z2_u": 224
+     }
+    },
+    "reproduces_precheck": false,
+    "cross_totals_match": true,
+    "u_totals_match": true
+   },
+   "groups": [
+    {
+     "group_id": 1,
+     "connectors": [
+      "N01",
+      "N16"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N01": 16,
+      "N16": 16
+     },
+     "u_per_connector": {
+      "N01": 16,
+      "N16": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 2,
+     "connectors": [
+      "N02",
+      "N15"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N02": 16,
+      "N15": 16
+     },
+     "u_per_connector": {
+      "N02": 16,
+      "N15": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 3,
+     "connectors": [
+      "N03",
+      "N14"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 19,
+     "u_connections_intra_group": 1,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N03": 22,
+      "N14": 22
+     },
+     "u_per_connector": {
+      "N03": 10,
+      "N14": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 124.5,
+     "corner_localised": false,
+     "connector_distance_mm": 99.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 4,
+     "connectors": [
+      "N04",
+      "N13"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N04": 22,
+      "N13": 22
+     },
+     "u_per_connector": {
+      "N04": 10,
+      "N13": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 115.5,
+     "corner_localised": false,
+     "connector_distance_mm": 81.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 5,
+     "connectors": [
+      "N05",
+      "N12"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N05": 22,
+      "N12": 22
+     },
+     "u_per_connector": {
+      "N05": 10,
+      "N12": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 106.5,
+     "corner_localised": false,
+     "connector_distance_mm": 63.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 6,
+     "connectors": [
+      "N06",
+      "N11"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N06": 22,
+      "N11": 22
+     },
+     "u_per_connector": {
+      "N06": 10,
+      "N11": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 97.5,
+     "corner_localised": false,
+     "connector_distance_mm": 45.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 7,
+     "connectors": [
+      "N07",
+      "N10"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N07": 22,
+      "N10": 22
+     },
+     "u_per_connector": {
+      "N07": 10,
+      "N10": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 88.5,
+     "corner_localised": false,
+     "connector_distance_mm": 27.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 8,
+     "connectors": [
+      "N08",
+      "N09"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N08": 22,
+      "N09": 22
+     },
+     "u_per_connector": {
+      "N08": 10,
+      "N09": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 9,
+     "connectors": [
+      "S01",
+      "S16"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S01": 16,
+      "S16": 16
+     },
+     "u_per_connector": {
+      "S01": 16,
+      "S16": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 10,
+     "connectors": [
+      "S02",
+      "S15"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S02": 16,
+      "S15": 16
+     },
+     "u_per_connector": {
+      "S02": 16,
+      "S15": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 11,
+     "connectors": [
+      "S03",
+      "S14"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 19,
+     "u_connections_intra_group": 1,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S03": 22,
+      "S14": 22
+     },
+     "u_per_connector": {
+      "S03": 10,
+      "S14": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 124.5,
+     "corner_localised": false,
+     "connector_distance_mm": 99.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 12,
+     "connectors": [
+      "S04",
+      "S13"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S04": 22,
+      "S13": 22
+     },
+     "u_per_connector": {
+      "S04": 10,
+      "S13": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 115.5,
+     "corner_localised": false,
+     "connector_distance_mm": 81.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 13,
+     "connectors": [
+      "S05",
+      "S12"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S05": 22,
+      "S12": 22
+     },
+     "u_per_connector": {
+      "S05": 10,
+      "S12": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 106.5,
+     "corner_localised": false,
+     "connector_distance_mm": 63.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 14,
+     "connectors": [
+      "S06",
+      "S11"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S06": 22,
+      "S11": 22
+     },
+     "u_per_connector": {
+      "S06": 10,
+      "S11": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 97.5,
+     "corner_localised": false,
+     "connector_distance_mm": 45.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 15,
+     "connectors": [
+      "S07",
+      "S10"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S07": 22,
+      "S10": 22
+     },
+     "u_per_connector": {
+      "S07": 10,
+      "S10": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 88.5,
+     "corner_localised": false,
+     "connector_distance_mm": 27.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 16,
+     "connectors": [
+      "S08",
+      "S09"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S08": 22,
+      "S09": 22
+     },
+     "u_per_connector": {
+      "S08": 10,
+      "S09": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 17,
+     "connectors": [
+      "E01",
+      "E16"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "E01": 16,
+      "E16": 16
+     },
+     "u_per_connector": {
+      "E01": 16,
+      "E16": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 18,
+     "connectors": [
+      "E02",
+      "E15"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "E02": 16,
+      "E15": 16
+     },
+     "u_per_connector": {
+      "E02": 16,
+      "E15": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 19,
+     "connectors": [
+      "E03",
+      "E14"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 19,
+     "u_connections_intra_group": 1,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E03": 22,
+      "E14": 22
+     },
+     "u_per_connector": {
+      "E03": 10,
+      "E14": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 124.5,
+     "corner_localised": false,
+     "connector_distance_mm": 99.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 20,
+     "connectors": [
+      "E04",
+      "E13"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E04": 22,
+      "E13": 22
+     },
+     "u_per_connector": {
+      "E04": 10,
+      "E13": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 115.5,
+     "corner_localised": false,
+     "connector_distance_mm": 81.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 21,
+     "connectors": [
+      "E05",
+      "E12"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E05": 22,
+      "E12": 22
+     },
+     "u_per_connector": {
+      "E05": 10,
+      "E12": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 106.5,
+     "corner_localised": false,
+     "connector_distance_mm": 63.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 22,
+     "connectors": [
+      "E06",
+      "E11"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E06": 22,
+      "E11": 22
+     },
+     "u_per_connector": {
+      "E06": 10,
+      "E11": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 97.5,
+     "corner_localised": false,
+     "connector_distance_mm": 45.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 23,
+     "connectors": [
+      "E07",
+      "E10"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E07": 22,
+      "E10": 22
+     },
+     "u_per_connector": {
+      "E07": 10,
+      "E10": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 88.5,
+     "corner_localised": false,
+     "connector_distance_mm": 27.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 24,
+     "connectors": [
+      "E08",
+      "E09"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E08": 22,
+      "E09": 22
+     },
+     "u_per_connector": {
+      "E08": 10,
+      "E09": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 25,
+     "connectors": [
+      "W01",
+      "W16"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 25,
+     "u_connections_intra_group": 7,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "W01": 16,
+      "W16": 16
+     },
+     "u_per_connector": {
+      "W01": 16,
+      "W16": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 142.5,
+     "corner_localised": false,
+     "connector_distance_mm": 135.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 26,
+     "connectors": [
+      "W02",
+      "W15"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 18,
+     "u_connections_intra_group": 14,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "W02": 16,
+      "W15": 16
+     },
+     "u_per_connector": {
+      "W02": 16,
+      "W15": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 133.5,
+     "corner_localised": false,
+     "connector_distance_mm": 117.0,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 27,
+     "connectors": [
+      "W03",
+      "W14"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 19,
+     "u_connections_intra_group": 1,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W03": 22,
+      "W14": 22
+     },
+     "u_per_connector": {
+      "W03": 10,
+      "W14": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 124.5,
+     "corner_localised": false,
+     "connector_distance_mm": 99.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 28,
+     "connectors": [
+      "W04",
+      "W13"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W04": 22,
+      "W13": 22
+     },
+     "u_per_connector": {
+      "W04": 10,
+      "W13": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 115.5,
+     "corner_localised": false,
+     "connector_distance_mm": 81.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 29,
+     "connectors": [
+      "W05",
+      "W12"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W05": 22,
+      "W12": 22
+     },
+     "u_per_connector": {
+      "W05": 10,
+      "W12": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 106.5,
+     "corner_localised": false,
+     "connector_distance_mm": 63.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 30,
+     "connectors": [
+      "W06",
+      "W11"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 10,
+     "u_connections_intra_group": 10,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W06": 22,
+      "W11": 22
+     },
+     "u_per_connector": {
+      "W06": 10,
+      "W11": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 97.5,
+     "corner_localised": false,
+     "connector_distance_mm": 45.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 31,
+     "connectors": [
+      "W07",
+      "W10"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W07": 22,
+      "W10": 22
+     },
+     "u_per_connector": {
+      "W07": 10,
+      "W10": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 88.5,
+     "corner_localised": false,
+     "connector_distance_mm": 27.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 32,
+     "connectors": [
+      "W08",
+      "W09"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W08": 22,
+      "W09": 22
+     },
+     "u_per_connector": {
+      "W08": 10,
+      "W09": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 79.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    }
+   ]
+  },
+  "E_corner_cross_two_per_corner": {
+   "label": "每个角 2 组跨边配对 (N01-W16, N02-W15 等)",
+   "summary": {
+    "groups": 32,
+    "cross_u_histogram": {
+     "(32, 32)": 8,
+     "(44, 20)": 24
+    },
+    "corner_localised_groups": 8,
+    "corner_groups_per_corner": {
+     "NW": 2,
+     "NE": 2,
+     "SE": 2,
+     "SW": 2
+    },
+    "cross_total": 1312,
+    "u_total": 736,
+    "total_pair_distance_mm": 351.764504,
+    "max_pair_distance_mm": 23.334524,
+    "classes": {
+     "corner": 8,
+     "other": 24
+    },
+    "class_stats": {
+     "corner": {
+      "groups": 8,
+      "cross_each": [
+       32
+      ],
+      "u_each": [
+       32
+      ],
+      "cross_total": 256,
+      "u_total": 256,
+      "z1_cross": 128,
+      "z1_u": 128,
+      "z2_cross": 128,
+      "z2_u": 128
+     },
+     "other": {
+      "groups": 24,
+      "cross_each": [
+       44
+      ],
+      "u_each": [
+       20
+      ],
+      "cross_total": 1056,
+      "u_total": 480,
+      "z1_cross": 384,
+      "z1_u": 384,
+      "z2_cross": 672,
+      "z2_u": 96
+     }
+    },
+    "reproduces_precheck": true,
+    "cross_totals_match": true,
+    "u_totals_match": true
+   },
+   "groups": [
+    {
+     "group_id": 1,
+     "connectors": [
+      "N01",
+      "W16"
+     ],
+     "sides": [
+      "N",
+      "W"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N01": 16,
+      "W16": 16
+     },
+     "u_per_connector": {
+      "N01": 16,
+      "W16": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 2,
+     "connectors": [
+      "N02",
+      "W15"
+     ],
+     "sides": [
+      "N",
+      "W"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N02": 16,
+      "W15": 16
+     },
+     "u_per_connector": {
+      "N02": 16,
+      "W15": 16
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 23.334524,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 3,
+     "connectors": [
+      "N16",
+      "E16"
+     ],
+     "sides": [
+      "E",
+      "N"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N16": 16,
+      "E16": 16
+     },
+     "u_per_connector": {
+      "N16": 16,
+      "E16": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 4,
+     "connectors": [
+      "N15",
+      "E15"
+     ],
+     "sides": [
+      "E",
+      "N"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "N15": 16,
+      "E15": 16
+     },
+     "u_per_connector": {
+      "N15": 16,
+      "E15": 16
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 23.334524,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 5,
+     "connectors": [
+      "S16",
+      "E01"
+     ],
+     "sides": [
+      "E",
+      "S"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S16": 16,
+      "E01": 16
+     },
+     "u_per_connector": {
+      "S16": 16,
+      "E01": 16
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 6,
+     "connectors": [
+      "S15",
+      "E02"
+     ],
+     "sides": [
+      "E",
+      "S"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S15": 16,
+      "E02": 16
+     },
+     "u_per_connector": {
+      "S15": 16,
+      "E02": 16
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 23.334524,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 7,
+     "connectors": [
+      "S01",
+      "W01"
+     ],
+     "sides": [
+      "S",
+      "W"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S01": 16,
+      "W01": 16
+     },
+     "u_per_connector": {
+      "S01": 16,
+      "W01": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 7.5,
+     "corner_localised": true,
+     "connector_distance_mm": 10.606602,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 8,
+     "connectors": [
+      "S02",
+      "W02"
+     ],
+     "sides": [
+      "S",
+      "W"
+     ],
+     "same_side": false,
+     "ports": 64,
+     "cross": 32,
+     "u": 32,
+     "cross_connections": 32,
+     "u_connections": 32,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 16,
+      "u": 16
+     },
+     "cross_per_connector": {
+      "S02": 16,
+      "W02": 16
+     },
+     "u_per_connector": {
+      "S02": 16,
+      "W02": 16
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 16.5,
+     "corner_localised": true,
+     "connector_distance_mm": 23.334524,
+     "deviation_from_teacher": {
+      "cross": -16,
+      "u": 16
+     }
+    },
+    {
+     "group_id": 9,
+     "connectors": [
+      "N03",
+      "N04"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N03": 22,
+      "N04": 22
+     },
+     "u_per_connector": {
+      "N03": 10,
+      "N04": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 10,
+     "connectors": [
+      "N05",
+      "N06"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N05": 22,
+      "N06": 22
+     },
+     "u_per_connector": {
+      "N05": 10,
+      "N06": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 11,
+     "connectors": [
+      "N07",
+      "N08"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N07": 22,
+      "N08": 22
+     },
+     "u_per_connector": {
+      "N07": 10,
+      "N08": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 12,
+     "connectors": [
+      "N09",
+      "N10"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N09": 22,
+      "N10": 22
+     },
+     "u_per_connector": {
+      "N09": 10,
+      "N10": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 13,
+     "connectors": [
+      "N11",
+      "N12"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N11": 22,
+      "N12": 22
+     },
+     "u_per_connector": {
+      "N11": 10,
+      "N12": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 14,
+     "connectors": [
+      "N13",
+      "N14"
+     ],
+     "sides": [
+      "N"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "N13": 22,
+      "N14": 22
+     },
+     "u_per_connector": {
+      "N13": 10,
+      "N14": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 15,
+     "connectors": [
+      "S03",
+      "S04"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S03": 22,
+      "S04": 22
+     },
+     "u_per_connector": {
+      "S03": 10,
+      "S04": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 16,
+     "connectors": [
+      "S05",
+      "S06"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S05": 22,
+      "S06": 22
+     },
+     "u_per_connector": {
+      "S05": 10,
+      "S06": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 17,
+     "connectors": [
+      "S07",
+      "S08"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S07": 22,
+      "S08": 22
+     },
+     "u_per_connector": {
+      "S07": 10,
+      "S08": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 18,
+     "connectors": [
+      "S09",
+      "S10"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S09": 22,
+      "S10": 22
+     },
+     "u_per_connector": {
+      "S09": 10,
+      "S10": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 19,
+     "connectors": [
+      "S11",
+      "S12"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S11": 22,
+      "S12": 22
+     },
+     "u_per_connector": {
+      "S11": 10,
+      "S12": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 20,
+     "connectors": [
+      "S13",
+      "S14"
+     ],
+     "sides": [
+      "S"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "S13": 22,
+      "S14": 22
+     },
+     "u_per_connector": {
+      "S13": 10,
+      "S14": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 21,
+     "connectors": [
+      "E03",
+      "E04"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E03": 22,
+      "E04": 22
+     },
+     "u_per_connector": {
+      "E03": 10,
+      "E04": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 22,
+     "connectors": [
+      "E05",
+      "E06"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E05": 22,
+      "E06": 22
+     },
+     "u_per_connector": {
+      "E05": 10,
+      "E06": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 23,
+     "connectors": [
+      "E07",
+      "E08"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E07": 22,
+      "E08": 22
+     },
+     "u_per_connector": {
+      "E07": 10,
+      "E08": 10
+     },
+     "nearest_corner": "SE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 24,
+     "connectors": [
+      "E09",
+      "E10"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E09": 22,
+      "E10": 22
+     },
+     "u_per_connector": {
+      "E09": 10,
+      "E10": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 25,
+     "connectors": [
+      "E11",
+      "E12"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E11": 22,
+      "E12": 22
+     },
+     "u_per_connector": {
+      "E11": 10,
+      "E12": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 26,
+     "connectors": [
+      "E13",
+      "E14"
+     ],
+     "sides": [
+      "E"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "E13": 22,
+      "E14": 22
+     },
+     "u_per_connector": {
+      "E13": 10,
+      "E14": 10
+     },
+     "nearest_corner": "NE",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 27,
+     "connectors": [
+      "W03",
+      "W04"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W03": 22,
+      "W04": 22
+     },
+     "u_per_connector": {
+      "W03": 10,
+      "W04": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 28,
+     "connectors": [
+      "W05",
+      "W06"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W05": 22,
+      "W06": 22
+     },
+     "u_per_connector": {
+      "W05": 10,
+      "W06": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 29,
+     "connectors": [
+      "W07",
+      "W08"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W07": 22,
+      "W08": 22
+     },
+     "u_per_connector": {
+      "W07": 10,
+      "W08": 10
+     },
+     "nearest_corner": "SW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 30,
+     "connectors": [
+      "W09",
+      "W10"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W09": 22,
+      "W10": 22
+     },
+     "u_per_connector": {
+      "W09": 10,
+      "W10": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 70.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 31,
+     "connectors": [
+      "W11",
+      "W12"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W11": 22,
+      "W12": 22
+     },
+     "u_per_connector": {
+      "W11": 10,
+      "W12": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 52.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    },
+    {
+     "group_id": 32,
+     "connectors": [
+      "W13",
+      "W14"
+     ],
+     "sides": [
+      "W"
+     ],
+     "same_side": true,
+     "ports": 64,
+     "cross": 44,
+     "u": 20,
+     "cross_connections": 44,
+     "u_connections": 20,
+     "u_connections_intra_group": 0,
+     "z1": {
+      "cross": 16,
+      "u": 16
+     },
+     "z2": {
+      "cross": 28,
+      "u": 4
+     },
+     "cross_per_connector": {
+      "W13": 22,
+      "W14": 22
+     },
+     "u_per_connector": {
+      "W13": 10,
+      "W14": 10
+     },
+     "nearest_corner": "NW",
+     "corner_distance_mm": 34.5,
+     "corner_localised": false,
+     "connector_distance_mm": 9.0,
+     "deviation_from_teacher": {
+      "cross": -4,
+      "u": 4
+     }
+    }
+   ]
+  }
+ },
+ "recommended_rule": {
+  "key": "A_same_side_adjacent",
+  "label": "同边相邻连接器两两配对：每条边 (01,02),(03,04),...,(15,16)",
+  "rationale": "(i) 由计数推导必须端部-端部、中部-中部配对；(ii) 8 个角部组须每角 2 组，而每角的 4 个端部连接器只有 3 种配对，同边相邻 (01,02)+(15,16) 的配对总距离最小；(iii) 该规则是全局唯一最小总距离完美匹配（32×9 mm = 288 mm），且逐组精确复现预检的 8×(32/32) + 24×(44/20)",
+  "corner_zone_mm": 20.0,
+  "corner_groups_per_corner": {
+   "NW": 2,
+   "NE": 2,
+   "SW": 2,
+   "SE": 2
+  },
+  "summary": {
+   "groups": 32,
+   "cross_u_histogram": {
+    "(32, 32)": 8,
+    "(44, 20)": 24
+   },
+   "corner_localised_groups": 8,
+   "corner_groups_per_corner": {
+    "NW": 2,
+    "NE": 2,
+    "SW": 2,
+    "SE": 2
+   },
+   "cross_total": 1312,
+   "u_total": 736,
+   "total_pair_distance_mm": 288.0,
+   "max_pair_distance_mm": 9.0,
+   "classes": {
+    "corner": 8,
+    "other": 24
+   },
+   "class_stats": {
+    "corner": {
+     "groups": 8,
+     "cross_each": [
+      32
+     ],
+     "u_each": [
+      32
+     ],
+     "cross_total": 256,
+     "u_total": 256,
+     "z1_cross": 128,
+     "z1_u": 128,
+     "z2_cross": 128,
+     "z2_u": 128
+    },
+    "other": {
+     "groups": 24,
+     "cross_each": [
+      44
+     ],
+     "u_each": [
+      20
+     ],
+     "cross_total": 1056,
+     "u_total": 480,
+     "z1_cross": 384,
+     "z1_u": 384,
+     "z2_cross": 672,
+     "z2_u": 96
+    }
+   },
+   "reproduces_precheck": true,
+   "cross_totals_match": true,
+   "u_totals_match": true
+  },
+  "groups": [
+   {
+    "group_id": 1,
+    "connectors": [
+     "N01",
+     "N02"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "N01": 16,
+     "N02": 16
+    },
+    "u_per_connector": {
+     "N01": 16,
+     "N02": 16
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   },
+   {
+    "group_id": 2,
+    "connectors": [
+     "N03",
+     "N04"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "N03": 22,
+     "N04": 22
+    },
+    "u_per_connector": {
+     "N03": 10,
+     "N04": 10
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 3,
+    "connectors": [
+     "N05",
+     "N06"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "N05": 22,
+     "N06": 22
+    },
+    "u_per_connector": {
+     "N05": 10,
+     "N06": 10
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 4,
+    "connectors": [
+     "N07",
+     "N08"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "N07": 22,
+     "N08": 22
+    },
+    "u_per_connector": {
+     "N07": 10,
+     "N08": 10
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 5,
+    "connectors": [
+     "N09",
+     "N10"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "N09": 22,
+     "N10": 22
+    },
+    "u_per_connector": {
+     "N09": 10,
+     "N10": 10
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 6,
+    "connectors": [
+     "N11",
+     "N12"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "N11": 22,
+     "N12": 22
+    },
+    "u_per_connector": {
+     "N11": 10,
+     "N12": 10
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 7,
+    "connectors": [
+     "N13",
+     "N14"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "N13": 22,
+     "N14": 22
+    },
+    "u_per_connector": {
+     "N13": 10,
+     "N14": 10
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 8,
+    "connectors": [
+     "N15",
+     "N16"
+    ],
+    "sides": [
+     "N"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "N15": 16,
+     "N16": 16
+    },
+    "u_per_connector": {
+     "N15": 16,
+     "N16": 16
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   },
+   {
+    "group_id": 9,
+    "connectors": [
+     "S01",
+     "S02"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "S01": 16,
+     "S02": 16
+    },
+    "u_per_connector": {
+     "S01": 16,
+     "S02": 16
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   },
+   {
+    "group_id": 10,
+    "connectors": [
+     "S03",
+     "S04"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "S03": 22,
+     "S04": 22
+    },
+    "u_per_connector": {
+     "S03": 10,
+     "S04": 10
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 11,
+    "connectors": [
+     "S05",
+     "S06"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "S05": 22,
+     "S06": 22
+    },
+    "u_per_connector": {
+     "S05": 10,
+     "S06": 10
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 12,
+    "connectors": [
+     "S07",
+     "S08"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "S07": 22,
+     "S08": 22
+    },
+    "u_per_connector": {
+     "S07": 10,
+     "S08": 10
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 13,
+    "connectors": [
+     "S09",
+     "S10"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "S09": 22,
+     "S10": 22
+    },
+    "u_per_connector": {
+     "S09": 10,
+     "S10": 10
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 14,
+    "connectors": [
+     "S11",
+     "S12"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "S11": 22,
+     "S12": 22
+    },
+    "u_per_connector": {
+     "S11": 10,
+     "S12": 10
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 15,
+    "connectors": [
+     "S13",
+     "S14"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "S13": 22,
+     "S14": 22
+    },
+    "u_per_connector": {
+     "S13": 10,
+     "S14": 10
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 16,
+    "connectors": [
+     "S15",
+     "S16"
+    ],
+    "sides": [
+     "S"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "S15": 16,
+     "S16": 16
+    },
+    "u_per_connector": {
+     "S15": 16,
+     "S16": 16
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   },
+   {
+    "group_id": 17,
+    "connectors": [
+     "E01",
+     "E02"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "E01": 16,
+     "E02": 16
+    },
+    "u_per_connector": {
+     "E01": 16,
+     "E02": 16
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   },
+   {
+    "group_id": 18,
+    "connectors": [
+     "E03",
+     "E04"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "E03": 22,
+     "E04": 22
+    },
+    "u_per_connector": {
+     "E03": 10,
+     "E04": 10
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 19,
+    "connectors": [
+     "E05",
+     "E06"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "E05": 22,
+     "E06": 22
+    },
+    "u_per_connector": {
+     "E05": 10,
+     "E06": 10
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 20,
+    "connectors": [
+     "E07",
+     "E08"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "E07": 22,
+     "E08": 22
+    },
+    "u_per_connector": {
+     "E07": 10,
+     "E08": 10
+    },
+    "nearest_corner": "SE",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 21,
+    "connectors": [
+     "E09",
+     "E10"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "E09": 22,
+     "E10": 22
+    },
+    "u_per_connector": {
+     "E09": 10,
+     "E10": 10
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 22,
+    "connectors": [
+     "E11",
+     "E12"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "E11": 22,
+     "E12": 22
+    },
+    "u_per_connector": {
+     "E11": 10,
+     "E12": 10
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 23,
+    "connectors": [
+     "E13",
+     "E14"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "E13": 22,
+     "E14": 22
+    },
+    "u_per_connector": {
+     "E13": 10,
+     "E14": 10
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 24,
+    "connectors": [
+     "E15",
+     "E16"
+    ],
+    "sides": [
+     "E"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "E15": 16,
+     "E16": 16
+    },
+    "u_per_connector": {
+     "E15": 16,
+     "E16": 16
+    },
+    "nearest_corner": "NE",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   },
+   {
+    "group_id": 25,
+    "connectors": [
+     "W01",
+     "W02"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "W01": 16,
+     "W02": 16
+    },
+    "u_per_connector": {
+     "W01": 16,
+     "W02": 16
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   },
+   {
+    "group_id": 26,
+    "connectors": [
+     "W03",
+     "W04"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "W03": 22,
+     "W04": 22
+    },
+    "u_per_connector": {
+     "W03": 10,
+     "W04": 10
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 27,
+    "connectors": [
+     "W05",
+     "W06"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "W05": 22,
+     "W06": 22
+    },
+    "u_per_connector": {
+     "W05": 10,
+     "W06": 10
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 28,
+    "connectors": [
+     "W07",
+     "W08"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "W07": 22,
+     "W08": 22
+    },
+    "u_per_connector": {
+     "W07": 10,
+     "W08": 10
+    },
+    "nearest_corner": "SW",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 29,
+    "connectors": [
+     "W09",
+     "W10"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "W09": 22,
+     "W10": 22
+    },
+    "u_per_connector": {
+     "W09": 10,
+     "W10": 10
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 70.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 30,
+    "connectors": [
+     "W11",
+     "W12"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "W11": 22,
+     "W12": 22
+    },
+    "u_per_connector": {
+     "W11": 10,
+     "W12": 10
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 52.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 31,
+    "connectors": [
+     "W13",
+     "W14"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 44,
+    "u": 20,
+    "cross_connections": 44,
+    "u_connections": 20,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 28,
+     "u": 4
+    },
+    "cross_per_connector": {
+     "W13": 22,
+     "W14": 22
+    },
+    "u_per_connector": {
+     "W13": 10,
+     "W14": 10
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 34.5,
+    "corner_localised": false,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -4,
+     "u": 4
+    }
+   },
+   {
+    "group_id": 32,
+    "connectors": [
+     "W15",
+     "W16"
+    ],
+    "sides": [
+     "W"
+    ],
+    "same_side": true,
+    "ports": 64,
+    "cross": 32,
+    "u": 32,
+    "cross_connections": 32,
+    "u_connections": 32,
+    "u_connections_intra_group": 0,
+    "z1": {
+     "cross": 16,
+     "u": 16
+    },
+    "z2": {
+     "cross": 16,
+     "u": 16
+    },
+    "cross_per_connector": {
+     "W15": 16,
+     "W16": 16
+    },
+    "u_per_connector": {
+     "W15": 16,
+     "W16": 16
+    },
+    "nearest_corner": "NW",
+    "corner_distance_mm": 16.5,
+    "corner_localised": true,
+    "connector_distance_mm": 9.0,
+    "deviation_from_teacher": {
+     "cross": -16,
+     "u": 16
+    }
+   }
+  ]
+ },
+ "corner_zone_analysis": {
+  "NW": {
+   "connectors": [
+    "N01",
+    "W16",
+    "N02",
+    "W15"
+   ],
+   "connector_min_corner_distance_mm": {
+    "N01": 7.5,
+    "W16": 7.5,
+    "N02": 16.5,
+    "W15": 16.5
+   },
+   "possible_pairings": [
+    {
+     "pairing": [
+      [
+       "N01",
+       "N02"
+      ],
+      [
+       "W16",
+       "W15"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    },
+    {
+     "pairing": [
+      [
+       "N01",
+       "W16"
+      ],
+      [
+       "N02",
+       "W15"
+      ]
+     ],
+     "total_connector_distance_mm": 33.941125,
+     "same_side_pairs": 0
+    },
+    {
+     "pairing": [
+      [
+       "N01",
+       "W15"
+      ],
+      [
+       "W16",
+       "N02"
+      ]
+     ],
+     "total_connector_distance_mm": 36.249138,
+     "same_side_pairs": 0
+    }
+   ]
+  },
+  "NE": {
+   "connectors": [
+    "E16",
+    "N16",
+    "E15",
+    "N15"
+   ],
+   "connector_min_corner_distance_mm": {
+    "E16": 7.5,
+    "N16": 7.5,
+    "E15": 16.5,
+    "N15": 16.5
+   },
+   "possible_pairings": [
+    {
+     "pairing": [
+      [
+       "E16",
+       "E15"
+      ],
+      [
+       "N16",
+       "N15"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    },
+    {
+     "pairing": [
+      [
+       "E16",
+       "N16"
+      ],
+      [
+       "E15",
+       "N15"
+      ]
+     ],
+     "total_connector_distance_mm": 33.941125,
+     "same_side_pairs": 0
+    },
+    {
+     "pairing": [
+      [
+       "E16",
+       "N15"
+      ],
+      [
+       "N16",
+       "E15"
+      ]
+     ],
+     "total_connector_distance_mm": 36.249138,
+     "same_side_pairs": 0
+    }
+   ]
+  },
+  "SW": {
+   "connectors": [
+    "S01",
+    "W01",
+    "S02",
+    "W02"
+   ],
+   "connector_min_corner_distance_mm": {
+    "S01": 7.5,
+    "W01": 7.5,
+    "S02": 16.5,
+    "W02": 16.5
+   },
+   "possible_pairings": [
+    {
+     "pairing": [
+      [
+       "S01",
+       "S02"
+      ],
+      [
+       "W01",
+       "W02"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    },
+    {
+     "pairing": [
+      [
+       "S01",
+       "W01"
+      ],
+      [
+       "S02",
+       "W02"
+      ]
+     ],
+     "total_connector_distance_mm": 33.941125,
+     "same_side_pairs": 0
+    },
+    {
+     "pairing": [
+      [
+       "S01",
+       "W02"
+      ],
+      [
+       "W01",
+       "S02"
+      ]
+     ],
+     "total_connector_distance_mm": 36.249138,
+     "same_side_pairs": 0
+    }
+   ]
+  },
+  "SE": {
+   "connectors": [
+    "E01",
+    "S16",
+    "E02",
+    "S15"
+   ],
+   "connector_min_corner_distance_mm": {
+    "E01": 7.5,
+    "S16": 7.5,
+    "E02": 16.5,
+    "S15": 16.5
+   },
+   "possible_pairings": [
+    {
+     "pairing": [
+      [
+       "E01",
+       "E02"
+      ],
+      [
+       "S16",
+       "S15"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    },
+    {
+     "pairing": [
+      [
+       "E01",
+       "S16"
+      ],
+      [
+       "E02",
+       "S15"
+      ]
+     ],
+     "total_connector_distance_mm": 33.941125,
+     "same_side_pairs": 0
+    },
+    {
+     "pairing": [
+      [
+       "E01",
+       "S15"
+      ],
+      [
+       "S16",
+       "E02"
+      ]
+     ],
+     "total_connector_distance_mm": 36.249138,
+     "same_side_pairs": 0
+    }
+   ]
+  }
+ },
+ "corner_zone_rule_a_choice": {
+  "NW": [
+   [
+    "N01",
+    "N02"
+   ],
+   [
+    "W15",
+    "W16"
+   ]
+  ],
+  "NE": [
+   [
+    "N15",
+    "N16"
+   ],
+   [
+    "E15",
+    "E16"
+   ]
+  ],
+  "SW": [
+   [
+    "S01",
+    "S02"
+   ],
+   [
+    "W01",
+    "W02"
+   ]
+  ],
+  "SE": [
+   [
+    "S15",
+    "S16"
+   ],
+   [
+    "E01",
+    "E02"
+   ]
+  ]
+ },
+ "deviations": {
+  "corner": {
+   "class_label": "corner (8 groups)",
+   "groups": 8,
+   "cross_each": [
+    32
+   ],
+   "u_each": [
+    32
+   ],
+   "cross_mean": 32.0,
+   "u_mean": 32.0,
+   "cross_deviation_per_group": [
+    -16
+   ],
+   "u_deviation_per_group": [
+    16
+   ],
+   "cross_total": 256,
+   "u_total": 256
+  },
+  "other": {
+   "class_label": "other (24 groups)",
+   "groups": 24,
+   "cross_each": [
+    44
+   ],
+   "u_each": [
+    20
+   ],
+   "cross_mean": 44.0,
+   "u_mean": 20.0,
+   "cross_deviation_per_group": [
+    -4
+   ],
+   "u_deviation_per_group": [
+    4
+   ],
+   "cross_total": 1056,
+   "u_total": 480
+  },
+  "overall": {
+   "cross_total": 1312,
+   "cross_target": 1536,
+   "cross_deviation": -224,
+   "cross_fraction": 0.640625,
+   "u_total": 736,
+   "u_target": 512,
+   "u_deviation": 224,
+   "u_fraction": 0.359375,
+   "cross_mean_per_group": 41.0,
+   "u_mean_per_group": 23.0,
+   "cross_deviation_mean": -7.0,
+   "u_deviation_mean": 7.0
+  }
+ },
+ "figures": {
+  "groups": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\figures\\teacher_coverage_groups.png",
+  "connector_map": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\figures\\connector_pairing_map.png",
+  "dpi": 170
+ },
+ "markdown": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\teacher_coverage.md",
+ "checks": [
+  {
+   "id": "t-01",
+   "name": "every connector uses all 32 holes and splits into cross-edge / U endpoints",
+   "passed": true,
+   "detail": {
+    "end": {
+     "connectors": 16,
+     "cross_values": [
+      16
+     ],
+     "u_values": [
+      16
+     ],
+     "cross_total": 256,
+     "u_total": 256,
+     "ports_total": 512
+    },
+    "middle": {
+     "connectors": 48,
+     "cross_values": [
+      22
+     ],
+     "u_values": [
+      10
+     ],
+     "cross_total": 1056,
+     "u_total": 480,
+     "ports_total": 1536
+    }
+   }
+  },
+  {
+   "id": "t-02",
+   "name": "per-connector cross counts are exactly 16 (end) / 22 (middle): the only possible group sums are 32/38/44",
+   "passed": true,
+   "detail": {
+    "32": 120,
+    "38": 768,
+    "44": 1128
+   }
+  },
+  {
+   "id": "t-03",
+   "name": "the 8x32 + 24x44 target forces end-with-end and middle-with-middle pairing (38-type mixed pairs are excluded)",
+   "passed": true,
+   "detail": {
+    "end": 16,
+    "middle": 48,
+    "end_middle_pairs_that_would_give_38": 768
+   }
+  },
+  {
+   "id": "t-04",
+   "name": "teacher nominal 48/16 for every group is infeasible with the actual 1312 cross / 736 U endpoint totals",
+   "passed": true,
+   "detail": {
+    "required": {
+     "cross": 1536,
+     "u": 512
+    },
+    "actual": {
+     "cross": 1312,
+     "u": 736
+    }
+   }
+  },
+  {
+   "id": "t-05",
+   "name": "at least one geometric pairing rule reproduces the precheck exactly",
+   "passed": true,
+   "detail": {
+    "rules": [
+     "A_same_side_adjacent",
+     "E_corner_cross_two_per_corner"
+    ]
+   }
+  },
+  {
+   "id": "t-06",
+   "name": "for every corner the minimum-distance pairing of its four end connectors is the same-side adjacent pairing (01-02)+(15-16)",
+   "passed": true,
+   "detail": {
+    "NW": {
+     "pairing": [
+      [
+       "N01",
+       "N02"
+      ],
+      [
+       "W16",
+       "W15"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    },
+    "NE": {
+     "pairing": [
+      [
+       "E16",
+       "E15"
+      ],
+      [
+       "N16",
+       "N15"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    },
+    "SW": {
+     "pairing": [
+      [
+       "S01",
+       "S02"
+      ],
+      [
+       "W01",
+       "W02"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    },
+    "SE": {
+     "pairing": [
+      [
+       "E01",
+       "E02"
+      ],
+      [
+       "S16",
+       "S15"
+      ]
+     ],
+     "total_connector_distance_mm": 18.0,
+     "same_side_pairs": 2
+    }
+   }
+  },
+  {
+   "id": "t-07",
+   "name": "rule A: exactly 8 corner groups (2 per board corner) and 24 other groups",
+   "passed": true,
+   "detail": {
+    "corner": 8,
+    "other": 24,
+    "per_corner": {
+     "NW": 2,
+     "NE": 2,
+     "SW": 2,
+     "SE": 2
+    }
+   }
+  },
+  {
+   "id": "t-08",
+   "name": "rule A: corner groups are 32 cross / 32 U and other groups are 44 cross / 20 U (task-book precheck reproduced exactly)",
+   "passed": true,
+   "detail": {
+    "corner": {
+     "groups": 8,
+     "cross_each": [
+      32
+     ],
+     "u_each": [
+      32
+     ],
+     "cross_total": 256,
+     "u_total": 256,
+     "z1_cross": 128,
+     "z1_u": 128,
+     "z2_cross": 128,
+     "z2_u": 128
+    },
+    "other": {
+     "groups": 24,
+     "cross_each": [
+      44
+     ],
+     "u_each": [
+      20
+     ],
+     "cross_total": 1056,
+     "u_total": 480,
+     "z1_cross": 384,
+     "z1_u": 384,
+     "z2_cross": 672,
+     "z2_u": 96
+    }
+   }
+  },
+  {
+   "id": "t-09",
+   "name": "rule A totals: 1312 cross endpoints / 736 U endpoints",
+   "passed": true,
+   "detail": {
+    "cross": 1312,
+    "u": 736
+   }
+  },
+  {
+   "id": "t-10",
+   "name": "rule A is the unique minimum-total-distance perfect matching: 32 x 9 mm = 288 mm = the global lower bound",
+   "passed": true,
+   "detail": {
+    "total_pair_distance_mm": 288.0,
+    "theoretical_lower_bound_mm": 288.0,
+    "max_pair_distance_mm": 9.0,
+    "uniqueness_argument": "every pair is at least 9 mm (adjacent same-side connectors); 288 mm is reached only when all 32 pairs are adjacent same-side pairs, and the perfect matching of a 16-point line into adjacent pairs is unique"
+   }
+  },
+  {
+   "id": "t-11",
+   "name": "figures written with matplotlib Agg at dpi=170",
+   "passed": true,
+   "detail": {
+    "groups": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\figures\\teacher_coverage_groups.png",
+    "map": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\00_input_audit\\figures\\connector_pairing_map.png",
+    "dpi": 170
+   }
+  }
+ ],
+ "verdict": {
+  "errors": 0,
+  "passed": true
+ }
+}
