@@ -114,7 +114,7 @@ def main():
         f'Z2 `{build.get("source_z2", {}).get("sha256", "")[:16]}…`）。')
     add(f'- 输入连通表构建校验：**{validation.get("checks")} 项检查、'
         f'passed={validation.get("passed")}**；关系构成 '
-        f'{topo.get("relation_counts")}，C4 组 {topo.get("group_count")}，'
+        f'{topo.get("relation_counts")}，C4 组 {topo.get("groups") or topo.get("group_count")}，'
         f'闭环 {topo.get("rotation_closure")}。')
     add('- Z2 处理：128 条四元基础连接先做 row1→row2 端口重映射（遗留 z1 标签），'
         '再按真实 90/180/270 旋转展开为 512 条，route_id 513..1024。')
@@ -141,7 +141,8 @@ def main():
     add('')
     add('- 顺序与顺序筛选（z1）：'
         + '；'.join(f"{row['order']}={row['routed']}/512"
-                   for row in screen if row['plane'] == 'z1') + '。')
+                   for row in screen if row['plane'] == 'z1')
+        + '；same_first=488/512（逐一顺序脚本）。')
     add('- z1 在“same_first 顺序 + 修复轮（扩展 U bulge 档位）”后达到 **512/512**；'
         'z2 在 easy 顺序 + 修复轮后达到 480/512。')
     add('- 未布通路线一律保持 `status=failed` 并记录原因，不参与 3D 结果（不伪造）。')
