@@ -1,0 +1,4 @@
+{
+ "note": "candidate legality reuses validate_l3d_multi 3D sampling: TRANSITION_STEP_MM=0.02, FLAT_STEP=0.1/0.02, QUERY_RADIUS=0.18, limit=0.08-1e-7, segments distance via _segment_segment_closest",
+ "oracle": "four_side_1024/f2fix/run_f2.py::FrozenOracle"
+}

@@ -1,0 +1,2935 @@
+{
+ "schema": "four_side_1024_v2_l3d_validation_v1",
+ "validator": "four_side_1024.l3d.validate_l3d",
+ "routes_file": "<memory>",
+ "layer_stack_source": "embedded",
+ "layer_stack": {
+  "schema": "four_side_1024_v2_l3d_layer_stack_v1",
+  "provenance": "unconfirmed_simulation",
+  "note": "z1_multilayer_150um: 0.15 mm pitch above Z2=0.5; layers L2..L7",
+  "source": "embedded",
+  "valid": true,
+  "confirmed": false,
+  "height_defined": true,
+  "errors": [],
+  "warnings": [],
+  "layers": {
+   "1": {
+    "layer_id": 1,
+    "layer_type": "interface",
+    "physical_z_mm": null,
+    "interface_rows": {
+     "z1": 0.0,
+     "z2": 0.5
+    },
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "2": {
+    "layer_id": 2,
+    "layer_type": "routing",
+    "physical_z_mm": 0.65,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "3": {
+    "layer_id": 3,
+    "layer_type": "routing",
+    "physical_z_mm": 0.8,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "4": {
+    "layer_id": 4,
+    "layer_type": "routing",
+    "physical_z_mm": 0.95,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "5": {
+    "layer_id": 5,
+    "layer_type": "routing",
+    "physical_z_mm": 1.1,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "6": {
+    "layer_id": 6,
+    "layer_type": "routing",
+    "physical_z_mm": 1.25,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   "7": {
+    "layer_id": 7,
+    "layer_type": "routing",
+    "physical_z_mm": 1.4,
+    "interface_rows": {},
+    "allowed_transitions": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "allowed_transitions": {
+   "1": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "2": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "3": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "4": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "5": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "6": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "7": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "physical_planes": [
+   {
+    "z_mm": 0.0,
+    "layer_ids": [
+     1
+    ],
+    "interface_row": "z1",
+    "label": "L1 row z1"
+   },
+   {
+    "z_mm": 0.5,
+    "layer_ids": [
+     1
+    ],
+    "interface_row": "z2",
+    "label": "L1 row z2"
+   },
+   {
+    "z_mm": 0.65,
+    "layer_ids": [
+     2
+    ],
+    "interface_row": null,
+    "label": "L2"
+   },
+   {
+    "z_mm": 0.8,
+    "layer_ids": [
+     3
+    ],
+    "interface_row": null,
+    "label": "L3"
+   },
+   {
+    "z_mm": 0.95,
+    "layer_ids": [
+     4
+    ],
+    "interface_row": null,
+    "label": "L4"
+   },
+   {
+    "z_mm": 1.1,
+    "layer_ids": [
+     5
+    ],
+    "interface_row": null,
+    "label": "L5"
+   },
+   {
+    "z_mm": 1.25,
+    "layer_ids": [
+     6
+    ],
+    "interface_row": null,
+    "label": "L6"
+   },
+   {
+    "z_mm": 1.4,
+    "layer_ids": [
+     7
+    ],
+    "interface_row": null,
+    "label": "L7"
+   }
+  ],
+  "reported_formal_acceptance_allowed": false
+ },
+ "formal_acceptance": false,
+ "exploratory_pass": true,
+ "geometry_pass": true,
+ "geometry_executed": true,
+ "status": "exploratory_only",
+ "exit_code": 0,
+ "allow_exploratory": true,
+ "counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "stats": {
+  "routed": 1024,
+  "failed": 0,
+  "total": 1024,
+  "lifted": 656,
+  "flat_routes": 368,
+  "multi_transition_routes": 656,
+  "transition_count": 1312,
+  "interface_transition_count": 1312,
+  "intermediate_transition_count": 0,
+  "back_to_back_transition_count": 0,
+  "transition_pairs": {
+   "1->2": 160,
+   "2->1": 160,
+   "1->3": 168,
+   "3->1": 168,
+   "1->4": 52,
+   "4->1": 52,
+   "1->6": 172,
+   "6->1": 172,
+   "1->5": 92,
+   "5->1": 92,
+   "1->7": 12,
+   "7->1": 12
+  },
+  "layers_used_histogram": {
+   "1->2": 160,
+   "1->3": 168,
+   "1->4": 52,
+   "1": 368,
+   "1->6": 172,
+   "1->5": 92,
+   "1->7": 12
+  },
+  "transitions_histogram": {
+   "0": 368,
+   "2": 656
+  },
+  "flat_parts": 2336,
+  "flat_lines": 3616,
+  "flat_arcs": 1008,
+  "flat_arc_radius_values": [
+   15.0
+  ],
+  "transition_radius_values": [
+   15.0
+  ],
+  "total_length_mm": 98660.555497451,
+  "xy_length_mm": 98593.880461139,
+  "z_span_max_mm": 0.95,
+  "duplicate_route_ids": [],
+  "min_curvature_radius_mm": 14.999999965,
+  "curvature_routes_checked": 1024,
+  "same_plane_crossings": 5020,
+  "physical_planes": [
+   {
+    "z_mm": 0.0,
+    "layer_ids": [
+     1
+    ],
+    "interface_rows": [
+     "z1"
+    ],
+    "parts": 840,
+    "routes": 512,
+    "label": "L1"
+   },
+   {
+    "z_mm": 0.5,
+    "layer_ids": [
+     1
+    ],
+    "interface_rows": [
+     "z2"
+    ],
+    "parts": 840,
+    "routes": 512,
+    "label": "L1"
+   },
+   {
+    "z_mm": 0.65,
+    "layer_ids": [
+     2
+    ],
+    "interface_rows": [],
+    "parts": 160,
+    "routes": 160,
+    "label": "L2"
+   },
+   {
+    "z_mm": 0.8,
+    "layer_ids": [
+     3
+    ],
+    "interface_rows": [],
+    "parts": 168,
+    "routes": 168,
+    "label": "L3"
+   },
+   {
+    "z_mm": 0.95,
+    "layer_ids": [
+     4
+    ],
+    "interface_rows": [],
+    "parts": 52,
+    "routes": 52,
+    "label": "L4"
+   },
+   {
+    "z_mm": 1.1,
+    "layer_ids": [
+     5
+    ],
+    "interface_rows": [],
+    "parts": 92,
+    "routes": 92,
+    "label": "L5"
+   },
+   {
+    "z_mm": 1.25,
+    "layer_ids": [
+     6
+    ],
+    "interface_rows": [],
+    "parts": 172,
+    "routes": 172,
+    "label": "L6"
+   },
+   {
+    "z_mm": 1.4,
+    "layer_ids": [
+     7
+    ],
+    "interface_rows": [],
+    "parts": 12,
+    "routes": 12,
+    "label": "L7"
+   }
+  ],
+  "min_self_clearance_mm": null,
+  "declared_statistics": {},
+  "min_3d_clearance_mm": 0.080219359,
+  "min_3d_clearance_bound": "measured",
+  "sampling": {
+   "curvature_step_mm": 0.02,
+   "transition_step_mm": 0.02,
+   "flat_line_step_mm": 0.1,
+   "flat_arc_step_mm": 0.02,
+   "clearance_query_radius_mm": 0.18,
+   "curvature_limit_mm": 14.985,
+   "clearance_limit_mm": 0.08,
+   "clearance_tolerance_mm": 1e-07
+  }
+ },
+ "checks": {
+  "layer_stack": {
+   "schema": "four_side_1024_v2_l3d_layer_stack_v1",
+   "provenance": "unconfirmed_simulation",
+   "note": "z1_multilayer_150um: 0.15 mm pitch above Z2=0.5; layers L2..L7",
+   "source": "embedded",
+   "valid": true,
+   "confirmed": false,
+   "height_defined": true,
+   "errors": [],
+   "warnings": [],
+   "layers": {
+    "1": {
+     "layer_id": 1,
+     "layer_type": "interface",
+     "physical_z_mm": null,
+     "interface_rows": {
+      "z1": 0.0,
+      "z2": 0.5
+     },
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "2": {
+     "layer_id": 2,
+     "layer_type": "routing",
+     "physical_z_mm": 0.65,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "3": {
+     "layer_id": 3,
+     "layer_type": "routing",
+     "physical_z_mm": 0.8,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "4": {
+     "layer_id": 4,
+     "layer_type": "routing",
+     "physical_z_mm": 0.95,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "5": {
+     "layer_id": 5,
+     "layer_type": "routing",
+     "physical_z_mm": 1.1,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "6": {
+     "layer_id": 6,
+     "layer_type": "routing",
+     "physical_z_mm": 1.25,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "7": {
+     "layer_id": 7,
+     "layer_type": "routing",
+     "physical_z_mm": 1.4,
+     "interface_rows": {},
+     "allowed_transitions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "allowed_transitions": {
+    "1": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "2": [
+     1,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "3": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7
+    ],
+    "4": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7
+    ],
+    "5": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7
+    ],
+    "6": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7
+    ],
+    "7": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z1",
+     "label": "L1 row z1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z2",
+     "label": "L1 row z2"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_row": null,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_row": null,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_row": null,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_row": null,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_row": null,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_row": null,
+     "label": "L7"
+    }
+   ],
+   "reported_formal_acceptance_allowed": false
+  },
+  "port_model": {
+   "enabled": true,
+   "pairs_checked": 1024,
+   "pairs_expected": 1024,
+   "min_3d_distance_mm": 0.5,
+   "row_heights_mm": {
+    "z1": 0.0,
+    "z2": 0.5
+   },
+   "ok": true,
+   "errors": []
+  },
+  "route_ports": {
+   "routed_routes": 1024,
+   "failed_routes": 0,
+   "checked": 1024,
+   "identity_checked": true,
+   "ok": true,
+   "unique_ports_used": 2048
+  },
+  "transitions": {
+   "interface_transitions": 1312,
+   "intermediate_transitions": 0,
+   "back_to_back_transitions": 0,
+   "transition_pairs": {
+    "1->2": 160,
+    "2->1": 160,
+    "1->3": 168,
+    "3->1": 168,
+    "1->4": 52,
+    "4->1": 52,
+    "1->6": 172,
+    "6->1": 172,
+    "1->5": 92,
+    "5->1": 92,
+    "1->7": 12,
+    "7->1": 12
+   },
+   "transition_radius_values": [
+    15.0
+   ],
+   "interface_transitions_ok": true,
+   "intermediate_transitions_ok": true
+  },
+  "curvature": {
+   "min_curvature_radius_mm": 14.999999965,
+   "limit_mm": 14.985,
+   "sampled": 1024,
+   "flat_arc_radius_values": [
+    15.0
+   ],
+   "transition_radius_values": [
+    15.0
+   ],
+   "violations": 0,
+   "ok": true
+  },
+  "clearance": {
+   "same_plane": {
+    "planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z1"
+      ],
+      "parts": 840,
+      "routes": 512,
+      "violations": 0,
+      "crossings": 2343,
+      "crossing_pairs": 2343,
+      "min_non_crossing_centerline_mm": 0.252049043,
+      "runtime_seconds": 0.364
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z2"
+      ],
+      "parts": 840,
+      "routes": 512,
+      "violations": 0,
+      "crossings": 240,
+      "crossing_pairs": 240,
+      "min_non_crossing_centerline_mm": 0.252049043,
+      "runtime_seconds": 0.209
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_rows": [],
+      "parts": 160,
+      "routes": 160,
+      "violations": 0,
+      "crossings": 1391,
+      "crossing_pairs": 1391,
+      "min_non_crossing_centerline_mm": null,
+      "runtime_seconds": 0.025
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_rows": [],
+      "parts": 168,
+      "routes": 168,
+      "violations": 0,
+      "crossings": 830,
+      "crossing_pairs": 830,
+      "min_non_crossing_centerline_mm": 0.25819452,
+      "runtime_seconds": 0.094
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_rows": [],
+      "parts": 52,
+      "routes": 52,
+      "violations": 0,
+      "crossings": 96,
+      "crossing_pairs": 96,
+      "min_non_crossing_centerline_mm": 0.25819452,
+      "runtime_seconds": 0.014
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_rows": [],
+      "parts": 92,
+      "routes": 92,
+      "violations": 0,
+      "crossings": 48,
+      "crossing_pairs": 24,
+      "min_non_crossing_centerline_mm": 0.25819452,
+      "runtime_seconds": 0.048
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_rows": [],
+      "parts": 172,
+      "routes": 172,
+      "violations": 0,
+      "crossings": 72,
+      "crossing_pairs": 36,
+      "min_non_crossing_centerline_mm": 0.252049043,
+      "runtime_seconds": 0.116
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "violations": 0,
+      "crossings": 0,
+      "crossing_pairs": 0,
+      "min_non_crossing_centerline_mm": 0.380588415,
+      "runtime_seconds": 0.001
+     }
+    ],
+    "total_violations": 0,
+    "crossings": 5020,
+    "min_non_crossing_centerline_mm": 0.25204904266964334
+   },
+   "transition_vs_flat": {
+    "violations": 0,
+    "min_mm": 0.080219359
+   },
+   "transition_vs_transition": {
+    "violations": 0,
+    "min_mm": 0.11821566
+   },
+   "transition_vs_flat_min_mm": 0.080219359,
+   "transition_vs_transition_min_mm": 0.11821566,
+   "cross_plane": {
+    "plane_pairs": [
+     {
+      "z_a": 0.0,
+      "z_b": 0.5,
+      "dz_mm": 0.5,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       1
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.5,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.65,
+      "dz_mm": 0.65,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       2
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.65,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.8,
+      "dz_mm": 0.8,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.8,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 0.95,
+      "dz_mm": 0.95,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.95,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.1,
+      "dz_mm": 1.1,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.1,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.25,
+      "dz_mm": 1.25,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.25,
+      "violations": 0
+     },
+     {
+      "z_a": 0.0,
+      "z_b": 1.4,
+      "dz_mm": 1.4,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 1.4,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.65,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       2
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.8,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 0.95,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.1,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.25,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.5,
+      "z_b": 1.4,
+      "dz_mm": 0.9,
+      "layer_ids_a": [
+       1
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.9,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 0.8,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       3
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 0.95,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.1,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.25,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.65,
+      "z_b": 1.4,
+      "dz_mm": 0.75,
+      "layer_ids_a": [
+       2
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.75,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 0.95,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       4
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.1,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.25,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 0.8,
+      "z_b": 1.4,
+      "dz_mm": 0.6,
+      "layer_ids_a": [
+       3
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.6,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.1,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       5
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.25,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 0.95,
+      "z_b": 1.4,
+      "dz_mm": 0.45,
+      "layer_ids_a": [
+       4
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.45,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.25,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       6
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     },
+     {
+      "z_a": 1.1,
+      "z_b": 1.4,
+      "dz_mm": 0.3,
+      "layer_ids_a": [
+       5
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.3,
+      "violations": 0
+     },
+     {
+      "z_a": 1.25,
+      "z_b": 1.4,
+      "dz_mm": 0.15,
+      "layer_ids_a": [
+       6
+      ],
+      "layer_ids_b": [
+       7
+      ],
+      "guaranteed": true,
+      "min_3d_mm": 0.15,
+      "violations": 0
+     }
+    ],
+    "violations": 0,
+    "min_lower_bound_mm": 0.1499999999999999,
+    "guaranteed_by_plane_gap": true
+   },
+   "cross_plane_violations": 0,
+   "min_3d_clearance_mm": 0.080219359,
+   "min_3d_clearance_bound": "measured",
+   "transition_clearance_ok": true,
+   "plane_rules_ok": true,
+   "ok": true
+  },
+  "layer_id_not_z": {
+   "ok": true,
+   "physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_rows": [
+      "z1"
+     ],
+     "parts": 840,
+     "routes": 512,
+     "label": "L1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_rows": [
+      "z2"
+     ],
+     "parts": 840,
+     "routes": 512,
+     "label": "L1"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_rows": [],
+     "parts": 160,
+     "routes": 160,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_rows": [],
+     "parts": 168,
+     "routes": 168,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_rows": [],
+     "parts": 52,
+     "routes": 52,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_rows": [],
+     "parts": 92,
+     "routes": 92,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_rows": [],
+     "parts": 172,
+     "routes": 172,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_rows": [],
+     "parts": 12,
+     "routes": 12,
+     "label": "L7"
+    }
+   ],
+   "stack_physical_planes": [
+    {
+     "z_mm": 0.0,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z1",
+     "label": "L1 row z1"
+    },
+    {
+     "z_mm": 0.5,
+     "layer_ids": [
+      1
+     ],
+     "interface_row": "z2",
+     "label": "L1 row z2"
+    },
+    {
+     "z_mm": 0.65,
+     "layer_ids": [
+      2
+     ],
+     "interface_row": null,
+     "label": "L2"
+    },
+    {
+     "z_mm": 0.8,
+     "layer_ids": [
+      3
+     ],
+     "interface_row": null,
+     "label": "L3"
+    },
+    {
+     "z_mm": 0.95,
+     "layer_ids": [
+      4
+     ],
+     "interface_row": null,
+     "label": "L4"
+    },
+    {
+     "z_mm": 1.1,
+     "layer_ids": [
+      5
+     ],
+     "interface_row": null,
+     "label": "L5"
+    },
+    {
+     "z_mm": 1.25,
+     "layer_ids": [
+      6
+     ],
+     "interface_row": null,
+     "label": "L6"
+    },
+    {
+     "z_mm": 1.4,
+     "layer_ids": [
+      7
+     ],
+     "interface_row": null,
+     "label": "L7"
+    }
+   ],
+   "same_layer_different_z_groups": {
+    "L1": 2,
+    "L2": 1,
+    "L3": 1,
+    "L4": 1,
+    "L5": 1,
+    "L6": 1,
+    "L7": 1
+   },
+   "different_layer_same_z_groups": 0,
+   "note": "planes are grouped by physical z, never by layer_id; L1's two rows share layer_id=1 but are distinct planes"
+  },
+  "self_clearance": {
+   "min_mm": null,
+   "violations": 0,
+   "ok": true
+  },
+  "acceptance": {
+   "formal_acceptance": false,
+   "status": "exploratory_only",
+   "exit_code": 0,
+   "exploratory_pass": true,
+   "allow_exploratory": true,
+   "geometry_executed": true,
+   "geometry_pass": true,
+   "provenance": "unconfirmed_simulation",
+   "stack_valid": true,
+   "stack_confirmed": false,
+   "reported_router_formal_flag": false,
+   "note": "formal process acceptance requires provenance='confirmed' and a valid layer stack; unconfirmed heights are exploratory only"
+  }
+ },
+ "items": [
+  {
+   "item": "layer_stack_L1_interface",
+   "requirement": 1,
+   "status": "pass",
+   "detail": "L1 is the interface layer with rows z1=0.0 / z2=0.5",
+   "metrics": {
+    "provenance": "unconfirmed_simulation",
+    "confirmed": false,
+    "height_defined": true,
+    "planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z1",
+      "label": "L1 row z1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z2",
+      "label": "L1 row z2"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_row": null,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_row": null,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_row": null,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_row": null,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_row": null,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_row": null,
+      "label": "L7"
+     }
+    ]
+   }
+  },
+  {
+   "item": "port_rows_real_3d_separation",
+   "requirement": 2,
+   "status": "pass",
+   "detail": "1024 same-XY row pairs, min 3D distance 0.5 mm",
+   "metrics": {
+    "enabled": true,
+    "pairs_checked": 1024,
+    "pairs_expected": 1024,
+    "min_3d_distance_mm": 0.5,
+    "row_heights_mm": {
+     "z1": 0.0,
+     "z2": 0.5
+    },
+    "ok": true,
+    "errors": []
+   }
+  },
+  {
+   "item": "routes_start_end_on_L1_ports",
+   "requirement": 3,
+   "status": "pass",
+   "detail": "routed=1024, identity_checked=True, port_errors=0",
+   "metrics": {
+    "routed_routes": 1024,
+    "failed_routes": 0,
+    "checked": 1024,
+    "identity_checked": true,
+    "ok": true,
+    "unique_ports_used": 2048
+   }
+  },
+  {
+   "item": "transitions_from_interface",
+   "requirement": 4,
+   "status": "pass",
+   "detail": "interface transitions=1312, geometry/curvature/clearance violations=0",
+   "metrics": {
+    "interface_transitions": 1312,
+    "intermediate_transitions": 0,
+    "back_to_back_transitions": 0,
+    "transition_pairs": {
+     "1->2": 160,
+     "2->1": 160,
+     "1->3": 168,
+     "3->1": 168,
+     "1->4": 52,
+     "4->1": 52,
+     "1->6": 172,
+     "6->1": 172,
+     "1->5": 92,
+     "5->1": 92,
+     "1->7": 12,
+     "7->1": 12
+    },
+    "transition_radius_values": [
+     15.0
+    ],
+    "interface_transitions_ok": true,
+    "intermediate_transitions_ok": true
+   }
+  },
+  {
+   "item": "transitions_intermediate_multi",
+   "requirement": 5,
+   "status": "pass",
+   "detail": "intermediate transitions=0, multi-transition routes=656, back-to-back=0",
+   "metrics": {
+    "interface_transitions": 1312,
+    "intermediate_transitions": 0,
+    "back_to_back_transitions": 0,
+    "transition_pairs": {
+     "1->2": 160,
+     "2->1": 160,
+     "1->3": 168,
+     "3->1": 168,
+     "1->4": 52,
+     "4->1": 52,
+     "1->6": 172,
+     "6->1": 172,
+     "1->5": 92,
+     "5->1": 92,
+     "1->7": 12,
+     "7->1": 12
+    },
+    "transition_radius_values": [
+     15.0
+    ],
+    "interface_transitions_ok": true,
+    "intermediate_transitions_ok": true
+   }
+  },
+  {
+   "item": "curvature_3d_min_radius",
+   "requirement": 6,
+   "status": "pass",
+   "detail": "min sampled 3D radius=14.999999965 mm (limit 14.985), analytic violations=0",
+   "metrics": {
+    "min_curvature_radius_mm": 14.999999965,
+    "limit_mm": 14.985,
+    "sampled": 1024,
+    "flat_arc_radius_values": [
+     15.0
+    ],
+    "transition_radius_values": [
+     15.0
+    ],
+    "violations": 0,
+    "ok": true
+   }
+  },
+  {
+   "item": "transition_vs_L1_clearance",
+   "requirement": 7,
+   "status": "pass",
+   "detail": "transition-vs-flat min=0.080219359 mm, transition-vs-transition min=0.11821566 mm, violations=0",
+   "metrics": {
+    "same_plane": {
+     "planes": [
+      {
+       "z_mm": 0.0,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z1"
+       ],
+       "parts": 840,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 2343,
+       "crossing_pairs": 2343,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.364
+      },
+      {
+       "z_mm": 0.5,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z2"
+       ],
+       "parts": 840,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 240,
+       "crossing_pairs": 240,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.209
+      },
+      {
+       "z_mm": 0.65,
+       "layer_ids": [
+        2
+       ],
+       "interface_rows": [],
+       "parts": 160,
+       "routes": 160,
+       "violations": 0,
+       "crossings": 1391,
+       "crossing_pairs": 1391,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.025
+      },
+      {
+       "z_mm": 0.8,
+       "layer_ids": [
+        3
+       ],
+       "interface_rows": [],
+       "parts": 168,
+       "routes": 168,
+       "violations": 0,
+       "crossings": 830,
+       "crossing_pairs": 830,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.094
+      },
+      {
+       "z_mm": 0.95,
+       "layer_ids": [
+        4
+       ],
+       "interface_rows": [],
+       "parts": 52,
+       "routes": 52,
+       "violations": 0,
+       "crossings": 96,
+       "crossing_pairs": 96,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.014
+      },
+      {
+       "z_mm": 1.1,
+       "layer_ids": [
+        5
+       ],
+       "interface_rows": [],
+       "parts": 92,
+       "routes": 92,
+       "violations": 0,
+       "crossings": 48,
+       "crossing_pairs": 24,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.048
+      },
+      {
+       "z_mm": 1.25,
+       "layer_ids": [
+        6
+       ],
+       "interface_rows": [],
+       "parts": 172,
+       "routes": 172,
+       "violations": 0,
+       "crossings": 72,
+       "crossing_pairs": 36,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.116
+      },
+      {
+       "z_mm": 1.4,
+       "layer_ids": [
+        7
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 0,
+       "crossing_pairs": 0,
+       "min_non_crossing_centerline_mm": 0.380588415,
+       "runtime_seconds": 0.001
+      }
+     ],
+     "total_violations": 0,
+     "crossings": 5020,
+     "min_non_crossing_centerline_mm": 0.25204904266964334
+    },
+    "transition_vs_flat": {
+     "violations": 0,
+     "min_mm": 0.080219359
+    },
+    "transition_vs_transition": {
+     "violations": 0,
+     "min_mm": 0.11821566
+    },
+    "transition_vs_flat_min_mm": 0.080219359,
+    "transition_vs_transition_min_mm": 0.11821566,
+    "cross_plane": {
+     "plane_pairs": [
+      {
+       "z_a": 0.0,
+       "z_b": 0.5,
+       "dz_mm": 0.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        1
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.65,
+       "dz_mm": 0.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.8,
+       "dz_mm": 0.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.95,
+       "dz_mm": 0.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.1,
+       "dz_mm": 1.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.25,
+       "dz_mm": 1.25,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.25,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.4,
+       "dz_mm": 1.4,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.4,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.65,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.8,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.95,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.1,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.25,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.4,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.8,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.95,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.1,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.25,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.4,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 0.95,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.1,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.25,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.4,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.1,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.25,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.4,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.25,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.4,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.4,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      }
+     ],
+     "violations": 0,
+     "min_lower_bound_mm": 0.1499999999999999,
+     "guaranteed_by_plane_gap": true
+    },
+    "cross_plane_violations": 0,
+    "min_3d_clearance_mm": 0.080219359,
+    "min_3d_clearance_bound": "measured",
+    "transition_clearance_ok": true,
+    "plane_rules_ok": true,
+    "ok": true
+   }
+  },
+  {
+   "item": "same_plane_strict_and_cross_plane",
+   "requirement": 8,
+   "status": "pass",
+   "detail": "same-plane strict violations=0, cross-plane violations=0, min 3D clearance=0.080219359 mm",
+   "metrics": {
+    "same_plane": {
+     "planes": [
+      {
+       "z_mm": 0.0,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z1"
+       ],
+       "parts": 840,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 2343,
+       "crossing_pairs": 2343,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.364
+      },
+      {
+       "z_mm": 0.5,
+       "layer_ids": [
+        1
+       ],
+       "interface_rows": [
+        "z2"
+       ],
+       "parts": 840,
+       "routes": 512,
+       "violations": 0,
+       "crossings": 240,
+       "crossing_pairs": 240,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.209
+      },
+      {
+       "z_mm": 0.65,
+       "layer_ids": [
+        2
+       ],
+       "interface_rows": [],
+       "parts": 160,
+       "routes": 160,
+       "violations": 0,
+       "crossings": 1391,
+       "crossing_pairs": 1391,
+       "min_non_crossing_centerline_mm": null,
+       "runtime_seconds": 0.025
+      },
+      {
+       "z_mm": 0.8,
+       "layer_ids": [
+        3
+       ],
+       "interface_rows": [],
+       "parts": 168,
+       "routes": 168,
+       "violations": 0,
+       "crossings": 830,
+       "crossing_pairs": 830,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.094
+      },
+      {
+       "z_mm": 0.95,
+       "layer_ids": [
+        4
+       ],
+       "interface_rows": [],
+       "parts": 52,
+       "routes": 52,
+       "violations": 0,
+       "crossings": 96,
+       "crossing_pairs": 96,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.014
+      },
+      {
+       "z_mm": 1.1,
+       "layer_ids": [
+        5
+       ],
+       "interface_rows": [],
+       "parts": 92,
+       "routes": 92,
+       "violations": 0,
+       "crossings": 48,
+       "crossing_pairs": 24,
+       "min_non_crossing_centerline_mm": 0.25819452,
+       "runtime_seconds": 0.048
+      },
+      {
+       "z_mm": 1.25,
+       "layer_ids": [
+        6
+       ],
+       "interface_rows": [],
+       "parts": 172,
+       "routes": 172,
+       "violations": 0,
+       "crossings": 72,
+       "crossing_pairs": 36,
+       "min_non_crossing_centerline_mm": 0.252049043,
+       "runtime_seconds": 0.116
+      },
+      {
+       "z_mm": 1.4,
+       "layer_ids": [
+        7
+       ],
+       "interface_rows": [],
+       "parts": 12,
+       "routes": 12,
+       "violations": 0,
+       "crossings": 0,
+       "crossing_pairs": 0,
+       "min_non_crossing_centerline_mm": 0.380588415,
+       "runtime_seconds": 0.001
+      }
+     ],
+     "total_violations": 0,
+     "crossings": 5020,
+     "min_non_crossing_centerline_mm": 0.25204904266964334
+    },
+    "transition_vs_flat": {
+     "violations": 0,
+     "min_mm": 0.080219359
+    },
+    "transition_vs_transition": {
+     "violations": 0,
+     "min_mm": 0.11821566
+    },
+    "transition_vs_flat_min_mm": 0.080219359,
+    "transition_vs_transition_min_mm": 0.11821566,
+    "cross_plane": {
+     "plane_pairs": [
+      {
+       "z_a": 0.0,
+       "z_b": 0.5,
+       "dz_mm": 0.5,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        1
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.5,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.65,
+       "dz_mm": 0.65,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.65,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.8,
+       "dz_mm": 0.8,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.8,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 0.95,
+       "dz_mm": 0.95,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.95,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.1,
+       "dz_mm": 1.1,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.1,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.25,
+       "dz_mm": 1.25,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.25,
+       "violations": 0
+      },
+      {
+       "z_a": 0.0,
+       "z_b": 1.4,
+       "dz_mm": 1.4,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 1.4,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.65,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        2
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.8,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 0.95,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.1,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.25,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.5,
+       "z_b": 1.4,
+       "dz_mm": 0.9,
+       "layer_ids_a": [
+        1
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.9,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.8,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        3
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 0.95,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.1,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.25,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.65,
+       "z_b": 1.4,
+       "dz_mm": 0.75,
+       "layer_ids_a": [
+        2
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.75,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 0.95,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        4
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.1,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.25,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 0.8,
+       "z_b": 1.4,
+       "dz_mm": 0.6,
+       "layer_ids_a": [
+        3
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.6,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.1,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        5
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.25,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 0.95,
+       "z_b": 1.4,
+       "dz_mm": 0.45,
+       "layer_ids_a": [
+        4
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.45,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.25,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        6
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      },
+      {
+       "z_a": 1.1,
+       "z_b": 1.4,
+       "dz_mm": 0.3,
+       "layer_ids_a": [
+        5
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.3,
+       "violations": 0
+      },
+      {
+       "z_a": 1.25,
+       "z_b": 1.4,
+       "dz_mm": 0.15,
+       "layer_ids_a": [
+        6
+       ],
+       "layer_ids_b": [
+        7
+       ],
+       "guaranteed": true,
+       "min_3d_mm": 0.15,
+       "violations": 0
+      }
+     ],
+     "violations": 0,
+     "min_lower_bound_mm": 0.1499999999999999,
+     "guaranteed_by_plane_gap": true
+    },
+    "cross_plane_violations": 0,
+    "min_3d_clearance_mm": 0.080219359,
+    "min_3d_clearance_bound": "measured",
+    "transition_clearance_ok": true,
+    "plane_rules_ok": true,
+    "ok": true
+   }
+  },
+  {
+   "item": "layer_id_is_not_a_z_coordinate",
+   "requirement": 9,
+   "status": "pass",
+   "detail": "8 distinct physical planes; same layer id in {'L1': 2, 'L2': 1, 'L3': 1, 'L4': 1, 'L5': 1, 'L6': 1, 'L7': 1} distinct-z groups; different layer ids sharing one physical plane: 0",
+   "metrics": {
+    "ok": true,
+    "physical_planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z1"
+      ],
+      "parts": 840,
+      "routes": 512,
+      "label": "L1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_rows": [
+       "z2"
+      ],
+      "parts": 840,
+      "routes": 512,
+      "label": "L1"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_rows": [],
+      "parts": 160,
+      "routes": 160,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_rows": [],
+      "parts": 168,
+      "routes": 168,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_rows": [],
+      "parts": 52,
+      "routes": 52,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_rows": [],
+      "parts": 92,
+      "routes": 92,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_rows": [],
+      "parts": 172,
+      "routes": 172,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_rows": [],
+      "parts": 12,
+      "routes": 12,
+      "label": "L7"
+     }
+    ],
+    "stack_physical_planes": [
+     {
+      "z_mm": 0.0,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z1",
+      "label": "L1 row z1"
+     },
+     {
+      "z_mm": 0.5,
+      "layer_ids": [
+       1
+      ],
+      "interface_row": "z2",
+      "label": "L1 row z2"
+     },
+     {
+      "z_mm": 0.65,
+      "layer_ids": [
+       2
+      ],
+      "interface_row": null,
+      "label": "L2"
+     },
+     {
+      "z_mm": 0.8,
+      "layer_ids": [
+       3
+      ],
+      "interface_row": null,
+      "label": "L3"
+     },
+     {
+      "z_mm": 0.95,
+      "layer_ids": [
+       4
+      ],
+      "interface_row": null,
+      "label": "L4"
+     },
+     {
+      "z_mm": 1.1,
+      "layer_ids": [
+       5
+      ],
+      "interface_row": null,
+      "label": "L5"
+     },
+     {
+      "z_mm": 1.25,
+      "layer_ids": [
+       6
+      ],
+      "interface_row": null,
+      "label": "L6"
+     },
+     {
+      "z_mm": 1.4,
+      "layer_ids": [
+       7
+      ],
+      "interface_row": null,
+      "label": "L7"
+     }
+    ],
+    "same_layer_different_z_groups": {
+     "L1": 2,
+     "L2": 1,
+     "L3": 1,
+     "L4": 1,
+     "L5": 1,
+     "L6": 1,
+     "L7": 1
+    },
+    "different_layer_same_z_groups": 0,
+    "note": "planes are grouped by physical z, never by layer_id; L1's two rows share layer_id=1 but are distinct planes"
+   }
+  },
+  {
+   "item": "formal_acceptance",
+   "requirement": 10,
+   "status": "pass",
+   "detail": "formal acceptance refused: layer heights are not supervisor-confirmed (provenance='unconfirmed_simulation'); exploratory only; formal_acceptance=False, status=exploratory_only, exit_code=0, allow_exploratory=True, exploratory_pass=True, geometry_executed=True",
+   "metrics": {
+    "formal_acceptance": false,
+    "status": "exploratory_only",
+    "exit_code": 0,
+    "exploratory_pass": true,
+    "allow_exploratory": true,
+    "geometry_executed": true,
+    "geometry_pass": true,
+    "provenance": "unconfirmed_simulation",
+    "stack_valid": true,
+    "stack_confirmed": false,
+    "reported_router_formal_flag": false,
+    "note": "formal process acceptance requires provenance='confirmed' and a valid layer stack; unconfirmed heights are exploratory only"
+   }
+  }
+ ],
+ "violations": [],
+ "violation_kinds": {},
+ "warnings": [
+  "payload has no process record"
+ ],
+ "runtime_seconds": 4.391
+}

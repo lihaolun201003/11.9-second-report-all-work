@@ -1,0 +1,13 @@
+{
+ "symmetry_pass": true,
+ "maximum_xyz_deviation_mm": 2.842170943040401e-14,
+ "orbits": {
+  "1": 46,
+  "3": 5,
+  "4": 8,
+  "5": 23,
+  "6": 43,
+  "7": 3
+ },
+ "note": "Z2 optimised as 128 strict-C4 orbits; L4-L7 priority; no orbit was moved alone"
+}

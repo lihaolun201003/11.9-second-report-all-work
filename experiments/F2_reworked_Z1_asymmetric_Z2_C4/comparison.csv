@@ -1,0 +1,7 @@
+﻿experiment,unique,z1,z2,high,ns_l2,ew_l3,violations,z2_c4,hours
+E1 baseline,3594,2608,240,746,0,0,0,True,27.006
+F2 original initial,10516,8672,0,1845,94,86,220,True,26.7943
+F2 original local,11697,10332,0,1366,88,74,180,True,26.9082
+F2 reworked best legal,4960,2343,240,2377,93,65,0,True,27.4057
+F2 reworked target assignment,5187,2341,240,2606,99,114,0,True,27.4059
+F3 follow-up,4960,2343,240,2377,93,65,0,True,27.4057

@@ -1,0 +1,27 @@
+{
+ "note": "root cause: fast world accepted transition_vs_flat pairs that the frozen validator rejects (exact 3D segment sampling, 0.08-1e-7 limit); old repair reverted Z2 orbits to the interface, creating new Z1 transition-vs-flat conflicts",
+ "old_validation_counts": {
+  "F2 old local": {
+   "violations": 180,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 180,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  },
+  "F3 old": {
+   "violations": 240,
+   "contract_errors": 0,
+   "port_errors": 0,
+   "geometry_errors": 0,
+   "curvature_violations": 0,
+   "clearance_violations": 240,
+   "same_plane_violations": 0,
+   "self_clearance_violations": 0,
+   "other_errors": 0
+  }
+ }
+}

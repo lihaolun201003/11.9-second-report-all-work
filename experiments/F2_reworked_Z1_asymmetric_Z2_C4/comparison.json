@@ -1,0 +1,273 @@
+{
+ "rows": [
+  {
+   "experiment": "E1 baseline",
+   "unique": 3594,
+   "z1": 2608,
+   "z2": 240,
+   "high": 746,
+   "ns_l2": 0,
+   "ew_l3": 0,
+   "violations": 0,
+   "z2_c4": true,
+   "hours": 27.006
+  },
+  {
+   "experiment": "F2 original initial",
+   "unique": 10516,
+   "z1": 8672,
+   "z2": 0,
+   "high": 1845,
+   "ns_l2": 94,
+   "ew_l3": 86,
+   "violations": 220,
+   "z2_c4": true,
+   "hours": 26.7943
+  },
+  {
+   "experiment": "F2 original local",
+   "unique": 11697,
+   "z1": 10332,
+   "z2": 0,
+   "high": 1366,
+   "ns_l2": 88,
+   "ew_l3": 74,
+   "violations": 180,
+   "z2_c4": true,
+   "hours": 26.9082
+  },
+  {
+   "experiment": "F2 reworked best legal",
+   "unique": 4960,
+   "z1": 2343,
+   "z2": 240,
+   "high": 2377,
+   "ns_l2": 93,
+   "ew_l3": 65,
+   "violations": 0,
+   "z2_c4": true,
+   "hours": 27.4057
+  },
+  {
+   "experiment": "F2 reworked target assignment",
+   "unique": 5187,
+   "z1": 2341,
+   "z2": 240,
+   "high": 2606,
+   "ns_l2": 99,
+   "ew_l3": 114,
+   "violations": 0,
+   "z2_c4": true,
+   "hours": 27.4059
+  },
+  {
+   "experiment": "F3 follow-up",
+   "unique": 4960,
+   "z1": 2343,
+   "z2": 240,
+   "high": 2377,
+   "ns_l2": 93,
+   "ew_l3": 65,
+   "violations": 0,
+   "z2_c4": true,
+   "hours": 27.4057
+  }
+ ],
+ "numbers": {
+  "F2_best_legal": {
+   "unique": 4960,
+   "z1": 2343,
+   "z2": 240,
+   "high": 2377,
+   "transitions": 1312,
+   "hours": 27.4057,
+   "violations": 0,
+   "z2_c4": true,
+   "z2_c4_max_dev": 2.842170943040401e-14,
+   "ns_l2": 93,
+   "ns_l3": 19,
+   "ns_l4": 20,
+   "ns_l1": 0,
+   "ew_l3": 65,
+   "ew_l2": 67,
+   "ew_l1": 0,
+   "layers": {
+    "adjacent_z1": {
+     "1": 184
+    },
+    "adjacent_z2": {
+     "1": 184,
+     "6": 128
+    },
+    "opposite_z1_EW": {
+     "2": 67,
+     "3": 65
+    },
+    "opposite_z1_NS": {
+     "2": 93,
+     "3": 19,
+     "4": 20
+    },
+    "opposite_z2_EW": {
+     "4": 4
+    },
+    "opposite_z2_NS": {
+     "4": 4
+    },
+    "same_u_z1": {
+     "3": 64
+    },
+    "same_u_z2": {
+     "3": 20,
+     "4": 24,
+     "5": 92,
+     "6": 44,
+     "7": 12
+    }
+   },
+   "z2_orbits": {
+    "1": 46,
+    "3": 5,
+    "4": 8,
+    "5": 23,
+    "6": 43,
+    "7": 3
+   },
+   "l4": 52,
+   "l5": 92,
+   "l6": 172,
+   "l7": 12,
+   "adjacent_lifted": null
+  },
+  "F2_best_target_assignment": {
+   "unique": 5187,
+   "z1": 2341,
+   "z2": 240,
+   "high": 2606,
+   "transitions": 1312,
+   "hours": 27.4059,
+   "violations": 0,
+   "z2_c4": true,
+   "z2_c4_max_dev": 2.842170943040401e-14,
+   "ns_l2": 99,
+   "ns_l3": 31,
+   "ns_l4": 2,
+   "ns_l1": 0,
+   "ew_l3": 114,
+   "ew_l2": 18,
+   "ew_l1": 0,
+   "layers": {
+    "adjacent_z1": {
+     "1": 184
+    },
+    "adjacent_z2": {
+     "1": 184,
+     "6": 128
+    },
+    "opposite_z1_EW": {
+     "2": 18,
+     "3": 114
+    },
+    "opposite_z1_NS": {
+     "2": 99,
+     "3": 31,
+     "4": 2
+    },
+    "opposite_z2_EW": {
+     "4": 4
+    },
+    "opposite_z2_NS": {
+     "4": 4
+    },
+    "same_u_z1": {
+     "3": 64
+    },
+    "same_u_z2": {
+     "3": 20,
+     "4": 24,
+     "5": 92,
+     "6": 44,
+     "7": 12
+    }
+   },
+   "z2_orbits": {
+    "1": 46,
+    "3": 5,
+    "4": 8,
+    "5": 23,
+    "6": 43,
+    "7": 3
+   },
+   "l4": 34,
+   "l5": 92,
+   "l6": 172,
+   "l7": 12,
+   "adjacent_lifted": null
+  },
+  "F3_followup": {
+   "unique": 4960,
+   "z1": 2343,
+   "z2": 240,
+   "high": 2377,
+   "transitions": 1312,
+   "hours": 27.4057,
+   "violations": 0,
+   "z2_c4": true,
+   "z2_c4_max_dev": 2.842170943040401e-14,
+   "ns_l2": 93,
+   "ns_l3": 19,
+   "ns_l4": 20,
+   "ns_l1": 0,
+   "ew_l3": 65,
+   "ew_l2": 67,
+   "ew_l1": 0,
+   "layers": {
+    "adjacent_z1": {
+     "1": 184
+    },
+    "adjacent_z2": {
+     "1": 184,
+     "6": 128
+    },
+    "opposite_z1_EW": {
+     "2": 67,
+     "3": 65
+    },
+    "opposite_z1_NS": {
+     "2": 93,
+     "3": 19,
+     "4": 20
+    },
+    "opposite_z2_EW": {
+     "4": 4
+    },
+    "opposite_z2_NS": {
+     "4": 4
+    },
+    "same_u_z1": {
+     "3": 64
+    },
+    "same_u_z2": {
+     "3": 20,
+     "4": 24,
+     "5": 92,
+     "6": 44,
+     "7": 12
+    }
+   },
+   "z2_orbits": {
+    "1": 46,
+    "3": 5,
+    "4": 8,
+    "5": 23,
+    "6": 43,
+    "7": 3
+   },
+   "l4": 52,
+   "l5": 92,
+   "l6": 172,
+   "l7": 12,
+   "adjacent_lifted": 0
+  }
+ }
+}

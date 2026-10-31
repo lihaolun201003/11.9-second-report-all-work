@@ -1,0 +1,52 @@
+{
+ "stats": {
+  "candidates": 260,
+  "applied": 260,
+  "chunks": 13,
+  "chunk_fail": 0,
+  "validations": 13
+ },
+ "counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "layers": {
+  "adjacent_z1": {
+   "1": 184
+  },
+  "adjacent_z2": {
+   "1": 184,
+   "6": 128
+  },
+  "opposite_z1_EW": {
+   "3": 65,
+   "2": 67
+  },
+  "opposite_z1_NS": {
+   "2": 93,
+   "3": 19,
+   "4": 20
+  },
+  "opposite_z2_EW": {
+   "4": 4
+  },
+  "opposite_z2_NS": {
+   "4": 4
+  },
+  "same_u_z1": {
+   "3": 64
+  },
+  "same_u_z2": {
+   "3": 64,
+   "4": 64,
+   "5": 64
+  }
+ }
+}
