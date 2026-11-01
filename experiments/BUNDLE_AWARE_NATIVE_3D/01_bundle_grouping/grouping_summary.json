@@ -1,0 +1,348 @@
+{
+ "schema": "bundle3d_grouping_summary_v1",
+ "input_snapshot": {
+  "files": [
+   "manual_z1_c4_full_section2.csv",
+   "manual_z2_c4_full_section2.csv",
+   "connectivity_1024.csv",
+   "connectivity_1024.json",
+   "baseline_2d_routes_992.json"
+  ],
+  "sha256": [
+   "9d5e0b5e15c4b2774130403c94cc56f91b79584496676cbffb7ee81acf54cfbd",
+   "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a",
+   "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+   "586c9a062f8f9af4896178cdeb005c7d4bcba5bc37bc7b413aa5dc3b9722ff26",
+   "d4ac052a9af38e9a92e95ce1528e2af49cdbc10bb6509e53c9aa69c8e8f7cf2e"
+  ]
+ },
+ "connections": 1024,
+ "orbits": 256,
+ "edges": 9753,
+ "methods": {
+  "graph_clustering_A": {
+   "plane_summaries": {
+    "z1": {
+     "plane": "z1",
+     "bundle_count": 24,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 5.333,
+      "min": 2,
+      "max": 8
+     },
+     "internal_cross_rate": 0.18,
+     "internal_cross_pairs": 1080,
+     "mean_compatibility": 0.6425,
+     "kind_mix": {
+      "opposite": 16,
+      "same": 8
+     },
+     "mixed_bundles": 0,
+     "order_preservation": 1.0
+    },
+    "z2": {
+     "plane": "z2",
+     "bundle_count": 29,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 4.414,
+      "min": 2,
+      "max": 9
+     },
+     "internal_cross_rate": 0.23688524590163934,
+     "internal_cross_pairs": 1156,
+     "mean_compatibility": 0.6763,
+     "kind_mix": {
+      "adjacent": 24,
+      "same": 5
+     },
+     "mixed_bundles": 0,
+     "order_preservation": 1.0
+    }
+   },
+   "bundle_count": 53,
+   "total_connections": 1024,
+   "internal_cross_rate": 0.20940936684360242,
+   "mean_compatibility": 0.6594,
+   "size_orbits": {
+    "mean": 4.8735,
+    "min": 2,
+    "max": 9
+   },
+   "kind_mix": {
+    "opposite": 16,
+    "same": 13,
+    "adjacent": 24
+   },
+   "mixed_bundles": 0,
+   "score": 0.5191
+  },
+  "graph_mixed_A2": {
+   "plane_summaries": {
+    "z1": {
+     "plane": "z1",
+     "bundle_count": 22,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 5.818,
+      "min": 2,
+      "max": 16
+     },
+     "internal_cross_rate": 0.16258351893095768,
+     "internal_cross_pairs": 1168,
+     "mean_compatibility": 0.6282,
+     "kind_mix": {
+      "opposite": 15,
+      "same": 7
+     },
+     "mixed_bundles": 0,
+     "order_preservation": 1.0
+    },
+    "z2": {
+     "plane": "z2",
+     "bundle_count": 26,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 4.923,
+      "min": 2,
+      "max": 9
+     },
+     "internal_cross_rate": 0.2213235294117647,
+     "internal_cross_pairs": 1204,
+     "mean_compatibility": 0.6516,
+     "kind_mix": {
+      "adjacent": 21,
+      "same": 5
+     },
+     "mixed_bundles": 1,
+     "order_preservation": 1.0
+    }
+   },
+   "bundle_count": 48,
+   "total_connections": 1024,
+   "internal_cross_rate": 0.1923992746724803,
+   "mean_compatibility": 0.6398999999999999,
+   "size_orbits": {
+    "mean": 5.3705,
+    "min": 2,
+    "max": 16
+   },
+   "kind_mix": {
+    "opposite": 15,
+    "same": 12,
+    "adjacent": 21
+   },
+   "mixed_bundles": 1,
+   "score": 0.548,
+   "selected": true
+  },
+  "corridor_clustering_B": {
+   "plane_summaries": {
+    "z1": {
+     "plane": "z1",
+     "bundle_count": 9,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 14.222,
+      "min": 8,
+      "max": 16
+     },
+     "internal_cross_rate": 0.3244173728813559,
+     "internal_cross_pairs": 4900,
+     "mean_compatibility": 0.3471,
+     "kind_mix": {
+      "opposite": 4,
+      "same": 5
+     },
+     "mixed_bundles": 0,
+     "order_preservation": 1.0
+    },
+    "z2": {
+     "plane": "z2",
+     "bundle_count": 11,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 11.636,
+      "min": 1,
+      "max": 16
+     },
+     "internal_cross_rate": 0.37819089900110986,
+     "internal_cross_pairs": 5452,
+     "mean_compatibility": 0.312,
+     "kind_mix": {
+      "adjacent": 7,
+      "same": 4
+     },
+     "mixed_bundles": 0,
+     "order_preservation": 1.0
+    }
+   },
+   "bundle_count": 20,
+   "total_connections": 1024,
+   "internal_cross_rate": 0.3527378195974396,
+   "mean_compatibility": 0.32955,
+   "size_orbits": {
+    "mean": 12.928999999999998,
+    "min": 1,
+    "max": 16
+   },
+   "kind_mix": {
+    "opposite": 4,
+    "same": 9,
+    "adjacent": 7
+   },
+   "mixed_bundles": 0,
+   "score": 0.4238
+  },
+  "kind_pure_baseline_C": {
+   "plane_summaries": {
+    "z1": {
+     "plane": "z1",
+     "bundle_count": 16,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 8.0,
+      "min": 8,
+      "max": 8
+     },
+     "internal_cross_rate": 0.296875,
+     "internal_cross_pairs": 2356,
+     "mean_compatibility": 0.4354,
+     "kind_mix": {
+      "opposite": 8,
+      "same": 8
+     },
+     "mixed_bundles": 0,
+     "order_preservation": 1.0
+    },
+    "z2": {
+     "plane": "z2",
+     "bundle_count": 17,
+     "total_orbits": 128,
+     "total_connections": 512,
+     "size_orbits": {
+      "mean": 7.529,
+      "min": 4,
+      "max": 8
+     },
+     "internal_cross_rate": 0.28802083333333334,
+     "internal_cross_pairs": 2212,
+     "mean_compatibility": 0.4119,
+     "kind_mix": {
+      "adjacent": 13,
+      "same": 4
+     },
+     "mixed_bundles": 0,
+     "order_preservation": 1.0
+    }
+   },
+   "bundle_count": 33,
+   "total_connections": 1024,
+   "internal_cross_rate": 0.29258747446001165,
+   "mean_compatibility": 0.42364999999999997,
+   "size_orbits": {
+    "mean": 7.7645,
+    "min": 4,
+    "max": 8
+   },
+   "kind_mix": {
+    "opposite": 8,
+    "same": 12,
+    "adjacent": 13
+   },
+   "mixed_bundles": 0,
+   "score": 0.4612
+  }
+ },
+ "chosen_method": "graph_mixed_A2",
+ "chosen": {
+  "plane_summaries": {
+   "z1": {
+    "plane": "z1",
+    "bundle_count": 22,
+    "total_orbits": 128,
+    "total_connections": 512,
+    "size_orbits": {
+     "mean": 5.818,
+     "min": 2,
+     "max": 16
+    },
+    "internal_cross_rate": 0.16258351893095768,
+    "internal_cross_pairs": 1168,
+    "mean_compatibility": 0.6282,
+    "kind_mix": {
+     "opposite": 15,
+     "same": 7
+    },
+    "mixed_bundles": 0,
+    "order_preservation": 1.0
+   },
+   "z2": {
+    "plane": "z2",
+    "bundle_count": 26,
+    "total_orbits": 128,
+    "total_connections": 512,
+    "size_orbits": {
+     "mean": 4.923,
+     "min": 2,
+     "max": 9
+    },
+    "internal_cross_rate": 0.2213235294117647,
+    "internal_cross_pairs": 1204,
+    "mean_compatibility": 0.6516,
+    "kind_mix": {
+     "adjacent": 21,
+     "same": 5
+    },
+    "mixed_bundles": 1,
+    "order_preservation": 1.0
+   }
+  },
+  "bundle_count": 48,
+  "total_connections": 1024,
+  "internal_cross_rate": 0.1923992746724803,
+  "mean_compatibility": 0.6398999999999999,
+  "size_orbits": {
+   "mean": 5.3705,
+   "min": 2,
+   "max": 16
+  },
+  "kind_mix": {
+   "opposite": 15,
+   "same": 12,
+   "adjacent": 21
+  },
+  "mixed_bundles": 1,
+  "score": 0.548,
+  "selected": true
+ },
+ "answers": {
+  "q1_can_form_bundles": true,
+  "q2_bundle_size": {
+   "mean_orbits": 5.3705,
+   "mean_connections": 21.482,
+   "fixed_size_required": false,
+   "range_orbits": [
+    2,
+    16
+   ]
+  },
+  "q3_kind_grouping": {
+   "note": "both same-kind and mixed bundles exist; selection scored by internal crossing rate + order + corridor affinity",
+   "mixed_bundles": 1,
+   "dominant_kind_mix": {
+    "opposite": 15,
+    "same": 12,
+    "adjacent": 21
+   }
+  }
+ }
+}

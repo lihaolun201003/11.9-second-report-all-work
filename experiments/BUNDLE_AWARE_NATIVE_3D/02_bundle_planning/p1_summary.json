@@ -1,0 +1,47 @@
+{
+ "lift": {
+  "baseline": {
+   "15": {
+    "routed": 992,
+    "pairs": 75794,
+    "violations": 0,
+    "lifted_groups": 48,
+    "transitions": 384
+   }
+  },
+  "bundle": {
+   "11": {
+    "routed": 992,
+    "pairs": 78388,
+    "violations": 0,
+    "lifted_groups": 56,
+    "transitions": 448,
+    "seconds": 598.3
+   },
+   "15": {
+    "routed": 992,
+    "pairs": 82064,
+    "violations": 0,
+    "lifted_groups": 49,
+    "transitions": 392,
+    "seconds": 646.4
+   }
+  },
+  "adherence": {
+   "11": {
+    "lifted_groups": 56,
+    "matched": 7,
+    "deviated": 49,
+    "no_preference": 0,
+    "matched_ratio": 0.125
+   },
+   "15": {
+    "lifted_groups": 49,
+    "matched": 4,
+    "deviated": 45,
+    "no_preference": 0,
+    "matched_ratio": 0.0816
+   }
+  }
+ }
+}

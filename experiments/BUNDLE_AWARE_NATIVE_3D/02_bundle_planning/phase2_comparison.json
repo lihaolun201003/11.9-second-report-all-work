@@ -1,0 +1,54 @@
+{
+ "baseline_easy": {
+  "z1": {
+   "routed": 428,
+   "seconds": 37.8
+  },
+  "z2": {
+   "routed": 408,
+   "seconds": 378.4
+  },
+  "combined": {
+   "routed": 836,
+   "unique_crossing_pairs": 92920,
+   "plane_crossings": {
+    "z1": {
+     "crossing_count": 57400,
+     "crossing_pair_count": 43600,
+     "violation_count": 0
+    },
+    "z2": {
+     "crossing_count": 67200,
+     "crossing_pair_count": 49320,
+     "violation_count": 0
+    }
+   }
+  }
+ },
+ "bundle_order": {
+  "z1": {
+   "routed": 420,
+   "seconds": 48.4
+  },
+  "z2": {
+   "routed": 452,
+   "seconds": 243.7
+  },
+  "combined": {
+   "routed": 872,
+   "unique_crossing_pairs": 94968,
+   "plane_crossings": {
+    "z1": {
+     "crossing_count": 54252,
+     "crossing_pair_count": 40374,
+     "violation_count": 0
+    },
+    "z2": {
+     "crossing_count": 73620,
+     "crossing_pair_count": 54594,
+     "violation_count": 0
+    }
+   }
+  }
+ }
+}

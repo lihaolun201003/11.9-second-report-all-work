@@ -1,0 +1,138 @@
+{
+ "z1": {
+  "plane": "z1",
+  "routed": 484,
+  "recovered": [
+   {
+    "pass_index": 0,
+    "group_id": 39,
+    "kind": "same",
+    "evaluated": 246
+   },
+   {
+    "pass_index": 0,
+    "group_id": 40,
+    "kind": "same",
+    "evaluated": 251
+   },
+   {
+    "pass_index": 0,
+    "group_id": 41,
+    "kind": "same",
+    "evaluated": 259
+   },
+   {
+    "pass_index": 0,
+    "group_id": 49,
+    "kind": "same",
+    "evaluated": 370
+   },
+   {
+    "pass_index": 0,
+    "group_id": 50,
+    "kind": "same",
+    "evaluated": 376
+   },
+   {
+    "pass_index": 0,
+    "group_id": 51,
+    "kind": "same",
+    "evaluated": 492
+   },
+   {
+    "pass_index": 0,
+    "group_id": 52,
+    "kind": "same",
+    "evaluated": 493
+   },
+   {
+    "pass_index": 0,
+    "group_id": 53,
+    "kind": "same",
+    "evaluated": 336
+   },
+   {
+    "pass_index": 0,
+    "group_id": 56,
+    "kind": "same",
+    "evaluated": 23
+   },
+   {
+    "pass_index": 0,
+    "group_id": 58,
+    "kind": "same",
+    "evaluated": 9
+   },
+   {
+    "pass_index": 0,
+    "group_id": 60,
+    "kind": "same",
+    "evaluated": 606
+   },
+   {
+    "pass_index": 0,
+    "group_id": 72,
+    "kind": "same",
+    "evaluated": 34
+   },
+   {
+    "pass_index": 0,
+    "group_id": 82,
+    "kind": "same",
+    "evaluated": 271
+   },
+   {
+    "pass_index": 0,
+    "group_id": 85,
+    "kind": "same",
+    "evaluated": 266
+   },
+   {
+    "pass_index": 0,
+    "group_id": 92,
+    "kind": "same",
+    "evaluated": 146
+   },
+   {
+    "pass_index": 0,
+    "group_id": 93,
+    "kind": "same",
+    "evaluated": 166
+   }
+  ],
+  "validation_passed": true,
+  "seconds": 44.7
+ },
+ "z2": {
+  "plane": "z2",
+  "routed": 468,
+  "recovered": [
+   {
+    "pass_index": 0,
+    "group_id": 135,
+    "kind": "adjacent",
+    "evaluated": 2872
+   },
+   {
+    "pass_index": 0,
+    "group_id": 141,
+    "kind": "adjacent",
+    "evaluated": 3563
+   },
+   {
+    "pass_index": 0,
+    "group_id": 142,
+    "kind": "adjacent",
+    "evaluated": 5211
+   },
+   {
+    "pass_index": 0,
+    "group_id": 149,
+    "kind": "adjacent",
+    "evaluated": 6588
+   }
+  ],
+  "validation_passed": true,
+  "seconds": 398.1
+ }
+}

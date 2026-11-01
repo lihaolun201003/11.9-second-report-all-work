@@ -1,0 +1,44 @@
+[
+ {
+  "attempt": 0,
+  "order": "sep_desc",
+  "applied": 3,
+  "routed": 396,
+  "seconds": 42.2
+ },
+ {
+  "attempt": 1,
+  "order": "sep_asc",
+  "applied": 18,
+  "routed": 456,
+  "seconds": 54.1
+ },
+ {
+  "attempt": 2,
+  "order": "easy",
+  "applied": 6,
+  "routed": 408,
+  "seconds": 47.9
+ },
+ {
+  "attempt": 3,
+  "order": "shuffle",
+  "applied": 8,
+  "routed": 416,
+  "seconds": 48.7
+ },
+ {
+  "attempt": 4,
+  "order": "shuffle",
+  "applied": 2,
+  "routed": 392,
+  "seconds": 47.1
+ },
+ {
+  "attempt": 5,
+  "order": "shuffle",
+  "applied": 1,
+  "routed": 388,
+  "seconds": 45.4
+ }
+]

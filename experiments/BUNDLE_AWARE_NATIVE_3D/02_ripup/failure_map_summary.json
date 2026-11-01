@@ -1,0 +1,80 @@
+{
+ "failed": [
+  154,
+  156,
+  158,
+  214,
+  246,
+  249,
+  250,
+  254
+ ],
+ "details": [
+  {
+   "group_id": 154,
+   "kind": "adjacent",
+   "blocker_orbits": [
+    161,
+    213
+   ]
+  },
+  {
+   "group_id": 156,
+   "kind": "adjacent",
+   "blocker_orbits": [
+    147,
+    171
+   ]
+  },
+  {
+   "group_id": 158,
+   "kind": "adjacent",
+   "blocker_orbits": [
+    169,
+    175
+   ]
+  },
+  {
+   "group_id": 214,
+   "kind": "adjacent",
+   "blocker_orbits": [
+    142,
+    155,
+    173
+   ]
+  },
+  {
+   "group_id": 246,
+   "kind": "same",
+   "blocker_orbits": [
+    141,
+    172,
+    245
+   ]
+  },
+  {
+   "group_id": 249,
+   "kind": "same",
+   "blocker_orbits": [
+    245,
+    251
+   ]
+  },
+  {
+   "group_id": 250,
+   "kind": "same",
+   "blocker_orbits": [
+    164,
+    167,
+    248
+   ]
+  },
+  {
+   "group_id": 254,
+   "kind": "same",
+   "blocker_orbits": [
+    185
+   ]
+  }
+ ]
+}

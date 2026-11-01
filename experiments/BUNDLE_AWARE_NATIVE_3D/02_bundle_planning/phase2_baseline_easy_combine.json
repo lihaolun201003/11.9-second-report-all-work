@@ -1,0 +1,38 @@
+{
+ "schema": "manual_c4_2d_run_summary_v1",
+ "stage": "phase2_2d",
+ "total": 1024,
+ "routed": 836,
+ "failed": 188,
+ "routed_by_plane": {
+  "z1": 428,
+  "z2": 408
+ },
+ "routed_by_relation": {
+  "opposite": 256,
+  "same": 232,
+  "adjacent": 348
+ },
+ "total_by_relation": {
+  "opposite": 256,
+  "same": 368,
+  "adjacent": 400
+ },
+ "routed_groups": 209,
+ "total_groups": 256,
+ "total_length_mm": 142363.9377,
+ "plane_crossings": {
+  "z1": {
+   "crossing_count": 57400,
+   "crossing_pair_count": 43600,
+   "violation_count": 0
+  },
+  "z2": {
+   "crossing_count": 67200,
+   "crossing_pair_count": 49320,
+   "violation_count": 0
+  }
+ },
+ "validation_passed": true,
+ "output": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\BUNDLE_AWARE_NATIVE_3D\\02_bundle_planning\\phase2_baseline_easy"
+}
