@@ -431,3 +431,23 @@ F C4 与 H F2 Reworked 的“冻结同判据几何检查 + 合法检查点”已
 - 旧逐条 2D+抬升基线：992/1024，全局唯一交叉 75794。
 - 线束级方案（C）：82064；
   P2 未能进一步布通，最终合法布通纪录仍为 **992/1024**。
+
+---
+
+## 十四、修订版 Z2 CSV 实验（1000/1024 新纪录，2026-11-02）
+
+用户更新了 `manual_z2_c4_full_section2.csv`（512 行已 C4 展开，方向显式化；
+无向连接集合与旧版一致）。重新走输入审计 → 2D 严格 C4 布线 → 15L 三维层扫：
+
+- 输入：修订版 Z2 sha256 `3229c1378d621b2c…`；
+  合并表 sha256 `6e1b5fb9187b0caa…`；
+  1024 连接 / 2048 端点 / 256 个 C4 组，冻结校验 35 项全过。
+- 2D：**1000/1024**（Z1 512/512、Z2 488/512；旧版 992/1024），
+  validation PASS；剩余 6 个 Z2 C4 组（170, 176, 210, 245, 247, 249）。
+- 15L 三维：**1000/1024，violations=0，全局唯一交叉 78836 对**
+  （旧版 992/1024、75794 对）；Z2 严格 C4 PASS（122 完整组）；
+  相对 2D 基线交叉降低 0.352（旧版 0.3508）。
+- 报告：[NEW_MANUAL_CSV_1024_FULL_CAMPAIGN_Z2REV.md](docs/reports/NEW_MANUAL_CSV_1024_FULL_CAMPAIGN_Z2REV.md)；
+  实验目录 [experiments/NEW_MANUAL_CSV_1024_FULL_CAMPAIGN_Z2REV/](experiments/NEW_MANUAL_CSV_1024_FULL_CAMPAIGN_Z2REV/)；
+  代码 `experiments/code_z2rev_campaign/`。
+- 旧实验 `NEW_MANUAL_CSV_1024_FULL_CAMPAIGN` 未被覆盖/修改。
