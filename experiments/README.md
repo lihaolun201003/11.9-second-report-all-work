@@ -1,4 +1,4 @@
-﻿# experiments 索引
+# experiments 索引
 本目录为 2026-10-30 之后的 1024 通道三维光波导实验数据（此前的 Structured/Spatial/Hybrid 等历史方案不在本仓库）。
 | 目录 | 内容 | 关键结果 |
 |---|---|---|
@@ -15,4 +15,5 @@
 | [code_manual_first_full](code_manual_first_full/) | 人工优先 2D 重布/3D 抬升/统计代码 | — |
 | [MANUAL_LAYERS_20L](MANUAL_LAYERS_20L/report.md) | L1–L20 确定性人工分层：完整分配审计 + 固定层三维构建器（执行中） | 分配 1024/1024（L6=128、L7=128、L8–L19 按组、Z2 接口 68、L20 未用）；Z2 固定层 304/444 已通过三维检查后运行被环境终止，未得完整结果 |
 | [code_manual_layers_20l](code_manual_layers_20l/) | 20 层分配/固定层三维构造/统计图代码 | — |
+| [manual_20l_fixed_assignment](manual_20l_fixed_assignment/README.md) | 最终 L1–L20 人工指定分层全流程：256 人工 U→L2–L5、Z1 相对边→L7/L8、Z2→L9–L20；checkpoint + 完整验证 + 21 层出图 + 报告 | **673/1024；Z1 511/512、Z2 162/512；0 几何违规；4357 唯一交叉对（共同集口径已注明）**；Z2 接口 0/68，瓶颈为 z=0.5 端口共轨与 Z1 过渡冲突（如实记录） |
 所有实验均保持 1024 条连接、端口、R=15、净空 0.08、写速 1 mm/s；验证状态 exploratory_only（层高未确认）。
