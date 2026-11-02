@@ -1,0 +1,164 @@
+{
+ "schema": "manual_first_full_992_honest_v2",
+ "routed_total": 992,
+ "failed_total": 32,
+ "routed_by_plane": {
+  "z1": 512,
+  "z2": 480
+ },
+ "manual_expected": 256,
+ "manual_kept": 256,
+ "lifted_groups": 3,
+ "crossings": 85416,
+ "crossing_points": 108708,
+ "baseline": {
+  "routed": 992,
+  "pairs": 75794
+ },
+ "same_set": false,
+ "only_manual": [
+  613,
+  614,
+  615,
+  616,
+  629,
+  630,
+  631,
+  632,
+  981,
+  982,
+  983,
+  984,
+  993,
+  994,
+  995,
+  996,
+  997,
+  998,
+  999,
+  1000
+ ],
+ "only_baseline": [
+  537,
+  538,
+  539,
+  540,
+  585,
+  586,
+  587,
+  588,
+  601,
+  602,
+  603,
+  604,
+  653,
+  654,
+  655,
+  656,
+  901,
+  902,
+  903,
+  904
+ ],
+ "common_route_set": {
+  "size": 968,
+  "manual_pairs": 78300,
+  "baseline_pairs": 73554,
+  "delta": 4746,
+  "delta_percent": 6.452
+ },
+ "by_plane": {
+  "manual": {
+   "0.0": 25438,
+   "0.5": 59970,
+   "0.65": 0,
+   "0.8": 0,
+   "0.95": 0,
+   "1.25": 0,
+   "1.4": 4,
+   "1.55": 4
+  }
+ },
+ "layers": [
+  {
+   "z_mm": 0.0,
+   "layer": 1,
+   "routes": 512,
+   "crossings": 25438,
+   "crossing_points": 27660
+  },
+  {
+   "z_mm": 0.5,
+   "layer": null,
+   "routes": 480,
+   "crossings": 59970,
+   "crossing_points": 81040
+  },
+  {
+   "z_mm": 0.65,
+   "layer": 2,
+   "routes": 64,
+   "crossings": 0,
+   "crossing_points": 0
+  },
+  {
+   "z_mm": 0.8,
+   "layer": 3,
+   "routes": 64,
+   "crossings": 0,
+   "crossing_points": 0
+  },
+  {
+   "z_mm": 0.95,
+   "layer": 4,
+   "routes": 64,
+   "crossings": 0,
+   "crossing_points": 0
+  },
+  {
+   "z_mm": 1.25,
+   "layer": 6,
+   "routes": 4,
+   "crossings": 0,
+   "crossing_points": 0
+  },
+  {
+   "z_mm": 1.4,
+   "layer": 7,
+   "routes": 4,
+   "crossings": 4,
+   "crossing_points": 4
+  },
+  {
+   "z_mm": 1.55,
+   "layer": 8,
+   "routes": 4,
+   "crossings": 4,
+   "crossing_points": 4
+  }
+ ],
+ "validation_status": "invalid_stack",
+ "validation_counts": {
+  "violations": 100,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 100,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "violation_kinds": {
+  "transition_vs_flat": 100
+ },
+ "failed_reasons": {
+  "manual_first_unrouted": 32
+ },
+ "reroute": {
+  "z1_routed": 256,
+  "z1_failed": 0,
+  "z2_routed": 480,
+  "z2_failed": 32
+ }
+}
