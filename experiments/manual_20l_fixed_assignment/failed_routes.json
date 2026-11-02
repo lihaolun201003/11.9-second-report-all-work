@@ -1,0 +1,2463 @@
+{
+ "schema": "manual_20l_failed_routes_v1",
+ "total_failed": 351,
+ "failed": [
+  {
+   "route_id": 143,
+   "plane": "z1",
+   "relation": "opposite",
+   "assigned_layer": 7,
+   "reason": "z1_fixed_layer_unroutable"
+  },
+  {
+   "route_id": 513,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 514,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 515,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 516,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 517,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 518,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 526,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 537,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 538,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 539,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 540,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 542,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 545,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 550,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 551,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 554,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 555,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 557,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 558,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 559,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 560,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 561,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 562,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 563,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 564,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 565,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 566,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 567,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 568,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 569,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 570,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 571,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 572,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 577,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 578,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 580,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 585,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 586,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 587,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 588,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 589,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 590,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 592,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 593,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 594,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 595,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 596,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 609,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route385"
+  },
+  {
+   "route_id": 610,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route65"
+  },
+  {
+   "route_id": 611,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route142"
+  },
+  {
+   "route_id": 612,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route142"
+  },
+  {
+   "route_id": 613,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 614,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 615,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 616,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 617,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 618,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 619,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 620,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 621,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 622,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 623,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 624,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 629,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 630,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 631,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 632,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 633,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 637,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 640,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 641,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route310"
+  },
+  {
+   "route_id": 642,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route508"
+  },
+  {
+   "route_id": 643,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route512"
+  },
+  {
+   "route_id": 644,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route471"
+  },
+  {
+   "route_id": 645,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route15"
+  },
+  {
+   "route_id": 646,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route508"
+  },
+  {
+   "route_id": 647,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route497"
+  },
+  {
+   "route_id": 648,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route199"
+  },
+  {
+   "route_id": 649,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 650,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 651,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 652,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 653,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 654,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 655,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 656,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 657,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 658,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 660,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 661,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 662,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 663,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 664,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 665,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 667,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 668,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 672,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 674,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 682,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 685,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 686,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 687,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 689,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 691,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 692,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 695,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 699,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 709,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 710,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 711,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 712,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 713,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 714,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 715,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 716,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 722,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 726,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 730,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 737,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 738,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 739,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 740,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 741,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 742,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 743,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 744,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 745,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 746,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 747,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 748,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 753,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 754,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 755,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 756,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 769,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route10"
+  },
+  {
+   "route_id": 770,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route98"
+  },
+  {
+   "route_id": 771,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route135"
+  },
+  {
+   "route_id": 772,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route432"
+  },
+  {
+   "route_id": 777,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 778,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 779,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 782,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 784,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 786,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 788,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 789,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 790,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 791,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 792,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 804,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 809,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 812,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 813,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 816,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 817,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 818,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 819,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 820,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 821,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 825,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 826,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 827,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 828,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 829,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 830,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 831,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 832,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 833,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 834,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 835,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 836,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 837,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 838,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 839,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 840,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 842,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 843,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 845,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 846,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 847,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 848,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 849,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 850,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 851,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 852,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 853,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 854,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 855,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 856,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 857,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 859,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 860,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 861,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 862,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 863,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 864,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 865,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 866,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 867,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 868,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 869,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 870,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 871,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 872,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 873,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 874,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 875,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 876,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 877,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 878,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 879,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 880,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 881,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 882,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 883,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 884,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 885,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 886,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 887,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 888,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 889,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 890,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 891,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 892,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 893,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 894,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 895,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 896,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 897,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 898,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 899,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 900,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 901,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 902,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 903,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 904,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 905,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 906,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 907,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 908,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 909,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 910,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 911,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 912,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 913,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 914,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 915,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 916,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 917,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 918,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 919,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 920,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 921,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 922,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 923,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 924,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 925,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 926,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 927,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 928,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 929,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 931,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 933,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 934,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 935,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 936,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 937,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 938,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 939,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 12,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 940,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 941,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 942,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 943,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 11,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 944,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 945,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 946,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 947,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 948,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 949,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 950,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 951,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 952,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 953,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 954,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 955,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 956,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 957,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 958,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 19,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 959,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 13,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 960,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 962,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 18,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 964,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 966,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 17,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 968,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 969,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 970,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 16,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 971,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 10,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 972,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 973,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 20,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 974,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 15,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 975,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 9,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 976,
+   "plane": "z2",
+   "relation": "adjacent",
+   "assigned_layer": 14,
+   "reason": "no_legal_plan"
+  },
+  {
+   "route_id": 977,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route371"
+  },
+  {
+   "route_id": 978,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route78"
+  },
+  {
+   "route_id": 979,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route370"
+  },
+  {
+   "route_id": 980,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route345"
+  },
+  {
+   "route_id": 981,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 982,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 983,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 984,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 985,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route368"
+  },
+  {
+   "route_id": 986,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route75"
+  },
+  {
+   "route_id": 987,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route367"
+  },
+  {
+   "route_id": 988,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route342"
+  },
+  {
+   "route_id": 989,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route471"
+  },
+  {
+   "route_id": 990,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route78"
+  },
+  {
+   "route_id": 991,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route376"
+  },
+  {
+   "route_id": 992,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route351"
+  },
+  {
+   "route_id": 993,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 994,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 995,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 996,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 997,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 998,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 999,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 1000,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 1001,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route427"
+  },
+  {
+   "route_id": 1002,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route458"
+  },
+  {
+   "route_id": 1003,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route181"
+  },
+  {
+   "route_id": 1004,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route180"
+  },
+  {
+   "route_id": 1005,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route469"
+  },
+  {
+   "route_id": 1006,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route503"
+  },
+  {
+   "route_id": 1007,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route184"
+  },
+  {
+   "route_id": 1008,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route183"
+  },
+  {
+   "route_id": 1009,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route188"
+  },
+  {
+   "route_id": 1010,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route21"
+  },
+  {
+   "route_id": 1011,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route187"
+  },
+  {
+   "route_id": 1012,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route186"
+  },
+  {
+   "route_id": 1013,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 1014,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 1015,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 1016,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "no_2d_geometry"
+  },
+  {
+   "route_id": 1017,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route456"
+  },
+  {
+   "route_id": 1018,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route22"
+  },
+  {
+   "route_id": 1019,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route190"
+  },
+  {
+   "route_id": 1020,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route468"
+  },
+  {
+   "route_id": 1021,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route197"
+  },
+  {
+   "route_id": 1022,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route24"
+  },
+  {
+   "route_id": 1023,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route196"
+  },
+  {
+   "route_id": 1024,
+   "plane": "z2",
+   "relation": "same",
+   "assigned_layer": null,
+   "reason": "z1_transition_conflict:flat_vs_transition:route195"
+  }
+ ]
+}

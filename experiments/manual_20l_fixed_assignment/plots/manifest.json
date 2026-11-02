@@ -1,0 +1,680 @@
+{
+ "schema": "manual_20l_plots_v1",
+ "run_dir": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL",
+ "experiment": "MANUAL_20L_FIXED_ASSIGNMENT_FULL",
+ "smoke": false,
+ "layer_model": {
+  "interface": {
+   "z1": 0.0,
+   "z2": 0.5
+  },
+  "routing": {
+   "2": 0.65,
+   "3": 0.8,
+   "4": 0.95,
+   "5": 1.1,
+   "6": 1.25,
+   "7": 1.4,
+   "8": 1.55,
+   "9": 1.7,
+   "10": 1.85,
+   "11": 2.0,
+   "12": 2.15,
+   "13": 2.3,
+   "14": 2.45,
+   "15": 2.6,
+   "16": 2.75,
+   "17": 2.9,
+   "18": 3.05,
+   "19": 3.2,
+   "20": 3.35
+  },
+  "max_layer": 20,
+  "reserved": [
+   6
+  ],
+  "source": "layer_stack.json",
+  "provenance": "unconfirmed_simulation",
+  "note": "round-3 manual fixed L1-L20 assignment: L2=0.65 mm, 0.15 mm pitch, L20=3.35 mm; L6 reserved"
+ },
+ "data_sources": [
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/routes_l3d.json",
+   "exists": true,
+   "bytes": 3818324,
+   "sha256": "1f89fb1b792f2b05cfd9eebec85a5dbfa9dc9045f7ae3e4414bf7e812464dac8"
+  },
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/layer_stack.json",
+   "exists": true,
+   "bytes": 7090,
+   "sha256": "fd0e5340968834db2818be0689c6adbbb08f8694fa390f42b7f23037b947abe4"
+  },
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/final_stats.json",
+   "exists": true,
+   "bytes": 30301,
+   "sha256": "39c867967f5408272144305045ddebcd7f49278624027b0b3de974d30ed87137"
+  },
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/layer_stats.json",
+   "exists": true,
+   "bytes": 22885,
+   "sha256": "4a8b19f64f6243a80e3650df7ef530b4320559692aa0a99487eabdc1bac34227"
+  },
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/crossings_after.json",
+   "exists": true,
+   "bytes": 597546,
+   "sha256": "c9175247a0f24bb7f7e1a17e10062b7a7c5e97d53e9543e5e4b2673562dfce9d"
+  },
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/validation.json",
+   "exists": true,
+   "bytes": 223412,
+   "sha256": "d1b653a99a9bdf8f0b6d1af8370438f20546a7141305c7ad88657256a788ea59"
+  },
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/summary.json",
+   "exists": false,
+   "bytes": null,
+   "sha256": null
+  },
+  {
+   "path": "outputs/manual_c4_new_connectivity/MANUAL_20L_FIXED_ASSIGNMENT_FULL/assignment_1024.json",
+   "exists": true,
+   "bytes": 747231,
+   "sha256": "ad4008e0856703cd5cf2545dac3c2841a1ef9d75ec6cdbb35dfa02a5a5d48cdb"
+  }
+ ],
+ "metrics": {
+  "routed": 673,
+  "failed": 351,
+  "total_records": 1024,
+  "by_plane": {
+   "z1": 511,
+   "z2": 162
+  },
+  "crossing_pairs": 4357,
+  "crossing_points": 4950,
+  "transitions": 1346
+ },
+ "per_layer": [
+  {
+   "key": "L1_z1",
+   "layer": 1,
+   "z_mm": 0.0,
+   "routes": 511,
+   "assigned": 512,
+   "crossings_pairs": 679,
+   "crossings_points": 682,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L1_z2",
+   "layer": 1,
+   "z_mm": 0.5,
+   "routes": 162,
+   "assigned": 512,
+   "crossings_pairs": 54,
+   "crossings_points": 56,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L02",
+   "layer": 2,
+   "z_mm": 0.65,
+   "routes": 64,
+   "assigned": 64,
+   "crossings_pairs": 0,
+   "crossings_points": 0,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L03",
+   "layer": 3,
+   "z_mm": 0.8,
+   "routes": 64,
+   "assigned": 64,
+   "crossings_pairs": 0,
+   "crossings_points": 0,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L04",
+   "layer": 4,
+   "z_mm": 0.95,
+   "routes": 64,
+   "assigned": 64,
+   "crossings_pairs": 0,
+   "crossings_points": 0,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L05",
+   "layer": 5,
+   "z_mm": 1.1,
+   "routes": 64,
+   "assigned": 64,
+   "crossings_pairs": 0,
+   "crossings_points": 0,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L06",
+   "layer": 6,
+   "z_mm": 1.25,
+   "routes": 0,
+   "assigned": 0,
+   "crossings_pairs": 0,
+   "crossings_points": 0,
+   "empty": true,
+   "reserved": true
+  },
+  {
+   "key": "L07",
+   "layer": 7,
+   "z_mm": 1.4,
+   "routes": 127,
+   "assigned": 128,
+   "crossings_pairs": 1575,
+   "crossings_points": 1807,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L08",
+   "layer": 8,
+   "z_mm": 1.55,
+   "routes": 128,
+   "assigned": 128,
+   "crossings_pairs": 1586,
+   "crossings_points": 1826,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L09",
+   "layer": 9,
+   "z_mm": 1.7,
+   "routes": 11,
+   "assigned": 36,
+   "crossings_pairs": 11,
+   "crossings_points": 12,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L10",
+   "layer": 10,
+   "z_mm": 1.85,
+   "routes": 14,
+   "assigned": 36,
+   "crossings_pairs": 45,
+   "crossings_points": 50,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L11",
+   "layer": 11,
+   "z_mm": 2.0,
+   "routes": 13,
+   "assigned": 36,
+   "crossings_pairs": 37,
+   "crossings_points": 44,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L12",
+   "layer": 12,
+   "z_mm": 2.15,
+   "routes": 17,
+   "assigned": 36,
+   "crossings_pairs": 59,
+   "crossings_points": 70,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L13",
+   "layer": 13,
+   "z_mm": 2.3,
+   "routes": 20,
+   "assigned": 38,
+   "crossings_pairs": 103,
+   "crossings_points": 113,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L14",
+   "layer": 14,
+   "z_mm": 2.45,
+   "routes": 18,
+   "assigned": 40,
+   "crossings_pairs": 64,
+   "crossings_points": 79,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L15",
+   "layer": 15,
+   "z_mm": 2.6,
+   "routes": 8,
+   "assigned": 36,
+   "crossings_pairs": 9,
+   "crossings_points": 9,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L16",
+   "layer": 16,
+   "z_mm": 2.75,
+   "routes": 6,
+   "assigned": 36,
+   "crossings_pairs": 6,
+   "crossings_points": 7,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L17",
+   "layer": 17,
+   "z_mm": 2.9,
+   "routes": 8,
+   "assigned": 36,
+   "crossings_pairs": 14,
+   "crossings_points": 14,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L18",
+   "layer": 18,
+   "z_mm": 3.05,
+   "routes": 14,
+   "assigned": 36,
+   "crossings_pairs": 46,
+   "crossings_points": 54,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L19",
+   "layer": 19,
+   "z_mm": 3.2,
+   "routes": 13,
+   "assigned": 38,
+   "crossings_pairs": 41,
+   "crossings_points": 42,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "key": "L20",
+   "layer": 20,
+   "z_mm": 3.35,
+   "routes": 20,
+   "assigned": 40,
+   "crossings_pairs": 76,
+   "crossings_points": 85,
+   "empty": false,
+   "reserved": false
+  }
+ ],
+ "figures": [
+  {
+   "file": "plots/per_layer/L1_z1.png",
+   "group": "per_layer",
+   "key": "L1_z1",
+   "title_zh": "L1（z1 接口行） 平面布线图（z=0.000 mm）",
+   "title_en": "L1-z1 layer map",
+   "description": "L1（z1 接口行） z=0.000 mm：511 条线路，分配平面 512，唯一交叉对 679",
+   "routes": 511,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L1_z2.png",
+   "group": "per_layer",
+   "key": "L1_z2",
+   "title_zh": "L1（z2 接口行） 平面布线图（z=0.500 mm）",
+   "title_en": "L1-z2 layer map",
+   "description": "L1（z2 接口行） z=0.500 mm：162 条线路，分配平面 512，唯一交叉对 54",
+   "routes": 162,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L02.png",
+   "group": "per_layer",
+   "key": "L02",
+   "title_zh": "L2 平面布线图（z=0.650 mm）",
+   "title_en": "L2 layer map",
+   "description": "L2 z=0.650 mm：64 条线路，分配 64，唯一交叉对 0",
+   "routes": 64,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L03.png",
+   "group": "per_layer",
+   "key": "L03",
+   "title_zh": "L3 平面布线图（z=0.800 mm）",
+   "title_en": "L3 layer map",
+   "description": "L3 z=0.800 mm：64 条线路，分配 64，唯一交叉对 0",
+   "routes": 64,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L04.png",
+   "group": "per_layer",
+   "key": "L04",
+   "title_zh": "L4 平面布线图（z=0.950 mm）",
+   "title_en": "L4 layer map",
+   "description": "L4 z=0.950 mm：64 条线路，分配 64，唯一交叉对 0",
+   "routes": 64,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L05.png",
+   "group": "per_layer",
+   "key": "L05",
+   "title_zh": "L5 平面布线图（z=1.100 mm）",
+   "title_en": "L5 layer map",
+   "description": "L5 z=1.100 mm：64 条线路，分配 64，唯一交叉对 0",
+   "routes": 64,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L06.png",
+   "group": "per_layer",
+   "key": "L06",
+   "title_zh": "L6 平面布线图（z=1.250 mm），空层 0 条，保留层",
+   "title_en": "L6 layer map",
+   "description": "L6 z=1.250 mm：0 条线路，分配 0，唯一交叉对 0（空层，显式标注 0 routes）",
+   "routes": 0,
+   "empty": true,
+   "reserved": true
+  },
+  {
+   "file": "plots/per_layer/L07.png",
+   "group": "per_layer",
+   "key": "L07",
+   "title_zh": "L7 平面布线图（z=1.400 mm）",
+   "title_en": "L7 layer map",
+   "description": "L7 z=1.400 mm：127 条线路，分配 128，唯一交叉对 1575",
+   "routes": 127,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L08.png",
+   "group": "per_layer",
+   "key": "L08",
+   "title_zh": "L8 平面布线图（z=1.550 mm）",
+   "title_en": "L8 layer map",
+   "description": "L8 z=1.550 mm：128 条线路，分配 128，唯一交叉对 1586",
+   "routes": 128,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L09.png",
+   "group": "per_layer",
+   "key": "L09",
+   "title_zh": "L9 平面布线图（z=1.700 mm）",
+   "title_en": "L9 layer map",
+   "description": "L9 z=1.700 mm：11 条线路，分配 36，唯一交叉对 11",
+   "routes": 11,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L10.png",
+   "group": "per_layer",
+   "key": "L10",
+   "title_zh": "L10 平面布线图（z=1.850 mm）",
+   "title_en": "L10 layer map",
+   "description": "L10 z=1.850 mm：14 条线路，分配 36，唯一交叉对 45",
+   "routes": 14,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L11.png",
+   "group": "per_layer",
+   "key": "L11",
+   "title_zh": "L11 平面布线图（z=2.000 mm）",
+   "title_en": "L11 layer map",
+   "description": "L11 z=2.000 mm：13 条线路，分配 36，唯一交叉对 37",
+   "routes": 13,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L12.png",
+   "group": "per_layer",
+   "key": "L12",
+   "title_zh": "L12 平面布线图（z=2.150 mm）",
+   "title_en": "L12 layer map",
+   "description": "L12 z=2.150 mm：17 条线路，分配 36，唯一交叉对 59",
+   "routes": 17,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L13.png",
+   "group": "per_layer",
+   "key": "L13",
+   "title_zh": "L13 平面布线图（z=2.300 mm）",
+   "title_en": "L13 layer map",
+   "description": "L13 z=2.300 mm：20 条线路，分配 38，唯一交叉对 103",
+   "routes": 20,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L14.png",
+   "group": "per_layer",
+   "key": "L14",
+   "title_zh": "L14 平面布线图（z=2.450 mm）",
+   "title_en": "L14 layer map",
+   "description": "L14 z=2.450 mm：18 条线路，分配 40，唯一交叉对 64",
+   "routes": 18,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L15.png",
+   "group": "per_layer",
+   "key": "L15",
+   "title_zh": "L15 平面布线图（z=2.600 mm）",
+   "title_en": "L15 layer map",
+   "description": "L15 z=2.600 mm：8 条线路，分配 36，唯一交叉对 9",
+   "routes": 8,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L16.png",
+   "group": "per_layer",
+   "key": "L16",
+   "title_zh": "L16 平面布线图（z=2.750 mm）",
+   "title_en": "L16 layer map",
+   "description": "L16 z=2.750 mm：6 条线路，分配 36，唯一交叉对 6",
+   "routes": 6,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L17.png",
+   "group": "per_layer",
+   "key": "L17",
+   "title_zh": "L17 平面布线图（z=2.900 mm）",
+   "title_en": "L17 layer map",
+   "description": "L17 z=2.900 mm：8 条线路，分配 36，唯一交叉对 14",
+   "routes": 8,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L18.png",
+   "group": "per_layer",
+   "key": "L18",
+   "title_zh": "L18 平面布线图（z=3.050 mm）",
+   "title_en": "L18 layer map",
+   "description": "L18 z=3.050 mm：14 条线路，分配 36，唯一交叉对 46",
+   "routes": 14,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L19.png",
+   "group": "per_layer",
+   "key": "L19",
+   "title_zh": "L19 平面布线图（z=3.200 mm）",
+   "title_en": "L19 layer map",
+   "description": "L19 z=3.200 mm：13 条线路，分配 38，唯一交叉对 41",
+   "routes": 13,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/per_layer/L20.png",
+   "group": "per_layer",
+   "key": "L20",
+   "title_zh": "L20 平面布线图（z=3.350 mm）",
+   "title_en": "L20 layer map",
+   "description": "L20 z=3.350 mm：20 条线路，分配 40，唯一交叉对 76",
+   "routes": 20,
+   "empty": false,
+   "reserved": false
+  },
+  {
+   "file": "plots/layer_contact_sheet.png",
+   "group": "overview",
+   "key": "contact_sheet",
+   "title_zh": "全部物理层布线总览（接触表）",
+   "title_en": "all-layer contact sheet",
+   "description": "21 个物理层平面拼接总览；每个子图为该层平面布线图，空层标注 0 routes",
+   "routes": null
+  },
+  {
+   "file": "plots/thematic/01_z1_manual_u_overview.png",
+   "group": "thematic",
+   "key": "z1_manual_u_overview",
+   "title_zh": "Z1 人工 256 条同侧 U 总览",
+   "title_en": "Z1 manual-U overview",
+   "description": "识别到 256 条人工 U；L2=64，L3=64，L4=64，L5=64",
+   "routes": 256
+  },
+  {
+   "file": "plots/thematic/02_l2_l5_manual_u_comparison.png",
+   "group": "thematic",
+   "key": "l2_l5_manual_u_comparison",
+   "title_zh": "L2–L5 人工 U 分层对比",
+   "title_en": "L2-L5 manual-U comparison",
+   "description": "四个 0.150 mm 间距的人工 U 层逐层对比：L2 布通 64，L3 布通 64，L4 布通 64，L5 布通 64",
+   "routes": 256
+  },
+  {
+   "file": "plots/thematic/03_l7_ns_overview.png",
+   "group": "thematic",
+   "key": "l7_opposite_overview",
+   "title_zh": "L7 128 条南北对穿总览",
+   "title_en": "L7 opposite overview",
+   "description": "L7 z=1.400 mm：127 条线路，分配 128，交叉 1575",
+   "routes": 127
+  },
+  {
+   "file": "plots/thematic/04_l8_ew_overview.png",
+   "group": "thematic",
+   "key": "l8_opposite_overview",
+   "title_zh": "L8 128 条东西对穿总览",
+   "title_en": "L8 opposite overview",
+   "description": "L8 z=1.550 mm：128 条线路，分配 128，交叉 1586",
+   "routes": 128
+  },
+  {
+   "file": "plots/thematic/05_z2_l9_l20_summary.png",
+   "group": "thematic",
+   "key": "z2_l9_l20_summary",
+   "title_zh": "Z2 L9–L20 逐层总览",
+   "title_en": "Z2 L9-L20 per-layer summary",
+   "description": "12 个 Z2 高层逐层平面图，合计 162 条高层线路",
+   "routes": 162
+  },
+  {
+   "file": "plots/thematic/06_z2_interface_residual.png",
+   "group": "thematic",
+   "key": "z2_interface_residual",
+   "title_zh": "Z2 接口残余总览",
+   "title_en": "Z2 interface residual",
+   "description": "Z2 布通 162 条；抬升 162 条；接口残余 0 条；分配目标残余 68 条",
+   "routes": 162
+  },
+  {
+   "file": "plots/thematic/07_full_1024_3d.png",
+   "group": "thematic",
+   "key": "full_1024_3d",
+   "title_zh": "1024 通道全 3D 总览",
+   "title_en": "full 1024-channel 3D view",
+   "description": "673 条布通线路的完整 3D 路径；颜色表示物理高度，两种颜色板框为 L1 z1/z2 接口行",
+   "routes": 673
+  },
+  {
+   "file": "plots/thematic/08_transitions_3d_zoom.png",
+   "group": "thematic",
+   "key": "transitions_3d_zoom",
+   "title_zh": "真实升降过渡 3D 放大",
+   "title_en": "3D zoom on real transitions",
+   "description": "共 1346 个升降段；按层对取前 4 组（L1→L8, L1→L7, L1→L2, L1→L3）各显示 3 段",
+   "routes": null
+  },
+  {
+   "file": "plots/thematic/09_per_layer_route_count.png",
+   "group": "thematic",
+   "key": "per_layer_route_count",
+   "title_zh": "逐层布线数柱状图",
+   "title_en": "per-layer route count",
+   "description": "接口两排 + L2–L20 逐层实际布通数与固定分配数对比；空层：L6",
+   "routes": 673
+  },
+  {
+   "file": "plots/thematic/10_per_layer_crossing_count.png",
+   "group": "thematic",
+   "key": "per_layer_crossing_count",
+   "title_zh": "逐层交叉数柱状图",
+   "title_en": "per-layer crossing count",
+   "description": "按物理高度统计的唯一交叉对与交叉点数量；数据来自 crossings_after.json",
+   "routes": null
+  },
+  {
+   "file": "plots/thematic/11_old_vs_new_crossings.png",
+   "group": "thematic",
+   "key": "old_vs_new_crossings",
+   "title_zh": "旧 15L vs 新 L1–L20 交叉对比",
+   "title_en": "old-vs-new crossing comparison",
+   "description": "旧 15L 自动算法基线 / 15L 人工优先 / 新 L1–L20 的全局、平面分解与逐高度交叉对比；缺失参考运行不估算",
+   "routes": null
+  }
+ ],
+ "skipped": [],
+ "caveats": [
+  "351 条记录未布通（status != routed），已从逐层/3D 图中排除；报告“总体结果”中单列失败原因"
+ ]
+}
