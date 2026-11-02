@@ -1,0 +1,136 @@
+{
+ "schema": "per_layer_views_manual_group_15L",
+ "layers": [
+  {
+   "layer_label": "L1 (Z1 row)",
+   "z_mm": 0.0,
+   "routes": 512,
+   "flat_primitives": 2244,
+   "transition_endpoints": 128,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z0.00.png"
+  },
+  {
+   "layer_label": "L1 (Z2 row)",
+   "z_mm": 0.5,
+   "routes": 480,
+   "flat_primitives": 2116,
+   "transition_endpoints": 312,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z0.50.png"
+  },
+  {
+   "layer_label": "L2",
+   "z_mm": 0.65,
+   "routes": 0,
+   "flat_primitives": 0,
+   "transition_endpoints": 0,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z0.65.png"
+  },
+  {
+   "layer_label": "L3",
+   "z_mm": 0.8,
+   "routes": 0,
+   "flat_primitives": 0,
+   "transition_endpoints": 0,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z0.80.png"
+  },
+  {
+   "layer_label": "L4",
+   "z_mm": 0.95,
+   "routes": 16,
+   "flat_primitives": 72,
+   "transition_endpoints": 32,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z0.95.png"
+  },
+  {
+   "layer_label": "L5",
+   "z_mm": 1.1,
+   "routes": 32,
+   "flat_primitives": 116,
+   "transition_endpoints": 64,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z1.10.png"
+  },
+  {
+   "layer_label": "L6",
+   "z_mm": 1.25,
+   "routes": 16,
+   "flat_primitives": 48,
+   "transition_endpoints": 32,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z1.25.png"
+  },
+  {
+   "layer_label": "L7",
+   "z_mm": 1.4,
+   "routes": 24,
+   "flat_primitives": 64,
+   "transition_endpoints": 48,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z1.40.png"
+  },
+  {
+   "layer_label": "L8",
+   "z_mm": 1.55,
+   "routes": 28,
+   "flat_primitives": 84,
+   "transition_endpoints": 56,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z1.55.png"
+  },
+  {
+   "layer_label": "L9",
+   "z_mm": 1.7,
+   "routes": 24,
+   "flat_primitives": 56,
+   "transition_endpoints": 48,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z1.70.png"
+  },
+  {
+   "layer_label": "L10",
+   "z_mm": 1.85,
+   "routes": 8,
+   "flat_primitives": 24,
+   "transition_endpoints": 16,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z1.85.png"
+  },
+  {
+   "layer_label": "L11",
+   "z_mm": 2.0,
+   "routes": 12,
+   "flat_primitives": 52,
+   "transition_endpoints": 24,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z2.00.png"
+  },
+  {
+   "layer_label": "L12",
+   "z_mm": 2.15,
+   "routes": 20,
+   "flat_primitives": 52,
+   "transition_endpoints": 40,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z2.15.png"
+  },
+  {
+   "layer_label": "L13",
+   "z_mm": 2.3,
+   "routes": 8,
+   "flat_primitives": 40,
+   "transition_endpoints": 16,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z2.30.png"
+  },
+  {
+   "layer_label": "L14",
+   "z_mm": 2.45,
+   "routes": 12,
+   "flat_primitives": 36,
+   "transition_endpoints": 24,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z2.45.png"
+  },
+  {
+   "layer_label": "L15",
+   "z_mm": 2.6,
+   "routes": 20,
+   "flat_primitives": 60,
+   "transition_endpoints": 40,
+   "figure": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\plots\\per_layer\\layer_z2.60.png"
+  }
+ ],
+ "contact_sheet_all": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\figures\\layer_contact_sheet_all.png",
+ "contact_sheet_high": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\figures\\layer_contact_sheet_high.png",
+ "contact_sheet_interface": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_GROUP_15L_COMPARISON\\figures\\layer_contact_sheet_interface.png"
+}

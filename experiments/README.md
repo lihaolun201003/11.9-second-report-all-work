@@ -9,5 +9,7 @@
 | [z1_edge_optimization](z1_edge_optimization/experiment_report.md) | 7L Z1 边缘/邻边交叉专项 | 11,984 → **6,078**；Z1 10,976→5,256 |
 | [z1_topology_global_7L](z1_topology_global_7L/experiment_report.md) | 7L 全局层分配 + 邻边拓扑 A/B/C/D | 四组均未优于 6,078（诚实负结果） |
 | [code_z1](code_z1/) | 新增实验代码：层栈、溯源、重布、多层验证器 | — |
+| [MANUAL_GROUP_15L_COMPARISON](MANUAL_GROUP_15L_COMPARISON/README.md) | 人工分组 L1–L4 + 旧算法 L5–L15 的完整 1024 通道对照（150 µm 层距）+ 逐层布线图 | 992/1024；74,626 vs 基线 75,794（−1,168，−1.54%）；人工仅 16/192 条抬升可落地（如实记录） |
+| [code_manual_group_15l](code_manual_group_15l/) | 人工分组对照与逐层出图代码 | — |
 
 所有实验均保持 1024 条连接、端口、R=15、净空 0.08、写速 1 mm/s；验证状态 exploratory_only（层高未确认）。
