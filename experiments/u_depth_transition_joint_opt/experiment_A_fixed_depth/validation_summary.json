@@ -1,0 +1,15 @@
+{
+ "status": "exploratory_only",
+ "geometry_pass": true,
+ "counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ }
+}

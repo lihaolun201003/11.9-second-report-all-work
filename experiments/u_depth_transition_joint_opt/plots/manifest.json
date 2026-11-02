@@ -1,0 +1,406 @@
+{
+ "schema": "u_opt_plots_v1",
+ "mode": "production",
+ "data_dir": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT",
+ "out_dir": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT",
+ "plots_dir": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots",
+ "dpi": 140,
+ "formats": [
+  "png"
+ ],
+ "fonts": [
+  "Microsoft YaHei",
+  "SimHei",
+  "Noto Sans SC",
+  "FangSong",
+  "KaiTi",
+  "DejaVu Sans"
+ ],
+ "has_cjk_font": true,
+ "inputs": [
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\u_routes.json",
+   "role": "routes",
+   "present": true,
+   "bytes": 862687
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\z2_results.json",
+   "role": "z2_results",
+   "present": true,
+   "bytes": 8589
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\summary.json",
+   "role": "summary",
+   "present": true,
+   "bytes": 529
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\validation.json",
+   "role": "validation",
+   "present": true,
+   "bytes": 68134
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\route_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 151
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\transition_position_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 97
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\u_depth_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 65
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\u_parameters.json",
+   "role": "parameters",
+   "present": true,
+   "bytes": 62483
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline\\validation_summary.json",
+   "role": "validation_summary",
+   "present": true,
+   "bytes": 317
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\u_routes.json",
+   "role": "routes",
+   "present": true,
+   "bytes": 862803
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\z2_results.json",
+   "role": "z2_results",
+   "present": true,
+   "bytes": 7693
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\summary.json",
+   "role": "summary",
+   "present": true,
+   "bytes": 18062
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\validation.json",
+   "role": "validation",
+   "present": true,
+   "bytes": 68183
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\route_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 5549
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\transition_position_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 4243
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\u_depth_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 65
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\u_parameters.json",
+   "role": "parameters",
+   "present": true,
+   "bytes": 62937
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_A_fixed_depth\\validation_summary.json",
+   "role": "validation_summary",
+   "present": true,
+   "bytes": 317
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\u_routes.json",
+   "role": "routes",
+   "present": true,
+   "bytes": 862803
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\z2_results.json",
+   "role": "z2_results",
+   "present": true,
+   "bytes": 7693
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\summary.json",
+   "role": "summary",
+   "present": true,
+   "bytes": 18062
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\validation.json",
+   "role": "validation",
+   "present": true,
+   "bytes": 68183
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\route_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 5549
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\transition_position_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 4243
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\u_depth_changes.csv",
+   "role": "changes",
+   "present": true,
+   "bytes": 65
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\u_parameters.json",
+   "role": "parameters",
+   "present": true,
+   "bytes": 62937
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\experiment_B_adaptive_depth\\validation_summary.json",
+   "role": "validation_summary",
+   "present": true,
+   "bytes": 317
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\integration_L7_L8\\z2_results.json",
+   "role": "z2_results",
+   "present": true,
+   "bytes": 4335
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\integration_L7_L8\\l7_l8_results.json",
+   "role": "l7_l8_results",
+   "present": true,
+   "bytes": 28280
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\integration_L7_L8\\summary.json",
+   "role": "summary",
+   "present": true,
+   "bytes": 449
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\integration_L7_L8\\validation.json",
+   "role": "validation",
+   "present": true,
+   "bytes": 81276
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\integration_L7_L8\\validation_summary.json",
+   "role": "validation_summary",
+   "present": true,
+   "bytes": 317
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\optimization_summary.json",
+   "role": "top_level",
+   "present": true,
+   "bytes": 2380
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\transition_position_changes.csv",
+   "role": "top_level",
+   "present": true,
+   "bytes": 8588
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\u_depth_changes.csv",
+   "role": "top_level",
+   "present": true,
+   "bytes": 76
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\z2_recovered_routes.csv",
+   "role": "top_level",
+   "present": true,
+   "bytes": 392
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\blocker_analysis.json",
+   "role": "top_level",
+   "present": true,
+   "bytes": 13252
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\baseline_summary.json",
+   "role": "summary_baseline",
+   "present": true,
+   "bytes": 500
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\MANUAL_20L_FIXED_ASSIGNMENT_FULL\\z2_assignment_audit.csv",
+   "role": "static_z2_audit",
+   "present": true,
+   "bytes": 62141
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_selected\\routes_1024.json",
+   "role": "static_2d_campaign",
+   "present": true,
+   "bytes": 1267755
+  }
+ ],
+ "missing_input_count": 0,
+ "missing_inputs": [],
+ "counts": {
+  "u_routes_baseline": 256,
+  "z2_results_baseline": 48,
+  "z2_ok_baseline": 12,
+  "z2_fail_baseline": 36,
+  "z2_recovered_baseline": 0,
+  "z2_interface_ok_baseline": 12,
+  "u_routes_A": 256,
+  "z2_results_A": 48,
+  "z2_ok_A": 20,
+  "z2_fail_A": 28,
+  "z2_recovered_A": 8,
+  "z2_interface_ok_A": 20,
+  "u_routes_B": 256,
+  "z2_results_B": 48,
+  "z2_ok_B": 20,
+  "z2_fail_B": 28,
+  "z2_recovered_B": 8,
+  "z2_interface_ok_B": 20,
+  "z1_world_routes": 0,
+  "z2_interface_ids": 68,
+  "z2_interface_with_2d": 48,
+  "integration_z2_results": 0,
+  "integration_l7_l8_results": 255,
+  "manual_u_mapping": 256
+ },
+ "notes": [
+  "Z2 接口面 2D 几何来自静态 2D campaign: 48/68 有几何，20 条无 2D 几何",
+  "人工 U 分组来自静态输入 manual_20l_assignment.load_manual_u_mapping()（256 条）"
+ ],
+ "figures": [
+  {
+   "index": 1,
+   "key": "u_baseline_3d",
+   "title": "原始人工 U 三维总览",
+   "expected_file": "01_u_baseline_3d.png",
+   "status": "rendered",
+   "note": "256 条 U 路由，层分布 {layer: count}={2: 64, 3: 64, 4: 64, 5: 64}",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\01_u_baseline_3d.png"
+   ]
+  },
+  {
+   "index": 2,
+   "key": "u_experiment_A_3d",
+   "title": "实验 A（固定深度）人工 U 三维总览",
+   "expected_file": "02_u_experiment_A_3d.png",
+   "status": "rendered",
+   "note": "256 条 U 路由，层分布 {layer: count}={2: 64, 3: 64, 4: 64, 5: 64}",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\02_u_experiment_A_3d.png"
+   ]
+  },
+  {
+   "index": 3,
+   "key": "u_experiment_B_3d",
+   "title": "实验 B（自适应深度）人工 U 三维总览",
+   "expected_file": "03_u_experiment_B_3d.png",
+   "status": "rendered",
+   "note": "256 条 U 路由，层分布 {layer: count}={2: 64, 3: 64, 4: 64, 5: 64}",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\03_u_experiment_B_3d.png"
+   ]
+  },
+  {
+   "index": 4,
+   "key": "u_depth_xy_comparison",
+   "title": "U 深度变化前后 XY 对比（代表性变化 U）",
+   "expected_file": "04_u_depth_xy_comparison.png",
+   "status": "rendered",
+   "note": "匹配 256 条；层高变化 0 条，平均 Δz=0.000 mm；XY 嵌套深度变化 0 条，平均 Δ=0.00 mm；过渡位置变化 33 条，平均偏移 0.929 mm；代表 route ids=[17, 22, 43, 175, 182, 195]",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\04_u_depth_xy_comparison.png"
+   ]
+  },
+  {
+   "index": 5,
+   "key": "u_transition_3d_zoom",
+   "title": "代表性 U 过渡 S 曲线 3D 前后放大",
+   "expected_file": "05_u_transition_3d_zoom.png",
+   "status": "rendered",
+   "note": "route 17，过渡段 2 个（局部坐标放大）",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\05_u_transition_3d_zoom.png"
+   ]
+  },
+  {
+   "index": 6,
+   "key": "nested_group_coordinated_change",
+   "title": "嵌套 U 组协同变化",
+   "expected_file": "06_nested_group_coordinated_change.png",
+   "status": "rendered",
+   "note": "组=N02-N15（u_pair），8 条；来源 manual_20l_assignment.load_manual_u_mapping()",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\06_nested_group_coordinated_change.png"
+   ]
+  },
+  {
+   "index": 7,
+   "key": "z1_z05_crossing_distribution",
+   "title": "Z1 z=0.5 穿越点分布",
+   "expected_file": "07_z1_z05_crossing_distribution.png",
+   "status": "rendered",
+   "note": "512 个穿越点，覆盖 256 条线路；范围=baseline/u_routes.json 的 U 路由",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\07_z1_z05_crossing_distribution.png"
+   ]
+  },
+  {
+   "index": 8,
+   "key": "z2_interface_recovery_map",
+   "title": "Z2 接口面 48/68 恢复地图",
+   "expected_file": "08_z2_interface_recovery_map.png",
+   "status": "rendered",
+   "note": "baseline: ok=12/48；A: ok=20/48；B: ok=20/48",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\08_z2_interface_recovery_map.png"
+   ]
+  },
+  {
+   "index": 9,
+   "key": "conflict_local_3d",
+   "title": "原始冲突 vs 调整后局部 3D",
+   "expected_file": "09_conflict_local_3d.png",
+   "status": "rendered",
+   "note": "focus route 609；baseline blocker=route 175, route 178, route 181 …（共 64 个 blocker）；A/B=可用",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\09_conflict_local_3d.png"
+   ]
+  },
+  {
+   "index": 10,
+   "key": "ab_metrics",
+   "title": "A/B 指标柱状图",
+   "expected_file": "10_ab_metrics.png",
+   "status": "rendered",
+   "note": "ok 数: baseline=12, A=20, B=20",
+   "files": [
+    "outputs\\manual_c4_new_connectivity\\U_DEPTH_TRANSITION_JOINT_OPT\\plots\\10_ab_metrics.png"
+   ]
+  }
+ ]
+}

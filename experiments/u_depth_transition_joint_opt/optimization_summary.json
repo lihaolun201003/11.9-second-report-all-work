@@ -1,0 +1,105 @@
+{
+ "schema": "u_depth_transition_joint_opt_v1",
+ "note": "A and B start from the same baseline; B allows depth but found no legal depth improvement, so its accepted change set is the same fixed-depth transition set as A.  This is an honest negative result for the depth hypothesis on this dataset.",
+ "metrics": {
+  "baseline": {
+   "u_ok": 256,
+   "u_total": 256,
+   "z2_interface_ok": 12,
+   "z2_interface_total": 48,
+   "z2_interface_ids": [
+    642,
+    643,
+    645,
+    646,
+    647,
+    648,
+    769,
+    770,
+    771,
+    772,
+    1017,
+    1020
+   ],
+   "violations": 0,
+   "changed_u": 0,
+   "deepened_u": 0,
+   "total_depth_increase_mm": 0.0,
+   "total_u_length_mm": 27682.1481,
+   "elapsed_seconds": null
+  },
+  "A_fixed_depth": {
+   "u_ok": 256,
+   "u_total": 256,
+   "z2_interface_ok": 20,
+   "z2_interface_total": 48,
+   "unique_changed_u": 33,
+   "accepted_changes": 47,
+   "deepened_u": 0,
+   "total_depth_increase_mm": 0.0,
+   "mean_rise_shift_mm": 7.5147,
+   "mean_fall_start_shift_mm": -7.3187,
+   "total_u_length_mm": 27682.1481,
+   "elapsed_seconds": 316.47,
+   "violations": 0,
+   "recovered_ids": [
+    990,
+    991,
+    1018,
+    1019,
+    1021,
+    1022,
+    1023,
+    1024
+   ],
+   "candidates": 4493
+  },
+  "B_adaptive_depth": {
+   "u_ok": 256,
+   "u_total": 256,
+   "z2_interface_ok": 20,
+   "z2_interface_total": 48,
+   "unique_changed_u": 33,
+   "accepted_changes": 47,
+   "deepened_u": 0,
+   "total_depth_increase_mm": 0.0,
+   "mean_rise_shift_mm": 7.5147,
+   "mean_fall_start_shift_mm": -7.3187,
+   "total_u_length_mm": 27682.1481,
+   "elapsed_seconds": 541.43,
+   "violations": 0,
+   "recovered_ids": [
+    990,
+    991,
+    1018,
+    1019,
+    1021,
+    1022,
+    1023,
+    1024
+   ],
+   "candidates": 5137,
+   "same_change_set_as_A": true
+  },
+  "integration_L7_L8": {
+   "experiment": "A",
+   "z2_before": 20,
+   "z2_after": 16,
+   "l7_l8_ok": 137,
+   "l7_l8_total": 255,
+   "validation_status": "exploratory_only",
+   "validation_geometry_pass": true,
+   "validation_counts": {
+    "violations": 0,
+    "contract_errors": 0,
+    "port_errors": 0,
+    "geometry_errors": 0,
+    "curvature_violations": 0,
+    "clearance_violations": 0,
+    "same_plane_violations": 0,
+    "self_clearance_violations": 0,
+    "other_errors": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "before": 20,
+ "after": 16,
+ "total": 48,
+ "results": {
+  "609": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 385
+  },
+  "610": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 65
+  },
+  "611": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 386
+  },
+  "612": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 9
+  },
+  "641": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 310
+  },
+  "642": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "643": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "644": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 471
+  },
+  "645": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "646": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "647": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 182
+  },
+  "648": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "769": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 182
+  },
+  "770": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 20
+  },
+  "771": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 184
+  },
+  "772": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "977": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 371
+  },
+  "978": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 39
+  },
+  "979": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 373
+  },
+  "980": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 345
+  },
+  "985": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 368
+  },
+  "986": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 75
+  },
+  "987": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 367
+  },
+  "988": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 342
+  },
+  "989": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 471
+  },
+  "990": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "991": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "992": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 351
+  },
+  "1001": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 182
+  },
+  "1002": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 19
+  },
+  "1003": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 181
+  },
+  "1004": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 180
+  },
+  "1005": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 185
+  },
+  "1006": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 20
+  },
+  "1007": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 184
+  },
+  "1008": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 183
+  },
+  "1009": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 188
+  },
+  "1010": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 21
+  },
+  "1011": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 187
+  },
+  "1012": {
+   "ok": false,
+   "reason": "flat_vs_transition",
+   "other_route": 186
+  },
+  "1017": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "1018": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "1019": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "1020": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "1021": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "1022": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "1023": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  },
+  "1024": {
+   "ok": true,
+   "reason": null,
+   "other_route": null
+  }
+ }
+}

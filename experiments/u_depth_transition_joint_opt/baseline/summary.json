@@ -1,0 +1,24 @@
+{
+ "mode": "baseline",
+ "total_interface": 48,
+ "baseline_success": 12,
+ "success": 12,
+ "recovered": 0,
+ "candidates": 0,
+ "changed_u": 0,
+ "deepened_u": 0,
+ "total_depth_increase_mm": 0.0,
+ "changes": [],
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ }
+}

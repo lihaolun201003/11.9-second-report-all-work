@@ -1,0 +1,20 @@
+{
+ "experiment": "A",
+ "z2_before": 20,
+ "z2_after": 16,
+ "l7_l8_ok": 137,
+ "l7_l8_total": 255,
+ "validation_status": "exploratory_only",
+ "validation_geometry_pass": true,
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ }
+}
