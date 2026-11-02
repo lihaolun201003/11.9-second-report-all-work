@@ -13,4 +13,6 @@
 | [code_manual_group_15l_fix](code_manual_group_15l_fix/) | 修复版人工 U 几何与验证代码（manual_u_geometry + 重写 compare_15L） | — |
 | [MANUAL_FIRST_1024_FULL](MANUAL_FIRST_1024_FULL/report.md) | 人工优先全流程：256 条人工 U 固定 + 768 条重布 + L5-L15 抬升 + 冻结验证 | 992/1024；85,416 交叉（vs 75,794，+12.69%）；共同集合 968 条 +4,746；100 clearance 违规（如实记录未完全合法） |
 | [code_manual_first_full](code_manual_first_full/) | 人工优先 2D 重布/3D 抬升/统计代码 | — |
+| [MANUAL_LAYERS_20L](MANUAL_LAYERS_20L/report.md) | L1–L20 确定性人工分层：完整分配审计 + 固定层三维构建器（执行中） | 分配 1024/1024（L6=128、L7=128、L8–L19 按组、Z2 接口 68、L20 未用）；Z2 固定层 304/444 已通过三维检查后运行被环境终止，未得完整结果 |
+| [code_manual_layers_20l](code_manual_layers_20l/) | 20 层分配/固定层三维构造/统计图代码 | — |
 所有实验均保持 1024 条连接、端口、R=15、净空 0.08、写速 1 mm/s；验证状态 exploratory_only（层高未确认）。
