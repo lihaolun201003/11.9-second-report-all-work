@@ -2719,7 +2719,7 @@
  "validation_geometry_pass": true,
  "validation_exploratory_pass": true,
  "min_3d_clearance_mm": 0.080027814,
- "elapsed_seconds": 6.32,
+ "elapsed_seconds": 6.24,
  "common_set_crossings": {
   "definition": "unique absolute route pairs whose both endpoints are routed in BOTH the reference run and the new run; same definition as remaining_unique_crossing_pairs",
   "baseline_15L": {

@@ -149799,7 +149799,7 @@
    "rotation_group_id": 129,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -149846,7 +149846,7 @@
    "rotation_group_id": 129,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -149893,7 +149893,7 @@
    "rotation_group_id": 129,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -149940,7 +149940,7 @@
    "rotation_group_id": 129,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -149987,7 +149987,7 @@
    "rotation_group_id": 130,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -150034,7 +150034,7 @@
    "rotation_group_id": 130,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -152018,7 +152018,7 @@
    "rotation_group_id": 132,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -154663,7 +154663,7 @@
    "rotation_group_id": 135,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -154710,7 +154710,7 @@
    "rotation_group_id": 135,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -154757,7 +154757,7 @@
    "rotation_group_id": 135,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -154804,7 +154804,7 @@
    "rotation_group_id": 135,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -155170,7 +155170,7 @@
    "rotation_group_id": 136,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -155855,7 +155855,7 @@
    "rotation_group_id": 137,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -157178,7 +157178,7 @@
    "rotation_group_id": 138,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -157225,7 +157225,7 @@
    "rotation_group_id": 138,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -157910,7 +157910,7 @@
    "rotation_group_id": 139,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -157957,7 +157957,7 @@
    "rotation_group_id": 139,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158323,7 +158323,7 @@
    "rotation_group_id": 140,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158370,7 +158370,7 @@
    "rotation_group_id": 140,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158417,7 +158417,7 @@
    "rotation_group_id": 140,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158464,7 +158464,7 @@
    "rotation_group_id": 140,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158511,7 +158511,7 @@
    "rotation_group_id": 141,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158558,7 +158558,7 @@
    "rotation_group_id": 141,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158605,7 +158605,7 @@
    "rotation_group_id": 141,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158652,7 +158652,7 @@
    "rotation_group_id": 141,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158699,7 +158699,7 @@
    "rotation_group_id": 142,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158746,7 +158746,7 @@
    "rotation_group_id": 142,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158793,7 +158793,7 @@
    "rotation_group_id": 142,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158840,7 +158840,7 @@
    "rotation_group_id": 142,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158887,7 +158887,7 @@
    "rotation_group_id": 143,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158934,7 +158934,7 @@
    "rotation_group_id": 143,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -158981,7 +158981,7 @@
    "rotation_group_id": 143,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -159028,7 +159028,7 @@
    "rotation_group_id": 143,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -160351,7 +160351,7 @@
    "rotation_group_id": 145,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -160398,7 +160398,7 @@
    "rotation_group_id": 145,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -160764,7 +160764,7 @@
    "rotation_group_id": 145,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162087,7 +162087,7 @@
    "rotation_group_id": 147,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162134,7 +162134,7 @@
    "rotation_group_id": 147,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162181,7 +162181,7 @@
    "rotation_group_id": 147,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162228,7 +162228,7 @@
    "rotation_group_id": 147,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162275,7 +162275,7 @@
    "rotation_group_id": 148,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162322,7 +162322,7 @@
    "rotation_group_id": 148,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162688,7 +162688,7 @@
    "rotation_group_id": 148,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162735,7 +162735,7 @@
    "rotation_group_id": 149,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162782,7 +162782,7 @@
    "rotation_group_id": 149,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162829,7 +162829,7 @@
    "rotation_group_id": 149,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -162876,7 +162876,7 @@
    "rotation_group_id": 149,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166159,7 +166159,7 @@
    "rotation_group_id": 153,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route385",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166206,7 +166206,7 @@
    "rotation_group_id": 153,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route65",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166253,7 +166253,7 @@
    "rotation_group_id": 153,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route142",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166300,7 +166300,7 @@
    "rotation_group_id": 153,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route142",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166503,7 +166503,7 @@
    "rotation_group_id": 155,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166550,7 +166550,7 @@
    "rotation_group_id": 155,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166597,7 +166597,7 @@
    "rotation_group_id": 155,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -166644,7 +166644,7 @@
    "rotation_group_id": 155,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -168279,7 +168279,7 @@
    "rotation_group_id": 159,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -169283,7 +169283,7 @@
    "rotation_group_id": 160,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -169968,7 +169968,7 @@
    "rotation_group_id": 160,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170015,7 +170015,7 @@
    "rotation_group_id": 161,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route310",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170062,7 +170062,7 @@
    "rotation_group_id": 161,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route508",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170109,7 +170109,7 @@
    "rotation_group_id": 161,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route512",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170156,7 +170156,7 @@
    "rotation_group_id": 161,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route471",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170203,7 +170203,7 @@
    "rotation_group_id": 162,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route15",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170250,7 +170250,7 @@
    "rotation_group_id": 162,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route508",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170297,7 +170297,7 @@
    "rotation_group_id": 162,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route497",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170344,7 +170344,7 @@
    "rotation_group_id": 162,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route199",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170391,7 +170391,7 @@
    "rotation_group_id": 163,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170438,7 +170438,7 @@
    "rotation_group_id": 163,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170485,7 +170485,7 @@
    "rotation_group_id": 163,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170532,7 +170532,7 @@
    "rotation_group_id": 163,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170579,7 +170579,7 @@
    "rotation_group_id": 164,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170626,7 +170626,7 @@
    "rotation_group_id": 164,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170673,7 +170673,7 @@
    "rotation_group_id": 164,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170720,7 +170720,7 @@
    "rotation_group_id": 164,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170767,7 +170767,7 @@
    "rotation_group_id": 165,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -170814,7 +170814,7 @@
    "rotation_group_id": 165,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171180,7 +171180,7 @@
    "rotation_group_id": 165,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171227,7 +171227,7 @@
    "rotation_group_id": 166,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171274,7 +171274,7 @@
    "rotation_group_id": 166,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171321,7 +171321,7 @@
    "rotation_group_id": 166,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171368,7 +171368,7 @@
    "rotation_group_id": 166,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171415,7 +171415,7 @@
    "rotation_group_id": 167,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171781,7 +171781,7 @@
    "rotation_group_id": 167,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -171828,7 +171828,7 @@
    "rotation_group_id": 167,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -172610,7 +172610,7 @@
    "rotation_group_id": 168,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -172976,7 +172976,7 @@
    "rotation_group_id": 169,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -175182,7 +175182,7 @@
    "rotation_group_id": 171,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -175719,7 +175719,7 @@
    "rotation_group_id": 172,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -175766,7 +175766,7 @@
    "rotation_group_id": 172,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -175813,7 +175813,7 @@
    "rotation_group_id": 172,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -176179,7 +176179,7 @@
    "rotation_group_id": 173,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -176545,7 +176545,7 @@
    "rotation_group_id": 173,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -176592,7 +176592,7 @@
    "rotation_group_id": 173,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -177277,7 +177277,7 @@
    "rotation_group_id": 174,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -178133,7 +178133,7 @@
    "rotation_group_id": 175,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -180977,7 +180977,7 @@
    "rotation_group_id": 178,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -181024,7 +181024,7 @@
    "rotation_group_id": 178,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -181071,7 +181071,7 @@
    "rotation_group_id": 178,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -181118,7 +181118,7 @@
    "rotation_group_id": 178,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -181165,7 +181165,7 @@
    "rotation_group_id": 179,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -181212,7 +181212,7 @@
    "rotation_group_id": 179,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -181259,7 +181259,7 @@
    "rotation_group_id": 179,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -181306,7 +181306,7 @@
    "rotation_group_id": 179,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -182948,7 +182948,7 @@
    "rotation_group_id": 181,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -183952,7 +183952,7 @@
    "rotation_group_id": 182,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -184882,7 +184882,7 @@
    "rotation_group_id": 183,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186399,7 +186399,7 @@
    "rotation_group_id": 185,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186446,7 +186446,7 @@
    "rotation_group_id": 185,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186493,7 +186493,7 @@
    "rotation_group_id": 185,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186540,7 +186540,7 @@
    "rotation_group_id": 185,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186587,7 +186587,7 @@
    "rotation_group_id": 186,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186634,7 +186634,7 @@
    "rotation_group_id": 186,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186681,7 +186681,7 @@
    "rotation_group_id": 186,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186728,7 +186728,7 @@
    "rotation_group_id": 186,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186775,7 +186775,7 @@
    "rotation_group_id": 187,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186822,7 +186822,7 @@
    "rotation_group_id": 187,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186869,7 +186869,7 @@
    "rotation_group_id": 187,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -186916,7 +186916,7 @@
    "rotation_group_id": 187,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -187943,7 +187943,7 @@
    "rotation_group_id": 189,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -187990,7 +187990,7 @@
    "rotation_group_id": 189,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -188037,7 +188037,7 @@
    "rotation_group_id": 189,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -188084,7 +188084,7 @@
    "rotation_group_id": 189,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -191668,7 +191668,7 @@
    "rotation_group_id": 193,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route10",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -191720,7 +191720,7 @@
    "rotation_group_id": 193,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route98",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -191772,7 +191772,7 @@
    "rotation_group_id": 193,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route135",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -191824,7 +191824,7 @@
    "rotation_group_id": 193,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route432",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -193091,7 +193091,7 @@
    "rotation_group_id": 195,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -193138,7 +193138,7 @@
    "rotation_group_id": 195,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -193185,7 +193185,7 @@
    "rotation_group_id": 195,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -193842,7 +193842,7 @@
    "rotation_group_id": 196,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -194194,7 +194194,7 @@
    "rotation_group_id": 196,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -194546,7 +194546,7 @@
    "rotation_group_id": 197,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -194898,7 +194898,7 @@
    "rotation_group_id": 197,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -194945,7 +194945,7 @@
    "rotation_group_id": 198,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -194992,7 +194992,7 @@
    "rotation_group_id": 198,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -195039,7 +195039,7 @@
    "rotation_group_id": 198,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -195086,7 +195086,7 @@
    "rotation_group_id": 198,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -198488,7 +198488,7 @@
    "rotation_group_id": 201,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -199755,7 +199755,7 @@
    "rotation_group_id": 203,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -200412,7 +200412,7 @@
    "rotation_group_id": 203,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -200459,7 +200459,7 @@
    "rotation_group_id": 204,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -201116,7 +201116,7 @@
    "rotation_group_id": 204,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -201163,7 +201163,7 @@
    "rotation_group_id": 205,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -201210,7 +201210,7 @@
    "rotation_group_id": 205,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -201257,7 +201257,7 @@
    "rotation_group_id": 205,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -201304,7 +201304,7 @@
    "rotation_group_id": 205,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -201351,7 +201351,7 @@
    "rotation_group_id": 206,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202313,7 +202313,7 @@
    "rotation_group_id": 207,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202360,7 +202360,7 @@
    "rotation_group_id": 207,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202407,7 +202407,7 @@
    "rotation_group_id": 207,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202454,7 +202454,7 @@
    "rotation_group_id": 207,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202501,7 +202501,7 @@
    "rotation_group_id": 208,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202548,7 +202548,7 @@
    "rotation_group_id": 208,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202595,7 +202595,7 @@
    "rotation_group_id": 208,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202642,7 +202642,7 @@
    "rotation_group_id": 208,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202689,7 +202689,7 @@
    "rotation_group_id": 209,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202736,7 +202736,7 @@
    "rotation_group_id": 209,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202783,7 +202783,7 @@
    "rotation_group_id": 209,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202830,7 +202830,7 @@
    "rotation_group_id": 209,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202877,7 +202877,7 @@
    "rotation_group_id": 210,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202924,7 +202924,7 @@
    "rotation_group_id": 210,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -202971,7 +202971,7 @@
    "rotation_group_id": 210,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -203018,7 +203018,7 @@
    "rotation_group_id": 210,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -203550,7 +203550,7 @@
    "rotation_group_id": 211,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -203597,7 +203597,7 @@
    "rotation_group_id": 211,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204129,7 +204129,7 @@
    "rotation_group_id": 212,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204176,7 +204176,7 @@
    "rotation_group_id": 212,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204223,7 +204223,7 @@
    "rotation_group_id": 212,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204270,7 +204270,7 @@
    "rotation_group_id": 212,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204317,7 +204317,7 @@
    "rotation_group_id": 213,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204364,7 +204364,7 @@
    "rotation_group_id": 213,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204411,7 +204411,7 @@
    "rotation_group_id": 213,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204458,7 +204458,7 @@
    "rotation_group_id": 213,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -204661,7 +204661,7 @@
    "rotation_group_id": 215,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205027,7 +205027,7 @@
    "rotation_group_id": 215,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205074,7 +205074,7 @@
    "rotation_group_id": 215,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205121,7 +205121,7 @@
    "rotation_group_id": 216,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205168,7 +205168,7 @@
    "rotation_group_id": 216,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205215,7 +205215,7 @@
    "rotation_group_id": 216,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205262,7 +205262,7 @@
    "rotation_group_id": 216,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205309,7 +205309,7 @@
    "rotation_group_id": 217,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205356,7 +205356,7 @@
    "rotation_group_id": 217,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205403,7 +205403,7 @@
    "rotation_group_id": 217,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205450,7 +205450,7 @@
    "rotation_group_id": 217,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205497,7 +205497,7 @@
    "rotation_group_id": 218,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205544,7 +205544,7 @@
    "rotation_group_id": 218,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205591,7 +205591,7 @@
    "rotation_group_id": 218,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205638,7 +205638,7 @@
    "rotation_group_id": 218,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205685,7 +205685,7 @@
    "rotation_group_id": 219,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205732,7 +205732,7 @@
    "rotation_group_id": 219,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205779,7 +205779,7 @@
    "rotation_group_id": 219,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205826,7 +205826,7 @@
    "rotation_group_id": 219,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205873,7 +205873,7 @@
    "rotation_group_id": 220,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205920,7 +205920,7 @@
    "rotation_group_id": 220,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -205967,7 +205967,7 @@
    "rotation_group_id": 220,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206014,7 +206014,7 @@
    "rotation_group_id": 220,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206061,7 +206061,7 @@
    "rotation_group_id": 221,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206108,7 +206108,7 @@
    "rotation_group_id": 221,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206155,7 +206155,7 @@
    "rotation_group_id": 221,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206202,7 +206202,7 @@
    "rotation_group_id": 221,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206249,7 +206249,7 @@
    "rotation_group_id": 222,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206296,7 +206296,7 @@
    "rotation_group_id": 222,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206343,7 +206343,7 @@
    "rotation_group_id": 222,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206390,7 +206390,7 @@
    "rotation_group_id": 222,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206437,7 +206437,7 @@
    "rotation_group_id": 223,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206484,7 +206484,7 @@
    "rotation_group_id": 223,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206531,7 +206531,7 @@
    "rotation_group_id": 223,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206578,7 +206578,7 @@
    "rotation_group_id": 223,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206625,7 +206625,7 @@
    "rotation_group_id": 224,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206672,7 +206672,7 @@
    "rotation_group_id": 224,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206719,7 +206719,7 @@
    "rotation_group_id": 224,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206766,7 +206766,7 @@
    "rotation_group_id": 224,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206813,7 +206813,7 @@
    "rotation_group_id": 225,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206860,7 +206860,7 @@
    "rotation_group_id": 225,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206907,7 +206907,7 @@
    "rotation_group_id": 225,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -206954,7 +206954,7 @@
    "rotation_group_id": 225,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207001,7 +207001,7 @@
    "rotation_group_id": 226,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207048,7 +207048,7 @@
    "rotation_group_id": 226,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207095,7 +207095,7 @@
    "rotation_group_id": 226,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207142,7 +207142,7 @@
    "rotation_group_id": 226,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207189,7 +207189,7 @@
    "rotation_group_id": 227,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207236,7 +207236,7 @@
    "rotation_group_id": 227,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207283,7 +207283,7 @@
    "rotation_group_id": 227,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207330,7 +207330,7 @@
    "rotation_group_id": 227,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207377,7 +207377,7 @@
    "rotation_group_id": 228,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207424,7 +207424,7 @@
    "rotation_group_id": 228,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207471,7 +207471,7 @@
    "rotation_group_id": 228,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207518,7 +207518,7 @@
    "rotation_group_id": 228,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207565,7 +207565,7 @@
    "rotation_group_id": 229,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207612,7 +207612,7 @@
    "rotation_group_id": 229,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207659,7 +207659,7 @@
    "rotation_group_id": 229,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207706,7 +207706,7 @@
    "rotation_group_id": 229,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207753,7 +207753,7 @@
    "rotation_group_id": 230,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207800,7 +207800,7 @@
    "rotation_group_id": 230,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207847,7 +207847,7 @@
    "rotation_group_id": 230,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207894,7 +207894,7 @@
    "rotation_group_id": 230,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207941,7 +207941,7 @@
    "rotation_group_id": 231,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -207988,7 +207988,7 @@
    "rotation_group_id": 231,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208035,7 +208035,7 @@
    "rotation_group_id": 231,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208082,7 +208082,7 @@
    "rotation_group_id": 231,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208129,7 +208129,7 @@
    "rotation_group_id": 232,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208176,7 +208176,7 @@
    "rotation_group_id": 232,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208223,7 +208223,7 @@
    "rotation_group_id": 232,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208270,7 +208270,7 @@
    "rotation_group_id": 232,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208317,7 +208317,7 @@
    "rotation_group_id": 233,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -208683,7 +208683,7 @@
    "rotation_group_id": 233,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209049,7 +209049,7 @@
    "rotation_group_id": 234,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209096,7 +209096,7 @@
    "rotation_group_id": 234,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209143,7 +209143,7 @@
    "rotation_group_id": 234,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209190,7 +209190,7 @@
    "rotation_group_id": 234,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209237,7 +209237,7 @@
    "rotation_group_id": 235,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209284,7 +209284,7 @@
    "rotation_group_id": 235,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209331,7 +209331,7 @@
    "rotation_group_id": 235,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209378,7 +209378,7 @@
    "rotation_group_id": 235,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209425,7 +209425,7 @@
    "rotation_group_id": 236,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209472,7 +209472,7 @@
    "rotation_group_id": 236,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209519,7 +209519,7 @@
    "rotation_group_id": 236,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209566,7 +209566,7 @@
    "rotation_group_id": 236,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209613,7 +209613,7 @@
    "rotation_group_id": 237,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209660,7 +209660,7 @@
    "rotation_group_id": 237,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209707,7 +209707,7 @@
    "rotation_group_id": 237,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209754,7 +209754,7 @@
    "rotation_group_id": 237,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209801,7 +209801,7 @@
    "rotation_group_id": 238,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209848,7 +209848,7 @@
    "rotation_group_id": 238,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209895,7 +209895,7 @@
    "rotation_group_id": 238,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209942,7 +209942,7 @@
    "rotation_group_id": 238,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -209989,7 +209989,7 @@
    "rotation_group_id": 239,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210036,7 +210036,7 @@
    "rotation_group_id": 239,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210083,7 +210083,7 @@
    "rotation_group_id": 239,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210130,7 +210130,7 @@
    "rotation_group_id": 239,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210177,7 +210177,7 @@
    "rotation_group_id": 240,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210224,7 +210224,7 @@
    "rotation_group_id": 240,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210271,7 +210271,7 @@
    "rotation_group_id": 240,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210318,7 +210318,7 @@
    "rotation_group_id": 240,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -210684,7 +210684,7 @@
    "rotation_group_id": 241,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211050,7 +211050,7 @@
    "rotation_group_id": 241,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211342,7 +211342,7 @@
    "rotation_group_id": 242,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211634,7 +211634,7 @@
    "rotation_group_id": 242,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211681,7 +211681,7 @@
    "rotation_group_id": 243,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211728,7 +211728,7 @@
    "rotation_group_id": 243,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211775,7 +211775,7 @@
    "rotation_group_id": 243,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211822,7 +211822,7 @@
    "rotation_group_id": 243,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211869,7 +211869,7 @@
    "rotation_group_id": 244,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211916,7 +211916,7 @@
    "rotation_group_id": 244,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -211963,7 +211963,7 @@
    "rotation_group_id": 244,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212010,7 +212010,7 @@
    "rotation_group_id": 244,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "no_legal_plan",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212057,7 +212057,7 @@
    "rotation_group_id": 245,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route371",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212104,7 +212104,7 @@
    "rotation_group_id": 245,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route78",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212151,7 +212151,7 @@
    "rotation_group_id": 245,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route370",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212198,7 +212198,7 @@
    "rotation_group_id": 245,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route345",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212406,7 +212406,7 @@
    "rotation_group_id": 247,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route368",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212458,7 +212458,7 @@
    "rotation_group_id": 247,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route75",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212510,7 +212510,7 @@
    "rotation_group_id": 247,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route367",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212562,7 +212562,7 @@
    "rotation_group_id": 247,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route342",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212614,7 +212614,7 @@
    "rotation_group_id": 248,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route471",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212666,7 +212666,7 @@
    "rotation_group_id": 248,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route78",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212718,7 +212718,7 @@
    "rotation_group_id": 248,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route376",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -212770,7 +212770,7 @@
    "rotation_group_id": 248,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route351",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213129,7 +213129,7 @@
    "rotation_group_id": 251,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route427",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213176,7 +213176,7 @@
    "rotation_group_id": 251,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route458",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213223,7 +213223,7 @@
    "rotation_group_id": 251,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route181",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213270,7 +213270,7 @@
    "rotation_group_id": 251,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route180",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213317,7 +213317,7 @@
    "rotation_group_id": 252,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route469",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213364,7 +213364,7 @@
    "rotation_group_id": 252,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route503",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213411,7 +213411,7 @@
    "rotation_group_id": 252,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route184",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213458,7 +213458,7 @@
    "rotation_group_id": 252,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route183",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213505,7 +213505,7 @@
    "rotation_group_id": 253,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route188",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213552,7 +213552,7 @@
    "rotation_group_id": 253,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route21",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213599,7 +213599,7 @@
    "rotation_group_id": 253,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route187",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213646,7 +213646,7 @@
    "rotation_group_id": 253,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route186",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213849,7 +213849,7 @@
    "rotation_group_id": 255,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route456",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213896,7 +213896,7 @@
    "rotation_group_id": 255,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route22",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213943,7 +213943,7 @@
    "rotation_group_id": 255,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route190",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -213990,7 +213990,7 @@
    "rotation_group_id": 255,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route468",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -214037,7 +214037,7 @@
    "rotation_group_id": 256,
    "rotation_phase": 0,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route197",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -214084,7 +214084,7 @@
    "rotation_group_id": 256,
    "rotation_phase": 1,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route24",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -214131,7 +214131,7 @@
    "rotation_group_id": 256,
    "rotation_phase": 3,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route196",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
@@ -214178,7 +214178,7 @@
    "rotation_group_id": 256,
    "rotation_phase": 2,
    "c4_symmetry": "strict_group_commit",
-   "reason": "z2_fixed_layer_unroutable",
+   "reason": "z1_transition_conflict:flat_vs_transition:route195",
    "start_z_mm": 0.5,
    "end_z_mm": 0.5,
    "source_port": {
