@@ -1,0 +1,121 @@
+{
+ "schema": "per_layer_views_v2",
+ "layers": [
+  {
+   "z_mm": 0.0,
+   "layer_id": null,
+   "routes": 512,
+   "flat_primitives": 2264,
+   "transition_endpoints": 72
+  },
+  {
+   "z_mm": 0.5,
+   "layer_id": null,
+   "routes": 488,
+   "flat_primitives": 2088,
+   "transition_endpoints": 320
+  },
+  {
+   "z_mm": 0.65,
+   "layer_id": 2,
+   "routes": 16,
+   "flat_primitives": 56,
+   "transition_endpoints": 32
+  },
+  {
+   "z_mm": 0.8,
+   "layer_id": 3,
+   "routes": 20,
+   "flat_primitives": 60,
+   "transition_endpoints": 40
+  },
+  {
+   "z_mm": 0.95,
+   "layer_id": 4,
+   "routes": 20,
+   "flat_primitives": 68,
+   "transition_endpoints": 40
+  },
+  {
+   "z_mm": 1.1,
+   "layer_id": 5,
+   "routes": 16,
+   "flat_primitives": 64,
+   "transition_endpoints": 32
+  },
+  {
+   "z_mm": 1.25,
+   "layer_id": 6,
+   "routes": 12,
+   "flat_primitives": 52,
+   "transition_endpoints": 24
+  },
+  {
+   "z_mm": 1.4,
+   "layer_id": 7,
+   "routes": 12,
+   "flat_primitives": 52,
+   "transition_endpoints": 24
+  },
+  {
+   "z_mm": 1.55,
+   "layer_id": 8,
+   "routes": 16,
+   "flat_primitives": 40,
+   "transition_endpoints": 32
+  },
+  {
+   "z_mm": 1.7,
+   "layer_id": 9,
+   "routes": 12,
+   "flat_primitives": 60,
+   "transition_endpoints": 24
+  },
+  {
+   "z_mm": 1.85,
+   "layer_id": 10,
+   "routes": 16,
+   "flat_primitives": 60,
+   "transition_endpoints": 32
+  },
+  {
+   "z_mm": 2.0,
+   "layer_id": 11,
+   "routes": 16,
+   "flat_primitives": 48,
+   "transition_endpoints": 32
+  },
+  {
+   "z_mm": 2.15,
+   "layer_id": 12,
+   "routes": 12,
+   "flat_primitives": 44,
+   "transition_endpoints": 24
+  },
+  {
+   "z_mm": 2.3,
+   "layer_id": 13,
+   "routes": 16,
+   "flat_primitives": 56,
+   "transition_endpoints": 32
+  },
+  {
+   "z_mm": 2.45,
+   "layer_id": 14,
+   "routes": 4,
+   "flat_primitives": 20,
+   "transition_endpoints": 8
+  },
+  {
+   "z_mm": 2.6,
+   "layer_id": 15,
+   "routes": 8,
+   "flat_primitives": 16,
+   "transition_endpoints": 16
+  }
+ ],
+ "contact_sheets": {
+  "interface": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN_Z2REV\\best_solution\\figures\\layer_contact_sheet_interface.png",
+  "high": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN_Z2REV\\best_solution\\figures\\layer_contact_sheet_high.png"
+ }
+}

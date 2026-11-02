@@ -1,0 +1,86 @@
+[z2rev-sweep] L15 heights=[0.65, 0.8, 0.95, 1.1, 1.25, 1.4, 1.55, 1.7, 1.85, 2.0, 2.15, 2.3, 2.45, 2.6] LAYER_IDS=(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[lift] before: pairs=121656 points=165624 per-plane={0.0: 53500, 0.5: 68156}
+[lift] group 214 (adjacent) -> L9 removed=1260 pairs now=120396 len+0.9mm
+[lift] group 193 (same    ) -> L2 removed=1512 pairs now=118884 len+0.0mm
+[lift] group 139 (adjacent) -> L3 removed=970 pairs now=117914 len+0.1mm
+[lift] group 157 (adjacent) -> L7 removed=1322 pairs now=116592 len+0.6mm
+[lift] group 164 (adjacent) -> L4 removed=1042 pairs now=115550 len+0.2mm
+[lift] group 196 (same    ) -> L6 removed=856 pairs now=114694 len+0.4mm
+[lift] group 246 (same    ) -> L2 removed=1360 pairs now=113350 len+0.0mm
+[lift] group 162 (adjacent) -> L13 removed=1092 pairs now=112258 len+1.7mm
+[lift] group 161 (adjacent) -> L4 removed=602 pairs now=111660 len+0.2mm
+[lift] group 154 (adjacent) -> L12 removed=1080 pairs now=110580 len+1.5mm
+[lift] group 153 (adjacent) -> L10 removed=1208 pairs now=109372 len+1.1mm
+[lift] group 195 (same    ) -> L5 removed=1104 pairs now=108268 len+0.3mm
+[lift] group 216 (adjacent) -> L3 removed=892 pairs now=107388 len+0.1mm
+[lift] group 163 (adjacent) -> L8 removed=1104 pairs now=106284 len+0.7mm
+[lift] group  89 (same    ) -> L8 removed=4 pairs now=106280 len+1.3mm
+[lift] group 253 (same    ) -> L14 removed=1100 pairs now=105180 len+1.9mm
+[lift] group 156 (adjacent) -> L11 removed=1038 pairs now=104142 len+1.3mm
+[lift] group 172 (adjacent) -> L2 removed=1134 pairs now=103040 len+0.0mm
+[lift] group 135 (adjacent) -> L10 removed=962 pairs now=102078 len+1.1mm
+[lift] group 129 (adjacent) -> L8 removed=970 pairs now=101112 len+0.7mm
+[lift] group 174 (adjacent) -> L15 removed=874 pairs now=100238 len+2.1mm
+[lift] group 182 (adjacent) -> L7 removed=678 pairs now=99564 len+0.6mm
+[lift] group 248 (same    ) -> L12 removed=1064 pairs now=98500 len+1.5mm
+[lift] group 173 (adjacent) -> L11 removed=702 pairs now=97798 len+1.3mm
+[lift] group 175 (adjacent) -> L13 removed=826 pairs now=96976 len+1.7mm
+[lift] group 158 (adjacent) -> L11 removed=1042 pairs now=95950 len+1.3mm
+[lift] group 142 (adjacent) -> L7 removed=852 pairs now=95118 len+0.6mm
+[lift] group 159 (adjacent) -> L8 removed=958 pairs now=94188 len+0.7mm
+[lift] group 140 (adjacent) -> L4 removed=626 pairs now=93566 len+0.2mm
+[lift] group 198 (same    ) -> L6 removed=700 pairs now=92874 len+0.4mm
+[lift] group  45 (same    ) -> L4 removed=20 pairs now=92854 len+0.6mm
+[lift] group 177 (adjacent) -> L13 removed=778 pairs now=92088 len+1.7mm
+[lift] group 141 (adjacent) -> L5 removed=500 pairs now=91600 len+0.3mm
+[lift] group  51 (same    ) -> L15 removed=28 pairs now=91572 len+2.9mm
+[lift] group 166 (adjacent) -> L5 removed=1032 pairs now=90560 len+0.3mm
+[lift] group 160 (adjacent) -> L12 removed=910 pairs now=89654 len+1.5mm
+[lift] group  74 (same    ) -> L3 removed=8 pairs now=89646 len+0.5mm
+[lift] group  72 (same    ) -> L3 removed=4 pairs now=89642 len+0.5mm
+[lift] group 131 (adjacent) -> L9 removed=936 pairs now=88722 len+0.9mm
+[lift] group 108 (opposite) -> L10 removed=960 pairs now=87774 len+1.7mm
+[lift] group 167 (adjacent) -> L5 removed=952 pairs now=86854 len+0.3mm
+[lift] group 132 (adjacent) -> L6 removed=896 pairs now=85982 len+0.4mm
+[lift] group 138 (adjacent) -> L3 removed=880 pairs now=85138 len+0.1mm
+[lift] group 102 (opposite) -> L2 removed=220 pairs now=84922 len+0.4mm
+[lift] group 197 (same    ) -> L13 removed=616 pairs now=84326 len+1.7mm
+[lift] group  75 (same    ) -> L9 removed=164 pairs now=84174 len+1.5mm
+[lift] group 168 (adjacent) -> L11 removed=746 pairs now=83456 len+1.3mm
+[lift] group  31 (opposite) -> L10 removed=772 pairs now=82700 len+1.7mm
+[lift] group 137 (adjacent) -> L4 removed=768 pairs now=81956 len+0.2mm
+[lift] running repository l3d validate_payload with V4-C4 identity
+[lift] 3D validator: status=exploratory_only exploratory_pass=None geometry_pass=False counts=OrderedDict([('violations', 0), ('contract_errors', 0), ('port_errors', 0), ('geometry_errors', 0), ('curvature_violations', 0), ('clearance_violations', 0), ('same_plane_violations', 0), ('self_clearance_violations', 0), ('other_errors', 0)])
+[lift] validation failed without addressable violations; stop repair
+[lift] DONE layers={'2': 0.65, '3': 0.8, '4': 0.95, '5': 1.1, '6': 1.25, '7': 1.4, '8': 1.55, '9': 1.7, '10': 1.85, '11': 2.0, '12': 2.15, '13': 2.3, '14': 2.45, '15': 2.6} pairs 121656 -> 78836 groups=49 transitions=392 length 163649.4 -> 163692.8 mm validation=exploratory_only (438.6s)
+[z2rev-sweep] L15: {'layer_count': 15, 'seconds': 439.0, 'routed': 1000, 'violations': 0, 'unique_crossing_pairs': 78836, 'crossing_points': 100200, 'lifted_groups': 49, 'transitions': 392, 'pairs_by_height': {'0.0': 51224, '0.5': 27480, '0.65': 66, '0.8': 66, '0.95': 48, '1.1': 84, '1.25': 46, '1.4': 34, '1.55': 48, '1.7': 40, '1.85': 44, '2.0': 64, '2.15': 16, '2.3': 48, '2.45': 4, '2.6': 4}}
+[
+ {
+  "layer_count": 15,
+  "seconds": 439.0,
+  "routed": 1000,
+  "violations": 0,
+  "unique_crossing_pairs": 78836,
+  "crossing_points": 100200,
+  "lifted_groups": 49,
+  "transitions": 392,
+  "pairs_by_height": {
+   "0.0": 51224,
+   "0.5": 27480,
+   "0.65": 66,
+   "0.8": 66,
+   "0.95": 48,
+   "1.1": 84,
+   "1.25": 46,
+   "1.4": 34,
+   "1.55": 48,
+   "1.7": 40,
+   "1.85": 44,
+   "2.0": 64,
+   "2.15": 16,
+   "2.3": 48,
+   "2.45": 4,
+   "2.6": 4
+  }
+ }
+]

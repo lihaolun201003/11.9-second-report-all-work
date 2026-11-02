@@ -1,0 +1,55 @@
+{
+ "z2_phase2": {
+  "routed": 476,
+  "seconds": 790.1
+ },
+ "z2_repair": {
+  "plane": "z2",
+  "routed": 488,
+  "failed": 24,
+  "recovered": [
+   {
+    "pass_index": 0,
+    "group_id": 137,
+    "kind": "adjacent",
+    "evaluated": 5064
+   },
+   {
+    "pass_index": 0,
+    "group_id": 178,
+    "kind": "adjacent",
+    "evaluated": 2597
+   },
+   {
+    "pass_index": 0,
+    "group_id": 246,
+    "kind": "same",
+    "evaluated": 576
+   }
+  ],
+  "validation_passed": true,
+  "seconds": 128.4
+ },
+ "z1": {
+  "plane": "z1",
+  "routed": 512,
+  "reused": true
+ },
+ "combined": {
+  "routed": 1000,
+  "groups": 250,
+  "plane_crossings": {
+   "z1": {
+    "crossing_count": 70944,
+    "crossing_pair_count": 53500,
+    "violation_count": 0
+   },
+   "z2": {
+    "crossing_count": 94680,
+    "crossing_pair_count": 68156,
+    "violation_count": 0
+   }
+  },
+  "validation_passed": true
+ }
+}

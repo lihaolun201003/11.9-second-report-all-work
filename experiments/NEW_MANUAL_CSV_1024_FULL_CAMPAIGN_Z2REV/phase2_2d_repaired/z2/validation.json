@@ -1,0 +1,142 @@
+{
+ "schema": "manual_c4_2d_plane_validation_v1",
+ "experiment": "C4_2D_REPAIRED_Z2REV",
+ "plane": "z2",
+ "passed": true,
+ "plane_audit": {
+  "schema": "manual_c4_2d_validation_v1",
+  "plane": "z2",
+  "label": "Z2REV_z2",
+  "csv_sha256": "6e1b5fb9187b0caab2019015b32c951faa867e723530572e30bc08b38bc747df",
+  "radius_mm": 15.0,
+  "board_mm": 150.0,
+  "clearance_mm": 0.08,
+  "width_mm": 0.05,
+  "strict_policy": "fslw.validate_fslw strict",
+  "routed": 488,
+  "failed": 24,
+  "total": 512,
+  "geometry_errors": [],
+  "geometry_error_count": 0,
+  "pair_parse_errors": [],
+  "pair_audit": {
+   "policy": "strict",
+   "candidate_pair_count": 88396,
+   "crossing_count": 94680,
+   "crossing_pair_count": 68156,
+   "min_non_crossing_centerline_mm": 0.1013447600522866,
+   "violations": [],
+   "violation_count": 0
+  },
+  "total_length_mm": 87493.0612,
+  "mean_length_mm": 179.2891,
+  "failed_routes": [
+   {
+    "route_id": 554,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 560,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 594,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 629,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 631,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 633,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 764,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 765,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 766,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 782,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 783,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 784,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 884,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 885,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 886,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 989,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 990,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 991,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 995,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 996,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 997,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 1001,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 1002,
+    "reason": "no_legal_quad_after_extended_ladder"
+   },
+   {
+    "route_id": 1003,
+    "reason": "no_legal_quad_after_extended_ladder"
+   }
+  ],
+  "passed": true,
+  "errors": []
+ },
+ "c4_symmetry": {
+  "complete_groups": 122,
+  "partial_groups": 0,
+  "empty_groups": 6,
+  "errors": [],
+  "error_count": 0,
+  "passed": true
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "schema": "manual_c4_2d_plane_validation_v1",
+ "experiment": "MANUAL_C4_2D_REPAIR",
+ "plane": "z1",
+ "passed": true,
+ "plane_audit": {
+  "schema": "manual_c4_2d_validation_v1",
+  "plane": "z1",
+  "label": "MANUAL_C4_2D_REPAIR_z1",
+  "csv_sha256": "a4c9333742e46dbd3531b35ede0aa411c493515a2e57c33f8c30af06224f5dd1",
+  "radius_mm": 15.0,
+  "board_mm": 150.0,
+  "clearance_mm": 0.08,
+  "width_mm": 0.05,
+  "strict_policy": "fslw.validate_fslw strict",
+  "routed": 512,
+  "failed": 0,
+  "total": 512,
+  "geometry_errors": [],
+  "geometry_error_count": 0,
+  "pair_parse_errors": [],
+  "pair_audit": {
+   "policy": "strict",
+   "candidate_pair_count": 62396,
+   "crossing_count": 70944,
+   "crossing_pair_count": 53500,
+   "min_non_crossing_centerline_mm": 0.10865739284964084,
+   "violations": [],
+   "violation_count": 0
+  },
+  "total_length_mm": 76156.3028,
+  "mean_length_mm": 148.7428,
+  "failed_routes": [],
+  "passed": true,
+  "errors": []
+ },
+ "c4_symmetry": {
+  "complete_groups": 128,
+  "partial_groups": 0,
+  "empty_groups": 0,
+  "errors": [],
+  "error_count": 0,
+  "passed": true
+ }
+}

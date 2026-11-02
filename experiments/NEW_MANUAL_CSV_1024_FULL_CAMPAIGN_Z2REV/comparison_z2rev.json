@@ -1,0 +1,53 @@
+{
+ "schema": "z2rev_campaign_comparison_v1",
+ "z2_csv": {
+  "new_sha": "3229c1378d621b2c69ec5249da983ab252bf8edfb6caa660cb60a71c20f8ccbc",
+  "old_sha": "aae16265a26829443371dc716001476bb25ab8fd73571bb1f245e218970b3c8a"
+ },
+ "two_d": {
+  "new_routed": 1000,
+  "new_pairs": 121656,
+  "new_validation": true,
+  "old_routed": 992,
+  "old_pairs": 116748,
+  "z2_routed": 488
+ },
+ "three_d_15l": {
+  "new_routed": 1000,
+  "new_pairs": 78836,
+  "new_violations": 0,
+  "new_lifted_groups": 49,
+  "new_transitions": 392,
+  "old_routed": 992,
+  "old_pairs": 75794,
+  "old_violations": 0
+ },
+ "layer_usage": {
+  "0.0": 512,
+  "0.5": 488,
+  "0.65": 16,
+  "0.8": 20,
+  "0.95": 20,
+  "1.1": 16,
+  "1.25": 12,
+  "1.4": 12,
+  "1.55": 16,
+  "1.7": 12,
+  "1.85": 16,
+  "2.0": 16,
+  "2.15": 12,
+  "2.3": 16,
+  "2.45": 4,
+  "2.6": 8
+ },
+ "z2_c4": {
+  "symmetry_pass": true,
+  "complete_orbits": 122,
+  "incomplete_orbits": 6,
+  "max_deviation_mm": 4.0194366942304644e-14
+ },
+ "reduction_ratio": {
+  "new": 0.352,
+  "old": 0.3508
+ }
+}
