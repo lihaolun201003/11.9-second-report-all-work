@@ -2767,7 +2767,7 @@
       "crossings": 682,
       "crossing_pairs": 679,
       "min_non_crossing_centerline_mm": 0.246225928,
-      "runtime_seconds": 0.076
+      "runtime_seconds": 0.062
      },
      {
       "z_mm": 0.5,
@@ -2783,7 +2783,7 @@
       "crossings": 56,
       "crossing_pairs": 56,
       "min_non_crossing_centerline_mm": 0.135293262,
-      "runtime_seconds": 0.014
+      "runtime_seconds": 0.013
      },
      {
       "z_mm": 0.65,
@@ -2797,7 +2797,7 @@
       "crossings": 0,
       "crossing_pairs": 0,
       "min_non_crossing_centerline_mm": 0.252049043,
-      "runtime_seconds": 0.051
+      "runtime_seconds": 0.044
      },
      {
       "z_mm": 0.8,
@@ -2811,7 +2811,7 @@
       "crossings": 0,
       "crossing_pairs": 0,
       "min_non_crossing_centerline_mm": 0.252049043,
-      "runtime_seconds": 0.03
+      "runtime_seconds": 0.027
      },
      {
       "z_mm": 0.95,
@@ -2825,7 +2825,7 @@
       "crossings": 0,
       "crossing_pairs": 0,
       "min_non_crossing_centerline_mm": 0.252049043,
-      "runtime_seconds": 0.048
+      "runtime_seconds": 0.045
      },
      {
       "z_mm": 1.1,
@@ -2839,7 +2839,7 @@
       "crossings": 0,
       "crossing_pairs": 0,
       "min_non_crossing_centerline_mm": 0.252049043,
-      "runtime_seconds": 0.03
+      "runtime_seconds": 0.027
      },
      {
       "z_mm": 1.4,
@@ -2853,7 +2853,7 @@
       "crossings": 1807,
       "crossing_pairs": 1575,
       "min_non_crossing_centerline_mm": 0.256349164,
-      "runtime_seconds": 0.249
+      "runtime_seconds": 0.24
      },
      {
       "z_mm": 1.55,
@@ -2867,7 +2867,7 @@
       "crossings": 1826,
       "crossing_pairs": 1586,
       "min_non_crossing_centerline_mm": 0.538925186,
-      "runtime_seconds": 0.249
+      "runtime_seconds": 0.246
      },
      {
       "z_mm": 1.7,
@@ -2895,7 +2895,7 @@
       "crossings": 50,
       "crossing_pairs": 45,
       "min_non_crossing_centerline_mm": 0.793717332,
-      "runtime_seconds": 0.008
+      "runtime_seconds": 0.007
      },
      {
       "z_mm": 2.0,
@@ -2909,7 +2909,7 @@
       "crossings": 44,
       "crossing_pairs": 37,
       "min_non_crossing_centerline_mm": 2.597457391,
-      "runtime_seconds": 0.007
+      "runtime_seconds": 0.005
      },
      {
       "z_mm": 2.15,
@@ -2923,7 +2923,7 @@
       "crossings": 70,
       "crossing_pairs": 59,
       "min_non_crossing_centerline_mm": 0.380588415,
-      "runtime_seconds": 0.012
+      "runtime_seconds": 0.01
      },
      {
       "z_mm": 2.3,
@@ -2937,7 +2937,7 @@
       "crossings": 113,
       "crossing_pairs": 103,
       "min_non_crossing_centerline_mm": 2.4069847,
-      "runtime_seconds": 0.019
+      "runtime_seconds": 0.015
      },
      {
       "z_mm": 2.45,
@@ -2951,7 +2951,7 @@
       "crossings": 79,
       "crossing_pairs": 64,
       "min_non_crossing_centerline_mm": 0.159275877,
-      "runtime_seconds": 0.016
+      "runtime_seconds": 0.013
      },
      {
       "z_mm": 2.6,
@@ -2993,7 +2993,7 @@
       "crossings": 14,
       "crossing_pairs": 14,
       "min_non_crossing_centerline_mm": 1.490100693,
-      "runtime_seconds": 0.002
+      "runtime_seconds": 0.001
      },
      {
       "z_mm": 3.05,
@@ -3007,7 +3007,7 @@
       "crossings": 54,
       "crossing_pairs": 46,
       "min_non_crossing_centerline_mm": 0.449853858,
-      "runtime_seconds": 0.008
+      "runtime_seconds": 0.007
      },
      {
       "z_mm": 3.2,
@@ -3021,7 +3021,7 @@
       "crossings": 42,
       "crossing_pairs": 41,
       "min_non_crossing_centerline_mm": 1.909977086,
-      "runtime_seconds": 0.007
+      "runtime_seconds": 0.006
      },
      {
       "z_mm": 3.35,
@@ -3035,7 +3035,7 @@
       "crossings": 85,
       "crossing_pairs": 76,
       "min_non_crossing_centerline_mm": 0.159275877,
-      "runtime_seconds": 0.016
+      "runtime_seconds": 0.014
      }
     ],
     "total_violations": 0,
@@ -6511,7 +6511,7 @@
        "crossings": 682,
        "crossing_pairs": 679,
        "min_non_crossing_centerline_mm": 0.246225928,
-       "runtime_seconds": 0.076
+       "runtime_seconds": 0.062
       },
       {
        "z_mm": 0.5,
@@ -6527,7 +6527,7 @@
        "crossings": 56,
        "crossing_pairs": 56,
        "min_non_crossing_centerline_mm": 0.135293262,
-       "runtime_seconds": 0.014
+       "runtime_seconds": 0.013
       },
       {
        "z_mm": 0.65,
@@ -6541,7 +6541,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.051
+       "runtime_seconds": 0.044
       },
       {
        "z_mm": 0.8,
@@ -6555,7 +6555,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.03
+       "runtime_seconds": 0.027
       },
       {
        "z_mm": 0.95,
@@ -6569,7 +6569,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.048
+       "runtime_seconds": 0.045
       },
       {
        "z_mm": 1.1,
@@ -6583,7 +6583,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.03
+       "runtime_seconds": 0.027
       },
       {
        "z_mm": 1.4,
@@ -6597,7 +6597,7 @@
        "crossings": 1807,
        "crossing_pairs": 1575,
        "min_non_crossing_centerline_mm": 0.256349164,
-       "runtime_seconds": 0.249
+       "runtime_seconds": 0.24
       },
       {
        "z_mm": 1.55,
@@ -6611,7 +6611,7 @@
        "crossings": 1826,
        "crossing_pairs": 1586,
        "min_non_crossing_centerline_mm": 0.538925186,
-       "runtime_seconds": 0.249
+       "runtime_seconds": 0.246
       },
       {
        "z_mm": 1.7,
@@ -6639,7 +6639,7 @@
        "crossings": 50,
        "crossing_pairs": 45,
        "min_non_crossing_centerline_mm": 0.793717332,
-       "runtime_seconds": 0.008
+       "runtime_seconds": 0.007
       },
       {
        "z_mm": 2.0,
@@ -6653,7 +6653,7 @@
        "crossings": 44,
        "crossing_pairs": 37,
        "min_non_crossing_centerline_mm": 2.597457391,
-       "runtime_seconds": 0.007
+       "runtime_seconds": 0.005
       },
       {
        "z_mm": 2.15,
@@ -6667,7 +6667,7 @@
        "crossings": 70,
        "crossing_pairs": 59,
        "min_non_crossing_centerline_mm": 0.380588415,
-       "runtime_seconds": 0.012
+       "runtime_seconds": 0.01
       },
       {
        "z_mm": 2.3,
@@ -6681,7 +6681,7 @@
        "crossings": 113,
        "crossing_pairs": 103,
        "min_non_crossing_centerline_mm": 2.4069847,
-       "runtime_seconds": 0.019
+       "runtime_seconds": 0.015
       },
       {
        "z_mm": 2.45,
@@ -6695,7 +6695,7 @@
        "crossings": 79,
        "crossing_pairs": 64,
        "min_non_crossing_centerline_mm": 0.159275877,
-       "runtime_seconds": 0.016
+       "runtime_seconds": 0.013
       },
       {
        "z_mm": 2.6,
@@ -6737,7 +6737,7 @@
        "crossings": 14,
        "crossing_pairs": 14,
        "min_non_crossing_centerline_mm": 1.490100693,
-       "runtime_seconds": 0.002
+       "runtime_seconds": 0.001
       },
       {
        "z_mm": 3.05,
@@ -6751,7 +6751,7 @@
        "crossings": 54,
        "crossing_pairs": 46,
        "min_non_crossing_centerline_mm": 0.449853858,
-       "runtime_seconds": 0.008
+       "runtime_seconds": 0.007
       },
       {
        "z_mm": 3.2,
@@ -6765,7 +6765,7 @@
        "crossings": 42,
        "crossing_pairs": 41,
        "min_non_crossing_centerline_mm": 1.909977086,
-       "runtime_seconds": 0.007
+       "runtime_seconds": 0.006
       },
       {
        "z_mm": 3.35,
@@ -6779,7 +6779,7 @@
        "crossings": 85,
        "crossing_pairs": 76,
        "min_non_crossing_centerline_mm": 0.159275877,
-       "runtime_seconds": 0.016
+       "runtime_seconds": 0.014
       }
      ],
      "total_violations": 0,
@@ -9493,7 +9493,7 @@
        "crossings": 682,
        "crossing_pairs": 679,
        "min_non_crossing_centerline_mm": 0.246225928,
-       "runtime_seconds": 0.076
+       "runtime_seconds": 0.062
       },
       {
        "z_mm": 0.5,
@@ -9509,7 +9509,7 @@
        "crossings": 56,
        "crossing_pairs": 56,
        "min_non_crossing_centerline_mm": 0.135293262,
-       "runtime_seconds": 0.014
+       "runtime_seconds": 0.013
       },
       {
        "z_mm": 0.65,
@@ -9523,7 +9523,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.051
+       "runtime_seconds": 0.044
       },
       {
        "z_mm": 0.8,
@@ -9537,7 +9537,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.03
+       "runtime_seconds": 0.027
       },
       {
        "z_mm": 0.95,
@@ -9551,7 +9551,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.048
+       "runtime_seconds": 0.045
       },
       {
        "z_mm": 1.1,
@@ -9565,7 +9565,7 @@
        "crossings": 0,
        "crossing_pairs": 0,
        "min_non_crossing_centerline_mm": 0.252049043,
-       "runtime_seconds": 0.03
+       "runtime_seconds": 0.027
       },
       {
        "z_mm": 1.4,
@@ -9579,7 +9579,7 @@
        "crossings": 1807,
        "crossing_pairs": 1575,
        "min_non_crossing_centerline_mm": 0.256349164,
-       "runtime_seconds": 0.249
+       "runtime_seconds": 0.24
       },
       {
        "z_mm": 1.55,
@@ -9593,7 +9593,7 @@
        "crossings": 1826,
        "crossing_pairs": 1586,
        "min_non_crossing_centerline_mm": 0.538925186,
-       "runtime_seconds": 0.249
+       "runtime_seconds": 0.246
       },
       {
        "z_mm": 1.7,
@@ -9621,7 +9621,7 @@
        "crossings": 50,
        "crossing_pairs": 45,
        "min_non_crossing_centerline_mm": 0.793717332,
-       "runtime_seconds": 0.008
+       "runtime_seconds": 0.007
       },
       {
        "z_mm": 2.0,
@@ -9635,7 +9635,7 @@
        "crossings": 44,
        "crossing_pairs": 37,
        "min_non_crossing_centerline_mm": 2.597457391,
-       "runtime_seconds": 0.007
+       "runtime_seconds": 0.005
       },
       {
        "z_mm": 2.15,
@@ -9649,7 +9649,7 @@
        "crossings": 70,
        "crossing_pairs": 59,
        "min_non_crossing_centerline_mm": 0.380588415,
-       "runtime_seconds": 0.012
+       "runtime_seconds": 0.01
       },
       {
        "z_mm": 2.3,
@@ -9663,7 +9663,7 @@
        "crossings": 113,
        "crossing_pairs": 103,
        "min_non_crossing_centerline_mm": 2.4069847,
-       "runtime_seconds": 0.019
+       "runtime_seconds": 0.015
       },
       {
        "z_mm": 2.45,
@@ -9677,7 +9677,7 @@
        "crossings": 79,
        "crossing_pairs": 64,
        "min_non_crossing_centerline_mm": 0.159275877,
-       "runtime_seconds": 0.016
+       "runtime_seconds": 0.013
       },
       {
        "z_mm": 2.6,
@@ -9719,7 +9719,7 @@
        "crossings": 14,
        "crossing_pairs": 14,
        "min_non_crossing_centerline_mm": 1.490100693,
-       "runtime_seconds": 0.002
+       "runtime_seconds": 0.001
       },
       {
        "z_mm": 3.05,
@@ -9733,7 +9733,7 @@
        "crossings": 54,
        "crossing_pairs": 46,
        "min_non_crossing_centerline_mm": 0.449853858,
-       "runtime_seconds": 0.008
+       "runtime_seconds": 0.007
       },
       {
        "z_mm": 3.2,
@@ -9747,7 +9747,7 @@
        "crossings": 42,
        "crossing_pairs": 41,
        "min_non_crossing_centerline_mm": 1.909977086,
-       "runtime_seconds": 0.007
+       "runtime_seconds": 0.006
       },
       {
        "z_mm": 3.35,
@@ -9761,7 +9761,7 @@
        "crossings": 85,
        "crossing_pairs": 76,
        "min_non_crossing_centerline_mm": 0.159275877,
-       "runtime_seconds": 0.016
+       "runtime_seconds": 0.014
       }
      ],
      "total_violations": 0,
@@ -12887,5 +12887,5 @@
  "warnings": [
   "payload has no process record"
  ],
- "runtime_seconds": 5.222
+ "runtime_seconds": 5.164
 }
