@@ -11,5 +11,7 @@
 | [code_z1](code_z1/) | 新增实验代码：层栈、溯源、重布、多层验证器 | — |
 | [MANUAL_GROUP_15L_COMPARISON](MANUAL_GROUP_15L_COMPARISON/README.md) | 人工分组 L1–L4 + 旧算法 L5–L15 的完整 1024 通道对照（150 µm 层距）+ 逐层布线图 | 992/1024；74,626 vs 基线 75,794（−1,168，−1.54%）；人工仅 16/192 条抬升可落地（如实记录） |
 | [code_manual_group_15l](code_manual_group_15l/) | 人工分组对照与逐层出图代码 | — |
+| [MANUAL_GROUP_15L_COMPARISON_FIXED](MANUAL_GROUP_15L_COMPARISON_FIXED/README.md) | 修复版人工 U 型：按真实端点重新生成深度/嵌套 R15 U（非旧 2D 局部抬升）+ 人工阶段验证 | L1 64/64、L2 0/64、L3 0/64、L4 2/64（66/256）；L2–L4 被冻结 z1/z2 平面封死，未进入 1024（如实记录） |
+| [code_manual_group_15l_fix](code_manual_group_15l_fix/) | 修复版人工 U 几何与验证代码（manual_u_geometry + 重写 compare_15L） | — |
 
 所有实验均保持 1024 条连接、端口、R=15、净空 0.08、写速 1 mm/s；验证状态 exploratory_only（层高未确认）。

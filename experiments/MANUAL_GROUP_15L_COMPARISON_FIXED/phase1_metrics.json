@@ -1,0 +1,1070 @@
+{
+ "layers": {
+  "1": {
+   "expected": 64,
+   "placed": 64,
+   "failed": 0,
+   "sides": {
+    "S": 32,
+    "N": 32
+   },
+   "depth_min_mm": 15.25,
+   "depth_max_mm": 23.0,
+   "strict_nesting": 64,
+   "transitions": 0,
+   "transition_positions": [],
+   "manual_min_clearance_mm": 0.25,
+   "manual_min_clearance_pair": [
+    196,
+    193
+   ],
+   "manual_crossing_pairs": 0,
+   "failure_reasons": {},
+   "failures": []
+  },
+  "2": {
+   "expected": 64,
+   "placed": 0,
+   "failed": 64,
+   "sides": {},
+   "failure_reasons": {
+    "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone": 18,
+    "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route137": 2,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route627": 2,
+    "arms:no_transition_window+any:no_transition_window": 26,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone": 6,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route137": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route376": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route619": 1,
+    "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route138": 2,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route626": 2,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route138": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route86": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route618": 1
+   },
+   "failures": [
+    {
+     "route_id": 337,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 361,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 340,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route137"
+    },
+    {
+     "route_id": 364,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route627"
+    },
+    {
+     "route_id": 343,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 367,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 346,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 370,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 349,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route137"
+    },
+    {
+     "route_id": 373,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 352,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 376,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 355,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route137"
+    },
+    {
+     "route_id": 379,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route376"
+    },
+    {
+     "route_id": 358,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 382,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 313,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 385,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 316,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 388,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 319,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 391,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 322,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 394,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 325,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 397,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route619"
+    },
+    {
+     "route_id": 328,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 400,
+     "side": "S",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route627"
+    },
+    {
+     "route_id": 331,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 403,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 334,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 406,
+     "side": "S",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 73,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 81,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 74,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route138"
+    },
+    {
+     "route_id": 82,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route626"
+    },
+    {
+     "route_id": 75,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 83,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 76,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 84,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 77,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route138"
+    },
+    {
+     "route_id": 85,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 78,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 86,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 79,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route138"
+    },
+    {
+     "route_id": 87,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route86"
+    },
+    {
+     "route_id": 80,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 88,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 65,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 89,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 66,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 90,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 67,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 91,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 68,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 92,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 69,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 93,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route618"
+    },
+    {
+     "route_id": 70,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 94,
+     "side": "N",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route626"
+    },
+    {
+     "route_id": 71,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 95,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 72,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 96,
+     "side": "N",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    }
+   ]
+  },
+  "3": {
+   "expected": 64,
+   "placed": 0,
+   "failed": 64,
+   "sides": {},
+   "failure_reasons": {
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone": 8,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route986": 1,
+    "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone": 40,
+    "arms:no_transition_window+any:no_transition_window": 14,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route987": 1
+   },
+   "failures": [
+    {
+     "route_id": 195,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 192,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 189,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route986"
+    },
+    {
+     "route_id": 186,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 183,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 180,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 177,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 174,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 261,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 258,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 255,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 252,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 249,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 246,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 243,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 240,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 285,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 282,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 279,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 276,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 273,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 270,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 267,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 264,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 309,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 306,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 303,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 300,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 297,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 294,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 291,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 288,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 197,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 194,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 191,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route987"
+    },
+    {
+     "route_id": 188,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 185,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 182,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 179,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 176,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 263,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 260,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 257,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 254,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 251,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 248,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 245,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 242,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 287,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 284,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 281,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 278,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 275,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 272,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 269,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 266,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 311,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 308,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 305,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 302,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 299,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 296,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 293,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 290,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    }
+   ]
+  },
+  "4": {
+   "expected": 64,
+   "placed": 2,
+   "failed": 62,
+   "sides": {
+    "W": 1,
+    "E": 1
+   },
+   "depth_min_mm": 31.64,
+   "depth_max_mm": 31.64,
+   "strict_nesting": 0,
+   "transitions": 2,
+   "transition_positions": [
+    {
+     "route_id": 348,
+     "rise_start_mm": 3.7,
+     "fall_start_mm": 97.764
+    },
+    {
+     "route_id": 350,
+     "rise_start_mm": 3.7,
+     "fall_start_mm": 97.764
+    }
+   ],
+   "manual_min_clearance_mm": 92.51991,
+   "manual_min_clearance_pair": [
+    348,
+    350
+   ],
+   "manual_crossing_pairs": 0,
+   "failure_reasons": {
+    "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone": 18,
+    "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route682": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone": 6,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route375": 1,
+    "arms:no_transition_window+any:no_transition_window": 28,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route637": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route610": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route682": 1,
+    "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route683": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route377": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route640": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route611": 1,
+    "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route683": 1
+   },
+   "failures": [
+    {
+     "route_id": 336,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 360,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 339,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route682"
+    },
+    {
+     "route_id": 363,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 342,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 366,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 345,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 369,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 372,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 351,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 375,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 354,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 378,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route375"
+    },
+    {
+     "route_id": 357,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 381,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 312,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route637"
+    },
+    {
+     "route_id": 384,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 315,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 387,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 318,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 390,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 321,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 393,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 324,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 396,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route610"
+    },
+    {
+     "route_id": 327,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 399,
+     "side": "W",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route682"
+    },
+    {
+     "route_id": 330,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 402,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 333,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 405,
+     "side": "W",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 338,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 362,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 341,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=transition_vs_flat:route683"
+    },
+    {
+     "route_id": 365,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 344,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 368,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 347,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 371,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 374,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 353,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 377,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 356,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 380,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route377"
+    },
+    {
+     "route_id": 359,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:all_placements_conflict; blocker=flat_same_plane_conflict:routeNone"
+    },
+    {
+     "route_id": 383,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 314,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route640"
+    },
+    {
+     "route_id": 386,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 317,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 389,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 320,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 392,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 323,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 395,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 326,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 398,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route611"
+    },
+    {
+     "route_id": 329,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 401,
+     "side": "E",
+     "reason": "arms:all_placements_conflict+any:all_placements_conflict; blocker=transition_vs_flat:route683"
+    },
+    {
+     "route_id": 332,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 404,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 335,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    },
+    {
+     "route_id": 407,
+     "side": "E",
+     "reason": "arms:no_transition_window+any:no_transition_window"
+    }
+   ]
+  }
+ },
+ "schema": "manual_u_phase1_metrics_v1",
+ "manual_total": {
+  "expected": 256,
+  "placed": 66,
+  "failed": 190,
+  "complete": false
+ },
+ "runtime_seconds": 202.3
+}
