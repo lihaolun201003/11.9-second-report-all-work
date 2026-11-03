@@ -1,6 +1,6 @@
 {
  "schema": "fanout_first_final_stats_v2",
- "generated_at": "2026-11-03T19:43:06",
+ "generated_at": "2026-11-03T19:48:48",
  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
  "algorithm": "FANOUT_FIRST_THEN_LAYERWISE_2D",
  "process_mode": "corrected_50um",
@@ -6643,8 +6643,8 @@
  },
  "github": {
   "repository": "lihaolun201003/11.9-second-report-all-work",
-  "commit_url": "https://github.com/lihaolun201003/11.9-second-report-all-work/commit/7daf5a88d590ffe42c42e22489cdcfc41bf0ef54",
-  "commit_sha": "7daf5a88d590ffe42c42e22489cdcfc41bf0ef54"
+  "commit_url": "https://github.com/lihaolun201003/11.9-second-report-all-work/commit/a679ea09158ce37817c6329fec0410b3ab5ee154",
+  "commit_sha": "a679ea09158ce37817c6329fec0410b3ab5ee154"
  },
  "report_inputs": {
   "routes_l3d.json": true,

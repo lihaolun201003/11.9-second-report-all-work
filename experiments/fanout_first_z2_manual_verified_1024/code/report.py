@@ -1825,8 +1825,13 @@ def render_comparison(stats):
          f'{_fmt(prev_z2_other)}/400',
          f'{final["non_manual_total"]["z2_routed"]}/{final["non_manual_total"]["z2_input"]}'],
         ['端口升降端点成功 / 总数',
-         f'{_fmt(prev_transitions)}/2048（仅旧轮成品线路；旧轮没有独立 fanout 阶段）',
-         f'2006/2048 fanout 全部成功；最终成品含 {endpoint.get("succeeded_final")} 个端点'],
+         f'{_fmt(prev_transitions)}/2048（旧轮成品线路共含 {_fmt(prev_transitions)} 条过渡；'
+         '旧轮没有独立 fanout 阶段）',
+         f'{_fmt(endpoint.get("succeeded_final"))}/'
+         f'{_fmt(endpoint.get("total_endpoints"))}'
+         f'（fanout 阶段全部成功；实验 D success_endpoints='
+         f'{_fmt((endpoint.get("experiment_D") or {}).get("success_endpoints"))}；'
+         f'最终成品线路含 {_fmt(endpoint.get("succeeded_final"))} 个端点）'],
         ['逐层二维成功（8 个人工层）',
          '旧轮无 Z2 人工层 2D 结果（Z2 人工 U 未核实）',
          ' / '.join(f'{group}:{per_layer_2d.get(str(MANUAL_GROUPS[group]["layer"]), {}).get("routed", "n/a")}'

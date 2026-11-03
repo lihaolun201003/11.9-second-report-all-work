@@ -1,6 +1,6 @@
 # 与上一轮 809/1024 的对比（comparison）
 
-生成时间：2026-11-03T19:43:06  
+生成时间：2026-11-03T19:48:48  
 本轮运行目录：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024`  
 上一轮目录：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\BIDIRECTIONAL_1MM_50UM_CORRECTED_FULL`
 
@@ -21,7 +21,7 @@
 | Z2 人工 U 真实核实条数 + 布通 | 0 条核实（0 行 Z2-U* assignment） | 112 条核实 + 112 条布通 |
 | 其它 Z1（opposite）布通 / 256 | 160/256 | 256/256 |
 | 其它 Z2（adjacent）布通 / 400 | 393/400 | 400/400 |
-| 端口升降端点成功 / 总数 | 1522/2048（仅旧轮成品线路；旧轮没有独立 fanout 阶段） | 2006/2048 fanout 全部成功；最终成品含 2048 个端点 |
+| 端口升降端点成功 / 总数 | 1522/2048（旧轮成品线路共含 1522 条过渡；旧轮没有独立 fanout 阶段） | 2048/2048（fanout 阶段全部成功；实验 D success_endpoints=2048；最终成品线路含 2048 个端点） |
 | 逐层二维成功（8 个人工层） | 旧轮无 Z2 人工层 2D 结果（Z2 人工 U 未核实） | Z1-U1:64 / Z1-U2:64 / Z1-U3:64 / Z1-U4:64 / Z2-U1:16 / Z2-U2:16 / Z2-U3:40 / Z2-U4:40 |
 | 最终完整连接 | 809/1024 | 1024/1024 |
 | 几何验证违规数 | 0 | 0 |
