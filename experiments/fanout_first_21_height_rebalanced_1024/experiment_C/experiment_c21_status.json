@@ -1,0 +1,198 @@
+{
+ "stage": "experiment_C_21_height",
+ "model": "reheight21/SPEC.md",
+ "ordering_seed": 16,
+ "input_routes": 1024,
+ "routed_routes": 1024,
+ "failed_routes": 0,
+ "planes": 21,
+ "interface_planes": {
+  "1001": {
+   "assigned": 52,
+   "routed": 52
+  },
+  "1002": {
+   "assigned": 48,
+   "routed": 48
+  }
+ },
+ "crossings_total": 11848,
+ "r15_all_ok": true,
+ "per_plane": {
+  "2": {
+   "label": "L2",
+   "z_mm": -0.35,
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "crossings": 0
+  },
+  "3": {
+   "label": "L3",
+   "z_mm": -0.3,
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "crossings": 0
+  },
+  "4": {
+   "label": "L4",
+   "z_mm": -0.25,
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "crossings": 0
+  },
+  "5": {
+   "label": "L5",
+   "z_mm": -0.2,
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "crossings": 0
+  },
+  "6": {
+   "label": "L6",
+   "z_mm": -0.15,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 974
+  },
+  "7": {
+   "label": "L7",
+   "z_mm": -0.1,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 928
+  },
+  "20": {
+   "label": "L20",
+   "z_mm": -0.05,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 924
+  },
+  "1001": {
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 892
+  },
+  "8": {
+   "label": "L8",
+   "z_mm": 0.05,
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "crossings": 738
+  },
+  "9": {
+   "label": "L9",
+   "z_mm": 0.1,
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "crossings": 60
+  },
+  "10": {
+   "label": "L10",
+   "z_mm": 0.15,
+   "assigned": 16,
+   "routed": 16,
+   "failed": 0,
+   "crossings": 0
+  },
+  "11": {
+   "label": "L11",
+   "z_mm": 0.2,
+   "assigned": 16,
+   "routed": 16,
+   "failed": 0,
+   "crossings": 0
+  },
+  "12": {
+   "label": "L12",
+   "z_mm": 0.25,
+   "assigned": 40,
+   "routed": 40,
+   "failed": 0,
+   "crossings": 0
+  },
+  "13": {
+   "label": "L13",
+   "z_mm": 0.3,
+   "assigned": 40,
+   "routed": 40,
+   "failed": 0,
+   "crossings": 0
+  },
+  "14": {
+   "label": "L14",
+   "z_mm": 0.35,
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "crossings": 60
+  },
+  "15": {
+   "label": "L15",
+   "z_mm": 0.4,
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "crossings": 1240
+  },
+  "16": {
+   "label": "L16",
+   "z_mm": 0.45,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 1478
+  },
+  "1002": {
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "crossings": 60
+  },
+  "17": {
+   "label": "L17",
+   "z_mm": 0.55,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 1586
+  },
+  "18": {
+   "label": "L18",
+   "z_mm": 0.6,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 1468
+  },
+  "19": {
+   "label": "L19",
+   "z_mm": 0.65,
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "crossings": 1440
+  }
+ },
+ "wall_seconds": 6.973900556564331,
+ "artifacts": {
+  "experiment_c": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\experiment_C",
+  "layerwise_routes_initial_pass": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\experiment_C\\layerwise_routes\\routes.json",
+  "note": "the authoritative final NEW_RUN_DIR/layerwise_routes/routes.json is written by the Lead stage-E run; this file is the deterministic initial-C-pass layout only"
+ },
+ "failed_records": []
+}

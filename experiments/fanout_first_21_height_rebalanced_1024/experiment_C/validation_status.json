@@ -1,0 +1,7 @@
+{
+ "status": "passed",
+ "routed": 1024,
+ "input": 1024,
+ "failed": 0,
+ "note": "experiment C 2D body routing of the manual layers; independent 3D route validation is performed by the final validator."
+}

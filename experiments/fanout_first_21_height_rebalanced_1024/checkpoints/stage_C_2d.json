@@ -1,0 +1,907 @@
+{
+ "schema": "reheight21_experiment_c_v1",
+ "experiment": "C",
+ "input_routes": 1024,
+ "attempted_routes": 1024,
+ "routed": 1021,
+ "failed": 3,
+ "interface_planes": {
+  "Z1_INTERFACE": {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "kind": "interface_body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 1001,
+    "z_mm": 0.0,
+    "input": 52,
+    "attempted": 52,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.20523667335510254,
+    "families": {
+     "OPP_STRAIGHT": 8,
+     "OPP_SHORT_S": 32,
+     "OPP_Z": 12
+    },
+    "candidates_evaluated": 200,
+    "candidates_built": 4,
+    "d56_evaluations": 200,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 126,
+     "spacing": 22
+    },
+    "obstacle_samples_total": 70904,
+    "obstacle_samples_active": 69232,
+    "initial_routes": 920,
+    "initial_routes_remapped": 52,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "Z2_INTERFACE": {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "kind": "interface_body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "stats": {
+    "layer_id": 1002,
+    "z_mm": 0.5,
+    "input": 48,
+    "attempted": 48,
+    "success": 48,
+    "failed": 0,
+    "seconds": 0.06550741195678711,
+    "families": {
+     "ADJ_L": 48
+    },
+    "candidates_evaluated": 48,
+    "candidates_built": 1,
+    "d56_evaluations": 48,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {},
+    "obstacle_samples_total": 71904,
+    "obstacle_samples_active": 70232,
+    "initial_routes": 928,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  }
+ },
+ "per_plane": {
+  "2": {
+   "plane_id": 2,
+   "label": "L2",
+   "z_mm": -0.35,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "stats": {
+    "layer_id": 2,
+    "z_mm": -0.35,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.5421657562255859,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 1056,
+    "candidates_built": 32,
+    "d56_evaluations": 1056,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 540,
+     "tangent_touch": 452
+    },
+    "obstacle_samples_total": 14464,
+    "obstacle_samples_active": 13568,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "3": {
+   "plane_id": 3,
+   "label": "L3",
+   "z_mm": -0.3,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "stats": {
+    "layer_id": 3,
+    "z_mm": -0.3,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.32953429222106934,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 544,
+    "candidates_built": 16,
+    "d56_evaluations": 544,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 260,
+     "tangent_touch": 220
+    },
+    "obstacle_samples_total": 26752,
+    "obstacle_samples_active": 25600,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "4": {
+   "plane_id": 4,
+   "label": "L4",
+   "z_mm": -0.25,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "stats": {
+    "layer_id": 4,
+    "z_mm": -0.25,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.5417442321777344,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 1056,
+    "candidates_built": 32,
+    "d56_evaluations": 1056,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 304,
+     "tangent_touch": 688
+    },
+    "obstacle_samples_total": 35072,
+    "obstacle_samples_active": 33536,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "5": {
+   "plane_id": 5,
+   "label": "L5",
+   "z_mm": -0.2,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "stats": {
+    "layer_id": 5,
+    "z_mm": -0.2,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.3114938735961914,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 544,
+    "candidates_built": 16,
+    "d56_evaluations": 544,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 260,
+     "tangent_touch": 220
+    },
+    "obstacle_samples_total": 41152,
+    "obstacle_samples_active": 39200,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "6": {
+   "plane_id": 6,
+   "label": "L6",
+   "z_mm": -0.15,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 6,
+    "z_mm": -0.15,
+    "input": 52,
+    "attempted": 56,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.42753076553344727,
+    "families": {
+     "OPP_STRAIGHT": 4,
+     "OPP_SHORT_S": 27,
+     "OPP_Z": 24
+    },
+    "candidates_evaluated": 292,
+    "candidates_built": 1,
+    "d56_evaluations": 600,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 188,
+     "spacing": 32,
+     "outside_board": 200,
+     "double_cross": 14,
+     "overlap": 3
+    },
+    "obstacle_samples_total": 47184,
+    "obstacle_samples_active": 44768,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [
+     {
+      "round": 1,
+      "pending": 1,
+      "gained": 1,
+      "routed": 52,
+      "failed": 0
+     },
+     {
+      "round": 2,
+      "pending": 0,
+      "gained": 0,
+      "routed": 52,
+      "failed": 0
+     }
+    ],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "7": {
+   "plane_id": 7,
+   "label": "L7",
+   "z_mm": -0.1,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 49,
+   "failed": 3,
+   "stats": {
+    "layer_id": 7,
+    "z_mm": -0.1,
+    "input": 52,
+    "attempted": 63,
+    "success": 49,
+    "failed": 3,
+    "seconds": 1.3873093128204346,
+    "families": {
+     "OPP_STRAIGHT": 8,
+     "OPP_SHORT_S": 26,
+     "OPP_Z": 20
+    },
+    "candidates_evaluated": 110,
+    "candidates_built": 1129,
+    "d56_evaluations": 2639,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 41,
+     "spacing": 12,
+     "outside_board": 1863,
+     "double_cross": 2,
+     "overlap": 1
+    },
+    "obstacle_samples_total": 58848,
+    "obstacle_samples_active": 55120,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [
+     {
+      "round": 1,
+      "pending": 3,
+      "gained": 0,
+      "routed": 49,
+      "failed": 3
+     }
+    ],
+    "frame_errors": {},
+    "pending_failures": {
+     "219": "candidate_budget_exhausted",
+     "220": "candidate_budget_exhausted",
+     "221": "candidate_budget_exhausted"
+    }
+   }
+  },
+  "20": {
+   "plane_id": 20,
+   "label": "L20",
+   "z_mm": -0.05,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 20,
+    "z_mm": -0.05,
+    "input": 52,
+    "attempted": 52,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.2335219383239746,
+    "families": {
+     "OPP_STRAIGHT": 4,
+     "OPP_SHORT_S": 36,
+     "OPP_Z": 12
+    },
+    "candidates_evaluated": 199,
+    "candidates_built": 2,
+    "d56_evaluations": 199,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 97,
+     "spacing": 50
+    },
+    "obstacle_samples_total": 86192,
+    "obstacle_samples_active": 84600,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "1001": {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "kind": "interface_body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 1001,
+    "z_mm": 0.0,
+    "input": 52,
+    "attempted": 52,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.20523667335510254,
+    "families": {
+     "OPP_STRAIGHT": 8,
+     "OPP_SHORT_S": 32,
+     "OPP_Z": 12
+    },
+    "candidates_evaluated": 200,
+    "candidates_built": 4,
+    "d56_evaluations": 200,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 126,
+     "spacing": 22
+    },
+    "obstacle_samples_total": 70904,
+    "obstacle_samples_active": 69232,
+    "initial_routes": 920,
+    "initial_routes_remapped": 52,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "8": {
+   "plane_id": 8,
+   "label": "L8",
+   "z_mm": 0.05,
+   "kind": "body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "stats": {
+    "layer_id": 8,
+    "z_mm": 0.05,
+    "input": 48,
+    "attempted": 48,
+    "success": 48,
+    "failed": 0,
+    "seconds": 0.17978239059448242,
+    "families": {
+     "OPP_STRAIGHT": 8,
+     "OPP_SHORT_S": 28,
+     "OPP_Z": 12
+    },
+    "candidates_evaluated": 196,
+    "candidates_built": 1,
+    "d56_evaluations": 196,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 129,
+     "spacing": 19
+    },
+    "obstacle_samples_total": 44864,
+    "obstacle_samples_active": 41056,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "9": {
+   "plane_id": 9,
+   "label": "L9",
+   "z_mm": 0.1,
+   "kind": "body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "stats": {
+    "layer_id": 9,
+    "z_mm": 0.1,
+    "input": 48,
+    "attempted": 48,
+    "success": 48,
+    "failed": 0,
+    "seconds": 0.06851458549499512,
+    "families": {
+     "ADJ_L": 48
+    },
+    "candidates_evaluated": 48,
+    "candidates_built": 1,
+    "d56_evaluations": 48,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {},
+    "obstacle_samples_total": 12096,
+    "obstacle_samples_active": 11392,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "10": {
+   "plane_id": 10,
+   "label": "L10",
+   "z_mm": 0.15,
+   "kind": "body",
+   "assigned": 16,
+   "routed": 16,
+   "failed": 0,
+   "stats": {
+    "layer_id": 10,
+    "z_mm": 0.15,
+    "input": 16,
+    "attempted": 16,
+    "success": 16,
+    "failed": 0,
+    "seconds": 0.045972347259521484,
+    "families": {
+     "U_QUARTER_PAIR": 16
+    },
+    "candidates_evaluated": 40,
+    "candidates_built": 4,
+    "d56_evaluations": 40,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 16,
+     "spacing": 8
+    },
+    "obstacle_samples_total": 12832,
+    "obstacle_samples_active": 12416,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "11": {
+   "plane_id": 11,
+   "label": "L11",
+   "z_mm": 0.2,
+   "kind": "body",
+   "assigned": 16,
+   "routed": 16,
+   "failed": 0,
+   "stats": {
+    "layer_id": 11,
+    "z_mm": 0.2,
+    "input": 16,
+    "attempted": 16,
+    "success": 16,
+    "failed": 0,
+    "seconds": 0.06765127182006836,
+    "families": {
+     "U_QUARTER_PAIR": 16
+    },
+    "candidates_evaluated": 40,
+    "candidates_built": 4,
+    "d56_evaluations": 40,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 8,
+     "tangent_touch": 16
+    },
+    "obstacle_samples_total": 14896,
+    "obstacle_samples_active": 14032,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "12": {
+   "plane_id": 12,
+   "label": "L12",
+   "z_mm": 0.25,
+   "kind": "body",
+   "assigned": 40,
+   "routed": 40,
+   "failed": 0,
+   "stats": {
+    "layer_id": 12,
+    "z_mm": 0.25,
+    "input": 40,
+    "attempted": 40,
+    "success": 40,
+    "failed": 0,
+    "seconds": 0.2515754699707031,
+    "families": {
+     "U_QUARTER_PAIR": 40
+    },
+    "candidates_evaluated": 420,
+    "candidates_built": 20,
+    "d56_evaluations": 420,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 130,
+     "tangent_touch": 250
+    },
+    "obstacle_samples_total": 19136,
+    "obstacle_samples_active": 18176,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "13": {
+   "plane_id": 13,
+   "label": "L13",
+   "z_mm": 0.3,
+   "kind": "body",
+   "assigned": 40,
+   "routed": 40,
+   "failed": 0,
+   "stats": {
+    "layer_id": 13,
+    "z_mm": 0.3,
+    "input": 40,
+    "attempted": 40,
+    "success": 40,
+    "failed": 0,
+    "seconds": 0.23896265029907227,
+    "families": {
+     "U_QUARTER_PAIR": 40
+    },
+    "candidates_evaluated": 420,
+    "candidates_built": 20,
+    "d56_evaluations": 420,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 130,
+     "tangent_touch": 250
+    },
+    "obstacle_samples_total": 25712,
+    "obstacle_samples_active": 24560,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "14": {
+   "plane_id": 14,
+   "label": "L14",
+   "z_mm": 0.35,
+   "kind": "body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "stats": {
+    "layer_id": 14,
+    "z_mm": 0.35,
+    "input": 48,
+    "attempted": 48,
+    "success": 48,
+    "failed": 0,
+    "seconds": 0.07850790023803711,
+    "families": {
+     "ADJ_L": 48
+    },
+    "candidates_evaluated": 48,
+    "candidates_built": 1,
+    "d56_evaluations": 48,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {},
+    "obstacle_samples_total": 32736,
+    "obstacle_samples_active": 31088,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "15": {
+   "plane_id": 15,
+   "label": "L15",
+   "z_mm": 0.4,
+   "kind": "body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "stats": {
+    "layer_id": 15,
+    "z_mm": 0.4,
+    "input": 48,
+    "attempted": 48,
+    "success": 48,
+    "failed": 0,
+    "seconds": 0.19080138206481934,
+    "families": {
+     "ADJ_L": 44,
+     "ADJ_TURN_SHIFT": 4
+    },
+    "candidates_evaluated": 52,
+    "candidates_built": 1,
+    "d56_evaluations": 52,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "double_cross": 4
+    },
+    "obstacle_samples_total": 43872,
+    "obstacle_samples_active": 41296,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "16": {
+   "plane_id": 16,
+   "label": "L16",
+   "z_mm": 0.45,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 16,
+    "z_mm": 0.45,
+    "input": 52,
+    "attempted": 52,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.21190333366394043,
+    "families": {
+     "ADJ_L": 50,
+     "ADJ_Z_TURN": 2
+    },
+    "candidates_evaluated": 56,
+    "candidates_built": 1,
+    "d56_evaluations": 56,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 4
+    },
+    "obstacle_samples_total": 74520,
+    "obstacle_samples_active": 72376,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "1002": {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "kind": "interface_body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "stats": {
+    "layer_id": 1002,
+    "z_mm": 0.5,
+    "input": 48,
+    "attempted": 48,
+    "success": 48,
+    "failed": 0,
+    "seconds": 0.06550741195678711,
+    "families": {
+     "ADJ_L": 48
+    },
+    "candidates_evaluated": 48,
+    "candidates_built": 1,
+    "d56_evaluations": 48,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {},
+    "obstacle_samples_total": 71904,
+    "obstacle_samples_active": 70232,
+    "initial_routes": 928,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "17": {
+   "plane_id": 17,
+   "label": "L17",
+   "z_mm": 0.55,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 17,
+    "z_mm": 0.55,
+    "input": 52,
+    "attempted": 52,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.3661196231842041,
+    "families": {
+     "ADJ_L": 38,
+     "ADJ_Z_TURN": 3,
+     "ADJ_UP_LOOP": 8,
+     "ADJ_DOWN_LOOP": 2,
+     "ADJ_TURN_SHIFT": 1
+    },
+    "candidates_evaluated": 560,
+    "candidates_built": 1,
+    "d56_evaluations": 560,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "overlap": 88,
+     "tangent_touch": 305,
+     "spacing": 106,
+     "double_cross": 9
+    },
+    "obstacle_samples_total": 57424,
+    "obstacle_samples_active": 54616,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "18": {
+   "plane_id": 18,
+   "label": "L18",
+   "z_mm": 0.6,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 18,
+    "z_mm": 0.6,
+    "input": 52,
+    "attempted": 52,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.29758501052856445,
+    "families": {
+     "ADJ_L": 37,
+     "ADJ_TURN_SHIFT": 3,
+     "ADJ_DOWN_LOOP": 4,
+     "ADJ_Z_TURN": 3,
+     "ADJ_UP_LOOP": 5
+    },
+    "candidates_evaluated": 369,
+    "candidates_built": 4,
+    "d56_evaluations": 369,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 211,
+     "double_cross": 10,
+     "spacing": 38,
+     "overlap": 58,
+     "outside_board": 6
+    },
+    "obstacle_samples_total": 22880,
+    "obstacle_samples_active": 21840,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "19": {
+   "plane_id": 19,
+   "label": "L19",
+   "z_mm": 0.65,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "stats": {
+    "layer_id": 19,
+    "z_mm": 0.65,
+    "input": 52,
+    "attempted": 52,
+    "success": 52,
+    "failed": 0,
+    "seconds": 0.17601633071899414,
+    "families": {
+     "ADJ_L": 52
+    },
+    "candidates_evaluated": 52,
+    "candidates_built": 1,
+    "d56_evaluations": 52,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {},
+    "obstacle_samples_total": 11856,
+    "obstacle_samples_active": 11232,
+    "initial_routes": 0,
+    "initial_routes_remapped": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  }
+ },
+ "elapsed_seconds": 6.87
+}

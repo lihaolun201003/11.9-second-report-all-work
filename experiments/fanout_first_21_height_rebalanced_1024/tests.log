@@ -1,0 +1,211 @@
+=== 21-routing-height experiment — reproducibility evidence ===
+generated_at: 2026-11-03T22:02:55
+python: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+project_root: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+new_run_dir: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024
+baseline_run_dir: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (READ-ONLY)
+
+The module self-tests below are regression evidence; the independent geometry authority is validation.json (validate21.py), which rebuilds a fresh l3d.world.World from layer_planes.json and re-checks every route.
+
+=== tests_data ===
+command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\tests_data.py
+cwd: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+returncode: 1
+seconds: 0.06
+Traceback (most recent call last):
+  File "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\tests_data.py", line 23, in <module>
+    from . import assign as A
+ImportError: attempted relative import with no known parent package
+
+=== tests_fanout ===
+command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\tests_fanout.py
+cwd: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+returncode: 0
+seconds: 91.17
+============================= test session starts =============================
+platform win32 -- Python 3.10.11, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+collecting ... collected 10 items
+
+four_side_1024/fanout1024/tests_fanout.py::test_candidate_transitions_geometry PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_candidate_transitions_rejects_short_leads_and_accepts_route_records PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_manual_experiment_b [experiment_B] groups: {'Z1-U1': 64, 'Z1-U2': 64, 'Z1-U3': 64, 'Z1-U4': 64, 'Z2-U1': 16, 'Z2-U2': 16, 'Z2-U3': 40, 'Z2-U4': 40}
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_all_1024_fanout [all-1024] success_routes= 1024 failures= 0 seconds= 12.745 lead_histogram= {0.25: 2048}
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_pair_distances_and_endpoint_coverage [pair-audit] transitions min sampled= 0.25 certified= 0.2 worst= (1, 'source', 2, 'source')
+[pair-audit] transition-vs-foreign-lead min sampled= 0.25 certified= 0.2 worst= (1, 'source', 2, 'source')
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_landings_and_layer_obstacles [layer_obstacles] counts= {2: 12928, 3: 25728, 4: 33280, 5: 43776, 6: 64896, 7: 105856, 8: 51296, 9: 17472, 10: 19168, 11: 19792, 12: 23456, 13: 30032, 14: 37952, 15: 50816, 16: 84416, 17: 60752, 18: 22048, 19: 11264} elapsed= 0.55 cached= 0.016
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_fixed_endpoints_are_immutable_and_repair_works PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_baseline_18layer_regression_against_saved_artifacts [baseline-regression] routes= 1024 transitions= 2048 lead_histogram= {'0.25/0.25': 1024} seconds= 13.152 post-fanout repair records excluded= [164, 165]
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_interface_direct_rows PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_reheight21_model_plane20_and_interface_plane [reheight21] plane20 z= -0.05 selected= 4 direct= 1
+PASSED
+
+======================== 10 passed in 90.89s (0:01:30) ========================
+
+=== tests_layer2d ===
+command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\tests_layer2d.py TestSyntheticClasses TestManualLayers TestOppositeAdjacentLayers TestInitialRoutesRepair TestMultiHeightLayerKeys
+cwd: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+returncode: 4294967295
+seconds: 55.66
+note: selected test classes: TestSyntheticClasses, TestManualLayers, TestOppositeAdjacentLayers, TestInitialRoutesRepair, TestMultiHeightLayerKeys; EXCLUDED heavy tests (owned by the layer2d task-7 run, see below): TestIntegration.test_all_layers_integration, Test21HeightRealArtifacts.test_all_21_planes_real
+test_adjacent (__main__.TestSyntheticClasses) ... ok
+test_opposite (__main__.TestSyntheticClasses) ... ok
+test_same_side_u (__main__.TestSyntheticClasses) ... ok
+test_all_manual_layers_routed (__main__.TestManualLayers) ... ok
+test_adjacent_50_routes (__main__.TestOppositeAdjacentLayers) ... ok
+test_opposite_128_routes (__main__.TestOppositeAdjacentLayers) ... ok
+test_repair_into_frozen_layout (__main__.TestInitialRoutesRepair) ... ok
+test_new_plane_ids_and_explicit_z (__main__.TestMultiHeightLayerKeys) ...
+
+=== tests_assign21 ===
+command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\reheight21\tests_assign21.py
+cwd: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+returncode: 1
+seconds: 0.06
+Traceback (most recent call last):
+  File "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\reheight21\tests_assign21.py", line 23, in <module>
+    from .. import common as C
+ImportError: attempted relative import with no known parent package
+
+=== tests_validate21 ===
+command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\reheight21\tests_validate21.py
+cwd: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+returncode: 0
+seconds: 0.17
+test_consistency_tests_all_pass_for_21h_model (__main__.TestConsistencyAndRegression) ... ok
+test_expected_transition_count_1848 (__main__.TestConsistencyAndRegression) ... ok
+test_regression_check_detects_stale_transition_count (__main__.TestConsistencyAndRegression) ... ok
+test_regression_check_matches_frozen_expectations (__main__.TestConsistencyAndRegression) ... ok
+test_distribution_helper (__main__.TestCrossings) ... ok
+test_interface_plane_merges_leads_and_direct_bodies (__main__.TestCrossings) ... ok
+test_legal_transverse_crossing_not_violation (__main__.TestCrossings) ... ok
+test_unknown_height_flagged_for_21h (__main__.TestCrossings) ... ok
+test_arc_radius_check_catches_non_r15 (__main__.TestDirectRoutes) ... ok
+test_n_transitions_must_be_zero (__main__.TestDirectRoutes) ... ok
+test_transition_part_forbidden (__main__.TestDirectRoutes) ... ok
+test_valid_direct_route (__main__.TestDirectRoutes) ... ok
+test_wrong_heading (__main__.TestDirectRoutes) ... ok
+test_wrong_interface_plane_layer (__main__.TestDirectRoutes) ... ok
+test_wrong_z (__main__.TestDirectRoutes) ... ok
+test_check_model_accepts_spec (__main__.TestModel) ... ok
+test_check_model_rejects_pitch (__main__.TestModel) ... ok
+test_check_model_rejects_wrong_z (__main__.TestModel) ... ok
+test_derive_baseline_model_18_planes (__main__.TestModel) ... ok
+test_layer_planes_loader_list_and_dict_schema (__main__.TestModel) ... ok
+test_layer_planes_missing (__main__.TestModel) ... ok
+test_spec_model_21_planes (__main__.TestModel) ... ok
+test_body_wrong_plane (__main__.TestNonDirectRoutes) ... ok
+test_body_wrong_z (__main__.TestNonDirectRoutes) ... ok
+test_missing_transition (__main__.TestNonDirectRoutes) ... ok
+test_negative_z_span_check (__main__.TestNonDirectRoutes) ... ok
+test_upward_transition_radius (__main__.TestNonDirectRoutes) ... ok
+test_valid_non_direct_route (__main__.TestNonDirectRoutes) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.039s
+
+OK
+
+=== tests_layer2d — full 21-plane real-artifact run (layer2d owner, task-7) ===
+path: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\scratch\fanout1024_layer2d\tests_final_task7.txt
+bytes: 1444
+sha256: e410cc353cec74aa630a989ee215fb9415152d8e5893202efb7168f44f672b67
+note: the two heavy tests excluded above are executed by the layer2d owner in task-7; their command/log is captured in the file above. The final routes themselves are independently re-verified by validate21 (validation.json).
+��. v e n v \ S c r i p t s \ p y t h o n . e x e   :   t e s t _ a l l _ 2 1 _ p l a n e s _ r e a l   ( _ _ m a i n _ _ . T e s t 2 1 H e i g h t R e a l A r t i f a c t s )   . . .   o k  
+ @b(WMOn  L�: 1   W[&{:   3 8 9  
+ +   . . .   b j e c t   N a m e ;   . v e n v \ S c r i p t s \ p y t h o n . e x e   f o u r _ s i d e _ 1 0 2 4 \ f a n o u t 1 0 2 4 \ t e s t s _   . . .  
+ +                                   ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  
+         +   C a t e g o r y I n f o                     :   N o t S p e c i f i e d :   ( t e s t _ a l l _ 2 1 _ p l a . . . t i f a c t s )   . . .   o k : S t r i n g )   [ ] ,   R e m o t e E x c e p t i o n  
+         +   F u l l y Q u a l i f i e d E r r o r I d   :   N a t i v e C o m m a n d E r r o r  
+    
+ t e s t _ r e p a i r _ i n t o _ f r o z e n _ l a y o u t   ( _ _ m a i n _ _ . T e s t I n i t i a l R o u t e s R e p a i r )   . . .   o k  
+ t e s t _ a l l _ l a y e r s _ i n t e g r a t i o n   ( _ _ m a i n _ _ . T e s t I n t e g r a t i o n )   . . .   o k  
+ t e s t _ i n t e r f a c e _ p l a n e s _ r o u t e _ a m o n g _ l e a d s   ( _ _ m a i n _ _ . T e s t I n t e r f a c e P l a n e R o u t i n g )   . . .   o k  
+ t e s t _ a l l _ m a n u a l _ l a y e r s _ r o u t e d   ( _ _ m a i n _ _ . T e s t M a n u a l L a y e r s )   . . .   o k  
+ 
+
+=== tests_plots21 ===
+exists: True
+note: plots21 is a separate deliverable (21 per-height images + comparison figures); its tests are not part of the geometry validation evidence and are not collected here.
+
+=== baseline_regression_18_layer ===
+command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.reheight21.validate21 --baseline-model --run-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 --out-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\scratch\fanout1024_report\reheight21_baseline_final --regression-expect-baseline --quiet
+returncode: 0
+seconds: 23.88
+
+
+--- baseline regression summary ---
+{
+ "ok": true,
+ "checks": [
+  {
+   "name": "routed",
+   "expected": 1024,
+   "actual": 1024,
+   "passed": true
+  },
+  {
+   "name": "failed",
+   "expected": 0,
+   "actual": 0,
+   "passed": true
+  },
+  {
+   "name": "direct_routes",
+   "expected": 0,
+   "actual": 0,
+   "passed": true
+  },
+  {
+   "name": "transitions",
+   "expected": 2048,
+   "actual": 2048,
+   "passed": true
+  },
+  {
+   "name": "same_plane_crossings",
+   "expected": 18108,
+   "actual": 18108,
+   "passed": true
+  },
+  {
+   "name": "crossings_z-0.11",
+   "expected": 5610,
+   "actual": 5610,
+   "passed": true
+  },
+  {
+   "name": "crossings_z-0.05",
+   "expected": 5284,
+   "actual": 5284,
+   "passed": true
+  },
+  {
+   "name": "min_3d_clearance_mm",
+   "expected": 0.149965866,
+   "actual": 0.149965866,
+   "passed": true
+  },
+  {
+   "name": "total_length_mm",
+   "expected": 156893.005,
+   "actual": 156893.004843646,
+   "passed": true
+  }
+ ]
+}
+validation_pass: True
+violations: 0
+crossings: 18108
+min_3d_clearance_mm: 0.149965866
+routes_sha256: f5e3ef84cc0dac2030c17215f5a3e90220fb0d75484eff5249a660ea1275a7f2
+
+=== end of reproducibility evidence ===
+total_seconds: 171.01
+

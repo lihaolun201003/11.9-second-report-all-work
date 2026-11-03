@@ -1,0 +1,109 @@
+{
+ "schema": "reheight21_experiment_A_summary_v1",
+ "experiment": "A",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
+ "baseline_run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
+ "assignment_rows": 1024,
+ "plane_count": 21,
+ "height_count": 21,
+ "min_pitch_mm": 0.04999999999999993,
+ "planes_used": 21,
+ "manual_routes": 368,
+ "manual_counts": {
+  "Z1-U1": 64,
+  "Z1-U2": 64,
+  "Z1-U3": 64,
+  "Z1-U4": 64,
+  "Z2-U4": 40,
+  "Z2-U3": 40,
+  "Z2-U2": 16,
+  "Z2-U1": 16
+ },
+ "role_counts": {
+  "z1_other": 256,
+  "z1_manual_u": 256,
+  "z2_other": 400,
+  "z2_manual_u": 112
+ },
+ "direction_counts": {
+  "down": 720,
+  "direct": 100,
+  "up": 204
+ },
+ "direct_routes": {
+  "total": 100,
+  "z1": 52,
+  "z2": 48,
+  "planes": [
+   1001,
+   1002
+  ]
+ },
+ "transition_routes": {
+  "routes": 924,
+  "endpoint_transitions": 1848
+ },
+ "plane_counts": {
+  "2": 64,
+  "3": 64,
+  "4": 64,
+  "5": 64,
+  "6": 52,
+  "7": 52,
+  "8": 48,
+  "9": 48,
+  "10": 16,
+  "11": 16,
+  "12": 40,
+  "13": 40,
+  "14": 48,
+  "15": 48,
+  "16": 52,
+  "17": 52,
+  "18": 52,
+  "19": 52,
+  "20": 52,
+  "1001": 52,
+  "1002": 48
+ },
+ "baseline": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\assignment_1024.csv",
+  "sha256": "4ad5af2d40cf37f5a379567453301bc392f04c0607ffaffacd6431a43602c064",
+  "rows": 1024,
+  "plane_counts": {
+   "2": 64,
+   "3": 64,
+   "4": 64,
+   "5": 64,
+   "6": 128,
+   "7": 128,
+   "8": 48,
+   "9": 48,
+   "10": 16,
+   "11": 16,
+   "12": 40,
+   "13": 40,
+   "14": 48,
+   "15": 52,
+   "16": 52,
+   "17": 52,
+   "18": 52,
+   "19": 48
+  }
+ },
+ "diff_summary": {
+  "changed_plane": 604,
+  "manual_unchanged": true
+ },
+ "validation_status": "passed",
+ "artifacts": {
+  "layer_planes": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\layer_planes.json",
+  "assignment": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\assignment_1024.csv",
+  "audit": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\assignment_audit.json",
+  "diff_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\assignment_diff_vs_baseline.json",
+  "diff_md": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\assignment_diff_vs_baseline.md",
+  "stack": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\physical_layer_stack.json",
+  "rules": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\process_rules.json",
+  "experiment_a": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024\\experiment_A"
+ }
+}

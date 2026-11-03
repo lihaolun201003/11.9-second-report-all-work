@@ -1,0 +1,22 @@
+﻿plane_id,label,z_mm,kind,role,role_detail,side,route_count,orbit_count,direct_count,down_count,up_count,manual_group,baseline_old_layers,assigned_ok
+2,L2,-0.35,body,z1_manual_u,Z1-U1,z1,64,32,0,64,0,Z1-U1,,True
+3,L3,-0.3,body,z1_manual_u,Z1-U2,z1,64,32,0,64,0,Z1-U2,,True
+4,L4,-0.25,body,z1_manual_u,Z1-U3,z1,64,32,0,64,0,Z1-U3,,True
+5,L5,-0.2,body,z1_manual_u,Z1-U4,z1,64,32,0,64,0,Z1-U4,,True
+6,L6,-0.15,body,z1_other,Z1 other opposite,z1,52,13,0,52,0,,L6:52,True
+7,L7,-0.1,body,z1_other,Z1 other opposite,z1,52,13,0,52,0,,L6:52,True
+20,L20,-0.05,body,z1_other,Z1 other opposite,z1,52,13,0,52,0,,"L6:24,L7:28",True
+1001,Z1_INTERFACE,0.0,interface_body,interface_direct,Z1 other opposite (direct 2D),z1,52,13,52,0,0,,L7:52,True
+8,L8,0.05,body,z1_other,Z1 other opposite,z1,48,12,0,0,48,,L7:48,True
+9,L9,0.1,body,z2_other,Z2 other adjacent,z2,48,12,0,48,0,,L8:48,True
+10,L10,0.15,body,z2_manual_u,Z2-U1,z2,16,8,0,16,0,Z2-U1,,True
+11,L11,0.2,body,z2_manual_u,Z2-U2,z2,16,8,0,16,0,Z2-U2,,True
+12,L12,0.25,body,z2_manual_u,Z2-U3,z2,40,20,0,40,0,Z2-U3,,True
+13,L13,0.3,body,z2_manual_u,Z2-U4,z2,40,20,0,40,0,Z2-U4,,True
+14,L14,0.35,body,z2_other,Z2 other adjacent,z2,48,12,0,48,0,,L9:48,True
+15,L15,0.4,body,z2_other,Z2 other adjacent,z2,48,12,0,48,0,,L14:48,True
+16,L16,0.45,body,z2_other,Z2 other adjacent,z2,52,13,0,52,0,,L15:52,True
+1002,Z2_INTERFACE,0.5,interface_body,interface_direct,Z2 other adjacent (direct 2D),z2,48,12,48,0,0,,L19:48,True
+17,L17,0.55,body,z2_other,Z2 other adjacent,z2,52,13,0,0,52,,L16:52,True
+18,L18,0.6,body,z2_other,Z2 other adjacent,z2,52,13,0,0,52,,L17:52,True
+19,L19,0.65,body,z2_other,Z2 other adjacent,z2,52,13,0,0,52,,L18:52,True

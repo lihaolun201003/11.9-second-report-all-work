@@ -1,0 +1,59 @@
+{
+ "model": "reheight21/SPEC.md",
+ "planes": {
+  "1001": {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "assigned": 52,
+   "routed": 52,
+   "failed": [],
+   "families": {
+    "OPP_Z": 12,
+    "OPP_SHORT_S": 32,
+    "OPP_STRAIGHT": 8
+   },
+   "seconds": 0.20783448219299316,
+   "frozen_leads": 920,
+   "obstacles": 70904,
+   "audit": {
+    "plane_id": 1001,
+    "z_mm": 0.0,
+    "routed": 52,
+    "assigned": 52,
+    "failed": 0,
+    "crossings": 892,
+    "crossing_pairs": 858,
+    "r15_errors": [],
+    "r15_ok": true
+   }
+  },
+  "1002": {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "assigned": 48,
+   "routed": 48,
+   "failed": [],
+   "families": {
+    "ADJ_L": 48
+   },
+   "seconds": 0.0610048770904541,
+   "frozen_leads": 928,
+   "obstacles": 71904,
+   "audit": {
+    "plane_id": 1002,
+    "z_mm": 0.5,
+    "routed": 48,
+    "assigned": 48,
+    "failed": 0,
+    "crossings": 60,
+    "crossing_pairs": 60,
+    "r15_errors": [],
+    "r15_ok": true
+   }
+  }
+ },
+ "total_assigned": 100,
+ "total_routed": 100
+}

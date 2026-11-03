@@ -1,0 +1,41 @@
+{
+ "schema": "fanout_experiment_summary_v1",
+ "experiment": "experiment_B",
+ "input_line_count": 1024,
+ "input_manual_routes": 368,
+ "attempted_routes": 1024,
+ "candidate_checks": 1024,
+ "success_routes": 1024,
+ "success_endpoints": 2048,
+ "direct_routes": 100,
+ "transition_routes": 924,
+ "transition_count": 1848,
+ "success_transition_endpoints": 1848,
+ "failure_count": 0,
+ "failure_reasons": {},
+ "transition_conflicts": 0,
+ "fixed_routes": 0,
+ "fixed_conflicts": 0,
+ "ripups": 0,
+ "r15_legal": true,
+ "min_radius_mm": 14.999999980101123,
+ "validation_pass": true,
+ "validation_checks": {
+  "transition_count_ok": true,
+  "all_transitions_geometrically_valid": true,
+  "endpoint_identity_ok": true,
+  "min_radius_ge_15": true,
+  "g1_continuity": true,
+  "glass_bounds_ok": true,
+  "pair_clearance_ok": true,
+  "fresh_world_ok": true,
+  "coverage_ok": true
+ },
+ "pair_clearance_ok": true,
+ "fresh_world_ok": true,
+ "lead_histogram": {
+  "0.25/0.25": 924
+ },
+ "seconds": 11.059,
+ "failed_route_ids": []
+}

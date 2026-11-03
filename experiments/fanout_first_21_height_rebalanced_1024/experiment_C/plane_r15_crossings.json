@@ -1,0 +1,233 @@
+[
+ {
+  "plane_id": 2,
+  "z_mm": -0.35,
+  "routed": 64,
+  "assigned": 64,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 3,
+  "z_mm": -0.3,
+  "routed": 64,
+  "assigned": 64,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 4,
+  "z_mm": -0.25,
+  "routed": 64,
+  "assigned": 64,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 5,
+  "z_mm": -0.2,
+  "routed": 64,
+  "assigned": 64,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 6,
+  "z_mm": -0.15,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 974,
+  "crossing_pairs": 873,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 7,
+  "z_mm": -0.1,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 928,
+  "crossing_pairs": 866,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 20,
+  "z_mm": -0.05,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 924,
+  "crossing_pairs": 878,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 1001,
+  "z_mm": 0.0,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 892,
+  "crossing_pairs": 858,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 8,
+  "z_mm": 0.05,
+  "routed": 48,
+  "assigned": 48,
+  "failed": 0,
+  "crossings": 738,
+  "crossing_pairs": 697,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 9,
+  "z_mm": 0.1,
+  "routed": 48,
+  "assigned": 48,
+  "failed": 0,
+  "crossings": 60,
+  "crossing_pairs": 60,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 10,
+  "z_mm": 0.15,
+  "routed": 16,
+  "assigned": 16,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 11,
+  "z_mm": 0.2,
+  "routed": 16,
+  "assigned": 16,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 12,
+  "z_mm": 0.25,
+  "routed": 40,
+  "assigned": 40,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 13,
+  "z_mm": 0.3,
+  "routed": 40,
+  "assigned": 40,
+  "failed": 0,
+  "crossings": 0,
+  "crossing_pairs": 0,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 14,
+  "z_mm": 0.35,
+  "routed": 48,
+  "assigned": 48,
+  "failed": 0,
+  "crossings": 60,
+  "crossing_pairs": 60,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 15,
+  "z_mm": 0.4,
+  "routed": 48,
+  "assigned": 48,
+  "failed": 0,
+  "crossings": 1240,
+  "crossing_pairs": 952,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 16,
+  "z_mm": 0.45,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 1478,
+  "crossing_pairs": 1131,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 1002,
+  "z_mm": 0.5,
+  "routed": 48,
+  "assigned": 48,
+  "failed": 0,
+  "crossings": 60,
+  "crossing_pairs": 60,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 17,
+  "z_mm": 0.55,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 1586,
+  "crossing_pairs": 1175,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 18,
+  "z_mm": 0.6,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 1468,
+  "crossing_pairs": 1095,
+  "r15_errors": [],
+  "r15_ok": true
+ },
+ {
+  "plane_id": 19,
+  "z_mm": 0.65,
+  "routed": 52,
+  "assigned": 52,
+  "failed": 0,
+  "crossings": 1440,
+  "crossing_pairs": 1102,
+  "r15_errors": [],
+  "r15_ok": true
+ }
+]

@@ -1,0 +1,485 @@
+{
+ "schema": "reheight21_archive_manifest_v1",
+ "experiment": "fanout_first_21_height_rebalanced_1024",
+ "generated_at": "2026-11-03T22:07:26",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
+ "archive_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\fanout_first_21_height_rebalanced_1024",
+ "repository": "lihaolun201003/11.9-second-report-all-work",
+ "file_count": 86,
+ "total_bytes": 25019016,
+ "files": [
+  {
+   "path": "README.md",
+   "bytes": 1537,
+   "sha256": "0bd7e3ae326acd60c503ae8783956a4ac378dd179f326bc75371069e7a0243b3"
+  },
+  {
+   "path": "assignment_1024.csv",
+   "bytes": 126652,
+   "sha256": "3a0f704e99a6d885a79318fbc2ac71f1fc1220af98fa193e8e9c81732e99e305"
+  },
+  {
+   "path": "assignment_audit.json",
+   "bytes": 38390,
+   "sha256": "ec3aaaccacf617b3576de7e37ad7253d65c4da1a8d86e0c8490caca50cec0fe8"
+  },
+  {
+   "path": "assignment_diff_vs_baseline.json",
+   "bytes": 432561,
+   "sha256": "da5a155db9d36482da44f1e4812c746f66b1d68e09e43a0b5d31a262f3f3c9d3"
+  },
+  {
+   "path": "assignment_diff_vs_baseline.md",
+   "bytes": 5089,
+   "sha256": "d561c3d4a9e98a2f543d092f0988e012c0f28b46d7357e6846c8909de53f1a06"
+  },
+  {
+   "path": "checkpoints/experiment_E_best.json",
+   "bytes": 57,
+   "sha256": "5045335ca32b2793728e94f9ae3409a920c36b276d04e5b8824e79d32fa08a37"
+  },
+  {
+   "path": "checkpoints/fanout_failures.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "checkpoints/stage_B_fanout.json",
+   "bytes": 295,
+   "sha256": "811b6b7e9d34c6f1bedecb1aa776492325e7ace7b516ed23e5f2367b888edb03"
+  },
+  {
+   "path": "checkpoints/stage_C_2d.json",
+   "bytes": 19999,
+   "sha256": "352b1fb56fbc9d1c673ef0874ce028d5520562482173aa62e6d83afbf87a82ff"
+  },
+  {
+   "path": "code/fanout1024/archive.py",
+   "bytes": 29349,
+   "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
+  },
+  {
+   "path": "code/fanout1024/assemble.py",
+   "bytes": 13258,
+   "sha256": "9f65f06c56a8f696b5f107f6e0f10d4f178440282b4027a3cdf662fd37c41f49"
+  },
+  {
+   "path": "code/fanout1024/common.py",
+   "bytes": 13699,
+   "sha256": "18a08917fdf4ded9d05fdfeae62168b3ebbe3d332685523d762fab00ef2db70d"
+  },
+  {
+   "path": "code/fanout1024/fanout.py",
+   "bytes": 96249,
+   "sha256": "e3156fe22be60beb63fa91abc3a0b38b97daa672e43b4011161b1065a6462465"
+  },
+  {
+   "path": "code/fanout1024/layer2d.py",
+   "bytes": 83671,
+   "sha256": "d0de64e35438861e393cd33e70367bbd9d84bfead065ba8646cbfde78a68e099"
+  },
+  {
+   "path": "code/fanout1024/report.py",
+   "bytes": 102145,
+   "sha256": "2cd230425925963fd1a724e3f6f9180dc5f6ad6444f6b71652532883c1992b14"
+  },
+  {
+   "path": "code/fanout1024/run_all.py",
+   "bytes": 74942,
+   "sha256": "c98ca4ac8341bb25c9e8fe411a3750585c93e256dc7b5b48d41d368258ee424e"
+  },
+  {
+   "path": "code/fanout1024/validate_final.py",
+   "bytes": 118953,
+   "sha256": "c71e82c138dd0ea69193b4d9a033ca7005a92290c81f0fa2a18a47f5d0cdfae8"
+  },
+  {
+   "path": "comparison.md",
+   "bytes": 7348,
+   "sha256": "5385ccbd25f12629e8022cfe8438ba79ff7a6263cd758fa3996140375534128c"
+  },
+  {
+   "path": "crossing_stats.json",
+   "bytes": 18237,
+   "sha256": "1d1d57075adb0f6ff915743196362b06fbbdd59f2cd16dae876fabd0553cc6c5"
+  },
+  {
+   "path": "experiment_A/audit.json",
+   "bytes": 29307,
+   "sha256": "45b42b14c823457d4a40ae7e770ca32359a1564586a47d4949a96e49fae9d296"
+  },
+  {
+   "path": "experiment_A/layer_audit.csv",
+   "bytes": 1689,
+   "sha256": "b980973a439525369fbdddae9e0350b1c005b11669fe1644bfc35d3cf111e8b4"
+  },
+  {
+   "path": "experiment_A/summary.json",
+   "bytes": 3615,
+   "sha256": "8e4dcf0f57f0526b520f8ba2122a761a05e1887b76715341462ffe70d60043c8"
+  },
+  {
+   "path": "experiment_A/validation_status.json",
+   "bytes": 9610,
+   "sha256": "95fd87a23ec479cb1f9b882b10cc51fdc0e886827ba1151067fdaae0129d5b9f"
+  },
+  {
+   "path": "experiment_B/failed_routes.json",
+   "bytes": 125,
+   "sha256": "b1a90522cba1867034bd559735304e9d436698da98aeb3f12fad98c00a15605f"
+  },
+  {
+   "path": "experiment_B/manual_group_summary.json",
+   "bytes": 20801,
+   "sha256": "213760dc62d9e62c0bb20190c2eb8595836f3d418109c01401be0b2f82beb46b"
+  },
+  {
+   "path": "experiment_B/per_group.json",
+   "bytes": 67680,
+   "sha256": "6d8512577132aa2e3572b7d89f37d48d9c202d2afda118e2522cabeb5c068b37"
+  },
+  {
+   "path": "experiment_B/summary.json",
+   "bytes": 1046,
+   "sha256": "de85258816781a9cc7e92f8be10f2a58fec9fe42b8cfdd8583b64be5874a4278"
+  },
+  {
+   "path": "experiment_C/experiment_c21_status.json",
+   "bytes": 3807,
+   "sha256": "590d3c774f7575f0b42ffe7535402d6a082580aaea42cf19b6d18b046a3f2bf3"
+  },
+  {
+   "path": "experiment_C/failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "experiment_C/interface_planes.json",
+   "bytes": 1115,
+   "sha256": "441cab2400b267abb8d7abbf12f746746b19f28cb4b71e2285b858b9b68c8a57"
+  },
+  {
+   "path": "experiment_C/layerwise_routes/routes.json",
+   "bytes": 1416465,
+   "sha256": "841ee3ce2f6dac50c1782ec0eb7d5047bd5433393666ea9500288fae9fac1a90"
+  },
+  {
+   "path": "experiment_C/per_layer.csv",
+   "bytes": 1609,
+   "sha256": "cde7f1bbde2991a3cfd606aa56d8e52d942a2c85564332b736e075edb472afa8"
+  },
+  {
+   "path": "experiment_C/plane_r15_crossings.json",
+   "bytes": 3810,
+   "sha256": "9efb32d013c9880e34a0d277eebcca18b905db5d9774a69b964f99c86a43d4ca"
+  },
+  {
+   "path": "experiment_C/summary.json",
+   "bytes": 5372,
+   "sha256": "be522e007f7c699410285745d6ad686c66097a8ada368347c16950d4225fec39"
+  },
+  {
+   "path": "experiment_C/validation_status.json",
+   "bytes": 208,
+   "sha256": "c45444e0b763b1632de520f5622460489ab1867c84187ac690e37020856390e8"
+  },
+  {
+   "path": "experiment_D/failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "experiment_D/summary.json",
+   "bytes": 468,
+   "sha256": "be7fe7744c0ba5095891c01a027d6d1c7f9cc1c4ffbb15dfe347b2a458f5d9ab"
+  },
+  {
+   "path": "experiment_E/failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "experiment_E/summary.json",
+   "bytes": 35428,
+   "sha256": "3cffadd31aa52a402fe3cbeee29d7edb25055be0d532f3f0f9304bbbe1a29738"
+  },
+  {
+   "path": "experiment_E/violations.json",
+   "bytes": 37,
+   "sha256": "ca10b93bf9c6d26898318a70087de726ce815902e6424731e67337cb87165df7"
+  },
+  {
+   "path": "failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "fanout_candidates.json",
+   "bytes": 325032,
+   "sha256": "b8e036fd2c65503ac5e0779d041294cf0681d4faab4204ad25b7708153971b76"
+  },
+  {
+   "path": "fanout_selected.json",
+   "bytes": 3871020,
+   "sha256": "921fd61a8bf65df7c84ead43352fa6e97cac94b270905229ed422c6b15df4155"
+  },
+  {
+   "path": "fanout_validation.json",
+   "bytes": 26409,
+   "sha256": "f3a9130d273df20b0ad7fd040dad5965c650ccf3087a8e67f1e413211c93ccd4"
+  },
+  {
+   "path": "final_stats.json",
+   "bytes": 597570,
+   "sha256": "9978dda286e10e76c7403b59eeaa2592f0ce3edfef83a07528da9ede2e6adfb8"
+  },
+  {
+   "path": "final_stats_run_all.json",
+   "bytes": 374646,
+   "sha256": "9c8059f27bf85f765c6aa67855144fa9687fc96e725daa239f070f3ff29ff8bd"
+  },
+  {
+   "path": "layer_planes.json",
+   "bytes": 7159,
+   "sha256": "b437ca794fda26a6ad7b68aab2152cb3127654b2f6c43d04867bd63782264001"
+  },
+  {
+   "path": "layerwise_endpoints/endpoints.json",
+   "bytes": 3120069,
+   "sha256": "ff0f0d90090a843386ba0b9b59d93522f10b6ab6b7138398de18bed27a514a5d"
+  },
+  {
+   "path": "layerwise_routes/routes.json",
+   "bytes": 1438372,
+   "sha256": "23c7d5adbf9ea9edbc598a53f08efbdb03f3d9d7d4c80f6841595d948145695e"
+  },
+  {
+   "path": "physical_layer_stack.json",
+   "bytes": 10725,
+   "sha256": "ed88d6aa74d84dcad02f5b3ac2f3174c9056d4d4c4c15ccd5639aedebc18e3e4"
+  },
+  {
+   "path": "plots/02_layer_stack_comparison.png",
+   "bytes": 289583,
+   "sha256": "6deb73201cf65fb226759d9511c9e24e96a58379df6c6bf5da9a00f903149257"
+  },
+  {
+   "path": "plots/03_z1_other_comparison.png",
+   "bytes": 805293,
+   "sha256": "d476dfd6983917c2002228b6a3ff17b6d59b1ce8eae415a963d3f44ddc30df20"
+  },
+  {
+   "path": "plots/04_crossings_per_plane.png",
+   "bytes": 119762,
+   "sha256": "c25a7d8c3b55a9285929293120e6bf376467de34cfa772dab6aa3e33fefb81e8"
+  },
+  {
+   "path": "plots/05_total_crossings.png",
+   "bytes": 137815,
+   "sha256": "f4f918f490fb48b4d1c0096456c5bb4c12699c0be31b90c5d00b38fc51a9bfd4"
+  },
+  {
+   "path": "plots/06_path_length_distribution.png",
+   "bytes": 117651,
+   "sha256": "3470b29a936ee3501705ada6b36699176209a566a0f0471b0bc1c8da492e6d6f"
+  },
+  {
+   "path": "plots/07_3d_all_routes.png",
+   "bytes": 2386264,
+   "sha256": "f4790ec6ddd7de5b17339dd086306fe53786c3555dc9febe3a2f2861541f0b4f"
+  },
+  {
+   "path": "plots/08_interface_direct_zoom.png",
+   "bytes": 354383,
+   "sha256": "e338569be06b4fa54dee564bf1b67b2088ee539cfff95004c2413c31f64a7b7b"
+  },
+  {
+   "path": "plots/per_height/01_L2_z-0.350.png",
+   "bytes": 309708,
+   "sha256": "cbfb03fe3a82e938f368fdc6515dcd89af417b9eb1d9ec65e31edfd531fb00a5"
+  },
+  {
+   "path": "plots/per_height/02_L3_z-0.300.png",
+   "bytes": 281427,
+   "sha256": "b53472f4ad1995519c3b97ec4a71d585398b3032ab412e1b88a12b6849c55102"
+  },
+  {
+   "path": "plots/per_height/03_L4_z-0.250.png",
+   "bytes": 280113,
+   "sha256": "2f69511d217a7daec6f98e9176e27e0c63773af787cfb9dd2bb38bc22e34cc74"
+  },
+  {
+   "path": "plots/per_height/04_L5_z-0.200.png",
+   "bytes": 274177,
+   "sha256": "78bdc51140f188f5313caf6faee2bc2cc259d29d84e553b4f7575cd2cb7a4122"
+  },
+  {
+   "path": "plots/per_height/05_L6_z-0.150.png",
+   "bytes": 258238,
+   "sha256": "890b71fcf41251b0a44cf23a53df298f259362ca07b215c23ad765d6ca04f45f"
+  },
+  {
+   "path": "plots/per_height/06_L7_z-0.100.png",
+   "bytes": 242568,
+   "sha256": "f33ab05c0f262125321ab04907b146ba474b49f9d2617b54d4384c8c42c321ec"
+  },
+  {
+   "path": "plots/per_height/07_L20_z-0.050.png",
+   "bytes": 278747,
+   "sha256": "f2f95cd55ae120ac324f05e1bcb1d36746b3281c41404cb45ff3f656f4cc0d9d"
+  },
+  {
+   "path": "plots/per_height/08_Z1_INTERFACE_z+0.000.png",
+   "bytes": 228725,
+   "sha256": "efaae42985263860b3b3071382bdc4992b5ced8ae6fc029cd9c8d5cddba118d5"
+  },
+  {
+   "path": "plots/per_height/09_L8_z+0.050.png",
+   "bytes": 212338,
+   "sha256": "10739258aef380fc6f874b08296beef3ba949672035f88bc0958a6f14c8b1661"
+  },
+  {
+   "path": "plots/per_height/10_L9_z+0.100.png",
+   "bytes": 145910,
+   "sha256": "ccdcb81ef93c955672521446a63899dbf0c916bf2fdee4919ea70af943385c49"
+  },
+  {
+   "path": "plots/per_height/11_L10_z+0.150.png",
+   "bytes": 114736,
+   "sha256": "9f9c90e3b2cd9ad7a46c12972e1dcc5bf8b59a74b710412891d29ce112eb994e"
+  },
+  {
+   "path": "plots/per_height/12_L11_z+0.200.png",
+   "bytes": 119509,
+   "sha256": "1d414ca9a06c4452ed580b217e785aa94bc88575d3bc721862ed221ae9061622"
+  },
+  {
+   "path": "plots/per_height/13_L12_z+0.250.png",
+   "bytes": 207756,
+   "sha256": "15ea370c5cd3e14ca8a41b8a7b0d9c36940925e7c08d85fce7699b03dd5a763b"
+  },
+  {
+   "path": "plots/per_height/14_L13_z+0.300.png",
+   "bytes": 211710,
+   "sha256": "2b6641c5ddbe318a8a2fbda1128bfb610b8274b7db87e68cd35c674a541190be"
+  },
+  {
+   "path": "plots/per_height/15_L14_z+0.350.png",
+   "bytes": 146350,
+   "sha256": "dd83f20da067638fafae4e28970f69643a98e61522de750e5c35cfdd88c9f4ca"
+  },
+  {
+   "path": "plots/per_height/16_L15_z+0.400.png",
+   "bytes": 181797,
+   "sha256": "4da6f142969f374464139486c73e5ad7ad5e890ed166aadabedea3758140c772"
+  },
+  {
+   "path": "plots/per_height/17_L16_z+0.450.png",
+   "bytes": 194609,
+   "sha256": "73487fd5653ee420c86acfc452f5bcb43ba47eae6e0572027c41e1ef915fff4d"
+  },
+  {
+   "path": "plots/per_height/18_Z2_INTERFACE_z+0.500.png",
+   "bytes": 171659,
+   "sha256": "5b83662acf5804e79d66e8186acae11f4e5fd4d0288efc2955588b30dfec8859"
+  },
+  {
+   "path": "plots/per_height/19_L17_z+0.550.png",
+   "bytes": 271303,
+   "sha256": "cbd2942e3dc1f71e6f96035a6c4f8cb9266d1fc923bcc33cc7086e01bc3bd2b4"
+  },
+  {
+   "path": "plots/per_height/20_L18_z+0.600.png",
+   "bytes": 236665,
+   "sha256": "2eb2f78c0aedcd37c28ca4c3585a41152acdae2ffb0e9d87a4dabd92f57e6e4f"
+  },
+  {
+   "path": "plots/per_height/21_L19_z+0.650.png",
+   "bytes": 188712,
+   "sha256": "c7c94ebabea1fdb094e2ad5d71f95509089d8fa9a12769a140a14c49500c8869"
+  },
+  {
+   "path": "plots/plots_manifest.json",
+   "bytes": 36217,
+   "sha256": "b63426cf5e9d4aa7bc5fc2cf199f578f13ac321ae90c25cecf9000419556e3ba"
+  },
+  {
+   "path": "process_rules.json",
+   "bytes": 2595,
+   "sha256": "01d3cfd73b6edb7b3297556a6ec79e0f529a9f127b850a1b8dfce2d800f765d8"
+  },
+  {
+   "path": "report.md",
+   "bytes": 19185,
+   "sha256": "82c276e123a37c057fcdd9956f75e155aee9191e437c5fe2986f2e5d3b6e74dd"
+  },
+  {
+   "path": "routes_l3d.json",
+   "bytes": 3532512,
+   "sha256": "1fe24c977c36c0b24692ee386213e6e870010ac1f0bed5c6b3a1eb4be53119d9"
+  },
+  {
+   "path": "run.log",
+   "bytes": 60981,
+   "sha256": "8d519bd00605d74820807079c6d30551e092081a7b826dafacb21cb2ac832ed2"
+  },
+  {
+   "path": "tests.log",
+   "bytes": 12357,
+   "sha256": "759cfb9028a96146e333b261f9bec14b824099c2926b450ae733035e6bd4c2ed"
+  },
+  {
+   "path": "validation.json",
+   "bytes": 29706,
+   "sha256": "eca0c0543c647cf1c12e6a4b0ded711bb3a3189dc633897767a7e394fbb2d23f"
+  },
+  {
+   "path": "validator_consistency_tests.json",
+   "bytes": 2155,
+   "sha256": "41d94cb215225624f5bf4f67105d2644ec2fab051057694b538ef9f146ce3f00"
+  }
+ ],
+ "code_snapshot": [
+  {
+   "path": "code/fanout1024/fanout.py",
+   "bytes": 96249,
+   "sha256": "e3156fe22be60beb63fa91abc3a0b38b97daa672e43b4011161b1065a6462465"
+  },
+  {
+   "path": "code/fanout1024/layer2d.py",
+   "bytes": 83671,
+   "sha256": "d0de64e35438861e393cd33e70367bbd9d84bfead065ba8646cbfde78a68e099"
+  },
+  {
+   "path": "code/fanout1024/assemble.py",
+   "bytes": 13258,
+   "sha256": "9f65f06c56a8f696b5f107f6e0f10d4f178440282b4027a3cdf662fd37c41f49"
+  },
+  {
+   "path": "code/fanout1024/common.py",
+   "bytes": 13699,
+   "sha256": "18a08917fdf4ded9d05fdfeae62168b3ebbe3d332685523d762fab00ef2db70d"
+  },
+  {
+   "path": "code/fanout1024/run_all.py",
+   "bytes": 74942,
+   "sha256": "c98ca4ac8341bb25c9e8fe411a3750585c93e256dc7b5b48d41d368258ee424e"
+  },
+  {
+   "path": "code/fanout1024/validate_final.py",
+   "bytes": 118953,
+   "sha256": "c71e82c138dd0ea69193b4d9a033ca7005a92290c81f0fa2a18a47f5d0cdfae8"
+  },
+  {
+   "path": "code/fanout1024/archive.py",
+   "bytes": 29349,
+   "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
+  },
+  {
+   "path": "code/fanout1024/report.py",
+   "bytes": 102145,
+   "sha256": "2cd230425925963fd1a724e3f6f9180dc5f6ad6444f6b71652532883c1992b14"
+  }
+ ],
+ "note": "21-routing-height experiment; the frozen 18-layer baseline RUN_DIR and its GitHub archive are not touched by this archive."
+}

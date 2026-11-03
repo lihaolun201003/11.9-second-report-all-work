@@ -1,0 +1,6 @@
+{
+ "schema": "fanout_experiment_failed_routes_v1",
+ "experiment": "experiment_B",
+ "failure_count": 0,
+ "failures": []
+}

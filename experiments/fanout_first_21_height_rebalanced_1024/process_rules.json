@@ -1,0 +1,73 @@
+{
+ "schema": "reheight21_process_rules_v1",
+ "mode": "corrected_50um",
+ "glass_thickness_mm": 1.0,
+ "glass_z_range_mm": [
+  -0.35,
+  0.65
+ ],
+ "z1_interface_mm": 0.0,
+ "z2_interface_mm": 0.5,
+ "min_layer_pitch_mm": 0.05,
+ "min_3d_clearance_mm": 0.05,
+ "same_layer_2d_clearance_mm": 0.08,
+ "same_layer_2d_rules": "original strict D56 index (width 0.05 + edge gap 0.03); legal transverse crossings preserved",
+ "min_bend_radius_mm": 15.0,
+ "transition_geometry": "two exact R=15 mm circular arcs in the vertical plane of the local inward direction (G1 S-curve)",
+ "different_physical_planes": "legal when |dz| >= 0.05 mm; XY overlap alone is not a violation",
+ "transition_vs_other": "true 3D centre-line distance must be >= 0.05 mm",
+ "explicitly_not_restored": {
+  "global_80um_clearance": false,
+  "note": "the unconfirmed 80 um global clearance is NEVER restored as a 3D rule; 0.08 mm only survives as the same-layer 2D centre-line rule of the original D56 geometry"
+ },
+ "unconfirmed": {
+  "optical_crosstalk": "not verified",
+  "fabrication_tolerance": "not verified",
+  "surface_process_margin": "not verified; the boundary waveguides only satisfy the current exploratory centre-line model"
+ },
+ "experiment": "FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
+ "model": "reheight21.model",
+ "interfaces": {
+  "z1": 0.0,
+  "z2": 0.5
+ },
+ "measured_min_height_pitch_mm": 0.04999999999999993,
+ "routing_plane_count": 21,
+ "plane_heights_mm": {
+  "2": -0.35,
+  "3": -0.3,
+  "4": -0.25,
+  "5": -0.2,
+  "6": -0.15,
+  "7": -0.1,
+  "20": -0.05,
+  "1001": 0.0,
+  "8": 0.05,
+  "9": 0.1,
+  "10": 0.15,
+  "11": 0.2,
+  "12": 0.25,
+  "13": 0.3,
+  "14": 0.35,
+  "15": 0.4,
+  "16": 0.45,
+  "1002": 0.5,
+  "17": 0.55,
+  "18": 0.6,
+  "19": 0.65
+ },
+ "interface_planes": {
+  "1001": {
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "plane": "z1"
+  },
+  "1002": {
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "plane": "z2"
+  }
+ },
+ "interface_body_routing_rule": "the Z1_INTERFACE (z=0.0) and Z2_INTERFACE (z=0.5) heights are routable 2D body planes in this experiment: a route whose target height equals its own interface height is DIRECT (0 transitions, no lead, no S-curve) and its body is a flat part at that height; it must pass the same strict D56 rule against every interface lead at the same height and true-3D >= 0.05 mm against every S-transition sample of other routes",
+ "baseline_process_rules_note": "baseline 18-layer values are inherited unchanged from common.process_rules_payload() except the documented 21-height overrides"
+}

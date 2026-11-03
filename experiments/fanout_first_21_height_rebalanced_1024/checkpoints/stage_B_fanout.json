@@ -1,0 +1,15 @@
+{
+ "selected_routes": 1024,
+ "failures": 0,
+ "validation": {
+  "ok": true,
+  "transition_count": 1848,
+  "direct_endpoints": 200,
+  "expected_transitions": 1848,
+  "expected_direct_endpoints": 200,
+  "violations": 0,
+  "violation_kinds": {},
+  "examples": []
+ },
+ "seconds": 21.8
+}

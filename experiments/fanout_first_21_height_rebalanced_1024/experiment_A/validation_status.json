@@ -1,0 +1,463 @@
+{
+ "schema": "reheight21_experiment_A_validation_v1",
+ "experiment": "A",
+ "status": "passed",
+ "checks_total": 33,
+ "checks_passed": 33,
+ "checks_failed": 0,
+ "failed_checks": [],
+ "checks": [
+  {
+   "id": "rows_1024",
+   "description": "exactly 1024 assignment rows",
+   "passed": true,
+   "detail": {
+    "rows": 1024
+   }
+  },
+  {
+   "id": "route_ids_complete_unique",
+   "description": "route ids == common.routes() ids, each exactly once",
+   "passed": true,
+   "detail": {
+    "unique": 1024,
+    "true_routes": 1024
+   }
+  },
+  {
+   "id": "plane_split_512_512",
+   "description": "512 z1 + 512 z2 routes",
+   "passed": true,
+   "detail": {
+    "z1": 512,
+    "z2": 512
+   }
+  },
+  {
+   "id": "manual_total_368",
+   "description": "368 manual routes (256 Z1 + 112 Z2)",
+   "passed": true,
+   "detail": {
+    "manual_rows": 368
+   }
+  },
+  {
+   "id": "manual_group_counts",
+   "description": "manual group counts 64/64/64/64 + 16/16/40/40",
+   "passed": true,
+   "detail": {
+    "Z1-U1": 64,
+    "Z1-U2": 64,
+    "Z1-U3": 64,
+    "Z1-U4": 64,
+    "Z2-U4": 40,
+    "Z2-U3": 40,
+    "Z2-U2": 16,
+    "Z2-U1": 16
+   }
+  },
+  {
+   "id": "manual_routes_fixed",
+   "description": "every manual route on its fixed model plane/z/pattern",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "manual_membership_matches_baseline",
+   "description": "manual route sets identical to the verified baseline assignment",
+   "passed": true,
+   "detail": {
+    "Z1-U1": {
+     "new": 64,
+     "baseline": 64,
+     "identical": true
+    },
+    "Z1-U2": {
+     "new": 64,
+     "baseline": 64,
+     "identical": true
+    },
+    "Z1-U3": {
+     "new": 64,
+     "baseline": 64,
+     "identical": true
+    },
+    "Z1-U4": {
+     "new": 64,
+     "baseline": 64,
+     "identical": true
+    },
+    "Z2-U1": {
+     "new": 16,
+     "baseline": 16,
+     "identical": true
+    },
+    "Z2-U2": {
+     "new": 16,
+     "baseline": 16,
+     "identical": true
+    },
+    "Z2-U3": {
+     "new": 40,
+     "baseline": 40,
+     "identical": true
+    },
+    "Z2-U4": {
+     "new": 40,
+     "baseline": 40,
+     "identical": true
+    }
+   }
+  },
+  {
+   "id": "manual_plane_ids_unchanged",
+   "description": "manual plane ids unchanged vs baseline (z values follow model)",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "id": "plane_counts_exact",
+   "description": "per-plane route counts exactly as SPEC section 2",
+   "passed": true,
+   "detail": {
+    "2": 64,
+    "3": 64,
+    "4": 64,
+    "5": 64,
+    "6": 52,
+    "7": 52,
+    "8": 48,
+    "9": 48,
+    "10": 16,
+    "11": 16,
+    "12": 40,
+    "13": 40,
+    "14": 48,
+    "15": 48,
+    "16": 52,
+    "17": 52,
+    "18": 52,
+    "19": 52,
+    "20": 52,
+    "1001": 52,
+    "1002": 48
+   }
+  },
+  {
+   "id": "z1_other_counts_52_52_52_52_48",
+   "description": "Z1 other 52/52/52/52/48 on planes 6/7/20/1001/8",
+   "passed": true,
+   "detail": {
+    "6": 52,
+    "7": 52,
+    "20": 52,
+    "1001": 52,
+    "8": 48
+   }
+  },
+  {
+   "id": "z2_other_counts_48_48_48_52_52_52_52_48",
+   "description": "Z2 other 48/48/48/52/52/52/52/48 via the old-layer mapping",
+   "passed": true,
+   "detail": {
+    "17": 52,
+    "18": 52,
+    "16": 52,
+    "19": 52,
+    "15": 48,
+    "1002": 48,
+    "14": 48,
+    "9": 48
+   }
+  },
+  {
+   "id": "direct_route_count_100",
+   "description": "100 direct routes: 52 Z1_INTERFACE + 48 Z2_INTERFACE",
+   "passed": true,
+   "detail": {
+    "total": 100,
+    "z1": 52,
+    "z2": 48
+   }
+  },
+  {
+   "id": "transition_routes_924_endpoints_1848",
+   "description": "924 routes with transitions -> 1848 endpoint transitions",
+   "passed": true,
+   "detail": {
+    "transition_routes": 924,
+    "endpoint_transitions": 1848
+   }
+  },
+  {
+   "id": "direct_planes_are_interfaces",
+   "description": "every direct route targets its own interface plane (1001/1002)",
+   "passed": true,
+   "detail": {
+    "direct_planes": [
+     1001,
+     1002
+    ]
+   }
+  },
+  {
+   "id": "all_21_planes_used",
+   "description": "all 21 routing heights used",
+   "passed": true,
+   "detail": {
+    "planes_used": 21
+   }
+  },
+  {
+   "id": "height_count_21_distinct",
+   "description": "21 distinct physical heights",
+   "passed": true,
+   "detail": {
+    "distinct_heights": [
+     -0.35,
+     -0.3,
+     -0.25,
+     -0.2,
+     -0.15,
+     -0.1,
+     -0.05,
+     0.0,
+     0.05,
+     0.1,
+     0.15,
+     0.2,
+     0.25,
+     0.3,
+     0.35,
+     0.4,
+     0.45,
+     0.5,
+     0.55,
+     0.6,
+     0.65
+    ]
+   }
+  },
+  {
+   "id": "min_pitch_ge_0.05",
+   "description": "minimum neighbour pitch >= 50 um",
+   "passed": true,
+   "detail": {
+    "measured": 0.04999999999999993,
+    "required": 0.05
+   }
+  },
+  {
+   "id": "target_z_matches_model",
+   "description": "target_z_mm equals model plane z",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "interface_z_matches_plane",
+   "description": "interface z is 0.0 (z1) / 0.5 (z2)",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "direction_rule",
+   "description": "direction is direct/down/up per the target z vs interface z",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "needs_transition_rule",
+   "description": "needs_transition == (target_z != own interface z)",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "target_plane_labels",
+   "description": "target_plane_label matches the model label",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "nonmanual_orbit_single_plane",
+   "description": "every non-manual C4 orbit keeps all 4 routes on one plane (164 orbits: 64 Z1 other + 100 Z2 other)",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "nonmanual_orbit_count_164",
+   "description": "64 Z1 opposite + 100 Z2 adjacent orbits",
+   "passed": true,
+   "detail": {
+    "non_manual_orbits": 164
+   }
+  },
+  {
+   "id": "z1_other_orbits_follow_plan",
+   "description": "Z1 other orbits sorted by group_id consume model.Z1_OTHER_PLAN",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "z2_other_orbits_follow_old_layer_map",
+   "description": "Z2 other whole orbits remapped by their baseline old target layer",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "manual_orbit_split_documented",
+   "description": "manual orbits split over the documented NS/EW plane pairs (32x{2,4}, 32x{3,5}, 8x{10,11}, 20x{12,13})",
+   "passed": true,
+   "detail": {
+    "2+4": 32,
+    "3+5": 32,
+    "12+13": 20,
+    "10+11": 8,
+    "expected": {
+     "2+4": 32,
+     "3+5": 32,
+     "10+11": 8,
+     "12+13": 20
+    }
+   }
+  },
+  {
+   "id": "port_pairs_identical_to_true_routes",
+   "description": "endpoint ids / sides / connectors / xy identical to common.routes()",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "c4_group_and_phase_match",
+   "description": "c4_group_id/rotation_phase match common.rotation_groups()",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "baseline_old_layer_field",
+   "description": "baseline_old_layer is the baseline target layer ('' for manual)",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "id": "baseline_old_layer_counts",
+   "description": "baseline Z2 other old-layer counts 48/48/48/52/52/52/52/48",
+   "passed": true,
+   "detail": {
+    "8": 48,
+    "9": 48,
+    "14": 48,
+    "15": 52,
+    "16": 52,
+    "17": 52,
+    "18": 52,
+    "19": 48
+   }
+  },
+  {
+   "id": "baseline_assignment_read_ok",
+   "description": "baseline assignment read-only cross-check (1024 rows, 512/512)",
+   "passed": true,
+   "detail": {
+    "rows": 1024,
+    "planes": {
+     "z1": 512,
+     "z2": 512
+    },
+    "manual_counts": {
+     "Z1-U1": 64,
+     "Z1-U2": 64,
+     "Z1-U3": 64,
+     "Z1-U4": 64,
+     "Z2-U4": 40,
+     "Z2-U3": 40,
+     "Z2-U2": 16,
+     "Z2-U1": 16
+    }
+   }
+  },
+  {
+   "id": "deterministic_rebuild",
+   "description": "two consecutive builds are identical",
+   "passed": true,
+   "detail": null
+  }
+ ],
+ "stage_summary": {
+  "stage": "experiment_A",
+  "input_line_count": {
+   "true_routes": 1024,
+   "baseline_assignment_rows": 1024
+  },
+  "attempted": {
+   "assignment_rows": 1024
+  },
+  "success": {
+   "assignment_rows": 1024,
+   "invariants_passed": 33
+  },
+  "failures": {
+   "invariant_failures": 0
+  },
+  "failure_reasons": {},
+  "validation_status": "passed"
+ },
+ "assignment_verdict": {
+  "rows": 1024,
+  "plane_count": 21,
+  "height_count": 21,
+  "min_pitch_mm": 0.04999999999999993,
+  "plane_counts": {
+   "2": 64,
+   "3": 64,
+   "4": 64,
+   "5": 64,
+   "6": 52,
+   "7": 52,
+   "8": 48,
+   "9": 48,
+   "10": 16,
+   "11": 16,
+   "12": 40,
+   "13": 40,
+   "14": 48,
+   "15": 48,
+   "16": 52,
+   "17": 52,
+   "18": 52,
+   "19": 52,
+   "20": 52,
+   "1001": 52,
+   "1002": 48
+  },
+  "manual_counts": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64,
+   "Z2-U4": 40,
+   "Z2-U3": 40,
+   "Z2-U2": 16,
+   "Z2-U1": 16
+  },
+  "direct_routes": {
+   "total": 100,
+   "z1": 52,
+   "z2": 48,
+   "planes": [
+    1001,
+    1002
+   ]
+  },
+  "transition_routes": {
+   "routes": 924,
+   "endpoint_transitions": 1848
+  },
+  "all_invariants_passed": true
+ },
+ "assignment_ready_for_stage_B": true,
+ "baseline_untouched": true,
+ "notes": [
+  "nothing is counted as passed unless the check is evaluated",
+  "the baseline RUN_DIR is read-only and never written"
+ ]
+}

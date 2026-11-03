@@ -1,0 +1,16 @@
+{
+ "schema": "reheight21_experiment_d_v1",
+ "experiment": "D",
+ "stage": "final_full_3d_assembly_and_world_check",
+ "input_routes": 1024,
+ "assembled": 1024,
+ "world_valid": 1024,
+ "failed": 0,
+ "assembly_failures": 0,
+ "world_violations": 0,
+ "violation_kinds": {},
+ "failure_reasons": {},
+ "direct_routes": 100,
+ "transition_count": 1848,
+ "note": "final accepted assembly after joint repair; identical route set to routes_l3d.json and experiment_E"
+}
