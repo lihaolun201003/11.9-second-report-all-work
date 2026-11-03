@@ -1,0 +1,57 @@
+{
+ "routed": 726,
+ "failed": 298,
+ "z1_routed": 395,
+ "z2_routed": 331,
+ "manual_u_routed": 726,
+ "validation_status": "invalid_stack",
+ "validation_counts": {
+  "violations": 11777,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 11777,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "geometry_pass": false,
+ "min_3d_clearance_mm": 0.088451657,
+ "total_length_mm": 107091.0155,
+ "total_transitions": 1356,
+ "crossings": {
+  "unique": 9952,
+  "by_plane": {
+   "z1xz1": 1962,
+   "z2xz2": 7990
+  }
+ },
+ "failed_reasons": {
+  "world:flat_vs_transition": 148,
+  "lift_route_none": 10,
+  "world:transition_vs_flat": 67,
+  "same_plane:flat_same_plane_conflict": 33,
+  "not_attempted": 1,
+  "world:transition_vs_transition": 4,
+  "no_2d_geometry": 32,
+  "no_transition_window": 3
+ },
+ "process_rules": {
+  "schema": "glass_1mm_process_rules_v1",
+  "mode": "corrected_50um",
+  "glass_thickness_mm": 1.0,
+  "z1_interface_mm": 0.0,
+  "z2_interface_mm": 0.5,
+  "min_layer_pitch_mm": 0.05,
+  "min_3d_clearance_mm": 0.05,
+  "legacy_global_clearance_mm": 0.08,
+  "rules": {
+   "different_physical_planes": "legal when |dz| >= 0.05 mm; XY overlap does not make it illegal by itself",
+   "same_physical_plane": "existing 2D D56/controlled-crossing rules are unchanged; this is a same-layer geometry rule, not the global 80 um rule",
+   "transition_vs_other": "true 3D centre-line distance must be >= 0.05 mm; a transition may not pass through another waveguide",
+   "layer_stack": "every routing plane and interface plane must be at least 0.05 mm from its neighbours",
+   "not_confirmed": "optical crosstalk, fabrication tolerance and an 80 um global clearance are not confirmed process requirements"
+  }
+ }
+}

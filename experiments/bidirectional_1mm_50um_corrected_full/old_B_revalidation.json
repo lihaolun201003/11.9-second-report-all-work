@@ -1,0 +1,16 @@
+{
+ "old_80um_violations": 388276,
+ "new_50um_violations": 11777,
+ "eliminated": 376499,
+ "remaining_kinds": {
+  "flat_cross_plane_too_close": 300
+ },
+ "layer_stack_errors": [
+  "physical_planes_too_close:L1_row_z2=0.5,L16=0.48,gap=0.02<0.05",
+  "physical_planes_too_close:L1_row_z2=0.5,L17=0.53,gap=0.03<0.05"
+ ],
+ "routed": 726,
+ "z1": 395,
+ "z2": 331,
+ "min_3d_clearance": 0.088451657
+}
