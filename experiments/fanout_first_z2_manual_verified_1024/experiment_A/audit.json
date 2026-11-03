@@ -1,0 +1,736 @@
+{
+ "schema": "fanout_first_experiment_A_audit_v1",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
+ "data_audit_questions": [
+  {
+   "id": "Q1_excel_raw_rows",
+   "question": "Excel 原始数据行数是多少？",
+   "answer": "112 data rows in one sheet (26 columns).",
+   "evidence": {
+    "data_rows": 112,
+    "sheet_names": [
+     "Z2人工U_具体端口分组_L10-L13_源数据待校验"
+    ],
+    "column_count": 26
+   }
+  },
+  {
+   "id": "Q2_excel_rows_that_are_z1_data",
+   "question": "Excel 中有多少行实际上是 Z1 数据？",
+   "answer": "all 112 Excel rows are raw Z1-plane-numbered data: every row has layer==\"z1\", actual_source_layer==\"z1\", every one of the 224 endpoint port ids carries plane index 1, and all route ids are Z1 route-id numbers (<=512)",
+   "evidence": {
+    "excel_rows": 112,
+    "rows_marked_layer_z1": 112,
+    "rows_with_all_port_plane_index_1": 112,
+    "rows_actual_source_layer_z1": 112,
+    "rows_route_id_in_z1_range": 112,
+    "answer": "all 112 Excel rows are raw Z1-plane-numbered data: every row has layer==\"z1\", actual_source_layer==\"z1\", every one of the 224 endpoint port ids carries plane index 1, and all route ids are Z1 route-id numbers (<=512)"
+   }
+  },
+  {
+   "id": "Q3_z2_connections_satisfying_template",
+   "question": "512 条真实 Z2 连接中有多少条符合人工 U 型模板？",
+   "answer": "112 of the 512 true Z2 connections satisfy the manual-U connector template (same side + template connector pair + plane z2); they are exactly the 112 z2 same-relation routes",
+   "evidence": {
+    "true_z2_connections": 512,
+    "z2_same_routes": 112,
+    "satisfying_manual_template": 112,
+    "satisfying_manual_template_same": 112,
+    "z2_same_routes_outside_template": [],
+    "answer": "112 of the 512 true Z2 connections satisfy the manual-U connector template (same side + template connector pair + plane z2); they are exactly the 112 z2 same-relation routes"
+   }
+  },
+  {
+   "id": "Q4_per_group_totals",
+   "question": "各个分组的总数是多少？",
+   "answer": "Z2: Z2-U1=16, Z2-U2=16, Z2-U3=40, Z2-U4=40.  Z1: Z1-U1=Z1-U2=Z1-U3=Z1-U4=64.",
+   "evidence": {
+    "z2": {
+     "Z2-U1": 16,
+     "Z2-U2": 16,
+     "Z2-U3": 40,
+     "Z2-U4": 40
+    },
+    "z1": {
+     "Z1-U1": 64,
+     "Z1-U2": 64,
+     "Z1-U3": 64,
+     "Z1-U4": 64
+    }
+   }
+  },
+  {
+   "id": "Q5_duplicate_route_ids",
+   "question": "是否存在重复的 route id？",
+   "answer": "no duplicate route ids in the Excel and no duplicate real Z2 route ids among the 112 confirmed rows",
+   "evidence": {
+    "duplicate_excel_route_ids": [],
+    "duplicate_matched_route_ids": [],
+    "count": 0,
+    "answer": "no duplicate route ids in the Excel and no duplicate real Z2 route ids among the 112 confirmed rows"
+   }
+  },
+  {
+   "id": "Q6_routes_in_two_groups",
+   "question": "是否存在同时属于两个分组的连接？",
+   "answer": "no route is assigned to two manual groups; the z1 manual route ids (1..512) and the z2 manual route ids (513..1024) are disjoint",
+   "evidence": {
+    "route_ids": [],
+    "count": 0,
+    "z1_manual_route_ids": 256,
+    "z2_manual_route_ids": 112,
+    "z1_z2_id_disjoint": true,
+    "answer": "no route is assigned to two manual groups; the z1 manual route ids (1..512) and the z2 manual route ids (513..1024) are disjoint"
+   }
+  },
+  {
+   "id": "Q7_template_pairs_without_real_route",
+   "question": "是否有模板端口对在真实 Z2 数据中没有对应连接？",
+   "answer": "every connector-number template pair is realised by at least one true Z2 route in both direction sides (no missing template pair)",
+   "evidence": {
+    "pairs": [],
+    "coverage": {
+     "Z2-U1": {
+      "N:01-08": 1,
+      "N:02-08": 1,
+      "N:02-07": 1,
+      "N:03-07": 1,
+      "N:09-16": 1,
+      "N:09-15": 1,
+      "N:10-15": 1,
+      "N:10-14": 1,
+      "S:01-08": 1,
+      "S:02-08": 1,
+      "S:02-07": 1,
+      "S:03-07": 1,
+      "S:09-16": 1,
+      "S:09-15": 1,
+      "S:10-15": 1,
+      "S:10-14": 1
+     },
+     "Z2-U2": {
+      "E:01-08": 1,
+      "E:02-08": 1,
+      "E:02-07": 1,
+      "E:03-07": 1,
+      "E:09-16": 1,
+      "E:09-15": 1,
+      "E:10-15": 1,
+      "E:10-14": 1,
+      "W:01-08": 1,
+      "W:02-08": 1,
+      "W:02-07": 1,
+      "W:03-07": 1,
+      "W:09-16": 1,
+      "W:09-15": 1,
+      "W:10-15": 1,
+      "W:10-14": 1
+     },
+     "Z2-U3": {
+      "N:01-16": 7,
+      "N:02-15": 6,
+      "N:03-14": 1,
+      "N:04-13": 2,
+      "N:05-12": 2,
+      "N:06-11": 2,
+      "S:01-16": 7,
+      "S:02-15": 6,
+      "S:03-14": 1,
+      "S:04-13": 2,
+      "S:05-12": 2,
+      "S:06-11": 2
+     },
+     "Z2-U4": {
+      "E:01-16": 7,
+      "E:02-15": 6,
+      "E:03-14": 1,
+      "E:04-13": 2,
+      "E:05-12": 2,
+      "E:06-11": 2,
+      "W:01-16": 7,
+      "W:02-15": 6,
+      "W:03-14": 1,
+      "W:04-13": 2,
+      "W:05-12": 2,
+      "W:06-11": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "Q8_coordinate_availability",
+   "question": "确认的每条连接是否都有真实坐标？",
+   "answer": "every confirmed route has real board coordinates: both endpoints of all 112 matched routes exist in the 2048-port table with finite routing_xy",
+   "evidence": {
+    "confirmed_routes": 112,
+    "routes_with_all_coordinates": 112,
+    "missing_route_ids": [],
+    "endpoint_table": "four_side_1024.v3c4.inputs.ENDPOINTS (2048 physical ports with routing_xy)",
+    "answer": "every confirmed route has real board coordinates: both endpoints of all 112 matched routes exist in the 2048-port table with finite routing_xy"
+   }
+  },
+  {
+   "id": "Q9_claim_112_confirmed",
+   "question": "112 条 Z2 人工 U 的结论是否得到确认？",
+   "answer": "CONFIRMED: 112/112 Excel rows independently match exactly one true z2 same route (16/16/40/40)",
+   "evidence": {
+    "claimed": 112,
+    "independently_reproduced": 112,
+    "confirmed": true,
+    "per_group": {
+     "Z2-U1": 16,
+     "Z2-U2": 16,
+     "Z2-U3": 40,
+     "Z2-U4": 40
+    },
+    "answer": "CONFIRMED: 112/112 Excel rows independently match exactly one true z2 same route (16/16/40/40)"
+   }
+  }
+ ],
+ "z1_manual_u_truth": {
+  "routes": 256,
+  "per_group": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64
+  },
+  "group_to_layer": {
+   "Z1-U1": {
+    "layer": 2,
+    "z_mm": -0.35,
+    "pattern": "NS-first",
+    "numbering": "first"
+   },
+   "Z1-U2": {
+    "layer": 3,
+    "z_mm": -0.29,
+    "pattern": "NS-second",
+    "numbering": "second"
+   },
+   "Z1-U3": {
+    "layer": 4,
+    "z_mm": -0.23,
+    "pattern": "EW-first",
+    "numbering": "first"
+   },
+   "Z1-U4": {
+    "layer": 5,
+    "z_mm": -0.17,
+    "pattern": "EW-second",
+    "numbering": "second"
+   }
+  },
+  "per_group_side_counts": {
+   "Z1-U1:N": 32,
+   "Z1-U1:S": 32,
+   "Z1-U2:N": 32,
+   "Z1-U2:S": 32,
+   "Z1-U3:E": 32,
+   "Z1-U3:W": 32,
+   "Z1-U4:E": 32,
+   "Z1-U4:W": 32
+  },
+  "per_group_pair_counts": {
+   "Z1-U1": {
+    "02-15": 16,
+    "04-13": 16,
+    "05-12": 16,
+    "06-11": 16
+   },
+   "Z1-U2": {
+    "03-07": 16,
+    "01-08": 16,
+    "09-16": 16,
+    "10-14": 16
+   },
+   "Z1-U3": {
+    "02-15": 16,
+    "04-13": 16,
+    "05-12": 16,
+    "06-11": 16
+   },
+   "Z1-U4": {
+    "03-07": 16,
+    "10-14": 16,
+    "01-08": 16,
+    "09-16": 16
+   }
+  },
+  "all_true_z1_same": true,
+  "missing_true_routes": [],
+  "orbit_structure": {
+   "z1_same_orbits": 64,
+   "covered_orbits": 64,
+   "orbit_group_composition": {
+    "Z1-U1,Z1-U1,Z1-U3,Z1-U3": 32,
+    "Z1-U2,Z1-U2,Z1-U4,Z1-U4": 32
+   }
+  },
+  "prior_assignment_reference": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_20L_FIXED_ASSIGNMENT_FULL\\assignment_1024.json",
+   "available": true,
+   "total_rows": 1024,
+   "manual_rows": 256
+  },
+  "user_640_csv_reference": {
+   "glob": "**/z1_z2_manual_u_assignment_v2_640.csv",
+   "available": true,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\人工分组\\z1_z2_manual_u_assignment_v2_640.csv",
+   "sha256": "b7480575f245583b83911e8c80a0bd5ce11acb71e5e241366c7bfe2968fe19ae",
+   "rows": 640
+  },
+  "prior_vs_user_640_mismatches": [],
+  "crosscheck_agreement": true,
+  "all_routes_have_coordinates": true
+ },
+ "z2_manual_u_truth": {
+  "excel_rows": 112,
+  "matched_rows": 112,
+  "unmatched_rows": 0,
+  "conflict_rows": 0,
+  "per_group": {
+   "Z2-U1": 16,
+   "Z2-U2": 16,
+   "Z2-U3": 40,
+   "Z2-U4": 40
+  },
+  "true_z2_same_routes": 112,
+  "true_z2_same_routes_not_matched": [],
+  "template_group_agreement": 112,
+  "orbit_structure": {
+   "z2_same_orbits": 28,
+   "covered_orbits": 28,
+   "orbit_group_composition": {
+    "Z2-U3,Z2-U3,Z2-U4,Z2-U4": 20,
+    "Z2-U1,Z2-U1,Z2-U2,Z2-U2": 8
+   },
+   "orbit_side_composition": {
+    "EE,NN,SS,WW": 28
+   }
+  },
+  "all_confirmed_routes_have_coordinates": true
+ },
+ "route_id_authority": {
+  "excel_route_id_count": 112,
+  "unique_excel_route_ids": 112,
+  "duplicate_route_ids": [],
+  "all_excel_ids_in_true_z1_id_range": true,
+  "excel_route_id_min": 65,
+  "excel_route_id_max": 512,
+  "exact_endpoint_pair_agreement_with_true_route_of_same_id": 0,
+  "true_relation_of_same_id_routes": {
+   "same": 64,
+   "opposite": 48
+  },
+  "conclusion": "route_id is NOT authoritative: the Excel route ids are Z1 route-id numbers and 0/112 agree with the true route of that id"
+ },
+ "z1_plane_copy_evidence": {
+  "port_ids_with_plane_index_1": 224,
+  "port_ids_with_plane_index_2": 0,
+  "rows_with_all_ports_on_plane_index_1": 112,
+  "literal_plane1_unordered_pair_matches_true_z1_same": 48,
+  "literal_plane1_unordered_pair_matches_true_z1_other": 0,
+  "literal_plane1_unordered_pair_matches_true_z2": 0,
+  "plane2_corrected_matches_true_z2_same": 112,
+  "plane2_corrected_matches_true_z1_any": 0,
+  "literal_z1_same_hits_by_excel_group": {
+   "Z2-U3": 24,
+   "Z2-U4": 24
+  },
+  "note": "The Excel is Z1-plane-numbered data (plane index 1 everywhere). Correcting only the interface plane index 1 -> 2 maps all 112 rows onto true Z2 same-side connections.  The 48 literal plane-1 coincidences with true Z1 same routes are connector/column pattern overlaps between the two interface planes (the same board XY footprint exists at z=0 and z=0.5); they are NOT the intended Z2 manual-U connections and are not used."
+ },
+ "assignment": {
+  "rows": 1024,
+  "z1": 512,
+  "z2": 512,
+  "manual_counts": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64,
+   "Z2-U4": 40,
+   "Z2-U3": 40,
+   "Z2-U2": 16,
+   "Z2-U1": 16
+  },
+  "layer_role_counts": {
+   "z1_other": 256,
+   "z1_manual_u": 256,
+   "z2_other": 400,
+   "z2_manual_u": 112
+  },
+  "physical_layer_counts": {
+   "2": 64,
+   "3": 64,
+   "4": 64,
+   "5": 64,
+   "6": 128,
+   "7": 128,
+   "8": 48,
+   "9": 48,
+   "10": 16,
+   "11": 16,
+   "12": 40,
+   "13": 40,
+   "14": 48,
+   "15": 52,
+   "16": 52,
+   "17": 52,
+   "18": 52,
+   "19": 48
+  },
+  "physical_layer_orbit_counts": {
+   "2": 32,
+   "3": 32,
+   "4": 32,
+   "5": 32,
+   "6": 32,
+   "7": 32,
+   "8": 12,
+   "9": 12,
+   "10": 8,
+   "11": 8,
+   "12": 20,
+   "13": 20,
+   "14": 12,
+   "15": 13,
+   "16": 13,
+   "17": 13,
+   "18": 13,
+   "19": 12
+  },
+  "orbit_allocations": {
+   "z1_opposite": {
+    "6": {
+     "planned_orbits": 32,
+     "actual_orbits": 32,
+     "routes": 128,
+     "target_z_mm": -0.11,
+     "direction": "down",
+     "orbit_group_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      94,
+      95,
+      96
+     ]
+    },
+    "7": {
+     "planned_orbits": 32,
+     "actual_orbits": 32,
+     "routes": 128,
+     "target_z_mm": -0.05,
+     "direction": "down",
+     "orbit_group_ids": [
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128
+     ]
+    }
+   },
+   "z2_adjacent": {
+    "16": {
+     "planned_orbits": 13,
+     "actual_orbits": 13,
+     "routes": 52,
+     "target_z_mm": 0.45,
+     "direction": "down",
+     "orbit_group_ids": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141
+     ]
+    },
+    "17": {
+     "planned_orbits": 13,
+     "actual_orbits": 13,
+     "routes": 52,
+     "target_z_mm": 0.55,
+     "direction": "up",
+     "orbit_group_ids": [
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+     ]
+    },
+    "15": {
+     "planned_orbits": 13,
+     "actual_orbits": 13,
+     "routes": 52,
+     "target_z_mm": 0.4,
+     "direction": "down",
+     "orbit_group_ids": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167
+     ]
+    },
+    "18": {
+     "planned_orbits": 13,
+     "actual_orbits": 13,
+     "routes": 52,
+     "target_z_mm": 0.6,
+     "direction": "up",
+     "orbit_group_ids": [
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180
+     ]
+    },
+    "14": {
+     "planned_orbits": 12,
+     "actual_orbits": 12,
+     "routes": 48,
+     "target_z_mm": 0.35,
+     "direction": "down",
+     "orbit_group_ids": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192
+     ]
+    },
+    "19": {
+     "planned_orbits": 12,
+     "actual_orbits": 12,
+     "routes": 48,
+     "target_z_mm": 0.65,
+     "direction": "up",
+     "orbit_group_ids": [
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220
+     ]
+    },
+    "9": {
+     "planned_orbits": 12,
+     "actual_orbits": 12,
+     "routes": 48,
+     "target_z_mm": 0.1,
+     "direction": "down",
+     "orbit_group_ids": [
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232
+     ]
+    },
+    "8": {
+     "planned_orbits": 12,
+     "actual_orbits": 12,
+     "routes": 48,
+     "target_z_mm": 0.05,
+     "direction": "down",
+     "orbit_group_ids": [
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244
+     ]
+    }
+   }
+  },
+  "direction_counts": {
+   "down": 872,
+   "up": 152
+  },
+  "all_invariants_passed": true,
+  "invariant_failures": []
+ },
+ "previous_round_crosscheck": {
+  "present": true,
+  "readable": true,
+  "rows": 112,
+  "route_id_set_identical": true,
+  "group_assignment_identical": true,
+  "endpoint_pairs_identical": true,
+  "c4_group_ids_identical": true,
+  "differences": [],
+  "group_differences": [],
+  "endpoint_differences": [],
+  "c4_group_differences": [],
+  "note": "comparison against the CSV found in RUN_DIR before this run; the previous round claims 16/16/40/40, which this independent reproduction confirms/refutes per the flags above"
+ },
+ "previous_assignment_crosscheck": {
+  "present": true,
+  "readable": true,
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_20L_FIXED_ASSIGNMENT_FULL\\assignment_1024.json",
+  "rows": 1024,
+  "route_id_set_identical": true,
+  "plane_split_identical": true,
+  "previous_plane_split": {
+   "z1": 512,
+   "z2": 512
+  },
+  "previous_manual_u_rows": 256,
+  "delivered_manual_u_rows": 256,
+  "manual_group_mismatches": [],
+  "manual_groups_identical": true,
+  "old_manual_layer_to_delivered_layer": {
+   "NS-1": 2,
+   "NS-2": 3,
+   "EW-1": 4,
+   "EW-2": 5
+  },
+  "note": "previous verified assignment reference compared structurally; its manual_u rows are the Z1-U1..U4 truth consumed by verify.verify_z1_manual()"
+ },
+ "stage_summary": {
+  "stage": "experiment_A",
+  "input_line_count": {
+   "excel_rows": 112,
+   "true_routes": 1024,
+   "physical_ports": 2048
+  },
+  "attempted": {
+   "excel_rows_to_match": 112,
+   "assignment_rows": 1024
+  },
+  "success": {
+   "excel_rows_matched": 112,
+   "z1_manual_routes": 256,
+   "assignment_rows": 1024
+  },
+  "failures": {
+   "excel_rows_unmatched": 0,
+   "excel_rows_conflicts": 0,
+   "missing_true_z2_same_routes": 0,
+   "assignment_invariant_failures": 0
+  },
+  "failure_reasons": {},
+  "validation_status": "passed"
+ },
+ "notes": [
+  "Every number in this experiment-A audit is recomputed from the true route table, the 2048-port table and the input Excel; the previous round files are read-only cross-check inputs.",
+  "The Z2 Excel rows are Z1-plane-numbered: the interface plane index is corrected 1 -> 2; side/connector/row/column/channel are preserved and the Excel route_id is never used."
+ ]
+}

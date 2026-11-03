@@ -1,0 +1,827 @@
+[2026-11-03T19:05:04] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:05:30] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:06:08] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:07:53] assign: === fanout1024 1024-route target-layer assignment (P1) === | Rows        : 1024 unique route ids, z1 512 / z2 512 | Roles       : z1_manual_u 256, z2_manual_u 112, z1_other 256, z2_other 400 | Manual      : Z1-U1..U4 -> L2..L5 (64/64/64/64); Z2-U1..U4 -> L10..L13 (16/16/40/40)
+19:09:49 run_all stages=B max_iters=3 limit=0
+19:09:49 === STAGE A: data verification + 1024 assignment ===
+19:09:49 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:10:24 run_all stages=B max_iters=3 limit=0
+19:10:24 === STAGE A: data verification + 1024 assignment ===
+19:10:24 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:10:26 [fanout] endpoints=128/736 routes=64/368 ok=64 failed=0 checks=64 elapsed=1.2s
+19:10:26 [fanout] endpoints=256/736 routes=128/368 ok=128 failed=0 checks=128 elapsed=1.9s
+19:10:27 [fanout] endpoints=384/736 routes=192/368 ok=192 failed=0 checks=192 elapsed=2.9s
+19:10:28 [fanout] endpoints=512/736 routes=256/368 ok=256 failed=0 checks=256 elapsed=3.8s
+19:10:29 [fanout] endpoints=640/736 routes=320/368 ok=320 failed=0 checks=320 elapsed=4.6s
+19:10:30 [fanout] endpoints=736/736 routes=368/368 ok=368 failed=0 checks=368 elapsed=5.1s
+19:10:47 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_B)
+19:10:47 experiment_B: routes=368 complete=368 failed=0 fanout_validation={'ok': True, 'transition_count': 736, 'endpoints_expected': 736, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (5.2s)
+19:10:47 run_all done in 22.8s
+19:11:16 run_all stages=BD max_iters=3 limit=0
+19:11:16 === STAGE A: data verification + 1024 assignment ===
+19:11:16 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:11:17 [fanout] endpoints=128/736 routes=64/368 ok=64 failed=0 checks=64 elapsed=1.3s
+19:11:18 [fanout] endpoints=256/736 routes=128/368 ok=128 failed=0 checks=128 elapsed=2.2s
+19:11:19 [fanout] endpoints=384/736 routes=192/368 ok=192 failed=0 checks=192 elapsed=3.2s
+19:11:20 [fanout] endpoints=512/736 routes=256/368 ok=256 failed=0 checks=256 elapsed=4.2s
+19:11:21 [fanout] endpoints=640/736 routes=320/368 ok=320 failed=0 checks=320 elapsed=5.0s
+19:11:22 [fanout] endpoints=736/736 routes=368/368 ok=368 failed=0 checks=368 elapsed=5.6s
+19:11:39 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_B)
+19:11:39 experiment_B: routes=368 complete=368 failed=0 fanout_validation={'ok': True, 'transition_count': 736, 'endpoints_expected': 736, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (5.6s)
+19:11:47 [fanout] endpoints=128/1312 routes=64/656 ok=432 failed=0 checks=432 elapsed=7.4s
+19:11:48 [fanout] endpoints=256/1312 routes=128/656 ok=496 failed=0 checks=496 elapsed=8.8s
+19:11:49 [fanout] endpoints=384/1312 routes=192/656 ok=560 failed=0 checks=560 elapsed=9.9s
+19:11:50 [fanout] endpoints=512/1312 routes=256/656 ok=624 failed=0 checks=624 elapsed=10.3s
+19:11:50 [fanout] endpoints=640/1312 routes=320/656 ok=688 failed=0 checks=688 elapsed=10.8s
+19:11:51 [fanout] endpoints=768/1312 routes=384/656 ok=752 failed=0 checks=752 elapsed=11.2s
+19:11:51 [fanout] endpoints=896/1312 routes=448/656 ok=816 failed=0 checks=816 elapsed=11.7s
+19:11:52 [fanout] endpoints=1024/1312 routes=512/656 ok=880 failed=0 checks=880 elapsed=12.2s
+19:11:52 [fanout] endpoints=1152/1312 routes=576/656 ok=944 failed=0 checks=944 elapsed=12.8s
+19:11:53 [fanout] endpoints=1280/1312 routes=640/656 ok=1008 failed=0 checks=1008 elapsed=13.2s
+19:11:53 [fanout] endpoints=1312/1312 routes=656/656 ok=1024 failed=0 checks=1024 elapsed=13.4s
+[2026-11-03T19:12:00] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:12:01] assign: === fanout1024 1024-route target-layer assignment (P1) === | Rows        : 1024 unique route ids, z1 512 / z2 512 | Roles       : z1_manual_u 256, z2_manual_u 112, z1_other 256, z2_other 400 | Manual      : Z1-U1..U4 -> L2..L5 (64/64/64/64); Z2-U1..U4 -> L10..L13 (16/16/40/40)
+[2026-11-03T19:12:12] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:12:13] assign: === fanout1024 1024-route target-layer assignment (P1) === | Rows        : 1024 unique route ids, z1 512 / z2 512 | Roles       : z1_manual_u 256, z2_manual_u 112, z1_other 256, z2_other 400 | Manual      : Z1-U1..U4 -> L2..L5 (64/64/64/64); Z2-U1..U4 -> L10..L13 (16/16/40/40)
+19:12:30 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_D)
+19:12:30 experiment_D: routes=1024 complete=1024 failed=0 fanout_validation={'ok': True, 'transition_count': 2048, 'endpoints_expected': 2048, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (13.5s)
+19:12:30 run_all done in 74.2s
+[2026-11-03T19:12:35] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:13:11] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:13:12] assign: === fanout1024 1024-route target-layer assignment (P1) === | Rows        : 1024 unique route ids, z1 512 / z2 512 | Roles       : z1_manual_u 256, z2_manual_u 112, z1_other 256, z2_other 400 | Manual      : Z1-U1..U4 -> L2..L5 (64/64/64/64); Z2-U1..U4 -> L10..L13 (16/16/40/40)
+[2026-11-03T19:13:43] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:13:44] assign: === fanout1024 1024-route target-layer assignment (P1) === | Rows        : 1024 unique route ids, z1 512 / z2 512 | Roles       : z1_manual_u 256, z2_manual_u 112, z1_other 256, z2_other 400 | Manual      : Z1-U1..U4 -> L2..L5 (64/64/64/64); Z2-U1..U4 -> L10..L13 (16/16/40/40)
+[2026-11-03T19:13:47] verify: === fanout1024 data verification (P0/P1) === | Excel        : 112 rows / 26 cols, sheets=1, layer markers={'z1': 112} | Excel ids    : 112 ids in Z1 range, exact agreement with true route of same id = 0/112 (route_id NOT authoritative) | True data    : 1024 routes = z1 512 (same 256 / opposite 256) + z2 512 (same 112 / adjacent 400); 256 C4 orbits | Z2 template  : 112/512 z2 routes satisfy the manual template (== z2 same 112) | Z2 match     : matched 112/112, unmatched 0, conflicts 0, unique true routes 112, template agreement 112/112
+[2026-11-03T19:13:48] assign: === fanout1024 1024-route target-layer assignment (P1) === | Rows        : 1024 unique route ids, z1 512 / z2 512 | Roles       : z1_manual_u 256, z2_manual_u 112, z1_other 256, z2_other 400 | Manual      : Z1-U1..U4 -> L2..L5 (64/64/64/64); Z2-U1..U4 -> L10..L13 (16/16/40/40)
+19:14:17 run_all stages=BCDE max_iters=2 limit=0
+19:14:17 === STAGE A: data verification + 1024 assignment ===
+19:14:17 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:14:18 [fanout] endpoints=128/736 routes=64/368 ok=64 failed=0 checks=64 elapsed=1.2s
+19:14:19 [fanout] endpoints=256/736 routes=128/368 ok=128 failed=0 checks=128 elapsed=2.1s
+19:14:20 [fanout] endpoints=384/736 routes=192/368 ok=192 failed=0 checks=192 elapsed=3.0s
+19:14:21 [fanout] endpoints=512/736 routes=256/368 ok=256 failed=0 checks=256 elapsed=3.9s
+19:14:22 [fanout] endpoints=640/736 routes=320/368 ok=320 failed=0 checks=320 elapsed=4.7s
+19:14:22 [fanout] endpoints=736/736 routes=368/368 ok=368 failed=0 checks=368 elapsed=5.2s
+19:14:39 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_B)
+19:14:39 experiment_B: routes=368 complete=368 failed=0 fanout_validation={'ok': True, 'transition_count': 736, 'endpoints_expected': 736, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (5.2s)
+19:14:39 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:14:39 [layer2d] L2 first pass: routed=64/64 failed=0 (0.5s)
+19:14:39 [layer2d] L2: routed=64/64 failed=0 (0.5s)
+19:14:39 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:14:40 [layer2d] L3 first pass: routed=64/64 failed=0 (0.4s)
+19:14:40 [layer2d] L3: routed=64/64 failed=0 (0.4s)
+19:14:40 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:14:40 [layer2d] L4 first pass: routed=64/64 failed=0 (0.6s)
+19:14:40 [layer2d] L4: routed=64/64 failed=0 (0.6s)
+19:14:40 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=36608
+19:14:41 [layer2d] L5 first pass: routed=64/64 failed=0 (0.4s)
+19:14:41 [layer2d] L5: routed=64/64 failed=0 (0.4s)
+19:14:41 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=3616
+19:14:41 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:14:41 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:14:41 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=8560
+19:14:41 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:14:41 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:14:41 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=14144
+19:14:41 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:14:41 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:14:41 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=17360
+19:14:41 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:14:41 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:14:41 [layer2d] all layers: routed=368/368 failed=0 (2.5s)
+19:14:41 experiment_C: routed=368/368 failed=0 validation=passed
+19:14:48 [fanout] endpoints=128/1312 routes=64/656 ok=432 failed=0 checks=432 elapsed=6.6s
+19:14:49 [fanout] endpoints=256/1312 routes=128/656 ok=496 failed=0 checks=496 elapsed=7.9s
+19:14:50 [fanout] endpoints=384/1312 routes=192/656 ok=560 failed=0 checks=560 elapsed=8.9s
+19:14:51 [fanout] endpoints=512/1312 routes=256/656 ok=624 failed=0 checks=624 elapsed=9.3s
+19:14:51 [fanout] endpoints=640/1312 routes=320/656 ok=688 failed=0 checks=688 elapsed=9.6s
+19:14:51 [fanout] endpoints=768/1312 routes=384/656 ok=752 failed=0 checks=752 elapsed=10.0s
+19:14:52 [fanout] endpoints=896/1312 routes=448/656 ok=816 failed=0 checks=816 elapsed=10.5s
+19:14:52 [fanout] endpoints=1024/1312 routes=512/656 ok=880 failed=0 checks=880 elapsed=11.0s
+19:14:53 [fanout] endpoints=1152/1312 routes=576/656 ok=944 failed=0 checks=944 elapsed=11.5s
+19:14:53 [fanout] endpoints=1280/1312 routes=640/656 ok=1008 failed=0 checks=1008 elapsed=11.9s
+19:14:53 [fanout] endpoints=1312/1312 routes=656/656 ok=1024 failed=0 checks=1024 elapsed=12.0s
+19:15:28 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_D)
+19:15:28 experiment_D: routes=1024 complete=1024 failed=0 fanout_validation={'ok': True, 'transition_count': 2048, 'endpoints_expected': 2048, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (12.0s)
+19:15:28 === STAGE E iteration 1/2 ===
+19:15:29 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:15:29 [layer2d] L2 first pass: routed=64/64 failed=0 (0.6s)
+19:15:29 [layer2d] L2: routed=64/64 failed=0 (0.6s)
+19:15:29 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:15:29 [layer2d] L3 first pass: routed=64/64 failed=0 (0.3s)
+19:15:29 [layer2d] L3: routed=64/64 failed=0 (0.3s)
+19:15:29 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:15:30 [layer2d] L4 first pass: routed=64/64 failed=0 (0.5s)
+19:15:30 [layer2d] L4: routed=64/64 failed=0 (0.5s)
+19:15:30 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:15:30 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:15:30 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:15:30 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:15:32 [layer2d] L6 first pass: routed=115/128 failed=13 (1.5s)
+19:15:33 [layer2d] L6 rrr round 1: pending=13 gained=5 routed=120/128
+19:15:33 [layer2d] L6 rrr round 2: pending=9 gained=2 routed=121/128
+19:15:33 [layer2d] L6: routed=121/128 failed=7 (2.7s)
+19:15:33 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:15:34 [layer2d] L7 first pass: routed=128/128 failed=0 (1.2s)
+19:15:34 [layer2d] L7: routed=128/128 failed=0 (1.2s)
+19:15:34 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:15:34 [layer2d] L8 first pass: routed=48/48 failed=0 (0.0s)
+19:15:34 [layer2d] L8: routed=48/48 failed=0 (0.0s)
+19:15:34 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:15:35 [layer2d] L9 first pass: routed=48/48 failed=0 (0.1s)
+19:15:35 [layer2d] L9: routed=48/48 failed=0 (0.1s)
+19:15:35 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:15:35 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:15:35 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:15:35 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:15:35 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:15:35 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:15:35 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:15:35 [layer2d] L12 first pass: routed=40/40 failed=0 (0.3s)
+19:15:35 [layer2d] L12: routed=40/40 failed=0 (0.3s)
+19:15:35 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:15:35 [layer2d] L13 first pass: routed=40/40 failed=0 (0.3s)
+19:15:35 [layer2d] L13: routed=40/40 failed=0 (0.3s)
+19:15:35 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:15:35 [layer2d] L14 first pass: routed=48/48 failed=0 (0.1s)
+19:15:35 [layer2d] L14: routed=48/48 failed=0 (0.1s)
+19:15:35 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:15:36 [layer2d] L15 first pass: routed=50/52 failed=2 (0.1s)
+19:15:36 [layer2d] L15 rrr round 1: pending=2 gained=0 routed=50/52
+19:15:36 [layer2d] L15: routed=50/52 failed=2 (0.1s)
+19:15:36 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:15:36 [layer2d] L16 first pass: routed=41/52 failed=11 (0.3s)
+19:15:36 [layer2d] L16 rrr round 1: pending=11 gained=1 routed=42/52
+19:15:37 [layer2d] L16 rrr round 2: pending=15 gained=2 routed=42/52
+19:15:37 [layer2d] L16: routed=42/52 failed=15 (1.0s)
+19:15:37 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:15:37 [layer2d] L17 first pass: routed=45/52 failed=7 (0.3s)
+19:15:37 [layer2d] L17 rrr round 1: pending=7 gained=2 routed=47/52
+19:15:37 [layer2d] L17 rrr round 2: pending=8 gained=2 routed=47/52
+19:15:37 [layer2d] L17: routed=47/52 failed=6 (0.7s)
+19:15:37 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:15:37 [layer2d] L18 first pass: routed=52/52 failed=0 (0.1s)
+19:15:37 [layer2d] L18: routed=52/52 failed=0 (0.1s)
+19:15:37 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:15:38 [layer2d] L19 first pass: routed=48/48 failed=0 (0.0s)
+19:15:38 [layer2d] L19: routed=48/48 failed=0 (0.0s)
+19:15:38 [layer2d] all layers: routed=1000/1024 failed=24 (9.0s)
+19:15:38 [layer2d] layers=18 routed=1000 failed=30 (9.0s)
+19:15:55 iteration 1: assembled=1000 world_valid=1000 violations=0 assembly_failures=24
+19:15:55 stage E: repair obstacles for layers []
+19:15:55 === STAGE E iteration 2/2 ===
+19:15:55 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:15:55 [layer2d] L2 first pass: routed=64/64 failed=0 (0.5s)
+19:15:55 [layer2d] L2: routed=64/64 failed=0 (0.5s)
+19:15:55 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:15:56 [layer2d] L3 first pass: routed=64/64 failed=0 (0.3s)
+19:15:56 [layer2d] L3: routed=64/64 failed=0 (0.3s)
+19:15:56 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:15:56 [layer2d] L4 first pass: routed=64/64 failed=0 (0.6s)
+19:15:56 [layer2d] L4: routed=64/64 failed=0 (0.6s)
+19:15:56 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:15:57 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:15:57 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:15:57 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:15:58 [layer2d] L6 first pass: routed=121/128 failed=7 (1.3s)
+19:15:58 [layer2d] L6 rrr round 1: pending=7 gained=3 routed=124/128
+19:15:59 [layer2d] L6 rrr round 2: pending=4 gained=1 routed=125/128
+19:15:59 [layer2d] L6: routed=125/128 failed=3 (2.0s)
+19:15:59 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:16:00 [layer2d] L7 first pass: routed=127/128 failed=1 (1.1s)
+19:16:00 [layer2d] L7 rrr round 1: pending=1 gained=0 routed=127/128
+19:16:00 [layer2d] L7: routed=127/128 failed=1 (1.2s)
+19:16:00 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:16:00 [layer2d] L8 first pass: routed=48/48 failed=0 (0.0s)
+19:16:00 [layer2d] L8: routed=48/48 failed=0 (0.0s)
+19:16:00 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:16:00 [layer2d] L9 first pass: routed=48/48 failed=0 (0.0s)
+19:16:00 [layer2d] L9: routed=48/48 failed=0 (0.0s)
+19:16:00 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:16:00 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:16:00 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:16:00 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:16:00 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:16:00 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:16:00 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:16:01 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:16:01 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:16:01 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:16:01 [layer2d] L13 first pass: routed=40/40 failed=0 (0.3s)
+19:16:01 [layer2d] L13: routed=40/40 failed=0 (0.3s)
+19:16:01 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:16:01 [layer2d] L14 first pass: routed=48/48 failed=0 (0.1s)
+19:16:01 [layer2d] L14: routed=48/48 failed=0 (0.1s)
+19:16:01 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:16:01 [layer2d] L15 first pass: routed=50/52 failed=2 (0.3s)
+19:16:01 [layer2d] L15 rrr round 1: pending=2 gained=0 routed=50/52
+19:16:01 [layer2d] L15: routed=50/52 failed=2 (0.3s)
+19:16:01 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:16:02 [layer2d] L16 first pass: routed=40/52 failed=12 (0.3s)
+19:16:02 [layer2d] L16 rrr round 1: pending=12 gained=2 routed=42/52
+19:16:03 [layer2d] L16 rrr round 2: pending=16 gained=0 routed=42/52
+19:16:03 [layer2d] L16: routed=42/52 failed=17 (1.2s)
+19:16:03 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:16:03 [layer2d] L17 first pass: routed=44/52 failed=8 (0.4s)
+19:16:03 [layer2d] L17 rrr round 1: pending=8 gained=3 routed=47/52
+19:16:03 [layer2d] L17 rrr round 2: pending=7 gained=0 routed=47/52
+19:16:03 [layer2d] L17: routed=47/52 failed=7 (0.9s)
+19:16:03 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:16:04 [layer2d] L18 first pass: routed=52/52 failed=0 (0.1s)
+19:16:04 [layer2d] L18: routed=52/52 failed=0 (0.1s)
+19:16:04 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:16:04 [layer2d] L19 first pass: routed=48/48 failed=0 (0.0s)
+19:16:04 [layer2d] L19: routed=48/48 failed=0 (0.0s)
+19:16:04 [layer2d] all layers: routed=1003/1024 failed=21 (8.8s)
+19:16:04 [layer2d] layers=18 routed=1003 failed=30 (8.8s)
+19:16:22 iteration 2: assembled=1003 world_valid=1003 violations=0 assembly_failures=21
+19:16:22 stage E: no new repair actions available
+19:16:22 wrote experiment_E summary (1003 valid)
+19:16:23 wrote final artifacts: routes_l3d.json routed=1003 failed=21
+19:16:23 stage E final: 1003/1024 strict-valid routes, 21 failed
+19:16:23 run_all done in 125.8s
+19:17:22 run_all stages=DE max_iters=3 limit=0
+19:17:22 === STAGE A: data verification + 1024 assignment ===
+19:17:23 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:17:24 [fanout] endpoints=128/2048 routes=64/1024 ok=64 failed=0 checks=64 elapsed=1.2s
+19:17:25 [fanout] endpoints=256/2048 routes=128/1024 ok=128 failed=0 checks=128 elapsed=2.0s
+19:17:26 [fanout] endpoints=384/2048 routes=192/1024 ok=192 failed=0 checks=192 elapsed=3.0s
+19:17:26 [fanout] endpoints=512/2048 routes=256/1024 ok=256 failed=0 checks=256 elapsed=3.9s
+19:17:27 [fanout] endpoints=640/2048 routes=320/1024 ok=320 failed=0 checks=320 elapsed=4.7s
+19:17:28 [fanout] endpoints=768/2048 routes=384/1024 ok=384 failed=0 checks=384 elapsed=5.4s
+19:17:30 [fanout] endpoints=896/2048 routes=448/1024 ok=448 failed=0 checks=448 elapsed=7.1s
+19:17:31 [fanout] endpoints=1024/2048 routes=512/1024 ok=512 failed=0 checks=512 elapsed=8.3s
+19:17:32 [fanout] endpoints=1152/2048 routes=576/1024 ok=576 failed=0 checks=576 elapsed=9.0s
+19:17:32 [fanout] endpoints=1280/2048 routes=640/1024 ok=640 failed=0 checks=640 elapsed=9.4s
+19:17:32 [fanout] endpoints=1408/2048 routes=704/1024 ok=704 failed=0 checks=704 elapsed=9.8s
+19:17:33 [fanout] endpoints=1536/2048 routes=768/1024 ok=768 failed=0 checks=768 elapsed=10.2s
+19:17:33 [fanout] endpoints=1664/2048 routes=832/1024 ok=832 failed=0 checks=832 elapsed=10.6s
+19:17:34 [fanout] endpoints=1792/2048 routes=896/1024 ok=896 failed=0 checks=896 elapsed=11.2s
+19:17:34 [fanout] endpoints=1920/2048 routes=960/1024 ok=960 failed=0 checks=960 elapsed=11.6s
+19:17:35 [fanout] endpoints=2048/2048 routes=1024/1024 ok=1024 failed=0 checks=1024 elapsed=12.0s
+19:18:21 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_D)
+19:18:21 experiment_D: routes=1024 complete=1024 failed=0 fanout_validation={'ok': True, 'transition_count': 2048, 'endpoints_expected': 2048, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (12.1s)
+19:18:21 === STAGE E iteration 1/3 ===
+19:18:22 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:18:22 [layer2d] L2 first pass: routed=64/64 failed=0 (0.8s)
+19:18:22 [layer2d] L2: routed=64/64 failed=0 (0.8s)
+19:18:22 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:18:23 [layer2d] L3 first pass: routed=64/64 failed=0 (0.5s)
+19:18:23 [layer2d] L3: routed=64/64 failed=0 (0.5s)
+19:18:23 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:18:24 [layer2d] L4 first pass: routed=64/64 failed=0 (0.9s)
+19:18:24 [layer2d] L4: routed=64/64 failed=0 (0.9s)
+19:18:24 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:18:24 [layer2d] L5 first pass: routed=64/64 failed=0 (0.5s)
+19:18:24 [layer2d] L5: routed=64/64 failed=0 (0.5s)
+19:18:24 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:18:28 [layer2d] L6 first pass: routed=119/128 failed=9 (3.9s)
+19:18:30 [layer2d] L6 rrr round 1: pending=9 gained=4 routed=123/128
+19:18:31 [layer2d] L6 rrr round 2: pending=5 gained=1 routed=124/128
+19:18:32 [layer2d] L6: routed=125/128 failed=3 (7.7s)
+19:18:32 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:18:33 [layer2d] L7 first pass: routed=128/128 failed=0 (1.1s)
+19:18:33 [layer2d] L7: routed=128/128 failed=0 (1.1s)
+19:18:33 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:18:33 [layer2d] L8 first pass: routed=48/48 failed=0 (0.1s)
+19:18:33 [layer2d] L8: routed=48/48 failed=0 (0.1s)
+19:18:33 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:18:33 [layer2d] L9 first pass: routed=48/48 failed=0 (0.0s)
+19:18:33 [layer2d] L9: routed=48/48 failed=0 (0.0s)
+19:18:33 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:18:34 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:18:34 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:18:34 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:18:34 [layer2d] L11 first pass: routed=16/16 failed=0 (0.1s)
+19:18:34 [layer2d] L11: routed=16/16 failed=0 (0.1s)
+19:18:34 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:18:34 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:18:34 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:18:34 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:18:34 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:18:34 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:18:34 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:18:34 [layer2d] L14 first pass: routed=48/48 failed=0 (0.1s)
+19:18:34 [layer2d] L14: routed=48/48 failed=0 (0.1s)
+19:18:34 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:18:35 [layer2d] L15 first pass: routed=50/52 failed=2 (0.1s)
+19:18:35 [layer2d] L15 rrr round 1: pending=2 gained=0 routed=50/52
+19:18:35 [layer2d] L15: routed=50/52 failed=2 (0.1s)
+19:18:35 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:18:35 [layer2d] L16 first pass: routed=41/52 failed=11 (0.4s)
+19:18:35 [layer2d] L16 rrr round 1: pending=11 gained=1 routed=42/52
+19:18:35 [layer2d] L16 rrr round 2: pending=10 gained=0 routed=42/52
+19:18:36 [layer2d] L16: routed=42/52 failed=10 (1.1s)
+19:18:36 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:18:36 [layer2d] L17 first pass: routed=45/52 failed=7 (0.3s)
+19:18:36 [layer2d] L17 rrr round 1: pending=7 gained=2 routed=47/52
+19:18:36 [layer2d] L17 rrr round 2: pending=5 gained=0 routed=47/52
+19:18:37 [layer2d] L17: routed=47/52 failed=5 (1.1s)
+19:18:37 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:18:37 [layer2d] L18 first pass: routed=52/52 failed=0 (0.2s)
+19:18:37 [layer2d] L18: routed=52/52 failed=0 (0.2s)
+19:18:37 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:18:37 [layer2d] L19 first pass: routed=48/48 failed=0 (0.1s)
+19:18:37 [layer2d] L19: routed=48/48 failed=0 (0.1s)
+19:18:37 [layer2d] all layers: routed=1004/1024 failed=20 (15.5s)
+19:18:41 run_all stages=DE max_iters=3 limit=0
+19:18:41 === STAGE A: data verification + 1024 assignment ===
+19:18:41 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:18:43 [fanout] endpoints=128/2048 routes=64/1024 ok=64 failed=0 checks=64 elapsed=1.3s
+19:18:44 [fanout] endpoints=256/2048 routes=128/1024 ok=128 failed=0 checks=128 elapsed=2.2s
+19:18:45 [fanout] endpoints=384/2048 routes=192/1024 ok=192 failed=0 checks=192 elapsed=3.5s
+19:18:46 [fanout] endpoints=512/2048 routes=256/1024 ok=256 failed=0 checks=256 elapsed=4.8s
+19:18:47 [fanout] endpoints=640/2048 routes=320/1024 ok=320 failed=0 checks=320 elapsed=5.9s
+19:18:48 [fanout] endpoints=768/2048 routes=384/1024 ok=384 failed=0 checks=384 elapsed=6.8s
+19:18:50 [fanout] endpoints=896/2048 routes=448/1024 ok=448 failed=0 checks=448 elapsed=9.0s
+19:18:52 [fanout] endpoints=1024/2048 routes=512/1024 ok=512 failed=0 checks=512 elapsed=10.4s
+19:18:53 [fanout] endpoints=1152/2048 routes=576/1024 ok=576 failed=0 checks=576 elapsed=11.2s
+19:18:53 [fanout] endpoints=1280/2048 routes=640/1024 ok=640 failed=0 checks=640 elapsed=11.6s
+19:18:53 [fanout] endpoints=1408/2048 routes=704/1024 ok=704 failed=0 checks=704 elapsed=12.1s
+19:18:54 [fanout] endpoints=1536/2048 routes=768/1024 ok=768 failed=0 checks=768 elapsed=12.6s
+19:18:54 [fanout] endpoints=1664/2048 routes=832/1024 ok=832 failed=0 checks=832 elapsed=13.1s
+19:18:55 [fanout] endpoints=1792/2048 routes=896/1024 ok=896 failed=0 checks=896 elapsed=13.8s
+19:18:56 [fanout] endpoints=1920/2048 routes=960/1024 ok=960 failed=0 checks=960 elapsed=14.5s
+19:18:56 [fanout] endpoints=2048/2048 routes=1024/1024 ok=1024 failed=0 checks=1024 elapsed=15.0s
+19:19:38 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_D)
+19:19:38 experiment_D: routes=1024 complete=1024 failed=0 fanout_validation={'ok': True, 'transition_count': 2048, 'endpoints_expected': 2048, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (15.0s)
+19:19:38 === STAGE E iteration 1/3 ===
+19:19:39 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:19:39 [layer2d] L2 first pass: routed=64/64 failed=0 (0.6s)
+19:19:39 [layer2d] L2: routed=64/64 failed=0 (0.6s)
+19:19:39 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:19:40 [layer2d] L3 first pass: routed=64/64 failed=0 (0.3s)
+19:19:40 [layer2d] L3: routed=64/64 failed=0 (0.3s)
+19:19:40 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:19:40 [layer2d] L4 first pass: routed=64/64 failed=0 (0.6s)
+19:19:40 [layer2d] L4: routed=64/64 failed=0 (0.6s)
+19:19:40 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:19:41 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:19:41 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:19:41 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:19:43 [layer2d] L6 first pass: routed=119/128 failed=9 (2.4s)
+19:19:44 [layer2d] L6 rrr round 1: pending=9 gained=4 routed=123/128
+19:19:45 [layer2d] L6 rrr round 2: pending=5 gained=1 routed=124/128
+19:19:46 [layer2d] L6: routed=125/128 failed=3 (5.2s)
+19:19:46 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:19:47 [layer2d] L7 first pass: routed=128/128 failed=0 (0.8s)
+19:19:47 [layer2d] L7: routed=128/128 failed=0 (0.8s)
+19:19:47 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:19:47 [layer2d] L8 first pass: routed=48/48 failed=0 (0.0s)
+19:19:47 [layer2d] L8: routed=48/48 failed=0 (0.0s)
+19:19:47 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:19:47 [layer2d] L9 first pass: routed=48/48 failed=0 (0.0s)
+19:19:47 [layer2d] L9: routed=48/48 failed=0 (0.0s)
+19:19:47 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:19:47 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:19:47 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:19:47 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:19:47 [layer2d] L11 first pass: routed=16/16 failed=0 (0.1s)
+19:19:47 [layer2d] L11: routed=16/16 failed=0 (0.1s)
+19:19:47 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:19:47 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:19:47 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:19:47 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:19:48 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:19:48 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:19:48 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:19:48 [layer2d] L14 first pass: routed=48/48 failed=0 (0.1s)
+19:19:48 [layer2d] L14: routed=48/48 failed=0 (0.1s)
+19:19:48 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:19:48 [layer2d] L15 first pass: routed=50/52 failed=2 (0.1s)
+19:19:48 [layer2d] L15 rrr round 1: pending=2 gained=0 routed=50/52
+19:19:48 [layer2d] L15: routed=50/52 failed=2 (0.2s)
+19:19:48 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:19:48 [layer2d] L16 first pass: routed=41/52 failed=11 (0.3s)
+19:19:48 [layer2d] L16 rrr round 1: pending=11 gained=1 routed=42/52
+19:19:49 [layer2d] L16 rrr round 2: pending=10 gained=0 routed=42/52
+19:19:49 [layer2d] L16: routed=42/52 failed=10 (1.0s)
+19:19:49 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:19:49 [layer2d] L17 first pass: routed=45/52 failed=7 (0.3s)
+19:19:49 [layer2d] L17 rrr round 1: pending=7 gained=2 routed=47/52
+19:19:50 [layer2d] L17 rrr round 2: pending=5 gained=0 routed=47/52
+19:19:50 [layer2d] L17: routed=47/52 failed=5 (0.8s)
+19:19:50 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:19:50 [layer2d] L18 first pass: routed=52/52 failed=0 (0.1s)
+19:19:50 [layer2d] L18: routed=52/52 failed=0 (0.1s)
+19:19:50 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:19:50 [layer2d] L19 first pass: routed=48/48 failed=0 (0.0s)
+19:19:50 [layer2d] L19: routed=48/48 failed=0 (0.0s)
+19:19:50 [layer2d] all layers: routed=1004/1024 failed=20 (11.3s)
+19:19:50 [layer2d] layers=18 routed=1004 failed=20 (11.3s)
+19:20:07 iteration 1: assembled=1004 world_valid=1004 violations=0 assembly_failures=20
+19:20:07 stage E: next repair targets=[25, 164, 408, 514, 515, 537, 539, 540, 544, 561, 562, 563, 564, 572, 595, 596, 610, 611, 646, 647] obstacle_layers=[]
+19:20:07 === STAGE E iteration 2/3 ===
+19:20:18 [fanout] endpoints=40/40 routes=20/20 ok=1024 failed=0 checks=1024 elapsed=11.6s
+19:20:18 fanout repair iteration 2: leads=(8.0, 16.0, 4.0, 2.0, 1.0, 0.25) repaired=1024/20
+19:20:19 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:20:19 [layer2d] L2 first pass: routed=64/64 failed=0 (0.5s)
+19:20:19 [layer2d] L2: routed=64/64 failed=0 (0.5s)
+19:20:19 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:20:20 [layer2d] L3 first pass: routed=64/64 failed=0 (0.3s)
+19:20:20 [layer2d] L3: routed=64/64 failed=0 (0.3s)
+19:20:20 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:20:20 [layer2d] L4 first pass: routed=64/64 failed=0 (0.5s)
+19:20:20 [layer2d] L4: routed=64/64 failed=0 (0.5s)
+19:20:20 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:20:20 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:20:20 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:20:20 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:20:22 [layer2d] L6 first pass: routed=126/128 failed=2 (1.3s)
+19:20:22 [layer2d] L6 rrr round 1: pending=2 gained=1 routed=127/128
+19:20:22 [layer2d] L6 rrr round 2: pending=1 gained=0 routed=127/128
+19:20:22 [layer2d] L6: routed=127/128 failed=1 (1.8s)
+19:20:22 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:20:24 [layer2d] L7 first pass: routed=125/128 failed=3 (1.3s)
+19:20:24 [layer2d] L7 rrr round 1: pending=3 gained=2 routed=127/128
+19:20:24 [layer2d] L7 rrr round 2: pending=1 gained=0 routed=127/128
+19:20:24 [layer2d] L7: routed=127/128 failed=1 (1.9s)
+19:20:24 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:20:24 [layer2d] L8 first pass: routed=48/48 failed=0 (0.0s)
+19:20:24 [layer2d] L8: routed=48/48 failed=0 (0.0s)
+19:20:24 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:20:24 [layer2d] L9 first pass: routed=48/48 failed=0 (0.0s)
+19:20:24 [layer2d] L9: routed=48/48 failed=0 (0.0s)
+19:20:24 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:20:24 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:20:24 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:20:24 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:20:25 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:20:25 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:20:25 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:20:25 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:20:25 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:20:25 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:20:25 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:20:25 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:20:25 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:20:25 [layer2d] L14 first pass: routed=48/48 failed=0 (0.1s)
+19:20:25 [layer2d] L14: routed=48/48 failed=0 (0.1s)
+19:20:25 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:20:25 [layer2d] L15 first pass: routed=50/52 failed=2 (0.3s)
+19:20:25 [layer2d] L15 rrr round 1: pending=2 gained=0 routed=50/52
+19:20:26 [layer2d] L15: routed=50/52 failed=2 (0.3s)
+19:20:26 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:20:26 [layer2d] L16 first pass: routed=40/52 failed=12 (0.3s)
+19:20:26 [layer2d] L16 rrr round 1: pending=12 gained=1 routed=41/52
+19:20:26 [layer2d] L16 rrr round 2: pending=11 gained=0 routed=41/52
+19:20:27 [layer2d] L16: routed=41/52 failed=11 (1.1s)
+19:20:27 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:20:27 [layer2d] L17 first pass: routed=46/52 failed=6 (0.3s)
+19:20:27 [layer2d] L17 rrr round 1: pending=6 gained=1 routed=47/52
+19:20:27 [layer2d] L17 rrr round 2: pending=5 gained=0 routed=47/52
+19:20:27 [layer2d] L17: routed=47/52 failed=5 (0.8s)
+19:20:27 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:20:28 [layer2d] L18 first pass: routed=52/52 failed=0 (0.1s)
+19:20:28 [layer2d] L18: routed=52/52 failed=0 (0.1s)
+19:20:28 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:20:28 [layer2d] L19 first pass: routed=48/48 failed=0 (0.0s)
+19:20:28 [layer2d] L19: routed=48/48 failed=0 (0.0s)
+19:20:28 [layer2d] all layers: routed=1004/1024 failed=20 (8.9s)
+19:20:28 [layer2d] layers=18 routed=1004 failed=20 (8.9s)
+19:20:46 iteration 2: assembled=1004 world_valid=1004 violations=0 assembly_failures=20
+19:20:46 stage E: next repair targets=[98, 435, 513, 516, 517, 518, 519, 520, 521, 522, 523, 524, 543, 571, 573, 575, 609, 612, 645, 648] obstacle_layers=[]
+19:20:46 === STAGE E iteration 3/3 ===
+19:20:57 [fanout] endpoints=40/40 routes=20/20 ok=1024 failed=0 checks=1024 elapsed=11.5s
+19:20:57 fanout repair iteration 3: leads=(0.25, 1.0, 2.0, 4.0, 8.0, 16.0) repaired=1024/20
+19:20:58 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:20:58 [layer2d] L2 first pass: routed=64/64 failed=0 (0.5s)
+19:20:58 [layer2d] L2: routed=64/64 failed=0 (0.5s)
+19:20:58 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:20:59 [layer2d] L3 first pass: routed=64/64 failed=0 (0.3s)
+19:20:59 [layer2d] L3: routed=64/64 failed=0 (0.3s)
+19:20:59 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:20:59 [layer2d] L4 first pass: routed=64/64 failed=0 (0.5s)
+19:20:59 [layer2d] L4: routed=64/64 failed=0 (0.5s)
+19:20:59 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:20:59 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:20:59 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:20:59 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:21:01 [layer2d] L6 first pass: routed=123/128 failed=5 (1.5s)
+19:21:02 [layer2d] L6 rrr round 1: pending=5 gained=2 routed=125/128
+19:21:02 [layer2d] L6 rrr round 2: pending=3 gained=0 routed=125/128
+19:21:02 [layer2d] L6: routed=126/128 failed=2 (3.0s)
+19:21:02 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:21:03 [layer2d] L7 first pass: routed=128/128 failed=0 (0.9s)
+19:21:03 [layer2d] L7: routed=128/128 failed=0 (0.9s)
+19:21:03 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:21:04 [layer2d] L8 first pass: routed=48/48 failed=0 (0.0s)
+19:21:04 [layer2d] L8: routed=48/48 failed=0 (0.0s)
+19:21:04 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:21:04 [layer2d] L9 first pass: routed=48/48 failed=0 (0.0s)
+19:21:04 [layer2d] L9: routed=48/48 failed=0 (0.0s)
+19:21:04 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:21:04 [layer2d] L10 first pass: routed=16/16 failed=0 (0.1s)
+19:21:04 [layer2d] L10: routed=16/16 failed=0 (0.1s)
+19:21:04 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:21:04 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:21:04 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:21:04 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:21:04 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:21:04 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:21:04 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:21:04 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:21:04 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:21:04 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:21:04 [layer2d] L14 first pass: routed=47/48 failed=1 (0.2s)
+19:21:04 [layer2d] L14 rrr round 1: pending=1 gained=1 routed=48/48
+19:21:04 [layer2d] L14 rrr round 2: pending=0 gained=0 routed=48/48
+19:21:04 [layer2d] L14: routed=48/48 failed=0 (0.2s)
+19:21:04 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:21:05 [layer2d] L15 first pass: routed=50/52 failed=2 (0.1s)
+19:21:05 [layer2d] L15 rrr round 1: pending=2 gained=0 routed=50/52
+19:21:05 [layer2d] L15: routed=50/52 failed=2 (0.1s)
+19:21:05 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:21:05 [layer2d] L16 first pass: routed=40/52 failed=12 (0.3s)
+19:21:05 [layer2d] L16 rrr round 1: pending=12 gained=1 routed=41/52
+19:21:06 [layer2d] L16 rrr round 2: pending=11 gained=0 routed=41/52
+19:21:06 [layer2d] L16: routed=41/52 failed=11 (1.1s)
+19:21:06 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:21:06 [layer2d] L17 first pass: routed=45/52 failed=7 (0.3s)
+19:21:06 [layer2d] L17 rrr round 1: pending=7 gained=2 routed=47/52
+19:21:06 [layer2d] L17 rrr round 2: pending=5 gained=0 routed=47/52
+19:21:07 [layer2d] L17: routed=47/52 failed=5 (0.8s)
+19:21:07 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:21:07 [layer2d] L18 first pass: routed=52/52 failed=0 (0.1s)
+19:21:07 [layer2d] L18: routed=52/52 failed=0 (0.1s)
+19:21:07 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:21:07 [layer2d] L19 first pass: routed=48/48 failed=0 (0.0s)
+19:21:07 [layer2d] L19: routed=48/48 failed=0 (0.0s)
+19:21:07 [layer2d] all layers: routed=1004/1024 failed=20 (9.2s)
+19:21:07 [layer2d] layers=18 routed=1004 failed=20 (9.2s)
+19:21:24 iteration 3: assembled=1004 world_valid=1004 violations=0 assembly_failures=20
+19:21:24 stage E: next repair targets=[150, 409, 513, 516, 517, 518, 519, 520, 521, 522, 523, 524, 543, 571, 573, 574, 609, 612, 645, 648] obstacle_layers=[]
+19:21:24 wrote experiment_E summary (1004 valid)
+19:21:25 wrote final artifacts: routes_l3d.json routed=1004 failed=20
+19:21:25 stage E final: 1004/1024 strict-valid routes, 20 failed
+19:21:25 run_all done in 163.6s
+19:23:32 run_all stages=L max_iters=3 limit=0
+19:23:32 === STAGE A: data verification + 1024 assignment ===
+19:23:32 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:23:32 [local-repair] resume: 1004 valid routes, 20 unresolved
+19:23:32 [local-repair] attempting 20 failed routes
+19:23:33 [local-repair] frozen world: 1004 routes, bodies on 18 layers
+19:23:41 [local-repair] round 1: repaired=16 remaining=4
+19:23:48 [local-repair] round 2: repaired=0 remaining=4
+19:24:14 [local-repair] rewrote fanout_selected.json (1024 routes) and fanout_validation.json (ok=None)
+19:24:14 wrote experiment_E summary (1020 valid)
+19:24:14 wrote final artifacts: routes_l3d.json routed=1020 failed=4
+19:24:14 local repair stage final: 1020/1024 strict-valid, 4 failed (recovered 16)
+19:24:14 run_all done in 42.6s
+19:25:11 run_all stages=L max_iters=3 limit=0
+19:25:11 === STAGE A: data verification + 1024 assignment ===
+19:25:11 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:25:11 [local-repair] resume: 1020 valid routes, 4 unresolved
+19:25:11 [local-repair] attempting 4 failed routes
+19:25:12 [local-repair] frozen world: 1020 routes, bodies on 18 layers
+19:25:19 [local-repair] round 1: repaired=0 remaining=4
+19:25:25 [local-repair] round 2: repaired=0 remaining=4
+19:25:31 [local-rrr] layer L6: failed=[25, 164, 408] blockers=[2, 5, 6, 8, 16, 28, 30, 32, 33, 36] committed=False
+19:25:35 [local-rrr] layer L17: failed=[611] blockers=[574, 578, 592, 609, 610, 612] committed=False
+19:25:35 wrote experiment_E summary (1020 valid)
+19:25:35 wrote final artifacts: routes_l3d.json routed=1020 failed=4
+19:25:35 local repair stage final: 1020/1024 strict-valid, 4 failed (recovered 0)
+19:25:35 run_all done in 24.7s
+19:26:01 run_all stages=L max_iters=3 limit=0
+19:26:01 === STAGE A: data verification + 1024 assignment ===
+19:26:01 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:26:01 [local-repair] resume: 1020 valid routes, 4 unresolved
+19:26:01 [local-repair] attempting 4 failed routes
+19:26:02 [local-repair] frozen world: 1020 routes, bodies on 18 layers
+19:26:09 [local-repair] round 1: repaired=0 remaining=4
+19:26:17 [local-repair] round 2: repaired=0 remaining=4
+19:26:23 [local-rrr] layer L6: failed=[25, 164, 408] blockers=[2, 5, 6, 8, 16, 28, 30, 32, 33, 36] committed=False
+19:26:27 [local-rrr] layer L17: failed=[611] blockers=[574, 578, 592, 609, 610, 612] committed=False
+19:26:27 [local-repair] record: repaired=0 world_valid=1020 remaining=4
+19:26:27 wrote experiment_E summary (1020 valid)
+19:26:27 wrote final artifacts: routes_l3d.json routed=1020 failed=4
+19:26:27 local repair stage final: 1020/1024 strict-valid, 4 failed (recovered 0)
+19:26:27 run_all done in 26.0s
+19:26:55 run_all stages=L max_iters=3 limit=0
+19:26:55 === STAGE A: data verification + 1024 assignment ===
+19:26:55 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:26:55 [local-repair] resume: 1020 valid routes, 4 unresolved
+19:26:55 [local-repair] attempting 4 failed routes
+19:26:56 [local-repair] frozen world: 1020 routes, bodies on 18 layers
+19:27:03 [local-repair] round 1: repaired=0 remaining=4
+19:27:11 [local-repair] round 2: repaired=0 remaining=4
+19:27:30 [local-rrr] layer L6: failed=[25, 164, 408] blockers=[2, 5, 6, 8, 16, 28, 30, 32, 33, 36] committed=False
+19:27:34 [local-rrr] layer L17: failed=[611] blockers=[574, 578, 592, 609, 610, 612] committed=True
+19:28:05 run_all stages=L max_iters=3 limit=0
+19:28:05 === STAGE A: data verification + 1024 assignment ===
+19:28:05 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:28:05 [local-repair] resume: 1020 valid routes, 4 unresolved
+19:28:05 [local-repair] attempting 4 failed routes
+19:28:06 [local-repair] frozen world: 1020 routes, bodies on 18 layers
+19:28:14 [local-repair] round 1: repaired=0 remaining=4
+19:28:22 [local-repair] round 2: repaired=0 remaining=4
+19:28:39 [local-rrr] layer L6: failed=[25, 164, 408] blockers=[2, 5, 6, 8, 16, 28, 30, 32, 33, 36] committed=False
+19:28:43 [local-rrr] layer L17: failed=[611] blockers=[574, 578, 592, 609, 610, 612] committed=True
+19:28:54 [layer-repair] L6: committed 128 routes (seed 2), recovered=[25, 164, 408]
+19:29:20 [local-repair] rewrote fanout_selected.json (1024 routes) and fanout_validation.json (ok=None)
+19:29:21 [local-repair] record: repaired=129 world_valid=1024 remaining=0
+19:29:21 wrote experiment_E summary (1024 valid)
+19:29:21 wrote final artifacts: routes_l3d.json routed=1024 failed=0
+19:29:21 local repair stage final: 1024/1024 strict-valid, 0 failed (recovered 129)
+19:29:21 run_all done in 75.9s
+19:29:56 run_all stages=BCDE max_iters=2 limit=0
+19:29:56 === STAGE A: data verification + 1024 assignment ===
+19:29:56 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:29:58 [fanout] endpoints=128/736 routes=64/368 ok=64 failed=0 checks=64 elapsed=1.3s
+19:29:58 [fanout] endpoints=256/736 routes=128/368 ok=128 failed=0 checks=128 elapsed=2.1s
+19:29:59 [fanout] endpoints=384/736 routes=192/368 ok=192 failed=0 checks=192 elapsed=3.2s
+19:30:01 [fanout] endpoints=512/736 routes=256/368 ok=256 failed=0 checks=256 elapsed=4.3s
+19:30:01 [fanout] endpoints=640/736 routes=320/368 ok=320 failed=0 checks=320 elapsed=5.2s
+19:30:02 [fanout] endpoints=736/736 routes=368/368 ok=368 failed=0 checks=368 elapsed=5.8s
+19:30:20 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_B)
+19:30:20 experiment_B: routes=368 complete=368 failed=0 fanout_validation={'ok': True, 'transition_count': 736, 'endpoints_expected': 736, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (5.8s)
+19:30:21 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:30:21 [layer2d] L2 first pass: routed=64/64 failed=0 (0.5s)
+19:30:21 [layer2d] L2: routed=64/64 failed=0 (0.5s)
+19:30:21 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:30:22 [layer2d] L3 first pass: routed=64/64 failed=0 (0.5s)
+19:30:22 [layer2d] L3: routed=64/64 failed=0 (0.5s)
+19:30:22 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:30:22 [layer2d] L4 first pass: routed=64/64 failed=0 (0.5s)
+19:30:22 [layer2d] L4: routed=64/64 failed=0 (0.5s)
+19:30:22 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=36608
+19:30:22 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:30:22 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:30:22 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=3616
+19:30:22 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:30:22 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:30:22 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=8560
+19:30:22 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:30:22 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:30:22 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=14144
+19:30:23 [layer2d] L12 first pass: routed=40/40 failed=0 (0.3s)
+19:30:23 [layer2d] L12: routed=40/40 failed=0 (0.3s)
+19:30:23 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=17360
+19:30:23 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:30:23 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:30:23 [layer2d] all layers: routed=368/368 failed=0 (2.5s)
+19:30:23 experiment_C: routed=368/368 failed=0 validation=passed
+19:30:30 [fanout] endpoints=128/1312 routes=64/656 ok=432 failed=0 checks=432 elapsed=6.6s
+19:30:31 [fanout] endpoints=256/1312 routes=128/656 ok=496 failed=0 checks=496 elapsed=7.9s
+19:30:32 [fanout] endpoints=384/1312 routes=192/656 ok=560 failed=0 checks=560 elapsed=8.9s
+19:30:32 [fanout] endpoints=512/1312 routes=256/656 ok=624 failed=0 checks=624 elapsed=9.2s
+19:30:33 [fanout] endpoints=640/1312 routes=320/656 ok=688 failed=0 checks=688 elapsed=9.6s
+19:30:33 [fanout] endpoints=768/1312 routes=384/656 ok=752 failed=0 checks=752 elapsed=10.0s
+19:30:33 [fanout] endpoints=896/1312 routes=448/656 ok=816 failed=0 checks=816 elapsed=10.4s
+19:30:34 [fanout] endpoints=1024/1312 routes=512/656 ok=880 failed=0 checks=880 elapsed=10.9s
+19:30:34 [fanout] endpoints=1152/1312 routes=576/656 ok=944 failed=0 checks=944 elapsed=11.4s
+19:30:35 [fanout] endpoints=1280/1312 routes=640/656 ok=1008 failed=0 checks=1008 elapsed=11.9s
+19:30:35 [fanout] endpoints=1312/1312 routes=656/656 ok=1024 failed=0 checks=1024 elapsed=12.0s
+19:31:10 wrote fanout artifacts -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (experiment_D)
+19:31:10 experiment_D: routes=1024 complete=1024 failed=0 fanout_validation={'ok': True, 'transition_count': 2048, 'endpoints_expected': 2048, 'violations': 0, 'violation_kinds': {}, 'min_radius_mm': 15.0, 'examples': []} (12.1s)
+19:31:10 === STAGE E iteration 1/2 ===
+19:31:10 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:31:11 [layer2d] L2 first pass: routed=64/64 failed=0 (0.5s)
+19:31:11 [layer2d] L2: routed=64/64 failed=0 (0.5s)
+19:31:11 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:31:11 [layer2d] L3 first pass: routed=64/64 failed=0 (0.3s)
+19:31:11 [layer2d] L3: routed=64/64 failed=0 (0.3s)
+19:31:11 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:31:12 [layer2d] L4 first pass: routed=64/64 failed=0 (0.5s)
+19:31:12 [layer2d] L4: routed=64/64 failed=0 (0.5s)
+19:31:12 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:31:12 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:31:12 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:31:12 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:31:13 [layer2d] L6 first pass: routed=126/128 failed=2 (1.2s)
+19:31:14 [layer2d] L6 rrr round 1: pending=2 gained=0 routed=126/128
+19:31:14 [layer2d] L6: routed=126/128 failed=2 (1.8s)
+19:31:14 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:31:15 [layer2d] L7 first pass: routed=128/128 failed=0 (0.7s)
+19:31:15 [layer2d] L7: routed=128/128 failed=0 (0.7s)
+19:31:15 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:31:15 [layer2d] L8 first pass: routed=48/48 failed=0 (0.1s)
+19:31:15 [layer2d] L8: routed=48/48 failed=0 (0.1s)
+19:31:15 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:31:15 [layer2d] L9 first pass: routed=48/48 failed=0 (0.1s)
+19:31:15 [layer2d] L9: routed=48/48 failed=0 (0.1s)
+19:31:15 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:31:15 [layer2d] L10 first pass: routed=16/16 failed=0 (0.0s)
+19:31:15 [layer2d] L10: routed=16/16 failed=0 (0.0s)
+19:31:15 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:31:15 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:31:15 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:31:15 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:31:15 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:31:15 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:31:15 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:31:15 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:31:15 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:31:15 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:31:16 [layer2d] L14 first pass: routed=48/48 failed=0 (0.2s)
+19:31:16 [layer2d] L14: routed=48/48 failed=0 (0.2s)
+19:31:16 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:31:16 [layer2d] L15 first pass: routed=52/52 failed=0 (0.2s)
+19:31:16 [layer2d] L15: routed=52/52 failed=0 (0.2s)
+19:31:16 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:31:16 [layer2d] L16 first pass: routed=52/52 failed=0 (0.4s)
+19:31:16 [layer2d] L16: routed=52/52 failed=0 (0.4s)
+19:31:16 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:31:17 [layer2d] L17 first pass: routed=52/52 failed=0 (0.3s)
+19:31:17 [layer2d] L17: routed=52/52 failed=0 (0.3s)
+19:31:17 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:31:17 [layer2d] L18 first pass: routed=52/52 failed=0 (0.2s)
+19:31:17 [layer2d] L18: routed=52/52 failed=0 (0.2s)
+19:31:17 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:31:17 [layer2d] L19 first pass: routed=48/48 failed=0 (0.0s)
+19:31:17 [layer2d] L19: routed=48/48 failed=0 (0.0s)
+19:31:17 [layer2d] all layers: routed=1022/1024 failed=2 (6.6s)
+19:31:17 [layer2d] layers=18 routed=1022 failed=2 (6.6s)
+19:31:33 iteration 1: assembled=1022 world_valid=1022 violations=0 assembly_failures=2
+19:31:33 stage E: next repair targets=[164, 165] obstacle_layers=[]
+19:31:33 === STAGE E iteration 2/2 ===
+19:31:45 [fanout] endpoints=4/4 routes=2/2 ok=1024 failed=0 checks=1024 elapsed=11.7s
+19:31:45 fanout repair iteration 2: leads=(8.0, 16.0, 4.0, 2.0, 1.0, 0.25) repaired=1024/2
+19:31:46 [layer2d] routing layer L2 (z=-0.35 mm) tasks=64 obstacles=12928
+19:31:46 [layer2d] L2 first pass: routed=64/64 failed=0 (0.5s)
+19:31:46 [layer2d] L2: routed=64/64 failed=0 (0.5s)
+19:31:46 [layer2d] routing layer L3 (z=-0.29 mm) tasks=64 obstacles=25728
+19:31:47 [layer2d] L3 first pass: routed=64/64 failed=0 (0.4s)
+19:31:47 [layer2d] L3: routed=64/64 failed=0 (0.4s)
+19:31:47 [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=33280
+19:31:47 [layer2d] L4 first pass: routed=64/64 failed=0 (0.5s)
+19:31:47 [layer2d] L4: routed=64/64 failed=0 (0.5s)
+19:31:47 [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=43776
+19:31:47 [layer2d] L5 first pass: routed=64/64 failed=0 (0.3s)
+19:31:47 [layer2d] L5: routed=64/64 failed=0 (0.3s)
+19:31:47 [layer2d] routing layer L6 (z=-0.11 mm) tasks=128 obstacles=64896
+19:31:49 [layer2d] L6 first pass: routed=125/128 failed=3 (1.5s)
+19:31:49 [layer2d] L6 rrr round 1: pending=3 gained=2 routed=127/128
+19:31:49 [layer2d] L6 rrr round 2: pending=1 gained=0 routed=127/128
+19:31:50 [layer2d] L6: routed=127/128 failed=1 (2.1s)
+19:31:50 [layer2d] routing layer L7 (z=-0.05 mm) tasks=128 obstacles=105856
+19:31:51 [layer2d] L7 first pass: routed=125/128 failed=3 (1.4s)
+19:31:51 [layer2d] L7 rrr round 1: pending=3 gained=2 routed=127/128
+19:31:51 [layer2d] L7 rrr round 2: pending=1 gained=0 routed=127/128
+19:31:52 [layer2d] L7: routed=127/128 failed=1 (1.9s)
+19:31:52 [layer2d] routing layer L8 (z=+0.05 mm) tasks=48 obstacles=51296
+19:31:52 [layer2d] L8 first pass: routed=48/48 failed=0 (0.1s)
+19:31:52 [layer2d] L8: routed=48/48 failed=0 (0.1s)
+19:31:52 [layer2d] routing layer L9 (z=+0.10 mm) tasks=48 obstacles=17472
+19:31:52 [layer2d] L9 first pass: routed=48/48 failed=0 (0.1s)
+19:31:52 [layer2d] L9: routed=48/48 failed=0 (0.1s)
+19:31:52 [layer2d] routing layer L10 (z=+0.15 mm) tasks=16 obstacles=19168
+19:31:52 [layer2d] L10 first pass: routed=16/16 failed=0 (0.2s)
+19:31:52 [layer2d] L10: routed=16/16 failed=0 (0.2s)
+19:31:52 [layer2d] routing layer L11 (z=+0.20 mm) tasks=16 obstacles=19792
+19:31:52 [layer2d] L11 first pass: routed=16/16 failed=0 (0.0s)
+19:31:52 [layer2d] L11: routed=16/16 failed=0 (0.0s)
+19:31:52 [layer2d] routing layer L12 (z=+0.25 mm) tasks=40 obstacles=23456
+19:31:52 [layer2d] L12 first pass: routed=40/40 failed=0 (0.2s)
+19:31:52 [layer2d] L12: routed=40/40 failed=0 (0.2s)
+19:31:52 [layer2d] routing layer L13 (z=+0.30 mm) tasks=40 obstacles=30032
+19:31:53 [layer2d] L13 first pass: routed=40/40 failed=0 (0.2s)
+19:31:53 [layer2d] L13: routed=40/40 failed=0 (0.2s)
+19:31:53 [layer2d] routing layer L14 (z=+0.35 mm) tasks=48 obstacles=37952
+19:31:53 [layer2d] L14 first pass: routed=48/48 failed=0 (0.2s)
+19:31:53 [layer2d] L14: routed=48/48 failed=0 (0.2s)
+19:31:53 [layer2d] routing layer L15 (z=+0.40 mm) tasks=52 obstacles=50816
+19:31:53 [layer2d] L15 first pass: routed=52/52 failed=0 (0.2s)
+19:31:53 [layer2d] L15: routed=52/52 failed=0 (0.2s)
+19:31:53 [layer2d] routing layer L16 (z=+0.45 mm) tasks=52 obstacles=84416
+19:31:53 [layer2d] L16 first pass: routed=52/52 failed=0 (0.3s)
+19:31:53 [layer2d] L16: routed=52/52 failed=0 (0.3s)
+19:31:53 [layer2d] routing layer L17 (z=+0.55 mm) tasks=52 obstacles=60752
+19:31:54 [layer2d] L17 first pass: routed=52/52 failed=0 (0.2s)
+19:31:54 [layer2d] L17: routed=52/52 failed=0 (0.2s)
+19:31:54 [layer2d] routing layer L18 (z=+0.60 mm) tasks=52 obstacles=22048
+19:31:54 [layer2d] L18 first pass: routed=52/52 failed=0 (0.3s)
+19:31:54 [layer2d] L18: routed=52/52 failed=0 (0.3s)
+19:31:54 [layer2d] routing layer L19 (z=+0.65 mm) tasks=48 obstacles=11264
+19:31:54 [layer2d] L19 first pass: routed=48/48 failed=0 (0.0s)
+19:31:54 [layer2d] L19: routed=48/48 failed=0 (0.0s)
+19:31:54 [layer2d] all layers: routed=1022/1024 failed=2 (8.3s)
+19:31:54 [layer2d] layers=18 routed=1022 failed=2 (8.3s)
+19:32:11 iteration 2: assembled=1022 world_valid=1022 violations=0 assembly_failures=2
+19:32:11 stage E: next repair targets=[98, 435] obstacle_layers=[]
+19:32:11 [local-repair] attempting 2 failed routes
+19:32:12 [local-repair] frozen world: 1022 routes, bodies on 18 layers
+19:32:16 [local-repair] round 1: repaired=0 remaining=2
+19:32:20 [local-repair] round 2: repaired=0 remaining=2
+19:32:29 [local-rrr] layer L6: failed=[164, 165] blockers=[4, 13, 15, 30, 31, 38, 40, 145, 147, 166] committed=True
+19:32:52 [local-repair] rewrote fanout_selected.json (1024 routes) and fanout_validation.json (ok=None)
+19:32:52 [stage E] local repair record: repaired=2 world_valid=1024 remaining=0
+19:32:53 wrote experiment_E summary (1024 valid)
+19:32:53 wrote final artifacts: routes_l3d.json routed=1024 failed=0
+19:32:53 stage E final: 1024/1024 strict-valid routes, 0 failed (local repair recovered 2)
+19:32:53 run_all done in 176.8s
+19:34:01 run_all stages=R max_iters=3 limit=0
+19:34:01 === STAGE A: data verification + 1024 assignment ===
+19:34:01 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:34:11 run_all stages=R max_iters=3 limit=0
+19:34:11 === STAGE A: data verification + 1024 assignment ===
+19:34:11 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:34:11 wrote experiment_E summary (1024 valid)
+19:34:11 rewrote experiment_E summary: valid=1024 failed=0
+19:34:11 run_all done in 0.3s
+19:34:41 run_all stages=R max_iters=3 limit=0
+19:34:41 === STAGE A: data verification + 1024 assignment ===
+19:34:41 stage A ok: 1024 rows, planes={'z1': 512, 'z2': 512}, roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112}
+19:34:41 wrote experiment_E summary (1024 valid)
+19:34:41 rewrote experiment_E summary: valid=1024 failed=0
+19:34:41 run_all done in 0.3s

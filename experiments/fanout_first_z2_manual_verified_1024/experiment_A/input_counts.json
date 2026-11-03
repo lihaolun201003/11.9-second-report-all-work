@@ -1,0 +1,95 @@
+{
+ "schema": "fanout_first_experiment_A_input_counts_v1",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
+ "excel": {
+  "path": "C:\\Users\\lihao\\Desktop\\Z2人工U_具体端口分组_L10-L13_源数据待校验.xlsx",
+  "sha256": "6ea6bd1032da91a260f1568c83526f5eac6e352430d348fd921e9dfc4af36046",
+  "sheet_names": [
+   "Z2人工U_具体端口分组_L10-L13_源数据待校验"
+  ],
+  "data_rows": 112,
+  "columns": 26,
+  "layer_markers": {
+   "z1": 112
+  },
+  "per_group_counts": {
+   "Z2-U1": 16,
+   "Z2-U2": 16,
+   "Z2-U3": 40,
+   "Z2-U4": 40
+  }
+ },
+ "true_connection_data": {
+  "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_selected\\routes_1024.json",
+  "routes": 1024,
+  "z1": 512,
+  "z2": 512,
+  "z1_same": 256,
+  "z1_opposite": 256,
+  "z2_same": 112,
+  "z2_adjacent": 400,
+  "rotation_orbits": 256,
+  "orbit_counts": {
+   "z1_opposite": 64,
+   "z1_same": 64,
+   "z2_adjacent": 100,
+   "z2_same": 28
+  }
+ },
+ "physical_port_table": {
+  "source": "four_side_1024.v3c4.inputs.ENDPOINTS",
+  "ports": 2048
+ },
+ "manual_u_inputs": {
+  "z1_manual_routes": 256,
+  "z1_groups": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64
+  },
+  "z1_source": "user original 640-row manual CSV + previous verified assignment (cross-checked against true routes)",
+  "z2_manual_routes": 112,
+  "z2_groups": {
+   "Z2-U1": 16,
+   "Z2-U2": 16,
+   "Z2-U3": 40,
+   "Z2-U4": 40
+  },
+  "z2_source": "input Excel 112 rows independently matched to the true Z2 same-side routes (plane index corrected 1->2)",
+  "manual_total": 368
+ },
+ "non_manual_inputs": {
+  "z1_opposite_routes": 256,
+  "z1_opposite_orbits": 64,
+  "z2_adjacent_routes": 400,
+  "z2_adjacent_orbits": 100
+ },
+ "assignment": {
+  "csv": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\assignment_1024.csv",
+  "rows": 1024,
+  "unique_route_ids": 1024,
+  "z1": 512,
+  "z2": 512,
+  "manual_counts": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64,
+   "Z2-U4": 40,
+   "Z2-U3": 40,
+   "Z2-U2": 16,
+   "Z2-U1": 16
+  },
+  "layer_role_counts": {
+   "z1_other": 256,
+   "z1_manual_u": 256,
+   "z2_other": 400,
+   "z2_manual_u": 112
+  },
+  "direction_counts": {
+   "down": 872,
+   "up": 152
+  }
+ }
+}

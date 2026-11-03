@@ -1,0 +1,79 @@
+{
+ "schema": "fanout_first_z2_manual_verified_1024_consistency_v1",
+ "generated_at": "2026-11-03T19:34:19",
+ "clearance_mm": 0.05,
+ "layer_pitch_mm": 0.05,
+ "tests": [
+  {
+   "name": "world_accepts_50um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "world.check_route -> []"
+  },
+  {
+   "name": "validator_accepts_50um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "{'legal': True, 'illegal_gaps': []}"
+  },
+  {
+   "name": "world_rejects_49um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "kinds=['flat_cross_plane_too_close'] first=[{'kind': 'flat_cross_plane_too_close', 'route_id': 900003, 'z_mm': 0.049, 'other_z_mm': 0.0, 'detail': 'layer_gap=0.049<0.05'}]"
+  },
+  {
+   "name": "world_49um_is_flat_cross_plane_too_close",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "kinds=['flat_cross_plane_too_close']"
+  },
+  {
+   "name": "validator_rejects_49um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "{'legal': False, 'illegal_gaps': [0.049]}"
+  },
+  {
+   "name": "real_layer_stack_min_pitch_is_50um",
+   "expected": 0.05,
+   "actual": 0.05,
+   "passed": true,
+   "detail": "gaps=[0.06, 0.05999999999999997, 0.06, 0.06000000000000001, 0.06, 0.05, 0.05, 0.05, 0.04999999999999999, 0.05000000000000002, 0.04999999999999999, 0.04999999999999999, 0.04999999999999999, 0.050000000000000044, 0.04999999999999999, 0.04999999999999999, 0.050000000000000044, 0.04999999999999993, 0.050000000000000044]"
+  },
+  {
+   "name": "validator_rejects_49um_physical_stack",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "{'legal': False, 'illegal_gaps': [0.049]}"
+  },
+  {
+   "name": "d56_same_plane_50um_xy_is_illegal",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "violations=[{'route_a': 'synthetic_a', 'route_b': 'synthetic_b', 'kind': 'spacing', 'kinds': ['spacing'], 'distance_mm': 0.05000000000000071, 'x': 10.0, 'y': 10.025}]"
+  },
+  {
+   "name": "d56_same_plane_49um_xy_is_illegal",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "violations=[{'route_a': 'synthetic_a', 'route_b': 'synthetic_b', 'kind': 'spacing', 'kinds': ['spacing'], 'distance_mm': 0.04899999999999949, 'x': 10.0, 'y': 10.0245}]"
+  },
+  {
+   "name": "true_port_table_poses_consistent",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": null
+  }
+ ],
+ "all_passed": true
+}

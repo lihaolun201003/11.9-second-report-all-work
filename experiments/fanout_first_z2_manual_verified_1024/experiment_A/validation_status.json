@@ -1,0 +1,342 @@
+{
+ "schema": "fanout_first_experiment_A_validation_v1",
+ "status": "passed",
+ "checks_total": 27,
+ "checks_passed": 27,
+ "checks_failed": 0,
+ "failed_checks": [],
+ "checks": [
+  {
+   "id": "rows_1024",
+   "description": "exactly 1024 assignment rows",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "route_ids_unique",
+   "description": "1024 unique route ids",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "plane_split",
+   "description": "512 z1 + 512 z2 routes",
+   "status": "passed",
+   "detail": {
+    "z1": 512,
+    "z2": 512
+   }
+  },
+  {
+   "id": "manual_total",
+   "description": "368 manual routes (256 z1 + 112 z2)",
+   "status": "passed",
+   "detail": {
+    "z1_other": 256,
+    "z1_manual_u": 256,
+    "z2_other": 400,
+    "z2_manual_u": 112
+   }
+  },
+  {
+   "id": "manual_group_counts",
+   "description": "Z1 64/64/64/64 and Z2 16/16/40/40",
+   "status": "passed",
+   "detail": {
+    "Z1-U1": 64,
+    "Z1-U2": 64,
+    "Z1-U3": 64,
+    "Z1-U4": 64,
+    "Z2-U4": 40,
+    "Z2-U3": 40,
+    "Z2-U2": 16,
+    "Z2-U1": 16
+   }
+  },
+  {
+   "id": "manual_routes_fixed_layer",
+   "description": "every manual route on its user-mandated layer",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "manual_layer_not_overwritten",
+   "description": "no non-manual row on a manual layer",
+   "status": "passed",
+   "detail": []
+  },
+  {
+   "id": "endpoint_pairs_preserved",
+   "description": "port pairs identical to common.routes()",
+   "status": "passed",
+   "detail": []
+  },
+  {
+   "id": "target_z_matches_layer",
+   "description": "target_z_mm equals PHYSICAL_LAYERS[target_layer]",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "interface_z_matches_plane",
+   "description": "interface_z_mm equals 0.0 (z1) / 0.5 (z2)",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "direction_rule",
+   "description": "direction == 'down' iff target_z < interface_z",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "nonmanual_orbit_single_layer",
+   "description": "each non-manual C4 orbit keeps all 4 routes on one layer",
+   "status": "passed",
+   "detail": []
+  },
+  {
+   "id": "nonmanual_orbits_avoid_manual_layers",
+   "description": "no non-manual orbit on a manual layer",
+   "status": "passed",
+   "detail": []
+  },
+  {
+   "id": "z1_opposite_orbit_split",
+   "description": "64 z1 opposite orbits -> L6 32 / L7 32",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "z2_adjacent_orbit_split",
+   "description": "100 z2 adjacent orbits -> 12/13 per layer, 13 on the four layers closest to the Z2 interface",
+   "status": "passed",
+   "detail": {
+    "16": 13,
+    "17": 13,
+    "15": 13,
+    "18": 13,
+    "14": 12,
+    "19": 12,
+    "9": 12,
+    "8": 12
+   }
+  },
+  {
+   "id": "verified_csv_crosscheck",
+   "description": "assignment consumes the verified manual CSVs",
+   "status": "passed",
+   "detail": {
+    "z1": {
+     "present": true,
+     "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\z1_manual_u_verified_L2_L5.csv",
+     "sha256": "10597429b9ba5b01976f83b1973283774a26ba6df88140c75f3bb10c4f6dfb8c",
+     "csv_rows": 256,
+     "assignment_rows": 256,
+     "route_ids_match": true,
+     "group_and_layer_mismatches": [],
+     "consumed": true
+    },
+    "z2": {
+     "present": true,
+     "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\z2_manual_u_verified_L10_L13.csv",
+     "sha256": "5e023346ea6c612681c1d7351abdf654ae6749b5083b0bb1884825d11fc2f13a",
+     "csv_rows": 112,
+     "assignment_rows": 112,
+     "route_ids_match": true,
+     "group_and_layer_mismatches": [],
+     "consumed": true
+    }
+   }
+  },
+  {
+   "id": "deterministic_rebuild",
+   "description": "two consecutive builds are byte-identical",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "manual_csv_route_ids_equal_manual_assignment",
+   "description": "verified-CSV route ids == manual route ids in the assignment",
+   "status": "passed",
+   "detail": null
+  },
+  {
+   "id": "excel_rows_112",
+   "description": "Excel has exactly 112 raw data rows",
+   "status": "passed",
+   "detail": {
+    "rows": 112
+   }
+  },
+  {
+   "id": "z2_match_complete",
+   "description": "112/112 Excel rows matched to unique true z2 same routes with no unmatched/conflict row",
+   "status": "passed",
+   "detail": {
+    "matched": 112,
+    "unmatched": 0,
+    "conflicts": 0
+   }
+  },
+  {
+   "id": "z2_template_agreement",
+   "description": "connector template reproduces the Excel grouping for all 112 rows",
+   "status": "passed",
+   "detail": {
+    "agreement": 112
+   }
+  },
+  {
+   "id": "z2_orbits_complete",
+   "description": "all 28 z2 same C4 orbits fully covered",
+   "status": "passed",
+   "detail": {
+    "covered": 28,
+    "total": 28
+   }
+  },
+  {
+   "id": "z2_coordinates_available",
+   "description": "all confirmed z2 routes have real coordinates",
+   "status": "passed"
+  },
+  {
+   "id": "z1_manual_complete",
+   "description": "256 true z1 same routes == Z1 manual-U set, 64 per group",
+   "status": "passed",
+   "detail": {
+    "routes": 256,
+    "per_group": {
+     "Z1-U1": 64,
+     "Z1-U2": 64,
+     "Z1-U3": 64,
+     "Z1-U4": 64
+    }
+   }
+  },
+  {
+   "id": "z1_prior_vs_640_csv",
+   "description": "previous verified assignment and the user 640-row CSV agree on all z1 manual routes",
+   "status": "passed",
+   "detail": {
+    "mismatches": []
+   }
+  },
+  {
+   "id": "z1_coordinates_available",
+   "description": "all 256 z1 manual routes have real coordinates",
+   "status": "passed"
+  },
+  {
+   "id": "claim_112_confirmed",
+   "description": "the 112-row Z2 manual-U claim is confirmed",
+   "status": "passed"
+  }
+ ],
+ "data_audit_verdict": {
+  "excel_rows": 112,
+  "excel_rows_that_are_z1_data": 112,
+  "z2_manual_rows_matched": 112,
+  "z2_unmatched": 0,
+  "z2_conflicts": 0,
+  "z2_groups": {
+   "Z2-U1": 16,
+   "Z2-U2": 16,
+   "Z2-U3": 40,
+   "Z2-U4": 40
+  },
+  "claim_112_confirmed": true,
+  "z1_manual_routes": 256,
+  "z1_manual_groups": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64
+  }
+ },
+ "assignment_verdict": {
+  "rows": 1024,
+  "unique_route_ids": 1024,
+  "z1": 512,
+  "z2": 512,
+  "manual_counts": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64,
+   "Z2-U4": 40,
+   "Z2-U3": 40,
+   "Z2-U2": 16,
+   "Z2-U1": 16
+  },
+  "physical_layer_counts": {
+   "2": 64,
+   "3": 64,
+   "4": 64,
+   "5": 64,
+   "6": 128,
+   "7": 128,
+   "8": 48,
+   "9": 48,
+   "10": 16,
+   "11": 16,
+   "12": 40,
+   "13": 40,
+   "14": 48,
+   "15": 52,
+   "16": 52,
+   "17": 52,
+   "18": 52,
+   "19": 48
+  },
+  "physical_layer_orbit_counts": {
+   "2": 32,
+   "3": 32,
+   "4": 32,
+   "5": 32,
+   "6": 32,
+   "7": 32,
+   "8": 12,
+   "9": 12,
+   "10": 8,
+   "11": 8,
+   "12": 20,
+   "13": 20,
+   "14": 12,
+   "15": 13,
+   "16": 13,
+   "17": 13,
+   "18": 13,
+   "19": 12
+  },
+  "all_invariants_passed": true,
+  "invariant_failures": []
+ },
+ "assignment_ready_for_stage_B": true,
+ "stage_summary": {
+  "stage": "experiment_A",
+  "input_line_count": {
+   "excel_rows": 112,
+   "true_routes": 1024
+  },
+  "attempted": {
+   "excel_rows": 112,
+   "assignment_rows": 1024
+  },
+  "success": {
+   "excel_rows_matched": 112,
+   "assignment_rows": 1024
+  },
+  "failures": {
+   "excel_rows_unmatched": 0,
+   "excel_rows_conflicts": 0,
+   "assignment_invariant_failures": 0
+  },
+  "failure_reasons": {},
+  "validation_status": "passed"
+ },
+ "notes": [
+  "experienced failures are listed explicitly; nothing is counted as passed unless the check is evaluated"
+ ]
+}

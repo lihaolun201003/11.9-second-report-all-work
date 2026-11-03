@@ -1,0 +1,315 @@
+{
+ "schema": "fanout_first_input_excel_audit_v1",
+ "file": "C:\\Users\\lihao\\Desktop\\Z2人工U_具体端口分组_L10-L13_源数据待校验.xlsx",
+ "sha256": "6ea6bd1032da91a260f1568c83526f5eac6e352430d348fd921e9dfc4af36046",
+ "sheet_names": [
+  "Z2人工U_具体端口分组_L10-L13_源数据待校验"
+ ],
+ "sheet_count": 1,
+ "active_sheet": "Z2人工U_具体端口分组_L10-L13_源数据待校验",
+ "column_count": 26,
+ "headers": [
+  "route_id",
+  "source_side",
+  "source_connector",
+  "source_row",
+  "source_column",
+  "source_channel",
+  "target_side",
+  "target_connector",
+  "target_row",
+  "target_column",
+  "target_channel",
+  "relation",
+  "source_port_id",
+  "target_port_id",
+  "source_x_mm",
+  "source_y_mm",
+  "target_x_mm",
+  "target_y_mm",
+  "layer",
+  "manual_group",
+  "numbering_scheme",
+  "direction_group",
+  "proposed_z2_layer",
+  "proposed_target_z_mm",
+  "actual_source_layer",
+  "audit_status"
+ ],
+ "data_rows": 112,
+ "layer_markers": {
+  "z1": 112
+ },
+ "actual_source_layer": {
+  "z1": 112
+ },
+ "audit_status": {
+  "SOURCE_IS_Z1__Z2_ROUTE_ID_UNVERIFIED": 112
+ },
+ "relation_claim": {
+  "same": 112
+ },
+ "per_group_counts": {
+  "Z2-U1": 16,
+  "Z2-U2": 16,
+  "Z2-U3": 40,
+  "Z2-U4": 40
+ },
+ "numbering_scheme_counts": {
+  "第一套编号": 32,
+  "第二套编号": 80
+ },
+ "numbering_scheme_by_group": {
+  "Z2-U1": {
+   "第一套编号": 16
+  },
+  "Z2-U2": {
+   "第一套编号": 16
+  },
+  "Z2-U3": {
+   "第二套编号": 40
+  },
+  "Z2-U4": {
+   "第二套编号": 40
+  }
+ },
+ "direction_group_by_group": {
+  "Z2-U1": {
+   "南北": 16
+  },
+  "Z2-U2": {
+   "东西": 16
+  },
+  "Z2-U3": {
+   "南北": 40
+  },
+  "Z2-U4": {
+   "东西": 40
+  }
+ },
+ "numbering_scheme_consistency": {
+  "first_numbering_groups": [
+   "Z2-U1",
+   "Z2-U2"
+  ],
+  "second_numbering_groups": [
+   "Z2-U3",
+   "Z2-U4"
+  ],
+  "consistent": true,
+  "note": "U1/U2 carry the first numbering-scheme label and U3/U4 the second one; the labels themselves are the user workbook text and are not interpreted"
+ },
+ "direction_group_consistency": {
+  "consistent": true,
+  "by_group": {
+   "Z2-U1": {
+    "南北": 16
+   },
+   "Z2-U2": {
+    "东西": 16
+   },
+   "Z2-U3": {
+    "南北": 40
+   },
+   "Z2-U4": {
+    "东西": 40
+   }
+  }
+ },
+ "proposed_z2_layers": {
+  "L10": 16,
+  "L11": 16,
+  "L12": 40,
+  "L13": 40
+ },
+ "proposed_target_z_mm": {
+  "0.15": 16,
+  "0.2": 16,
+  "0.25": 40,
+  "0.3": 40
+ },
+ "proposal_consistent_with_manual_layer_map": true,
+ "proposal_layer_mismatches": [],
+ "proposal_z_mismatches": [],
+ "port_plane_indexes": {
+  "1": 224
+ },
+ "route_id_authority": {
+  "excel_route_id_count": 112,
+  "unique_excel_route_ids": 112,
+  "duplicate_route_ids": [],
+  "all_excel_ids_in_true_z1_id_range": true,
+  "excel_route_id_min": 65,
+  "excel_route_id_max": 512,
+  "exact_endpoint_pair_agreement_with_true_route_of_same_id": 0,
+  "true_relation_of_same_id_routes": {
+   "same": 64,
+   "opposite": 48
+  },
+  "conclusion": "route_id is NOT authoritative: the Excel route ids are Z1 route-id numbers and 0/112 agree with the true route of that id"
+ },
+ "route_id_mismatch_examples": [
+  {
+   "original_excel_row": 2,
+   "excel_route_id": 66,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N16:1:1->N09:1:1",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N03:1:10->N07:1:15"
+   }
+  },
+  {
+   "original_excel_row": 3,
+   "excel_route_id": 67,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N08:1:16->N01:1:16",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N07:1:14->N03:1:11"
+   }
+  },
+  {
+   "original_excel_row": 4,
+   "excel_route_id": 68,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N08:1:15->N02:1:15",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N03:1:12->N07:1:13"
+   }
+  },
+  {
+   "original_excel_row": 5,
+   "excel_route_id": 69,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N02:1:16->N07:1:16",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N07:1:12->N03:1:13"
+   }
+  },
+  {
+   "original_excel_row": 6,
+   "excel_route_id": 70,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N07:1:15->N03:1:15",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N03:1:14->N07:1:11"
+   }
+  },
+  {
+   "original_excel_row": 7,
+   "excel_route_id": 71,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N09:1:2->N15:1:2",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N07:1:10->N03:1:15"
+   }
+  },
+  {
+   "original_excel_row": 8,
+   "excel_route_id": 72,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N15:1:1->N10:1:1",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N03:1:16->N07:1:9"
+   }
+  },
+  {
+   "original_excel_row": 9,
+   "excel_route_id": 73,
+   "excel_manual_group": "Z2-U1",
+   "excel_ports": "N10:1:2->N14:1:2",
+   "true_route_of_same_id": {
+    "plane": "z1",
+    "relation": "same",
+    "endpoints": "N08:1:16->N01:1:9"
+   }
+  }
+ ],
+ "z1_plane_copy_evidence": {
+  "port_ids_with_plane_index_1": 224,
+  "port_ids_with_plane_index_2": 0,
+  "rows_with_all_ports_on_plane_index_1": 112,
+  "literal_plane1_unordered_pair_matches_true_z1_same": 48,
+  "literal_plane1_unordered_pair_matches_true_z1_other": 0,
+  "literal_plane1_unordered_pair_matches_true_z2": 0,
+  "plane2_corrected_matches_true_z2_same": 112,
+  "plane2_corrected_matches_true_z1_any": 0,
+  "literal_z1_same_hits_by_excel_group": {
+   "Z2-U3": 24,
+   "Z2-U4": 24
+  },
+  "note": "The Excel is Z1-plane-numbered data (plane index 1 everywhere). Correcting only the interface plane index 1 -> 2 maps all 112 rows onto true Z2 same-side connections.  The 48 literal plane-1 coincidences with true Z1 same routes are connector/column pattern overlaps between the two interface planes (the same board XY footprint exists at z=0 and z=0.5); they are NOT the intended Z2 manual-U connections and are not used."
+ },
+ "matching_rule": "Candidates are true routes with plane==\"z2\" and relation==\"same\" whose unordered endpoint connector pair and same-side property equal the Excel row (primary key).  When more than one candidate shares that connector pair, the Excel row row/column/channel fingerprint -- with each endpoint plane index corrected 1 -> 2 (row 2, channel = column + 16) -- must match exactly one candidate.  0 candidates -> unmatched, >1 -> conflict; the Excel route_id is never used as a matching key.",
+ "z2_templates": {
+  "Z2-U1": {
+   "side_kind": "NS",
+   "layer": 10,
+   "numbering": "first",
+   "pairs": [
+    "01-08",
+    "02-08",
+    "02-07",
+    "03-07",
+    "09-16",
+    "09-15",
+    "10-15",
+    "10-14"
+   ]
+  },
+  "Z2-U2": {
+   "side_kind": "EW",
+   "layer": 11,
+   "numbering": "first",
+   "pairs": [
+    "01-08",
+    "02-08",
+    "02-07",
+    "03-07",
+    "09-16",
+    "09-15",
+    "10-15",
+    "10-14"
+   ]
+  },
+  "Z2-U3": {
+   "side_kind": "NS",
+   "layer": 12,
+   "numbering": "second",
+   "pairs": [
+    "01-16",
+    "02-15",
+    "03-14",
+    "04-13",
+    "05-12",
+    "06-11"
+   ]
+  },
+  "Z2-U4": {
+   "side_kind": "EW",
+   "layer": 13,
+   "numbering": "second",
+   "pairs": [
+    "01-16",
+    "02-15",
+    "03-14",
+    "04-13",
+    "05-12",
+    "06-11"
+   ]
+  }
+ }
+}

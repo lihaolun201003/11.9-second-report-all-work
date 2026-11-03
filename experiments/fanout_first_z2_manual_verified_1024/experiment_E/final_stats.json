@@ -1,0 +1,14 @@
+{
+ "input_routes": 1024,
+ "attempted_routes": 1024,
+ "successful_routes": 269,
+ "failed_routes": 755,
+ "failure_reasons": {
+  "route_construction:no_body": 192,
+  "global_3d:flat_same_plane_conflict": 529,
+  "global_3d:flat_vs_transition": 5,
+  "global_3d:transition_vs_flat": 28,
+  "global_3d:self_clearance": 1
+ },
+ "validation_status": "world checks only; independent final validation pending"
+}

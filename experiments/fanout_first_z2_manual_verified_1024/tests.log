@@ -1,0 +1,98 @@
+==============================================================================
+SUITE: tests_data
+CMD: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.tests_data
+==============================================================================
+=== fanout1024 data/assignment self-tests ===
+PASS test_excel_workbook_is_raw_z1_data  [1 sheet, 112 rows, all layer=z1 / plane index 1, groups {'Z2-U1': 16, 'Z2-U2': 16, 'Z2-U3': 40, 'Z2-U4': 40}]
+PASS test_excel_route_id_is_not_authoritative  [0/112 same-id agreement; plane index 1 -> 2 correction maps all 112 rows onto true z2 same routes (48 literal z1-pattern overlaps are documented)]
+PASS test_z2_matched_count_equals_true_z2_same_112_and_16_16_40_40  [matched 112 == true z2 same 112 == 16+16+40+40]
+PASS test_z2_match_has_no_duplicate_route_ids  [112 unique ids, no route in two groups]
+PASS test_z2_c4_orbit_structure  [28/28 orbits complete, 8 first-numbering + 20 second-numbering]
+PASS test_z2_template_grouping_matches_excel_groups  [all 112 rows grouped by the connector-number template; no empty template pair]
+PASS test_all_matched_endpoints_have_real_coordinates  [1472 endpoints checked in the 2048-port table]
+PASS test_z1_manual_u_verification  [256/256 z1 same routes, 64 per group, 64 orbits, 32/32 numbering]
+PASS test_verified_csv_files_exist_and_match_schema  [z1_manual_u_verified_L2_L5.csv=256, z2_manual_u_verified_L10_L13.csv=112, 112 audited, 0 unmatched, 0 conflicts]
+PASS test_assignment_invariants_1024  [1024 rows / 512-512 planes / 18 layers / 18 invariants]
+PASS test_assignment_matches_verified_manual_csvs  [256 + 112 manual rows match the verified CSVs exactly]
+PASS test_assignment_target_z_and_13_orbit_layers  [13-orbit layers are exactly the four closest to z=0.5]
+PASS test_experiment_a_files_and_verdicts  [5 files, 9 audit questions, validation passed]
+PASS test_summary_answers_all_required_questions  [summary answers Q1-Q8 + the 112 claim + Z1 truth]
+PASS test_artifacts_are_deterministic  [17 deliverable files byte-identical after two runs]
+PASS test_assignment_columns_contract  [DESIGN 3.2 columns + stack/rules payloads verified]
+------------------------------------------------------------
+TESTS: 16 passed, 0 failed (of 16)
+RESULT: ALL TESTS PASSED
+
+EXIT CODE: 0
+
+==============================================================================
+SUITE: tests_fanout
+CMD: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.tests_fanout
+==============================================================================
+============================= test session starts =============================
+platform win32 -- Python 3.10.11, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D
+collecting ... collected 7 items
+
+four_side_1024/fanout1024/tests_fanout.py::test_candidate_transitions_geometry PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_candidate_transitions_rejects_short_leads_and_accepts_route_records PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_manual_experiment_b [experiment_B] groups: {'Z1-U1': 64, 'Z1-U2': 64, 'Z1-U3': 64, 'Z1-U4': 64, 'Z2-U1': 16, 'Z2-U2': 16, 'Z2-U3': 40, 'Z2-U4': 40}
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_all_1024_fanout [all-1024] success_routes= 1024 failures= 0 seconds= 11.906 lead_histogram= {0.25: 2048}
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_pair_distances_and_endpoint_coverage [pair-audit] transitions min sampled= 0.25 certified= 0.2 worst= (1, 'source', 2, 'source')
+[pair-audit] transition-vs-foreign-lead min sampled= 0.25 certified= 0.2 worst= (1, 'source', 2, 'source')
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_landings_and_layer_obstacles [layer_obstacles] counts= {2: 12928, 3: 25728, 4: 33280, 5: 43776, 6: 64896, 7: 105856, 8: 51296, 9: 17472, 10: 19168, 11: 19792, 12: 23456, 13: 30032, 14: 37952, 15: 50816, 16: 84416, 17: 60752, 18: 22048, 19: 11264} elapsed= 0.57 cached= 0.015
+PASSED
+four_side_1024/fanout1024/tests_fanout.py::test_fixed_endpoints_are_immutable_and_repair_works PASSED
+
+============================= 7 passed in 54.40s ==============================
+
+EXIT CODE: 0
+
+==============================================================================
+SUITE: tests_layer2d
+CMD: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\tests_layer2d.py
+==============================================================================
+[test] integration L2: 64/64 failed=0 0.5s
+[test] integration L3: 64/64 failed=0 0.3s
+[test] integration L4: 64/64 failed=0 0.5s
+[test] integration L5: 64/64 failed=0 0.3s
+[test] integration L6: 127/128 failed=1 1.4s
+[test] integration L7: 128/128 failed=0 0.7s
+[test] integration L8: 48/48 failed=0 0.1s
+[test] integration L9: 48/48 failed=0 0.0s
+[test] integration L10: 16/16 failed=0 0.1s
+[test] integration L11: 16/16 failed=0 0.0s
+[test] integration L12: 40/40 failed=0 0.2s
+[test] integration L13: 40/40 failed=0 0.2s
+[test] integration L14: 48/48 failed=0 0.2s
+[test] integration L15: 52/52 failed=0 0.2s
+[test] integration L16: 52/52 failed=0 0.4s
+[test] integration L17: 52/52 failed=0 0.3s
+[test] integration L18: 52/52 failed=0 0.2s
+[test] integration L19: 48/48 failed=0 0.1s
+[test] integration total: 1023/1024
+[test] synthetic L8 adjacent: 48/48 (100.0%) families={'ADJ_L': 48}
+[test] synthetic L6 opposite: 125/128 (97.7%) families={'OPP_STRAIGHT': 16, 'OPP_SHORT_S': 61, 'OPP_Z': 54, 'OPP_S2_SPLIT': 1, 'OPP_Z2_SAME': 1} reasons={'candidate_budget_exhausted': 3}
+
+--- stderr ---
+test_repair_into_frozen_layout (__main__.TestInitialRoutesRepair) ... ok
+test_all_layers_integration (__main__.TestIntegration) ... ok
+test_all_manual_layers_routed (__main__.TestManualLayers) ... ok
+test_adjacent_50_routes (__main__.TestOppositeAdjacentLayers) ... ok
+test_opposite_128_routes (__main__.TestOppositeAdjacentLayers) ... ok
+test_adjacent (__main__.TestSyntheticClasses) ... ok
+test_opposite (__main__.TestSyntheticClasses) ... ok
+test_same_side_u (__main__.TestSyntheticClasses) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 15.212s
+
+OK
+
+EXIT CODE: 0
+
+SUMMARY: tests_data=PASS, tests_fanout=PASS, tests_layer2d=PASS

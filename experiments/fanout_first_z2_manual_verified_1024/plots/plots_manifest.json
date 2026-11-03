@@ -1,0 +1,64 @@
+{
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\plots",
+ "generated_at": "2026-11-03T19:34:26",
+ "figures": [
+  {
+   "name": "01_3d_all_routes",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\plots\\01_3d_all_routes.png",
+   "bytes": 1736338
+  },
+  {
+   "name": "02_3d_manual_groups",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\plots\\02_3d_manual_groups.png",
+   "bytes": 1050782
+  },
+  {
+   "name": "03_layer_stack_section",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\plots\\03_layer_stack_section.png",
+   "bytes": 110977
+  },
+  {
+   "name": "04_per_layer_2d",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\plots\\04_per_layer_2d.png",
+   "bytes": 1152933
+  },
+  {
+   "name": "05_manual_2d_layers",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\plots\\05_manual_2d_layers.png",
+   "bytes": 875209
+  },
+  {
+   "name": "06_validation_summary",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\plots\\06_validation_summary.png",
+   "bytes": 81647
+  }
+ ],
+ "skipped": [],
+ "log": [
+  {
+   "level": "info",
+   "message": "wrote 01_3d_all_routes.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote 02_3d_manual_groups.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote 03_layer_stack_section.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote 04_per_layer_2d.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote 05_manual_2d_layers.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote 06_validation_summary.png"
+  }
+ ]
+}

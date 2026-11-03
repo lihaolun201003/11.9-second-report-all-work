@@ -1,0 +1,3365 @@
+{
+ "schema": "fanout_first_z2_manual_u_summary_v1",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
+ "excel_file": {
+  "path": "C:\\Users\\lihao\\Desktop\\Z2人工U_具体端口分组_L10-L13_源数据待校验.xlsx",
+  "sha256": "6ea6bd1032da91a260f1568c83526f5eac6e352430d348fd921e9dfc4af36046",
+  "sheet_names": [
+   "Z2人工U_具体端口分组_L10-L13_源数据待校验"
+  ],
+  "active_sheet": "Z2人工U_具体端口分组_L10-L13_源数据待校验",
+  "data_rows": 112,
+  "column_count": 26,
+  "layer_markers": {
+   "z1": 112
+  },
+  "per_group_counts": {
+   "Z2-U1": 16,
+   "Z2-U2": 16,
+   "Z2-U3": 40,
+   "Z2-U4": 40
+  }
+ },
+ "q1_excel_raw_rows": 112,
+ "q2_excel_rows_that_are_z1_data": {
+  "excel_rows": 112,
+  "rows_marked_layer_z1": 112,
+  "rows_with_all_port_plane_index_1": 112,
+  "rows_actual_source_layer_z1": 112,
+  "rows_route_id_in_z1_range": 112,
+  "answer": "all 112 Excel rows are raw Z1-plane-numbered data: every row has layer==\"z1\", actual_source_layer==\"z1\", every one of the 224 endpoint port ids carries plane index 1, and all route ids are Z1 route-id numbers (<=512)"
+ },
+ "q3_true_z2_connections_satisfying_manual_template": {
+  "true_z2_connections": 512,
+  "z2_same_routes": 112,
+  "satisfying_manual_template": 112,
+  "satisfying_manual_template_same": 112,
+  "z2_same_routes_outside_template": [],
+  "answer": "112 of the 512 true Z2 connections satisfy the manual-U connector template (same side + template connector pair + plane z2); they are exactly the 112 z2 same-relation routes"
+ },
+ "q4_per_group_totals": {
+  "Z2-U1": {
+   "excel_rows": 16,
+   "target_layer": 10,
+   "target_z_mm": 0.15,
+   "pattern": "NS-first",
+   "numbering": "first",
+   "excel_numbering_scheme_labels": {
+    "第一套编号": 16
+   },
+   "numbering_label_consistent": true,
+   "side_kind": "NS",
+   "sides": {
+    "N": 8,
+    "S": 8
+   },
+   "orbits": [
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201
+   ],
+   "connector_pairs": {
+    "09-16": 2,
+    "01-08": 2,
+    "02-08": 2,
+    "02-07": 2,
+    "03-07": 2,
+    "09-15": 2,
+    "10-15": 2,
+    "10-14": 2
+   },
+   "template_pairs": [
+    "01-08",
+    "02-08",
+    "02-07",
+    "03-07",
+    "09-16",
+    "09-15",
+    "10-15",
+    "10-14"
+   ],
+   "all_coordinates_available": true
+  },
+  "Z2-U2": {
+   "excel_rows": 16,
+   "target_layer": 11,
+   "target_z_mm": 0.2,
+   "pattern": "EW-first",
+   "numbering": "first",
+   "excel_numbering_scheme_labels": {
+    "第一套编号": 16
+   },
+   "numbering_label_consistent": true,
+   "side_kind": "EW",
+   "sides": {
+    "E": 8,
+    "W": 8
+   },
+   "orbits": [
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201
+   ],
+   "connector_pairs": {
+    "09-16": 2,
+    "01-08": 2,
+    "02-08": 2,
+    "09-15": 2,
+    "02-07": 2,
+    "10-15": 2,
+    "03-07": 2,
+    "10-14": 2
+   },
+   "template_pairs": [
+    "01-08",
+    "02-08",
+    "02-07",
+    "03-07",
+    "09-16",
+    "09-15",
+    "10-15",
+    "10-14"
+   ],
+   "all_coordinates_available": true
+  },
+  "Z2-U3": {
+   "excel_rows": 40,
+   "target_layer": 12,
+   "target_z_mm": 0.25,
+   "pattern": "NS-second",
+   "numbering": "second",
+   "excel_numbering_scheme_labels": {
+    "第二套编号": 40
+   },
+   "numbering_label_consistent": true,
+   "side_kind": "NS",
+   "sides": {
+    "N": 20,
+    "S": 20
+   },
+   "orbits": [
+    193,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256
+   ],
+   "connector_pairs": {
+    "01-16": 14,
+    "06-11": 4,
+    "05-12": 4,
+    "04-13": 4,
+    "03-14": 2,
+    "02-15": 12
+   },
+   "template_pairs": [
+    "01-16",
+    "02-15",
+    "03-14",
+    "04-13",
+    "05-12",
+    "06-11"
+   ],
+   "all_coordinates_available": true
+  },
+  "Z2-U4": {
+   "excel_rows": 40,
+   "target_layer": 13,
+   "target_z_mm": 0.3,
+   "pattern": "EW-second",
+   "numbering": "second",
+   "excel_numbering_scheme_labels": {
+    "第二套编号": 40
+   },
+   "numbering_label_consistent": true,
+   "side_kind": "EW",
+   "sides": {
+    "E": 20,
+    "W": 20
+   },
+   "orbits": [
+    193,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256
+   ],
+   "connector_pairs": {
+    "01-16": 14,
+    "06-11": 4,
+    "05-12": 4,
+    "04-13": 4,
+    "03-14": 2,
+    "02-15": 12
+   },
+   "template_pairs": [
+    "01-16",
+    "02-15",
+    "03-14",
+    "04-13",
+    "05-12",
+    "06-11"
+   ],
+   "all_coordinates_available": true
+  }
+ },
+ "q4_per_group_totals_simple": {
+  "Z2-U1": 16,
+  "Z2-U2": 16,
+  "Z2-U3": 40,
+  "Z2-U4": 40
+ },
+ "q5_duplicate_route_ids": {
+  "duplicate_excel_route_ids": [],
+  "duplicate_matched_route_ids": [],
+  "count": 0,
+  "answer": "no duplicate route ids in the Excel and no duplicate real Z2 route ids among the 112 confirmed rows"
+ },
+ "q6_routes_in_two_groups": {
+  "route_ids": [],
+  "count": 0,
+  "z1_manual_route_ids": 256,
+  "z2_manual_route_ids": 112,
+  "z1_z2_id_disjoint": true,
+  "answer": "no route is assigned to two manual groups; the z1 manual route ids (1..512) and the z2 manual route ids (513..1024) are disjoint"
+ },
+ "q7_template_pairs_with_no_real_z2_route": {
+  "pairs": [],
+  "count": 0,
+  "answer": "every connector-number template pair is realised by at least one true Z2 route in both direction sides (no missing template pair)",
+  "coverage": {
+   "Z2-U1": {
+    "N:01-08": 1,
+    "N:02-08": 1,
+    "N:02-07": 1,
+    "N:03-07": 1,
+    "N:09-16": 1,
+    "N:09-15": 1,
+    "N:10-15": 1,
+    "N:10-14": 1,
+    "S:01-08": 1,
+    "S:02-08": 1,
+    "S:02-07": 1,
+    "S:03-07": 1,
+    "S:09-16": 1,
+    "S:09-15": 1,
+    "S:10-15": 1,
+    "S:10-14": 1
+   },
+   "Z2-U2": {
+    "E:01-08": 1,
+    "E:02-08": 1,
+    "E:02-07": 1,
+    "E:03-07": 1,
+    "E:09-16": 1,
+    "E:09-15": 1,
+    "E:10-15": 1,
+    "E:10-14": 1,
+    "W:01-08": 1,
+    "W:02-08": 1,
+    "W:02-07": 1,
+    "W:03-07": 1,
+    "W:09-16": 1,
+    "W:09-15": 1,
+    "W:10-15": 1,
+    "W:10-14": 1
+   },
+   "Z2-U3": {
+    "N:01-16": 7,
+    "N:02-15": 6,
+    "N:03-14": 1,
+    "N:04-13": 2,
+    "N:05-12": 2,
+    "N:06-11": 2,
+    "S:01-16": 7,
+    "S:02-15": 6,
+    "S:03-14": 1,
+    "S:04-13": 2,
+    "S:05-12": 2,
+    "S:06-11": 2
+   },
+   "Z2-U4": {
+    "E:01-16": 7,
+    "E:02-15": 6,
+    "E:03-14": 1,
+    "E:04-13": 2,
+    "E:05-12": 2,
+    "E:06-11": 2,
+    "W:01-16": 7,
+    "W:02-15": 6,
+    "W:03-14": 1,
+    "W:04-13": 2,
+    "W:05-12": 2,
+    "W:06-11": 2
+   }
+  }
+ },
+ "q8_coordinate_availability": {
+  "confirmed_routes": 112,
+  "routes_with_all_coordinates": 112,
+  "missing_route_ids": [],
+  "endpoint_table": "four_side_1024.v3c4.inputs.ENDPOINTS (2048 physical ports with routing_xy)",
+  "answer": "every confirmed route has real board coordinates: both endpoints of all 112 matched routes exist in the 2048-port table with finite routing_xy"
+ },
+ "claim_112_confirmed": {
+  "claimed": 112,
+  "independently_reproduced": 112,
+  "confirmed": true,
+  "per_group": {
+   "Z2-U1": 16,
+   "Z2-U2": 16,
+   "Z2-U3": 40,
+   "Z2-U4": 40
+  },
+  "answer": "CONFIRMED: 112/112 Excel rows independently match exactly one true z2 same route (16/16/40/40)"
+ },
+ "excel_rows_matched": 112,
+ "q2_z1_data_row_count": 112,
+ "q3_template_satisfying_count": 112,
+ "q4_group_totals_flat": {
+  "Z2-U1": 16,
+  "Z2-U2": 16,
+  "Z2-U3": 40,
+  "Z2-U4": 40
+ },
+ "q5_duplicate_route_id_count": 0,
+ "q6_routes_in_two_groups_count": 0,
+ "q7_missing_template_pair_count": 0,
+ "q8_routes_without_coordinates": 0,
+ "claim_112": true,
+ "unmatched_rows": 0,
+ "conflict_rows": 0,
+ "unique_matched_route_ids": 112,
+ "true_z2_same_routes": 112,
+ "true_z2_same_routes_not_matched": [],
+ "matched_routes_not_in_true_z2_same": [],
+ "matching_method": "z2_true_route_plane2_same_side_connector_pair_then_column_channel_fingerprint_unique",
+ "matching_rule": "Candidates are true routes with plane==\"z2\" and relation==\"same\" whose unordered endpoint connector pair and same-side property equal the Excel row (primary key).  When more than one candidate shares that connector pair, the Excel row row/column/channel fingerprint -- with each endpoint plane index corrected 1 -> 2 (row 2, channel = column + 16) -- must match exactly one candidate.  0 candidates -> unmatched, >1 -> conflict; the Excel route_id is never used as a matching key.",
+ "matching_evidence": {
+  "candidate_count_distribution": {
+   "1": 36,
+   "7": 28,
+   "2": 24,
+   "6": 24
+  },
+  "fingerprint_candidate_distribution": {
+   "1": 112
+  },
+  "orientation_counts": {
+   "reversed": 56,
+   "same": 56
+  },
+  "template_group_agreement": 112,
+  "all_112_rows_match_template_group": true,
+  "route_id_authority": {
+   "excel_route_id_count": 112,
+   "unique_excel_route_ids": 112,
+   "duplicate_route_ids": [],
+   "all_excel_ids_in_true_z1_id_range": true,
+   "excel_route_id_min": 65,
+   "excel_route_id_max": 512,
+   "exact_endpoint_pair_agreement_with_true_route_of_same_id": 0,
+   "true_relation_of_same_id_routes": {
+    "same": 64,
+    "opposite": 48
+   },
+   "conclusion": "route_id is NOT authoritative: the Excel route ids are Z1 route-id numbers and 0/112 agree with the true route of that id"
+  },
+  "route_id_mismatch_examples": [
+   {
+    "original_excel_row": 2,
+    "excel_route_id": 66,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N16:1:1->N09:1:1",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N03:1:10->N07:1:15"
+    }
+   },
+   {
+    "original_excel_row": 3,
+    "excel_route_id": 67,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N08:1:16->N01:1:16",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N07:1:14->N03:1:11"
+    }
+   },
+   {
+    "original_excel_row": 4,
+    "excel_route_id": 68,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N08:1:15->N02:1:15",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N03:1:12->N07:1:13"
+    }
+   },
+   {
+    "original_excel_row": 5,
+    "excel_route_id": 69,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N02:1:16->N07:1:16",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N07:1:12->N03:1:13"
+    }
+   },
+   {
+    "original_excel_row": 6,
+    "excel_route_id": 70,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N07:1:15->N03:1:15",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N03:1:14->N07:1:11"
+    }
+   },
+   {
+    "original_excel_row": 7,
+    "excel_route_id": 71,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N09:1:2->N15:1:2",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N07:1:10->N03:1:15"
+    }
+   },
+   {
+    "original_excel_row": 8,
+    "excel_route_id": 72,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N15:1:1->N10:1:1",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N03:1:16->N07:1:9"
+    }
+   },
+   {
+    "original_excel_row": 9,
+    "excel_route_id": 73,
+    "excel_manual_group": "Z2-U1",
+    "excel_ports": "N10:1:2->N14:1:2",
+    "true_route_of_same_id": {
+     "plane": "z1",
+     "relation": "same",
+     "endpoints": "N08:1:16->N01:1:9"
+    }
+   }
+  ],
+  "z1_plane_copy_evidence": {
+   "port_ids_with_plane_index_1": 224,
+   "port_ids_with_plane_index_2": 0,
+   "rows_with_all_ports_on_plane_index_1": 112,
+   "literal_plane1_unordered_pair_matches_true_z1_same": 48,
+   "literal_plane1_unordered_pair_matches_true_z1_other": 0,
+   "literal_plane1_unordered_pair_matches_true_z2": 0,
+   "plane2_corrected_matches_true_z2_same": 112,
+   "plane2_corrected_matches_true_z1_any": 0,
+   "literal_z1_same_hits_by_excel_group": {
+    "Z2-U3": 24,
+    "Z2-U4": 24
+   },
+   "note": "The Excel is Z1-plane-numbered data (plane index 1 everywhere). Correcting only the interface plane index 1 -> 2 maps all 112 rows onto true Z2 same-side connections.  The 48 literal plane-1 coincidences with true Z1 same routes are connector/column pattern overlaps between the two interface planes (the same board XY footprint exists at z=0 and z=0.5); they are NOT the intended Z2 manual-U connections and are not used."
+  }
+ },
+ "orbit_structure": {
+  "z2_same_orbits": 28,
+  "covered_orbits": 28,
+  "orbit_group_composition": {
+   "Z2-U3,Z2-U3,Z2-U4,Z2-U4": 20,
+   "Z2-U1,Z2-U1,Z2-U2,Z2-U2": 8
+  },
+  "orbit_side_composition": {
+   "EE,NN,SS,WW": 28
+  },
+  "expected_side_composition": [
+   "EE",
+   "NN",
+   "SS",
+   "WW"
+  ],
+  "orbits": [
+   {
+    "c4_group_id": 193,
+    "route_ids": [
+     769,
+     770,
+     772,
+     771
+    ],
+    "matched_route_ids": [
+     770,
+     771,
+     772,
+     769
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 194,
+    "route_ids": [
+     773,
+     774,
+     776,
+     775
+    ],
+    "matched_route_ids": [
+     774,
+     775,
+     776,
+     773
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 195,
+    "route_ids": [
+     777,
+     778,
+     780,
+     779
+    ],
+    "matched_route_ids": [
+     778,
+     779,
+     780,
+     777
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 196,
+    "route_ids": [
+     781,
+     782,
+     784,
+     783
+    ],
+    "matched_route_ids": [
+     782,
+     783,
+     784,
+     781
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 197,
+    "route_ids": [
+     785,
+     786,
+     788,
+     787
+    ],
+    "matched_route_ids": [
+     786,
+     787,
+     788,
+     785
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 198,
+    "route_ids": [
+     789,
+     790,
+     792,
+     791
+    ],
+    "matched_route_ids": [
+     790,
+     791,
+     792,
+     789
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 199,
+    "route_ids": [
+     793,
+     794,
+     796,
+     795
+    ],
+    "matched_route_ids": [
+     794,
+     795,
+     796,
+     793
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 200,
+    "route_ids": [
+     797,
+     798,
+     800,
+     799
+    ],
+    "matched_route_ids": [
+     798,
+     799,
+     800,
+     797
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 201,
+    "route_ids": [
+     801,
+     802,
+     804,
+     803
+    ],
+    "matched_route_ids": [
+     802,
+     803,
+     804,
+     801
+    ],
+    "matched_group_composition": [
+     "Z2-U1",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U2"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "first",
+    "complete": true
+   },
+   {
+    "c4_group_id": 202,
+    "route_ids": [
+     805,
+     806,
+     808,
+     807
+    ],
+    "matched_route_ids": [
+     806,
+     807,
+     808,
+     805
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 203,
+    "route_ids": [
+     809,
+     810,
+     812,
+     811
+    ],
+    "matched_route_ids": [
+     810,
+     811,
+     812,
+     809
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 204,
+    "route_ids": [
+     813,
+     814,
+     816,
+     815
+    ],
+    "matched_route_ids": [
+     814,
+     815,
+     816,
+     813
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 205,
+    "route_ids": [
+     817,
+     818,
+     820,
+     819
+    ],
+    "matched_route_ids": [
+     818,
+     819,
+     820,
+     817
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 206,
+    "route_ids": [
+     821,
+     822,
+     824,
+     823
+    ],
+    "matched_route_ids": [
+     822,
+     823,
+     824,
+     821
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 207,
+    "route_ids": [
+     825,
+     826,
+     828,
+     827
+    ],
+    "matched_route_ids": [
+     826,
+     827,
+     828,
+     825
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 208,
+    "route_ids": [
+     829,
+     830,
+     832,
+     831
+    ],
+    "matched_route_ids": [
+     830,
+     831,
+     832,
+     829
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 245,
+    "route_ids": [
+     977,
+     978,
+     980,
+     979
+    ],
+    "matched_route_ids": [
+     978,
+     979,
+     980,
+     977
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 246,
+    "route_ids": [
+     981,
+     982,
+     984,
+     983
+    ],
+    "matched_route_ids": [
+     982,
+     983,
+     984,
+     981
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 247,
+    "route_ids": [
+     985,
+     986,
+     988,
+     987
+    ],
+    "matched_route_ids": [
+     986,
+     987,
+     988,
+     985
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 248,
+    "route_ids": [
+     989,
+     990,
+     992,
+     991
+    ],
+    "matched_route_ids": [
+     990,
+     991,
+     992,
+     989
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 249,
+    "route_ids": [
+     993,
+     994,
+     996,
+     995
+    ],
+    "matched_route_ids": [
+     994,
+     995,
+     996,
+     993
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 250,
+    "route_ids": [
+     997,
+     998,
+     1000,
+     999
+    ],
+    "matched_route_ids": [
+     998,
+     999,
+     1000,
+     997
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 251,
+    "route_ids": [
+     1001,
+     1002,
+     1004,
+     1003
+    ],
+    "matched_route_ids": [
+     1002,
+     1003,
+     1004,
+     1001
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 252,
+    "route_ids": [
+     1005,
+     1006,
+     1008,
+     1007
+    ],
+    "matched_route_ids": [
+     1006,
+     1007,
+     1008,
+     1005
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 253,
+    "route_ids": [
+     1009,
+     1010,
+     1012,
+     1011
+    ],
+    "matched_route_ids": [
+     1010,
+     1011,
+     1012,
+     1009
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 254,
+    "route_ids": [
+     1013,
+     1014,
+     1016,
+     1015
+    ],
+    "matched_route_ids": [
+     1014,
+     1015,
+     1016,
+     1013
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 255,
+    "route_ids": [
+     1017,
+     1018,
+     1020,
+     1019
+    ],
+    "matched_route_ids": [
+     1018,
+     1019,
+     1020,
+     1017
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   },
+   {
+    "c4_group_id": 256,
+    "route_ids": [
+     1021,
+     1022,
+     1024,
+     1023
+    ],
+    "matched_route_ids": [
+     1022,
+     1023,
+     1024,
+     1021
+    ],
+    "matched_group_composition": [
+     "Z2-U3",
+     "Z2-U3",
+     "Z2-U4",
+     "Z2-U4"
+    ],
+    "side_composition": [
+     "EE",
+     "NN",
+     "SS",
+     "WW"
+    ],
+    "numbering": "second",
+    "complete": true
+   }
+  ]
+ },
+ "z1_manual_u": {
+  "z1_manual_routes": 256,
+  "true_z1_same_routes": 256,
+  "covered_true_z1_same_routes": 256,
+  "missing_true_z1_same_routes": [],
+  "extra_routes_not_z1_same": [],
+  "per_group_counts": {
+   "Z1-U1": 64,
+   "Z1-U2": 64,
+   "Z1-U3": 64,
+   "Z1-U4": 64
+  },
+  "per_group_side_counts": {
+   "Z1-U1:N": 32,
+   "Z1-U1:S": 32,
+   "Z1-U2:N": 32,
+   "Z1-U2:S": 32,
+   "Z1-U3:E": 32,
+   "Z1-U3:W": 32,
+   "Z1-U4:E": 32,
+   "Z1-U4:W": 32
+  },
+  "per_group_pair_counts": {
+   "Z1-U1": {
+    "02-15": 16,
+    "04-13": 16,
+    "05-12": 16,
+    "06-11": 16
+   },
+   "Z1-U2": {
+    "03-07": 16,
+    "01-08": 16,
+    "09-16": 16,
+    "10-14": 16
+   },
+   "Z1-U3": {
+    "02-15": 16,
+    "04-13": 16,
+    "05-12": 16,
+    "06-11": 16
+   },
+   "Z1-U4": {
+    "03-07": 16,
+    "10-14": 16,
+    "01-08": 16,
+    "09-16": 16
+   }
+  },
+  "group_to_layer": {
+   "Z1-U1": {
+    "layer": 2,
+    "z_mm": -0.35,
+    "pattern": "NS-first",
+    "numbering": "first"
+   },
+   "Z1-U2": {
+    "layer": 3,
+    "z_mm": -0.29,
+    "pattern": "NS-second",
+    "numbering": "second"
+   },
+   "Z1-U3": {
+    "layer": 4,
+    "z_mm": -0.23,
+    "pattern": "EW-first",
+    "numbering": "first"
+   },
+   "Z1-U4": {
+    "layer": 5,
+    "z_mm": -0.17,
+    "pattern": "EW-second",
+    "numbering": "second"
+   }
+  },
+  "layer_mapping_mismatches": [],
+  "prior_assignment_reference": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_20L_FIXED_ASSIGNMENT_FULL\\assignment_1024.json",
+   "available": true,
+   "total_rows": 1024,
+   "manual_rows": 256
+  },
+  "user_640_csv_reference": {
+   "glob": "**/z1_z2_manual_u_assignment_v2_640.csv",
+   "available": true,
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\manual_z1_router\\data\\exports\\人工分组\\z1_z2_manual_u_assignment_v2_640.csv",
+   "sha256": "b7480575f245583b83911e8c80a0bd5ce11acb71e5e241366c7bfe2968fe19ae",
+   "rows": 640
+  },
+  "prior_vs_user_640_mismatches": [],
+  "crosscheck_agreement": true,
+  "orbit_structure": {
+   "z1_same_orbits": 64,
+   "covered_orbits": 64,
+   "orbit_group_composition": {
+    "Z1-U1,Z1-U1,Z1-U3,Z1-U3": 32,
+    "Z1-U2,Z1-U2,Z1-U4,Z1-U4": 32
+   },
+   "orbits": [
+    {
+     "c4_group_id": 16,
+     "route_ids": [
+      17,
+      174,
+      175,
+      176
+     ],
+     "matched_route_ids": [
+      17,
+      174,
+      175,
+      176
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 17,
+     "route_ids": [
+      18,
+      177,
+      178,
+      179
+     ],
+     "matched_route_ids": [
+      18,
+      177,
+      178,
+      179
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 18,
+     "route_ids": [
+      19,
+      180,
+      181,
+      182
+     ],
+     "matched_route_ids": [
+      19,
+      180,
+      181,
+      182
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 19,
+     "route_ids": [
+      20,
+      183,
+      184,
+      185
+     ],
+     "matched_route_ids": [
+      20,
+      183,
+      184,
+      185
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 20,
+     "route_ids": [
+      21,
+      186,
+      187,
+      188
+     ],
+     "matched_route_ids": [
+      21,
+      186,
+      187,
+      188
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 21,
+     "route_ids": [
+      22,
+      189,
+      190,
+      191
+     ],
+     "matched_route_ids": [
+      22,
+      189,
+      190,
+      191
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 22,
+     "route_ids": [
+      23,
+      192,
+      193,
+      194
+     ],
+     "matched_route_ids": [
+      23,
+      192,
+      193,
+      194
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 23,
+     "route_ids": [
+      24,
+      195,
+      196,
+      197
+     ],
+     "matched_route_ids": [
+      24,
+      195,
+      196,
+      197
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 38,
+     "route_ids": [
+      41,
+      240,
+      241,
+      242
+     ],
+     "matched_route_ids": [
+      41,
+      240,
+      241,
+      242
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 39,
+     "route_ids": [
+      42,
+      243,
+      244,
+      245
+     ],
+     "matched_route_ids": [
+      42,
+      243,
+      244,
+      245
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 40,
+     "route_ids": [
+      43,
+      246,
+      247,
+      248
+     ],
+     "matched_route_ids": [
+      43,
+      246,
+      247,
+      248
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 41,
+     "route_ids": [
+      44,
+      249,
+      250,
+      251
+     ],
+     "matched_route_ids": [
+      44,
+      249,
+      250,
+      251
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 42,
+     "route_ids": [
+      45,
+      252,
+      253,
+      254
+     ],
+     "matched_route_ids": [
+      45,
+      252,
+      253,
+      254
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 43,
+     "route_ids": [
+      46,
+      255,
+      256,
+      257
+     ],
+     "matched_route_ids": [
+      46,
+      255,
+      256,
+      257
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 44,
+     "route_ids": [
+      47,
+      258,
+      259,
+      260
+     ],
+     "matched_route_ids": [
+      47,
+      258,
+      259,
+      260
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 45,
+     "route_ids": [
+      48,
+      261,
+      262,
+      263
+     ],
+     "matched_route_ids": [
+      48,
+      261,
+      262,
+      263
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 46,
+     "route_ids": [
+      49,
+      264,
+      265,
+      266
+     ],
+     "matched_route_ids": [
+      49,
+      264,
+      265,
+      266
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 47,
+     "route_ids": [
+      50,
+      267,
+      268,
+      269
+     ],
+     "matched_route_ids": [
+      50,
+      267,
+      268,
+      269
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 48,
+     "route_ids": [
+      51,
+      270,
+      271,
+      272
+     ],
+     "matched_route_ids": [
+      51,
+      270,
+      271,
+      272
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 49,
+     "route_ids": [
+      52,
+      273,
+      274,
+      275
+     ],
+     "matched_route_ids": [
+      52,
+      273,
+      274,
+      275
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 50,
+     "route_ids": [
+      53,
+      276,
+      277,
+      278
+     ],
+     "matched_route_ids": [
+      53,
+      276,
+      277,
+      278
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 51,
+     "route_ids": [
+      54,
+      279,
+      280,
+      281
+     ],
+     "matched_route_ids": [
+      54,
+      279,
+      280,
+      281
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 52,
+     "route_ids": [
+      55,
+      282,
+      283,
+      284
+     ],
+     "matched_route_ids": [
+      55,
+      282,
+      283,
+      284
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 53,
+     "route_ids": [
+      56,
+      285,
+      286,
+      287
+     ],
+     "matched_route_ids": [
+      56,
+      285,
+      286,
+      287
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 54,
+     "route_ids": [
+      57,
+      288,
+      289,
+      290
+     ],
+     "matched_route_ids": [
+      57,
+      288,
+      289,
+      290
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 55,
+     "route_ids": [
+      58,
+      291,
+      292,
+      293
+     ],
+     "matched_route_ids": [
+      58,
+      291,
+      292,
+      293
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 56,
+     "route_ids": [
+      59,
+      294,
+      295,
+      296
+     ],
+     "matched_route_ids": [
+      59,
+      294,
+      295,
+      296
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 57,
+     "route_ids": [
+      60,
+      297,
+      298,
+      299
+     ],
+     "matched_route_ids": [
+      60,
+      297,
+      298,
+      299
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 58,
+     "route_ids": [
+      61,
+      300,
+      301,
+      302
+     ],
+     "matched_route_ids": [
+      61,
+      300,
+      301,
+      302
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 59,
+     "route_ids": [
+      62,
+      303,
+      304,
+      305
+     ],
+     "matched_route_ids": [
+      62,
+      303,
+      304,
+      305
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 60,
+     "route_ids": [
+      63,
+      306,
+      307,
+      308
+     ],
+     "matched_route_ids": [
+      63,
+      306,
+      307,
+      308
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 61,
+     "route_ids": [
+      64,
+      309,
+      310,
+      311
+     ],
+     "matched_route_ids": [
+      64,
+      309,
+      310,
+      311
+     ],
+     "group_composition": [
+      "Z1-U1",
+      "Z1-U1",
+      "Z1-U3",
+      "Z1-U3"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "first",
+     "complete": true
+    },
+    {
+     "c4_group_id": 62,
+     "route_ids": [
+      65,
+      312,
+      313,
+      314
+     ],
+     "matched_route_ids": [
+      65,
+      312,
+      313,
+      314
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 63,
+     "route_ids": [
+      66,
+      315,
+      316,
+      317
+     ],
+     "matched_route_ids": [
+      66,
+      315,
+      316,
+      317
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 64,
+     "route_ids": [
+      67,
+      318,
+      319,
+      320
+     ],
+     "matched_route_ids": [
+      67,
+      318,
+      319,
+      320
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 65,
+     "route_ids": [
+      68,
+      321,
+      322,
+      323
+     ],
+     "matched_route_ids": [
+      68,
+      321,
+      322,
+      323
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 66,
+     "route_ids": [
+      69,
+      324,
+      325,
+      326
+     ],
+     "matched_route_ids": [
+      69,
+      324,
+      325,
+      326
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 67,
+     "route_ids": [
+      70,
+      327,
+      328,
+      329
+     ],
+     "matched_route_ids": [
+      70,
+      327,
+      328,
+      329
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 68,
+     "route_ids": [
+      71,
+      330,
+      331,
+      332
+     ],
+     "matched_route_ids": [
+      71,
+      330,
+      331,
+      332
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 69,
+     "route_ids": [
+      72,
+      333,
+      334,
+      335
+     ],
+     "matched_route_ids": [
+      72,
+      333,
+      334,
+      335
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 70,
+     "route_ids": [
+      73,
+      336,
+      337,
+      338
+     ],
+     "matched_route_ids": [
+      73,
+      336,
+      337,
+      338
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 71,
+     "route_ids": [
+      74,
+      339,
+      340,
+      341
+     ],
+     "matched_route_ids": [
+      74,
+      339,
+      340,
+      341
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 72,
+     "route_ids": [
+      75,
+      342,
+      343,
+      344
+     ],
+     "matched_route_ids": [
+      75,
+      342,
+      343,
+      344
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 73,
+     "route_ids": [
+      76,
+      345,
+      346,
+      347
+     ],
+     "matched_route_ids": [
+      76,
+      345,
+      346,
+      347
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 74,
+     "route_ids": [
+      77,
+      348,
+      349,
+      350
+     ],
+     "matched_route_ids": [
+      77,
+      348,
+      349,
+      350
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 75,
+     "route_ids": [
+      78,
+      351,
+      352,
+      353
+     ],
+     "matched_route_ids": [
+      78,
+      351,
+      352,
+      353
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 76,
+     "route_ids": [
+      79,
+      354,
+      355,
+      356
+     ],
+     "matched_route_ids": [
+      79,
+      354,
+      355,
+      356
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 77,
+     "route_ids": [
+      80,
+      357,
+      358,
+      359
+     ],
+     "matched_route_ids": [
+      80,
+      357,
+      358,
+      359
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 78,
+     "route_ids": [
+      81,
+      360,
+      361,
+      362
+     ],
+     "matched_route_ids": [
+      81,
+      360,
+      361,
+      362
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 79,
+     "route_ids": [
+      82,
+      363,
+      364,
+      365
+     ],
+     "matched_route_ids": [
+      82,
+      363,
+      364,
+      365
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 80,
+     "route_ids": [
+      83,
+      366,
+      367,
+      368
+     ],
+     "matched_route_ids": [
+      83,
+      366,
+      367,
+      368
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 81,
+     "route_ids": [
+      84,
+      369,
+      370,
+      371
+     ],
+     "matched_route_ids": [
+      84,
+      369,
+      370,
+      371
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 82,
+     "route_ids": [
+      85,
+      372,
+      373,
+      374
+     ],
+     "matched_route_ids": [
+      85,
+      372,
+      373,
+      374
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 83,
+     "route_ids": [
+      86,
+      375,
+      376,
+      377
+     ],
+     "matched_route_ids": [
+      86,
+      375,
+      376,
+      377
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 84,
+     "route_ids": [
+      87,
+      378,
+      379,
+      380
+     ],
+     "matched_route_ids": [
+      87,
+      378,
+      379,
+      380
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 85,
+     "route_ids": [
+      88,
+      381,
+      382,
+      383
+     ],
+     "matched_route_ids": [
+      88,
+      381,
+      382,
+      383
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 86,
+     "route_ids": [
+      89,
+      384,
+      385,
+      386
+     ],
+     "matched_route_ids": [
+      89,
+      384,
+      385,
+      386
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 87,
+     "route_ids": [
+      90,
+      387,
+      388,
+      389
+     ],
+     "matched_route_ids": [
+      90,
+      387,
+      388,
+      389
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 88,
+     "route_ids": [
+      91,
+      390,
+      391,
+      392
+     ],
+     "matched_route_ids": [
+      91,
+      390,
+      391,
+      392
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 89,
+     "route_ids": [
+      92,
+      393,
+      394,
+      395
+     ],
+     "matched_route_ids": [
+      92,
+      393,
+      394,
+      395
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 90,
+     "route_ids": [
+      93,
+      396,
+      397,
+      398
+     ],
+     "matched_route_ids": [
+      93,
+      396,
+      397,
+      398
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 91,
+     "route_ids": [
+      94,
+      399,
+      400,
+      401
+     ],
+     "matched_route_ids": [
+      94,
+      399,
+      400,
+      401
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 92,
+     "route_ids": [
+      95,
+      402,
+      403,
+      404
+     ],
+     "matched_route_ids": [
+      95,
+      402,
+      403,
+      404
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    },
+    {
+     "c4_group_id": 93,
+     "route_ids": [
+      96,
+      405,
+      406,
+      407
+     ],
+     "matched_route_ids": [
+      96,
+      405,
+      406,
+      407
+     ],
+     "group_composition": [
+      "Z1-U2",
+      "Z1-U2",
+      "Z1-U4",
+      "Z1-U4"
+     ],
+     "side_composition": [
+      "EE",
+      "NN",
+      "SS",
+      "WW"
+     ],
+     "numbering": "second",
+     "complete": true
+    }
+   ]
+  },
+  "coordinate_missing_route_ids": [],
+  "all_routes_have_coordinates": true,
+  "errors": [],
+  "reference_errors": []
+ },
+ "previous_round_z2_csv_comparison": {
+  "present": true,
+  "readable": true,
+  "rows": 112,
+  "route_id_set_identical": true,
+  "group_assignment_identical": true,
+  "endpoint_pairs_identical": true,
+  "c4_group_ids_identical": true,
+  "differences": [],
+  "group_differences": [],
+  "endpoint_differences": [],
+  "c4_group_differences": [],
+  "note": "comparison against the CSV found in RUN_DIR before this run; the previous round claims 16/16/40/40, which this independent reproduction confirms/refutes per the flags above"
+ },
+ "determinism": {
+  "pure_inputs": [
+   "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NEW_MANUAL_CSV_1024_FULL_CAMPAIGN\\phase2_2d_selected\\routes_1024.json",
+   "four_side_1024.v3c4.inputs.ENDPOINTS",
+   "C:\\Users\\lihao\\Desktop\\Z2人工U_具体端口分组_L10-L13_源数据待校验.xlsx",
+   "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\MANUAL_20L_FIXED_ASSIGNMENT_FULL\\assignment_1024.json",
+   "**/z1_z2_manual_u_assignment_v2_640.csv"
+  ],
+  "cross_check_input": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024\\z2_manual_u_verified_L10_L13.csv",
+  "cross_check_rule": "read once before overwriting; when the file is absent the comparison reports present=false",
+  "note": "repeated runs on a stable workspace are byte-identical (verified by tests_data.test_artifacts_are_deterministic)"
+ },
+ "true_data_inventory": {
+  "total": 1024,
+  "z1": 512,
+  "z2": 512,
+  "z1_same": 256,
+  "z1_opposite": 256,
+  "z2_same": 112,
+  "z2_adjacent": 400,
+  "rotation_orbits": 256,
+  "orbit_counts": {
+   "z1_opposite": 64,
+   "z1_same": 64,
+   "z2_adjacent": 100,
+   "z2_same": 28
+  },
+  "physical_ports": 2048
+ },
+ "output_files": {
+  "input_excel_audit_json": "input_excel_audit.json",
+  "z1_manual_u_verified_csv": "z1_manual_u_verified_L2_L5.csv",
+  "z2_manual_u_verified_csv": "z2_manual_u_verified_L10_L13.csv",
+  "z2_manual_u_match_audit_csv": "z2_manual_u_match_audit.csv",
+  "z2_manual_u_unmatched_csv": "z2_manual_u_unmatched.csv",
+  "z2_manual_u_conflicts_csv": "z2_manual_u_conflicts.csv",
+  "z2_manual_u_summary_json": "z2_manual_u_summary.json",
+  "z1_manual_u_match_audit_csv": "z1_manual_u_match_audit.csv"
+ },
+ "notes": [
+  "route_id is not used as a matching key: 0/112 Excel route ids agree with the true route of that id.",
+  "the interface plane index is corrected 1 -> 2 only; side, connector, row, column and channel are preserved.",
+  "the 48 Excel rows that literally coincide with a true Z1 same route (all in Z2-U3/Z2-U4) are board-XY pattern overlaps between the z1 and z2 interfaces; they are not the intended Z2 manual-U connections and were not matched to Z1 routes.",
+  "the previous round z2 CSV is used only as a guarded cross-check; all numbers here are recomputed from common.routes() and common.endpoints()."
+ ]
+}

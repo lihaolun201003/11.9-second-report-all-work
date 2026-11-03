@@ -1,0 +1,28 @@
+{
+ "schema": "fanout_first_process_rules_v1",
+ "mode": "corrected_50um",
+ "glass_thickness_mm": 1.0,
+ "glass_z_range_mm": [
+  -0.35,
+  0.65
+ ],
+ "z1_interface_mm": 0.0,
+ "z2_interface_mm": 0.5,
+ "min_layer_pitch_mm": 0.05,
+ "min_3d_clearance_mm": 0.05,
+ "same_layer_2d_clearance_mm": 0.08,
+ "same_layer_2d_rules": "original strict D56 index (width 0.05 + edge gap 0.03); legal transverse crossings preserved",
+ "min_bend_radius_mm": 15.0,
+ "transition_geometry": "two exact R=15 mm circular arcs in the vertical plane of the local inward direction (G1 S-curve)",
+ "different_physical_planes": "legal when |dz| >= 0.05 mm; XY overlap alone is not a violation",
+ "transition_vs_other": "true 3D centre-line distance must be >= 0.05 mm",
+ "explicitly_not_restored": {
+  "global_80um_clearance": false,
+  "note": "the unconfirmed 80 um global clearance is never used as a 3D rule; 0.08 mm only survives as the same-layer 2D centreline rule of the original D56 geometry"
+ },
+ "unconfirmed": {
+  "optical_crosstalk": "not verified",
+  "fabrication_tolerance": "not verified",
+  "surface_process_margin": "not verified; the boundary waveguides only satisfy the current exploratory centreline model"
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "stage": "experiment_C",
+ "input_routes": 368,
+ "attempted_routes": 368,
+ "routed": 368,
+ "failed": 0,
+ "per_group": {
+  "Z1-U1": {
+   "input": 64,
+   "routed": 64,
+   "failed": 0,
+   "layer": 2
+  },
+  "Z1-U2": {
+   "input": 64,
+   "routed": 64,
+   "failed": 0,
+   "layer": 3
+  },
+  "Z1-U3": {
+   "input": 64,
+   "routed": 64,
+   "failed": 0,
+   "layer": 4
+  },
+  "Z1-U4": {
+   "input": 64,
+   "routed": 64,
+   "failed": 0,
+   "layer": 5
+  },
+  "Z2-U4": {
+   "input": 40,
+   "routed": 40,
+   "failed": 0,
+   "layer": 13
+  },
+  "Z2-U3": {
+   "input": 40,
+   "routed": 40,
+   "failed": 0,
+   "layer": 12
+  },
+  "Z2-U2": {
+   "input": 16,
+   "routed": 16,
+   "failed": 0,
+   "layer": 11
+  },
+  "Z2-U1": {
+   "input": 16,
+   "routed": 16,
+   "failed": 0,
+   "layer": 10
+  }
+ },
+ "per_layer": {
+  "2": {
+   "routed": 64,
+   "failed": 0,
+   "total": 64,
+   "stats": {
+    "layer_id": 2,
+    "z_mm": -0.35,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.5379862785339355,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 1056,
+    "candidates_built": 32,
+    "d56_evaluations": 1056,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 540,
+     "tangent_touch": 452
+    },
+    "obstacle_samples_total": 12928,
+    "obstacle_samples_active": 11904,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "3": {
+   "routed": 64,
+   "failed": 0,
+   "total": 64,
+   "stats": {
+    "layer_id": 3,
+    "z_mm": -0.29,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.45618534088134766,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 544,
+    "candidates_built": 16,
+    "d56_evaluations": 544,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 260,
+     "tangent_touch": 220
+    },
+    "obstacle_samples_total": 25728,
+    "obstacle_samples_active": 24448,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "4": {
+   "routed": 64,
+   "failed": 0,
+   "total": 64,
+   "stats": {
+    "layer_id": 4,
+    "z_mm": -0.23,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.49655938148498535,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 1056,
+    "candidates_built": 32,
+    "d56_evaluations": 1056,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 304,
+     "tangent_touch": 688
+    },
+    "obstacle_samples_total": 33280,
+    "obstacle_samples_active": 31488,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "5": {
+   "routed": 64,
+   "failed": 0,
+   "total": 64,
+   "stats": {
+    "layer_id": 5,
+    "z_mm": -0.17,
+    "input": 64,
+    "attempted": 64,
+    "success": 64,
+    "failed": 0,
+    "seconds": 0.29307007789611816,
+    "families": {
+     "U_QUARTER_PAIR": 64
+    },
+    "candidates_evaluated": 544,
+    "candidates_built": 16,
+    "d56_evaluations": 544,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 260,
+     "tangent_touch": 220
+    },
+    "obstacle_samples_total": 36608,
+    "obstacle_samples_active": 35200,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "10": {
+   "routed": 16,
+   "failed": 0,
+   "total": 16,
+   "stats": {
+    "layer_id": 10,
+    "z_mm": 0.15,
+    "input": 16,
+    "attempted": 16,
+    "success": 16,
+    "failed": 0,
+    "seconds": 0.03992486000061035,
+    "families": {
+     "U_QUARTER_PAIR": 16
+    },
+    "candidates_evaluated": 40,
+    "candidates_built": 4,
+    "d56_evaluations": 40,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "tangent_touch": 16,
+     "spacing": 8
+    },
+    "obstacle_samples_total": 3616,
+    "obstacle_samples_active": 3392,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "11": {
+   "routed": 16,
+   "failed": 0,
+   "total": 16,
+   "stats": {
+    "layer_id": 11,
+    "z_mm": 0.2,
+    "input": 16,
+    "attempted": 16,
+    "success": 16,
+    "failed": 0,
+    "seconds": 0.04070091247558594,
+    "families": {
+     "U_QUARTER_PAIR": 16
+    },
+    "candidates_evaluated": 40,
+    "candidates_built": 4,
+    "d56_evaluations": 40,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 8,
+     "tangent_touch": 16
+    },
+    "obstacle_samples_total": 8560,
+    "obstacle_samples_active": 8080,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "12": {
+   "routed": 40,
+   "failed": 0,
+   "total": 40,
+   "stats": {
+    "layer_id": 12,
+    "z_mm": 0.25,
+    "input": 40,
+    "attempted": 40,
+    "success": 40,
+    "failed": 0,
+    "seconds": 0.2642381191253662,
+    "families": {
+     "U_QUARTER_PAIR": 40
+    },
+    "candidates_evaluated": 420,
+    "candidates_built": 20,
+    "d56_evaluations": 420,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 130,
+     "tangent_touch": 250
+    },
+    "obstacle_samples_total": 14144,
+    "obstacle_samples_active": 13472,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  },
+  "13": {
+   "routed": 40,
+   "failed": 0,
+   "total": 40,
+   "stats": {
+    "layer_id": 13,
+    "z_mm": 0.3,
+    "input": 40,
+    "attempted": 40,
+    "success": 40,
+    "failed": 0,
+    "seconds": 0.22193360328674316,
+    "families": {
+     "U_QUARTER_PAIR": 40
+    },
+    "candidates_evaluated": 420,
+    "candidates_built": 20,
+    "d56_evaluations": 420,
+    "obstacle_rejections": 0,
+    "self_rejections": 0,
+    "rejection_counts": {
+     "spacing": 130,
+     "tangent_touch": 250
+    },
+    "obstacle_samples_total": 17360,
+    "obstacle_samples_active": 16784,
+    "initial_routes": 0,
+    "rrr": [],
+    "frame_errors": {},
+    "pending_failures": {}
+   }
+  }
+ },
+ "failure_reasons": {},
+ "validation": {
+  "status": "passed",
+  "routed": 368,
+  "input": 368
+ },
+ "failed_routes": []
+}

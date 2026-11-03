@@ -1,0 +1,19 @@
+﻿target_layer,z_mm,planes,direction,layer_role,manual_group,route_count,orbit_count,route_id_min,route_id_max,note
+2,-0.35,z1,down,z1_manual_u,Z1-U1,64,32,17,310,manual group layer (fixed)
+3,-0.29,z1,down,z1_manual_u,Z1-U2,64,32,65,406,manual group layer (fixed)
+4,-0.23,z1,down,z1_manual_u,Z1-U3,64,32,174,311,manual group layer (fixed)
+5,-0.17,z1,down,z1_manual_u,Z1-U4,64,32,312,407,manual group layer (fixed)
+6,-0.11,z1,down,z1_other,,128,32,1,416,non-manual: whole C4 rotation orbits only
+7,-0.05,z1,down,z1_other,,128,32,101,512,non-manual: whole C4 rotation orbits only
+8,0.05,z2,down,z2_other,,48,12,929,976,non-manual: whole C4 rotation orbits only
+9,0.1,z2,down,z2_other,,48,12,881,928,non-manual: whole C4 rotation orbits only
+10,0.15,z2,down,z2_manual_u,Z2-U1,16,8,774,803,manual group layer (fixed)
+11,0.2,z2,down,z2_manual_u,Z2-U2,16,8,773,804,manual group layer (fixed)
+12,0.25,z2,down,z2_manual_u,Z2-U3,40,20,770,1023,manual group layer (fixed)
+13,0.3,z2,down,z2_manual_u,Z2-U4,40,20,769,1024,manual group layer (fixed)
+14,0.35,z2,down,z2_other,,48,12,721,768,non-manual: whole C4 rotation orbits only
+15,0.4,z2,down,z2_other,,52,13,617,668,non-manual: whole C4 rotation orbits only
+16,0.45,z2,down,z2_other,,52,13,513,564,non-manual: whole C4 rotation orbits only
+17,0.55,z2,up,z2_other,,52,13,565,616,non-manual: whole C4 rotation orbits only
+18,0.6,z2,up,z2_other,,52,13,669,720,non-manual: whole C4 rotation orbits only
+19,0.65,z2,up,z2_other,,48,12,833,880,non-manual: whole C4 rotation orbits only
