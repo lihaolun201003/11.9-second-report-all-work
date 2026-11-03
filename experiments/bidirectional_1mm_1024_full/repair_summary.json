@@ -1,0 +1,162 @@
+{
+ "repaired": 31,
+ "still": 288,
+ "repaired_routes": [
+  {
+   "route_id": 15,
+   "phase": "z1_opposite",
+   "new_layer": 7
+  },
+  {
+   "route_id": 121,
+   "phase": "z1_opposite",
+   "new_layer": 7
+  },
+  {
+   "route_id": 124,
+   "phase": "z1_opposite",
+   "new_layer": 7
+  },
+  {
+   "route_id": 132,
+   "phase": "z1_opposite",
+   "new_layer": 7
+  },
+  {
+   "route_id": 504,
+   "phase": "z1_opposite",
+   "new_layer": 6
+  },
+  {
+   "route_id": 521,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 708,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 720,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 798,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 803,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 836,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 840,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 846,
+   "phase": "z2_high",
+   "new_layer": 9
+  },
+  {
+   "route_id": 936,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 699,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 751,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 774,
+   "phase": "z2_high",
+   "new_layer": 8
+  },
+  {
+   "route_id": 883,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 899,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 921,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 923,
+   "phase": "z2_high",
+   "new_layer": 8
+  },
+  {
+   "route_id": 947,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 962,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 971,
+   "phase": "z2_high",
+   "new_layer": 8
+  },
+  {
+   "route_id": 522,
+   "phase": "z2_high",
+   "new_layer": 11
+  },
+  {
+   "route_id": 585,
+   "phase": "z2_high",
+   "new_layer": 8
+  },
+  {
+   "route_id": 884,
+   "phase": "z2_high",
+   "new_layer": 8
+  },
+  {
+   "route_id": 672,
+   "phase": "z2_high",
+   "new_layer": 10
+  },
+  {
+   "route_id": 773,
+   "phase": "z2_high",
+   "new_layer": 8
+  },
+  {
+   "route_id": 963,
+   "phase": "z2_high",
+   "new_layer": 8
+  },
+  {
+   "route_id": 965,
+   "phase": "z2_high",
+   "new_layer": 9
+  }
+ ],
+ "elapsed": 378.39669379999395
+}

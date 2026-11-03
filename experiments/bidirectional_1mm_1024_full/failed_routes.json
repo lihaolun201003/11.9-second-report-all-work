@@ -1,0 +1,1739 @@
+{
+ "total": 289,
+ "failures": [
+  {
+   "route_id": 3,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 10,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 11,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 25,
+   "plane": "z1",
+   "reason": "world:transition_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 26,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 28,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 30,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 33,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 34,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 103,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 106,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 130,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 141,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 143,
+   "plane": "z1",
+   "reason": "not_attempted",
+   "physical_layer": null
+  },
+  {
+   "route_id": 148,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 158,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 162,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 163,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 166,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 198,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 199,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 200,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 203,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 205,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 206,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 210,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 211,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 217,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 219,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 220,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 221,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 222,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 223,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 224,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 225,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 226,
+   "plane": "z1",
+   "reason": "world:transition_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 227,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 228,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 229,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 230,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 231,
+   "plane": "z1",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 233,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 234,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 237,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 239,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 409,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 411,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 412,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 413,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 414,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 416,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 420,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 423,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 425,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 428,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 430,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 431,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 433,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 434,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 435,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 437,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 440,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 447,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 449,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 451,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 452,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 459,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 464,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 471,
+   "plane": "z1",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 472,
+   "plane": "z1",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 473,
+   "plane": "z1",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 474,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 475,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 476,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 486,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 488,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 492,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 493,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 494,
+   "plane": "z1",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 495,
+   "plane": "z1",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 496,
+   "plane": "z1",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 497,
+   "plane": "z1",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 513,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 514,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 517,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 518,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 519,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 523,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 527,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 535,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 537,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 538,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 540,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 541,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 542,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 543,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 544,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 546,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 548,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 550,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 554,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 558,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 561,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 562,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 563,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 564,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 565,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 566,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 567,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 568,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 572,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 577,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 586,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 588,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 589,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 590,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 591,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 592,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 613,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 614,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 615,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 616,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 617,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 618,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 621,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 622,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 623,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 624,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 629,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 630,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 631,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 632,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 637,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 651,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 652,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 653,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 654,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 655,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 656,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 661,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 662,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 663,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 664,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 665,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 668,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 673,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 674,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 676,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 677,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 678,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 679,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 680,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 682,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 683,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 684,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 685,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 686,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 687,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 688,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 692,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 694,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 698,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 712,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 714,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 716,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 719,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 741,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 742,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 743,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 744,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 745,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 746,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 747,
+   "plane": "z2",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 748,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 752,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 776,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 777,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 778,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 779,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 780,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 781,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 785,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 786,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 788,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 789,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 791,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 793,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 794,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 795,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 796,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 799,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 802,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 804,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 806,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 807,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 810,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 811,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 814,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 815,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 823,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 824,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 827,
+   "plane": "z2",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 828,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 829,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 830,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 831,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 832,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 833,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 834,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 835,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 837,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 842,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 843,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 849,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 850,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 851,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 852,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 853,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 854,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 855,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 856,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 857,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 858,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 860,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 861,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 865,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 869,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 873,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 875,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 877,
+   "plane": "z2",
+   "reason": "no_transition_window",
+   "physical_layer": null
+  },
+  {
+   "route_id": 878,
+   "plane": "z2",
+   "reason": "no_transition_window",
+   "physical_layer": null
+  },
+  {
+   "route_id": 879,
+   "plane": "z2",
+   "reason": "no_transition_window",
+   "physical_layer": null
+  },
+  {
+   "route_id": 880,
+   "plane": "z2",
+   "reason": "no_transition_window",
+   "physical_layer": null
+  },
+  {
+   "route_id": 886,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 887,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 888,
+   "plane": "z2",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 889,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 891,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 894,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 896,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 897,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 901,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 902,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 904,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 905,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 907,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 909,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 910,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 911,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 912,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 914,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 915,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 916,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 919,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 922,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 925,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 926,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 928,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 930,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 932,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 946,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 948,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 949,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 950,
+   "plane": "z2",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 952,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 954,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 955,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 957,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 960,
+   "plane": "z2",
+   "reason": "world:flat_vs_transition",
+   "physical_layer": null
+  },
+  {
+   "route_id": 969,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 973,
+   "plane": "z2",
+   "reason": "lift_route_none",
+   "physical_layer": null
+  },
+  {
+   "route_id": 974,
+   "plane": "z2",
+   "reason": "world:transition_vs_flat",
+   "physical_layer": null
+  },
+  {
+   "route_id": 975,
+   "plane": "z2",
+   "reason": "same_plane:flat_same_plane_conflict",
+   "physical_layer": null
+  },
+  {
+   "route_id": 981,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 982,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 983,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 984,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 993,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 994,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 995,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 996,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 997,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 998,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 999,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 1000,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 1013,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 1014,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 1015,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  },
+  {
+   "route_id": 1016,
+   "plane": "z2",
+   "reason": "no_2d_geometry",
+   "physical_layer": null
+  }
+ ]
+}

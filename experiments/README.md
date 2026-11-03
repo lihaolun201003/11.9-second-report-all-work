@@ -17,4 +17,5 @@
 | [code_manual_layers_20l](code_manual_layers_20l/) | 20 层分配/固定层三维构造/统计图代码 | — |
 | [manual_20l_fixed_assignment](manual_20l_fixed_assignment/README.md) | 最终 L1–L20 人工指定分层全流程：256 人工 U→L2–L5、Z1 相对边→L7/L8、Z2→L9–L20；checkpoint + 完整验证 + 21 层出图 + 报告 | **673/1024；Z1 511/512、Z2 162/512；0 几何违规；4357 唯一交叉对（共同集口径已注明）**；Z2 接口 0/68，瓶颈为 z=0.5 端口共轨与 Z1 过渡冲突（如实记录） |
 | [u_depth_transition_joint_opt](u_depth_transition_joint_opt/README.md) | 不改变 256 条人工 U 端点/配对/目标层，仅优化 U 深度与两端 S 升降位置；A 固定深度 / B 允许加深 + L7/L8 集成 | baseline 复现 **12/48**；A **20/48（+8，0 违规）**；B 允许加深但 **0 条加深、20/48 与 A 同**（深度假设负结果）；集成 L7/L8 137/255、Z2 16/48、0 违规 |
+| [bidirectional_1mm_1024_full](bidirectional_1mm_1024_full/README.md) | 1 mm 玻璃内 Z1 向下 / Z2 向上双向 10 物理层全 1024 通道实验；严格 R15、0.08 mm 3D 净空、真实负 z；含 Phase 1–6、逐层统计、12 张图、完整验证 | **735/1024**；Z1 **430/512**、Z2 **305/512**、人工 U **256/256**；Z2 接口 **48/48**；Z1×Z2 交叉 **0**；**0 几何违规**；实际最小净空 0.0878648 mm；共同 548 条交叉 2197→4201（未降低，如实记录） |
 所有实验均保持 1024 条连接、端口、R=15、净空 0.08、写速 1 mm/s；验证状态 exploratory_only（层高未确认）。

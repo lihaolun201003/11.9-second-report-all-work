@@ -1,0 +1,112 @@
+{
+ "2": {
+  "layer": 2,
+  "z_mm": -0.18,
+  "region": "Z1_DOWN",
+  "assigned": 64,
+  "routed": 64,
+  "failed": 0,
+  "transitions": 128,
+  "crossings": 0
+ },
+ "3": {
+  "layer": 3,
+  "z_mm": -0.09,
+  "region": "Z1_DOWN",
+  "assigned": 64,
+  "routed": 64,
+  "failed": 0,
+  "transitions": 128,
+  "crossings": 0
+ },
+ "4": {
+  "layer": 4,
+  "z_mm": 0.08,
+  "region": "Z1_MIDDLE",
+  "assigned": 64,
+  "routed": 64,
+  "failed": 0,
+  "transitions": 128,
+  "crossings": 0
+ },
+ "5": {
+  "layer": 5,
+  "z_mm": 0.16,
+  "region": "Z1_MIDDLE",
+  "assigned": 64,
+  "routed": 64,
+  "failed": 0,
+  "transitions": 128,
+  "crossings": 0
+ },
+ "6": {
+  "layer": 6,
+  "z_mm": 0.24,
+  "region": "Z1_MIDDLE",
+  "assigned": 125,
+  "routed": 94,
+  "failed": 31,
+  "transitions": 188,
+  "crossings": 1036
+ },
+ "7": {
+  "layer": 7,
+  "z_mm": 0.32,
+  "region": "Z1_MIDDLE",
+  "assigned": 131,
+  "routed": 80,
+  "failed": 51,
+  "transitions": 160,
+  "crossings": 809
+ },
+ "8": {
+  "layer": 8,
+  "z_mm": 0.42,
+  "region": "Z2_MIDDLE",
+  "assigned": 108,
+  "routed": 75,
+  "failed": 33,
+  "transitions": 150,
+  "crossings": 1114
+ },
+ "9": {
+  "layer": 9,
+  "z_mm": 0.58,
+  "region": "Z2_UP",
+  "assigned": 104,
+  "routed": 58,
+  "failed": 46,
+  "transitions": 116,
+  "crossings": 695
+ },
+ "10": {
+  "layer": 10,
+  "z_mm": 0.66,
+  "region": "Z2_UP",
+  "assigned": 115,
+  "routed": 70,
+  "failed": 45,
+  "transitions": 140,
+  "crossings": 963
+ },
+ "11": {
+  "layer": 11,
+  "z_mm": 0.74,
+  "region": "Z2_UP",
+  "assigned": 117,
+  "routed": 54,
+  "failed": 63,
+  "transitions": 108,
+  "crossings": 699
+ },
+ "interface_z2": {
+  "layer": null,
+  "z_mm": 0.5,
+  "region": "Z2_INTERFACE",
+  "assigned": 68,
+  "routed": 48,
+  "failed": 20,
+  "transitions": 0,
+  "crossings": 6256
+ }
+}
