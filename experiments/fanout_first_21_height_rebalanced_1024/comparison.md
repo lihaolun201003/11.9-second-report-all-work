@@ -1,6 +1,6 @@
 # 21 路由高度 vs baseline 18 层：对比报告
 
-生成时间：2026-11-03T22:07:20  
+生成时间：2026-11-03T22:13:18  
 新实验：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024`  
 Baseline（只读）：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024`  
 
@@ -11,7 +11,7 @@ Baseline（只读）：`C:\Users\lihao\Desktop\Graduation Project\OpticalWavegui
 * 同层交叉总数 **11890 vs 18108** （-6218.000，−34.34%）；crossing pairs 9797 vs 15913。
 * Z1-other 五个高度合计 4510 vs baseline L6+L7 10894（-6384.000）。
 * 交叉数只是几何代理指标；没有光学损耗/串扰结论。
-* 初始二维 pass 的 transient failure（如实记录）：Lead 冻结说明记录的初始 C pass 为 1023/1024（1 条 candidate_budget_exhausted，crossings_total 11865；该次 experiment_C 目录已被覆盖）；磁盘 `checkpoints/stage_C_2d.json` 记录的 accepted-run 初始 2D pass 为 1021/1024（failed=3，budget=600）。E 重跑（budget=1200）后恢复为 1024/1024；最终 routes_l3d.json 只含通过严格 3D world 校验的线路，0 违规。 注：experiment_C/ 当前内容已被 layer2d owner 在 accepted E 之后改进重跑（seed=16，1024/1024，crossings 11848），不是 routes_l3d.json 所基于的状态。
+* 初始二维 pass 的 transient failure（如实记录）：Lead 冻结说明记录的初始 C pass 为 1023/1024（1 条 candidate_budget_exhausted，crossings_total 11865；该次 experiment_C 目录已被覆盖）；磁盘 `checkpoints/stage_C_2d.json` 记录的 accepted-run 初始 2D pass 为 1021/1024（failed=3，budget=600）。E 重跑（budget=1200）后恢复为 1024/1024；最终 routes_l3d.json 只含通过严格 3D world 校验的线路，0 违规。 注：experiment_C/ 当前内容已被 layer2d owner 在 accepted E 之后改进重跑（**1024/1024, 0 failed**，seed=16，budget=600，initial-C crossings 11848；seeds 0/1/2/15 为 1023/1024（Lead 报告，如实记录）；interface planes 52/52 + 48/48 full，与同高度 frozen leads 合并审计为 892 / 60 个合法交叉、0 D56 conflict），这是改进后的 initial-C layout，不是 routes_l3d.json 所基于的状态；**权威最终结果仍是 accepted E 的 routes_l3d.json：1024/1024，validator crossings 11890/9797**。
 
 ## 1. 用户要求的对比表
 

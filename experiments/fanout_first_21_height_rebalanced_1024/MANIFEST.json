@@ -1,17 +1,22 @@
 {
  "schema": "reheight21_archive_manifest_v1",
  "experiment": "fanout_first_21_height_rebalanced_1024",
- "generated_at": "2026-11-03T22:07:26",
+ "generated_at": "2026-11-03T22:13:22",
  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
  "archive_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\fanout_first_21_height_rebalanced_1024",
  "repository": "lihaolun201003/11.9-second-report-all-work",
- "file_count": 86,
- "total_bytes": 25019016,
+ "file_count": 103,
+ "total_bytes": 26327429,
  "files": [
   {
    "path": "README.md",
-   "bytes": 1537,
-   "sha256": "0bd7e3ae326acd60c503ae8783956a4ac378dd179f326bc75371069e7a0243b3"
+   "bytes": 1977,
+   "sha256": "4e80a617059f152ae0febe881eae026978f25d7b9f5bd90134093c69edf681e7"
+  },
+  {
+   "path": "archive_result.json",
+   "bytes": 2714,
+   "sha256": "ecf3c6d89fe4b9351dfbc297d724ed5e3612e270b9324e04c1c693d3282754d2"
   },
   {
    "path": "assignment_1024.csv",
@@ -54,49 +59,129 @@
    "sha256": "352b1fb56fbc9d1c673ef0874ce028d5520562482173aa62e6d83afbf87a82ff"
   },
   {
-   "path": "code/fanout1024/archive.py",
+   "path": "code/CODE_FILES.json",
+   "bytes": 3741,
+   "sha256": "73e37cfef3ace58db566ae9d783e2aee730539323a6c37bb27ae5c949390f09e"
+  },
+  {
+   "path": "code/archive.py",
    "bytes": 29349,
    "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
   },
   {
-   "path": "code/fanout1024/assemble.py",
+   "path": "code/assemble.py",
    "bytes": 13258,
    "sha256": "9f65f06c56a8f696b5f107f6e0f10d4f178440282b4027a3cdf662fd37c41f49"
   },
   {
-   "path": "code/fanout1024/common.py",
+   "path": "code/assign.py",
+   "bytes": 60122,
+   "sha256": "4053c8adf74e3cfe5325e6c8b9d75dc595cde8f937ec5d35205b1a5482e0aee9"
+  },
+  {
+   "path": "code/common.py",
    "bytes": 13699,
    "sha256": "18a08917fdf4ded9d05fdfeae62168b3ebbe3d332685523d762fab00ef2db70d"
   },
   {
-   "path": "code/fanout1024/fanout.py",
+   "path": "code/fanout.py",
    "bytes": 96249,
    "sha256": "e3156fe22be60beb63fa91abc3a0b38b97daa672e43b4011161b1065a6462465"
   },
   {
-   "path": "code/fanout1024/layer2d.py",
+   "path": "code/layer2d.py",
    "bytes": 83671,
    "sha256": "d0de64e35438861e393cd33e70367bbd9d84bfead065ba8646cbfde78a68e099"
   },
   {
-   "path": "code/fanout1024/report.py",
+   "path": "code/plots.py",
+   "bytes": 30962,
+   "sha256": "00fb7674255d3d62c10b0772d044c87aeec9bb376b8704fbd431a0af4cb6f2ab"
+  },
+  {
+   "path": "code/reheight21/SPEC.md",
+   "bytes": 9234,
+   "sha256": "e4c6432d124cbc9b0f56a38b9d49fe2072f98f91eceec5c214dfa6902c36746c"
+  },
+  {
+   "path": "code/reheight21/__init__.py",
+   "bytes": 1201,
+   "sha256": "546932bbcb399a2d55f920b81551781e5b794165cdd597e85674363aa416ef85"
+  },
+  {
+   "path": "code/reheight21/archive21.py",
+   "bytes": 23387,
+   "sha256": "ad34a1d66b69ed96b55382b6429f5f34837e169068bcbcbdc1e997710757596a"
+  },
+  {
+   "path": "code/reheight21/assign21.py",
+   "bytes": 68627,
+   "sha256": "2905e8f5f35982c6ceb71060cc87fb1a6ff9e425a73d9489a76e7f2333d333f0"
+  },
+  {
+   "path": "code/reheight21/model.py",
+   "bytes": 31248,
+   "sha256": "842ef8d72d18ace4a789609294035361b3f38f7e0f17b219d7c6dac7f42f3209"
+  },
+  {
+   "path": "code/reheight21/plots21.py",
+   "bytes": 144146,
+   "sha256": "c1e1badebf98f2a568cc1382d623679e831d19e2e295944ffe44d47a5a3bdf52"
+  },
+  {
+   "path": "code/reheight21/report21.py",
+   "bytes": 97837,
+   "sha256": "eb40634e12f62860457a06016e7a10875bc0db240fbe0b1ed50ffa98b4c62d11"
+  },
+  {
+   "path": "code/reheight21/run21.py",
+   "bytes": 59279,
+   "sha256": "c2d9931bcb5e598d5c7fa090388806450cfaa445a0c7dd98fd758c949d6b7582"
+  },
+  {
+   "path": "code/reheight21/tests_assign21.py",
+   "bytes": 23632,
+   "sha256": "208511e204be941264d45f6260c29a6a10e808f9fdbe319f925e54faf207304c"
+  },
+  {
+   "path": "code/reheight21/tests_plots21.py",
+   "bytes": 34976,
+   "sha256": "efa45ed262a7c41164d31eea3b321031177bc700287a428587d69a373d066976"
+  },
+  {
+   "path": "code/reheight21/tests_validate21.py",
+   "bytes": 19690,
+   "sha256": "64ea4563605e1ffd98687561d6436b69976664773654e9904362e9f81b710fba"
+  },
+  {
+   "path": "code/reheight21/validate21.py",
+   "bytes": 151157,
+   "sha256": "6d4f43a063030c9ae6fcf13d80448be6f3ed546745618704db0c417d959419e4"
+  },
+  {
+   "path": "code/report.py",
    "bytes": 102145,
    "sha256": "2cd230425925963fd1a724e3f6f9180dc5f6ad6444f6b71652532883c1992b14"
   },
   {
-   "path": "code/fanout1024/run_all.py",
+   "path": "code/run_all.py",
    "bytes": 74942,
    "sha256": "c98ca4ac8341bb25c9e8fe411a3750585c93e256dc7b5b48d41d368258ee424e"
   },
   {
-   "path": "code/fanout1024/validate_final.py",
+   "path": "code/validate_final.py",
    "bytes": 118953,
    "sha256": "c71e82c138dd0ea69193b4d9a033ca7005a92290c81f0fa2a18a47f5d0cdfae8"
   },
   {
+   "path": "code/verify.py",
+   "bytes": 77253,
+   "sha256": "3d118792ef508ead4e1e6877e05cc3c5fe0d6888b7bb128c90099a02905452b4"
+  },
+  {
    "path": "comparison.md",
-   "bytes": 7348,
-   "sha256": "5385ccbd25f12629e8022cfe8438ba79ff7a6263cd758fa3996140375534128c"
+   "bytes": 7717,
+   "sha256": "d1a7cf7c3346ef5e6b3c99ee9eecb89f0eab0505dd287789e96ff21db6a0d905"
   },
   {
    "path": "crossing_stats.json",
@@ -230,13 +315,13 @@
   },
   {
    "path": "final_stats.json",
-   "bytes": 597570,
-   "sha256": "9978dda286e10e76c7403b59eeaa2592f0ce3edfef83a07528da9ede2e6adfb8"
+   "bytes": 842559,
+   "sha256": "67349e1a18eeef9a9055b6fd0dc3da38861e1d3a716f3b453d27961d848a010f"
   },
   {
    "path": "final_stats_run_all.json",
-   "bytes": 374646,
-   "sha256": "9c8059f27bf85f765c6aa67855144fa9687fc96e725daa239f070f3ff29ff8bd"
+   "bytes": 597570,
+   "sha256": "9978dda286e10e76c7403b59eeaa2592f0ce3edfef83a07528da9ede2e6adfb8"
   },
   {
    "path": "layer_planes.json",
@@ -410,8 +495,8 @@
   },
   {
    "path": "report.md",
-   "bytes": 19185,
-   "sha256": "82c276e123a37c057fcdd9956f75e155aee9191e437c5fe2986f2e5d3b6e74dd"
+   "bytes": 19670,
+   "sha256": "a9cd6b599b6c7723b40f7909f40d02170f5f50431c8707916d351845b50dfbfb"
   },
   {
    "path": "routes_l3d.json",
@@ -441,44 +526,119 @@
  ],
  "code_snapshot": [
   {
-   "path": "code/fanout1024/fanout.py",
+   "path": "code/reheight21/model.py",
+   "bytes": 31248,
+   "sha256": "842ef8d72d18ace4a789609294035361b3f38f7e0f17b219d7c6dac7f42f3209"
+  },
+  {
+   "path": "code/reheight21/assign21.py",
+   "bytes": 68627,
+   "sha256": "2905e8f5f35982c6ceb71060cc87fb1a6ff9e425a73d9489a76e7f2333d333f0"
+  },
+  {
+   "path": "code/reheight21/run21.py",
+   "bytes": 59279,
+   "sha256": "c2d9931bcb5e598d5c7fa090388806450cfaa445a0c7dd98fd758c949d6b7582"
+  },
+  {
+   "path": "code/reheight21/validate21.py",
+   "bytes": 151157,
+   "sha256": "6d4f43a063030c9ae6fcf13d80448be6f3ed546745618704db0c417d959419e4"
+  },
+  {
+   "path": "code/reheight21/plots21.py",
+   "bytes": 144146,
+   "sha256": "c1e1badebf98f2a568cc1382d623679e831d19e2e295944ffe44d47a5a3bdf52"
+  },
+  {
+   "path": "code/reheight21/tests_assign21.py",
+   "bytes": 23632,
+   "sha256": "208511e204be941264d45f6260c29a6a10e808f9fdbe319f925e54faf207304c"
+  },
+  {
+   "path": "code/reheight21/tests_validate21.py",
+   "bytes": 19690,
+   "sha256": "64ea4563605e1ffd98687561d6436b69976664773654e9904362e9f81b710fba"
+  },
+  {
+   "path": "code/reheight21/tests_plots21.py",
+   "bytes": 34976,
+   "sha256": "efa45ed262a7c41164d31eea3b321031177bc700287a428587d69a373d066976"
+  },
+  {
+   "path": "code/reheight21/report21.py",
+   "bytes": 97837,
+   "sha256": "eb40634e12f62860457a06016e7a10875bc0db240fbe0b1ed50ffa98b4c62d11"
+  },
+  {
+   "path": "code/reheight21/archive21.py",
+   "bytes": 23387,
+   "sha256": "ad34a1d66b69ed96b55382b6429f5f34837e169068bcbcbdc1e997710757596a"
+  },
+  {
+   "path": "code/reheight21/SPEC.md",
+   "bytes": 9234,
+   "sha256": "e4c6432d124cbc9b0f56a38b9d49fe2072f98f91eceec5c214dfa6902c36746c"
+  },
+  {
+   "path": "code/reheight21/__init__.py",
+   "bytes": 1201,
+   "sha256": "546932bbcb399a2d55f920b81551781e5b794165cdd597e85674363aa416ef85"
+  },
+  {
+   "path": "code/fanout.py",
    "bytes": 96249,
    "sha256": "e3156fe22be60beb63fa91abc3a0b38b97daa672e43b4011161b1065a6462465"
   },
   {
-   "path": "code/fanout1024/layer2d.py",
+   "path": "code/layer2d.py",
    "bytes": 83671,
    "sha256": "d0de64e35438861e393cd33e70367bbd9d84bfead065ba8646cbfde78a68e099"
   },
   {
-   "path": "code/fanout1024/assemble.py",
+   "path": "code/assemble.py",
    "bytes": 13258,
    "sha256": "9f65f06c56a8f696b5f107f6e0f10d4f178440282b4027a3cdf662fd37c41f49"
   },
   {
-   "path": "code/fanout1024/common.py",
+   "path": "code/common.py",
    "bytes": 13699,
    "sha256": "18a08917fdf4ded9d05fdfeae62168b3ebbe3d332685523d762fab00ef2db70d"
   },
   {
-   "path": "code/fanout1024/run_all.py",
+   "path": "code/run_all.py",
    "bytes": 74942,
    "sha256": "c98ca4ac8341bb25c9e8fe411a3750585c93e256dc7b5b48d41d368258ee424e"
   },
   {
-   "path": "code/fanout1024/validate_final.py",
+   "path": "code/validate_final.py",
    "bytes": 118953,
    "sha256": "c71e82c138dd0ea69193b4d9a033ca7005a92290c81f0fa2a18a47f5d0cdfae8"
   },
   {
-   "path": "code/fanout1024/archive.py",
+   "path": "code/archive.py",
    "bytes": 29349,
    "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
   },
   {
-   "path": "code/fanout1024/report.py",
+   "path": "code/report.py",
    "bytes": 102145,
    "sha256": "2cd230425925963fd1a724e3f6f9180dc5f6ad6444f6b71652532883c1992b14"
+  },
+  {
+   "path": "code/plots.py",
+   "bytes": 30962,
+   "sha256": "00fb7674255d3d62c10b0772d044c87aeec9bb376b8704fbd431a0af4cb6f2ab"
+  },
+  {
+   "path": "code/verify.py",
+   "bytes": 77253,
+   "sha256": "3d118792ef508ead4e1e6877e05cc3c5fe0d6888b7bb128c90099a02905452b4"
+  },
+  {
+   "path": "code/assign.py",
+   "bytes": 60122,
+   "sha256": "4053c8adf74e3cfe5325e6c8b9d75dc595cde8f937ec5d35205b1a5482e0aee9"
   }
  ],
  "note": "21-routing-height experiment; the frozen 18-layer baseline RUN_DIR and its GitHub archive are not touched by this archive."

@@ -1,6 +1,6 @@
 # fanout_first_21_height_rebalanced_1024
 
-Archived at 2026-11-03T22:07:26.
+Archived at 2026-11-03T22:13:22.
 
 ## Result
 
@@ -25,6 +25,7 @@ Archived at 2026-11-03T22:07:26.
 * `report.md`, `comparison.md`, `final_stats.json` (+ `final_stats_run_all.json`)
 * `assignment_1024.csv`, `layer_planes.json`, `assignment_audit.json`, `assignment_diff_vs_baseline.md`, `physical_layer_stack.json`, `process_rules.json`
 * `fanout_selected.json`, `fanout_validation.json`, `layerwise_routes/`, `layerwise_endpoints/`
-* `experiment_A/ .. experiment_E/`, `plots/` (21 per-height images + 7 comparison figures), `tests.log`, `run.log`, `checkpoints/`
-* `code/`: reheight21 modules + patched shared `fanout.py`, `layer2d.py`, `assemble.py`
-* `MANIFEST.json`: sha256 + size of every archived file
+* `experiment_A/ .. experiment_E/` (incl. the regenerated `experiment_C/` initial-C layout), `plots/` (21 per-height images + 7 comparison figures), `tests.log`, `run.log`, `checkpoints/`
+* `code/reheight21/`: model.py, assign21.py, run21.py, validate21.py, plots21.py, report21.py, archive21.py, SPEC.md, __init__.py, tests_assign21.py, tests_validate21.py, tests_plots21.py
+* `code/*.py`: patched shared modules (fanout.py, layer2d.py, assemble.py, common.py) + run_all.py, validate_final.py, archive.py, report.py, plots.py, verify.py, assign.py
+* `MANIFEST.json`: sha256 + size of every archived file (including every code file); `code/CODE_FILES.json`: the same code-file sha256 list in machine-readable form

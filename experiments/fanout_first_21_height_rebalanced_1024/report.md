@@ -1,6 +1,6 @@
 # 21 路由高度重平衡 1024 通道 3D 布线实验报告
 
-生成时间：2026-11-03T22:07:20  
+生成时间：2026-11-03T22:13:18  
 运行目录：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024`  
 Baseline（只读）：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024`  
 实验类型：21-routing-height rebalanced (19 body planes ids 2..20 + 2 interface-body planes 1001/1002)  
@@ -76,7 +76,7 @@ Baseline（只读）：`C:\Users\lihao\Desktop\Graduation Project\OpticalWavegui
 
 * Lead 冻结说明中描述的初始 C pass：1023/1024，1 条 `candidate_budget_exhausted`，crossings_total 11865；该次 `experiment_C/` 目录已被后续运行覆盖，不在磁盘上。
 * 磁盘上可核对的 `checkpoints/stage_C_2d.json`（accepted run 的初始 2D pass）：1021/1024，failed=3，elapsed=6.87 s；interface planes 1001/1002 均为全布通（52/52, 48/48）。
-* `experiment_C/` 当前内容已被 layer2d owner 在 accepted E 之后改进重跑（ordering_seed=16，1024/1024，crossings_total 11848），并非 `routes_l3d.json` 所基于的状态；最终以 validator 对 `routes_l3d.json` 的结果为准。
+* `experiment_C/` 当前内容已被 layer2d owner 在 accepted E 之后重跑（**1024/1024 routed，0 failed**，ordering_seed=16，budget=600，initial-C crossings_total=11848；Lead 报告 seeds 0/1/2/15 为 1023/1024——如实记录），界面直连：Z1_INTERFACE 52/52、Z2_INTERFACE 48/48 全布通；与同高度 frozen leads（Z1 920 条 / Z2 928 条）合并审计得到 892 / 60 个合法交叉、0 个 D56 conflict（R15 全部 OK）。这是改进后的 initial-C layout；**权威最终结果仍是 accepted E 的 routes_l3d.json**：1024/1024，validator crossings 11890/9797。
 
 E 的迭代记录（`experiment_E/summary.json`）：iteration 1: 2D 1021, assembled 1021, world_valid 1021, budget 600；iteration 2: 2D 1024, assembled 1024, world_valid 1024, budget 1200。即初始 2D pass 的 transient failure（candidate budget 耗尽）在 E 重跑（per-route candidate budget=1200）中恢复为 1024/1024；**最终 accepted routes_l3d.json 只包含通过严格 3D world 校验的线路，validator 0 违规——从未接受任何非法线路。**
 
@@ -264,6 +264,12 @@ Z1 五个 other 高度对比（baseline 只有 L6/L7 两个 Z1-other 高度）�
 * `experiment_D/`
 * `experiment_E/`
 * `plots/`
+* `tests.log`
+* `run.log`
+* `checkpoints/`
+* `archive_result.json`
+* `code/reheight21/ (archive)`
+* `code/CODE_FILES.json (archive)`
 * `code/ (archive)`
 * `MANIFEST.json (archive)`
 

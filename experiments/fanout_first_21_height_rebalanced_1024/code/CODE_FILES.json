@@ -1,0 +1,125 @@
+{
+ "schema": "reheight21_code_files_v1",
+ "generated_at": "2026-11-03T22:13:22",
+ "experiment": "fanout_first_21_height_rebalanced_1024",
+ "note": "sha256 of every snapshot code file; the same entries are in MANIFEST.json",
+ "file_count": 23,
+ "total_bytes": 1365017,
+ "files": [
+  {
+   "path": "code/archive.py",
+   "bytes": 29349,
+   "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
+  },
+  {
+   "path": "code/assemble.py",
+   "bytes": 13258,
+   "sha256": "9f65f06c56a8f696b5f107f6e0f10d4f178440282b4027a3cdf662fd37c41f49"
+  },
+  {
+   "path": "code/assign.py",
+   "bytes": 60122,
+   "sha256": "4053c8adf74e3cfe5325e6c8b9d75dc595cde8f937ec5d35205b1a5482e0aee9"
+  },
+  {
+   "path": "code/common.py",
+   "bytes": 13699,
+   "sha256": "18a08917fdf4ded9d05fdfeae62168b3ebbe3d332685523d762fab00ef2db70d"
+  },
+  {
+   "path": "code/fanout.py",
+   "bytes": 96249,
+   "sha256": "e3156fe22be60beb63fa91abc3a0b38b97daa672e43b4011161b1065a6462465"
+  },
+  {
+   "path": "code/layer2d.py",
+   "bytes": 83671,
+   "sha256": "d0de64e35438861e393cd33e70367bbd9d84bfead065ba8646cbfde78a68e099"
+  },
+  {
+   "path": "code/plots.py",
+   "bytes": 30962,
+   "sha256": "00fb7674255d3d62c10b0772d044c87aeec9bb376b8704fbd431a0af4cb6f2ab"
+  },
+  {
+   "path": "code/reheight21/SPEC.md",
+   "bytes": 9234,
+   "sha256": "e4c6432d124cbc9b0f56a38b9d49fe2072f98f91eceec5c214dfa6902c36746c"
+  },
+  {
+   "path": "code/reheight21/__init__.py",
+   "bytes": 1201,
+   "sha256": "546932bbcb399a2d55f920b81551781e5b794165cdd597e85674363aa416ef85"
+  },
+  {
+   "path": "code/reheight21/archive21.py",
+   "bytes": 23387,
+   "sha256": "ad34a1d66b69ed96b55382b6429f5f34837e169068bcbcbdc1e997710757596a"
+  },
+  {
+   "path": "code/reheight21/assign21.py",
+   "bytes": 68627,
+   "sha256": "2905e8f5f35982c6ceb71060cc87fb1a6ff9e425a73d9489a76e7f2333d333f0"
+  },
+  {
+   "path": "code/reheight21/model.py",
+   "bytes": 31248,
+   "sha256": "842ef8d72d18ace4a789609294035361b3f38f7e0f17b219d7c6dac7f42f3209"
+  },
+  {
+   "path": "code/reheight21/plots21.py",
+   "bytes": 144146,
+   "sha256": "c1e1badebf98f2a568cc1382d623679e831d19e2e295944ffe44d47a5a3bdf52"
+  },
+  {
+   "path": "code/reheight21/report21.py",
+   "bytes": 97837,
+   "sha256": "eb40634e12f62860457a06016e7a10875bc0db240fbe0b1ed50ffa98b4c62d11"
+  },
+  {
+   "path": "code/reheight21/run21.py",
+   "bytes": 59279,
+   "sha256": "c2d9931bcb5e598d5c7fa090388806450cfaa445a0c7dd98fd758c949d6b7582"
+  },
+  {
+   "path": "code/reheight21/tests_assign21.py",
+   "bytes": 23632,
+   "sha256": "208511e204be941264d45f6260c29a6a10e808f9fdbe319f925e54faf207304c"
+  },
+  {
+   "path": "code/reheight21/tests_plots21.py",
+   "bytes": 34976,
+   "sha256": "efa45ed262a7c41164d31eea3b321031177bc700287a428587d69a373d066976"
+  },
+  {
+   "path": "code/reheight21/tests_validate21.py",
+   "bytes": 19690,
+   "sha256": "64ea4563605e1ffd98687561d6436b69976664773654e9904362e9f81b710fba"
+  },
+  {
+   "path": "code/reheight21/validate21.py",
+   "bytes": 151157,
+   "sha256": "6d4f43a063030c9ae6fcf13d80448be6f3ed546745618704db0c417d959419e4"
+  },
+  {
+   "path": "code/report.py",
+   "bytes": 102145,
+   "sha256": "2cd230425925963fd1a724e3f6f9180dc5f6ad6444f6b71652532883c1992b14"
+  },
+  {
+   "path": "code/run_all.py",
+   "bytes": 74942,
+   "sha256": "c98ca4ac8341bb25c9e8fe411a3750585c93e256dc7b5b48d41d368258ee424e"
+  },
+  {
+   "path": "code/validate_final.py",
+   "bytes": 118953,
+   "sha256": "c71e82c138dd0ea69193b4d9a033ca7005a92290c81f0fa2a18a47f5d0cdfae8"
+  },
+  {
+   "path": "code/verify.py",
+   "bytes": 77253,
+   "sha256": "3d118792ef508ead4e1e6877e05cc3c5fe0d6888b7bb128c90099a02905452b4"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "schema": "reheight21_archive_result_v1",
+ "experiment": "fanout_first_21_height_rebalanced_1024",
+ "generated_at": "2026-11-03T22:12:00",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
+ "archive_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\fanout_first_21_height_rebalanced_1024",
+ "first_commit": "3190dae322a37bf3d48b07703770c39f68be6aee",
+ "first_commit_url": "https://github.com/lihaolun201003/11.9-second-report-all-work/commit/3190dae322a37bf3d48b07703770c39f68be6aee",
+ "first_commit_parent": "4451206a340008bc7d59c020eff7fdb5a6f1c085",
+ "first_commit_note": "initial 21-height archive commit (routes/validation/crossing_stats/report/comparison/tests.log/MANIFEST/plots/experiment dirs); its code snapshot was incomplete (missing code/reheight21/* and code/fanout.py)",
+ "follow_up_commit": null,
+ "follow_up_commit_url": null,
+ "follow_up_parent": "3190dae322a37bf3d48b07703770c39f68be6aee",
+ "follow_up_content": [
+  "complete code snapshot: code/reheight21/{model,assign21,run21,validate21,plots21,report21,archive21}.py + SPEC.md + __init__.py + tests_assign21/tests_validate21/tests_plots21, and code/{fanout,layer2d,assemble,common,run_all,validate_final,archive,report,plots,verify,assign}.py",
+  "code/CODE_FILES.json with sha256 of every code file",
+  "regenerated experiment_C/ initial-C layout (1024/1024, 0 failed, ordering_seed=16, budget=600, initial-C crossings 11848; interface planes 52/52 + 48/48, frozen leads 920/928, legal crossings 892/60, 0 D56 conflicts)",
+  "report.md/comparison.md initial-C section update and code snapshot references",
+  "archive_result.json with the first-commit and follow-up archive bookkeeping"
+ ],
+ "final_numbers_unchanged": {
+  "routes_l3d_sha256": "1fe24c977c36c0b24692ee386213e6e870010ac1f0bed5c6b3a1eb4be53119d9",
+  "routed": 1024,
+  "failed": 0,
+  "direct_routes": 100,
+  "transitions": 1848,
+  "validator_crossings": 11890,
+  "validator_crossing_pairs": 9797,
+  "min_3d_clearance_mm": 0.100699741,
+  "note": "routes_l3d.json / validation.json / crossing_stats.json / report final numbers were NOT changed by the archive follow-up; the regenerated experiment_C/ is the improved initial-C layout only, the accepted experiment E layout remains authoritative"
+ },
+ "note": "the follow-up commit sha cannot be embedded in the commit that creates it (content-addressed); it is recorded in the archive_result.json of the follow-up archive commit and in RUN_DIR/archive_result.json after the push",
+ "old_archive_untouched": "experiments/fanout_first_z2_manual_verified_1024/ (18-layer archive) was not modified"
+}
