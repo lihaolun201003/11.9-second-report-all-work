@@ -1,0 +1,27 @@
+{
+ "total": 1024,
+ "z1": 512,
+ "z2": 512,
+ "by_region": {
+  "z1:Z1_MIDDLE": 384,
+  "z1:Z1_DOWN": 128,
+  "z2:Z2_MIDDLE": 330,
+  "z2:Z2_UP": 114,
+  "z2:Z2_INTERFACE": 68
+ },
+ "z2_independent_planes": 12,
+ "z2_planes": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
+ ]
+}

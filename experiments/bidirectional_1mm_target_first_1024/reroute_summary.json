@@ -1,0 +1,336 @@
+{
+ "recovered": 66,
+ "still": 223,
+ "recovered_routes": [
+  {
+   "route_id": 10,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 7
+  },
+  {
+   "route_id": 103,
+   "old_reason": "same_plane:flat_same_plane_conflict",
+   "new_layer": 6
+  },
+  {
+   "route_id": 148,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 6
+  },
+  {
+   "route_id": 158,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 7
+  },
+  {
+   "route_id": 203,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 7
+  },
+  {
+   "route_id": 205,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 6
+  },
+  {
+   "route_id": 206,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 7
+  },
+  {
+   "route_id": 217,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 6
+  },
+  {
+   "route_id": 411,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 7
+  },
+  {
+   "route_id": 412,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 7
+  },
+  {
+   "route_id": 420,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 6
+  },
+  {
+   "route_id": 425,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 6
+  },
+  {
+   "route_id": 428,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 6
+  },
+  {
+   "route_id": 447,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 7
+  },
+  {
+   "route_id": 449,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 6
+  },
+  {
+   "route_id": 459,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 6
+  },
+  {
+   "route_id": 497,
+   "old_reason": "lift_route_none",
+   "new_layer": 7
+  },
+  {
+   "route_id": 519,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 11
+  },
+  {
+   "route_id": 543,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 565,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 8
+  },
+  {
+   "route_id": 567,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 11
+  },
+  {
+   "route_id": 568,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 577,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 11
+  },
+  {
+   "route_id": 586,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 590,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 10
+  },
+  {
+   "route_id": 592,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 10
+  },
+  {
+   "route_id": 655,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 10
+  },
+  {
+   "route_id": 661,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 10
+  },
+  {
+   "route_id": 662,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 664,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 665,
+   "old_reason": "same_plane:flat_same_plane_conflict",
+   "new_layer": 8
+  },
+  {
+   "route_id": 692,
+   "old_reason": "same_plane:flat_same_plane_conflict",
+   "new_layer": 9
+  },
+  {
+   "route_id": 712,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 9
+  },
+  {
+   "route_id": 714,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 11
+  },
+  {
+   "route_id": 719,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 11
+  },
+  {
+   "route_id": 741,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 744,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 833,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 11
+  },
+  {
+   "route_id": 834,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 11
+  },
+  {
+   "route_id": 837,
+   "old_reason": "same_plane:flat_same_plane_conflict",
+   "new_layer": 10
+  },
+  {
+   "route_id": 858,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 11
+  },
+  {
+   "route_id": 878,
+   "old_reason": "no_transition_window",
+   "new_layer": 10
+  },
+  {
+   "route_id": 879,
+   "old_reason": "no_transition_window",
+   "new_layer": 10
+  },
+  {
+   "route_id": 880,
+   "old_reason": "no_transition_window",
+   "new_layer": 10
+  },
+  {
+   "route_id": 887,
+   "old_reason": "same_plane:flat_same_plane_conflict",
+   "new_layer": 9
+  },
+  {
+   "route_id": 888,
+   "old_reason": "lift_route_none",
+   "new_layer": 8
+  },
+  {
+   "route_id": 889,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 8
+  },
+  {
+   "route_id": 891,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 8
+  },
+  {
+   "route_id": 894,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 11
+  },
+  {
+   "route_id": 896,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 10
+  },
+  {
+   "route_id": 905,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 11
+  },
+  {
+   "route_id": 911,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 10
+  },
+  {
+   "route_id": 914,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 9
+  },
+  {
+   "route_id": 915,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 11
+  },
+  {
+   "route_id": 916,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 8
+  },
+  {
+   "route_id": 919,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 11
+  },
+  {
+   "route_id": 922,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 930,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 8
+  },
+  {
+   "route_id": 946,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 8
+  },
+  {
+   "route_id": 949,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 10
+  },
+  {
+   "route_id": 950,
+   "old_reason": "lift_route_none",
+   "new_layer": 10
+  },
+  {
+   "route_id": 952,
+   "old_reason": "world:flat_vs_transition",
+   "new_layer": 10
+  },
+  {
+   "route_id": 954,
+   "old_reason": "same_plane:flat_same_plane_conflict",
+   "new_layer": 9
+  },
+  {
+   "route_id": 955,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 8
+  },
+  {
+   "route_id": 957,
+   "old_reason": "world:transition_vs_flat",
+   "new_layer": 9
+  },
+  {
+   "route_id": 975,
+   "old_reason": "same_plane:flat_same_plane_conflict",
+   "new_layer": 11
+  }
+ ]
+}

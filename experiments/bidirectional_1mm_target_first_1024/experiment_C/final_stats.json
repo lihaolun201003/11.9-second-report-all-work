@@ -1,0 +1,30 @@
+{
+ "routed": 801,
+ "failed": 223,
+ "z1_routed": 447,
+ "z2_routed": 354,
+ "manual_u_routed": 256,
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "geometry_pass": true,
+ "crossings": {
+  "unique": 14860,
+  "by_plane": {
+   "z1xz1": 3791,
+   "z2xz2": 11069
+  }
+ },
+ "min_3d_clearance_mm": 0.087864845,
+ "total_length_mm": 119454.6502,
+ "failed_reasons": {}
+}

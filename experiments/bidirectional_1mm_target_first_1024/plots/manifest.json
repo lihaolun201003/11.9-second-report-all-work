@@ -1,0 +1,80 @@
+{
+ "figures": [
+  {
+   "file": "01_cross_section_x75.png",
+   "title": "1 mm glass true 3D cross-section",
+   "status": "rendered"
+  },
+  {
+   "file": "02_physical_layer_stack.png",
+   "title": "physical layer stack",
+   "status": "rendered"
+  },
+  {
+   "file": "03_z1_down_3d.png",
+   "title": "图3 Z1 向下布线三维总览（128 条真实负 z 过渡）",
+   "status": "rendered"
+  },
+  {
+   "file": "04_z2_up_3d.png",
+   "title": "图4 Z2 向上布线三维总览（182 条真实正 z 过渡）",
+   "status": "rendered"
+  },
+  {
+   "file": "05_middle_region_3d.png",
+   "title": "图5 中间 z=0..0.5 区域实际使用（451 条）",
+   "status": "rendered"
+  },
+  {
+   "file": "06_manual_u_3d.png",
+   "title": "图6 256 条人工 U 的新三维形状（实际 256 条）",
+   "status": "rendered"
+  },
+  {
+   "file": "07_z1_opposite_layers.png",
+   "title": "Z1 opposite side layer map",
+   "status": "rendered"
+  },
+  {
+   "file": "08_z2_groups_layers.png",
+   "title": "Z2 logical groups vs physical layers",
+   "status": "rendered"
+  },
+  {
+   "file": "09_all_1024_3d.png",
+   "title": "图9 完整 1024 条线路三维总览（已布通 801 条）",
+   "status": "rendered"
+  },
+  {
+   "file": "10_per_layer_2d.png",
+   "title": "per-layer 2D routing",
+   "status": "rendered"
+  },
+  {
+   "file": "11_interface_transition_zoom.png",
+   "title": "interface transition zoom",
+   "status": "rendered"
+  },
+  {
+   "file": "12_old_new_comparison.png",
+   "title": "old/new comparison",
+   "status": "rendered"
+  },
+  {
+   "file": "13_z2_12_vs_legal.png",
+   "status": "rendered",
+   "title": "Z2 12 independent candidate planes vs final legal 4"
+  },
+  {
+   "file": "14_ABC_comparison.png",
+   "status": "rendered",
+   "title": "A/B/C actual routed comparison"
+  },
+  {
+   "file": "15_recovery_classification.png",
+   "status": "rendered",
+   "title": "recovery classification from 735 to 801"
+  }
+ ],
+ "font": "Microsoft YaHei"
+}

@@ -1,0 +1,40 @@
+{
+ "routed": 644,
+ "failed": 380,
+ "z1_routed": 379,
+ "z2_routed": 265,
+ "manual_u_routed": 247,
+ "validation_status": "invalid_stack",
+ "validation_counts": {
+  "violations": 330916,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 330916,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "geometry_pass": false,
+ "z2_independent_planes": 12,
+ "crossings": {
+  "unique": 7314,
+  "by_plane": {
+   "z1xz1": 1135,
+   "z2xz2": 6179
+  }
+ },
+ "min_3d_clearance_mm": 0.088451657,
+ "total_length_mm": 93751.5384,
+ "failed_reasons": {
+  "world:flat_vs_transition": 188,
+  "lift_route_none": 15,
+  "world:transition_vs_flat": 97,
+  "same_plane:flat_same_plane_conflict": 39,
+  "not_attempted": 1,
+  "world:transition_vs_transition": 4,
+  "no_2d_geometry": 32,
+  "no_transition_window": 4
+ }
+}

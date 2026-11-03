@@ -1,0 +1,27 @@
+{
+ "experiment_A": {
+  "z2_independent_planes": 12,
+  "routed": 644,
+  "z1": 379,
+  "z2": 265,
+  "violations": 330916,
+  "geometry_pass": false
+ },
+ "experiment_B": {
+  "z2_independent_planes": 12,
+  "routed": 726,
+  "z1": 395,
+  "z2": 331,
+  "violations": 388276,
+  "geometry_pass": false
+ },
+ "experiment_C": {
+  "z2_independent_planes": 4,
+  "routed": 801,
+  "z1": 447,
+  "z2": 354,
+  "violations": 0,
+  "geometry_pass": true
+ },
+ "finding": "12 independent Z2 planes at 0.05 mm pitch cannot satisfy the 0.08 mm true-3D clearance with the current route XY envelopes: A has 330916 and B 388276 clearance violations. The best legal result is the 4-Z2-plane C fallback."
+}

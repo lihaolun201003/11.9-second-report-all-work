@@ -1,0 +1,85 @@
+{
+ "routed": 801,
+ "failed": 223,
+ "z1_routed": 447,
+ "z2_routed": 354,
+ "manual_u_routed": 256,
+ "validation_status": "exploratory_only",
+ "validation_counts": {
+  "violations": 0,
+  "contract_errors": 0,
+  "port_errors": 0,
+  "geometry_errors": 0,
+  "curvature_violations": 0,
+  "clearance_violations": 0,
+  "same_plane_violations": 0,
+  "self_clearance_violations": 0,
+  "other_errors": 0
+ },
+ "geometry_pass": true,
+ "crossings": {
+  "unique": 14860,
+  "by_plane": {
+   "z1xz1": 3791,
+   "z2xz2": 11069
+  }
+ },
+ "min_3d_clearance_mm": 0.087864845,
+ "total_length_mm": 119454.6502,
+ "failed_reasons": {},
+ "interface_routed": 48,
+ "routed_by_region": {
+  "Z1_MIDDLE": 319,
+  "Z1_DOWN": 128,
+  "Z2_MIDDLE": 84,
+  "Z2_UP": 222,
+  "Z2_INTERFACE": 48
+ },
+ "total_transitions": 1506,
+ "z2_independent_planes": 4,
+ "z2_logical_groups": 12,
+ "glass": {
+  "schema": "bidirectional_1mm_glass_v1",
+  "glass_thickness_mm": 1.0,
+  "z_min_mm": -0.25,
+  "z_max_mm": 0.75,
+  "z1_interface_mm": 0.0,
+  "z2_interface_mm": 0.5,
+  "min_layer_pitch_mm": 0.05,
+  "min_3d_clearance_mm": 0.08,
+  "routing_layer_count": 10,
+  "physical_layers": {
+   "2": -0.18,
+   "3": -0.09,
+   "4": 0.08,
+   "5": 0.16,
+   "6": 0.24,
+   "7": 0.32,
+   "8": 0.42,
+   "9": 0.58,
+   "10": 0.66,
+   "11": 0.74
+  },
+  "physical_plane_zs": [
+   -0.18,
+   -0.09,
+   0.0,
+   0.08,
+   0.16,
+   0.24,
+   0.32,
+   0.42,
+   0.5,
+   0.58,
+   0.66,
+   0.74
+  ],
+  "actual_min_layer_gap_mm": 0.07999999999999996,
+  "lower_margin_mm": 0.07,
+  "upper_margin_mm": 0.01,
+  "z1_downward_space_mm": 0.25,
+  "z2_upward_space_mm": 0.25,
+  "note": "symmetric baseline; the 0.25 mm lower/upper halves are simulation assumptions, not confirmed interface-to-surface process dimensions"
+ },
+ "note": "Experiment C uses the best legal 4-Z2-plane stack; the 12-plane A/B attempts are kept with their invalid-clearance evidence."
+}

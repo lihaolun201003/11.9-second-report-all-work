@@ -1,0 +1,234 @@
+{
+ "schema": "four_side_1024_v2_l3d_layer_stack_v1",
+ "provenance": "unconfirmed_simulation",
+ "formal_acceptance_allowed": false,
+ "note": "bidirectional 1 mm glass: z in [-0.25, 0.75], Z1=0, Z2=0.5, minimum layer pitch 0.05 mm, 3D clearance 0.08 mm",
+ "interface_layer": 1,
+ "max_layer": 11,
+ "layers": {
+  "1": {
+   "layer_id": 1,
+   "layer_type": "interface",
+   "physical_z_mm": null,
+   "interface_rows": {
+    "z1": 0.0,
+    "z2": 0.5
+   },
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "2": {
+   "layer_id": 2,
+   "layer_type": "routing",
+   "physical_z_mm": -0.18,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "3": {
+   "layer_id": 3,
+   "layer_type": "routing",
+   "physical_z_mm": -0.09,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "4": {
+   "layer_id": 4,
+   "layer_type": "routing",
+   "physical_z_mm": 0.08,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "5": {
+   "layer_id": 5,
+   "layer_type": "routing",
+   "physical_z_mm": 0.16,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "6": {
+   "layer_id": 6,
+   "layer_type": "routing",
+   "physical_z_mm": 0.24,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "7": {
+   "layer_id": 7,
+   "layer_type": "routing",
+   "physical_z_mm": 0.32,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "8": {
+   "layer_id": 8,
+   "layer_type": "routing",
+   "physical_z_mm": 0.42,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "9": {
+   "layer_id": 9,
+   "layer_type": "routing",
+   "physical_z_mm": 0.58,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "10": {
+   "layer_id": 10,
+   "layer_type": "routing",
+   "physical_z_mm": 0.66,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  "11": {
+   "layer_id": 11,
+   "layer_type": "routing",
+   "physical_z_mm": 0.74,
+   "interface_rows": {},
+   "allowed_transitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  }
+ },
+ "routing_heights_mm": {
+  "2": -0.18,
+  "3": -0.09,
+  "4": 0.08,
+  "5": 0.16,
+  "6": 0.24,
+  "7": 0.32,
+  "8": 0.42,
+  "9": 0.58,
+  "10": 0.66,
+  "11": 0.74
+ }
+}
