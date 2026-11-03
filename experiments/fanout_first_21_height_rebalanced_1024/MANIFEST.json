@@ -1,22 +1,22 @@
 {
  "schema": "reheight21_archive_manifest_v1",
  "experiment": "fanout_first_21_height_rebalanced_1024",
- "generated_at": "2026-11-03T22:13:22",
+ "generated_at": "2026-11-03T22:18:17",
  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
  "archive_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\fanout_first_21_height_rebalanced_1024",
  "repository": "lihaolun201003/11.9-second-report-all-work",
  "file_count": 103,
- "total_bytes": 26327429,
+ "total_bytes": 26828083,
  "files": [
   {
    "path": "README.md",
    "bytes": 1977,
-   "sha256": "4e80a617059f152ae0febe881eae026978f25d7b9f5bd90134093c69edf681e7"
+   "sha256": "f88be5d83ba6e1b2ab08f866014d06242a407b1a43f8e639b43b86c9bab58b89"
   },
   {
    "path": "archive_result.json",
-   "bytes": 2714,
-   "sha256": "ecf3c6d89fe4b9351dfbc297d724ed5e3612e270b9324e04c1c693d3282754d2"
+   "bytes": 3397,
+   "sha256": "468c2fec2e909a493584ff81bfbb6399c34a33a2236445bb88a64384b8e01573"
   },
   {
    "path": "assignment_1024.csv",
@@ -61,7 +61,7 @@
   {
    "path": "code/CODE_FILES.json",
    "bytes": 3741,
-   "sha256": "73e37cfef3ace58db566ae9d783e2aee730539323a6c37bb27ae5c949390f09e"
+   "sha256": "f47c85d3ddfece813c5cf7ae31055fe67289b7c386fdaf38956a733b474319f9"
   },
   {
    "path": "code/archive.py",
@@ -181,7 +181,7 @@
   {
    "path": "comparison.md",
    "bytes": 7717,
-   "sha256": "d1a7cf7c3346ef5e6b3c99ee9eecb89f0eab0505dd287789e96ff21db6a0d905"
+   "sha256": "ddf4e52ae1c08f2af2005eab6e0fa452b15647a17f2e0f09f0b936bcfd83bee8"
   },
   {
    "path": "crossing_stats.json",
@@ -315,13 +315,13 @@
   },
   {
    "path": "final_stats.json",
-   "bytes": 842559,
-   "sha256": "67349e1a18eeef9a9055b6fd0dc3da38861e1d3a716f3b453d27961d848a010f"
+   "bytes": 1097458,
+   "sha256": "aabc86e80f5c89b527869b02fb727ef717abf5bbcad11f24f8b0c5add4ce8d37"
   },
   {
    "path": "final_stats_run_all.json",
-   "bytes": 597570,
-   "sha256": "9978dda286e10e76c7403b59eeaa2592f0ce3edfef83a07528da9ede2e6adfb8"
+   "bytes": 842559,
+   "sha256": "67349e1a18eeef9a9055b6fd0dc3da38861e1d3a716f3b453d27961d848a010f"
   },
   {
    "path": "layer_planes.json",
@@ -495,8 +495,8 @@
   },
   {
    "path": "report.md",
-   "bytes": 19670,
-   "sha256": "a9cd6b599b6c7723b40f7909f40d02170f5f50431c8707916d351845b50dfbfb"
+   "bytes": 19753,
+   "sha256": "9a023f9de568cb7ecac638ed2cac6b5e1aabfd10337ceba5e14a3bc0b6b4ad33"
   },
   {
    "path": "routes_l3d.json",

@@ -1,6 +1,6 @@
 {
  "schema": "reheight21_code_files_v1",
- "generated_at": "2026-11-03T22:13:22",
+ "generated_at": "2026-11-03T22:18:17",
  "experiment": "fanout_first_21_height_rebalanced_1024",
  "note": "sha256 of every snapshot code file; the same entries are in MANIFEST.json",
  "file_count": 23,

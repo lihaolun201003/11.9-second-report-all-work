@@ -1,6 +1,6 @@
 # 21 路由高度 vs baseline 18 层：对比报告
 
-生成时间：2026-11-03T22:13:18  
+生成时间：2026-11-03T22:18:12  
 新实验：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024`  
 Baseline（只读）：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024`  
 

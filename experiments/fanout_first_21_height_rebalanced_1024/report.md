@@ -1,6 +1,6 @@
 # 21 路由高度重平衡 1024 通道 3D 布线实验报告
 
-生成时间：2026-11-03T22:13:18  
+生成时间：2026-11-03T22:18:12  
 运行目录：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024`  
 Baseline（只读）：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024`  
 实验类型：21-routing-height rebalanced (19 body planes ids 2..20 + 2 interface-body planes 1001/1002)  
@@ -13,7 +13,7 @@ Baseline（只读）：`C:\Users\lihao\Desktop\Graduation Project\OpticalWavegui
 * Z1 五个 other 高度（L6/L7/L20/Z1_INTERFACE/L8）合计 4510 交叉，baseline L6+L7 = 10894 → 变化 -6384.000
 * 独立验证：geometry_pass=是，contract_pass=是，validation_pass=是，violations=0；min 3D clearance（实测）0.100699741 mm （规则 0.05 mm，min radius 15 mm）
 * 长度：总长 **157484.193 mm**（baseline 156893.005 mm，+591.188 mm）；最长单线 283.188 mm；transition 总长 5775.225 mm
-* GitHub commit：<<<GITHUB_COMMIT_URL_21>>>
+* GitHub commit：https://github.com/lihaolun201003/11.9-second-report-all-work/commit/6517cc2c333cdd382f48e383f4f3d604ad5d6ad3
 
 ## 1. 实验设计：21 个路由高度（SPEC.md §1）
 

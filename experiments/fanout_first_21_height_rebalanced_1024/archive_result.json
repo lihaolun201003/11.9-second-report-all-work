@@ -1,16 +1,18 @@
 {
  "schema": "reheight21_archive_result_v1",
  "experiment": "fanout_first_21_height_rebalanced_1024",
- "generated_at": "2026-11-03T22:12:00",
+ "generated_at": "2026-11-03T22:16:00",
  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
  "archive_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\fanout_first_21_height_rebalanced_1024",
  "first_commit": "3190dae322a37bf3d48b07703770c39f68be6aee",
  "first_commit_url": "https://github.com/lihaolun201003/11.9-second-report-all-work/commit/3190dae322a37bf3d48b07703770c39f68be6aee",
  "first_commit_parent": "4451206a340008bc7d59c020eff7fdb5a6f1c085",
- "first_commit_note": "initial 21-height archive commit (routes/validation/crossing_stats/report/comparison/tests.log/MANIFEST/plots/experiment dirs); its code snapshot was incomplete (missing code/reheight21/* and code/fanout.py)",
- "follow_up_commit": null,
- "follow_up_commit_url": null,
+ "first_commit_note": "initial 21-height archive commit; its code snapshot was incomplete (missing code/reheight21/* and code/fanout.py)",
+ "follow_up_commit": "6517cc2c333cdd382f48e383f4f3d604ad5d6ad3",
+ "follow_up_commit_url": "https://github.com/lihaolun201003/11.9-second-report-all-work/commit/6517cc2c333cdd382f48e383f4f3d604ad5d6ad3",
  "follow_up_parent": "3190dae322a37bf3d48b07703770c39f68be6aee",
+ "commit_sha": "6517cc2c333cdd382f48e383f4f3d604ad5d6ad3",
+ "commit_url": "https://github.com/lihaolun201003/11.9-second-report-all-work/commit/6517cc2c333cdd382f48e383f4f3d604ad5d6ad3",
  "follow_up_content": [
   "complete code snapshot: code/reheight21/{model,assign21,run21,validate21,plots21,report21,archive21}.py + SPEC.md + __init__.py + tests_assign21/tests_validate21/tests_plots21, and code/{fanout,layer2d,assemble,common,run_all,validate_final,archive,report,plots,verify,assign}.py",
   "code/CODE_FILES.json with sha256 of every code file",
@@ -18,6 +20,15 @@
   "report.md/comparison.md initial-C section update and code snapshot references",
   "archive_result.json with the first-commit and follow-up archive bookkeeping"
  ],
+ "follow_up_verification": {
+  "remote_files": 104,
+  "missing": [],
+  "extra": [],
+  "sha_mismatch": [
+   "report.md"
+  ],
+  "explanation": "the local/archived report.md is patched with the follow-up commit URL after the push, so it differs from the pushed (placeholder) copy; the report-sync commit contains exactly this patched report"
+ },
  "final_numbers_unchanged": {
   "routes_l3d_sha256": "1fe24c977c36c0b24692ee386213e6e870010ac1f0bed5c6b3a1eb4be53119d9",
   "routed": 1024,
@@ -29,6 +40,6 @@
   "min_3d_clearance_mm": 0.100699741,
   "note": "routes_l3d.json / validation.json / crossing_stats.json / report final numbers were NOT changed by the archive follow-up; the regenerated experiment_C/ is the improved initial-C layout only, the accepted experiment E layout remains authoritative"
  },
- "note": "the follow-up commit sha cannot be embedded in the commit that creates it (content-addressed); it is recorded in the archive_result.json of the follow-up archive commit and in RUN_DIR/archive_result.json after the push",
+ "note": "a commit cannot embed its own sha (content-addressed); the follow-up sha is recorded here and in the report-sync archive commit; remote verification of the follow-up commit: 104 files under experiments/fanout_first_21_height_rebalanced_1024/, missing=0, extra=0, only report.md differs because of the post-push URL patch",
  "old_archive_untouched": "experiments/fanout_first_z2_manual_verified_1024/ (18-layer archive) was not modified"
 }
