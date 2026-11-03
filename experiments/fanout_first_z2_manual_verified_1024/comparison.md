@@ -1,6 +1,6 @@
 # 与上一轮 809/1024 的对比（comparison）
 
-生成时间：2026-11-03T19:39:03  
+生成时间：2026-11-03T19:43:06  
 本轮运行目录：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024`  
 上一轮目录：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\BIDIRECTIONAL_1MM_50UM_CORRECTED_FULL`
 

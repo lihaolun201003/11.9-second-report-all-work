@@ -72,6 +72,13 @@ def _sha256(path):
     return digest.hexdigest()
 
 
+def _git_blob_sha(path):
+    """Git blob id (what the GitHub trees API stores for a file)."""
+    data = Path(path).read_bytes()
+    header = b'blob ' + str(len(data)).encode('ascii') + b'\x00'
+    return hashlib.sha1(header + data).hexdigest()
+
+
 def _iter_files(root, skip_names=SKIP_DIR_NAMES, skip_suffixes=SKIP_SUFFIXES):
     root = Path(root)
     for path in sorted(root.rglob('*')):
@@ -475,7 +482,7 @@ def verify_remote(api, commit_sha, archive_dir, experiment, logs):
         remote_files[path[len(prefix):]] = entry['sha']
     local_files = {}
     for relative, path in _iter_files(archive_dir):
-        local_files[str(relative).replace('\\', '/')] = _sha256(path)
+        local_files[str(relative).replace('\\', '/')] = _git_blob_sha(path)
     missing = sorted(set(local_files) - set(remote_files))
     extra = sorted(set(remote_files) - set(local_files))
     mismatched = sorted(name for name in set(local_files) & set(remote_files)
@@ -540,7 +547,7 @@ def _mirror_to_clone(archive_dir, clone, experiment, force, logs):
 
 def run_archive(run_dir=None, clone=None, experiment=DEFAULT_EXPERIMENT,
                 message=None, dry_run=False, no_push=False, force=False,
-                archive_root=None, logs=None):
+                archive_root=None, skip_patch=False, logs=None):
     logs = logs if logs is not None else []
     run_dir = Path(run_dir) if run_dir is not None else RUN_DIR
     clone = Path(clone) if clone is not None else DEFAULT_CLONE
@@ -584,11 +591,14 @@ def run_archive(run_dir=None, clone=None, experiment=DEFAULT_EXPERIMENT,
     push_result = push_archive(api, archive_dir, experiment, message, logs)
     result.update(push_result)
     result['pushed'] = True
-    _patch_report_placeholder(run_dir, archive_dir, push_result['commit_url'],
-                              logs)
-    if Path(mirror_dir) != Path(archive_dir):
-        _patch_report_placeholder(run_dir, mirror_dir,
+    if not skip_patch:
+        _patch_report_placeholder(run_dir, archive_dir,
                                   push_result['commit_url'], logs)
+        if Path(mirror_dir) != Path(archive_dir):
+            _patch_report_placeholder(run_dir, mirror_dir,
+                                      push_result['commit_url'], logs)
+    else:
+        _log(logs, 'skip-patch: report files kept exactly as archived/pushed')
     try:
         verification = verify_remote(api, push_result['commit_sha'],
                                      archive_dir, experiment, logs)
@@ -620,11 +630,15 @@ def main(argv=None):
     parser.add_argument('--force', action='store_true',
                         help='rebuild the archive dir of THIS experiment '
                              '(never touches other experiments)')
+    parser.add_argument('--skip-patch', action='store_true',
+                        help='do not rewrite the report GitHub placeholder after '
+                             'the push (used for the report-sync push)')
     args = parser.parse_args(argv)
     result = run_archive(run_dir=args.run_dir, clone=args.clone,
                          experiment=args.experiment, message=args.message,
                          dry_run=args.dry_run, no_push=args.no_push,
-                         force=args.force, archive_root=args.archive_root)
+                         force=args.force, archive_root=args.archive_root,
+                         skip_patch=args.skip_patch)
     if result.get('pushed'):
         verification = result.get('verification') or {}
         print(f'[archive] commit {result["commit_sha"]} '

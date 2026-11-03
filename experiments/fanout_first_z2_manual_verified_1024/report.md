@@ -1,6 +1,6 @@
 # Fanout-First + Z2 人工 U 验证 1024 通道 3D 布线实验报告
 
-生成时间：2026-11-03T19:39:03  
+生成时间：2026-11-03T19:43:06  
 运行目录：`C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024`  
 算法：`FANOUT_FIRST_THEN_LAYERWISE_2D`  
 工艺模式：`corrected_50um`  
@@ -12,7 +12,7 @@
 * 8 个人工 U 分组：输入 368 条，布通 368 条
 * 独立验证：geometry_pass=是，contract_pass=是，validation_pass=是，违规数 0
 * 最小真实 3D 中心线间距：0.149966 mm（规则 0.05 mm），最小平面间距下限 0.050000 mm
-* GitHub commit：<<<GITHUB_COMMIT_URL>>>
+* GitHub commit：https://github.com/lihaolun201003/11.9-second-report-all-work/commit/7daf5a88d590ffe42c42e22489cdcfc41bf0ef54
 
 ## 1. 方法与流程
 
@@ -189,7 +189,7 @@ fanout 落点 lead 的最终状态（fanout-first 的关键指标）：
 
 严格验证结果：geometry_pass=是，contract_pass=是，validation_pass=是，违规总数 0；最小 3D 间距 0.149966 mm（规则 0.05 mm）。
 
-GitHub commit：<<<GITHUB_COMMIT_URL>>>
+GitHub commit：https://github.com/lihaolun201003/11.9-second-report-all-work/commit/7daf5a88d590ffe42c42e22489cdcfc41bf0ef54
 
 失败线路（共 0 条，真实 route_id + 原因；按瓶颈分类见第 7 节）：
 

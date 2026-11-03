@@ -1,17 +1,22 @@
 {
  "schema": "fanout_first_archive_manifest_v1",
  "experiment": "fanout_first_z2_manual_verified_1024",
- "generated_at": "2026-11-03T19:39:10",
+ "generated_at": "2026-11-03T19:43:14",
  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
  "archive_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\fanout_first_z2_manual_verified_1024",
  "repository": "lihaolun201003/11.9-second-report-all-work",
- "file_count": 77,
- "total_bytes": 20626154,
+ "file_count": 78,
+ "total_bytes": 20631188,
  "files": [
   {
    "path": "README.md",
    "bytes": 882,
-   "sha256": "e22dd31af651f57c167eb7c03dd2f3d0b9a87ad98b5d562a18f54c5edc5d936f"
+   "sha256": "41bf7407ff57e506471b3243c80613f5ada4119eb2406037fd5f8f81b122f5ad"
+  },
+  {
+   "path": "archive_result.json",
+   "bytes": 4045,
+   "sha256": "f97da8a73e5f5a84df3eba9a52c4bfc5b0ad3a0579ee3d96420f2f034ad51ffb"
   },
   {
    "path": "assignment_1024.csv",
@@ -50,8 +55,8 @@
   },
   {
    "path": "code/archive.py",
-   "bytes": 28676,
-   "sha256": "959119576c1324ed45a08372de4dd0e57eb2cb65b86dc7cb67af890bce8ea3d8"
+   "bytes": 29349,
+   "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
   },
   {
    "path": "code/assemble.py",
@@ -121,7 +126,7 @@
   {
    "path": "comparison.md",
    "bytes": 3571,
-   "sha256": "ca28f433862aa2b322986c74a243e7e58a36f8776f2dd4365cafb80d26efd8d0"
+   "sha256": "3c63ba011d726c022195310b6b67defb10226e2977f69321f24b59c04ada6b56"
   },
   {
    "path": "experiment_A/assignment_layer_audit.csv",
@@ -250,8 +255,8 @@
   },
   {
    "path": "final_stats.json",
-   "bytes": 172576,
-   "sha256": "f151953581199117a3b7206b03b632727ec0c89ef6eb98979f31002808dcf077"
+   "bytes": 172720,
+   "sha256": "15ff1185addba4816610f6e31aab6e1cb294a2961af21125ea29177022703c32"
   },
   {
    "path": "final_stats_run_all.json",
@@ -320,8 +325,8 @@
   },
   {
    "path": "report.md",
-   "bytes": 22373,
-   "sha256": "db90c992a5538c2812395c15c471cadfeda480c45ad8f5034bf444b9b9256880"
+   "bytes": 22545,
+   "sha256": "d134bae7713799bde80dceab6809fcbd6bd24294f3ea3592e4b9c545c85cf1a1"
   },
   {
    "path": "routes_l3d.json",
@@ -447,8 +452,8 @@
   },
   {
    "path": "code/archive.py",
-   "bytes": 28676,
-   "sha256": "959119576c1324ed45a08372de4dd0e57eb2cb65b86dc7cb67af890bce8ea3d8"
+   "bytes": 29349,
+   "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
   },
   {
    "path": "code/DESIGN.md",
