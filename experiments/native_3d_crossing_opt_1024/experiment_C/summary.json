@@ -1,0 +1,100 @@
+{
+ "schema": "native3d_experiment_c_summary_v1",
+ "strategy": "B4_multi_excursion",
+ "start_total": 2606,
+ "final_crossings": 2440,
+ "crossing_pairs": 2036,
+ "routes": 1024,
+ "routes_with_mid_transitions": 55,
+ "mid_transitions": 118,
+ "total_length_mm": 157565.942,
+ "baseline_length_mm": 157565.774,
+ "stages": {
+  "C1_top10": {
+   "sweeps": 1,
+   "total": 2595,
+   "best_total": 2595,
+   "applied_total": 4,
+   "net_total": -11,
+   "seconds": 0.0
+  },
+  "C2_top50": {
+   "sweeps": 1,
+   "total": 2589,
+   "best_total": 2589,
+   "applied_total": 2,
+   "net_total": -6,
+   "seconds": 0.0
+  },
+  "C3_all": {
+   "sweeps": 2,
+   "total": 2440,
+   "best_total": 2440,
+   "applied_total": 49,
+   "net_total": -149,
+   "seconds": 0.0
+  }
+ },
+ "history": [
+  {
+   "stage": "C1_top10",
+   "sweep": 1,
+   "start_total": 2606,
+   "end_total": 2595,
+   "net": -11,
+   "applied": 4,
+   "routes": 10,
+   "seconds": "",
+   "reasons": "reconstructed_from_checkpoint",
+   "native_routes": 4,
+   "mid_transitions": 8
+  },
+  {
+   "stage": "C2_top50",
+   "sweep": 1,
+   "start_total": 2595,
+   "end_total": 2589,
+   "net": -6,
+   "applied": 2,
+   "routes": 50,
+   "seconds": "",
+   "reasons": "reconstructed_from_checkpoint",
+   "native_routes": 6,
+   "mid_transitions": 12
+  },
+  {
+   "stage": "C3_all",
+   "sweep": 1,
+   "start_total": 2589,
+   "end_total": 2451,
+   "net": -138,
+   "applied": 49,
+   "routes": 577,
+   "seconds": "",
+   "reasons": "reconstructed_from_checkpoint",
+   "native_routes": 55,
+   "mid_transitions": 110
+  },
+  {
+   "stage": "C3_all",
+   "sweep": 2,
+   "start_total": 2451,
+   "end_total": 2440,
+   "net": -11,
+   "applied": 0,
+   "routes": 577,
+   "seconds": "",
+   "reasons": "reconstructed_from_checkpoint",
+   "native_routes": 55,
+   "mid_transitions": 118
+  }
+ ],
+ "note": "summary/history reconstructed from per-sweep checkpoints (the driver crashed on a missing import after writing the final routes/stats; fixed afterwards)",
+ "validation": {
+  "validation_pass": true,
+  "violations": 0
+ },
+ "min_3d_clearance": {
+  "min_3d_clearance_mm": 0.06730354
+ }
+}

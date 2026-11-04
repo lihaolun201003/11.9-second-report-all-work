@@ -1,0 +1,13 @@
+{
+ "schema": "nonc4_experiment_d_v1",
+ "experiment": "D",
+ "input_routes": 1024,
+ "assembled": 1024,
+ "world_valid": 1024,
+ "failed": 0,
+ "world_violations": 0,
+ "violation_kinds": {},
+ "direct_routes": 98,
+ "transition_count": 1852,
+ "note": "final accepted 3D assembly + strict 0.05 mm world check"
+}

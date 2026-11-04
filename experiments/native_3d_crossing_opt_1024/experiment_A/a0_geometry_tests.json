@@ -1,0 +1,147 @@
+{
+ "schema": "native3d_experiment_a0_v1",
+ "generated_at": "2026-11-03T23:55:50",
+ "tests": [
+  {
+   "test": "build_L6_L7_L6",
+   "passed": true,
+   "detail": {
+    "errors": [],
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 16.537342061363802
+   }
+  },
+  {
+   "test": "footprint_formula",
+   "passed": true,
+   "detail": {
+    "footprint_mm": 1.7313289693180984
+   }
+  },
+  {
+   "test": "all_arcs_R15",
+   "passed": true,
+   "detail": {
+    "errors": []
+   }
+  },
+  {
+   "test": "continuity_position",
+   "passed": true,
+   "detail": {
+    "max_gap_mm": 0.0
+   }
+  },
+  {
+   "test": "world_accepts_isolated_excursion",
+   "passed": true,
+   "detail": {
+    "violations": []
+   }
+  },
+  {
+   "test": "build_L7_L20_L7",
+   "passed": true,
+   "detail": {
+    "errors": [],
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 18.537342061363802
+   }
+  },
+  {
+   "test": "footprint_table",
+   "passed": true,
+   "detail": {
+    "table": [
+     {
+      "dz_mm": 0.05,
+      "footprint_mm": 1.731329
+     },
+     {
+      "dz_mm": 0.1,
+      "footprint_mm": 2.447448
+     },
+     {
+      "dz_mm": 0.15,
+      "footprint_mm": 2.996248
+     },
+     {
+      "dz_mm": 0.2,
+      "footprint_mm": 3.458323
+     },
+     {
+      "dz_mm": 0.25,
+      "footprint_mm": 3.864906
+     },
+     {
+      "dz_mm": 0.3,
+      "footprint_mm": 4.232021
+     },
+     {
+      "dz_mm": 0.4,
+      "footprint_mm": 4.882622
+     },
+     {
+      "dz_mm": 0.5,
+      "footprint_mm": 5.454356
+     },
+     {
+      "dz_mm": 0.65,
+      "footprint_mm": 6.211079
+     },
+     {
+      "dz_mm": 1.0,
+      "footprint_mm": 7.681146
+     }
+    ]
+   }
+  },
+  {
+   "test": "reject_49um_off_height",
+   "passed": true,
+   "detail": {
+    "errors": [
+     "flat_transition_height_mismatch",
+     "flat_z_not_routing_height:0:-0.101"
+    ]
+   }
+  },
+  {
+   "test": "reject_R14",
+   "passed": true,
+   "detail": {
+    "errors": [
+     "transition_radius_not_15:1",
+     "transition_footprint_mismatch:1"
+    ]
+   }
+  },
+  {
+   "test": "reject_discontinuity",
+   "passed": true,
+   "detail": {
+    "errors": [
+     "flat_transition_position_mismatch"
+    ]
+   }
+  },
+  {
+   "test": "reject_overlap",
+   "passed": true,
+   "detail": {
+    "violations": [
+     {
+      "kind": "flat_same_plane_conflict",
+      "route_id": 9001,
+      "z_mm": -0.1,
+      "blockers": [
+       9003000
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "passed": true,
+ "note": "geometry unit tests of the mid-body R15 layer change; independent from the 1024-route real space"
+}

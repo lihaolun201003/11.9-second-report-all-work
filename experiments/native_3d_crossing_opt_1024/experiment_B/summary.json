@@ -1,0 +1,23 @@
+{
+ "schema": "native3d_experiment_b_summary_v1",
+ "strategy": "B1_adjacent",
+ "routes": 1024,
+ "routes_with_mid_transitions": 14,
+ "mid_transitions": 28,
+ "baseline_crossings": 2606,
+ "final_crossings": 2559,
+ "crossing_pairs": 2076,
+ "validation": {
+  "valid": 1024,
+  "violations": 0,
+  "violation_kinds": {},
+  "examples": [],
+  "seconds": 15.29
+ },
+ "min_3d_clearance": {
+  "min_3d_clearance_mm": 0.068714895,
+  "lower_bound_mm": 0.05,
+  "seconds": 2.32
+ },
+ "total_length_mm": 157565.801
+}

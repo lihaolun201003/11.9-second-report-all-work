@@ -1,0 +1,26 @@
+{
+ "start": 2424,
+ "final": 2422,
+ "history": [
+  {
+   "stage": "plain_batch",
+   "sweep": 1,
+   "route_id": 172,
+   "delta": -2,
+   "total": 2422
+  }
+ ],
+ "validation": {
+  "valid": 1024,
+  "violations": 0,
+  "violation_kinds": {},
+  "examples": [],
+  "seconds": 15.97,
+  "min_3d_clearance": {
+   "min_3d_clearance_mm": 0.06730354,
+   "lower_bound_mm": 0.05,
+   "seconds": 2.55
+  },
+  "validation_pass": true
+ }
+}

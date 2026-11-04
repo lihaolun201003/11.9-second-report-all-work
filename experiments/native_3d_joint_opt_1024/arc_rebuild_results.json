@@ -1,0 +1,473 @@
+{
+ "schema": "native3d_phase2_arc_rebuild_v1",
+ "results": [
+  {
+   "route_id": 462,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 23,
+   "before_route_events": 23
+  },
+  {
+   "route_id": 459,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 21,
+   "before_route_events": 21
+  },
+  {
+   "route_id": 149,
+   "method": "E_A",
+   "target_z": -0.1,
+   "s0": 0.6791198686819013,
+   "s1": 57.26566761116499,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 149,
+   "method": "E_C",
+   "target_z": -0.1,
+   "s0": 0.6791198686819013,
+   "s1": 57.26566761116499,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 149,
+   "accepted": false,
+   "reason": "no_candidate",
+   "before_arc": 19,
+   "methods": {
+    "E_A": 1,
+    "E_C": 1
+   }
+  },
+  {
+   "route_id": 435,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 18,
+   "before_route_events": 18
+  },
+  {
+   "route_id": 5,
+   "method": "E_A",
+   "target_z": -0.15,
+   "s0": 0.7072634586818942,
+   "s1": 57.293811201164985,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 5,
+   "method": "E_A",
+   "target_z": -0.05,
+   "s0": 0.7072634586818942,
+   "s1": 57.293811201164985,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 5,
+   "method": "E_C",
+   "target_z": -0.15,
+   "s0": 0.7072634586818942,
+   "s1": 57.293811201164985,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 5,
+   "method": "E_C",
+   "target_z": -0.05,
+   "s0": 0.7072634586818942,
+   "s1": 57.293811201164985,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 5,
+   "accepted": false,
+   "reason": "no_candidate",
+   "before_arc": 17,
+   "methods": {
+    "E_A": 2,
+    "E_C": 2
+   }
+  },
+  {
+   "route_id": 486,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 17,
+   "before_route_events": 17
+  },
+  {
+   "route_id": 448,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 16,
+   "before_route_events": 16
+  },
+  {
+   "route_id": 427,
+   "method": "E_A",
+   "target_z": -0.1,
+   "s0": 3.5895687076819067,
+   "s1": 60.176116450165,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 427,
+   "method": "E_A",
+   "target_z": -0.05,
+   "s0": 2.873450026895934,
+   "s1": 60.89223513095097,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 427,
+   "method": "E_A",
+   "target_z": 0.0,
+   "s0": 2.324650023684277,
+   "s1": 61.441035134162625,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 427,
+   "method": "E_A",
+   "target_z": 0.05,
+   "s0": 1.8625743838418773,
+   "s1": 61.90311077400503,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 427,
+   "method": "E_B",
+   "target_z": -0.1,
+   "s0": 1.0895687076819067,
+   "s1": 62.676116450165,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 427,
+   "method": "E_B",
+   "target_z": -0.05,
+   "s0": 0.373450026895934,
+   "s1": 63.39223513095097,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 427,
+   "method": "E_C",
+   "target_z": -0.1,
+   "s0": 3.5895687076819067,
+   "s1": 60.176116450165,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 427,
+   "method": "E_C",
+   "target_z": -0.05,
+   "s0": 2.873450026895934,
+   "s1": 60.89223513095097,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 427,
+   "method": "E_C",
+   "target_z": 0.0,
+   "s0": 2.324650023684277,
+   "s1": 61.441035134162625,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 427,
+   "method": "E_C",
+   "target_z": 0.05,
+   "s0": 1.8625743838418773,
+   "s1": 61.90311077400503,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 427,
+   "method": "E_C",
+   "target_z": 0.1,
+   "s0": 1.4559914685649353,
+   "s1": 62.30969368928197,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 427,
+   "accepted": false,
+   "reason": "no_candidate",
+   "before_arc": 14,
+   "methods": {
+    "E_A": 4,
+    "E_B": 2,
+    "E_C": 5
+   }
+  },
+  {
+   "route_id": 104,
+   "method": "E_A",
+   "target_z": -0.15,
+   "s0": 3.645855886681903,
+   "s1": 60.23240362916499,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_A",
+   "target_z": -0.05,
+   "s0": 3.645855886681903,
+   "s1": 60.23240362916499,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_A",
+   "target_z": 0.0,
+   "s0": 2.9297372058959303,
+   "s1": 60.94852230995097,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_A",
+   "target_z": 0.05,
+   "s0": 2.3809372026842732,
+   "s1": 61.49732231316262,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_B",
+   "target_z": -0.15,
+   "s0": 1.145855886681903,
+   "s1": 62.73240362916499,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 104,
+   "method": "E_B",
+   "target_z": -0.05,
+   "s0": 1.145855886681903,
+   "s1": 62.73240362916499,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 104,
+   "method": "E_B",
+   "target_z": 0.0,
+   "s0": 0.42973720589593034,
+   "s1": 63.44852230995097,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_C",
+   "target_z": -0.15,
+   "s0": 3.645855886681903,
+   "s1": 60.23240362916499,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_C",
+   "target_z": -0.05,
+   "s0": 3.645855886681903,
+   "s1": 60.23240362916499,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_C",
+   "target_z": 0.0,
+   "s0": 2.9297372058959303,
+   "s1": 60.94852230995097,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_C",
+   "target_z": 0.05,
+   "s0": 2.3809372026842732,
+   "s1": 61.49732231316262,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_C",
+   "target_z": 0.1,
+   "s0": 1.9188615628418737,
+   "s1": 61.95939795300502,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "method": "E_C",
+   "target_z": 0.35,
+   "s0": 0.20055467797878013,
+   "s1": 63.67770483786811,
+   "accepted": false,
+   "reason": "guard:d56"
+  },
+  {
+   "route_id": 104,
+   "accepted": false,
+   "reason": "no_candidate",
+   "before_arc": 13,
+   "methods": {
+    "E_A": 4,
+    "E_B": 3,
+    "E_C": 6
+   }
+  },
+  {
+   "route_id": 112,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 13,
+   "before_route_events": 13
+  },
+  {
+   "route_id": 131,
+   "method": "E_A",
+   "target_z": -0.1,
+   "s0": 0.6791198686819093,
+   "s1": 66.015667611165,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 131,
+   "method": "E_C",
+   "target_z": -0.1,
+   "s0": 0.6791198686819093,
+   "s1": 66.015667611165,
+   "accepted": false,
+   "reason": "guard:world"
+  },
+  {
+   "route_id": 131,
+   "accepted": false,
+   "reason": "no_candidate",
+   "before_arc": 13,
+   "methods": {
+    "E_A": 1,
+    "E_C": 1
+   }
+  },
+  {
+   "route_id": 133,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 13,
+   "before_route_events": 13
+  },
+  {
+   "route_id": 148,
+   "method": "E_A",
+   "target_z": -0.05,
+   "s0": 0.8455941076819016,
+   "s1": 57.432141850164996,
+   "accepted": false,
+   "reason": "guard:metadata"
+  },
+  {
+   "route_id": 148,
+   "method": "E_A",
+   "target_z": 0.05,
+   "s0": 0.8455941076819016,
+   "s1": 57.432141850164996,
+   "accepted": false,
+   "reason": "guard:metadata"
+  },
+  {
+   "route_id": 148,
+   "method": "E_C",
+   "target_z": -0.05,
+   "s0": 0.8455941076819016,
+   "s1": 57.432141850164996,
+   "accepted": false,
+   "reason": "guard:metadata"
+  },
+  {
+   "route_id": 148,
+   "method": "E_C",
+   "target_z": 0.05,
+   "s0": 0.8455941076819016,
+   "s1": 57.432141850164996,
+   "accepted": false,
+   "reason": "guard:metadata"
+  },
+  {
+   "route_id": 148,
+   "accepted": false,
+   "reason": "no_candidate",
+   "before_arc": 13,
+   "methods": {
+    "E_A": 2,
+    "E_C": 2
+   }
+  },
+  {
+   "route_id": 447,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 13,
+   "before_route_events": 13
+  },
+  {
+   "route_id": 12,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 12,
+   "before_route_events": 12
+  },
+  {
+   "route_id": 143,
+   "accepted": false,
+   "reason": "no_flanking_straight",
+   "before_arc": 12,
+   "before_route_events": 12
+  }
+ ],
+ "summary": {
+  "schema": "native3d_phase2_experiment_e_v1",
+  "start_crossings": 2440,
+  "final_crossings": 2440,
+  "accepted": 0,
+  "attempts": 36,
+  "net": 0,
+  "methods": {},
+  "before_arc_total": 0,
+  "after_arc_total": 0,
+  "seconds": 12.0
+ }
+}

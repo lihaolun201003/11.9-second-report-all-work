@@ -1,0 +1,2814 @@
+{
+ "schema": "native3d_experiment_a1_scan_v1",
+ "generated_at": "2026-11-03T23:55:53",
+ "baseline_total": 2606,
+ "routes_scanned": [
+  {
+   "route_id": 158,
+   "crossings": 37,
+   "body_z": -0.15,
+   "window_part_chain": 5,
+   "attempts": 20,
+   "feasible": 6,
+   "gains": 6,
+   "best_delta": -4,
+   "best_target_z": -0.05,
+   "reasons": {
+    "world": 14
+   },
+   "seconds": 1.78
+  },
+  {
+   "route_id": 8,
+   "crossings": 34,
+   "body_z": -0.1,
+   "window_part_chain": 5,
+   "attempts": 29,
+   "feasible": 6,
+   "gains": 5,
+   "best_delta": -4,
+   "best_target_z": -0.15,
+   "reasons": {
+    "world": 23
+   },
+   "seconds": 1.93
+  },
+  {
+   "route_id": 217,
+   "crossings": 33,
+   "body_z": -0.15,
+   "window_part_chain": 5,
+   "attempts": 15,
+   "feasible": 6,
+   "gains": 6,
+   "best_delta": -4,
+   "best_target_z": -0.05,
+   "reasons": {
+    "world": 9
+   },
+   "seconds": 1.68
+  },
+  {
+   "route_id": 32,
+   "crossings": 30,
+   "body_z": -0.1,
+   "window_part_chain": 5,
+   "attempts": 15,
+   "feasible": 3,
+   "gains": 3,
+   "best_delta": -4,
+   "best_target_z": -0.15,
+   "reasons": {
+    "world": 12
+   },
+   "seconds": 1.4
+  },
+  {
+   "route_id": 149,
+   "crossings": 30,
+   "body_z": -0.15,
+   "window_part_chain": 5,
+   "attempts": 4,
+   "feasible": 0,
+   "gains": 0,
+   "best_delta": null,
+   "best_target_z": null,
+   "reasons": {
+    "world": 4
+   },
+   "seconds": 1.05
+  },
+  {
+   "route_id": 427,
+   "crossings": 30,
+   "body_z": -0.15,
+   "window_part_chain": 5,
+   "attempts": 4,
+   "feasible": 0,
+   "gains": 0,
+   "best_delta": null,
+   "best_target_z": null,
+   "reasons": {
+    "world": 4
+   },
+   "seconds": 1.21
+  },
+  {
+   "route_id": 5,
+   "crossings": 29,
+   "body_z": -0.1,
+   "window_part_chain": 5,
+   "attempts": 8,
+   "feasible": 0,
+   "gains": 0,
+   "best_delta": null,
+   "best_target_z": null,
+   "reasons": {
+    "world": 8
+   },
+   "seconds": 1.17
+  },
+  {
+   "route_id": 104,
+   "crossings": 28,
+   "body_z": -0.1,
+   "window_part_chain": 5,
+   "attempts": 8,
+   "feasible": 0,
+   "gains": 0,
+   "best_delta": null,
+   "best_target_z": null,
+   "reasons": {
+    "world": 8
+   },
+   "seconds": 1.28
+  },
+  {
+   "route_id": 496,
+   "crossings": 28,
+   "body_z": -0.1,
+   "window_part_chain": 5,
+   "attempts": 18,
+   "feasible": 10,
+   "gains": 10,
+   "best_delta": -5,
+   "best_target_z": 0.05,
+   "reasons": {
+    "world": 8
+   },
+   "seconds": 2.18
+  },
+  {
+   "route_id": 16,
+   "crossings": 27,
+   "body_z": -0.1,
+   "window_part_chain": 5,
+   "attempts": 11,
+   "feasible": 2,
+   "gains": 2,
+   "best_delta": -3,
+   "best_target_z": -0.15,
+   "reasons": {
+    "world": 9
+   },
+   "seconds": 1.31
+  },
+  {
+   "route_id": 214,
+   "crossings": 27,
+   "body_z": -0.15,
+   "window_part_chain": 5,
+   "attempts": 7,
+   "feasible": 0,
+   "gains": 0,
+   "best_delta": null,
+   "best_target_z": null,
+   "reasons": {
+    "world": 7
+   },
+   "seconds": 1.55
+  },
+  {
+   "route_id": 14,
+   "crossings": 26,
+   "body_z": -0.1,
+   "window_part_chain": 5,
+   "attempts": 3,
+   "feasible": 0,
+   "gains": 0,
+   "best_delta": null,
+   "best_target_z": null,
+   "reasons": {
+    "world": 3
+   },
+   "seconds": 1.13
+  }
+ ],
+ "attempts": [
+  {
+   "route_id": 158,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 179.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 4.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 179.77525512860842,
+   "s1": 190.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 177.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 177.77525512860842,
+   "s1": 190.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.98683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 174.27525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 10.48683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 174.27525512860842,
+   "s1": 190.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 12.48683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 179.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 3.5545944425750235,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 158,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 177.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 5.5545944425750235,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 174.27525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 9.054594442575024,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 158,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 179.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.4569944361517173,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 158,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 179.77525512860842,
+   "s1": 190.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 4.456994436151717,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 174.27525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 7.956994436151717,
+   "delta": -1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 158,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 174.27525512860842,
+   "s1": 190.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 9.956994436151717,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 179.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 1.5328431564669245,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 158,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 177.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 3.5328431564669245,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 174.27525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 7.0328431564669245,
+   "delta": -2,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 158,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 87.80255234989593,
+   "s1": 94.69744765010407,
+   "cluster_count": 1,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 1.9999999999999858,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 87.25375234668427,
+   "s1": 95.24624765331573,
+   "cluster_count": 1,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.000000000000014,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 88.5252551286084,
+   "s1": 97.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.9569944361517244,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 158,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 88.5252551286084,
+   "s1": 97.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 2.0328431564669174,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 180.77525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 4.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 180.77525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.98683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 178.77525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 178.77525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.98683180414696,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 175.27525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 10.48683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 175.27525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 12.48683180414696,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 180.77525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 3.5545944425750164,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 175.27525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 9.054594442575016,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 180.77525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.456994436151703,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 180.77525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 4.456994436151702,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 175.27525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 7.956994436151703,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 175.27525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 9.956994436151703,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 90.5186710306819,
+   "s1": 95.9813289693181,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 2.0,
+   "delta": -1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 91.5252551286084,
+   "s1": 96.9747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 1.9868318041469877,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 91.5252551286084,
+   "s1": 100.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 5.486831804146988,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 89.5252551286084,
+   "s1": 96.9747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 3.9868318041469877,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 89.5252551286084,
+   "s1": 100.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 7.486831804146988,
+   "delta": -1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 8,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 90.5186710306819,
+   "s1": 95.9813289693181,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 2.0,
+   "delta": -1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 8,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 91.5252551286084,
+   "s1": 100.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 5.486831804146988,
+   "delta": 1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 89.5252551286084,
+   "s1": 100.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 7.486831804146988,
+   "delta": 1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 89.80255234989593,
+   "s1": 96.69744765010407,
+   "cluster_count": 1,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 1.9999999999999858,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 90.80255234989593,
+   "s1": 97.69744765010407,
+   "cluster_count": 1,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 1.9999999999999858,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 91.5252551286084,
+   "s1": 100.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 4.054594442575052,
+   "delta": 3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 88.80255234989593,
+   "s1": 95.69744765010407,
+   "cluster_count": 1,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 2.0,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 89.5252551286084,
+   "s1": 96.9747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 2.554594442575052,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 89.5252551286084,
+   "s1": 100.4747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 6.054594442575052,
+   "delta": 3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 89.25375234668427,
+   "s1": 97.24624765331573,
+   "cluster_count": 1,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.0,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 88.25375234668427,
+   "s1": 96.24624765331573,
+   "cluster_count": 1,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.0,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 8,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 89.5252551286084,
+   "s1": 96.9747448713916,
+   "cluster_count": 1,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 1.4569944361517173,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 171.77525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 4.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 171.77525512860842,
+   "s1": 182.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 169.77525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.986831804146959,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 169.77525512860842,
+   "s1": 182.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.98683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 166.27525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 10.48683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 166.27525512860842,
+   "s1": 182.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 12.48683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 171.77525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 3.5545944425750235,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 217,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 166.27525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 9.054594442575024,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 217,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 171.77525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.4569944361517173,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 217,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 171.77525512860842,
+   "s1": 182.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 4.456994436151717,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 166.27525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 7.956994436151717,
+   "delta": -1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 217,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 166.27525512860842,
+   "s1": 182.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 9.956994436151717,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 171.77525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 1.5328431564669245,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 217,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 169.77525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 3.5328431564669245,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 217,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 166.27525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 7.0328431564669245,
+   "delta": -2,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 32,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 172.77525512860842,
+   "s1": 181.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 4.98683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 172.77525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.98683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 170.77525512860842,
+   "s1": 181.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.98683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 170.77525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.98683180414696,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 32,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 167.27525512860842,
+   "s1": 181.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 10.48683180414696,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 167.27525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 12.48683180414696,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 32,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 172.77525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.98683180414696,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 170.77525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.98683180414696,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 167.27525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 12.48683180414696,
+   "delta": -1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 32,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 172.77525512860842,
+   "s1": 181.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.456994436151703,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 172.77525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 4.456994436151702,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 170.77525512860842,
+   "s1": 181.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 4.456994436151703,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 170.77525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 6.456994436151702,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 167.27525512860842,
+   "s1": 181.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 7.956994436151703,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 32,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 167.27525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 9.956994436151703,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 149,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 134.27525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 26.98683180414696,
+   "delta": 2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 149,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 132.27525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 28.98683180414696,
+   "delta": 2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 149,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 128.77525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 32.48683180414693,
+   "delta": 2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 149,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 128.77525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 29.956994436151675,
+   "delta": 4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 427,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 134.27525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 26.98683180414696,
+   "delta": -2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 427,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 132.27525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 28.98683180414696,
+   "delta": -2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 427,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 128.77525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 32.48683180414696,
+   "delta": -2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 427,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 128.77525512860842,
+   "s1": 164.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 29.0328431564669,
+   "delta": 6,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 132.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 29.98683180414696,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 130.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 31.98683180414696,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 126.7752551286084,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 35.48683180414696,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 132.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 29.98683180414696,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 130.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 31.98683180414696,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 132.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 27.456994436151703,
+   "delta": 3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 130.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 29.456994436151703,
+   "delta": 3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 5,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 126.7752551286084,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 32.9569944361517,
+   "delta": 3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 132.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 29.98683180414693,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 130.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 31.98683180414693,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 126.7752551286084,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 35.48683180414696,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 132.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 29.98683180414693,
+   "delta": 1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 130.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 31.98683180414693,
+   "delta": 1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 132.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 28.554594442574995,
+   "delta": 5,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 130.27525512860842,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 30.554594442574995,
+   "delta": 5,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 104,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 126.7752551286084,
+   "s1": 165.72474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 34.05459444257502,
+   "delta": 5,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 148.02525512860842,
+   "s1": 165.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 13.986831804146973,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 148.02525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 17.486831804146973,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 165.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 15.986831804146973,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 19.486831804146973,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 13.986831804146973,
+   "delta": -5,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 19.486831804146973,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 142.52525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 17.486831804146973,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.1,
+   "s0": 142.52525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 22.986831804146973,
+   "delta": -2,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 148.02525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 10.554594442575038,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 148.02525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 16.054594442575038,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 12.554594442575038,
+   "delta": -4,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 18.054594442575038,
+   "delta": -1,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 148.02525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 9.456994436151717,
+   "delta": -5,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 148.02525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 14.956994436151717,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 11.456994436151717,
+   "delta": -5,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 16.956994436151717,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 496,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 142.52525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 14.956994436151717,
+   "delta": -4,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 496,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 142.52525512860842,
+   "s1": 168.97474487139158,
+   "cluster_count": 8,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 20.456994436151717,
+   "delta": -2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 184.52525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 1.2368318041469593,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 184.52525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 3.23683180414696,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 182.52525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 3.2368318041469593,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 182.52525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 5.23683180414696,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 16,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 179.02525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 6.736831804146959,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 179.02525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.73683180414696,
+   "delta": -3,
+   "feasible": true,
+   "reasons": [],
+   "d56_ok": true
+  },
+  {
+   "route_id": 16,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.1,
+   "s0": 182.52525512860842,
+   "s1": 189.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 1.8045944425750164,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 182.87875234668428,
+   "s1": 190.87124765331572,
+   "cluster_count": 3,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 1.999999999999985,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 183.87875234668428,
+   "s1": 191.87124765331572,
+   "cluster_count": 3,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 1.999999999999985,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 181.87875234668428,
+   "s1": 189.87124765331572,
+   "cluster_count": 3,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 1.9999999999999858,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 16,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 182.52525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 3,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 2.706994436151702,
+   "delta": -3,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 214,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 150.27525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 5,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 19.73683180414696,
+   "delta": -2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 214,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 148.27525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 5,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 21.73683180414696,
+   "delta": -2,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 214,
+   "target_plane": 7,
+   "target_z": -0.1,
+   "from_z": -0.15,
+   "s0": 144.77525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 5,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 25.23683180414696,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 214,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 148.27525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 5,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 19.206994436151703,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 214,
+   "target_plane": 1001,
+   "target_z": 0.0,
+   "from_z": -0.15,
+   "s0": 144.77525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 5,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 22.706994436151703,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 214,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 150.27525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 5,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 16.282843156466903,
+   "delta": 1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 214,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.15,
+   "s0": 148.27525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 5,
+   "footprint_mm": 3.4583232931581276,
+   "middle_mm": 18.282843156466903,
+   "delta": 1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 14,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 142.77525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 7,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 27.23683180414696,
+   "delta": 0,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 14,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 148.27525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 7,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 19.206994436151703,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  },
+  {
+   "route_id": 14,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 146.27525512860842,
+   "s1": 173.47474487139158,
+   "cluster_count": 7,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 21.206994436151703,
+   "delta": -1,
+   "feasible": false,
+   "reasons": [
+    "world"
+   ],
+   "d56_ok": true,
+   "world_error_kind": "transition_vs_flat"
+  }
+ ],
+ "reasons": {
+  "world": 109
+ },
+ "per_route_best": {
+  "158": {
+   "delta": -4,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 179.77525512860842,
+   "s1": 188.22474487139158,
+   "cluster_count": 4,
+   "cluster_start": 181.5,
+   "cluster_end": 186.5,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 3.5545944425750235,
+   "per_plane": {
+    "-0.15": {
+     "old": 37,
+     "new": 33
+    },
+    "-0.05": {
+     "old": 0,
+     "new": 0
+    },
+    "0.0": {
+     "old": 0,
+     "new": 0
+    }
+   }
+  },
+  "8": {
+   "delta": -4,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 178.77525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 4,
+   "cluster_start": 182.5,
+   "cluster_end": 187.5,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.98683180414696,
+   "per_plane": {
+    "-0.15": {
+     "old": 0,
+     "new": 0
+    },
+    "-0.1": {
+     "old": 34,
+     "new": 30
+    },
+    "0.0": {
+     "old": 0,
+     "new": 0
+    }
+   }
+  },
+  "217": {
+   "delta": -4,
+   "target_plane": 20,
+   "target_z": -0.05,
+   "from_z": -0.15,
+   "s0": 171.77525512860842,
+   "s1": 180.22474487139158,
+   "cluster_count": 4,
+   "cluster_start": 173.5,
+   "cluster_end": 178.5,
+   "footprint_mm": 2.447447650104071,
+   "middle_mm": 3.5545944425750235,
+   "per_plane": {
+    "-0.15": {
+     "old": 33,
+     "new": 29
+    },
+    "-0.05": {
+     "old": 0,
+     "new": 0
+    },
+    "0.0": {
+     "old": 0,
+     "new": 0
+    }
+   }
+  },
+  "32": {
+   "delta": -4,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 170.77525512860842,
+   "s1": 183.22474487139158,
+   "cluster_count": 4,
+   "cluster_start": 174.5,
+   "cluster_end": 179.5,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 8.98683180414696,
+   "per_plane": {
+    "-0.15": {
+     "old": 0,
+     "new": 0
+    },
+    "-0.1": {
+     "old": 30,
+     "new": 26
+    },
+    "0.0": {
+     "old": 0,
+     "new": 0
+    }
+   }
+  },
+  "496": {
+   "delta": -5,
+   "target_plane": 8,
+   "target_z": 0.05,
+   "from_z": -0.1,
+   "s0": 146.02525512860842,
+   "s1": 163.47474487139158,
+   "cluster_count": 8,
+   "cluster_start": 149.75,
+   "cluster_end": 161.75,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 11.456994436151717,
+   "per_plane": {
+    "-0.1": {
+     "old": 28,
+     "new": 20
+    },
+    "0.0": {
+     "old": 0,
+     "new": 0
+    },
+    "0.05": {
+     "old": 0,
+     "new": 3
+    }
+   }
+  },
+  "16": {
+   "delta": -3,
+   "target_plane": 6,
+   "target_z": -0.15,
+   "from_z": -0.1,
+   "s0": 182.52525512860842,
+   "s1": 191.22474487139158,
+   "cluster_count": 3,
+   "cluster_start": 186.25,
+   "cluster_end": 187.5,
+   "footprint_mm": 1.7313289693180984,
+   "middle_mm": 5.23683180414696,
+   "per_plane": {
+    "-0.15": {
+     "old": 0,
+     "new": 0
+    },
+    "-0.1": {
+     "old": 27,
+     "new": 24
+    },
+    "0.0": {
+     "old": 0,
+     "new": 0
+    }
+   }
+  }
+ },
+ "seconds": 17.7
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "native3d_phase2_experiment_f_v1",
+ "start_from": "best_valid",
+ "start_crossings": 2436,
+ "final_crossings": 2409,
+ "crossing_pairs": 2010,
+ "routes": 1024,
+ "routes_with_mid_transitions": 55,
+ "mid_transitions": 120,
+ "validation": {
+  "validation_pass": true,
+  "violations": 0
+ },
+ "min_3d_clearance": {
+  "min_3d_clearance_mm": 0.06730354,
+  "lower_bound_mm": 0.05,
+  "seconds": 2.67
+ },
+ "strategy": {
+  "plain": {
+   "attempts": 580,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  },
+  "arc_span": {
+   "attempts": 555,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  },
+  "joint": {
+   "attempts": 8,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  },
+  "plain_batch": {
+   "attempts": 0,
+   "accepted": 7,
+   "net": -14,
+   "best": -14
+  },
+  "near_miss": {
+   "attempts": 1728,
+   "accepted": 1,
+   "net": -13,
+   "best": -13
+  }
+ },
+ "history": [],
+ "seconds": 133.1,
+ "note": "F core sweep (arc_span) + plain-batch sweeps + near-miss interval refinement; final layout = best_valid (reconciled metadata, independent validator PASS)"
+}

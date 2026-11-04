@@ -1,0 +1,9 @@
+{
+ "schema": "native3d_experiment_summary_v1",
+ "experiment": "experiment_A",
+ "routes": 1024,
+ "routes_with_mid_transitions": 1,
+ "mid_transitions": 2,
+ "total_crossings": 2601,
+ "total_length_mm": 157565.784
+}

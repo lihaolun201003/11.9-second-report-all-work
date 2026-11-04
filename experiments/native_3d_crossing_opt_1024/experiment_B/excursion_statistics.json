@@ -1,0 +1,22 @@
+{
+ "schema": "native3d_experiment_b_stats_v1",
+ "statistics": {
+  "routes_processed": 80,
+  "routes_improved": 14,
+  "excursions": 14,
+  "net_crossings": -47,
+  "mean_net_per_route": -3.357142857142857,
+  "best_route": -6,
+  "worst_route": -1,
+  "mean_excursions_per_route": 1.0,
+  "mean_excursion_delta": -3.357,
+  "best_excursion_delta": -6,
+  "best_single_excursion_cluster_count": 8
+ },
+ "aggregate": {
+  "excursions": 14,
+  "net_crossings": -47,
+  "applied_routes": 14,
+  "final_total": 2559
+ }
+}

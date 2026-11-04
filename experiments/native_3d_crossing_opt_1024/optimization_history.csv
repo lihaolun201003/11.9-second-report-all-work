@@ -1,0 +1,5 @@
+﻿stage,sweep,start_total,end_total,net,applied,routes,seconds,reasons,native_routes,mid_transitions,crossings
+C1_top10,1,2606,2595,-11,4,10,,reconstructed_from_checkpoint,4,8,2595
+C2_top50,1,2595,2589,-6,2,50,,reconstructed_from_checkpoint,6,12,2589
+C3_all,1,2589,2451,-138,49,577,,reconstructed_from_checkpoint,55,110,2451
+C3_all,2,2451,2440,-11,0,577,,reconstructed_from_checkpoint,55,118,2440

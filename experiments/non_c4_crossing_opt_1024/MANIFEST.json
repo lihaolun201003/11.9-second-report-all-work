@@ -1,0 +1,688 @@
+{
+ "schema": "nonc4_manifest_v1",
+ "generated_at": "2026-11-03T23:29:15",
+ "experiment": "E5_joint_repair_final",
+ "file_count": 136,
+ "files": [
+  {
+   "path": "analysis/_work/crossings.json",
+   "bytes": 1431500,
+   "sha256": "9e06fc1937cacf47940384c44b1fd0072322c4568f01457e5138439eac298291"
+  },
+  {
+   "path": "analysis/analysis_summary_for_lead.md",
+   "bytes": 3634,
+   "sha256": "e76555ec9970cc73fca1db6cedd3cad1468abbf5be14089ae8c5ff838edae65f"
+  },
+  {
+   "path": "analysis/crossing_analysis.json",
+   "bytes": 8790468,
+   "sha256": "e23af89707df52f2398b1eddd333442624e808898607bf87d80a4b725363bbb2"
+  },
+  {
+   "path": "analysis/crossing_conflict_graph.json",
+   "bytes": 3693467,
+   "sha256": "a1a92045f53583b2af138940780e206dd153b7b9c437f86fd8bb2c938e04451f"
+  },
+  {
+   "path": "analysis/crossing_source_report.md",
+   "bytes": 28826,
+   "sha256": "e501d093ac5b744274aea27c2a282b017e6a635682dc155428d3a8d2315f6edf"
+  },
+  {
+   "path": "analysis/plots/anomaly_L9_vs_L15.png",
+   "bytes": 233413,
+   "sha256": "e10b760731c60ab10c448e58f53a87605e4474246344d26c6e39357e8a97def4"
+  },
+  {
+   "path": "analysis/plots/crossing_hotspot_density.png",
+   "bytes": 88439,
+   "sha256": "bddd00874b75603320e4f24e81c3b4277ee2cd4b5a5cbd2cbeb21fe9a4d82db4"
+  },
+  {
+   "path": "analysis/plots/family_pair_matrix.png",
+   "bytes": 66069,
+   "sha256": "7f5e1e0c59fcb68ccd40b388a2da3d103c6025234829203ac401ea12c01ad934"
+  },
+  {
+   "path": "analysis/plots/per_plane_crossings.png",
+   "bytes": 53524,
+   "sha256": "4aa7ef1abf0b03f81c46ea50cc080cad5dee35b85966d5fb5d9e8d30829f94ca"
+  },
+  {
+   "path": "analysis/plots/per_route_crossing_histogram.png",
+   "bytes": 43857,
+   "sha256": "4ecc97ad4904386a2c9f3b435d58c7a9bdc111f0bf18c281b022182baeed102c"
+  },
+  {
+   "path": "analysis/plots/plane_02_L2_z-0.350.png",
+   "bytes": 185227,
+   "sha256": "791c26ba875560527f66e9df46ac65fae735f8291499b4cca1e5d2e1fede547c"
+  },
+  {
+   "path": "analysis/plots/plane_03_L3_z-0.300.png",
+   "bytes": 155750,
+   "sha256": "1c209e5d879718fecefdaa6153a07641683009790866a3acb9e2864b8b55ba3b"
+  },
+  {
+   "path": "analysis/plots/plane_04_L4_z-0.250.png",
+   "bytes": 174127,
+   "sha256": "9b807d5b83cb5899d25d5e16973969b383e8511a6f384c7cd68dc648e151f7a5"
+  },
+  {
+   "path": "analysis/plots/plane_05_L5_z-0.200.png",
+   "bytes": 157799,
+   "sha256": "29bfc6ae7ccbe6a1fc887a285bc058fbeeb91771618079fb4c2e4e2fb08773b2"
+  },
+  {
+   "path": "analysis/plots/plane_06_L6_z-0.150.png",
+   "bytes": 184116,
+   "sha256": "4b99edf6f547144268f70be9e011d2f1f63dbaf0f0b1ba95aecf2a9765f96916"
+  },
+  {
+   "path": "analysis/plots/plane_07_L7_z-0.100.png",
+   "bytes": 175716,
+   "sha256": "c3f49c1147d88eae2d050da653ad50c2c6e258faf52c22c43b504be5f91ca7d5"
+  },
+  {
+   "path": "analysis/plots/plane_08_L8_z+0.050.png",
+   "bytes": 142978,
+   "sha256": "12c3303fb0464ebb27a3db7c54966112eed9cfd149269837f77160b3a1b1b948"
+  },
+  {
+   "path": "analysis/plots/plane_09_L9_z+0.100.png",
+   "bytes": 95845,
+   "sha256": "7c6a0d268b95d4cf9b70210c4e4e10795b269abfd15cb6cfc44a2a611245192c"
+  },
+  {
+   "path": "analysis/plots/plane_1001_Z1_INTERFACE_z+0.000.png",
+   "bytes": 1027237,
+   "sha256": "0b6deb27e3638df6dac4353264672011c8198e1e7ff8ef0837f60767dbff4ae4"
+  },
+  {
+   "path": "analysis/plots/plane_1002_Z2_INTERFACE_z+0.500.png",
+   "bytes": 1525964,
+   "sha256": "557db66c4abca16ed8777e54495a79cb6fa22d359447d9ba8025b9b364cdabf7"
+  },
+  {
+   "path": "analysis/plots/plane_10_L10_z+0.150.png",
+   "bytes": 63512,
+   "sha256": "15d90fba37a62ab47a3b47e394abe7543824b4db2ec3944ddbd2200e421c207c"
+  },
+  {
+   "path": "analysis/plots/plane_11_L11_z+0.200.png",
+   "bytes": 64302,
+   "sha256": "5307f05b06c704a6d2a766c4f43fdea8699b7749340e17d3183627e11596fdc4"
+  },
+  {
+   "path": "analysis/plots/plane_12_L12_z+0.250.png",
+   "bytes": 104272,
+   "sha256": "2186050cbe1b13e57c8c5a5cfb7e2e93e9aa21873dafbf9cc0f9bd30bb72daf2"
+  },
+  {
+   "path": "analysis/plots/plane_13_L13_z+0.300.png",
+   "bytes": 88297,
+   "sha256": "757c3d29f6e81d7728a19ea2181ace102e06648d09f9efb3121735e45c7aff70"
+  },
+  {
+   "path": "analysis/plots/plane_14_L14_z+0.350.png",
+   "bytes": 95749,
+   "sha256": "2e5125dd4152b914a160bc0f8931f3fb04acc638fe6961776837e23d3d0f76f1"
+  },
+  {
+   "path": "analysis/plots/plane_15_L15_z+0.400.png",
+   "bytes": 131903,
+   "sha256": "1d72dc6372c4a1e60f809ba8d1d0141231154f53c49e4a1b107e132c74b279cd"
+  },
+  {
+   "path": "analysis/plots/plane_16_L16_z+0.450.png",
+   "bytes": 161188,
+   "sha256": "a3fd2eabfb88723f05e8e5cad90e9fa3c6822af8a907e79b6c88e5ff4d71ec95"
+  },
+  {
+   "path": "analysis/plots/plane_17_L17_z+0.550.png",
+   "bytes": 229867,
+   "sha256": "7e1593a42d7aeaf029ab4dce54494966053825dee6794a9d785dce584254d6a9"
+  },
+  {
+   "path": "analysis/plots/plane_18_L18_z+0.600.png",
+   "bytes": 200416,
+   "sha256": "3d6a03d2678920be8a840d7bf90574b092cebd524b68b31fcdd84bb560216437"
+  },
+  {
+   "path": "analysis/plots/plane_19_L19_z+0.650.png",
+   "bytes": 155678,
+   "sha256": "d84cc43446d6f9ff0e8737a0f7e5c61af10893aae09daf31a655c39b16e7fc41"
+  },
+  {
+   "path": "analysis/plots/plane_20_L20_z-0.050.png",
+   "bytes": 199489,
+   "sha256": "195da5b74753eb202c7ad78a509393eb1ac6275254f98e4bfd8547cf3285571f"
+  },
+  {
+   "path": "analysis/plots/top10_crossing_routes.png",
+   "bytes": 394423,
+   "sha256": "e6c529cf2fd96f48a4b7ec515c29354ef072e0384cba09b93c28a800fe12680d"
+  },
+  {
+   "path": "analysis/plots/topology_vs_actual.png",
+   "bytes": 57659,
+   "sha256": "a30cb1b515535a3e6bf29d2829b99aed531b569a2c085475cafa0655bff1f739"
+  },
+  {
+   "path": "analysis/scripts/__pycache__/analysis_common.cpython-310.pyc",
+   "bytes": 24926,
+   "sha256": "f6f3c705c9600a879953e689a303da6a091111aed0e39508a403eeda2f101826"
+  },
+  {
+   "path": "analysis/scripts/__pycache__/step1_crossings.cpython-310.pyc",
+   "bytes": 2412,
+   "sha256": "fb545a6d1a141e45a4a8a84aa1806cbfafb2d7147e8cd4e6f3d76d71104480af"
+  },
+  {
+   "path": "analysis/scripts/__pycache__/step2_analysis.cpython-310.pyc",
+   "bytes": 47541,
+   "sha256": "3dd944aa4f28d92d4b3bddc62c404d5d0494896405414f3163dbb8300f6e01f6"
+  },
+  {
+   "path": "analysis/scripts/__pycache__/step3_graph.cpython-310.pyc",
+   "bytes": 9093,
+   "sha256": "dca0a2818290c070b1282f81644e4fc524f286921c64e3ddd4ce92d054d5bf6f"
+  },
+  {
+   "path": "analysis/scripts/__pycache__/step4_plots.cpython-310.pyc",
+   "bytes": 18581,
+   "sha256": "d0daf8c1f6ea7c5a26edd2a90c7c7c5216fc3e0ece1d3d2397217900d7f5bbce"
+  },
+  {
+   "path": "analysis/scripts/__pycache__/step5_reports.cpython-310.pyc",
+   "bytes": 28422,
+   "sha256": "39dad15adbcf0878662f0e9ddc4a804bb7bc11b86e3d9caf1aac7d0ebfdc72ef"
+  },
+  {
+   "path": "analysis/scripts/analysis_common.py",
+   "bytes": 30376,
+   "sha256": "fa828bf7690cab2ec9a36b06de3d97a60cfa4d30c432190687ab7c731f34e15a"
+  },
+  {
+   "path": "analysis/scripts/run_all.py",
+   "bytes": 3112,
+   "sha256": "dd4f4c4f3bcedaad7bb404af223f11598a42b618d42e4e87f67053b12754eab0"
+  },
+  {
+   "path": "analysis/scripts/step1_crossings.py",
+   "bytes": 2530,
+   "sha256": "e2c739742bf514e74ef7e8e942ea0921e50ff7472ef87668b2a26b3db56f32c5"
+  },
+  {
+   "path": "analysis/scripts/step2_analysis.py",
+   "bytes": 57345,
+   "sha256": "2ed9a0c0a3de56132248d04b817cfc93ef7edbfc403421e8ef6cfb2fdf85416d"
+  },
+  {
+   "path": "analysis/scripts/step3_graph.py",
+   "bytes": 10878,
+   "sha256": "81e318a3b23168ae3b1d7438a8aee5b852cf53e6b74e19a9d86de4e7f7f09925"
+  },
+  {
+   "path": "analysis/scripts/step4_plots.py",
+   "bytes": 18067,
+   "sha256": "1ab5e078a08d231786b94099770618afdcdf59af6812524631cfa983619ff143"
+  },
+  {
+   "path": "analysis/scripts/step5_reports.py",
+   "bytes": 32443,
+   "sha256": "e00616f648557a7f816f447a43b0703edbb12cbd5bd7209692abfeb4949d29be"
+  },
+  {
+   "path": "analysis/topology/best_assignment.json",
+   "bytes": 15774,
+   "sha256": "1b10f1a8acedb99b7189dafa84953b5309d959d071c81e1121348d8bc69fe49b"
+  },
+  {
+   "path": "analysis/topology/forced_pairs.json",
+   "bytes": 3362692,
+   "sha256": "eacff88bc1916dec7870febd7ebb2e4dd5d8efb4d517287905c10674f958a470"
+  },
+  {
+   "path": "analysis/topology/grid_colourings.json",
+   "bytes": 4308,
+   "sha256": "d80527e1eba8b4455794cfcc0ed8ab07c4d5fd2c60f9262e3c74705ce07569a9"
+  },
+  {
+   "path": "analysis/topology/plots/best_assignment.png",
+   "bytes": 48317,
+   "sha256": "2359bed89fd73403370fec134e78c3fb88cf20098e57a6532d1f1ffa7778eaa4"
+  },
+  {
+   "path": "analysis/topology/plots/crossings_60_map.png",
+   "bytes": 78826,
+   "sha256": "af125c7d53e485c4aaff643cb0c3145c43332767222dcd0acd04d98695be80e7"
+  },
+  {
+   "path": "analysis/topology/plots/grid_f_table.png",
+   "bytes": 64511,
+   "sha256": "58283f5a4e62b5d69bef631690e45b575abc48ab469722a2d39fee7420445b3d"
+  },
+  {
+   "path": "analysis/topology/plots/per_plane_bound.png",
+   "bytes": 52741,
+   "sha256": "9e6a7ebfd9220d6431eae5db3fb536a4e6d0da18cfbcbac498c2a8c9974ab909"
+  },
+  {
+   "path": "analysis/topology/plots/port_order.png",
+   "bytes": 73296,
+   "sha256": "943da4b8d45ebac135790ce05dca08d4103c9e52fa800169fe0e276a249e0bb3"
+  },
+  {
+   "path": "analysis/topology/scripts/__pycache__/explore_milp_grid.cpython-310.pyc",
+   "bytes": 3395,
+   "sha256": "6d93f7fcbb1829f8b063d880fc915f6e81547ce704aecbc7c0e63b02d34847c7"
+  },
+  {
+   "path": "analysis/topology/scripts/__pycache__/plots_topo.cpython-310.pyc",
+   "bytes": 7642,
+   "sha256": "4f837b955199556137ceede415abcb14bfb8738a61739367f8cb004e3fe4eb32"
+  },
+  {
+   "path": "analysis/topology/scripts/__pycache__/report_topo.cpython-310.pyc",
+   "bytes": 27525,
+   "sha256": "fc520a4f941ecf33360ac5e2f03219229ef4603d2f7eee0785d828a870f0626f"
+  },
+  {
+   "path": "analysis/topology/scripts/__pycache__/topo_common.cpython-310.pyc",
+   "bytes": 8086,
+   "sha256": "55034e37a74a0ac97cca1a53ddd00fb9e7c605530927cb2cda09b03ac98219fc"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_block_edges.py",
+   "bytes": 3343,
+   "sha256": "9ef26d5d38d07eddcf266c60a288088281b90a68c5517991193115ed28a8384c"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_blocks.py",
+   "bytes": 2267,
+   "sha256": "8eba8278f3248c6f0d84db636ab443cdc92f47f276960e06c5e3cff13dafd9af"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_coloring.py",
+   "bytes": 4632,
+   "sha256": "7edabfc00be8656ca3a1898c61ca99565eeea56ca94cc88a47f1e4bd2ac6478e"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_crossings.py",
+   "bytes": 1595,
+   "sha256": "7a47db7d6d720f0a9230f498a3cdf28d31fcc6561caceccef6673de569bb965f"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_forced.py",
+   "bytes": 3350,
+   "sha256": "f745ffe16b59c8f4afd2c7e0c4fc21c2921049bd3ce8bffc0b804bba2a811ac5"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_graph.py",
+   "bytes": 4279,
+   "sha256": "80fb4b7629a8d229a332af5dbd89d1d2ba792ffb58d93b0c8985a2ab957e2e0b"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_inversions.py",
+   "bytes": 2903,
+   "sha256": "a52a34bd131deee39ca24e19c63ef2b654c9a92111f7de50f97f37e86b591b3b"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_lis.py",
+   "bytes": 2694,
+   "sha256": "c61b08cfe1ef74e3b79a57afc195b9c0ab0450f4291719cf686f7e1cb6225585"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_manual.py",
+   "bytes": 2352,
+   "sha256": "2bc7dc6d70c41295a28ebac1e6618f77fe69ace5d7759058e21434cebf824bdb"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_matchings.py",
+   "bytes": 1697,
+   "sha256": "a564a028c54783416b170028ac7bdb240689557449c12d7a18e1328664d77414"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_milp_grid.py",
+   "bytes": 2493,
+   "sha256": "5c9a3015d2e16cdc8e50bd4ec0c83b7bb2fd77bd8cf9feeddee0ceb91a8580af"
+  },
+  {
+   "path": "analysis/topology/scripts/explore_structure.py",
+   "bytes": 3896,
+   "sha256": "29473bb30b803e27f4c56954efb7fb87fceaea9395351a98e09116598f32a502"
+  },
+  {
+   "path": "analysis/topology/scripts/plots_topo.py",
+   "bytes": 5807,
+   "sha256": "0ab3be4586dff44107724c2bd8ff0b6ebdc91b04a450e1f803ae898ce6017225"
+  },
+  {
+   "path": "analysis/topology/scripts/report_topo.py",
+   "bytes": 26696,
+   "sha256": "85268b734fd9e2f5553e9dad3c3ba08e15e09e1ef9c3f0b51696ddd2d90f8ee0"
+  },
+  {
+   "path": "analysis/topology/scripts/run_all.py",
+   "bytes": 40044,
+   "sha256": "5921a860df0b71e72994e9553729de7513db6cf2e53ddec2b98110378da7d1c4"
+  },
+  {
+   "path": "analysis/topology/scripts/solve_grid_milp.py",
+   "bytes": 3925,
+   "sha256": "863b989bacd73ff01f97dab096fd8e57d6d168cef4c6db348eff900b9273aded"
+  },
+  {
+   "path": "analysis/topology/scripts/topo_common.py",
+   "bytes": 7556,
+   "sha256": "e3ceaf857cacee97cd0cac90d6d01f7bfacf39356de29bd5a54d6f86f37dfc77"
+  },
+  {
+   "path": "analysis/topology/topology_analysis.json",
+   "bytes": 300936,
+   "sha256": "3a14c6576ae72371cbcf2e23256ea47093b6c7943536c0089a3445284a0c81ad"
+  },
+  {
+   "path": "analysis/topology/topology_report.md",
+   "bytes": 28233,
+   "sha256": "9ca0a2908d7cbdd9d31beb4d5bea9ff63dbede70fa21ba8e36380baab9ec2054"
+  },
+  {
+   "path": "assignment_1024.csv",
+   "bytes": 126623,
+   "sha256": "caccb7ee651cb65d271e5abe86bac68e6398f9b8ae8e0d58886232e6ff639e26"
+  },
+  {
+   "path": "assignment_audit.json",
+   "bytes": 2281,
+   "sha256": "e68a94a163c0112a238e7933043288ba57c2721140fca0e2f1d8209006b9eecc"
+  },
+  {
+   "path": "assignment_plan.json",
+   "bytes": 14380,
+   "sha256": "4c7aac7eb5ff1b48cc7d53d0ec641d924d2792030fe390e9b462985d7528b838"
+  },
+  {
+   "path": "comparison.md",
+   "bytes": 1715,
+   "sha256": "01feac13a81ffd671b5daec075559d200de631fe3196ccfec11fb9502c33b73f"
+  },
+  {
+   "path": "crossing_stats.json",
+   "bytes": 739819,
+   "sha256": "f44003055cf582df923f458e9226f7ed0e0da5b5204fa0cf6585ad85930be6af"
+  },
+  {
+   "path": "experiment_B/failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "experiment_B/summary.json",
+   "bytes": 24255,
+   "sha256": "d0390e355618074c8ff035ab6e0e23baa0ffb30cf3211bcdae1ad4f004bd7b0c"
+  },
+  {
+   "path": "experiment_C/summary.json",
+   "bytes": 5154,
+   "sha256": "361cc88107630937c2c76c47a59438e8e3229f77445d3e9b2ce036c960f82dfa"
+  },
+  {
+   "path": "experiment_D/failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "experiment_D/summary.json",
+   "bytes": 314,
+   "sha256": "c74730c4f38d24f10f7ad4e72205b485489e404d7b4ad7b9823fd3f05fe97955"
+  },
+  {
+   "path": "experiment_E/failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "experiment_E/summary.json",
+   "bytes": 5224,
+   "sha256": "eaae646acc999ae6b492df07e956ad0571ea8b775288c92de58bb1238fd3050d"
+  },
+  {
+   "path": "experiment_E/violations.json",
+   "bytes": 37,
+   "sha256": "ca10b93bf9c6d26898318a70087de726ce815902e6424731e67337cb87165df7"
+  },
+  {
+   "path": "failed_routes.json",
+   "bytes": 35,
+   "sha256": "d22fb7749cd44e82dbc56dddcbaef01d7fe05805fcef2ff796e0f90cc1f257fe"
+  },
+  {
+   "path": "fanout_selected.json",
+   "bytes": 3875043,
+   "sha256": "38cd913941164513338925d88ee7af25f2803fbee89a98fba643609e44dbcfef"
+  },
+  {
+   "path": "fanout_validation.json",
+   "bytes": 202,
+   "sha256": "6c33bf7140326cb8af2246cc33ad3ee7edd92b6f7de2d473f55595ad9bd5783c"
+  },
+  {
+   "path": "final_stats.json",
+   "bytes": 1466,
+   "sha256": "e353a915711c8dd2ca404b282bb8ea83f9439692c15a5f5925a9283471da6cf4"
+  },
+  {
+   "path": "layer_planes.json",
+   "bytes": 7365,
+   "sha256": "5a6ed747189756c77714a52c072707e31d45ae0a885a32b91125a1ac2aa494cf"
+  },
+  {
+   "path": "layerwise_endpoints/endpoints.json",
+   "bytes": 3742297,
+   "sha256": "91d0ab73a8b4b5612a5678f5283b36e7418e7b4d1de773626f682d958c9c9334"
+  },
+  {
+   "path": "layerwise_routes/routes.json",
+   "bytes": 1178619,
+   "sha256": "8ad500a794bb992ae92a6d89c7ab1738f28c0c8dd3535b9bc2b8c558b16a76fe"
+  },
+  {
+   "path": "MANIFEST.json",
+   "bytes": 19927,
+   "sha256": "ae33ae6e6abe441d9d467be80fec5acd6b9544e504abba864d5e09cdd9f48a71"
+  },
+  {
+   "path": "manual_frozen_check.json",
+   "bytes": 132,
+   "sha256": "c3cbd613dd31cfbc3b481f7373e3d66bf1d078602e46924e9ff1206f97f00806"
+  },
+  {
+   "path": "optimization_history.csv",
+   "bytes": 271,
+   "sha256": "dbbc95b55edef74decd6dee21bcc02d7156b3fe247da935dc15975e19d72ca25"
+  },
+  {
+   "path": "physical_layer_stack.json",
+   "bytes": 10849,
+   "sha256": "9d7998991ff5275c29db4d0e7496c719e93ff5391346dd1ec2fa71890f1f7d33"
+  },
+  {
+   "path": "plots/3d_overview_1024.png",
+   "bytes": 675507,
+   "sha256": "38fc02f7d30b0bd8ffc572679ed219d455c12785493f2561f6f0171bceb48a67"
+  },
+  {
+   "path": "plots/assignment_c4_vs_free.png",
+   "bytes": 38966,
+   "sha256": "da964ab93cd4aecdbcfe2442bbdbd67034eea41feaeed848f1e8357181ae876d"
+  },
+  {
+   "path": "plots/crossing_hotspot.png",
+   "bytes": 184727,
+   "sha256": "31c8019b82fcc0ffc571ac94071c5bf27a7da4877a245777aeae8f4ecd10e268"
+  },
+  {
+   "path": "plots/optimization_curve.png",
+   "bytes": 45399,
+   "sha256": "045b85d6398485913a1dadcba4783f5ee8341676baf0c632e2cb358e1a534373"
+  },
+  {
+   "path": "plots/per_height/01_L2_z-0.350.png",
+   "bytes": 101189,
+   "sha256": "0e910d974e3a09c0d829139ed3a61e65968e991458fecd366ee96661ec61c769"
+  },
+  {
+   "path": "plots/per_height/02_L3_z-0.300.png",
+   "bytes": 90408,
+   "sha256": "74ff22edfa0e92b757d56e957561e90f99c9af500f84db48e180561a6ad11f3a"
+  },
+  {
+   "path": "plots/per_height/03_L4_z-0.250.png",
+   "bytes": 86431,
+   "sha256": "b16690e195ad1502da5dfea33c6ae209b04269dc2fca0ab0743fa29353e50ac2"
+  },
+  {
+   "path": "plots/per_height/04_L5_z-0.200.png",
+   "bytes": 86703,
+   "sha256": "c3dde3f4ee89e8d9826409572d35f6ee2d91b4c02e603ebf67fbd36c33384bbe"
+  },
+  {
+   "path": "plots/per_height/05_L6_z-0.150.png",
+   "bytes": 127529,
+   "sha256": "20884496ae1a397c89ea35ec4bfb15dc04b1cd4d5aa5e79a3bf075d637b34be6"
+  },
+  {
+   "path": "plots/per_height/06_L7_z-0.100.png",
+   "bytes": 127660,
+   "sha256": "3aa23e49d26f1bd01e6059303bc6b045fbb479f719674216796319f154de3f7a"
+  },
+  {
+   "path": "plots/per_height/07_L20_z-0.050.png",
+   "bytes": 94281,
+   "sha256": "0f297a0db39dc3c193f809ba57dc534141ec53b77ee43c0d2a2b3e532b66f236"
+  },
+  {
+   "path": "plots/per_height/08_Z1_INTERFACE_z+0.000.png",
+   "bytes": 779015,
+   "sha256": "06971f739d5dbea13aa307e1e8a32ecea777c2240ebdfa882ad85ce40863c9e3"
+  },
+  {
+   "path": "plots/per_height/09_L8_z+0.050.png",
+   "bytes": 83201,
+   "sha256": "4460dd9b1bd7e85a8e10ca0dea2f85cca9a7482b125760cf186770e8ca58fb30"
+  },
+  {
+   "path": "plots/per_height/10_L9_z+0.100.png",
+   "bytes": 78338,
+   "sha256": "41cc2790618260ca65e184aac9ded85b162fa0fc2d9838773ea86d12a6cd8bc7"
+  },
+  {
+   "path": "plots/per_height/11_L10_z+0.150.png",
+   "bytes": 39548,
+   "sha256": "88d697e22c8a40873b268b362575a802eabe1a45c8779564c94808b182c1c5e3"
+  },
+  {
+   "path": "plots/per_height/12_L11_z+0.200.png",
+   "bytes": 45267,
+   "sha256": "7523ae5209871fd584ab156a93842c9d7f15fe943611042881ddff9ac1657439"
+  },
+  {
+   "path": "plots/per_height/13_L12_z+0.250.png",
+   "bytes": 71611,
+   "sha256": "9c9bd5940ae12859c4db195d5a2e4bf480430b10d6fefa5592890823a0c84452"
+  },
+  {
+   "path": "plots/per_height/14_L13_z+0.300.png",
+   "bytes": 71027,
+   "sha256": "f0cd8b4bd119a63b0a23bb00ec13fc94f485e0874727d27b69e7d9a8b296f309"
+  },
+  {
+   "path": "plots/per_height/15_L14_z+0.350.png",
+   "bytes": 78198,
+   "sha256": "263dbdf7489e17f7bba77c3834c695d2b40342f2a96000d316836717f6ce1d34"
+  },
+  {
+   "path": "plots/per_height/16_L15_z+0.400.png",
+   "bytes": 75861,
+   "sha256": "7550088c7aea943e6c17f5dc075867a8e954a40f7b388e761d55179f6406477b"
+  },
+  {
+   "path": "plots/per_height/17_L16_z+0.450.png",
+   "bytes": 74888,
+   "sha256": "7acc8fb12806df77151deb0e93f5c4bd4b472f3d6f0031fd00d9ce20ae7cbdae"
+  },
+  {
+   "path": "plots/per_height/18_Z2_INTERFACE_z+0.500.png",
+   "bytes": 1125905,
+   "sha256": "b6b2450b1c05b4f718700c3685bfc8d90b77124ef17f95895a0b32faf2f68db5"
+  },
+  {
+   "path": "plots/per_height/19_L17_z+0.550.png",
+   "bytes": 74798,
+   "sha256": "c17c3d4611bb576805c0df17b9bae04f4b3df953d27a82ca5e81776e6e9d9e4b"
+  },
+  {
+   "path": "plots/per_height/20_L18_z+0.600.png",
+   "bytes": 74459,
+   "sha256": "fd1a0746405ec4860f3e3afb633523d131e94f87cc5cf009fd86c3f0a6a362d1"
+  },
+  {
+   "path": "plots/per_height/21_L19_z+0.650.png",
+   "bytes": 80063,
+   "sha256": "62a54a41f99237871c07db6441b166f7836dafd2c9342c022b621ba30feba6ed"
+  },
+  {
+   "path": "plots/per_height_crossings_compare.png",
+   "bytes": 39043,
+   "sha256": "697967523137743ec7bb9a1036ec9e54c769c4f3042137c24b04b4955c8e5274"
+  },
+  {
+   "path": "plots/per_route_crossing_histogram.png",
+   "bytes": 21928,
+   "sha256": "4f209e677cf157ee264c79b9c985b7ef20f48719f3cac7d85f3bf1a475a6413f"
+  },
+  {
+   "path": "plots/top10_high_crossing_routes.png",
+   "bytes": 850531,
+   "sha256": "120a60848ba48e71d6c2c04a185d6d83d960bfb2b15624de727387f1b0794724"
+  },
+  {
+   "path": "process_rules.json",
+   "bytes": 2719,
+   "sha256": "9986c7f0a15a84de3ab5134f8675f0cb89004064a940901e224fe6c6016e66a2"
+  },
+  {
+   "path": "report.md",
+   "bytes": 13707,
+   "sha256": "38e627f53c3d8980663e79d63c9034fb87d8daf79a5a48b9214da79ccb2111f3"
+  },
+  {
+   "path": "routes_l3d.json",
+   "bytes": 3462322,
+   "sha256": "6258f5132e298b1f7009143d5a09d1f6385a2b0843ea79e5f01ae98caec43272"
+  },
+  {
+   "path": "run.log",
+   "bytes": 413,
+   "sha256": "f91264c2709d1c81d456cca97df801d88dbeaad3597b3574b9087e8398eb6db7"
+  },
+  {
+   "path": "validation/crossing_stats_validate21.json",
+   "bytes": 18271,
+   "sha256": "ea77008b801437cd654b9e21610af2864ad317f79b9a36c00190ebbbf78a4dba"
+  },
+  {
+   "path": "validation.json",
+   "bytes": 38265,
+   "sha256": "6ef1a6f7f5624b0b222d8862d28dc94446ee57ad6444f51123eafe90b7af1951"
+  },
+  {
+   "path": "validator_consistency_tests.json",
+   "bytes": 2155,
+   "sha256": "a9a0838d5d730952238450eeec0f39886a08055da384bfb79c4aeadfb98a7831"
+  }
+ ]
+}

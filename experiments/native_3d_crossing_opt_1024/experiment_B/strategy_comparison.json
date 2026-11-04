@@ -1,0 +1,303 @@
+{
+ "schema": "native3d_experiment_b_comparison_v1",
+ "generated_at": "2026-11-04T00:09:55",
+ "baseline_total": 2606,
+ "sample_routes": 30,
+ "strategies": [
+  {
+   "strategy": "B1_adjacent",
+   "routes": 30,
+   "applied": 4,
+   "excursions": 4,
+   "net_crossings": -14,
+   "final_total": 2592,
+   "reasons": {
+    "shadow_crossing": 194,
+    "no_gain": 15,
+    "guard:metadata": 12
+   },
+   "seconds": 7.2,
+   "statistics": {
+    "routes_processed": 30,
+    "routes_improved": 4,
+    "excursions": 4,
+    "net_crossings": -14,
+    "mean_net_per_route": -3.5,
+    "best_route": -4,
+    "worst_route": -3,
+    "mean_excursions_per_route": 1.0,
+    "mean_excursion_delta": -3.5,
+    "best_excursion_delta": -4,
+    "best_single_excursion_cluster_count": 8
+   },
+   "top_excursions": [
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 179.04392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 9.949489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 171.04392615929032,
+     "s1": 182.95607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 8.449489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    },
+    {
+     "target_plane": 20,
+     "target_z": -0.05,
+     "from_z": -0.1,
+     "s0": 146.29392615929032,
+     "s1": 166.70607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 16.94948974278317,
+     "cluster_count": 8,
+     "delta": -3
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 182.79392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 6.199489742783158,
+     "cluster_count": 3,
+     "delta": -3
+    }
+   ]
+  },
+  {
+   "strategy": "B2_all_heights",
+   "routes": 30,
+   "applied": 4,
+   "excursions": 4,
+   "net_crossings": -14,
+   "final_total": 2592,
+   "reasons": {
+    "shadow_crossing": 720,
+    "no_gain": 25,
+    "guard:metadata": 12
+   },
+   "seconds": 8.0,
+   "statistics": {
+    "routes_processed": 30,
+    "routes_improved": 4,
+    "excursions": 4,
+    "net_crossings": -14,
+    "mean_net_per_route": -3.5,
+    "best_route": -4,
+    "worst_route": -3,
+    "mean_excursions_per_route": 1.0,
+    "mean_excursion_delta": -3.5,
+    "best_excursion_delta": -4,
+    "best_single_excursion_cluster_count": 8
+   },
+   "top_excursions": [
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 179.04392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 9.949489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 171.04392615929032,
+     "s1": 182.95607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 8.449489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    },
+    {
+     "target_plane": 20,
+     "target_z": -0.05,
+     "from_z": -0.1,
+     "s0": 146.29392615929032,
+     "s1": 166.70607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 16.94948974278317,
+     "cluster_count": 8,
+     "delta": -3
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 182.79392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 6.199489742783158,
+     "cluster_count": 3,
+     "delta": -3
+    }
+   ]
+  },
+  {
+   "strategy": "B3_merged_clusters",
+   "routes": 30,
+   "applied": 4,
+   "excursions": 4,
+   "net_crossings": -14,
+   "final_total": 2592,
+   "reasons": {
+    "shadow_crossing": 291,
+    "no_gain": 7,
+    "guard:metadata": 6
+   },
+   "seconds": 7.4,
+   "statistics": {
+    "routes_processed": 30,
+    "routes_improved": 4,
+    "excursions": 4,
+    "net_crossings": -14,
+    "mean_net_per_route": -3.5,
+    "best_route": -4,
+    "worst_route": -3,
+    "mean_excursions_per_route": 1.0,
+    "mean_excursion_delta": -3.5,
+    "best_excursion_delta": -4,
+    "best_single_excursion_cluster_count": 8
+   },
+   "top_excursions": [
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 179.04392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 9.949489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 171.04392615929032,
+     "s1": 182.95607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 8.449489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    },
+    {
+     "target_plane": 20,
+     "target_z": -0.05,
+     "from_z": -0.1,
+     "s0": 146.29392615929032,
+     "s1": 166.70607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 16.94948974278317,
+     "cluster_count": 8,
+     "delta": -3
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 182.79392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 6.199489742783158,
+     "cluster_count": 3,
+     "delta": -3
+    }
+   ]
+  },
+  {
+   "strategy": "B4_multi_excursion",
+   "routes": 30,
+   "applied": 4,
+   "excursions": 4,
+   "net_crossings": -11,
+   "final_total": 2595,
+   "reasons": {
+    "shadow_crossing": 291,
+    "no_gain": 7,
+    "guard_combined": 1,
+    "guard:metadata": 6
+   },
+   "seconds": 8.1,
+   "statistics": {
+    "routes_processed": 30,
+    "routes_improved": 4,
+    "excursions": 4,
+    "net_crossings": -11,
+    "mean_net_per_route": -2.75,
+    "best_route": -4,
+    "worst_route": -1,
+    "mean_excursions_per_route": 1.0,
+    "mean_excursion_delta": -2.75,
+    "best_excursion_delta": -4,
+    "best_single_excursion_cluster_count": 8
+   },
+   "top_excursions": [
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 171.04392615929032,
+     "s1": 182.95607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 8.449489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    },
+    {
+     "target_plane": 20,
+     "target_z": -0.05,
+     "from_z": -0.1,
+     "s0": 146.29392615929032,
+     "s1": 166.70607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 16.94948974278317,
+     "cluster_count": 8,
+     "delta": -3
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 182.79392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 6.199489742783158,
+     "cluster_count": 3,
+     "delta": -3
+    },
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 89.79392615929031,
+     "s1": 99.70607384070969,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 6.449489742783186,
+     "cluster_count": 1,
+     "delta": -1
+    }
+   ]
+  }
+ ],
+ "best_strategy": "B1_adjacent",
+ "note": "net_crossings are exact global recounts (all heights)"
+}

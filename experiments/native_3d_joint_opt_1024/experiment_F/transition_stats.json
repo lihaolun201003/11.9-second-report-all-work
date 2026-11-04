@@ -1,0 +1,664 @@
+{
+ "schema": "native3d_phase2_transition_stats_v1",
+ "routes_with_mid_transitions": 55,
+ "mid_transitions": 120,
+ "excursions": 60,
+ "by_from_height": {
+  "+0.050": 14,
+  "-0.050": 17,
+  "-0.100": 17,
+  "-0.150": 12
+ },
+ "per_route": {
+  "2": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 8.44949,
+    "s_start_mm": 123.543926,
+    "s_end_mm": 135.456074,
+    "kind": "excursion"
+   }
+  ],
+  "7": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 6.19949,
+    "s_start_mm": 174.043926,
+    "s_end_mm": 183.706074,
+    "kind": "excursion"
+   }
+  ],
+  "8": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 6.44949,
+    "s_start_mm": 89.793926,
+    "s_end_mm": 99.706074,
+    "kind": "excursion"
+   }
+  ],
+  "16": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 6.19949,
+    "s_start_mm": 182.793926,
+    "s_end_mm": 192.456074,
+    "kind": "excursion"
+   }
+  ],
+  "26": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 14.44949,
+    "s_start_mm": 115.293926,
+    "s_end_mm": 133.206074,
+    "kind": "excursion"
+   }
+  ],
+  "32": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 8.44949,
+    "s_start_mm": 171.043926,
+    "s_end_mm": 182.956074,
+    "kind": "excursion"
+   }
+  ],
+  "35": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 9.44949,
+    "s_start_mm": 9.793926,
+    "s_end_mm": 22.706074,
+    "kind": "excursion"
+   }
+  ],
+  "36": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.05,
+    "footprint_mm": 1.731329,
+    "middle_mm": 23.94949,
+    "s_start_mm": 110.793926,
+    "s_end_mm": 138.206074,
+    "kind": "excursion"
+   }
+  ],
+  "99": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 9.44949,
+    "s_start_mm": 123.043926,
+    "s_end_mm": 135.956074,
+    "kind": "excursion"
+   }
+  ],
+  "100": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.05,
+    "footprint_mm": 1.731329,
+    "middle_mm": 22.69949,
+    "s_start_mm": 10.043926,
+    "s_end_mm": 36.206074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.1,
+    "to_z": 0.1,
+    "footprint_mm": 3.458323,
+    "middle_mm": 22.69949,
+    "s_start_mm": 70.566932,
+    "s_end_mm": 100.183068,
+    "kind": "excursion"
+   }
+  ],
+  "107": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 9.44949,
+    "s_start_mm": 127.543926,
+    "s_end_mm": 140.456074,
+    "kind": "excursion"
+   }
+  ],
+  "109": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 19.69949,
+    "s_start_mm": 8.543926,
+    "s_end_mm": 31.706074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.15,
+    "to_z": -0.05,
+    "footprint_mm": 2.447448,
+    "middle_mm": 13.69949,
+    "s_start_mm": 85.327807,
+    "s_end_mm": 103.922193,
+    "kind": "excursion"
+   }
+  ],
+  "118": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 16.19949,
+    "s_start_mm": 115.293926,
+    "s_end_mm": 134.956074,
+    "kind": "excursion"
+   }
+  ],
+  "125": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.05,
+    "footprint_mm": 2.447448,
+    "middle_mm": 13.94949,
+    "s_start_mm": 123.577807,
+    "s_end_mm": 142.422193,
+    "kind": "excursion"
+   }
+  ],
+  "127": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 19.69949,
+    "s_start_mm": 14.793926,
+    "s_end_mm": 37.956074,
+    "kind": "excursion"
+   }
+  ],
+  "133": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.05,
+    "footprint_mm": 2.447448,
+    "middle_mm": 13.94949,
+    "s_start_mm": 130.077807,
+    "s_end_mm": 148.922193,
+    "kind": "excursion"
+   }
+  ],
+  "144": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 15.69949,
+    "s_start_mm": 125.043926,
+    "s_end_mm": 144.206074,
+    "kind": "excursion"
+   }
+  ],
+  "153": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 5.94949,
+    "s_start_mm": 166.293926,
+    "s_end_mm": 175.706074,
+    "kind": "excursion"
+   }
+  ],
+  "156": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 4.94949,
+    "s_start_mm": 175.293926,
+    "s_end_mm": 183.706074,
+    "kind": "excursion"
+   }
+  ],
+  "159": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 10.19949,
+    "s_start_mm": 178.793926,
+    "s_end_mm": 192.456074,
+    "kind": "excursion"
+   }
+  ],
+  "164": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.1,
+    "footprint_mm": 2.996248,
+    "middle_mm": 13.69949,
+    "s_start_mm": 131.029007,
+    "s_end_mm": 150.720993,
+    "kind": "excursion"
+   }
+  ],
+  "165": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.05,
+    "footprint_mm": 2.447448,
+    "middle_mm": 15.19949,
+    "s_start_mm": 131.577807,
+    "s_end_mm": 151.672193,
+    "kind": "excursion"
+   }
+  ],
+  "170": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 11.94949,
+    "s_start_mm": 169.043926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "171": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 10.44949,
+    "s_start_mm": 170.543926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "198": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 21.69949,
+    "s_start_mm": 105.543926,
+    "s_end_mm": 130.706074,
+    "kind": "excursion"
+   }
+  ],
+  "212": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 10.44949,
+    "s_start_mm": 143.793926,
+    "s_end_mm": 157.706074,
+    "kind": "excursion"
+   }
+  ],
+  "218": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 10.19949,
+    "s_start_mm": 170.793926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "222": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 16.94949,
+    "s_start_mm": 8.293926,
+    "s_end_mm": 28.706074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.05,
+    "to_z": 0.05,
+    "footprint_mm": 2.447448,
+    "middle_mm": 13.69949,
+    "s_start_mm": 90.827807,
+    "s_end_mm": 109.422193,
+    "kind": "excursion"
+   }
+  ],
+  "223": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 19.19949,
+    "s_start_mm": 112.293926,
+    "s_end_mm": 134.956074,
+    "kind": "excursion"
+   }
+  ],
+  "233": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 10.69949,
+    "s_start_mm": 135.293926,
+    "s_end_mm": 149.456074,
+    "kind": "excursion"
+   }
+  ],
+  "412": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 16.94949,
+    "s_start_mm": 116.793926,
+    "s_end_mm": 137.206074,
+    "kind": "excursion"
+   }
+  ],
+  "425": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 10.69949,
+    "s_start_mm": 135.043926,
+    "s_end_mm": 149.206074,
+    "kind": "excursion"
+   }
+  ],
+  "429": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.05,
+    "footprint_mm": 2.447448,
+    "middle_mm": 13.44949,
+    "s_start_mm": 133.077807,
+    "s_end_mm": 151.422193,
+    "kind": "excursion"
+   }
+  ],
+  "431": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.1,
+    "footprint_mm": 2.996248,
+    "middle_mm": 11.94949,
+    "s_start_mm": 132.529007,
+    "s_end_mm": 150.470993,
+    "kind": "excursion"
+   }
+  ],
+  "432": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 17.69949,
+    "s_start_mm": 83.793926,
+    "s_end_mm": 104.956074,
+    "kind": "excursion"
+   }
+  ],
+  "438": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 4.94949,
+    "s_start_mm": 96.543926,
+    "s_end_mm": 104.956074,
+    "kind": "excursion"
+   }
+  ],
+  "439": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 19.44949,
+    "s_start_mm": 10.043926,
+    "s_end_mm": 32.956074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.15,
+    "to_z": -0.05,
+    "footprint_mm": 2.447448,
+    "middle_mm": 21.19949,
+    "s_start_mm": 76.827807,
+    "s_end_mm": 102.922193,
+    "kind": "excursion"
+   }
+  ],
+  "449": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 13.44949,
+    "s_start_mm": 132.293926,
+    "s_end_mm": 149.206074,
+    "kind": "excursion"
+   }
+  ],
+  "453": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 18.44949,
+    "s_start_mm": 129.043926,
+    "s_end_mm": 150.956074,
+    "kind": "excursion"
+   }
+  ],
+  "454": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.05,
+    "footprint_mm": 1.731329,
+    "middle_mm": 15.44949,
+    "s_start_mm": 129.293926,
+    "s_end_mm": 148.206074,
+    "kind": "excursion"
+   }
+  ],
+  "455": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 15.44949,
+    "s_start_mm": 130.543926,
+    "s_end_mm": 149.456074,
+    "kind": "excursion"
+   }
+  ],
+  "456": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 13.44949,
+    "s_start_mm": 48.793926,
+    "s_end_mm": 65.706074,
+    "kind": "excursion"
+   }
+  ],
+  "470": [
+   {
+    "from_z": 0.05,
+    "to_z": 0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 10.94949,
+    "s_start_mm": 125.543926,
+    "s_end_mm": 139.956074,
+    "kind": "excursion"
+   }
+  ],
+  "475": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.05,
+    "footprint_mm": 1.731329,
+    "middle_mm": 16.69949,
+    "s_start_mm": 137.793926,
+    "s_end_mm": 157.956074,
+    "kind": "excursion"
+   }
+  ],
+  "476": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 15.44949,
+    "s_start_mm": 139.043926,
+    "s_end_mm": 157.956074,
+    "kind": "excursion"
+   }
+  ],
+  "480": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 18.19949,
+    "s_start_mm": 122.543926,
+    "s_end_mm": 144.206074,
+    "kind": "excursion"
+   }
+  ],
+  "481": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.05,
+    "footprint_mm": 1.731329,
+    "middle_mm": 20.94949,
+    "s_start_mm": 118.293926,
+    "s_end_mm": 142.706074,
+    "kind": "excursion"
+   }
+  ],
+  "482": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 18.19949,
+    "s_start_mm": 122.543926,
+    "s_end_mm": 144.206074,
+    "kind": "excursion"
+   }
+  ],
+  "484": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 6.19949,
+    "s_start_mm": 127.043926,
+    "s_end_mm": 136.706074,
+    "kind": "excursion"
+   }
+  ],
+  "487": [
+   {
+    "from_z": -0.15,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 15.19949,
+    "s_start_mm": 16.293926,
+    "s_end_mm": 34.956074,
+    "kind": "excursion"
+   }
+  ],
+  "492": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 4.69949,
+    "s_start_mm": 176.293926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "493": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.15,
+    "footprint_mm": 1.731329,
+    "middle_mm": 4.69949,
+    "s_start_mm": 174.793926,
+    "s_end_mm": 182.956074,
+    "kind": "excursion"
+   }
+  ],
+  "494": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 4.69949,
+    "s_start_mm": 176.293926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "496": [
+   {
+    "from_z": -0.1,
+    "to_z": -0.05,
+    "footprint_mm": 1.731329,
+    "middle_mm": 16.94949,
+    "s_start_mm": 146.293926,
+    "s_end_mm": 166.706074,
+    "kind": "excursion"
+   }
+  ],
+  "497": [
+   {
+    "from_z": -0.05,
+    "to_z": 0.0,
+    "footprint_mm": 1.731329,
+    "middle_mm": 21.44949,
+    "s_start_mm": 141.793926,
+    "s_end_mm": 166.706074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.05,
+    "to_z": -0.1,
+    "footprint_mm": 1.731329,
+    "middle_mm": 61.87389,
+    "s_start_mm": 0.743987,
+    "s_end_mm": 66.080535,
+    "kind": "arc_span"
+   }
+  ]
+ }
+}

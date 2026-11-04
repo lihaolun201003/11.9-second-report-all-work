@@ -1,0 +1,412 @@
+{
+ "schema": "reheight21_layer_planes_v1",
+ "experiment": "E5_joint_repair_final",
+ "baseline_run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024",
+ "glass": {
+  "thickness_mm": 1.0,
+  "z_min_mm": -0.35,
+  "z_max_mm": 0.65
+ },
+ "interfaces": {
+  "z1": 0.0,
+  "z2": 0.5
+ },
+ "interface_planes": {
+  "1001": {
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "plane": "z1"
+  },
+  "1002": {
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "plane": "z2"
+  }
+ },
+ "plane_count": 21,
+ "height_count": 21,
+ "min_pitch_mm": 0.05,
+ "measured_min_pitch_mm": 0.04999999999999993,
+ "min_pitch_check": {
+  "minimum": 0.04999999999999993,
+  "required": 0.05,
+  "passed": true
+ },
+ "body_planes": {
+  "2": -0.35,
+  "3": -0.3,
+  "4": -0.25,
+  "5": -0.2,
+  "6": -0.15,
+  "7": -0.1,
+  "20": -0.05,
+  "8": 0.05,
+  "9": 0.1,
+  "10": 0.15,
+  "11": 0.2,
+  "12": 0.25,
+  "13": 0.3,
+  "14": 0.35,
+  "15": 0.4,
+  "16": 0.45,
+  "17": 0.55,
+  "18": 0.6,
+  "19": 0.65
+ },
+ "planes": [
+  {
+   "plane_id": 2,
+   "label": "L2",
+   "z_mm": -0.35,
+   "kind": "body",
+   "role": "z1_manual_u",
+   "role_detail": "Z1-U1",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 64
+  },
+  {
+   "plane_id": 3,
+   "label": "L3",
+   "z_mm": -0.3,
+   "kind": "body",
+   "role": "z1_manual_u",
+   "role_detail": "Z1-U2",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 64
+  },
+  {
+   "plane_id": 4,
+   "label": "L4",
+   "z_mm": -0.25,
+   "kind": "body",
+   "role": "z1_manual_u",
+   "role_detail": "Z1-U3",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 64
+  },
+  {
+   "plane_id": 5,
+   "label": "L5",
+   "z_mm": -0.2,
+   "kind": "body",
+   "role": "z1_manual_u",
+   "role_detail": "Z1-U4",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 64
+  },
+  {
+   "plane_id": 6,
+   "label": "L6",
+   "z_mm": -0.15,
+   "kind": "body",
+   "role": "z1_other",
+   "role_detail": "Z1 other opposite",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 66
+  },
+  {
+   "plane_id": 7,
+   "label": "L7",
+   "z_mm": -0.1,
+   "kind": "body",
+   "role": "z1_other",
+   "role_detail": "Z1 other opposite",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 62
+  },
+  {
+   "plane_id": 20,
+   "label": "L20",
+   "z_mm": -0.05,
+   "kind": "body",
+   "role": "z1_other",
+   "role_detail": "Z1 other opposite",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 41
+  },
+  {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "kind": "interface_body",
+   "role": "interface_direct",
+   "role_detail": "Z1 other opposite (direct 2D)",
+   "side": "z1",
+   "is_interface": true,
+   "assigned": 48
+  },
+  {
+   "plane_id": 8,
+   "label": "L8",
+   "z_mm": 0.05,
+   "kind": "body",
+   "role": "z1_other",
+   "role_detail": "Z1 other opposite",
+   "side": "z1",
+   "is_interface": false,
+   "assigned": 39
+  },
+  {
+   "plane_id": 9,
+   "label": "L9",
+   "z_mm": 0.1,
+   "kind": "body",
+   "role": "z2_other",
+   "role_detail": "Z2 other adjacent",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 50
+  },
+  {
+   "plane_id": 10,
+   "label": "L10",
+   "z_mm": 0.15,
+   "kind": "body",
+   "role": "z2_manual_u",
+   "role_detail": "Z2-U1",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 16
+  },
+  {
+   "plane_id": 11,
+   "label": "L11",
+   "z_mm": 0.2,
+   "kind": "body",
+   "role": "z2_manual_u",
+   "role_detail": "Z2-U2",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 16
+  },
+  {
+   "plane_id": 12,
+   "label": "L12",
+   "z_mm": 0.25,
+   "kind": "body",
+   "role": "z2_manual_u",
+   "role_detail": "Z2-U3",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 40
+  },
+  {
+   "plane_id": 13,
+   "label": "L13",
+   "z_mm": 0.3,
+   "kind": "body",
+   "role": "z2_manual_u",
+   "role_detail": "Z2-U4",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 40
+  },
+  {
+   "plane_id": 14,
+   "label": "L14",
+   "z_mm": 0.35,
+   "kind": "body",
+   "role": "z2_other",
+   "role_detail": "Z2 other adjacent",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 50
+  },
+  {
+   "plane_id": 15,
+   "label": "L15",
+   "z_mm": 0.4,
+   "kind": "body",
+   "role": "z2_other",
+   "role_detail": "Z2 other adjacent",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 50
+  },
+  {
+   "plane_id": 16,
+   "label": "L16",
+   "z_mm": 0.45,
+   "kind": "body",
+   "role": "z2_other",
+   "role_detail": "Z2 other adjacent",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 50
+  },
+  {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "kind": "interface_body",
+   "role": "interface_direct",
+   "role_detail": "Z2 other adjacent (direct 2D)",
+   "side": "z2",
+   "is_interface": true,
+   "assigned": 50
+  },
+  {
+   "plane_id": 17,
+   "label": "L17",
+   "z_mm": 0.55,
+   "kind": "body",
+   "role": "z2_other",
+   "role_detail": "Z2 other adjacent",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 50
+  },
+  {
+   "plane_id": 18,
+   "label": "L18",
+   "z_mm": 0.6,
+   "kind": "body",
+   "role": "z2_other",
+   "role_detail": "Z2 other adjacent",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 50
+  },
+  {
+   "plane_id": 19,
+   "label": "L19",
+   "z_mm": 0.65,
+   "kind": "body",
+   "role": "z2_other",
+   "role_detail": "Z2 other adjacent",
+   "side": "z2",
+   "is_interface": false,
+   "assigned": 50
+  }
+ ],
+ "plane_order": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  20,
+  1001,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  1002,
+  17,
+  18,
+  19
+ ],
+ "interface_plane_ids": [
+  1001,
+  1002
+ ],
+ "assigned_total": 1024,
+ "assigned_by_role": {
+  "interface_direct": 2,
+  "z1_manual_u": 4,
+  "z1_other": 4,
+  "z2_manual_u": 4,
+  "z2_other": 7
+ },
+ "manual_groups": {
+  "Z1-U1": {
+   "plane": "z1",
+   "label": "L2",
+   "z_mm": -0.35,
+   "plane_id": 2
+  },
+  "Z1-U2": {
+   "plane": "z1",
+   "label": "L3",
+   "z_mm": -0.3,
+   "plane_id": 3
+  },
+  "Z1-U3": {
+   "plane": "z1",
+   "label": "L4",
+   "z_mm": -0.25,
+   "plane_id": 4
+  },
+  "Z1-U4": {
+   "plane": "z1",
+   "label": "L5",
+   "z_mm": -0.2,
+   "plane_id": 5
+  },
+  "Z2-U1": {
+   "plane": "z2",
+   "label": "L10",
+   "z_mm": 0.15,
+   "plane_id": 10
+  },
+  "Z2-U2": {
+   "plane": "z2",
+   "label": "L11",
+   "z_mm": 0.2,
+   "plane_id": 11
+  },
+  "Z2-U3": {
+   "plane": "z2",
+   "label": "L12",
+   "z_mm": 0.25,
+   "plane_id": 12
+  },
+  "Z2-U4": {
+   "plane": "z2",
+   "label": "L13",
+   "z_mm": 0.3,
+   "plane_id": 13
+  }
+ },
+ "z1_other_plan": [
+  [
+   6,
+   13
+  ],
+  [
+   7,
+   13
+  ],
+  [
+   20,
+   13
+  ],
+  [
+   1001,
+   13
+  ],
+  [
+   8,
+   12
+  ]
+ ],
+ "z2_other_old_to_new": {
+  "8": 9,
+  "9": 14,
+  "14": 15,
+  "15": 16,
+  "16": 17,
+  "17": 18,
+  "18": 19,
+  "19": 1002
+ },
+ "min_layer_pitch_mm": 0.05,
+ "c4_binding": "removed (per route_id assignment; c4_group_id provenance only)",
+ "notes": [
+  "E5: E3 assignment + targeted cross-layer repair of the 2 L8 failures",
+  "manual geometry frozen; C4 binding removed"
+ ]
+}

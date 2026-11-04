@@ -1,0 +1,13 @@
+{
+ "valid": 1024,
+ "violations": 0,
+ "violation_kinds": {},
+ "examples": [],
+ "seconds": 16.11,
+ "min_3d_clearance": {
+  "min_3d_clearance_mm": 0.06730354,
+  "lower_bound_mm": 0.05,
+  "seconds": 2.67
+ },
+ "validation_pass": true
+}

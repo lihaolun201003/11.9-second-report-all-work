@@ -1,0 +1,14 @@
+{
+ "plots": [
+  "blocker_count_histogram.png",
+  "blocker_position_heatmap.png",
+  "route129_detail.png",
+  "per_target_height_stats.png"
+ ],
+ "description": {
+  "blocker_count_histogram.png": "rejected candidates by number of movable / all blockers",
+  "blocker_position_heatmap.png": "XY heat map of true-3D violation points (2 mm cells)",
+  "route129_detail.png": "route 129 net=16 candidate: violation XY, height profile and blockers per target height",
+  "per_target_height_stats.png": "rejections and mean movable blockers per target height"
+ }
+}

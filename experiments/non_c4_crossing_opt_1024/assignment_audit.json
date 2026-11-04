@@ -1,0 +1,108 @@
+{
+ "schema": "nonc4_assignment_audit_v1",
+ "generated_at": "2026-11-03T23:17:42",
+ "experiment": "E5_joint_repair_final",
+ "assignment_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final\\assignment_1024.csv",
+ "assignment_sha256": "caccb7ee651cb65d271e5abe86bac68e6398f9b8ae8e0d58886232e6ff639e26",
+ "rows": 1024,
+ "unique_route_ids": 1024,
+ "plane_split": {
+  "z1": 512,
+  "z2": 512
+ },
+ "per_plane_counts": {
+  "2": 64,
+  "3": 64,
+  "4": 64,
+  "5": 64,
+  "6": 66,
+  "7": 62,
+  "8": 39,
+  "9": 50,
+  "10": 16,
+  "11": 16,
+  "12": 40,
+  "13": 40,
+  "14": 50,
+  "15": 50,
+  "16": 50,
+  "17": 50,
+  "18": 50,
+  "19": 50,
+  "20": 41,
+  "1001": 48,
+  "1002": 50
+ },
+ "planes_used": 21,
+ "heights_used": [
+  -0.35,
+  -0.3,
+  -0.25,
+  -0.2,
+  -0.15,
+  -0.1,
+  -0.05,
+  0.0,
+  0.05,
+  0.1,
+  0.15,
+  0.2,
+  0.25,
+  0.3,
+  0.35,
+  0.4,
+  0.45,
+  0.5,
+  0.55,
+  0.6,
+  0.65
+ ],
+ "distinct_heights": 21,
+ "min_height_pitch_mm": 0.05,
+ "manual_total": 368,
+ "manual_group_counts": {
+  "Z1-U1": 64,
+  "Z1-U2": 64,
+  "Z1-U3": 64,
+  "Z1-U4": 64,
+  "Z2-U1": 16,
+  "Z2-U2": 16,
+  "Z2-U3": 40,
+  "Z2-U4": 40
+ },
+ "manual_routes_frozen": true,
+ "direct_routes": 98,
+ "direct_by_plane": {
+  "1001": 48,
+  "1002": 50
+ },
+ "transition_routes": 926,
+ "endpoint_transitions": 1852,
+ "c4_policy": {
+  "binding": "REMOVED for the 368+656 non-manual routes",
+  "note": "c4_group_id is provenance only: non-manual C4 orbits are deliberately split across physical planes; manual groups were already split by their verified baseline design and stay frozen",
+  "nonmanual_orbits": 164,
+  "nonmanual_orbits_split_across_planes": 164,
+  "nonmanual_orbits_single_plane": 0,
+  "max_planes_per_orbits": 4
+ },
+ "geometry_rules": {
+  "glass_mm": [
+   150.0,
+   150.0,
+   1.0
+  ],
+  "glass_z_range_mm": [
+   -0.35,
+   0.65
+  ],
+  "routing_heights": 21,
+  "min_layer_pitch_mm": 0.05,
+  "min_3d_clearance_mm": 0.05,
+  "same_layer_d56_centerline_mm": 0.08,
+  "min_bend_radius_mm": 15.0,
+  "note": "no hard geometric rule is changed by removing the C4 binding"
+ },
+ "violations": [],
+ "passed": true
+}

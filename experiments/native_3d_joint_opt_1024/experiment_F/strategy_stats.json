@@ -1,0 +1,22 @@
+{
+ "strategy": {
+  "plain": {
+   "attempts": 580,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  },
+  "arc_span": {
+   "attempts": 555,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  },
+  "joint": {
+   "attempts": 8,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  }
+ }
+}

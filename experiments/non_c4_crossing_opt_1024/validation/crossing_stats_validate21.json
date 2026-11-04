@@ -1,0 +1,816 @@
+{
+ "schema": "fanout_first_21_height_crossing_stats_v1",
+ "generated_at": "2026-11-03T23:20:00",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final",
+ "routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final\\routes_l3d.json",
+ "routes_file_sha256": "6258f5132e298b1f7009143d5a09d1f6385a2b0843ea79e5f01ae98caec43272",
+ "model": {
+  "source": "layer_planes.json",
+  "baseline_model": false,
+  "plane_count": 21,
+  "min_pitch_mm": 0.04999999999999993,
+  "planes": [
+   {
+    "plane_id": 2,
+    "label": "L2",
+    "z_mm": -0.35,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 3,
+    "label": "L3",
+    "z_mm": -0.3,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 4,
+    "label": "L4",
+    "z_mm": -0.25,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 5,
+    "label": "L5",
+    "z_mm": -0.2,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 6,
+    "label": "L6",
+    "z_mm": -0.15,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 7,
+    "label": "L7",
+    "z_mm": -0.1,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 20,
+    "label": "L20",
+    "z_mm": -0.05,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 1001,
+    "label": "Z1_INTERFACE",
+    "z_mm": 0.0,
+    "kind": "interface_body",
+    "interface": "z1"
+   },
+   {
+    "plane_id": 8,
+    "label": "L8",
+    "z_mm": 0.05,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 9,
+    "label": "L9",
+    "z_mm": 0.1,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 10,
+    "label": "L10",
+    "z_mm": 0.15,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 11,
+    "label": "L11",
+    "z_mm": 0.2,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 12,
+    "label": "L12",
+    "z_mm": 0.25,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 13,
+    "label": "L13",
+    "z_mm": 0.3,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 14,
+    "label": "L14",
+    "z_mm": 0.35,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 15,
+    "label": "L15",
+    "z_mm": 0.4,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 16,
+    "label": "L16",
+    "z_mm": 0.45,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 1002,
+    "label": "Z2_INTERFACE",
+    "z_mm": 0.5,
+    "kind": "interface_body",
+    "interface": "z2"
+   },
+   {
+    "plane_id": 17,
+    "label": "L17",
+    "z_mm": 0.55,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 18,
+    "label": "L18",
+    "z_mm": 0.6,
+    "kind": "body",
+    "interface": null
+   },
+   {
+    "plane_id": 19,
+    "label": "L19",
+    "z_mm": 0.65,
+    "kind": "body",
+    "interface": null
+   }
+  ]
+ },
+ "rule": {
+  "d56_centreline_mm": 0.08,
+  "width_mm": 0.05,
+  "edge_gap_mm": 0.03,
+  "policy": "strict D56 with legal transverse crossings",
+  "note": "crossing counts are geometric proxies only; no optical loss is claimed"
+ },
+ "totals": {
+  "crossings": 2606,
+  "crossing_pairs": 2067,
+  "violations": 0,
+  "audited_heights": 21,
+  "planes_with_crossings": 13,
+  "per_route_distribution": {
+   "routes": 577,
+   "max": 37,
+   "p95": 22.2,
+   "mean": 9.032929,
+   "median": 7.0,
+   "routes_with_crossings": 577
+  },
+  "min_non_crossing_centerline_mm": 0.102948361
+ },
+ "planes": [
+  {
+   "plane_id": 2,
+   "label": "L2",
+   "z_mm": -0.35,
+   "kind": "body",
+   "interface": null,
+   "routes": 64,
+   "parts": 316,
+   "assigned_routes": 64,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.323234217,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.052
+  },
+  {
+   "plane_id": 3,
+   "label": "L3",
+   "z_mm": -0.3,
+   "kind": "body",
+   "interface": null,
+   "routes": 64,
+   "parts": 312,
+   "assigned_routes": 64,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.321953536,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.031
+  },
+  {
+   "plane_id": 4,
+   "label": "L4",
+   "z_mm": -0.25,
+   "kind": "body",
+   "interface": null,
+   "routes": 64,
+   "parts": 316,
+   "assigned_routes": 64,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.322357923,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.05
+  },
+  {
+   "plane_id": 5,
+   "label": "L5",
+   "z_mm": -0.2,
+   "kind": "body",
+   "interface": null,
+   "routes": 64,
+   "parts": 312,
+   "assigned_routes": 64,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.322807098,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.03
+  },
+  {
+   "plane_id": 6,
+   "label": "L6",
+   "z_mm": -0.15,
+   "kind": "body",
+   "interface": null,
+   "routes": 66,
+   "parts": 213,
+   "assigned_routes": 66,
+   "direct_routes": 0,
+   "crossings": 482,
+   "crossing_pairs": 355,
+   "min_non_crossing_centerline_mm": 0.102948361,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 63,
+    "max": 37,
+    "p95": 29.7,
+    "mean": 15.301587,
+    "median": 14.0,
+    "routes_with_crossings": 63
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.083
+  },
+  {
+   "plane_id": 7,
+   "label": "L7",
+   "z_mm": -0.1,
+   "kind": "body",
+   "interface": null,
+   "routes": 62,
+   "parts": 209,
+   "assigned_routes": 62,
+   "direct_routes": 0,
+   "crossings": 460,
+   "crossing_pairs": 312,
+   "min_non_crossing_centerline_mm": 0.102948361,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 59,
+    "max": 34,
+    "p95": 28.1,
+    "mean": 15.59322,
+    "median": 14.0,
+    "routes_with_crossings": 59
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.078
+  },
+  {
+   "plane_id": 20,
+   "label": "L20",
+   "z_mm": -0.05,
+   "kind": "body",
+   "interface": null,
+   "routes": 41,
+   "parts": 153,
+   "assigned_routes": 41,
+   "direct_routes": 0,
+   "crossings": 261,
+   "crossing_pairs": 154,
+   "min_non_crossing_centerline_mm": 0.102948361,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 39,
+    "max": 22,
+    "p95": 19.3,
+    "mean": 13.384615,
+    "median": 14.0,
+    "routes_with_crossings": 39
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.052
+  },
+  {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.0,
+   "kind": "interface_body",
+   "interface": "z1",
+   "routes": 512,
+   "parts": 1078,
+   "assigned_routes": 48,
+   "direct_routes": 48,
+   "crossings": 197,
+   "crossing_pairs": 130,
+   "min_non_crossing_centerline_mm": 0.105024498,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 42,
+    "max": 24,
+    "p95": 21.0,
+    "mean": 9.380952,
+    "median": 8.0,
+    "routes_with_crossings": 42
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": {
+    "direct_direct": 197,
+    "direct_lead": 0,
+    "lead_non_direct": 0
+   },
+   "runtime_seconds": 0.378
+  },
+  {
+   "plane_id": 8,
+   "label": "L8",
+   "z_mm": 0.05,
+   "kind": "body",
+   "interface": null,
+   "routes": 39,
+   "parts": 141,
+   "assigned_routes": 39,
+   "direct_routes": 0,
+   "crossings": 222,
+   "crossing_pairs": 132,
+   "min_non_crossing_centerline_mm": 0.105024498,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 38,
+    "max": 26,
+    "p95": 21.45,
+    "mean": 11.684211,
+    "median": 11.0,
+    "routes_with_crossings": 38
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.041
+  },
+  {
+   "plane_id": 9,
+   "label": "L9",
+   "z_mm": 0.1,
+   "kind": "body",
+   "interface": null,
+   "routes": 50,
+   "parts": 150,
+   "assigned_routes": 50,
+   "direct_routes": 0,
+   "crossings": 127,
+   "crossing_pairs": 127,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 43,
+    "max": 18,
+    "p95": 11.8,
+    "mean": 5.906977,
+    "median": 5.0,
+    "routes_with_crossings": 43
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.035
+  },
+  {
+   "plane_id": 10,
+   "label": "L10",
+   "z_mm": 0.15,
+   "kind": "body",
+   "interface": null,
+   "routes": 16,
+   "parts": 72,
+   "assigned_routes": 16,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.323234217,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.002
+  },
+  {
+   "plane_id": 11,
+   "label": "L11",
+   "z_mm": 0.2,
+   "kind": "body",
+   "interface": null,
+   "routes": 16,
+   "parts": 72,
+   "assigned_routes": 16,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.321953536,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.002
+  },
+  {
+   "plane_id": 12,
+   "label": "L12",
+   "z_mm": 0.25,
+   "kind": "body",
+   "interface": null,
+   "routes": 40,
+   "parts": 196,
+   "assigned_routes": 40,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.322357923,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.019
+  },
+  {
+   "plane_id": 13,
+   "label": "L13",
+   "z_mm": 0.3,
+   "kind": "body",
+   "interface": null,
+   "routes": 40,
+   "parts": 196,
+   "assigned_routes": 40,
+   "direct_routes": 0,
+   "crossings": 0,
+   "crossing_pairs": 0,
+   "min_non_crossing_centerline_mm": 0.322807098,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 0,
+    "max": 0,
+    "p95": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "routes_with_crossings": 0
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.02
+  },
+  {
+   "plane_id": 14,
+   "label": "L14",
+   "z_mm": 0.35,
+   "kind": "body",
+   "interface": null,
+   "routes": 50,
+   "parts": 150,
+   "assigned_routes": 50,
+   "direct_routes": 0,
+   "crossings": 119,
+   "crossing_pairs": 119,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 41,
+    "max": 18,
+    "p95": 12.0,
+    "mean": 5.804878,
+    "median": 5.0,
+    "routes_with_crossings": 41
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.039
+  },
+  {
+   "plane_id": 15,
+   "label": "L15",
+   "z_mm": 0.4,
+   "kind": "body",
+   "interface": null,
+   "routes": 50,
+   "parts": 150,
+   "assigned_routes": 50,
+   "direct_routes": 0,
+   "crossings": 127,
+   "crossing_pairs": 127,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 43,
+    "max": 18,
+    "p95": 11.8,
+    "mean": 5.906977,
+    "median": 5.0,
+    "routes_with_crossings": 43
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.038
+  },
+  {
+   "plane_id": 16,
+   "label": "L16",
+   "z_mm": 0.45,
+   "kind": "body",
+   "interface": null,
+   "routes": 50,
+   "parts": 150,
+   "assigned_routes": 50,
+   "direct_routes": 0,
+   "crossings": 119,
+   "crossing_pairs": 119,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 41,
+    "max": 18,
+    "p95": 12.0,
+    "mean": 5.804878,
+    "median": 5.0,
+    "routes_with_crossings": 41
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.035
+  },
+  {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.5,
+   "kind": "interface_body",
+   "interface": "z2",
+   "routes": 512,
+   "parts": 1074,
+   "assigned_routes": 50,
+   "direct_routes": 50,
+   "crossings": 119,
+   "crossing_pairs": 119,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 41,
+    "max": 18,
+    "p95": 12.0,
+    "mean": 5.804878,
+    "median": 5.0,
+    "routes_with_crossings": 41
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": {
+    "direct_direct": 119,
+    "direct_lead": 0,
+    "lead_non_direct": 0
+   },
+   "runtime_seconds": 0.569
+  },
+  {
+   "plane_id": 17,
+   "label": "L17",
+   "z_mm": 0.55,
+   "kind": "body",
+   "interface": null,
+   "routes": 50,
+   "parts": 150,
+   "assigned_routes": 50,
+   "direct_routes": 0,
+   "crossings": 127,
+   "crossing_pairs": 127,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 43,
+    "max": 18,
+    "p95": 11.8,
+    "mean": 5.906977,
+    "median": 5.0,
+    "routes_with_crossings": 43
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.044
+  },
+  {
+   "plane_id": 18,
+   "label": "L18",
+   "z_mm": 0.6,
+   "kind": "body",
+   "interface": null,
+   "routes": 50,
+   "parts": 150,
+   "assigned_routes": 50,
+   "direct_routes": 0,
+   "crossings": 119,
+   "crossing_pairs": 119,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 41,
+    "max": 18,
+    "p95": 12.0,
+    "mean": 5.804878,
+    "median": 5.0,
+    "routes_with_crossings": 41
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.032
+  },
+  {
+   "plane_id": 19,
+   "label": "L19",
+   "z_mm": 0.65,
+   "kind": "body",
+   "interface": null,
+   "routes": 50,
+   "parts": 150,
+   "assigned_routes": 50,
+   "direct_routes": 0,
+   "crossings": 127,
+   "crossing_pairs": 127,
+   "min_non_crossing_centerline_mm": 2.707696067,
+   "violations": 0,
+   "route_crossing_distribution": {
+    "routes": 43,
+    "max": 18,
+    "p95": 11.8,
+    "mean": 5.906977,
+    "median": 5.0,
+    "routes_with_crossings": 43
+   },
+   "crossing_kinds": {},
+   "interface_direct_crossings": null,
+   "runtime_seconds": 0.034
+  }
+ ],
+ "interface_direct": {
+  "planes": [
+   {
+    "plane_id": 1001,
+    "label": "Z1_INTERFACE",
+    "z_mm": 0.0,
+    "kind": "interface_body",
+    "interface": "z1",
+    "routes": 512,
+    "parts": 1078,
+    "assigned_routes": 48,
+    "direct_routes": 48,
+    "crossings": 197,
+    "crossing_pairs": 130,
+    "min_non_crossing_centerline_mm": 0.105024498,
+    "violations": 0,
+    "route_crossing_distribution": {
+     "routes": 42,
+     "max": 24,
+     "p95": 21.0,
+     "mean": 9.380952,
+     "median": 8.0,
+     "routes_with_crossings": 42
+    },
+    "crossing_kinds": {},
+    "interface_direct_crossings": {
+     "direct_direct": 197,
+     "direct_lead": 0,
+     "lead_non_direct": 0
+    },
+    "runtime_seconds": 0.378
+   },
+   {
+    "plane_id": 1002,
+    "label": "Z2_INTERFACE",
+    "z_mm": 0.5,
+    "kind": "interface_body",
+    "interface": "z2",
+    "routes": 512,
+    "parts": 1074,
+    "assigned_routes": 50,
+    "direct_routes": 50,
+    "crossings": 119,
+    "crossing_pairs": 119,
+    "min_non_crossing_centerline_mm": 2.707696067,
+    "violations": 0,
+    "route_crossing_distribution": {
+     "routes": 41,
+     "max": 18,
+     "p95": 12.0,
+     "mean": 5.804878,
+     "median": 5.0,
+     "routes_with_crossings": 41
+    },
+    "crossing_kinds": {},
+    "interface_direct_crossings": {
+     "direct_direct": 119,
+     "direct_lead": 0,
+     "lead_non_direct": 0
+    },
+    "runtime_seconds": 0.569
+   }
+  ],
+  "note": "interface planes merge frozen leads + interface-direct bodies in one strict D56 audit; direct/direct, direct/lead and lead/non-direct crossing counts are reported per plane"
+ },
+ "violations": [],
+ "geometry": {
+  "min_3d_clearance_mm": 0.068714895,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.999999980101123,
+  "total_length_mm": 157565.774342258,
+  "max_route_length_mm": 282.321952412,
+  "transition_total_length_mm": 5844.730966939,
+  "transitions": 1852
+ }
+}

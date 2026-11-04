@@ -1,0 +1,4 @@
+﻿stage,iteration,routed_2d,assembled,world_valid,violations,assembly_failures,budget,seconds,failed_route_ids
+pipeline,1,653,1021,1021,0,3,600,9.33,"[161, 408, 456]"
+pipeline,2,650,1018,1018,0,6,1200,7.424,"[219, 411, 432, 435, 878, 898]"
+joint_repair,,,,1024,,,,,

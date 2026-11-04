@@ -1,0 +1,490 @@
+{
+ "schema": "native3d_experiment_b_strategy_v1",
+ "summary": {
+  "strategy": "B1_adjacent",
+  "routes": 30,
+  "applied": 4,
+  "excursions": 4,
+  "net_crossings": -14,
+  "final_total": 2592,
+  "reasons": {
+   "shadow_crossing": 194,
+   "no_gain": 15,
+   "guard:metadata": 12
+  },
+  "seconds": 7.2,
+  "statistics": {
+   "routes_processed": 30,
+   "routes_improved": 4,
+   "excursions": 4,
+   "net_crossings": -14,
+   "mean_net_per_route": -3.5,
+   "best_route": -4,
+   "worst_route": -3,
+   "mean_excursions_per_route": 1.0,
+   "mean_excursion_delta": -3.5,
+   "best_excursion_delta": -4,
+   "best_single_excursion_cluster_count": 8
+  },
+  "top_excursions": [
+   {
+    "target_plane": 6,
+    "target_z": -0.15,
+    "from_z": -0.1,
+    "s0": 179.04392615929032,
+    "s1": 192.45607384070968,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 9.949489742783157,
+    "cluster_count": 4,
+    "delta": -4
+   },
+   {
+    "target_plane": 6,
+    "target_z": -0.15,
+    "from_z": -0.1,
+    "s0": 171.04392615929032,
+    "s1": 182.95607384070968,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 8.449489742783157,
+    "cluster_count": 4,
+    "delta": -4
+   },
+   {
+    "target_plane": 20,
+    "target_z": -0.05,
+    "from_z": -0.1,
+    "s0": 146.29392615929032,
+    "s1": 166.70607384070968,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 16.94948974278317,
+    "cluster_count": 8,
+    "delta": -3
+   },
+   {
+    "target_plane": 6,
+    "target_z": -0.15,
+    "from_z": -0.1,
+    "s0": 182.79392615929032,
+    "s1": 192.45607384070968,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 6.199489742783158,
+    "cluster_count": 3,
+    "delta": -3
+   }
+  ]
+ },
+ "records": [
+  {
+   "route_id": 158,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2606,
+   "crossing_before_route": 37,
+   "excursion_details": []
+  },
+  {
+   "route_id": 8,
+   "strategy": "B1_adjacent",
+   "options": 9,
+   "excursion_count": 1,
+   "predicted_delta": -4,
+   "applied": true,
+   "exact_delta": -4,
+   "crossing_before": 2606,
+   "crossing_before_route": 34,
+   "excursion_details": [
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 179.04392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 9.949489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    }
+   ],
+   "crossings_after": 2602
+  },
+  {
+   "route_id": 217,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2602,
+   "crossing_before_route": 33,
+   "excursion_details": []
+  },
+  {
+   "route_id": 32,
+   "strategy": "B1_adjacent",
+   "options": 4,
+   "excursion_count": 1,
+   "predicted_delta": -4,
+   "applied": true,
+   "exact_delta": -4,
+   "crossing_before": 2602,
+   "crossing_before_route": 30,
+   "excursion_details": [
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 171.04392615929032,
+     "s1": 182.95607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 8.449489742783157,
+     "cluster_count": 4,
+     "delta": -4
+    }
+   ],
+   "crossings_after": 2598
+  },
+  {
+   "route_id": 149,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2598,
+   "crossing_before_route": 30,
+   "excursion_details": []
+  },
+  {
+   "route_id": 427,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2598,
+   "crossing_before_route": 30,
+   "excursion_details": []
+  },
+  {
+   "route_id": 5,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2598,
+   "crossing_before_route": 29,
+   "excursion_details": []
+  },
+  {
+   "route_id": 104,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2598,
+   "crossing_before_route": 28,
+   "excursion_details": []
+  },
+  {
+   "route_id": 496,
+   "strategy": "B1_adjacent",
+   "options": 2,
+   "excursion_count": 1,
+   "predicted_delta": -3,
+   "applied": true,
+   "exact_delta": -3,
+   "crossing_before": 2598,
+   "crossing_before_route": 28,
+   "excursion_details": [
+    {
+     "target_plane": 20,
+     "target_z": -0.05,
+     "from_z": -0.1,
+     "s0": 146.29392615929032,
+     "s1": 166.70607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 16.94948974278317,
+     "cluster_count": 8,
+     "delta": -3
+    }
+   ],
+   "crossings_after": 2595
+  },
+  {
+   "route_id": 16,
+   "strategy": "B1_adjacent",
+   "options": 4,
+   "excursion_count": 1,
+   "predicted_delta": -3,
+   "applied": true,
+   "exact_delta": -3,
+   "crossing_before": 2595,
+   "crossing_before_route": 27,
+   "excursion_details": [
+    {
+     "target_plane": 6,
+     "target_z": -0.15,
+     "from_z": -0.1,
+     "s0": 182.79392615929032,
+     "s1": 192.45607384070968,
+     "footprint_mm": 1.7313289693180984,
+     "middle_mm": 6.199489742783158,
+     "cluster_count": 3,
+     "delta": -3
+    }
+   ],
+   "crossings_after": 2592
+  },
+  {
+   "route_id": 214,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 27,
+   "excursion_details": []
+  },
+  {
+   "route_id": 14,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 26,
+   "excursion_details": []
+  },
+  {
+   "route_id": 129,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 26,
+   "excursion_details": []
+  },
+  {
+   "route_id": 131,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 26,
+   "excursion_details": []
+  },
+  {
+   "route_id": 462,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 26,
+   "excursion_details": []
+  },
+  {
+   "route_id": 451,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 25,
+   "excursion_details": []
+  },
+  {
+   "route_id": 472,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 25,
+   "excursion_details": []
+  },
+  {
+   "route_id": 15,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 24,
+   "excursion_details": []
+  },
+  {
+   "route_id": 31,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 24,
+   "excursion_details": []
+  },
+  {
+   "route_id": 122,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 24,
+   "excursion_details": []
+  },
+  {
+   "route_id": 211,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 24,
+   "excursion_details": []
+  },
+  {
+   "route_id": 238,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 24,
+   "excursion_details": []
+  },
+  {
+   "route_id": 426,
+   "strategy": "B1_adjacent",
+   "options": 21,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 24,
+   "excursion_details": []
+  },
+  {
+   "route_id": 459,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 24,
+   "excursion_details": []
+  },
+  {
+   "route_id": 12,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 23,
+   "excursion_details": []
+  },
+  {
+   "route_id": 114,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 23,
+   "excursion_details": []
+  },
+  {
+   "route_id": 121,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 23,
+   "excursion_details": []
+  },
+  {
+   "route_id": 157,
+   "strategy": "B1_adjacent",
+   "options": 7,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 23,
+   "excursion_details": []
+  },
+  {
+   "route_id": 448,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 23,
+   "excursion_details": []
+  },
+  {
+   "route_id": 30,
+   "strategy": "B1_adjacent",
+   "options": 0,
+   "excursion_count": 0,
+   "predicted_delta": 0,
+   "applied": false,
+   "exact_delta": 0,
+   "crossing_before": 2592,
+   "crossing_before_route": 22,
+   "excursion_details": []
+  }
+ ]
+}

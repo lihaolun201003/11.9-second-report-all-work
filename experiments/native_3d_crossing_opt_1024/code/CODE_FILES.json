@@ -1,0 +1,90 @@
+{
+ "schema": "native3d_code_snapshot_v1",
+ "files": [
+  {
+   "path": "__init__.py",
+   "bytes": 808,
+   "sha256": "bf30587844f7c13820ddd8f54e5466ce4c1f17769302f65f7d2b16771a312f43"
+  },
+  {
+   "path": "batch_avoid.py",
+   "bytes": 16757,
+   "sha256": "e97633a164dad984d216072a2207b2e71f2c27cd8954edc88f93a7c34b7204e4"
+  },
+  {
+   "path": "CODE_FILES.json",
+   "bytes": 2322,
+   "sha256": "394f178c0c5e262b75bda1364dd544b51ad5f7392ce8e237431ea0756f03e323"
+  },
+  {
+   "path": "common.py",
+   "bytes": 9855,
+   "sha256": "14b8bb95251edcef41afe4b446895733c79378d7e2029fd55cd57fa703ed79f0"
+  },
+  {
+   "path": "crossing_cache.py",
+   "bytes": 10881,
+   "sha256": "03f0e9dca61571cfaa7533568459331827c01a5a937c5b3712a4a953d75a6382"
+  },
+  {
+   "path": "crossing_intervals.py",
+   "bytes": 94940,
+   "sha256": "d55d6813996b08ec61a76e97ede091f2016c174c62bb2423ca460616c4a05ece"
+  },
+  {
+   "path": "final_deliverables.py",
+   "bytes": 28494,
+   "sha256": "9f822a3ab70592bd6332a02b02884ffae25f84dd01a8072fcfeb63da83ea6af6"
+  },
+  {
+   "path": "global_optimizer.py",
+   "bytes": 19014,
+   "sha256": "c75f3015fd5135f07a0346d532d0b3553f090e635447d588dac5da1816eb9871"
+  },
+  {
+   "path": "guard.py",
+   "bytes": 7466,
+   "sha256": "b2fd9b29d0e9285c2c562567a06f37d621e5d6b62684f276a68db78147cb74e4"
+  },
+  {
+   "path": "README.md",
+   "bytes": 225,
+   "sha256": "db126b938ac0f78926f3454f70fdc7da28cab992554fac47e73a6bb7f184cf3d"
+  },
+  {
+   "path": "route_model.py",
+   "bytes": 15255,
+   "sha256": "b67f97c6fc16c55ba5b8e847e88e911e72f5f7198053791369f826cb68f0ce21"
+  },
+  {
+   "path": "run_a.py",
+   "bytes": 19224,
+   "sha256": "0eb036e08342f47a2a175c0ad77f8b4cbdf1abb7113ac6947f545cdcf46f7064"
+  },
+  {
+   "path": "run_b.py",
+   "bytes": 9565,
+   "sha256": "a8ae5d145d77b777a1cd0dcec454a7d173f861822677b0ea0d8c267358a749a0"
+  },
+  {
+   "path": "single_route.py",
+   "bytes": 15690,
+   "sha256": "ea1c2fe4758266d6840a282d9ee86f905963b9e758f225c010a3629cd535e4f8"
+  },
+  {
+   "path": "transition.py",
+   "bytes": 6824,
+   "sha256": "e0f9f798ebaed318ac52c451c2305ea60f1d5c1aac641eac7d306ebce1b2a36a"
+  },
+  {
+   "path": "validate_native3d.py",
+   "bytes": 109394,
+   "sha256": "db43b9947d07089312dc51f40512394dfe95eedc21b6fab962268e59c72ae9fe"
+  },
+  {
+   "path": "visualize.py",
+   "bytes": 140887,
+   "sha256": "40d730cb1cd7582a011f92f0d6a574187f5b6acbb3dc55de1ab2fd091234d034"
+  }
+ ]
+}

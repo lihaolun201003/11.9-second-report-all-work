@@ -1,0 +1,87 @@
+{
+ "schema": "fanout_first_21_height_consistency_v1",
+ "generated_at": "2026-11-03T23:19:59",
+ "clearance_mm": 0.05,
+ "layer_pitch_mm": 0.05,
+ "plane_count": 21,
+ "tests": [
+  {
+   "name": "world_accepts_50um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "world.check_route -> []"
+  },
+  {
+   "name": "validator_accepts_50um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": null
+  },
+  {
+   "name": "world_rejects_49um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "kinds=['flat_cross_plane_too_close']"
+  },
+  {
+   "name": "world_49um_is_flat_cross_plane_too_close",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": null
+  },
+  {
+   "name": "validator_rejects_49um_plane_separation",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": null
+  },
+  {
+   "name": "model_min_pitch_is_50um",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "min=0.05"
+  },
+  {
+   "name": "model_stack_builds_and_validates",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": null
+  },
+  {
+   "name": "invalid_49um_stack_rejected",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": null
+  },
+  {
+   "name": "d56_same_plane_50um_xy_is_illegal",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "violations=[{'route_a': 'synthetic_a', 'route_b': 'synthetic_b', 'kind': 'spacing', 'kinds': ['spacing'], 'distance_mm': 0.05000000000000071, 'x': 10.0, 'y': 10.025}]"
+  },
+  {
+   "name": "d56_same_plane_49um_xy_is_illegal",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": "violations=[{'route_a': 'synthetic_a', 'route_b': 'synthetic_b', 'kind': 'spacing', 'kinds': ['spacing'], 'distance_mm': 0.04899999999999949, 'x': 10.0, 'y': 10.0245}]"
+  },
+  {
+   "name": "true_port_table_poses_consistent",
+   "expected": true,
+   "actual": true,
+   "passed": true,
+   "detail": null
+  }
+ ],
+ "all_passed": true
+}

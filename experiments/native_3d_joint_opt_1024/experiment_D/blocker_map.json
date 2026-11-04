@@ -1,0 +1,1385 @@
+{
+ "screened": 80,
+ "clean": 9,
+ "histogram": {
+  "0": 18,
+  "6": 23,
+  "5": 8,
+  "4": 4,
+  "2": 12,
+  "3": 8,
+  "1": 7
+ },
+ "manual_blocked": 48,
+ "own_geometry": 0,
+ "repair_candidates": 7,
+ "rows": [
+  {
+   "route_id": 129,
+   "target_z": -0.25,
+   "predicted_net": 16,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    69
+   ]
+  },
+  {
+   "route_id": 158,
+   "target_z": -0.25,
+   "predicted_net": 14,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    383
+   ]
+  },
+  {
+   "route_id": 217,
+   "target_z": -0.3,
+   "predicted_net": 14,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    380
+   ]
+  },
+  {
+   "route_id": 737,
+   "target_z": -0.25,
+   "predicted_net": 13,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    219,
+    8,
+    513,
+    225,
+    228,
+    453
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 738,
+   "target_z": -0.35,
+   "predicted_net": 13,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    159,
+    172,
+    111,
+    103,
+    124,
+    122
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 739,
+   "target_z": -0.35,
+   "predicted_net": 13,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    637,
+    157,
+    515,
+    520,
+    524
+   ],
+   "manual_ids": [
+    308
+   ]
+  },
+  {
+   "route_id": 740,
+   "target_z": -0.25,
+   "predicted_net": 13,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    639,
+    16,
+    158,
+    732,
+    734,
+    473
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 637,
+   "target_z": -0.35,
+   "predicted_net": 12,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 5,
+   "n_movable": 4,
+   "n_manual": 1,
+   "movable_ids": [
+    157,
+    173,
+    601,
+    116
+   ],
+   "manual_ids": [
+    255
+   ]
+  },
+  {
+   "route_id": 638,
+   "target_z": -0.25,
+   "predicted_net": 12,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    674,
+    678,
+    514,
+    737,
+    620,
+    518
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 639,
+   "target_z": -0.25,
+   "predicted_net": 12,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    16,
+    158,
+    740,
+    603,
+    456,
+    231
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 640,
+   "target_z": -0.35,
+   "predicted_net": 12,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    738,
+    172
+   ],
+   "manual_ids": [
+    308
+   ]
+  },
+  {
+   "route_id": 155,
+   "target_z": -0.25,
+   "predicted_net": 11,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 3,
+   "n_movable": 3,
+   "n_manual": 0,
+   "movable_ids": [
+    442,
+    143,
+    451
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 214,
+   "target_z": -0.3,
+   "predicted_net": 10,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    448
+   ],
+   "manual_ids": [
+    356
+   ]
+  },
+  {
+   "route_id": 414,
+   "target_z": -0.25,
+   "predicted_net": 10,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    435,
+    9,
+    146
+   ],
+   "manual_ids": [
+    355
+   ]
+  },
+  {
+   "route_id": 31,
+   "target_z": -0.05,
+   "predicted_net": 9,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 5,
+   "n_movable": 5,
+   "n_manual": 0,
+   "movable_ids": [
+    112,
+    110,
+    100,
+    36,
+    28
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 98,
+   "target_z": -0.35,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    28
+   ],
+   "manual_ids": [
+    65
+   ]
+  },
+  {
+   "route_id": 130,
+   "target_z": -0.3,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    345
+   ]
+  },
+  {
+   "route_id": 131,
+   "target_z": -0.05,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    120,
+    118,
+    101,
+    110,
+    109,
+    106
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 173,
+   "target_z": -0.35,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    337
+   ]
+  },
+  {
+   "route_id": 460,
+   "target_z": 0.2,
+   "predicted_net": 9,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 3,
+   "n_movable": 3,
+   "n_manual": 0,
+   "movable_ids": [
+    442,
+    15,
+    478
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 541,
+   "target_z": -0.3,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    100
+   ],
+   "manual_ids": [
+    270
+   ]
+  },
+  {
+   "route_id": 542,
+   "target_z": -0.2,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    544,
+    416,
+    534,
+    765,
+    745,
+    741
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 543,
+   "target_z": -0.2,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 5,
+   "n_movable": 4,
+   "n_manual": 1,
+   "movable_ids": [
+    541,
+    414,
+    631,
+    158
+   ],
+   "manual_ids": [
+    197
+   ]
+  },
+  {
+   "route_id": 544,
+   "target_z": -0.3,
+   "predicted_net": 9,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    415,
+    536,
+    766,
+    762,
+    218
+   ],
+   "manual_ids": [
+    347
+   ]
+  },
+  {
+   "route_id": 5,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    336
+   ]
+  },
+  {
+   "route_id": 104,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    261
+   ]
+  },
+  {
+   "route_id": 114,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    67
+   ]
+  },
+  {
+   "route_id": 149,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    338
+   ]
+  },
+  {
+   "route_id": 172,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    144,
+    224
+   ],
+   "manual_ids": [
+    73
+   ]
+  },
+  {
+   "route_id": 238,
+   "target_z": -0.05,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    430,
+    418,
+    436,
+    439,
+    460,
+    457
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 417,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    251
+   ]
+  },
+  {
+   "route_id": 427,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    358
+   ]
+  },
+  {
+   "route_id": 433,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    472
+   ],
+   "manual_ids": [
+    188
+   ]
+  },
+  {
+   "route_id": 502,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    472
+   ],
+   "manual_ids": [
+    91
+   ]
+  },
+  {
+   "route_id": 513,
+   "target_z": -0.2,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    222,
+    40,
+    134,
+    741,
+    32,
+    110
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 514,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    513,
+    428,
+    35
+   ],
+   "manual_ids": [
+    270
+   ]
+  },
+  {
+   "route_id": 515,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    581,
+    557,
+    223,
+    743,
+    605
+   ],
+   "manual_ids": [
+    991
+   ]
+  },
+  {
+   "route_id": 516,
+   "target_z": -0.2,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    514,
+    224,
+    448,
+    627,
+    692,
+    659
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 569,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    109,
+    633,
+    486,
+    489,
+    173,
+    492
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 570,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    572,
+    745,
+    741,
+    440,
+    558,
+    765
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 571,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    569,
+    438
+   ],
+   "manual_ids": [
+    194
+   ]
+  },
+  {
+   "route_id": 572,
+   "target_z": -0.25,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    439,
+    560,
+    762,
+    159,
+    491,
+    706
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 633,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    988
+   ]
+  },
+  {
+   "route_id": 634,
+   "target_z": -0.2,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    674,
+    678,
+    514,
+    705,
+    103,
+    620
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 635,
+   "target_z": -0.2,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    148,
+    708,
+    575,
+    424,
+    515,
+    679
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 636,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    706,
+    520
+   ],
+   "manual_ids": [
+    821
+   ]
+  },
+  {
+   "route_id": 669,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    216,
+    492,
+    114,
+    601,
+    116,
+    38
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 670,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    682,
+    686
+   ],
+   "manual_ids": [
+    1014
+   ]
+  },
+  {
+   "route_id": 671,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    210,
+    169,
+    493,
+    217,
+    744,
+    603
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 672,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    742,
+    494,
+    544
+   ],
+   "manual_ids": [
+    1013
+   ]
+  },
+  {
+   "route_id": 705,
+   "target_z": -0.2,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    795
+   ]
+  },
+  {
+   "route_id": 706,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    597,
+    598,
+    38,
+    30,
+    114
+   ],
+   "manual_ids": [
+    252
+   ]
+  },
+  {
+   "route_id": 707,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    633,
+    477,
+    515,
+    520,
+    524
+   ],
+   "manual_ids": [
+    254
+   ]
+  },
+  {
+   "route_id": 708,
+   "target_z": -0.2,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    635,
+    606,
+    600,
+    212,
+    478,
+    534
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 741,
+   "target_z": -0.25,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    408,
+    411,
+    414,
+    32,
+    130,
+    132
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 742,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    218,
+    729,
+    494,
+    730,
+    103,
+    122
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 743,
+   "target_z": -0.35,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    544,
+    669,
+    216,
+    492,
+    623,
+    655
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 744,
+   "target_z": -0.3,
+   "predicted_net": 8,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    671,
+    493,
+    217,
+    732,
+    734
+   ],
+   "manual_ids": [
+    54
+   ]
+  },
+  {
+   "route_id": 12,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    313
+   ]
+  },
+  {
+   "route_id": 14,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    143,
+    223,
+    412
+   ],
+   "manual_ids": [
+    89
+   ]
+  },
+  {
+   "route_id": 15,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    421,
+    415,
+    226
+   ],
+   "manual_ids": [
+    380
+   ]
+  },
+  {
+   "route_id": 28,
+   "target_z": 0.2,
+   "predicted_net": 7,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 4,
+   "n_movable": 4,
+   "n_manual": 0,
+   "movable_ids": [
+    98,
+    685,
+    32,
+    29
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 30,
+   "target_z": -0.2,
+   "predicted_net": 7,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 2,
+   "n_movable": 2,
+   "n_manual": 0,
+   "movable_ids": [
+    31,
+    102
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 38,
+   "target_z": -0.2,
+   "predicted_net": 7,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 2,
+   "n_movable": 2,
+   "n_manual": 0,
+   "movable_ids": [
+    31,
+    102
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 39,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    123
+   ],
+   "manual_ids": [
+    80
+   ]
+  },
+  {
+   "route_id": 106,
+   "target_z": 0.2,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    693,
+    121,
+    156,
+    153,
+    166,
+    162
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 110,
+   "target_z": -0.2,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    117,
+    31
+   ],
+   "manual_ids": [
+    186
+   ]
+  },
+  {
+   "route_id": 112,
+   "target_z": -0.2,
+   "predicted_net": 7,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 3,
+   "n_movable": 3,
+   "n_manual": 0,
+   "movable_ids": [
+    133,
+    32,
+    111
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 116,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    121
+   ],
+   "manual_ids": [
+    67
+   ]
+  },
+  {
+   "route_id": 117,
+   "target_z": 0.2,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    110,
+    121
+   ],
+   "manual_ids": [
+    1010
+   ]
+  },
+  {
+   "route_id": 121,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    378
+   ]
+  },
+  {
+   "route_id": 122,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    348
+   ]
+  },
+  {
+   "route_id": 152,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    95
+   ]
+  },
+  {
+   "route_id": 157,
+   "target_z": 0.15,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    222,
+    225,
+    219,
+    228,
+    234,
+    677
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 205,
+   "target_z": 0.2,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    409,
+    749,
+    217,
+    420,
+    717
+   ],
+   "manual_ids": [
+    1019
+   ]
+  },
+  {
+   "route_id": 211,
+   "target_z": -0.2,
+   "predicted_net": 7,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 2,
+   "n_movable": 2,
+   "n_manual": 0,
+   "movable_ids": [
+    214,
+    421
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 226,
+   "target_z": 0.2,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 5,
+   "n_movable": 4,
+   "n_manual": 1,
+   "movable_ids": [
+    749,
+    217,
+    420,
+    717
+   ],
+   "manual_ids": [
+    1019
+   ]
+  },
+  {
+   "route_id": 232,
+   "target_z": -0.2,
+   "predicted_net": 7,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 2,
+   "n_movable": 2,
+   "n_manual": 0,
+   "movable_ids": [
+    214,
+    421
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 235,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    389
+   ]
+  },
+  {
+   "route_id": 409,
+   "target_z": -0.35,
+   "predicted_net": 7,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    205,
+    15
+   ],
+   "manual_ids": [
+    313
+   ]
+  }
+ ]
+}

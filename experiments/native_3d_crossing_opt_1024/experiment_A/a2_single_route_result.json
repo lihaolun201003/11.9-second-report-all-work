@@ -1,0 +1,586 @@
+{
+ "schema": "native3d_experiment_a2_v1",
+ "generated_at": "2026-11-03T23:56:12",
+ "accepted": [
+  {
+   "route_id": 496,
+   "from_z": -0.1,
+   "to_z": 0.05,
+   "s0": 146.02525512860842,
+   "s1": 163.47474487139158,
+   "footprint_mm": 2.996247653315728,
+   "middle_mm": 11.456994436151717,
+   "delta": -5,
+   "crossings_before": 2606,
+   "crossings_after": 2601
+  }
+ ],
+ "changes": [
+  {
+   "route_id": 496,
+   "before": {
+    "route_id": 496,
+    "plane": "z1",
+    "source_endpoint": "S09:1:14",
+    "target_endpoint": "N14:1:9",
+    "source_side": "S",
+    "target_side": "N",
+    "relation": "opposite",
+    "manual_group": "",
+    "layer_role": "z1_other",
+    "start_z_mm": 0.0,
+    "end_z_mm": 0.0,
+    "source_row": 1,
+    "target_row": 1,
+    "target_layer": 7,
+    "target_z_mm": -0.1,
+    "target_plane": 7,
+    "target_plane_label": "L7",
+    "needs_transition": true,
+    "layer_sequence": [
+     1,
+     7,
+     1
+    ],
+    "layer_z_sequence": [
+     0.0,
+     -0.1,
+     0.0
+    ],
+    "n_transitions": 2,
+    "lifted": true,
+    "layers_used": [
+     1,
+     7
+    ],
+    "length_mm": 180.879335838,
+    "xy_length_mm": 180.873889804,
+    "z_span_mm": 0.1,
+    "lead_source_mm": 0.25,
+    "lead_target_mm": 0.25,
+    "parts": [
+     {
+      "kind": "flat",
+      "layer_id": 1,
+      "z_mm": 0.0,
+      "length_mm": 0.25,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         80.875,
+         0.0
+        ],
+        "p1": [
+         80.875,
+         0.25
+        ],
+        "layer": 0
+       }
+      ]
+     },
+     {
+      "kind": "transition",
+      "start": [
+       80.875,
+       0.25
+      ],
+      "direction": [
+       0.0,
+       1.0
+      ],
+      "z0": 0.0,
+      "z1": -0.1,
+      "dz_mm": -0.1,
+      "radius_mm": 15.0,
+      "footprint_mm": 2.447447650104071,
+      "theta_rad": 0.08167235558059345,
+      "end": [
+       80.875,
+       2.697447650104071
+      ],
+      "length_mm": 2.4501706674178036
+     },
+     {
+      "kind": "flat",
+      "layer_id": 7,
+      "z_mm": -0.1,
+      "length_mm": 175.47899450363875,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         80.875,
+         2.697447650104071
+        ],
+        "p1": [
+         80.875,
+         5.636040078104071
+        ],
+        "layer": 0
+       },
+       {
+        "kind": "arc",
+        "p0": [
+         80.875,
+         5.636040078104071
+        ],
+        "p1": [
+         95.875,
+         20.63604007810407
+        ],
+        "center": [
+         95.875,
+         5.636040078104071
+        ],
+        "radius": 15.0,
+        "start_angle": 3.141592653589793,
+        "sweep": -1.5707963267948966,
+        "layer": 0
+       },
+       {
+        "kind": "line",
+        "p0": [
+         95.875,
+         20.63604007810407
+        ],
+        "p1": [
+         109.625,
+         20.63604007810407
+        ],
+        "layer": 0
+       },
+       {
+        "kind": "arc",
+        "p0": [
+         109.625,
+         20.63604007810407
+        ],
+        "p1": [
+         124.625,
+         35.636040078104074
+        ],
+        "center": [
+         109.625,
+         35.636040078104074
+        ],
+        "radius": 15.0,
+        "start_angle": -1.5707963267948966,
+        "sweep": 1.5707963267948966,
+        "layer": 0
+       },
+       {
+        "kind": "line",
+        "p0": [
+         124.625,
+         35.636040078104074
+        ],
+        "p1": [
+         124.625,
+         147.30255234989593
+        ],
+        "layer": 0
+       }
+      ]
+     },
+     {
+      "kind": "transition",
+      "start": [
+       124.625,
+       147.30255234989593
+      ],
+      "direction": [
+       -0.0,
+       1.0
+      ],
+      "z0": -0.1,
+      "z1": 0.0,
+      "dz_mm": 0.1,
+      "radius_mm": 15.0,
+      "footprint_mm": 2.447447650104071,
+      "theta_rad": 0.08167235558059345,
+      "end": [
+       124.625,
+       149.75
+      ],
+      "length_mm": 2.4501706674178036
+     },
+     {
+      "kind": "flat",
+      "layer_id": 1,
+      "z_mm": 0.0,
+      "length_mm": 0.25,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         124.625,
+         149.75
+        ],
+        "p1": [
+         124.625,
+         150.0
+        ],
+        "layer": 0
+       }
+      ]
+     }
+    ],
+    "direct": false
+   },
+   "after": {
+    "route_id": 496,
+    "plane": "z1",
+    "source_endpoint": "S09:1:14",
+    "target_endpoint": "N14:1:9",
+    "source_side": "S",
+    "target_side": "N",
+    "relation": "opposite",
+    "manual_group": "",
+    "layer_role": "z1_other",
+    "start_z_mm": 0.0,
+    "end_z_mm": 0.0,
+    "source_row": 1,
+    "target_row": 1,
+    "target_layer": 7,
+    "target_z_mm": -0.1,
+    "target_plane": 7,
+    "target_plane_label": "L7",
+    "needs_transition": true,
+    "layer_sequence": [
+     1,
+     7,
+     8,
+     7,
+     1
+    ],
+    "layer_z_sequence": [
+     0.0,
+     -0.1,
+     0.05,
+     -0.1,
+     0.0
+    ],
+    "n_transitions": 4,
+    "lifted": true,
+    "layers_used": [
+     1,
+     7,
+     8
+    ],
+    "length_mm": 180.889343349,
+    "xy_length_mm": 180.873889804,
+    "z_span_mm": 0.15,
+    "lead_source_mm": 0.25,
+    "lead_target_mm": 0.25,
+    "parts": [
+     {
+      "kind": "flat",
+      "layer_id": 1,
+      "z_mm": 0.0,
+      "length_mm": 0.25,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         80.875,
+         0.0
+        ],
+        "p1": [
+         80.875,
+         0.25
+        ],
+        "layer": 0
+       }
+      ],
+      "tag": "lead"
+     },
+     {
+      "kind": "transition",
+      "start": [
+       80.875,
+       0.25
+      ],
+      "direction": [
+       0.0,
+       1.0
+      ],
+      "z0": 0.0,
+      "z1": -0.1,
+      "dz_mm": -0.1,
+      "radius_mm": 15.0,
+      "footprint_mm": 2.447447650104071,
+      "theta_rad": 0.08167235558059345,
+      "end": [
+       80.875,
+       2.697447650104071
+      ],
+      "length_mm": 2.4501706674178036,
+      "tag": "fanout"
+     },
+     {
+      "kind": "flat",
+      "layer_id": 7,
+      "z_mm": -0.1,
+      "length_mm": 146.02525512860842,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         80.875,
+         2.697447650104071
+        ],
+        "p1": [
+         80.875,
+         5.636040078104071
+        ],
+        "layer": 0
+       },
+       {
+        "kind": "arc",
+        "p0": [
+         80.875,
+         5.636040078104071
+        ],
+        "p1": [
+         95.875,
+         20.63604007810407
+        ],
+        "center": [
+         95.875,
+         5.636040078104071
+        ],
+        "radius": 15.0,
+        "start_angle": 3.141592653589793,
+        "sweep": -1.5707963267948966,
+        "layer": 0
+       },
+       {
+        "kind": "line",
+        "p0": [
+         95.875,
+         20.63604007810407
+        ],
+        "p1": [
+         109.625,
+         20.63604007810407
+        ],
+        "layer": 0
+       },
+       {
+        "kind": "arc",
+        "p0": [
+         109.625,
+         20.63604007810407
+        ],
+        "p1": [
+         124.625,
+         35.636040078104074
+        ],
+        "center": [
+         109.625,
+         35.636040078104074
+        ],
+        "radius": 15.0,
+        "start_angle": -1.5707963267948966,
+        "sweep": 1.5707963267948966,
+        "layer": 0
+       },
+       {
+        "kind": "line",
+        "p0": [
+         124.625,
+         35.636040078104074
+        ],
+        "p1": [
+         124.625,
+         117.8488129748656
+        ],
+        "layer": 0
+       }
+      ],
+      "tag": "body"
+     },
+     {
+      "kind": "transition",
+      "start": [
+       124.625,
+       117.8488129748656
+      ],
+      "direction": [
+       0.0,
+       1.0
+      ],
+      "z0": -0.1,
+      "z1": 0.05,
+      "dz_mm": 0.15000000000000002,
+      "radius_mm": 15.0,
+      "footprint_mm": 2.996247653315728,
+      "theta_rad": 0.10004171361154007,
+      "end": [
+       124.625,
+       120.84506062818133
+      ],
+      "length_mm": 3.001251408346202,
+      "tag": "mid"
+     },
+     {
+      "kind": "flat",
+      "layer_id": 8,
+      "z_mm": 0.05,
+      "length_mm": 11.456994436151717,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         124.625,
+         120.84506062818133
+        ],
+        "p1": [
+         124.625,
+         132.30205506433305
+        ]
+       }
+      ],
+      "tag": "body"
+     },
+     {
+      "kind": "transition",
+      "start": [
+       124.625,
+       132.30205506433305
+      ],
+      "direction": [
+       0.0,
+       1.0
+      ],
+      "z0": 0.05,
+      "z1": -0.1,
+      "dz_mm": -0.15000000000000002,
+      "radius_mm": 15.0,
+      "footprint_mm": 2.996247653315728,
+      "theta_rad": 0.10004171361154007,
+      "end": [
+       124.625,
+       135.29830271764877
+      ],
+      "length_mm": 3.001251408346202,
+      "tag": "mid"
+     },
+     {
+      "kind": "flat",
+      "layer_id": 7,
+      "z_mm": -0.1,
+      "length_mm": 12.004249632247166,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         124.625,
+         135.29830271764877
+        ],
+        "p1": [
+         124.625,
+         147.30255234989593
+        ],
+        "layer": 0
+       }
+      ],
+      "tag": "body"
+     },
+     {
+      "kind": "transition",
+      "start": [
+       124.625,
+       147.30255234989593
+      ],
+      "direction": [
+       -0.0,
+       1.0
+      ],
+      "z0": -0.1,
+      "z1": 0.0,
+      "dz_mm": 0.1,
+      "radius_mm": 15.0,
+      "footprint_mm": 2.447447650104071,
+      "theta_rad": 0.08167235558059345,
+      "end": [
+       124.625,
+       149.75
+      ],
+      "length_mm": 2.4501706674178036,
+      "tag": "fanout"
+     },
+     {
+      "kind": "flat",
+      "layer_id": 1,
+      "z_mm": 0.0,
+      "length_mm": 0.25,
+      "primitives": [
+       {
+        "kind": "line",
+        "p0": [
+         124.625,
+         149.75
+        ],
+        "p1": [
+         124.625,
+         150.0
+        ],
+        "layer": 0
+       }
+      ],
+      "tag": "lead"
+     }
+    ],
+    "direct": false,
+    "n_mid_transitions": 2,
+    "native_3d": true,
+    "body_heights": [
+     -0.1,
+     0.05,
+     -0.1
+    ],
+    "mid_transitions": [
+     {
+      "part_index": 3,
+      "from_z": -0.1,
+      "to_z": 0.05,
+      "tag": "mid"
+     },
+     {
+      "part_index": 5,
+      "from_z": 0.05,
+      "to_z": -0.1,
+      "tag": "mid"
+     }
+    ],
+    "excursions": [
+     {
+      "s_start_mm": 146.025255,
+      "s_end_mm": 163.474745,
+      "from_z": -0.1,
+      "to_z": 0.05,
+      "from_plane": 7,
+      "to_plane": 8,
+      "up_part_index": 3,
+      "down_part_index": 5,
+      "middle_part_index": 4,
+      "prefix_part_index": 2,
+      "suffix_part_index": 6,
+      "footprint_mm": 2.996248,
+      "middle_mm": 11.456994,
+      "direction": [
+       0.0,
+       1.0
+      ],
+      "body_part_index": 2
+     }
+    ]
+   }
+  }
+ ],
+ "baseline_crossings": 2606,
+ "final_crossings": 2601,
+ "note": "single-route mid-body layer change applied in the real 1024-route space; exact crossing recount after each change"
+}

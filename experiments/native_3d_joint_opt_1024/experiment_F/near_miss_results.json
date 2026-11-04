@@ -1,0 +1,46 @@
+{
+ "schema": "native3d_phase2_near_miss_v1",
+ "start_total": 2422,
+ "final_total": 2409,
+ "attempts": 1728,
+ "accepted": 1,
+ "net": -13,
+ "improvements": [
+  {
+   "route_id": 737,
+   "target_z": 0.2,
+   "net": -13,
+   "predicted": 13,
+   "s0": null,
+   "s1": null
+  }
+ ],
+ "runs": [
+  {
+   "start_total": 2422,
+   "final_total": 2409,
+   "attempts": 960,
+   "accepted": 1,
+   "net": -13,
+   "improvements": [
+    {
+     "route_id": 737,
+     "target_z": 0.2,
+     "net": -13,
+     "predicted": 13,
+     "s0": null,
+     "s1": null
+    }
+   ]
+  },
+  {
+   "start_total": 2409,
+   "final_total": 2409,
+   "attempts": 768,
+   "accepted": 0,
+   "net": 0,
+   "improvements": []
+  }
+ ],
+ "note": "guard near-miss candidates (all exact 3D distances >= 50 um but < guard accept margin); interval shifts moved the S-curves clear"
+}

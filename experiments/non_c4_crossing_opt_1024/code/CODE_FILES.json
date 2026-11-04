@@ -1,0 +1,70 @@
+{
+ "schema": "nonc4_code_snapshot_v1",
+ "files": [
+  {
+   "path": "__init__.py",
+   "bytes": 833,
+   "sha256": "acc6845cbf8c1b49437bb72e6e6052083b9e35a02850994bf5c0e1b15085f150"
+  },
+  {
+   "path": "assign_nc.py",
+   "bytes": 20610,
+   "sha256": "78ad46d2ec62938796bcdc6a9d60ed30af009463174b7c64c01bff0d5e9c86db"
+  },
+  {
+   "path": "assign_opt.py",
+   "bytes": 14216,
+   "sha256": "76834040501bd9d79b0ade998de0887971fccfd52c414ba5130fb6a1b1afc017"
+  },
+  {
+   "path": "cross_router.py",
+   "bytes": 47294,
+   "sha256": "c9a4ec69fe4c36cdf8397850845c875e8fade840de90ffc06be4618988a42bde"
+  },
+  {
+   "path": "crossings.py",
+   "bytes": 11494,
+   "sha256": "2b61877b601638248b309d6fa9f100073e99d5d97b3dac1ad295ecb5a824666a"
+  },
+  {
+   "path": "data.py",
+   "bytes": 9050,
+   "sha256": "edefdd3abea5eec7cf035e18f960b8fa7e10a546b6d88531e684fdfcb1499349"
+  },
+  {
+   "path": "experiments.py",
+   "bytes": 9643,
+   "sha256": "8330f0982e12ef4f10527e2f38e5fe4c917736c5e96ed077dfb715bafda753a9"
+  },
+  {
+   "path": "final_report.py",
+   "bytes": 36452,
+   "sha256": "d7071995f32b380421ee8bde97993e12576698525a8c169ad053ab8b9d1753a8"
+  },
+  {
+   "path": "paths.py",
+   "bytes": 2325,
+   "sha256": "854c670553fd738f73efe864ab34ea9cc817fb138c00ee2053d3fd19be22d796"
+  },
+  {
+   "path": "reheight21_SPEC.md",
+   "bytes": 9234,
+   "sha256": "e4c6432d124cbc9b0f56a38b9d49fe2072f98f91eceec5c214dfa6902c36746c"
+  },
+  {
+   "path": "run_nc.py",
+   "bytes": 47139,
+   "sha256": "83b6154f484abbac91a9b1274e559416c998e5599c747767370743d1b4d38f95"
+  },
+  {
+   "path": "search.py",
+   "bytes": 6757,
+   "sha256": "6aa4b9eae8a1fc132efec40bc5d9e67f0016acef6be1a5c17a3d698c1983d030"
+  },
+  {
+   "path": "validate_nc.py",
+   "bytes": 10191,
+   "sha256": "2919da3c7b5728f22958cae34fb4a63555200131cd824494b785776187c1d859"
+  }
+ ]
+}

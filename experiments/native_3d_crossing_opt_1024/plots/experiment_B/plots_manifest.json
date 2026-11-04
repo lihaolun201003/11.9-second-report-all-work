@@ -1,0 +1,89 @@
+{
+ "schema": "native3d_plots_v1",
+ "tool": "four_side_1024.fanout1024.native3d.visualize",
+ "kind": "experiment_B",
+ "source_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\experiment_B",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B",
+ "data": {
+  "candidates_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\experiment_B\\candidates.json (excursions + accepted_routes)",
+  "candidate_count": 14,
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final",
+  "native_routes": [
+   3,
+   7,
+   8,
+   16,
+   32,
+   38,
+   150,
+   164,
+   428,
+   452,
+   475,
+   493,
+   496,
+   497
+  ]
+ },
+ "figures": [
+  {
+   "name": "experiment_B_summary",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_summary.png",
+   "bytes": 60343
+  },
+  {
+   "name": "experiment_B_strategy_comparison",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_strategy_comparison.png",
+   "bytes": 54503
+  },
+  {
+   "name": "experiment_B_route_0003_3d",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_route_0003_3d.png",
+   "bytes": 184038
+  },
+  {
+   "name": "experiment_B_route_0003_zoom",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_route_0003_zoom.png",
+   "bytes": 95073
+  },
+  {
+   "name": "experiment_B_route_0007_3d",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_route_0007_3d.png",
+   "bytes": 183945
+  },
+  {
+   "name": "experiment_B_route_0007_zoom",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_route_0007_zoom.png",
+   "bytes": 97398
+  },
+  {
+   "name": "experiment_B_route_0008_3d",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_route_0008_3d.png",
+   "bytes": 185280
+  },
+  {
+   "name": "experiment_B_route_0003_2d",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_2d_projections\\route0003_z01_L7.png",
+   "bytes": 34921
+  },
+  {
+   "name": "experiment_B_route_0003_2d",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_2d_projections\\route0003_z02_L20.png",
+   "bytes": 33575
+  },
+  {
+   "name": "experiment_B_route_0003_2d",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_2d_projections\\route0003_z03_Z1_INTERFACE.png",
+   "bytes": 35065
+  }
+ ],
+ "skipped": [],
+ "log": [
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\experiment_B\\experiment_B_strategy_comparison.png"
+  }
+ ],
+ "runtime_seconds": 2.094,
+ "figure_count": 10
+}

@@ -1,0 +1,296 @@
+{
+ "schema": "native3d_plots_v1",
+ "tool": "four_side_1024.fanout1024.native3d.visualize",
+ "kind": "experiment_C",
+ "source_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots",
+ "data": {
+  "routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\routes_l3d.json",
+  "crossing_stats_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\crossing_stats.json",
+  "optimization_history_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\optimization_history.csv",
+  "checkpoint_file": null,
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final",
+  "baseline_routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final\\routes_l3d.json",
+  "baseline_crossing_stats_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final\\crossing_stats.json",
+  "route_count": 1024,
+  "baseline_route_count": 1024,
+  "crossing_events_total": 2440,
+  "baseline_crossing_events_total": 2606
+ },
+ "figures": [
+  {
+   "name": "height_01_L2",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_01_L2.png",
+   "bytes": 148002
+  },
+  {
+   "name": "height_02_L3",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_02_L3.png",
+   "bytes": 135017
+  },
+  {
+   "name": "height_03_L4",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_03_L4.png",
+   "bytes": 136382
+  },
+  {
+   "name": "height_04_L5",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_04_L5.png",
+   "bytes": 135622
+  },
+  {
+   "name": "height_05_L6",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_05_L6.png",
+   "bytes": 137726
+  },
+  {
+   "name": "height_06_L7",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_06_L7.png",
+   "bytes": 140861
+  },
+  {
+   "name": "height_07_L20",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_07_L20.png",
+   "bytes": 121936
+  },
+  {
+   "name": "height_08_Z1_INTERFACE",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_08_Z1_INTERFACE.png",
+   "bytes": 124507
+  },
+  {
+   "name": "height_09_L8",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_09_L8.png",
+   "bytes": 105204
+  },
+  {
+   "name": "height_10_L9",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_10_L9.png",
+   "bytes": 90014
+  },
+  {
+   "name": "height_11_L10",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_11_L10.png",
+   "bytes": 53613
+  },
+  {
+   "name": "height_12_L11",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_12_L11.png",
+   "bytes": 60689
+  },
+  {
+   "name": "height_13_L12",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_13_L12.png",
+   "bytes": 98792
+  },
+  {
+   "name": "height_14_L13",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_14_L13.png",
+   "bytes": 98349
+  },
+  {
+   "name": "height_15_L14",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_15_L14.png",
+   "bytes": 85360
+  },
+  {
+   "name": "height_16_L15",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_16_L15.png",
+   "bytes": 81527
+  },
+  {
+   "name": "height_17_L16",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_17_L16.png",
+   "bytes": 81086
+  },
+  {
+   "name": "height_18_Z2_INTERFACE",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_18_Z2_INTERFACE.png",
+   "bytes": 100752
+  },
+  {
+   "name": "height_19_L17",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_19_L17.png",
+   "bytes": 82342
+  },
+  {
+   "name": "height_20_L18",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_20_L18.png",
+   "bytes": 83271
+  },
+  {
+   "name": "height_21_L19",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_21_L19.png",
+   "bytes": 84890
+  },
+  {
+   "name": "3d_overview_1024",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\3d_overview_1024.png",
+   "bytes": 1131294
+  },
+  {
+   "name": "crossing_curve",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\crossing_curve.png",
+   "bytes": 47986
+  },
+  {
+   "name": "per_layer_before_after",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\per_layer_before_after.png",
+   "bytes": 50393
+  },
+  {
+   "name": "top10_routes_before_after",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\top10_routes_before_after.png",
+   "bytes": 66174
+  },
+  {
+   "name": "mid_transition_counts",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\mid_transition_counts.png",
+   "bytes": 31714
+  },
+  {
+   "name": "extra_length_distribution",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\extra_length_distribution.png",
+   "bytes": 91913
+  },
+  {
+   "name": "crossing_hotspot",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\crossing_hotspot.png",
+   "bytes": 58950
+  },
+  {
+   "name": "route_height_profile_examples",
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\route_height_profile_examples.png",
+   "bytes": 83331
+  }
+ ],
+ "skipped": [],
+ "log": [
+  {
+   "level": "info",
+   "message": "experiment C dashboard: run_dir=C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024 baseline=C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NON_C4_CROSSING_OPT_1024\\E5_joint_repair_final"
+  },
+  {
+   "level": "info",
+   "message": "loaded 1024 final routes, 1024 baseline routes, 2440 final crossing events"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_01_L2.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_02_L3.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_03_L4.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_04_L5.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_05_L6.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_06_L7.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_07_L20.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_08_Z1_INTERFACE.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_09_L8.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_10_L9.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_11_L10.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_12_L11.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_13_L12.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_14_L13.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_15_L14.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_16_L15.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_17_L16.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_18_Z2_INTERFACE.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_19_L17.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_20_L18.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\height_21_L19.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\3d_overview_1024.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\crossing_curve.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\per_layer_before_after.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\top10_routes_before_after.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\mid_transition_counts.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\extra_length_distribution.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\crossing_hotspot.png"
+  },
+  {
+   "level": "info",
+   "message": "wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\NATIVE_3D_CROSSING_OPT_1024\\plots\\route_height_profile_examples.png"
+  }
+ ],
+ "runtime_seconds": 8.228,
+ "figure_count": 29
+}

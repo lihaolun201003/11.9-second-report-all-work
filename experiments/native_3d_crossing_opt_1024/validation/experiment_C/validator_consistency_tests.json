@@ -1,0 +1,177 @@
+{
+ "schema": "native3d_consistency_v1",
+ "generated_at": "2026-11-04T00:19:11",
+ "all_passed": true,
+ "tests": [
+  {
+   "name": "duckout_L6_L7_L6_accepted",
+   "passed": true,
+   "detail": {
+    "structure_errors": [],
+    "world_violations": [],
+    "radius_violations": [],
+    "max_position_gap_mm": 0.0,
+    "max_z_gap_mm": 0.0,
+    "max_tangent_gap": 0.0
+   }
+  },
+  {
+   "name": "z_offset_49um_rejected",
+   "passed": true,
+   "detail": {
+    "rejection_kinds": [
+     "flat_cross_plane_too_close"
+    ],
+    "rejection_violations": [
+     {
+      "kind": "flat_cross_plane_too_close",
+      "route_id": 900202,
+      "z_mm": -0.10099999999999999,
+      "other_z_mm": -0.15,
+      "detail": "layer_gap=0.049<0.05"
+     }
+    ],
+    "flat_z_not_model_height": true,
+    "control_50um_violations": []
+   }
+  },
+  {
+   "name": "radius_14_rejected",
+   "passed": true,
+   "detail": {
+    "violation_kinds": [
+     "transition_declared_radius_not_r15",
+     "transition_true_3d_radius_below_r15"
+    ],
+    "violations": [
+     {
+      "kind": "transition_declared_radius_not_r15",
+      "route_id": 900001,
+      "detail": "part=1 radius_mm=14.0"
+     },
+     {
+      "kind": "transition_true_3d_radius_below_r15",
+      "route_id": 900001,
+      "detail": "part=1 min_sampled_radius=14"
+     },
+     {
+      "kind": "transition_declared_radius_not_r15",
+      "route_id": 900001,
+      "detail": "part=3 radius_mm=14.0"
+     },
+     {
+      "kind": "transition_true_3d_radius_below_r15",
+      "route_id": 900001,
+      "detail": "part=3 min_sampled_radius=14"
+     }
+    ],
+    "transition_count": 2,
+    "min_sampled_radius": 13.9999999953457
+   }
+  },
+  {
+   "name": "position_discontinuity_1e-3_rejected",
+   "passed": true,
+   "detail": {
+    "world_structure_errors": [
+     "flat_transition_position_mismatch"
+    ],
+    "max_position_gap_mm": 0.0010000000000012221,
+    "tolerance_mm": 1e-06
+   }
+  },
+  {
+   "name": "flat_overlap_rejected",
+   "passed": true,
+   "detail": {
+    "violation_kinds": [
+     "flat_same_plane_conflict"
+    ],
+    "violations": [
+     {
+      "kind": "flat_same_plane_conflict",
+      "route_id": 900302,
+      "z_mm": -0.15,
+      "blockers": [
+       900301000
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "complete_native_route_accepted",
+   "passed": true,
+   "detail": {
+    "structure_violations": [],
+    "metadata_violations": [],
+    "radius_violations": [],
+    "world_violations": [],
+    "max_position_gap_mm": 0.0,
+    "max_z_gap_mm": 0.0,
+    "max_tangent_gap": 0.0,
+    "metadata_counts": {
+     "native_routes": 1,
+     "mid_transitions": 2,
+     "excursions": 1
+    }
+   }
+  },
+  {
+   "name": "two_excursions_accepted",
+   "passed": true,
+   "detail": {
+    "structure_violations": [],
+    "metadata_violations": [],
+    "radius_violations": [],
+    "world_violations": [],
+    "max_position_gap_mm": 0.0,
+    "max_z_gap_mm": 0.0,
+    "max_tangent_gap": 0.0,
+    "recomputed": {
+     "body_heights": [
+      -0.15,
+      -0.1,
+      -0.15,
+      -0.2,
+      -0.15
+     ],
+     "mid_part_indices": [
+      3,
+      5,
+      7,
+      9
+     ],
+     "excursion_indices": [
+      [
+       3,
+       4,
+       5
+      ],
+      [
+       7,
+       8,
+       9
+      ]
+     ],
+     "layer_sequence": [
+      1,
+      6,
+      7,
+      6,
+      5,
+      6,
+      1
+     ]
+    },
+    "metadata_counts": {
+     "native_routes": 1,
+     "mid_transitions": 4,
+     "excursions": 2,
+     "max_body_flats_per_route": 5
+    }
+   }
+  }
+ ],
+ "error": null
+}

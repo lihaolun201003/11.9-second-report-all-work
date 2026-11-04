@@ -1,0 +1,12 @@
+{
+ "schema": "native3d_phase2_experiment_e_v1",
+ "start_crossings": 2440,
+ "final_crossings": 2440,
+ "accepted": 0,
+ "attempts": 36,
+ "net": 0,
+ "methods": {},
+ "before_arc_total": 0,
+ "after_arc_total": 0,
+ "seconds": 12.0
+}

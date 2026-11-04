@@ -1,0 +1,50 @@
+{
+ "schema": "native3d_phase2_code_snapshot_v1",
+ "files": [
+  {
+   "path": "arc_crossing_analysis.py",
+   "bytes": 139061,
+   "sha256": "768a5d67d09162864c629febde91ae72722d0da345ecf8d32d779df65d571d3d"
+  },
+  {
+   "path": "blocker_analysis.py",
+   "bytes": 111307,
+   "sha256": "2aa0f0c90a34ab4c835dbacb666fd5c1c54dd6bef7a7e3b0695a92954c0ada2c"
+  },
+  {
+   "path": "excursion2.py",
+   "bytes": 16061,
+   "sha256": "d465dac5435c561cfaf04105c3043ddd2d35a9abd6fb3c98735aecf881824fbc"
+  },
+  {
+   "path": "finalize_phase2.py",
+   "bytes": 37002,
+   "sha256": "aebfd2469622b4ff67d9a28ab3b678797ed62448185a5f6583186eb57c2c0efd"
+  },
+  {
+   "path": "joint_reroute.py",
+   "bytes": 15324,
+   "sha256": "36def23fbe8b62b46c854c25da10cb3fbc7990b80032df1426ee58fa254c2d61"
+  },
+  {
+   "path": "phase2.py",
+   "bytes": 12332,
+   "sha256": "50e575e1b3ce70e4cad55beb5971c66d2299ec9ceec4a6b5402057c1ed4c94a7"
+  },
+  {
+   "path": "run_d.py",
+   "bytes": 11507,
+   "sha256": "407573f9aaefa9124aa1f500e4f5cc160e390b3272f4106ae289afe049f76bef"
+  },
+  {
+   "path": "run_e.py",
+   "bytes": 19340,
+   "sha256": "d7804cc68f35da384506f630fed0605b5e9102e624138ba19b26cbadb02af347"
+  },
+  {
+   "path": "run_f.py",
+   "bytes": 19391,
+   "sha256": "ffa13ba5dbd4aed191da927a845621a402edfad573eaa859dacb7eaed9900a96"
+  }
+ ]
+}
