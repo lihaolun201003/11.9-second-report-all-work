@@ -1,0 +1,96 @@
+{
+ "schema": "g4_six_required_quantities_v1",
+ "generated_at": "2026-11-04T19:48:33",
+ "run": {
+  "run_dir": "experiments\\xyz_joint_g4_1024\\07_best_valid",
+  "routes_sha256": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+  "routes_sha256_expected": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+  "sha_match": true,
+  "route_count": 1024,
+  "routed": 1024,
+  "failed": 0,
+  "total_length_mm": 156735.562044
+ },
+ "six_quantities": {
+  "minimum_distance_all_pairs_mm": 0.0,
+  "minimum_clearance_non_crossing_mm": 0.05,
+  "allowed_crossing_count": 1185,
+  "illegal_crossing_count": 0,
+  "clearance_violation_count": 0,
+  "crossing_exemption_policy": {
+   "same_physical_height_rule": "strict D56 2-D centreline clearance 0.08 mm (width 0.05 + edge gap 0.03); legal transverse crossings exempt",
+   "min_crossing_angle_deg": 5.0,
+   "max_window_half_mm": 4.0,
+   "different_physical_height_rule": "legal when |dz| >= 0.05 mm; XY overlap alone is not a violation",
+   "transition_rule": "true 3-D centreline distance >= 0.05 mm to every other route (transition-vs-flat, transition-vs-transition)",
+   "min_layer_pitch_mm": 0.05,
+   "crossing_window_half_max_measured_mm": 0.8624461179461043,
+   "crossing_angle_range_deg": [
+    5.33239,
+    90.0
+   ],
+   "source_files": [
+    "four_side_1024/fanout1024/common.py",
+    "four_side_1024/l3d/world.py",
+    "four_side_1024/fsd25d/world25d.py",
+    "four_side_1024/fslw/config.py",
+    "four_side_1024/fslw/validate_fslw.py",
+    "four_side_1024/d56/index.py",
+    "four_side_1024/fanout1024/nonc4/crossings.py",
+    "four_side_1024/fanout1024/reheight21/validate21.py",
+    "four_side_1024/fanout1024/xyzrouter/world_adapter.py"
+   ]
+  }
+ },
+ "independent_cross_checks": {
+  "all_pass": true,
+  "skipped": [],
+  "checks": {
+   "routes_sha256_matches_expected": true,
+   "routed_1024_of_1024": true,
+   "crossings_count_matches_expected": true,
+   "crossing_pairs_match_expected": true,
+   "max_crossings_per_route_matches_expected": true,
+   "crossing_stats_artefact_match": true,
+   "manual_u_368": true,
+   "heights_21": true,
+   "min_height_gap_0p05": true,
+   "r15_no_violation": true,
+   "glass_150x150x1_bounds": true,
+   "ports_and_connection_identity": true,
+   "structure_continuity": true,
+   "all_crossings_allowed": true,
+   "no_clearance_violation": true,
+   "independent_validator_pass": true
+  }
+ },
+ "independent_verdict": {
+  "checks": {
+   "identity": true,
+   "heights_r15": true,
+   "continuity": true,
+   "glass": true,
+   "manual_u": true,
+   "crossings_all_allowed": true,
+   "clearance_no_violation": true
+  },
+  "all_passed": true,
+  "runtime_seconds": 12.72
+ },
+ "baseline_revalidation": {
+  "present": true,
+  "validation_pass": true,
+  "violation_count": 0,
+  "policy_violations": 0,
+  "manual_policy": "fully_optimizable",
+  "validator_counts": {
+   "crossings": 1185,
+   "crossing_pairs": 1124,
+   "min_3d_clearance_mm": 0.060877381,
+   "min_non_crossing_centerline_mm": 0.086853441,
+   "manual_route_count": 368,
+   "routed": 1024,
+   "failed": 0
+  }
+ }
+}

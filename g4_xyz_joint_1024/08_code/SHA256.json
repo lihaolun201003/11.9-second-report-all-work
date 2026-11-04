@@ -1,0 +1,210 @@
+{
+ "schema": "g4_code_snapshot_v1",
+ "generated_at": "2026-11-04 20:10:14",
+ "source_package": "four_side_1024\\fanout1024\\xyzrouter\\g4",
+ "files": [
+  {
+   "snapshot": "code/g4/__init__.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\__init__.py",
+   "sha256": "70f84ceae32d9ea52f5b1f90bfe1493b1e2cea34424d7fbd888cc2458253c28d",
+   "source_sha256": "70f84ceae32d9ea52f5b1f90bfe1493b1e2cea34424d7fbd888cc2458253c28d",
+   "bytes": 606,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/alns.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\alns.py",
+   "sha256": "a2c80e612837697ba3dd0a2392f8f7146d3a05f3bd9cdd4d1a2898937a4aa88a",
+   "source_sha256": "a2c80e612837697ba3dd0a2392f8f7146d3a05f3bd9cdd4d1a2898937a4aa88a",
+   "bytes": 45963,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/archive_g4.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\archive_g4.py",
+   "sha256": "087ea887033ac80f4dd271d22c637e57ebb7e4038c471fe603743d8ac020b37c",
+   "source_sha256": "087ea887033ac80f4dd271d22c637e57ebb7e4038c471fe603743d8ac020b37c",
+   "bytes": 27409,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/arm_base.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\arm_base.py",
+   "sha256": "44398fcccd8d0aa7d266635bdfa17cc0e0464cb9ec74d222d449721fb3b7d2dd",
+   "source_sha256": "44398fcccd8d0aa7d266635bdfa17cc0e0464cb9ec74d222d449721fb3b7d2dd",
+   "bytes": 8797,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/artifacts.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\artifacts.py",
+   "sha256": "4e26a42878c42c3fa2242360161756b424adc5797826c6271be10502b5efd674",
+   "source_sha256": "4e26a42878c42c3fa2242360161756b424adc5797826c6271be10502b5efd674",
+   "bytes": 8969,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/c0_continue.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\c0_continue.py",
+   "sha256": "066692947fd231a40c371471003c079fab21ff6e01f9cc216ad41c961619a99a",
+   "source_sha256": "066692947fd231a40c371471003c079fab21ff6e01f9cc216ad41c961619a99a",
+   "bytes": 43334,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/contract_audit.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\contract_audit.py",
+   "sha256": "18ae24b41fac00d1ef2950368befaf6a5af10260ab8f1a21558d6bd0bc5362bc",
+   "source_sha256": "18ae24b41fac00d1ef2950368befaf6a5af10260ab8f1a21558d6bd0bc5362bc",
+   "bytes": 39946,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/failure_analysis.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\failure_analysis.py",
+   "sha256": "a52c87667863bc5cdc94cd2877893725caf11feef3c9147bd1da1a02925fdcaf",
+   "source_sha256": "a52c87667863bc5cdc94cd2877893725caf11feef3c9147bd1da1a02925fdcaf",
+   "bytes": 45321,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/fair_runner.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\fair_runner.py",
+   "sha256": "7816d7fdc52eddbfff6f2a41b5bd8b9f1f68067ade99a5a070fb4f4ab5a5c10b",
+   "source_sha256": "7816d7fdc52eddbfff6f2a41b5bd8b9f1f68067ade99a5a070fb4f4ab5a5c10b",
+   "bytes": 60269,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/group_replan.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\group_replan.py",
+   "sha256": "b0a7f94dd7377a16fcd86b710d309039b21b121f8e08c422e5faa02dec0367b6",
+   "source_sha256": "b0a7f94dd7377a16fcd86b710d309039b21b121f8e08c422e5faa02dec0367b6",
+   "bytes": 50970,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/independent_metrics.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\independent_metrics.py",
+   "sha256": "7c9710853e251f6a163a525bce0daee4e2b3bf9c519f5f06cd42e7645c8ac4d6",
+   "source_sha256": "7c9710853e251f6a163a525bce0daee4e2b3bf9c519f5f06cd42e7645c8ac4d6",
+   "bytes": 98242,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/joint_world.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\joint_world.py",
+   "sha256": "6142cf98d1920119cb366d284cb0ec398acaebd7792a17610fedfe0ec89b8b7a",
+   "source_sha256": "6142cf98d1920119cb366d284cb0ec398acaebd7792a17610fedfe0ec89b8b7a",
+   "bytes": 32701,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/ledger.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\ledger.py",
+   "sha256": "a235d7a08687272f97894e886a4b5dd9d848f22a6b0b4c74d1120d83383c867c",
+   "source_sha256": "a235d7a08687272f97894e886a4b5dd9d848f22a6b0b4c74d1120d83383c867c",
+   "bytes": 4465,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/make_way.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\make_way.py",
+   "sha256": "b8388b84729b59109731b0fb1be3019e290f5cf58668a69eb39340b4d12aa4d2",
+   "source_sha256": "b8388b84729b59109731b0fb1be3019e290f5cf58668a69eb39340b4d12aa4d2",
+   "bytes": 27954,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/metrics_collect.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\metrics_collect.py",
+   "sha256": "92c79d29e378d37c849a36a4d3327bdfe648dc8283489b212eed33d1d7c5cd30",
+   "source_sha256": "92c79d29e378d37c849a36a4d3327bdfe648dc8283489b212eed33d1d7c5cd30",
+   "bytes": 90718,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/neighborhood.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\neighborhood.py",
+   "sha256": "ed382a00d463da090d50e5d8542330f7c63d95d6c40bd97fbfaa563a419529b5",
+   "source_sha256": "ed382a00d463da090d50e5d8542330f7c63d95d6c40bd97fbfaa563a419529b5",
+   "bytes": 19464,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/paths.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\paths.py",
+   "sha256": "bcfa95c9a26288184c219b92e166b56c13a684eb94b3f9adcdae737104c16c55",
+   "source_sha256": "bcfa95c9a26288184c219b92e166b56c13a684eb94b3f9adcdae737104c16c55",
+   "bytes": 5614,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/plots_g4.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\plots_g4.py",
+   "sha256": "e681586ac406af47cc95aa76bb5e3435a0918238df99fa7c7beac79b0895cba5",
+   "source_sha256": "e681586ac406af47cc95aa76bb5e3435a0918238df99fa7c7beac79b0895cba5",
+   "bytes": 79456,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/report_g4.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\report_g4.py",
+   "sha256": "7ece4b9e759fb352cc301a66e48c41939b939293d00af7f0aa3da30570a82b57",
+   "source_sha256": "7ece4b9e759fb352cc301a66e48c41939b939293d00af7f0aa3da30570a82b57",
+   "bytes": 154295,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/run_g4_engine.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4_engine.py",
+   "sha256": "3d61d893fbc167a9c94ceca71385b72c652c0aab8cd13dc74e129d8fa3d33351",
+   "source_sha256": "3d61d893fbc167a9c94ceca71385b72c652c0aab8cd13dc74e129d8fa3d33351",
+   "bytes": 3542,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/run_g4a.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4a.py",
+   "sha256": "756787ffe5f708833e720712e78832f47cb48429f5f25d1a8dcd36c33290f41f",
+   "source_sha256": "756787ffe5f708833e720712e78832f47cb48429f5f25d1a8dcd36c33290f41f",
+   "bytes": 34077,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/run_g4b.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4b.py",
+   "sha256": "045b40b5a1355b7365d13cd667041da6582898d55beea095ce0aa69b6904205f",
+   "source_sha256": "045b40b5a1355b7365d13cd667041da6582898d55beea095ce0aa69b6904205f",
+   "bytes": 43003,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/run_g4c.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4c.py",
+   "sha256": "0da6bc216c7740687b73bb78dce5d28d3ff165f4840ac5257b8b4efb05bda95b",
+   "source_sha256": "0da6bc216c7740687b73bb78dce5d28d3ff165f4840ac5257b8b4efb05bda95b",
+   "bytes": 6847,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/g4/run_g4d.py",
+   "source": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4d.py",
+   "sha256": "538d698a5786a70f8a992cfe3fe0330032e2018e2600bc9d061e47a2720b0751",
+   "source_sha256": "538d698a5786a70f8a992cfe3fe0330032e2018e2600bc9d061e47a2720b0751",
+   "bytes": 6669,
+   "matches_source": true
+  },
+  {
+   "snapshot": "code/SPEC_G4.md",
+   "source": "experiments\\xyz_joint_g4_1024\\SPEC_G4.md",
+   "sha256": "cd83580cd8f89d3821dd747ba122af5ed8b14c417bd949be1292526f0e1e99a6",
+   "source_sha256": "cd83580cd8f89d3821dd747ba122af5ed8b14c417bd949be1292526f0e1e99a6",
+   "bytes": 11132,
+   "matches_source": true
+  }
+ ],
+ "file_count": 25,
+ "total_bytes": 949763,
+ "all_match_source": true
+}

@@ -1,0 +1,275 @@
+﻿arm,counter,value,kind,observable,comparable,note
+C0,route_3d_checks,2324,used,True,True,真 3D World 单线路几何检查次数
+C0,d56_candidate_evals,null,used,False,False,旧 G3 引擎（C0）不把 D56 精确候选评价接入统一 Ledger，按 SPEC_G4 3.2 写 null，不伪造不估算；该维度不能作为 C0 的公平预算比较轴
+C0,xy_candidates_generated,11890,used,True,True,XY 候选生成数
+C0,transactions,1542,used,True,False,"C0 为旧引擎""单线路重规划尝试次数""；G4 臂的 transactions 为""多线路联合事务次数""，含义不同，不作直接比较"
+C0,world_builds,1,used,True,True,真 3D World 重建次数
+C0,valid_candidates,2204,used,True,True,通过完整几何检查的候选数
+C0,rejected_3d,120,used,True,True,C0 为 evaluate_candidate 真 3D 检查失败次数；G4 臂还包含结构检查失败，口径接近但不完全相同
+C0,accepted_transactions,31,used,True,False,C0 为接受的单线路上限次数；G4 臂为接受的联合事务数，不作直接比较
+C0,accepted_changes,31,used,True,True,接受的线路变化数
+C0,gain,63,used,True,True,接受流累计交叉下降
+C0,no_candidate,1511,used,True,False,"C0 的 no_candidate = reroute_one 返回 None 的次数（含合法但无改善），与 G4 臂""候选生成失败/无候选""的定义不同，不作直接比较"
+C0,rolled_back,0,used,True,True,回滚事务数
+C0,validator_runs,1,used,True,True,独立 Validator 运行次数
+C0,wall_seconds,1208.76,used,True,True,C0 为纯搜索循环墙钟；其它臂按各自账本实现记录（可能含加载/保存），交叉核对见 process_seconds 列
+C0,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+C0,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+C0,budget_wall_seconds,1200.0,cap,True,True,config 记录的本臂预算上限
+C0,route_3d_checks_utilization_pct,7.7,utilization_pct,True,True,World 几何检查预算实际使用率
+C0,wall_seconds_utilization_pct,100.7,utilization_pct,True,True,墙钟预算实际使用率
+C0,d56_index_evaluate_calls_proxy,175816,proxy,True,False,真实观测的 D56Index.evaluate 调用次数；口径与 G4 账本的 d56_candidate_evals（按 d56_top 记账）不同，仅记录不作比较
+C0,budget_source,config.json,meta,True,True,预算与种子来自该臂 config.json（实际使用值）
+G4a,route_3d_checks,6208,used,True,True,真 3D World 单线路几何检查次数
+G4a,d56_candidate_evals,43004,used,True,True,严格 D56 精确候选评价次数
+G4a,xy_candidates_generated,6198,used,True,True,XY 候选生成数
+G4a,transactions,95,used,True,True,事务/尝试次数
+G4a,world_builds,0,used,True,True,真 3D World 重建次数
+G4a,valid_candidates,5275,used,True,True,通过完整几何检查的候选数
+G4a,rejected_3d,923,used,True,True,被真 3D World 拒绝的候选数
+G4a,accepted_transactions,1,used,True,True,接受的事务数
+G4a,accepted_changes,10,used,True,True,接受的线路变化数
+G4a,gain,2,used,True,True,接受流累计交叉下降
+G4a,no_candidate,0,used,True,True,无候选/无改善尝试数
+G4a,rolled_back,94,used,True,True,回滚事务数
+G4a,validator_runs,0,used,True,True,独立 Validator 运行次数
+G4a,wall_seconds,1018.74,used,True,True,搜索墙钟耗时 (s)
+G4a,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+G4a,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+G4a,budget_wall_seconds,1200.0,cap,True,True,config 记录的本臂预算上限
+G4a,route_3d_checks_utilization_pct,20.7,utilization_pct,True,True,World 几何检查预算实际使用率
+G4a,wall_seconds_utilization_pct,84.9,utilization_pct,True,True,墙钟预算实际使用率
+G4a,budget_source,config.json,meta,True,True,预算与种子来自该臂 config.json（实际使用值）
+G4b,route_3d_checks,1538,used,True,True,真 3D World 单线路几何检查次数
+G4b,d56_candidate_evals,11552,used,True,True,严格 D56 精确候选评价次数
+G4b,xy_candidates_generated,1527,used,True,True,XY 候选生成数
+G4b,transactions,320,used,True,True,事务/尝试次数
+G4b,world_builds,0,used,True,True,真 3D World 重建次数
+G4b,valid_candidates,1198,used,True,True,通过完整几何检查的候选数
+G4b,rejected_3d,329,used,True,True,被真 3D World 拒绝的候选数
+G4b,accepted_transactions,11,used,True,True,接受的事务数
+G4b,accepted_changes,11,used,True,True,接受的线路变化数
+G4b,gain,28,used,True,True,接受流累计交叉下降
+G4b,no_candidate,80,used,True,True,无候选/无改善尝试数
+G4b,rolled_back,309,used,True,True,回滚事务数
+G4b,validator_runs,0,used,True,True,独立 Validator 运行次数
+G4b,wall_seconds,1099.82,used,True,True,搜索墙钟耗时 (s)
+G4b,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+G4b,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+G4b,budget_wall_seconds,1200.0,cap,True,True,config 记录的本臂预算上限
+G4b,route_3d_checks_utilization_pct,5.1,utilization_pct,True,True,World 几何检查预算实际使用率
+G4b,wall_seconds_utilization_pct,91.7,utilization_pct,True,True,墙钟预算实际使用率
+G4b,budget_source,config.json,meta,True,True,预算与种子来自该臂 config.json（实际使用值）
+G4c_frozen,route_3d_checks,7106,used,True,True,真 3D World 单线路几何检查次数
+G4c_frozen,d56_candidate_evals,64342,used,True,True,严格 D56 精确候选评价次数
+G4c_frozen,xy_candidates_generated,6989,used,True,True,XY 候选生成数
+G4c_frozen,transactions,254,used,True,True,事务/尝试次数
+G4c_frozen,world_builds,0,used,True,True,真 3D World 重建次数
+G4c_frozen,valid_candidates,4506,used,True,True,通过完整几何检查的候选数
+G4c_frozen,rejected_3d,2493,used,True,True,被真 3D World 拒绝的候选数
+G4c_frozen,accepted_transactions,21,used,True,True,接受的事务数
+G4c_frozen,accepted_changes,21,used,True,True,接受的线路变化数
+G4c_frozen,gain,100,used,True,True,接受流累计交叉下降
+G4c_frozen,no_candidate,263,used,True,True,无候选/无改善尝试数
+G4c_frozen,rolled_back,233,used,True,True,回滚事务数
+G4c_frozen,validator_runs,1,used,True,True,独立 Validator 运行次数
+G4c_frozen,wall_seconds,1847.02,used,True,True,搜索墙钟耗时 (s)
+G4c_frozen,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+G4c_frozen,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+G4c_frozen,budget_wall_seconds,1800.0,cap,True,True,config 记录的本臂预算上限
+G4c_frozen,route_3d_checks_utilization_pct,23.7,utilization_pct,True,True,World 几何检查预算实际使用率
+G4c_frozen,wall_seconds_utilization_pct,102.6,utilization_pct,True,True,墙钟预算实际使用率
+G4c_frozen,budget_source,config.json,meta,True,True,预算与种子来自该臂 config.json（实际使用值）
+G4c_free,route_3d_checks,6851,used,True,True,真 3D World 单线路几何检查次数
+G4c_free,d56_candidate_evals,63433,used,True,True,严格 D56 精确候选评价次数
+G4c_free,xy_candidates_generated,6740,used,True,True,XY 候选生成数
+G4c_free,transactions,274,used,True,True,事务/尝试次数
+G4c_free,world_builds,0,used,True,True,真 3D World 重建次数
+G4c_free,valid_candidates,4313,used,True,True,通过完整几何检查的候选数
+G4c_free,rejected_3d,2433,used,True,True,被真 3D World 拒绝的候选数
+G4c_free,accepted_transactions,33,used,True,True,接受的事务数
+G4c_free,accepted_changes,47,used,True,True,接受的线路变化数
+G4c_free,gain,133,used,True,True,接受流累计交叉下降
+G4c_free,no_candidate,266,used,True,True,无候选/无改善尝试数
+G4c_free,rolled_back,241,used,True,True,回滚事务数
+G4c_free,validator_runs,1,used,True,True,独立 Validator 运行次数
+G4c_free,wall_seconds,1840.36,used,True,True,搜索墙钟耗时 (s)
+G4c_free,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+G4c_free,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+G4c_free,budget_wall_seconds,1800.0,cap,True,True,config 记录的本臂预算上限
+G4c_free,route_3d_checks_utilization_pct,22.8,utilization_pct,True,True,World 几何检查预算实际使用率
+G4c_free,wall_seconds_utilization_pct,102.2,utilization_pct,True,True,墙钟预算实际使用率
+G4c_free,budget_source,config.json,meta,True,True,预算与种子来自该臂 config.json（实际使用值）
+G4d,route_3d_checks,4400,used,True,True,真 3D World 单线路几何检查次数
+G4d,d56_candidate_evals,35815,used,True,True,严格 D56 精确候选评价次数
+G4d,xy_candidates_generated,4376,used,True,True,XY 候选生成数
+G4d,transactions,254,used,True,True,事务/尝试次数
+G4d,world_builds,1,used,True,True,真 3D World 重建次数
+G4d,valid_candidates,3039,used,True,True,通过完整几何检查的候选数
+G4d,rejected_3d,1337,used,True,True,被真 3D World 拒绝的候选数
+G4d,accepted_transactions,23,used,True,True,接受的事务数
+G4d,accepted_changes,24,used,True,True,接受的线路变化数
+G4d,gain,110,used,True,True,接受流累计交叉下降
+G4d,no_candidate,267,used,True,True,无候选/无改善尝试数
+G4d,rolled_back,231,used,True,True,回滚事务数
+G4d,validator_runs,1,used,True,True,独立 Validator 运行次数
+G4d,wall_seconds,106.3,used,True,True,搜索墙钟耗时 (s)
+G4d,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+G4d,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+G4d,budget_wall_seconds,1200.0,cap,True,True,config 记录的本臂预算上限
+G4d,route_3d_checks_utilization_pct,14.7,utilization_pct,True,True,World 几何检查预算实际使用率
+G4d,wall_seconds_utilization_pct,8.9,utilization_pct,True,True,墙钟预算实际使用率
+G4d,budget_source,config.json,meta,True,True,预算与种子来自该臂 config.json（实际使用值）
+chain_link1,route_3d_checks,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,d56_candidate_evals,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,transactions,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,valid_candidates,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,accepted_changes,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,gain,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link1,wall_seconds,1099.82,used,True,True,搜索墙钟耗时 (s)
+chain_link1,budget_wall_seconds,1200.0,cap,True,True,config 记录的本臂预算上限
+chain_link1,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+chain_link1,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+chain_link2,route_3d_checks,2136,used,True,True,真 3D World 单线路几何检查次数
+chain_link2,d56_candidate_evals,17436,used,True,True,严格 D56 精确候选评价次数
+chain_link2,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,transactions,155,used,True,True,事务/尝试次数
+chain_link2,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,valid_candidates,1344,used,True,True,通过完整几何检查的候选数
+chain_link2,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,accepted_changes,22,used,True,True,接受的线路变化数
+chain_link2,gain,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2,wall_seconds,740.52,used,True,True,搜索墙钟耗时 (s)
+chain_link2,budget_wall_seconds,700.0,cap,True,True,config 记录的本臂预算上限
+chain_link2,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+chain_link2,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+chain_link2b,route_3d_checks,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,d56_candidate_evals,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,transactions,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,valid_candidates,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,accepted_changes,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,gain,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link2b,wall_seconds,0.0,used,True,True,搜索墙钟耗时 (s)
+chain_link2b,budget_wall_seconds,NA,cap,True,True,config 记录的本臂预算上限
+chain_link2b,budget_route_3d_checks,NA,cap,True,True,config 记录的本臂预算上限
+chain_link2b,budget_d56_candidate_evals,NA,cap,True,True,config 记录的本臂预算上限
+chain_link3,route_3d_checks,4915,used,True,True,真 3D World 单线路几何检查次数
+chain_link3,d56_candidate_evals,34893,used,True,True,严格 D56 精确候选评价次数
+chain_link3,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,transactions,218,used,True,True,事务/尝试次数
+chain_link3,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,valid_candidates,3868,used,True,True,通过完整几何检查的候选数
+chain_link3,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,accepted_changes,2,used,True,True,接受的线路变化数
+chain_link3,gain,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link3,wall_seconds,1229.96,used,True,True,搜索墙钟耗时 (s)
+chain_link3,budget_wall_seconds,1200.0,cap,True,True,config 记录的本臂预算上限
+chain_link3,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+chain_link3,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+chain_link06b,route_3d_checks,4003,used,True,True,真 3D World 单线路几何检查次数
+chain_link06b,d56_candidate_evals,29196,used,True,True,严格 D56 精确候选评价次数
+chain_link06b,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,transactions,184,used,True,True,事务/尝试次数
+chain_link06b,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,valid_candidates,3107,used,True,True,通过完整几何检查的候选数
+chain_link06b,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,accepted_changes,0,used,True,True,接受的线路变化数
+chain_link06b,gain,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+chain_link06b,wall_seconds,1061.44,used,True,True,搜索墙钟耗时 (s)
+chain_link06b,budget_wall_seconds,1000.0,cap,True,True,config 记录的本臂预算上限
+chain_link06b,budget_route_3d_checks,30000,cap,True,True,config 记录的本臂预算上限
+chain_link06b,budget_d56_candidate_evals,120000,cap,True,True,config 记录的本臂预算上限
+E1,route_3d_checks,2502,used,True,True,真 3D World 单线路几何检查次数
+E1,d56_candidate_evals,14952,used,True,True,严格 D56 精确候选评价次数
+E1,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+E1,transactions,4,used,True,True,事务/尝试次数
+E1,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+E1,valid_candidates,1280,used,True,True,通过完整几何检查的候选数
+E1,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+E1,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+E1,accepted_changes,4,used,True,True,接受的线路变化数
+E1,gain,NA,used,False,True,该臂真实账本未提供此计数器
+E1,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+E1,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+E1,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+E1,wall_seconds,606.4,used,True,True,搜索墙钟耗时 (s)
+E1,budget_wall_seconds,NA,cap,True,True,config 记录的本臂预算上限
+E1,budget_route_3d_checks,NA,cap,True,True,config 记录的本臂预算上限
+E1,budget_d56_candidate_evals,NA,cap,True,True,config 记录的本臂预算上限
+E2,route_3d_checks,1356,used,True,True,真 3D World 单线路几何检查次数
+E2,d56_candidate_evals,8352,used,True,True,严格 D56 精确候选评价次数
+E2,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+E2,transactions,2,used,True,True,事务/尝试次数
+E2,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+E2,valid_candidates,683,used,True,True,通过完整几何检查的候选数
+E2,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+E2,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+E2,accepted_changes,2,used,True,True,接受的线路变化数
+E2,gain,NA,used,False,True,该臂真实账本未提供此计数器
+E2,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+E2,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+E2,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+E2,wall_seconds,308.2,used,True,True,搜索墙钟耗时 (s)
+E2,budget_wall_seconds,NA,cap,True,True,config 记录的本臂预算上限
+E2,budget_route_3d_checks,NA,cap,True,True,config 记录的本臂预算上限
+E2,budget_d56_candidate_evals,NA,cap,True,True,config 记录的本臂预算上限
+E1b,route_3d_checks,334,used,True,True,真 3D World 单线路几何检查次数
+E1b,d56_candidate_evals,2328,used,True,True,严格 D56 精确候选评价次数
+E1b,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,transactions,8,used,True,True,事务/尝试次数
+E1b,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,valid_candidates,334,used,True,True,通过完整几何检查的候选数
+E1b,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,accepted_changes,0,used,True,True,接受的线路变化数
+E1b,gain,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+E1b,wall_seconds,128.4,used,True,True,搜索墙钟耗时 (s)
+E1b,budget_wall_seconds,NA,cap,True,True,config 记录的本臂预算上限
+E1b,budget_route_3d_checks,NA,cap,True,True,config 记录的本臂预算上限
+E1b,budget_d56_candidate_evals,NA,cap,True,True,config 记录的本臂预算上限
+final_best,route_3d_checks,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,d56_candidate_evals,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,xy_candidates_generated,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,transactions,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,world_builds,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,valid_candidates,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,rejected_3d,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,accepted_transactions,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,accepted_changes,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,gain,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,no_candidate,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,rolled_back,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,validator_runs,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,wall_seconds,NA,used,False,True,该臂真实账本未提供此计数器
+final_best,budget_wall_seconds,NA,cap,True,True,config 记录的本臂预算上限
+final_best,budget_route_3d_checks,NA,cap,True,True,config 记录的本臂预算上限
+final_best,budget_d56_candidate_evals,NA,cap,True,True,config 记录的本臂预算上限

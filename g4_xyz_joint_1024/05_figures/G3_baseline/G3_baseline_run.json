@@ -1,0 +1,150 @@
+{
+ "schema": "g4_plots_v1",
+ "kind": "layer_suite",
+ "prefix": "G3_baseline",
+ "run_dir": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "out_dir": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline",
+ "started_at": "2026-11-04 18:27:55",
+ "written": [
+  "layer_01_L2_z-0.35mm.png",
+  "layer_02_L3_z-0.30mm.png",
+  "layer_03_L4_z-0.25mm.png",
+  "layer_04_L5_z-0.20mm.png",
+  "layer_05_L6_z-0.15mm.png",
+  "layer_06_L7_z-0.10mm.png",
+  "layer_07_L20_z-0.05mm.png",
+  "layer_08_Z1_INTERFACE_z+0.00mm.png",
+  "layer_09_L8_z+0.05mm.png",
+  "layer_10_L9_z+0.10mm.png",
+  "layer_11_L10_z+0.15mm.png",
+  "layer_12_L11_z+0.20mm.png",
+  "layer_13_L12_z+0.25mm.png",
+  "layer_14_L13_z+0.30mm.png",
+  "layer_15_L14_z+0.35mm.png",
+  "layer_16_L15_z+0.40mm.png",
+  "layer_17_L16_z+0.45mm.png",
+  "layer_18_Z2_INTERFACE_z+0.50mm.png",
+  "layer_19_L17_z+0.55mm.png",
+  "layer_20_L18_z+0.60mm.png",
+  "layer_21_L19_z+0.65mm.png",
+  "G3_baseline_21_layers_montage.png"
+ ],
+ "errors": [],
+ "generated_at": "2026-11-04 18:28:03",
+ "figures": [
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_01_L2_z-0.35mm.png",
+   "bytes": 265247
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_02_L3_z-0.30mm.png",
+   "bytes": 321912
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_03_L4_z-0.25mm.png",
+   "bytes": 324978
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_04_L5_z-0.20mm.png",
+   "bytes": 406752
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_05_L6_z-0.15mm.png",
+   "bytes": 303215
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_06_L7_z-0.10mm.png",
+   "bytes": 284612
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_07_L20_z-0.05mm.png",
+   "bytes": 305875
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_08_Z1_INTERFACE_z+0.00mm.png",
+   "bytes": 345404
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_09_L8_z+0.05mm.png",
+   "bytes": 304692
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_10_L9_z+0.10mm.png",
+   "bytes": 285892
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_11_L10_z+0.15mm.png",
+   "bytes": 304998
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_12_L11_z+0.20mm.png",
+   "bytes": 358432
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_13_L12_z+0.25mm.png",
+   "bytes": 320154
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_14_L13_z+0.30mm.png",
+   "bytes": 317321
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_15_L14_z+0.35mm.png",
+   "bytes": 265351
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_16_L15_z+0.40mm.png",
+   "bytes": 273258
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_17_L16_z+0.45mm.png",
+   "bytes": 252706
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_18_Z2_INTERFACE_z+0.50mm.png",
+   "bytes": 353420
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_19_L17_z+0.55mm.png",
+   "bytes": 280088
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_20_L18_z+0.60mm.png",
+   "bytes": 255467
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\layer_21_L19_z+0.65mm.png",
+   "bytes": 289130
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\G3_baseline_21_layers_montage.png",
+   "bytes": 646279
+  }
+ ],
+ "source_files": [
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid\\routes_l3d.json",
+   "bytes": 3693355,
+   "sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077"
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid\\crossing_stats.json",
+   "bytes": 194026,
+   "sha256": "ecd16a32cfc50cbedbef360ab2477c2202b9d36115f7277c87f653ffdcfc4237"
+  },
+  {
+   "path": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid\\assignment_1024.csv",
+   "bytes": 126424,
+   "sha256": "1e98b9a15b4ed04e66a9c4b25a3b52357b5755c1e7681b89c0d78f1c4baaf089"
+  }
+ ],
+ "stats": {
+  "routes": 1024,
+  "manual_routes": 368,
+  "crossing_total": 1322,
+  "crossing_total_stats_file": 1322,
+  "heights": 21
+ },
+ "stats_json": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\G3_baseline_layer_stats.json",
+ "layers_md": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_baseline\\G3_baseline_LAYERS.md"
+}

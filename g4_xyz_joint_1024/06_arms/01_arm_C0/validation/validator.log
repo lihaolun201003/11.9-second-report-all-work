@@ -1,0 +1,59 @@
+==============================================================================
+[xyz] G1/G2/G3 independent validation: manual_policy=fully_optimizable
+==============================================================================
+[native3d] validating run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0\best_valid
+[native3d] baseline_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\XYZ_JOINT_G123_1024\baseline_authoritative
+[native3d] out_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0\validation
+[model] source=layer_planes.json planes=21 body=19 interface=2 min_pitch=0.050000
+[assignment] 1024 rows from run
+[routes] 1024 records (1024 routed, 0 failed); baseline 1024 records
+[model] violations=0
+[coverage] routed=1024 identity_mismatches=0 violations=0
+[structure] routes=1024 junctions=3828 max_pos_gap=4.95e-10 max_z_gap=0 max_tangent_gap=1.01e-15 violations=0
+[metadata] native=27 mid=64 excursions=32 violations=0
+[radius] flat_arcs=1802 transitions=1914 min_sampled=14.99999998 violations=0
+[glass] samples=1067746 min_margin=-0.0 violations=0
+[clearance] running independent minimum 3D clearance scan ...
+[clearance] min_3d=0.062454086 violations=0
+[ports] port_pairs=1024 violations=0
+[crossings] events=1259 pairs=1209 violations=0
+[manual_frozen] policy=fully_optimizable 368 manual routes, mismatches=0 violations=0
+[synthetic] running in-memory consistency tests ...
+[synthetic] duckout_L6_L7_L6_accepted                     PASS
+[synthetic] z_offset_49um_rejected                        PASS
+[synthetic] radius_14_rejected                            PASS
+[synthetic] position_discontinuity_1e-3_rejected          PASS
+[synthetic] flat_overlap_rejected                         PASS
+[synthetic] complete_native_route_accepted                PASS
+[synthetic] two_excursions_accepted                       PASS
+[synthetic] 7 tests, 0 failed
+
+Native 3D validation: PASS
+  run_dir      : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0\best_valid
+  baseline_dir : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\XYZ_JOINT_G123_1024\baseline_authoritative
+  routes       : records=1024 routed=1024 failed=0 (native=27, baseline=997)
+  parts        : transitions=1914 mid=64 excursions=32 flat_arcs=1802
+  crossings    : events=1259 pairs=1209 violations=0 heights=21 min_non_crossing=0.086853441
+  vs E5 baseline: 2409 -> 1259 crossings (-1150), pairs 2010 -> 1209
+  clearance    : min_3d=0.062454086 (lower bound 0.05)
+  manual frozen: 368 routes, 0 mismatches
+  manual policy: fully_optimizable (0 contract violations)
+  [coverage       ] violations=0 offending_routes=0
+  [structure      ] violations=0 offending_routes=0
+  [native_metadata] violations=0 offending_routes=0
+  [radius         ] violations=0 offending_routes=0
+  [glass          ] violations=0 offending_routes=0
+  [clearance      ] violations=0 offending_routes=0
+  [ports          ] violations=0 offending_routes=0
+  [crossings      ] violations=0 offending_routes=0
+  [manual_frozen  ] violations=0 offending_routes=0
+  [model          ] violations=0 offending_routes=0
+  [synthetic      ] violations=0 offending_routes=0
+  violation_total=0 runtime=26.5s exit_code=0
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0\validation\validation.json
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0\validation\validator_consistency_tests.json
+
+[xyz] manual_policy=fully_optimizable contract_violations=0 validation_pass=True
+[xyz] summary: {"crossing_pairs": 1209, "crossings": 1259, "failed": 0, "mid_transitions": 64, "min_3d_clearance": 0.062454086, "policy": "fully_optimizable", "policy_violations": 0, "routed": 1024, "total_length": 156879.600005, "validation_pass": true, "violations": 0}
+[xyz] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0\validation\validation.json
+

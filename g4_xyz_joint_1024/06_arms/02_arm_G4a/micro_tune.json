@@ -1,0 +1,578 @@
+{
+ "arm": "G4a",
+ "rounds": 2,
+ "attempts": [
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1322,
+   "total": 1322,
+   "reasons": {},
+   "per_plane": {
+    "0.15": {
+     "old": 84,
+     "new": 65
+    },
+    "0.4": {
+     "old": 81,
+     "new": 185
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.55": {
+     "old": 109,
+     "new": 103
+    }
+   },
+   "repaired": true,
+   "seconds": 6.21,
+   "note": "Z2-U1->L15[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L15",
+   "target_layer": 15,
+   "target_z": 0.4,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L10": 4,
+    "L15": 6,
+    "L17": 6
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1322,
+   "total": 1322,
+   "reasons": {},
+   "per_plane": {
+    "0.15": {
+     "old": 84,
+     "new": 65
+    },
+    "0.4": {
+     "old": 81,
+     "new": 185
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.55": {
+     "old": 109,
+     "new": 103
+    }
+   },
+   "repaired": true,
+   "seconds": 7.08,
+   "note": "Z2-U1->L15[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L15",
+   "target_layer": 15,
+   "target_z": 0.4,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L10": 4,
+    "L15": 6,
+    "L17": 6
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 8,
+   "members": 8,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1322,
+   "total": 1322,
+   "reasons": {},
+   "per_plane": {
+    "0.2": {
+     "old": 55,
+     "new": 73
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.65": {
+     "old": 91,
+     "new": 85
+    }
+   },
+   "repaired": true,
+   "seconds": 5.24,
+   "note": "Z2-U2->L11[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U2",
+   "target_label": "L11",
+   "target_layer": 11,
+   "target_z": 0.2,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L19": 7,
+    "L11": 9
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 8,
+   "members": 8,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1322,
+   "total": 1322,
+   "reasons": {},
+   "per_plane": {
+    "0.2": {
+     "old": 55,
+     "new": 73
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.65": {
+     "old": 91,
+     "new": 85
+    }
+   },
+   "repaired": true,
+   "seconds": 6.91,
+   "note": "Z2-U2->L11[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U2",
+   "target_label": "L11",
+   "target_layer": 11,
+   "target_z": 0.2,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L19": 7,
+    "L11": 9
+   }
+  },
+  {
+   "accepted": true,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": -2,
+   "gain": 2,
+   "old_total": 1322,
+   "total": 1320,
+   "reasons": {},
+   "per_plane": {
+    "-0.35": {
+     "old": 17,
+     "new": 17
+    },
+    "0.0": {
+     "old": 82,
+     "new": 82
+    },
+    "0.25": {
+     "old": 9,
+     "new": 7
+    }
+   },
+   "repaired": false,
+   "seconds": 4.33,
+   "note": "Z1-U1->L2[crossing_desc]",
+   "failure_reason": "accepted",
+   "group": "Z1-U1",
+   "target_label": "L2",
+   "target_layer": 2,
+   "target_z": -0.35,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L2": 33,
+    "L5": 26,
+    "L4": 4,
+    "L12": 1
+   },
+   "new_heights": {
+    "L2": 34,
+    "L5": 26,
+    "L4": 4
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1320,
+   "total": 1320,
+   "reasons": {},
+   "per_plane": {
+    "0.15": {
+     "old": 84,
+     "new": 65
+    },
+    "0.4": {
+     "old": 81,
+     "new": 185
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.55": {
+     "old": 109,
+     "new": 103
+    }
+   },
+   "repaired": true,
+   "seconds": 5.86,
+   "note": "Z2-U1->L15[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L15",
+   "target_layer": 15,
+   "target_z": 0.4,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L10": 4,
+    "L15": 6,
+    "L17": 6
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1320,
+   "total": 1320,
+   "reasons": {},
+   "per_plane": {
+    "0.15": {
+     "old": 84,
+     "new": 65
+    },
+    "0.4": {
+     "old": 81,
+     "new": 185
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.55": {
+     "old": 109,
+     "new": 103
+    }
+   },
+   "repaired": true,
+   "seconds": 7.54,
+   "note": "Z2-U1->L15[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L15",
+   "target_layer": 15,
+   "target_z": 0.4,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L10": 4,
+    "L15": 6,
+    "L17": 6
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 8,
+   "members": 8,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1320,
+   "total": 1320,
+   "reasons": {},
+   "per_plane": {
+    "0.2": {
+     "old": 55,
+     "new": 73
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.65": {
+     "old": 91,
+     "new": 85
+    }
+   },
+   "repaired": true,
+   "seconds": 5.41,
+   "note": "Z2-U2->L11[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U2",
+   "target_label": "L11",
+   "target_layer": 11,
+   "target_z": 0.2,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L19": 7,
+    "L11": 9
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 8,
+   "members": 8,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1320,
+   "total": 1320,
+   "reasons": {},
+   "per_plane": {
+    "0.2": {
+     "old": 55,
+     "new": 73
+    },
+    "0.5": {
+     "old": 130,
+     "new": 130
+    },
+    "0.65": {
+     "old": 91,
+     "new": 85
+    }
+   },
+   "repaired": true,
+   "seconds": 6.72,
+   "note": "Z2-U2->L11[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U2",
+   "target_label": "L11",
+   "target_layer": 11,
+   "target_z": 0.2,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L19": 7,
+    "L11": 9
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1320,
+   "total": 1320,
+   "reasons": {},
+   "per_plane": {
+    "-0.35": {
+     "old": 17,
+     "new": 17
+    },
+    "0.0": {
+     "old": 82,
+     "new": 82
+    }
+   },
+   "repaired": true,
+   "seconds": 5.05,
+   "note": "Z1-U1->L2[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z1-U1",
+   "target_label": "L2",
+   "target_layer": 2,
+   "target_z": -0.35,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L2": 34,
+    "L5": 26,
+    "L4": 4
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1320,
+   "total": 1320,
+   "reasons": {},
+   "per_plane": {
+    "-0.35": {
+     "old": 17,
+     "new": 17
+    },
+    "0.0": {
+     "old": 82,
+     "new": 82
+    }
+   },
+   "repaired": true,
+   "seconds": 6.61,
+   "note": "Z1-U1->L2[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z1-U1",
+   "target_label": "L2",
+   "target_layer": 2,
+   "target_z": -0.35,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L2": 34,
+    "L5": 26,
+    "L4": 4
+   }
+  }
+ ],
+ "accepted": 1
+}

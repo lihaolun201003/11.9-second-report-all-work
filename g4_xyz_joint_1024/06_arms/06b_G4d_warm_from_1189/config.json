@@ -1,0 +1,16 @@
+{
+ "arm": "G4d",
+ "out_dir": "experiments\\xyz_joint_g4_1024\\06b_G4d_warm_from_1189",
+ "seed": 20261105,
+ "budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 1000.0
+ },
+ "manual_frozen": false,
+ "start_dir": "experiments\\xyz_joint_g4_1024\\05_arm_G4c_free\\best_valid",
+ "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+ "start_crossings": 1322,
+ "started_at": "2026-11-04T19:42:53",
+ "cfg": {}
+}

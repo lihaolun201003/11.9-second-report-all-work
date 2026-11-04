@@ -1,0 +1,56 @@
+{
+ "arm": "G4d",
+ "final_crossings": 1212,
+ "crossing_pairs": 1148,
+ "start_crossings": 1322,
+ "delta_vs_start": -110,
+ "routes_changed": 24,
+ "routes": 1024,
+ "accepts": 0,
+ "transactions": 4,
+ "seconds": 111.62,
+ "best_valid_dir": "experiments\\xyz_joint_g4_1024\\06_arm_G4d\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 4400,
+  "d56_candidate_evals": 35815,
+  "xy_candidates_generated": 4376,
+  "transactions": 254,
+  "world_builds": 1,
+  "valid_candidates": 3039,
+  "rejected_3d": 1337,
+  "accepted_transactions": 23,
+  "accepted_changes": 24,
+  "gain": 110,
+  "validator_runs": 1,
+  "no_candidate": 267,
+  "rolled_back": 231,
+  "wall_seconds": 106.3
+ },
+ "stages": [
+  {
+   "stage": 2,
+   "size": 64,
+   "attempts": 1,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 27.6,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 1
+   }
+  },
+  {
+   "stage": 3,
+   "size": 96,
+   "attempts": 1,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 37.8,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 1
+   }
+  }
+ ],
+ "summary": null
+}

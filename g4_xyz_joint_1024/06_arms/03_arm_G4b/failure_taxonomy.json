@@ -1,0 +1,229 @@
+{
+ "schema": "g4_failure_taxonomy_v1",
+ "spec_section": "SPEC_G4.md §6",
+ "failure_classes": {
+  "no_legal_xy_corridor": {
+   "count": 75,
+   "observed": true,
+   "note": "",
+   "candidate_level_count": 84,
+   "probe_count": 1
+  },
+  "target_height_occupied": {
+   "count": 0,
+   "observed": false,
+   "note": "",
+   "candidate_level_count": 0
+  },
+  "r15_geometry_rejected": {
+   "count": 0,
+   "observed": false,
+   "note": "",
+   "candidate_level_count": 0
+  },
+  "transition_3d_conflict": {
+   "count": 35,
+   "observed": true,
+   "note": "",
+   "candidate_level_count": 38,
+   "probe_count": 12
+  },
+  "lead_below_minimum": {
+   "count": 0,
+   "observed": false,
+   "note": "",
+   "candidate_level_count": 0
+  },
+  "joint_rebuild_failed": {
+   "count": 0,
+   "observed": false,
+   "note": "",
+   "candidate_level_count": 0
+  },
+  "legal_but_no_crossing_improvement": {
+   "count": 199,
+   "observed": true,
+   "note": "",
+   "candidate_level_count": 0
+  },
+  "budget_exhausted": {
+   "count": 0,
+   "observed": false,
+   "note": "",
+   "candidate_level_count": 0
+  },
+  "no_current_crossings": {
+   "count": 0,
+   "observed": false,
+   "note": "",
+   "candidate_level_count": 0
+  },
+  "structure_error": {
+   "count": 0,
+   "observed": false,
+   "note": "",
+   "candidate_level_count": 0
+  }
+ },
+ "observed_class_count": 3,
+ "total_failed_attempts": 309,
+ "extra_bookkeeping_keys": {},
+ "nested_candidate_diagnoses": {
+  "no_legal_xy_corridor": 84,
+  "transition_3d_conflict": 38
+ },
+ "failed_attempts_by_kind": {
+  "single_migrate": 53,
+  "single_xy_replan": 53,
+  "pair_swap": 44,
+  "cluster_migrate": 48,
+  "split_group": 32,
+  "cross_group_reorg": 32,
+  "height_tune": 47
+ },
+ "note": "every arm failure record is mapped onto exactly one of the eight SPEC §6 classes; classes with count=0 were not triggered by the accepted-search stream (the corresponding moves were either pre-filtered by the geometric necessity conditions or absent for this start point)",
+ "arm": "G4b",
+ "search_wall_seconds": 1085.9,
+ "budget_cap_seconds": 1200.0,
+ "converged": "search converged (no accepted change in a full operator round) before the wall-clock cap; no attempt was aborted by budget exhaustion",
+ "diagnostic_failure_probe": {
+  "schema": "g4_failure_probe_v1",
+  "description": "forced moves of manual-U routes onto opposite-region body heights, classified with the SPEC §6 keys (failure-analysis probe on the G3 start state)",
+  "cases": [
+   {
+    "group": "Z1-U1",
+    "route_id": 17,
+    "target_label": "L19",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z1-U1",
+    "route_id": 17,
+    "target_label": "L18",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z1-U1",
+    "route_id": 20,
+    "target_label": "L17",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z1-U4",
+    "route_id": 405,
+    "target_label": "L19",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z1-U4",
+    "route_id": 407,
+    "target_label": "L16",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z2-U1",
+    "route_id": 774,
+    "target_label": "L2",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z2-U1",
+    "route_id": 774,
+    "target_label": "L3",
+    "outcome": "failed",
+    "failure_class": "no_legal_xy_corridor",
+    "detail": {
+     "no_legal_xy_corridor": 1
+    }
+   },
+   {
+    "group": "Z2-U1",
+    "route_id": 779,
+    "target_label": "L4",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z2-U2",
+    "route_id": 788,
+    "target_label": "L2",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z2-U2",
+    "route_id": 789,
+    "target_label": "L3",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z2-U4",
+    "route_id": 985,
+    "target_label": "L2",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z2-U4",
+    "route_id": 985,
+    "target_label": "L4",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   },
+   {
+    "group": "Z1-U2",
+    "route_id": 313,
+    "target_label": "L19",
+    "outcome": "failed",
+    "failure_class": "transition_3d_conflict",
+    "detail": {
+     "transition_3d_conflict": 1
+    }
+   }
+  ],
+  "counts": {
+   "no_legal_xy_corridor": 1,
+   "transition_3d_conflict": 12
+  }
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "selected_from": "chain_link3_G4d",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+ "start_crossings": 1322,
+ "final_crossings": 1185,
+ "final_crossing_pairs": 1124,
+ "max_route_crossings": 19,
+ "routes_with_crossings": 593,
+ "routes": 1024,
+ "routed": 1024,
+ "routes_sha256": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+ "validation_pass": true,
+ "validation_violations": 0,
+ "source_validation": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\03_link_G4d\\best_valid\\validation\\validation.json",
+ "independent_validator_sha_match": true
+}

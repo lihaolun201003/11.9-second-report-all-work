@@ -1,0 +1,111 @@
+{
+ "schema": "g4_final_report_run_v1",
+ "mode": "final",
+ "started_at": "2026-11-04 20:10:12",
+ "finished_at": "2026-11-04 20:10:15",
+ "final": {
+  "source": "explicit",
+  "dir": "experiments\\xyz_joint_g4_1024\\07_best_valid",
+  "crossings": 1185,
+  "routes_sha": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+  "improved": null,
+  "validation": {
+   "path": "experiments\\xyz_joint_g4_1024\\07_best_valid\\validation\\validation.json",
+   "validation_pass": true,
+   "geometry_pass": true,
+   "contract_pass": true,
+   "violation_count": 0,
+   "policy": "fully_optimizable",
+   "validated_at": "2026-11-04T19:47:10",
+   "routes_sha": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+   "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+   "sha_match": true
+  }
+ },
+ "arms": {
+  "C0": {
+   "status": "complete",
+   "crossings": 1259
+  },
+  "G4a": {
+   "status": "complete",
+   "crossings": 1320
+  },
+  "G4b": {
+   "status": "complete",
+   "crossings": 1294
+  },
+  "G4c_frozen": {
+   "status": "complete",
+   "crossings": 1222
+  },
+  "G4c_free": {
+   "status": "complete",
+   "crossings": 1189
+  },
+  "G4d": {
+   "status": "complete",
+   "crossings": 1212
+  }
+ },
+ "final_arm_evidence": {
+  "arm": null,
+  "files": []
+ },
+ "final_audit": {
+  "kind": "formal",
+  "run_dir": "experiments\\xyz_joint_g4_1024\\07_best_valid",
+  "routes_sha": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+  "sha_matches_final": true
+ },
+ "chain": "experiments\\xyz_joint_g4_1024\\08_progressive_chain\\progressive_chain.json",
+ "extra_runs": [
+  "06b_G4d_warm_from_1189"
+ ],
+ "plots": {
+  "skipped": [
+   "--no-plots"
+  ]
+ },
+ "archive": {
+  "schema": "g4_archive_run_v1",
+  "generated_at": "2026-11-04 20:10:13",
+  "archive_root": "experiments\\xyz_joint_g4_1024",
+  "code_snapshot": {
+   "file_count": 25,
+   "total_bytes": 949763,
+   "all_match_source": true
+  },
+  "manifest": {
+   "path": "experiments\\xyz_joint_g4_1024\\MANIFEST.json",
+   "file_count": 850,
+   "total_bytes": 274842064
+  },
+  "readme": "experiments\\xyz_joint_g4_1024\\README.md",
+  "git": {
+   "git_available": false,
+   "repo_root": null,
+   "remote_urls": [],
+   "branch": null,
+   "dirty": null,
+   "head_commit": null,
+   "github_remote": false,
+   "note": "not a git working tree"
+  },
+  "verification": {
+   "ok": true,
+   "checked": 850,
+   "manifest_files": 850,
+   "actual_files": 850,
+   "problems": [],
+   "verified_at": "2026-11-04 20:10:14"
+  }
+ },
+ "deliverables": {
+  "report": "experiments\\xyz_joint_g4_1024\\10_reports\\report.md",
+  "comparison": "experiments\\xyz_joint_g4_1024\\10_reports\\comparison.md",
+  "answers": "experiments\\xyz_joint_g4_1024\\10_reports\\answers.md",
+  "metrics": "experiments\\xyz_joint_g4_1024\\10_reports\\metrics_summary.json",
+  "failure_analysis": "experiments\\xyz_joint_g4_1024\\10_reports\\failure_analysis.md"
+ }
+}

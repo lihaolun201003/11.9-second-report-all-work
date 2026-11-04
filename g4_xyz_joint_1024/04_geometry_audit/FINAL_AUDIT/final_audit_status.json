@@ -1,0 +1,17 @@
+{
+ "label": "G4_best_final",
+ "run_dir": "experiments\\xyz_joint_g4_1024\\07_best_valid",
+ "routes_sha256": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+ "six": {
+  "minimum_distance_all_pairs_mm": 0.0,
+  "minimum_clearance_non_crossing_mm": 0.05,
+  "allowed_crossing_count": 1185,
+  "illegal_crossing_count": 0,
+  "clearance_violation_count": 0,
+  "crossing_exemption_policy": "policy (see six_quantities.json)"
+ },
+ "all_checks_pass": true,
+ "skipped": [],
+ "validator_pass": true,
+ "elapsed_seconds": 31.72
+}

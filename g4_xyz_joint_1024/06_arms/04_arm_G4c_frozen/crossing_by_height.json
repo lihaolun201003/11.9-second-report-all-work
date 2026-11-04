@@ -1,0 +1,160 @@
+{
+ "schema": "g4_crossing_by_height_v1",
+ "arm": "G4c_frozen",
+ "source": "experiments\\xyz_joint_g4_1024\\04_arm_G4c_frozen\\crossing_stats.json",
+ "totals": {
+  "crossings": 1222,
+  "crossing_pairs": 1149,
+  "routes_with_crossings": 593,
+  "max_route_crossings": 19
+ },
+ "planes": [
+  {
+   "z_mm": -0.35,
+   "label": "L2",
+   "routes": 34,
+   "crossings": 0,
+   "pairs": 0
+  },
+  {
+   "z_mm": -0.3,
+   "label": "L3",
+   "routes": 67,
+   "crossings": 24,
+   "pairs": 24
+  },
+  {
+   "z_mm": -0.25,
+   "label": "L4",
+   "routes": 61,
+   "crossings": 0,
+   "pairs": 0
+  },
+  {
+   "z_mm": -0.2,
+   "label": "L5",
+   "routes": 88,
+   "crossings": 4,
+   "pairs": 2
+  },
+  {
+   "z_mm": -0.15,
+   "label": "L6",
+   "routes": 56,
+   "crossings": 88,
+   "pairs": 85
+  },
+  {
+   "z_mm": -0.1,
+   "label": "L7",
+   "routes": 52,
+   "crossings": 47,
+   "pairs": 42
+  },
+  {
+   "z_mm": -0.05,
+   "label": "L20",
+   "routes": 45,
+   "crossings": 44,
+   "pairs": 40
+  },
+  {
+   "z_mm": 0.0,
+   "label": "Z1_INTERFACE",
+   "routes": 512,
+   "crossings": 82,
+   "pairs": 77
+  },
+  {
+   "z_mm": 0.05,
+   "label": "L8",
+   "routes": 40,
+   "crossings": 68,
+   "pairs": 65
+  },
+  {
+   "z_mm": 0.1,
+   "label": "L9",
+   "routes": 55,
+   "crossings": 109,
+   "pairs": 107
+  },
+  {
+   "z_mm": 0.15,
+   "label": "L10",
+   "routes": 22,
+   "crossings": 47,
+   "pairs": 46
+  },
+  {
+   "z_mm": 0.2,
+   "label": "L11",
+   "routes": 39,
+   "crossings": 55,
+   "pairs": 37
+  },
+  {
+   "z_mm": 0.25,
+   "label": "L12",
+   "routes": 53,
+   "crossings": 41,
+   "pairs": 35
+  },
+  {
+   "z_mm": 0.3,
+   "label": "L13",
+   "routes": 51,
+   "crossings": 36,
+   "pairs": 31
+  },
+  {
+   "z_mm": 0.35,
+   "label": "L14",
+   "routes": 47,
+   "crossings": 81,
+   "pairs": 81
+  },
+  {
+   "z_mm": 0.4,
+   "label": "L15",
+   "routes": 51,
+   "crossings": 81,
+   "pairs": 75
+  },
+  {
+   "z_mm": 0.45,
+   "label": "L16",
+   "routes": 47,
+   "crossings": 79,
+   "pairs": 79
+  },
+  {
+   "z_mm": 0.5,
+   "label": "Z2_INTERFACE",
+   "routes": 512,
+   "crossings": 130,
+   "pairs": 126
+  },
+  {
+   "z_mm": 0.55,
+   "label": "L17",
+   "routes": 51,
+   "crossings": 82,
+   "pairs": 76
+  },
+  {
+   "z_mm": 0.6,
+   "label": "L18",
+   "routes": 45,
+   "crossings": 63,
+   "pairs": 63
+  },
+  {
+   "z_mm": 0.65,
+   "label": "L19",
+   "routes": 48,
+   "crossings": 61,
+   "pairs": 58
+  }
+ ]
+}

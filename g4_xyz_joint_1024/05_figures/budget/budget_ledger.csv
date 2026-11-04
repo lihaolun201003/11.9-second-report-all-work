@@ -1,0 +1,7 @@
+﻿arm,schema,written_at,route_3d_checks,xy_candidates_generated,transactions,world_builds,valid_candidates,rejected_3d,accepted_transactions,accepted_changes,gain,validator_runs,no_candidate,rolled_back,wall_seconds
+C0,g4_budget_ledger_v1,2026-11-04T19:04:50,2324,11890,1542,1,2204,120,31,31,63,1,1511,0,1208.76
+G4a,g4_budget_ledger_v1,2026-11-04T18:59:02,6208,6198,95,0,5275,923,1,10,2,0,0,94,1018.74
+G4b,g4_budget_ledger_v1,2026-11-04T19:04:59,1538,1527,320,0,1198,329,11,11,28,0,80,309,1099.82
+G4c_frozen,g4_budget_ledger_v1,2026-11-04T19:20:53,7106,6989,254,0,4506,2493,21,21,100,1,263,233,1847.02
+G4c_free,g4_budget_ledger_v1,2026-11-04T19:20:46,6851,6740,274,0,4313,2433,33,47,133,1,266,241,1840.36
+G4d,g4_budget_ledger_v1,2026-11-04T19:31:10,4400,4376,254,1,3039,1337,23,24,110,1,267,231,106.3

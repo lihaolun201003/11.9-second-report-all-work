@@ -1,0 +1,94 @@
+{
+ "schema": "g4_best_selection_v1",
+ "selected_from": "chain_link3_G4d",
+ "selection_rule": "minimum same-layer strict-D56 crossing count among fully independently validated legal solutions",
+ "candidates": {
+  "C0": {
+   "crossings": 1259,
+   "pairs": 1209,
+   "sha": "09aeb1baa5d9ea870091298f46fecf50fdf1be309db08a1f1ef94fe767d9917e"
+  },
+  "G4a": {
+   "crossings": 1320,
+   "pairs": 1252,
+   "sha": "d12346cf42f783d1bcc799c48dc1e533c0725851d827d392206b0d74fd4374fa"
+  },
+  "G4b": {
+   "crossings": 1294,
+   "pairs": 1234,
+   "sha": "c72b245a240fce27dc7e1b8d41d0b432e1986d133c9c90051d097949f40a91c1"
+  },
+  "G4c_free": {
+   "crossings": 1189,
+   "pairs": 1128,
+   "sha": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e"
+  },
+  "G4c_frozen": {
+   "crossings": 1222,
+   "pairs": 1149,
+   "sha": "4ad68b1f7e402cdcddcadbdd3241bb7f4dd004e0e19a010fcc119eb8e93eec29"
+  },
+  "G4d": {
+   "crossings": 1212,
+   "pairs": 1148,
+   "sha": "6c7043632e1596aaefb80bfc2588a512bd6f752c5cd1573df0f6ee725ccaa703"
+  },
+  "chain_link2_G4c": {
+   "crossings": 1204,
+   "pairs": 1143,
+   "sha": "252bbfd2c712e59e6337d6ce531f63bfcca45bf68ae585bc7be24fed33c9aef3"
+  },
+  "chain_link3_G4d": {
+   "crossings": 1185,
+   "pairs": 1124,
+   "sha": "a0bf4c705014ce33c08ab908bf41991c9c65fb51a46e1016faa3d9af3634110e"
+  },
+  "explore_E1": {
+   "crossings": 1226,
+   "pairs": 1159,
+   "sha": "65fa1a7b132ace5862e3d315278b1cb1aa62cb702894fb6a98809696b60f7723"
+  },
+  "explore_E2": {
+   "crossings": 1191,
+   "pairs": 1129,
+   "sha": "dda537e90ed2404fc4e2a3384148ab1466fe048aed21ac213a5bbfb97e0e411b"
+  },
+  "warm1189_06b": {
+   "crossings": 1189,
+   "pairs": 1128,
+   "sha": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e"
+  }
+ },
+ "summary": {
+  "selected_from": "chain_link3_G4d",
+  "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+  "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+  "start_crossings": 1322,
+  "final_crossings": 1185,
+  "final_crossing_pairs": 1124,
+  "max_route_crossings": 19,
+  "routes_with_crossings": 593,
+  "routes": 1024,
+  "routed": 1024,
+  "routes_sha256": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+  "validation_pass": true,
+  "validation_violations": 0,
+  "source_validation": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\03_link_G4d\\best_valid\\validation\\validation.json",
+  "independent_validator_sha_match": true
+ },
+ "validation": {
+  "result": {
+   "exit_code": 0,
+   "seconds": 19.2,
+   "stdout": "hao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\07_best_valid\n[native3d] baseline_dir=C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\baseline_authoritative\n[native3d] out_dir=C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\07_best_valid\\validation\n[model] source=layer_planes.json planes=21 body=19 interface=2 min_pitch=0.050000\n[assignment] 1024 rows from run\n[routes] 1024 records (1024 routed, 0 failed); baseline 1024 records\n[model] violations=0\n[coverage] routed=1024 identity_mismatches=0 violations=0\n[structure] routes=1024 junctions=3848 max_pos_gap=4.95e-10 max_z_gap=0 max_tangent_gap=1.01e-15 violations=0\n[metadata] native=29 mid=70 excursions=35 violations=0\n[radius] flat_arcs=1798 transitions=1924 min_sampled=14.99999998 violations=0\n[glass] samples=1073098 min_margin=-0.0 violations=0\n[clearance] running independent minimum 3D clearance scan ...\n[clearance] min_3d=0.060877381 violations=0\n[ports] port_pairs=1024 violations=0\n[crossings] events=1185 pairs=1124 violations=0\n[manual_frozen] policy=fully_optimizable 368 manual routes, mismatches=0 violations=0\n[synthetic] running in-memory consistency tests ...\n[synthetic] duckout_L6_L7_L6_accepted                     PASS\n[synthetic] z_offset_49um_rejected                        PASS\n[synthetic] radius_14_rejected                            PASS\n[synthetic] position_discontinuity_1e-3_rejected          PASS\n[synthetic] flat_overlap_rejected                         PASS\n[synthetic] complete_native_route_accepted                PASS\n[synthetic] two_excursions_accepted                       PASS\n[synthetic] 7 tests, 0 failed\n\nNative 3D validation: PASS\n  run_dir      : C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\07_best_valid\n  baseline_dir : C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\baseline_authoritative\n  routes       : records=1024 routed=1024 failed=0 (native=29, baseline=995)\n  parts        : transitions=1924 mid=70 excursions=35 flat_arcs=1798\n  crossings    : events=1185 pairs=1124 violations=0 heights=21 min_non_crossing=0.086853441\n  vs E5 baseline: 2409 -> 1185 crossings (-1224), pairs 2010 -> 1124\n  clearance    : min_3d=0.060877381 (lower bound 0.05)\n  manual frozen: 368 routes, 0 mismatches\n  manual policy: fully_optimizable (0 contract violations)\n  [coverage       ] violations=0 offending_routes=0\n  [structure      ] violations=0 offending_routes=0\n  [native_metadata] violations=0 offending_routes=0\n  [radius         ] violations=0 offending_routes=0\n  [glass          ] violations=0 offending_routes=0\n  [clearance      ] violations=0 offending_routes=0\n  [ports          ] violations=0 offending_routes=0\n  [crossings      ] violations=0 offending_routes=0\n  [manual_frozen  ] violations=0 offending_routes=0\n  [model          ] violations=0 offending_routes=0\n  [synthetic      ] violations=0 offending_routes=0\n  violation_total=0 runtime=19.0s exit_code=0\n[native3d] wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\07_best_valid\\validation\\validation.json\n[native3d] wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\07_best_valid\\validation\\validator_consistency_tests.json\n\n[xyz] manual_policy=fully_optimizable contract_violations=0 validation_pass=True\n[xyz] summary: {\"crossing_pairs\": 1124, \"crossings\": 1185, \"failed\": 0, \"mid_transitions\": 70, \"min_3d_clearance\": 0.060877381, \"policy\": \"fully_optimizable\", \"policy_violations\": 0, \"routed\": 1024, \"total_length\": 156735.562044, \"validation_pass\": true, \"violations\": 0}\n[xyz] wrote C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\07_best_valid\\validation\\validation.json\n",
+   "stderr": ""
+  },
+  "final": {
+   "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\07_best_valid\\validation\\validation.json",
+   "validation_pass": true,
+   "violations": 0,
+   "crossings": 1185,
+   "sha": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a"
+  }
+ }
+}

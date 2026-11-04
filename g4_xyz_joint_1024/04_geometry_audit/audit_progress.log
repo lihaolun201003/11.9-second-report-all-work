@@ -1,0 +1,103 @@
+# G4-1 å‡ ä½•å£å¾„ä¸“é¡¹æ ¸æŸ¥ â€” è¿›åº¦æ—¥å¿—
+# å®¡è®¡å¯¹è±¡: outputs/manual_c4_new_connectivity/XYZ_JOINT_G123_1024/best_valid/
+# routes SHA256 æœŸæœ›: 711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077
+# è¯´æ˜: æœ¬å®¡è®¡ä¸å¼•ç”¨å†å² PASS ç»“è®ºï¼›å…¨éƒ¨å‡ ä½•é‡ä» routes_l3d.json ç‹¬ç«‹å¤ç®—ã€‚
+
+[2026-11-04T18:20+08:00] START
+- å·²è¯»å–ä»»åŠ¡æ¿ task-1 å¹¶è®¤é¢†ã€‚
+- å·²è¯»å–å¥‘çº¦æ¥æº: fanout1024/common.py, l3d/world.py, fsd25d/world25d.py,
+  fslw/config.py, fslw/validate_fslw.py(å¸¸é‡), d56/index.py(ç­–ç•¥),
+  nonc4/crossings.py, reheight21/model.py(21 é«˜åº¦), fsd25d/path3d.py(transition å®šä¹‰),
+  native3d/validate_native3d.py(clearance æ£€æŸ¥), reheight21/validate21.py(measure_min_3d_clearance),
+  xyzrouter/world_adapter.py(æ¸…é™¤ç‡ 0.05), xyzrouter/validate_xyz.py(ç‹¬ç«‹ Validator å…¥å£)ã€‚
+
+å…³é”®å¥‘çº¦è¦ç‚¹ï¼ˆå¾…å¤æ ¸ï¼‰:
+- 21 ä¸ªç‰©ç†é«˜åº¦ = 19 body planes + 2 interface planes; ç›¸é‚»é«˜åº¦å·®æ’ä¸º 0.05 mmã€‚
+- åŒå±‚(åŒä¸€ç‰©ç† z): strict D56 2D ä¸­å¿ƒçº¿å‡€ç©º 0.08 mm = WIDTH 0.05 + EDGE_GAP 0.03;
+  åˆæ³•æ¨ªç©¿è±å… (è§’åº¦ >= 5 deg)ã€‚
+- ä¸åŒç‰©ç†é«˜åº¦: |dz| >= 0.05 å³åˆæ³•; transition ç›¸å…³å¯¹è±¡è¦æ±‚çœŸ 3D ä¸­å¿ƒçº¿è·ç¦» >= 0.05ã€‚
+- l3d.world é»˜è®¤ clearance=0.08 (å†å²), ä½†æ‰€æœ‰ç°è¡Œè°ƒç”¨ç‚¹æ˜¾å¼ä¼  0.05
+  (validate21.check_true_3d_clearance / xyzrouter.world_adapter.CLEARANCE_MM)ã€‚
+
+TODO: ç‹¬ç«‹æŒ‡æ ‡è„šæœ¬ / å¥‘çº¦å®¡è®¡è„šæœ¬ / ç‹¬ç«‹ Validator å¤è·‘ / æŠ¥å‘Šã€‚
+[2026-11-04T18:47+08:00] ½ø¶È
+- ÒÑĞ´Íê four_side_1024/fanout1024/xyzrouter/g4/independent_metrics.py£¨¶ÀÁ¢¼¸ºÎÖ¸±ê£º×Ô´ø 2D Ïß¶Î/Ô²»¡¾àÀë¡¢¾«È·½»µã¡¢
+  transition ½âÎö S ÇúÏß¡¢¿Õ¼äÍø¸ñºòÑ¡¶Ô¡¢Í¬²ã D56 strict ¶ÀÁ¢¸´Ëã¡¢3D ¾»¿Õ×îĞ¡»¯£©¡£
+- ÒÑĞ´Íê .../g4/contract_audit.py£¨ÆõÔ¼È¡Ö¤ file:line + Áù´óÁ¿ + ½»²æÒ»ÖÂĞÔ + Ã¬¶Ü·ÖÎö£©¡£
+- ¶ÀÁ¢ Validator ¸´ÅÜÒÑÍê³É: baseline_revalidation/validation.json, PASS, violations=0,
+  crossings=1322, crossing_pairs=1253, min_3d_clearance=0.063595846, manual 368/0, policy_violations=0.
+- independent_metrics Ê×´ÎÔËĞĞ: identity PASS, heights_r15 PASS (21 heights, 1788 arcs, 1926 transitions);
+  ÆäÓà¼ÆËãÕıÔÚÔËĞĞ/ĞŞ¸´ÖĞ¡£
+[2026-11-04T19:05+08:00] ´óÏîÍê³É
+- ¶ÀÁ¢¼¸ºÎÖ¸±ê independent_metrics.py ÔËĞĞ³É¹¦ (24.9s):
+  * È«¾Ö×îĞ¡¾àÀë(º¬½»²æ) = 0.0 (route 17/129, z=-0.35, (119.351967,93.965181), 75.2234 deg)
+  * ·Ç½»²æ×îĞ¡¾»¿Õ = 0.05 (= 0.05 ²ã¼ä¾à, route 515/623, z=0.55/0.60, XY Ïà½»);
+    transition-vs-flat = 0.063593135; transition-vs-transition = 0.1;
+    Í¬²ã 2D ·Ç½»²æ = 0.086853441 (Óë¶³½á strict Éó¼ÆÖğÎ»Ò»ÖÂ)
+  * ÔÊĞí½»²æ 1322 / Î¨Ò»¶Ô 1253 / ·Ç·¨½»²æ 0 / ¾»¿ÕÎ¥¹æ 0
+  * ¾àÀëº¯Êı×ÔĞ£Ñé: 3721 ¶Ô, ×î´óÆ«²î 2.84e-14 mm
+  * R15/21 ¸ß¶È/Á¬ĞøĞÔ/¶Ë¿Ú/²£Á§/368 ÈË¹¤ U È«²¿ PASS
+- ÆõÔ¼»ã×Ü contract_audit.py ÔËĞĞ³É¹¦: 16 Ïî½»²æÒ»ÖÂĞÔÈ«²¿ true;
+  code_evidence 44 Ìõ file:line; Ã¬¶Ü·ÖÎöÒÑÉú³É¡£
+- ¶ÀÁ¢ Validator ¸´ÅÜ: PASS, 0 Î¥¹æ (18.7s)¡£
+- GEOMETRY_CONTRACT_AUDIT.md ÒÑĞ´Èë (ÖĞÎÄ, 6 ÎÊÖğÌõ + ¿Ú¾¶ + ×ÔÇ¢ĞÔ + Ã¬¶Ü·ÖÎö)¡£
+[STATUS] DONE
+[2026-11-04T18:40+08:00] G4 CLI »¯£¨Lead ÒªÇó£¬Phase 2 ¸´ÓÃ£©
+- task-1 ÔçÒÑ completed£¨revision 3£¬ÎŞÖØ¸´²Ù×÷£©¡£
+- independent_metrics.py Ôö¼Ó --run-dir/--out-dir/--expect-sha256/--baseline-dir£¬
+  ÈÎÒâ run Ä¿Â¼¿ÉÅÜ£¨min_distance_all_pairs ÏÖÔÚ°´Êµ¼ÊÊÇ·ñÓĞ½»²æ¶¯Ì¬¸ø³ö£¬²»ÔÙÓ²±àÂë 0£©¡£
+- contract_audit.py Éı¼¶Îª¿É¸´ÓÃ CLI£º--run-dir/--out-dir/--baseline-dir/--manual-policy/
+  --expect-sha256/--expect-crossings/--expect-pairs/--expect-max-route/--recompute/--revalidate£»
+  Êä³ö six_quantities.json + audit_metrics.json + contract_evidence.json + baseline_revalidation/¡£
+  ÎŞ cross expectation Ê±ÏàÓ¦¼ì²é±ê¼ÇÎª skipped(null)£¬ÆäÓàÓ²¼ì²éÕÕ³£¡£
+- tools/run_baseline_revalidation.py ²ÎÊı»¯£»ĞÂÔö tools/run_final_audit.py£¨Phase 2 Ò»¼üÅÌµã£¬
+  ×Ô¶¯Éú³É FINAL_AUDIT_SUMMARY.md£©¡£
+- CLI »Ø¹é²âÊÔ A£¨G3 best_valid£¬´ø expectations + --revalidate£©£ºÈ«²¿ 16 Ïî¼ì²é PASS£¬
+  six = {0.0, 0.05, 1322, 0, 0, policy}£¬Validator PASS£¬exit 0¡£
+- CLI ·º»¯²âÊÔ B£¨ÈÎÒâ run = frozen G1/G2/G3 »ùÏß 2409 ½»²æ¿ìÕÕ£©£º
+  ¶ÀÁ¢¸´Ëã 2409 events / 2010 pairs / 0 illegal / 0 clearance violation£»
+  trans-flat ×îĞ¡ 0.067302769£¨Validator 0.06730354£¬Ò»ÖÂ£©£»Validator PASS£»exit 0¡£
+  Êä³öÔÚ cli_smoke/frozen_g123_baseline/¡£
+- ´ıÃü Phase 2£ºLead ¸ø×îÖÕ G4 best Â·¾¶ºóÖ´ĞĞ
+  .\.venv\Scripts\python.exe experiments\xyz_joint_g4_1024\00_baseline_audit\tools\run_final_audit.py --run-dir <final>
+  £¨Ô¼ 45-90 s£¬º¬¶ÀÁ¢¸´Ëã + Validator£©£¬ÂäÅÌ experiments/xyz_joint_g4_1024/00_baseline_audit/FINAL_AUDIT/¡£
+[2026-11-04T19:10+08:00] Phase-2 Ô¤Ñİ£¨Lead Ö¸¶¨ G4c_free best_valid£©
+- run: experiments/xyz_joint_g4_1024/05_arm_G4c_free/best_valid
+  routes SHA256 = ed72cec38f1c9c83efb95f53240298e1edcc7dc3ec070616254df00b2f0475d0
+- Êä³ö: 00_baseline_audit/FINAL_AUDIT_PREVIEW/£¨²»¸²¸Ç FINAL_AUDIT/£©£¬¶Ëµ½¶Ë 44.9 s¡£
+- ½áÂÛ PASS: 1024/1024; R15 ÎŞÎ¥¹æ(1800 arcs + 1924 trans È« 15); ¶ÀÁ¢ Validator PASS
+  (violations=0, policy=fully_optimizable, policy_violations=0, 368 manual 0 mismatch)¡£
+- Áù¸öÁ¿: min_dist_all=0.0; min_clearance_non_crossing=0.05; allowed=1190; illegal=0;
+  clearance_violations=0; policy Í¬»ùÏß¡£
+- ½»²æ¿Ú¾¶Ò»ÖÂĞÔ: ¶ÀÁ¢¸´Ëã 1190 events / 1129 pairs == Validator 1190/1129;
+  max_route=19, angle 5.33239-90 deg, Í¬²ã×îĞ¡·Ç½»²æ 0.086853441 (Óë G3 ÖğÎ»Ò»ÖÂ);
+  vs G3: -132 events/-124 pairs; vs ¶³½á»ùÏß 2409: -1219 events/-881 pairs¡£
+- 3D ·Ö¿Ú¾¶: flat-flat 0.05; trans-flat 0.060874260 (validator 0.060877381); trans-trans 0.1¡£
+- ÈË¹¤ U: 368 Ìõ±êÇ©È«²¿±£Áô, fully_optimizable ºÏÍ¬(G3 Í¬¿î, ·Ç frozen);
+  59 Ìõ manual Â·ÓÉ¸ß¶È¼¯ºÏÓë¶³½á»ùÏß²»Í¬(Ïà¶Ô G3 ½ö 7 Ìõ±ä»¯) ¡ª¡ª Óë Lead ¿Ú¾¶Ò»ÖÂ¡£
+- Ö¤¾İ: FINAL_AUDIT_PREVIEW/{audit_metrics,six_quantities,independent_metrics,min_distance_evidence,
+  contract_evidence}.json + FINAL_AUDIT_SUMMARY.md + PREVIEW_ADDENDUM.md + preview_compare_vs_g3.json¡£
+- ´ıÃü: ÊÕµ½ 07_best_valid ×îÖÕÂ·¾¶ºóÅÜÕıÊ½ FINAL_AUDIT/¡£
+[2026-11-04T19:50+08:00] ÕıÊ½ÖÕÑéÍê³É£¨FINAL_AUDIT£©
+- ¶ÔÏó: experiments/xyz_joint_g4_1024/07_best_valid
+  routes SHA256 = b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a£¨ÏÖ³¡ÖØËãÒ»ÖÂ£©
+- Êä³ö: experiments/xyz_joint_g4_1024/00_baseline_audit/FINAL_AUDIT/£¨º¬ FINAL_AUDIT_SUMMARY.md +
+  FINAL_AUDIT_ADDENDUM.md + audit_metrics.json + six_quantities.json + independent_metrics.json +
+  min_distance_evidence.json + contract_evidence.json + compare_vs_baselines.json +
+  final_audit_status.json + baseline_revalidation/£©£¬¶Ëµ½¶Ë 31.7 s¡£
+- ½á¹û PASS: 16/16 ¶ÀÁ¢¼ì²é true, 0 skipped; ¶ÀÁ¢ Validator PASS (violations=0, policy=fully_optimizable,
+  policy_violations=0, 368 manual 0 mismatch); run ×Ô´ø validation.json Óë±¾´Î¸´ÅÜÍêÈ«Ò»ÖÂ(SHA/PASS/¼ÆÊı)¡£
+- ÁùÁ¿: min_dist_all=0.0; min_clearance_non_crossing=0.05; allowed=1185; illegal=0; clearance_violations=0; policy Í¬»ùÏß¡£
+- ½»²æ¸´Ëã: ¶ÀÁ¢ 1185 events / 1124 pairs == Validator 1185/1124 == crossing_stats.json ÖğÊÂ¼ş 100% Æ¥Åä;
+  max_route=19; angle 5.33239-90; Í¬²ã×îĞ¡·Ç½»²æ 0.086853441 (Óë G3 Ò»ÖÂ); ´°¿Ú°ë¿í max 0.8624 mm¡£
+- Èı·½¿Ú¾¶: ¶³½á pre-G4 2409/2010 ¡ú G3 1322/1253 ¡ú G4 final 1185/1124
+  (G3¡úG4 -137/-129; ¶³½á¡úG4 -1224/-886)¡£
+- ¸¨Öú¿ìÕÕ: 05_arm_G4c_free µ±Ç° SHA ce7ca9a9... = 1189/1128 (Óë Lead Êı×ÖÒ»ÖÂ);
+  Ô¤Ñİ¿ìÕÕ ed72cec3... = 1190/1129 (ÒÑ±»¸üĞÂ¸²¸Ç)¡£
+- 3D ·Ö¿Ú¾¶: flat-flat 0.05; trans-flat ¶ÀÁ¢ 0.060874260 (Validator 0.060877381); trans-trans 0.1¡£
+- ÈË¹¤ U: 368 Ìõ±êÇ©È«²¿±£Áô(0 ´íÅä); fully_optimizable ºÏÍ¬(G3 Í¬¿î·Ç frozen);
+  ¸ß¶È¼¯ºÏ vs ¶³½á»ùÏß 59 Ìõ±ä»¯, vs G3 7 Ìõ±ä»¯(Óë run ×Ô´ø manual_u_changes.json µÄ 7 Ìõ layer/z ±ä»¯Ò»ÖÂ)¡£
+- R15: 1798 arcs + 1924 transitions È« 15.000000, ¹«Ê½Îó²î 0, Éú³ÉÆ÷½»²æĞ£Ñé 1.78e-15;
+  ²£Á§ 1,374,474 ¶ÀÁ¢²ÉÑù 0 Ô½½ç; ¶Ë¿ÚÉí·İ 0 ÎÊÌâ; 21 ¸ß¶È¼ä¾à 0.05; Á¬ĞøĞÔ max gap 4.95e-10 mm¡£
+- ÒÑ send_message ¸ø lead Ò»ĞĞ½áÂÛ + FINAL_AUDIT_SUMMARY.md Â·¾¶¡£
+[STATUS] FINAL DELIVERED

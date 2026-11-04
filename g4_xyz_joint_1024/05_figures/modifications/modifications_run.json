@@ -1,0 +1,39 @@
+{
+ "schema": "g4_plots_v1",
+ "kind": "modifications",
+ "before": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "after": "experiments\\xyz_joint_g4_1024\\07_best_valid",
+ "started_at": "2026-11-04 19:50:34",
+ "written": [
+  "modifications_xy_z_stats.png"
+ ],
+ "errors": [],
+ "figure": {
+  "path": "experiments\\xyz_joint_g4_1024\\09_plots\\modifications\\modifications_xy_z_stats.png",
+  "bytes": 105389
+ },
+ "summary": {
+  "routes": 1024,
+  "changed_routes": 38,
+  "changed_manual": 9,
+  "changed_non_manual": 29,
+  "classes": {
+   "unchanged": 986,
+   "xy+z": 28,
+   "xy_only": 9,
+   "z_only": 1
+  },
+  "classes_manual": {
+   "unchanged": 359,
+   "xy_only": 2,
+   "xy+z": 6,
+   "z_only": 1
+  },
+  "abs_length_delta_mean": 0.3134,
+  "abs_length_delta_max": 88.6697,
+  "dz_values": 29,
+  "dz_min": -0.6,
+  "dz_max": 0.1,
+  "generated_at": "2026-11-04 19:50:36"
+ }
+}

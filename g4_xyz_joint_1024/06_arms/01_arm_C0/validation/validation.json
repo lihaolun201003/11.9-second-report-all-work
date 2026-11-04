@@ -1,0 +1,2671 @@
+{
+ "schema": "native3d_validation_v1",
+ "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+ "validated_at": "2026-11-04T19:04:50",
+ "mode": "native3d",
+ "manual_policy": "fully_optimizable",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\01_arm_C0\\best_valid",
+ "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\baseline_authoritative",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\01_arm_C0\\validation",
+ "routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\01_arm_C0\\best_valid\\routes_l3d.json",
+ "routes_file_sha256": "09aeb1baa5d9ea870091298f46fecf50fdf1be309db08a1f1ef94fe767d9917e",
+ "baseline_routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\baseline_authoritative\\routes_l3d.json",
+ "baseline_routes_file_sha256": "36c57ad9eff5244959a3e5cadcfe5f5d7fddd06db203a7113131d0667e5c12d0",
+ "assignment_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\01_arm_C0\\best_valid\\assignment_1024.csv",
+ "assignment_source": "run",
+ "layer_planes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\baseline_authoritative\\layer_planes.json",
+ "layer_planes_source": "layer_planes.json",
+ "model": {
+  "source": "layer_planes.json",
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\baseline_authoritative\\layer_planes.json",
+  "plane_count": 21,
+  "plane_ids": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   20,
+   1001,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   1002,
+   17,
+   18,
+   19
+  ],
+  "z_map": {
+   "2": -0.35,
+   "3": -0.3,
+   "4": -0.25,
+   "5": -0.2,
+   "6": -0.15,
+   "7": -0.1,
+   "20": -0.05,
+   "1001": 0.0,
+   "8": 0.05,
+   "9": 0.1,
+   "10": 0.15,
+   "11": 0.2,
+   "12": 0.25,
+   "13": 0.3,
+   "14": 0.35,
+   "15": 0.4,
+   "16": 0.45,
+   "1002": 0.5,
+   "17": 0.55,
+   "18": 0.6,
+   "19": 0.65
+  },
+  "interface_plane_ids": [
+   1001,
+   1002
+  ],
+  "interface_z": {
+   "z1": 0.0,
+   "z2": 0.5
+  },
+  "min_pitch_mm": 0.05,
+  "pitch_rows": [
+   {
+    "low": 2,
+    "high": 3,
+    "low_z_mm": -0.35,
+    "high_z_mm": -0.3,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 3,
+    "high": 4,
+    "low_z_mm": -0.3,
+    "high_z_mm": -0.25,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 4,
+    "high": 5,
+    "low_z_mm": -0.25,
+    "high_z_mm": -0.2,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 5,
+    "high": 6,
+    "low_z_mm": -0.2,
+    "high_z_mm": -0.15,
+    "gap_mm": 0.05000000000000002
+   },
+   {
+    "low": 6,
+    "high": 7,
+    "low_z_mm": -0.15,
+    "high_z_mm": -0.1,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 7,
+    "high": 20,
+    "low_z_mm": -0.1,
+    "high_z_mm": -0.05,
+    "gap_mm": 0.05
+   },
+   {
+    "low": 20,
+    "high": 1001,
+    "low_z_mm": -0.05,
+    "high_z_mm": 0.0,
+    "gap_mm": 0.05
+   },
+   {
+    "low": 1001,
+    "high": 8,
+    "low_z_mm": 0.0,
+    "high_z_mm": 0.05,
+    "gap_mm": 0.05
+   },
+   {
+    "low": 8,
+    "high": 9,
+    "low_z_mm": 0.05,
+    "high_z_mm": 0.1,
+    "gap_mm": 0.05
+   },
+   {
+    "low": 9,
+    "high": 10,
+    "low_z_mm": 0.1,
+    "high_z_mm": 0.15,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 10,
+    "high": 11,
+    "low_z_mm": 0.15,
+    "high_z_mm": 0.2,
+    "gap_mm": 0.05000000000000002
+   },
+   {
+    "low": 11,
+    "high": 12,
+    "low_z_mm": 0.2,
+    "high_z_mm": 0.25,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 12,
+    "high": 13,
+    "low_z_mm": 0.25,
+    "high_z_mm": 0.3,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 13,
+    "high": 14,
+    "low_z_mm": 0.3,
+    "high_z_mm": 0.35,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 14,
+    "high": 15,
+    "low_z_mm": 0.35,
+    "high_z_mm": 0.4,
+    "gap_mm": 0.050000000000000044
+   },
+   {
+    "low": 15,
+    "high": 16,
+    "low_z_mm": 0.4,
+    "high_z_mm": 0.45,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 16,
+    "high": 1002,
+    "low_z_mm": 0.45,
+    "high_z_mm": 0.5,
+    "gap_mm": 0.04999999999999999
+   },
+   {
+    "low": 1002,
+    "high": 17,
+    "low_z_mm": 0.5,
+    "high_z_mm": 0.55,
+    "gap_mm": 0.050000000000000044
+   },
+   {
+    "low": 17,
+    "high": 18,
+    "low_z_mm": 0.55,
+    "high_z_mm": 0.6,
+    "gap_mm": 0.04999999999999993
+   },
+   {
+    "low": 18,
+    "high": 19,
+    "low_z_mm": 0.6,
+    "high_z_mm": 0.65,
+    "gap_mm": 0.050000000000000044
+   }
+  ],
+  "warnings": [
+   {
+    "kind": "run_layer_planes_missing",
+    "detail": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\01_arm_C0\\best_valid\\layer_planes.json"
+   },
+   {
+    "kind": "baseline_layer_planes_fallback",
+    "detail": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\baseline_authoritative\\layer_planes.json"
+   }
+  ],
+  "checks": {
+   "check": "model",
+   "source": "layer_planes.json",
+   "baseline_mode": false,
+   "plane_count": 21,
+   "expected_plane_count": 21,
+   "body_plane_count": 19,
+   "interface_plane_count": 2,
+   "plane_pitch": [
+    {
+     "low": 2,
+     "high": 3,
+     "low_z_mm": -0.35,
+     "high_z_mm": -0.3,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 3,
+     "high": 4,
+     "low_z_mm": -0.3,
+     "high_z_mm": -0.25,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 4,
+     "high": 5,
+     "low_z_mm": -0.25,
+     "high_z_mm": -0.2,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 5,
+     "high": 6,
+     "low_z_mm": -0.2,
+     "high_z_mm": -0.15,
+     "gap_mm": 0.05000000000000002
+    },
+    {
+     "low": 6,
+     "high": 7,
+     "low_z_mm": -0.15,
+     "high_z_mm": -0.1,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 7,
+     "high": 20,
+     "low_z_mm": -0.1,
+     "high_z_mm": -0.05,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 20,
+     "high": 1001,
+     "low_z_mm": -0.05,
+     "high_z_mm": 0.0,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 1001,
+     "high": 8,
+     "low_z_mm": 0.0,
+     "high_z_mm": 0.05,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 8,
+     "high": 9,
+     "low_z_mm": 0.05,
+     "high_z_mm": 0.1,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 9,
+     "high": 10,
+     "low_z_mm": 0.1,
+     "high_z_mm": 0.15,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 10,
+     "high": 11,
+     "low_z_mm": 0.15,
+     "high_z_mm": 0.2,
+     "gap_mm": 0.05000000000000002
+    },
+    {
+     "low": 11,
+     "high": 12,
+     "low_z_mm": 0.2,
+     "high_z_mm": 0.25,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 12,
+     "high": 13,
+     "low_z_mm": 0.25,
+     "high_z_mm": 0.3,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 13,
+     "high": 14,
+     "low_z_mm": 0.3,
+     "high_z_mm": 0.35,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 14,
+     "high": 15,
+     "low_z_mm": 0.35,
+     "high_z_mm": 0.4,
+     "gap_mm": 0.050000000000000044
+    },
+    {
+     "low": 15,
+     "high": 16,
+     "low_z_mm": 0.4,
+     "high_z_mm": 0.45,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 16,
+     "high": 1002,
+     "low_z_mm": 0.45,
+     "high_z_mm": 0.5,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 1002,
+     "high": 17,
+     "low_z_mm": 0.5,
+     "high_z_mm": 0.55,
+     "gap_mm": 0.050000000000000044
+    },
+    {
+     "low": 17,
+     "high": 18,
+     "low_z_mm": 0.55,
+     "high_z_mm": 0.6,
+     "gap_mm": 0.04999999999999993
+    },
+    {
+     "low": 18,
+     "high": 19,
+     "low_z_mm": 0.6,
+     "high_z_mm": 0.65,
+     "gap_mm": 0.050000000000000044
+    }
+   ],
+   "min_pitch_mm": 0.04999999999999993,
+   "distinct_heights": 21,
+   "sorted_planes": [
+    {
+     "plane_id": 2,
+     "label": "L2",
+     "z_mm": -0.35,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 3,
+     "label": "L3",
+     "z_mm": -0.3,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 4,
+     "label": "L4",
+     "z_mm": -0.25,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 5,
+     "label": "L5",
+     "z_mm": -0.2,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 6,
+     "label": "L6",
+     "z_mm": -0.15,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 7,
+     "label": "L7",
+     "z_mm": -0.1,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 20,
+     "label": "L20",
+     "z_mm": -0.05,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 1001,
+     "label": "Z1_INTERFACE",
+     "z_mm": 0.0,
+     "kind": "interface_body",
+     "interface": "z1"
+    },
+    {
+     "plane_id": 8,
+     "label": "L8",
+     "z_mm": 0.05,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 9,
+     "label": "L9",
+     "z_mm": 0.1,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 10,
+     "label": "L10",
+     "z_mm": 0.15,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 11,
+     "label": "L11",
+     "z_mm": 0.2,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 12,
+     "label": "L12",
+     "z_mm": 0.25,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 13,
+     "label": "L13",
+     "z_mm": 0.3,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 14,
+     "label": "L14",
+     "z_mm": 0.35,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 15,
+     "label": "L15",
+     "z_mm": 0.4,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 16,
+     "label": "L16",
+     "z_mm": 0.45,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 1002,
+     "label": "Z2_INTERFACE",
+     "z_mm": 0.5,
+     "kind": "interface_body",
+     "interface": "z2"
+    },
+    {
+     "plane_id": 17,
+     "label": "L17",
+     "z_mm": 0.55,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 18,
+     "label": "L18",
+     "z_mm": 0.6,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 19,
+     "label": "L19",
+     "z_mm": 0.65,
+     "kind": "body",
+     "interface": null
+    }
+   ],
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  }
+ },
+ "counts": {
+  "records": 1024,
+  "routed": 1024,
+  "failed": 0,
+  "routed_by_plane": {
+   "z1": 512,
+   "z2": 512
+  },
+  "direct_routes": 99,
+  "non_direct_routes": 925,
+  "native_routes": 27,
+  "baseline_routes": 997,
+  "transitions": 1914,
+  "flat_arc_count": 1802,
+  "flat_arcs": 1802,
+  "mid_transitions": 64,
+  "excursions": 32,
+  "body_flats": 1088,
+  "total_length_mm": 156879.600005,
+  "max_route_length_mm": 287.071946,
+  "same_plane_crossings": 1259,
+  "same_plane_crossing_pairs": 1209,
+  "same_plane_crossing_violations": 0,
+  "audited_heights": 21,
+  "min_non_crossing_centerline_mm": 0.086853441,
+  "per_route_crossing_distribution": {
+   "routes": 578,
+   "max": 19,
+   "p95": 11.0,
+   "mean": 4.356401,
+   "median": 4.0,
+   "routes_with_crossings": 578
+  },
+  "manual_route_count": 368,
+  "manual_geometry_mismatch_count": 0,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.99999998,
+  "min_3d_clearance_mm": 0.062454086,
+  "min_3d_clearance_lower_bound_mm": 0.05,
+  "min_centerline_glass_margin_mm": -0.0,
+  "min_edge_glass_margin_mm": -0.025,
+  "assignment_primary_mismatch_count": 0,
+  "min_route_layer_pitch_mm": 0.04999999999999999,
+  "violation_total": 0,
+  "baseline_same_plane_crossings": 2409,
+  "baseline_same_plane_crossing_pairs": 2010,
+  "crossing_delta_vs_baseline": -1150,
+  "crossing_pair_delta_vs_baseline": -801
+ },
+ "checks": {
+  "model": {
+   "check": "model",
+   "source": "layer_planes.json",
+   "baseline_mode": false,
+   "plane_count": 21,
+   "expected_plane_count": 21,
+   "body_plane_count": 19,
+   "interface_plane_count": 2,
+   "plane_pitch": [
+    {
+     "low": 2,
+     "high": 3,
+     "low_z_mm": -0.35,
+     "high_z_mm": -0.3,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 3,
+     "high": 4,
+     "low_z_mm": -0.3,
+     "high_z_mm": -0.25,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 4,
+     "high": 5,
+     "low_z_mm": -0.25,
+     "high_z_mm": -0.2,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 5,
+     "high": 6,
+     "low_z_mm": -0.2,
+     "high_z_mm": -0.15,
+     "gap_mm": 0.05000000000000002
+    },
+    {
+     "low": 6,
+     "high": 7,
+     "low_z_mm": -0.15,
+     "high_z_mm": -0.1,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 7,
+     "high": 20,
+     "low_z_mm": -0.1,
+     "high_z_mm": -0.05,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 20,
+     "high": 1001,
+     "low_z_mm": -0.05,
+     "high_z_mm": 0.0,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 1001,
+     "high": 8,
+     "low_z_mm": 0.0,
+     "high_z_mm": 0.05,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 8,
+     "high": 9,
+     "low_z_mm": 0.05,
+     "high_z_mm": 0.1,
+     "gap_mm": 0.05
+    },
+    {
+     "low": 9,
+     "high": 10,
+     "low_z_mm": 0.1,
+     "high_z_mm": 0.15,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 10,
+     "high": 11,
+     "low_z_mm": 0.15,
+     "high_z_mm": 0.2,
+     "gap_mm": 0.05000000000000002
+    },
+    {
+     "low": 11,
+     "high": 12,
+     "low_z_mm": 0.2,
+     "high_z_mm": 0.25,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 12,
+     "high": 13,
+     "low_z_mm": 0.25,
+     "high_z_mm": 0.3,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 13,
+     "high": 14,
+     "low_z_mm": 0.3,
+     "high_z_mm": 0.35,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 14,
+     "high": 15,
+     "low_z_mm": 0.35,
+     "high_z_mm": 0.4,
+     "gap_mm": 0.050000000000000044
+    },
+    {
+     "low": 15,
+     "high": 16,
+     "low_z_mm": 0.4,
+     "high_z_mm": 0.45,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 16,
+     "high": 1002,
+     "low_z_mm": 0.45,
+     "high_z_mm": 0.5,
+     "gap_mm": 0.04999999999999999
+    },
+    {
+     "low": 1002,
+     "high": 17,
+     "low_z_mm": 0.5,
+     "high_z_mm": 0.55,
+     "gap_mm": 0.050000000000000044
+    },
+    {
+     "low": 17,
+     "high": 18,
+     "low_z_mm": 0.55,
+     "high_z_mm": 0.6,
+     "gap_mm": 0.04999999999999993
+    },
+    {
+     "low": 18,
+     "high": 19,
+     "low_z_mm": 0.6,
+     "high_z_mm": 0.65,
+     "gap_mm": 0.050000000000000044
+    }
+   ],
+   "min_pitch_mm": 0.04999999999999993,
+   "distinct_heights": 21,
+   "sorted_planes": [
+    {
+     "plane_id": 2,
+     "label": "L2",
+     "z_mm": -0.35,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 3,
+     "label": "L3",
+     "z_mm": -0.3,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 4,
+     "label": "L4",
+     "z_mm": -0.25,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 5,
+     "label": "L5",
+     "z_mm": -0.2,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 6,
+     "label": "L6",
+     "z_mm": -0.15,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 7,
+     "label": "L7",
+     "z_mm": -0.1,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 20,
+     "label": "L20",
+     "z_mm": -0.05,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 1001,
+     "label": "Z1_INTERFACE",
+     "z_mm": 0.0,
+     "kind": "interface_body",
+     "interface": "z1"
+    },
+    {
+     "plane_id": 8,
+     "label": "L8",
+     "z_mm": 0.05,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 9,
+     "label": "L9",
+     "z_mm": 0.1,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 10,
+     "label": "L10",
+     "z_mm": 0.15,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 11,
+     "label": "L11",
+     "z_mm": 0.2,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 12,
+     "label": "L12",
+     "z_mm": 0.25,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 13,
+     "label": "L13",
+     "z_mm": 0.3,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 14,
+     "label": "L14",
+     "z_mm": 0.35,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 15,
+     "label": "L15",
+     "z_mm": 0.4,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 16,
+     "label": "L16",
+     "z_mm": 0.45,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 1002,
+     "label": "Z2_INTERFACE",
+     "z_mm": 0.5,
+     "kind": "interface_body",
+     "interface": "z2"
+    },
+    {
+     "plane_id": 17,
+     "label": "L17",
+     "z_mm": 0.55,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 18,
+     "label": "L18",
+     "z_mm": 0.6,
+     "kind": "body",
+     "interface": null
+    },
+    {
+     "plane_id": 19,
+     "label": "L19",
+     "z_mm": 0.65,
+     "kind": "body",
+     "interface": null
+    }
+   ],
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "coverage": {
+   "check": "coverage",
+   "records": 1024,
+   "routed": 1024,
+   "failed": 0,
+   "baseline_records": 1024,
+   "expected_route_ids": 1024,
+   "unique_route_ids": 1024,
+   "duplicate_route_ids": [],
+   "missing_route_ids": [],
+   "missing_route_id_count": 0,
+   "extra_route_ids": [],
+   "extra_route_id_count": 0,
+   "planes": {
+    "z1": 512,
+    "z2": 512
+   },
+   "identity_field_mismatches": 0,
+   "assignment_rows": 1024,
+   "assignment_missing_rows": 0,
+   "assignment_identity_mismatches": 0,
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "structure": {
+   "check": "structure",
+   "routes_checked": 1024,
+   "parts_total": 4852,
+   "flats_total": 2938,
+   "transitions_total": 1914,
+   "junctions_checked": 3828,
+   "max_position_gap_mm": 4.948046417041496e-10,
+   "max_z_gap_mm": 0.0,
+   "max_tangent_gap": 1.0106430996148606e-15,
+   "world_structure_flagged": 0,
+   "tagged_parts": 1373,
+   "missing_tags": 3479,
+   "direct_routes": 99,
+   "non_direct_routes": 925,
+   "native_routes": 27,
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "native_metadata": {
+   "check": "native_metadata",
+   "routes_checked": 1024,
+   "native_routes": 27,
+   "baseline_routes": 997,
+   "flat_parts": 2938,
+   "body_flats": 1088,
+   "native_body_flats": 91,
+   "mid_transitions": 64,
+   "excursions": 32,
+   "assignment_primary_mismatch": 0,
+   "assignment_primary_mismatch_ids": [],
+   "native_route_ids": [
+    9,
+    11,
+    35,
+    36,
+    99,
+    100,
+    107,
+    109,
+    118,
+    127,
+    153,
+    170,
+    171,
+    198,
+    222,
+    412,
+    432,
+    438,
+    439,
+    456,
+    484,
+    487,
+    492,
+    493,
+    513,
+    677,
+    737
+   ],
+   "mid_transition_counts": [
+    {
+     "route_id": 9,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 11,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 35,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 36,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 99,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 100,
+     "mid_transitions": 4,
+     "excursions": 2,
+     "body_flats": 5
+    },
+    {
+     "route_id": 107,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 109,
+     "mid_transitions": 4,
+     "excursions": 2,
+     "body_flats": 5
+    },
+    {
+     "route_id": 118,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 127,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 153,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 170,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 171,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 198,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 222,
+     "mid_transitions": 6,
+     "excursions": 3,
+     "body_flats": 7
+    },
+    {
+     "route_id": 412,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 432,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 438,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 439,
+     "mid_transitions": 4,
+     "excursions": 2,
+     "body_flats": 5
+    },
+    {
+     "route_id": 456,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 484,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 487,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 492,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 493,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 513,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 677,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    },
+    {
+     "route_id": 737,
+     "mid_transitions": 2,
+     "excursions": 1,
+     "body_flats": 3
+    }
+   ],
+   "min_route_pitch_mm": 0.04999999999999999,
+   "distinct_heights": 1973,
+   "total_length_mm": 156879.600005,
+   "max_route_length_mm": 287.071946,
+   "max_body_flats_per_route": 7,
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "radius": {
+   "check": "radius",
+   "routes_checked": 1024,
+   "flat_arc_count": 1802,
+   "flat_arc_radii": [
+    15.0
+   ],
+   "transition_count": 1914,
+   "transition_declared_radii": [
+    15.0
+   ],
+   "transition_samples_total": 600678,
+   "transition_min_sampled_radius": 14.99999998,
+   "r15_required_mm": 15.0,
+   "transition_min_required_mm": 14.999999,
+   "multi_transition_route_support": true,
+   "min_flat_arc_radius_mm": 15.0,
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "glass": {
+   "check": "glass",
+   "routes_checked": 1024,
+   "samples": 1067746,
+   "min_centerline_margin_mm": -0.0,
+   "min_edge_margin_mm": -0.025,
+   "min_z_mm": -0.35,
+   "max_z_mm": 0.65,
+   "edge_margin_negative_route_count": 1024,
+   "waveguide_half_width_mm": 0.025,
+   "bounds": {
+    "x": [
+     0.0,
+     150.0
+    ],
+    "y": [
+     0.0,
+     150.0
+    ],
+    "z": [
+     -0.35,
+     0.65
+    ]
+   },
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "clearance": {
+   "check": "clearance",
+   "method": "fresh four_side_1024.l3d.world.World(model stack from the run layer_planes body heights, clearance=0.05); check_route(route, check_self=True) in route-id order, then add_route",
+   "clearance_mm": 0.05,
+   "body_plane_count": 19,
+   "routes_checked": 1024,
+   "routes_added": 1024,
+   "world": {
+    "clearance_mm": 0.05,
+    "body_plane_count": 19
+   },
+   "violation_kinds": {},
+   "min_clearance_scan": {
+    "flat_segments": 1893122,
+    "transition_segments": 300544,
+    "query_radius_mm": 0.2,
+    "transition_vs_flat": {
+     "violations": 0,
+     "min_mm": 0.062454086,
+     "pairs": [],
+     "min_pair": {
+      "route_id": 799,
+      "other_route": 697,
+      "distance_mm": 0.062454086,
+      "point": [
+       63.375,
+       7.047300913,
+       0.16240155
+      ]
+     }
+    },
+    "transition_vs_transition": {
+     "violations": 0,
+     "min_mm": 0.1,
+     "pairs": [],
+     "min_pair": {
+      "route_id": 335,
+      "other_route": 829,
+      "distance_mm": 0.1,
+      "point": [
+       146.291676707,
+       122.625,
+       0.2
+      ]
+     }
+    },
+    "min_3d_clearance_mm": 0.062454086,
+    "violation_count": 0,
+    "min_plane_gap_mm": 0.05,
+    "min_3d_clearance_lower_bound_mm": 0.05,
+    "runtime_seconds": 3.01
+   },
+   "min_3d_clearance_mm": 0.062454086,
+   "min_3d_clearance_lower_bound_mm": 0.05,
+   "runtime_seconds": 23.19,
+   "violations": 0,
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "ports": {
+   "check": "ports",
+   "records": 1024,
+   "routed": 1024,
+   "failed": 0,
+   "unique_route_ids": 1024,
+   "duplicate_route_ids": [],
+   "missing_route_ids": [],
+   "missing_route_id_count": 0,
+   "extra_route_ids": [],
+   "planes": {
+    "z1": 512,
+    "z2": 512
+   },
+   "port_pairs_checked": 1024,
+   "port_pair_set_matches": true,
+   "routed_missing_endpoints": 0,
+   "endpoint_table_size": 2048,
+   "validation_route_ids_vs_true_data": "reused validate21.check_ports",
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "crossings": {
+   "check": "crossings",
+   "planes": [
+    {
+     "plane_id": 2,
+     "label": "L2",
+     "z_mm": -0.35,
+     "kind": "body",
+     "interface": null,
+     "routes": 37,
+     "parts": 180,
+     "assigned_routes": 37,
+     "direct_routes": 0,
+     "crossings": 18,
+     "crossing_pairs": 18,
+     "min_non_crossing_centerline_mm": 0.323234217,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 19,
+      "max": 18,
+      "p95": 2.7,
+      "mean": 1.894737,
+      "median": 1.0,
+      "routes_with_crossings": 19
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.024
+    },
+    {
+     "plane_id": 3,
+     "label": "L3",
+     "z_mm": -0.3,
+     "kind": "body",
+     "interface": null,
+     "routes": 62,
+     "parts": 306,
+     "assigned_routes": 62,
+     "direct_routes": 0,
+     "crossings": 0,
+     "crossing_pairs": 0,
+     "min_non_crossing_centerline_mm": 0.321953536,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 0,
+      "max": 0,
+      "p95": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "routes_with_crossings": 0
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.036
+    },
+    {
+     "plane_id": 4,
+     "label": "L4",
+     "z_mm": -0.25,
+     "kind": "body",
+     "interface": null,
+     "routes": 61,
+     "parts": 299,
+     "assigned_routes": 61,
+     "direct_routes": 0,
+     "crossings": 0,
+     "crossing_pairs": 0,
+     "min_non_crossing_centerline_mm": 0.322357923,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 0,
+      "max": 0,
+      "p95": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "routes_with_crossings": 0
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.053
+    },
+    {
+     "plane_id": 5,
+     "label": "L5",
+     "z_mm": -0.2,
+     "kind": "body",
+     "interface": null,
+     "routes": 86,
+     "parts": 430,
+     "assigned_routes": 86,
+     "direct_routes": 0,
+     "crossings": 0,
+     "crossing_pairs": 0,
+     "min_non_crossing_centerline_mm": 0.322807098,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 0,
+      "max": 0,
+      "p95": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "routes_with_crossings": 0
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.047
+    },
+    {
+     "plane_id": 6,
+     "label": "L6",
+     "z_mm": -0.15,
+     "kind": "body",
+     "interface": null,
+     "routes": 55,
+     "parts": 184,
+     "assigned_routes": 50,
+     "direct_routes": 0,
+     "crossings": 91,
+     "crossing_pairs": 88,
+     "min_non_crossing_centerline_mm": 0.086853441,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 39,
+      "max": 13,
+      "p95": 9.2,
+      "mean": 4.666667,
+      "median": 4.0,
+      "routes_with_crossings": 39
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.032
+    },
+    {
+     "plane_id": 7,
+     "label": "L7",
+     "z_mm": -0.1,
+     "kind": "body",
+     "interface": null,
+     "routes": 52,
+     "parts": 171,
+     "assigned_routes": 45,
+     "direct_routes": 0,
+     "crossings": 45,
+     "crossing_pairs": 40,
+     "min_non_crossing_centerline_mm": 0.105024497,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 27,
+      "max": 11,
+      "p95": 7.7,
+      "mean": 3.333333,
+      "median": 3.0,
+      "routes_with_crossings": 27
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.022
+    },
+    {
+     "plane_id": 20,
+     "label": "L20",
+     "z_mm": -0.05,
+     "kind": "body",
+     "interface": null,
+     "routes": 45,
+     "parts": 174,
+     "assigned_routes": 39,
+     "direct_routes": 0,
+     "crossings": 39,
+     "crossing_pairs": 37,
+     "min_non_crossing_centerline_mm": 0.090483739,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 24,
+      "max": 7,
+      "p95": 6.85,
+      "mean": 3.25,
+      "median": 3.0,
+      "routes_with_crossings": 24
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.023
+    },
+    {
+     "plane_id": 1001,
+     "label": "Z1_INTERFACE",
+     "z_mm": 0.0,
+     "kind": "interface_body",
+     "interface": "z1",
+     "routes": 512,
+     "parts": 1111,
+     "assigned_routes": 46,
+     "direct_routes": 46,
+     "crossings": 91,
+     "crossing_pairs": 88,
+     "min_non_crossing_centerline_mm": 0.105024497,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 41,
+      "max": 12,
+      "p95": 9.0,
+      "mean": 4.439024,
+      "median": 4.0,
+      "routes_with_crossings": 41
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": {
+      "direct_direct": 89,
+      "direct_lead": 2,
+      "lead_non_direct": 0
+     },
+     "runtime_seconds": 0.472
+    },
+    {
+     "plane_id": 8,
+     "label": "L8",
+     "z_mm": 0.05,
+     "kind": "body",
+     "interface": null,
+     "routes": 41,
+     "parts": 170,
+     "assigned_routes": 40,
+     "direct_routes": 0,
+     "crossings": 70,
+     "crossing_pairs": 67,
+     "min_non_crossing_centerline_mm": 0.105024498,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 33,
+      "max": 11,
+      "p95": 7.4,
+      "mean": 4.242424,
+      "median": 4.0,
+      "routes_with_crossings": 33
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.025
+    },
+    {
+     "plane_id": 9,
+     "label": "L9",
+     "z_mm": 0.1,
+     "kind": "body",
+     "interface": null,
+     "routes": 55,
+     "parts": 162,
+     "assigned_routes": 51,
+     "direct_routes": 0,
+     "crossings": 109,
+     "crossing_pairs": 107,
+     "min_non_crossing_centerline_mm": 0.385528547,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 45,
+      "max": 13,
+      "p95": 9.0,
+      "mean": 4.844444,
+      "median": 5.0,
+      "routes_with_crossings": 45
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.043
+    },
+    {
+     "plane_id": 10,
+     "label": "L10",
+     "z_mm": 0.15,
+     "kind": "body",
+     "interface": null,
+     "routes": 30,
+     "parts": 157,
+     "assigned_routes": 30,
+     "direct_routes": 0,
+     "crossings": 71,
+     "crossing_pairs": 68,
+     "min_non_crossing_centerline_mm": 0.178803067,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 26,
+      "max": 12,
+      "p95": 11.75,
+      "mean": 5.461538,
+      "median": 5.0,
+      "routes_with_crossings": 26
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.024
+    },
+    {
+     "plane_id": 11,
+     "label": "L11",
+     "z_mm": 0.2,
+     "kind": "body",
+     "interface": null,
+     "routes": 39,
+     "parts": 190,
+     "assigned_routes": 38,
+     "direct_routes": 0,
+     "crossings": 41,
+     "crossing_pairs": 31,
+     "min_non_crossing_centerline_mm": 0.105024497,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 25,
+      "max": 12,
+      "p95": 8.4,
+      "mean": 3.28,
+      "median": 2.0,
+      "routes_with_crossings": 25
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.023
+    },
+    {
+     "plane_id": 12,
+     "label": "L12",
+     "z_mm": 0.25,
+     "kind": "body",
+     "interface": null,
+     "routes": 48,
+     "parts": 242,
+     "assigned_routes": 48,
+     "direct_routes": 0,
+     "crossings": 7,
+     "crossing_pairs": 6,
+     "min_non_crossing_centerline_mm": 0.177599308,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 6,
+      "max": 4,
+      "p95": 3.75,
+      "mean": 2.333333,
+      "median": 2.0,
+      "routes_with_crossings": 6
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.031
+    },
+    {
+     "plane_id": 13,
+     "label": "L13",
+     "z_mm": 0.3,
+     "kind": "body",
+     "interface": null,
+     "routes": 47,
+     "parts": 232,
+     "assigned_routes": 47,
+     "direct_routes": 0,
+     "crossings": 12,
+     "crossing_pairs": 10,
+     "min_non_crossing_centerline_mm": 0.094709387,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 7,
+      "max": 5,
+      "p95": 5.0,
+      "mean": 3.428571,
+      "median": 3.0,
+      "routes_with_crossings": 7
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.033
+    },
+    {
+     "plane_id": 14,
+     "label": "L14",
+     "z_mm": 0.35,
+     "kind": "body",
+     "interface": null,
+     "routes": 48,
+     "parts": 144,
+     "assigned_routes": 48,
+     "direct_routes": 0,
+     "crossings": 99,
+     "crossing_pairs": 99,
+     "min_non_crossing_centerline_mm": 2.707696067,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 39,
+      "max": 18,
+      "p95": 11.1,
+      "mean": 5.076923,
+      "median": 4.0,
+      "routes_with_crossings": 39
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.036
+    },
+    {
+     "plane_id": 15,
+     "label": "L15",
+     "z_mm": 0.4,
+     "kind": "body",
+     "interface": null,
+     "routes": 48,
+     "parts": 150,
+     "assigned_routes": 48,
+     "direct_routes": 0,
+     "crossings": 73,
+     "crossing_pairs": 68,
+     "min_non_crossing_centerline_mm": 0.323234217,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 41,
+      "max": 10,
+      "p95": 8.0,
+      "mean": 3.560976,
+      "median": 3.0,
+      "routes_with_crossings": 41
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.03
+    },
+    {
+     "plane_id": 16,
+     "label": "L16",
+     "z_mm": 0.45,
+     "kind": "body",
+     "interface": null,
+     "routes": 46,
+     "parts": 138,
+     "assigned_routes": 46,
+     "direct_routes": 0,
+     "crossings": 75,
+     "crossing_pairs": 75,
+     "min_non_crossing_centerline_mm": 2.707696067,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 36,
+      "max": 12,
+      "p95": 9.0,
+      "mean": 4.166667,
+      "median": 4.0,
+      "routes_with_crossings": 36
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.033
+    },
+    {
+     "plane_id": 1002,
+     "label": "Z2_INTERFACE",
+     "z_mm": 0.5,
+     "kind": "interface_body",
+     "interface": "z2",
+     "routes": 512,
+     "parts": 1088,
+     "assigned_routes": 53,
+     "direct_routes": 53,
+     "crossings": 130,
+     "crossing_pairs": 126,
+     "min_non_crossing_centerline_mm": 0.247881508,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 47,
+      "max": 19,
+      "p95": 11.7,
+      "mean": 5.531915,
+      "median": 5.0,
+      "routes_with_crossings": 47
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": {
+      "direct_direct": 130,
+      "direct_lead": 0,
+      "lead_non_direct": 0
+     },
+     "runtime_seconds": 0.705
+    },
+    {
+     "plane_id": 17,
+     "label": "L17",
+     "z_mm": 0.55,
+     "kind": "body",
+     "interface": null,
+     "routes": 52,
+     "parts": 162,
+     "assigned_routes": 52,
+     "direct_routes": 0,
+     "crossings": 107,
+     "crossing_pairs": 102,
+     "min_non_crossing_centerline_mm": 0.323234217,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 46,
+      "max": 16,
+      "p95": 9.75,
+      "mean": 4.652174,
+      "median": 4.0,
+      "routes_with_crossings": 46
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.038
+    },
+    {
+     "plane_id": 18,
+     "label": "L18",
+     "z_mm": 0.6,
+     "kind": "body",
+     "interface": null,
+     "routes": 47,
+     "parts": 141,
+     "assigned_routes": 47,
+     "direct_routes": 0,
+     "crossings": 92,
+     "crossing_pairs": 92,
+     "min_non_crossing_centerline_mm": 2.707696067,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 38,
+      "max": 17,
+      "p95": 11.15,
+      "mean": 4.842105,
+      "median": 4.0,
+      "routes_with_crossings": 38
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.033
+    },
+    {
+     "plane_id": 19,
+     "label": "L19",
+     "z_mm": 0.65,
+     "kind": "body",
+     "interface": null,
+     "routes": 50,
+     "parts": 160,
+     "assigned_routes": 50,
+     "direct_routes": 0,
+     "crossings": 89,
+     "crossing_pairs": 87,
+     "min_non_crossing_centerline_mm": 0.321953536,
+     "violations": 0,
+     "route_crossing_distribution": {
+      "routes": 39,
+      "max": 18,
+      "p95": 9.3,
+      "mean": 4.564103,
+      "median": 4.0,
+      "routes_with_crossings": 39
+     },
+     "crossing_kinds": {},
+     "interface_direct_crossings": null,
+     "runtime_seconds": 0.032
+    }
+   ],
+   "totals": {
+    "crossings": 1259,
+    "crossing_pairs": 1209,
+    "violations": 0
+   },
+   "min_non_crossing_centerline_mm": 0.086853441,
+   "per_route_distribution": {
+    "routes": 578,
+    "max": 19,
+    "p95": 11.0,
+    "mean": 4.356401,
+    "median": 4.0,
+    "routes_with_crossings": 578
+   },
+   "audited_heights": 21,
+   "missing_model_planes": [],
+   "runtime_seconds": 1.83,
+   "crossing_rule": "every flat part grouped by physical z (all heights, interface leads merged); fslw strict D56 audit per height; reused validate21.check_crossings",
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "manual_frozen": {
+   "check": "manual_frozen",
+   "rule": "manual-group routes must keep route identity (endpoints, plane, sides, rows); the 3D geometry may be freely re-optimized subject to all hard constraints; the full geometry checks always run",
+   "policy": "fully_optimizable",
+   "contract": {
+    "schema": "xyz_manual_policy_v1",
+    "policy": "fully_optimizable",
+    "geometry_checks": [
+     "structure",
+     "native_metadata",
+     "radius",
+     "glass",
+     "clearance",
+     "crossings"
+    ],
+    "constraints": {
+     "r15_mm": 15.0,
+     "min_3d_clearance_mm": 0.05,
+     "d56_crossing_rule": "strict same-plane (unchanged)",
+     "crossing_grouping": "per physical z",
+     "model_height_count": 21
+    },
+    "description": "manual route identity / ports / connection are fixed; the whole 3D geometry may change",
+    "identity_fixed": true,
+    "body_xy_fixed": false,
+    "body_z_fixed": false,
+    "identity_fields": [
+     "source_endpoint",
+     "target_endpoint",
+     "plane",
+     "source_side",
+     "target_side",
+     "source_row",
+     "target_row"
+    ],
+    "allowed_changes": [
+     "body_xy_geometry",
+     "body_flat_z_mm",
+     "n_transitions",
+     "lead_lengths",
+     "transition_geometry",
+     "layer_ids"
+    ]
+   },
+   "manual_route_count": 368,
+   "checked": 368,
+   "matched": 368,
+   "mismatch_count": 0,
+   "mismatch_route_ids": [],
+   "missing_in_baseline": [],
+   "missing_in_run": [],
+   "changed_manual_route_ids": [],
+   "identity_fields": [
+    "source_endpoint",
+    "target_endpoint",
+    "plane",
+    "source_side",
+    "target_side",
+    "source_row",
+    "target_row"
+   ],
+   "identity_mismatch_count": 0,
+   "identity_mismatched_route_ids": [],
+   "body_flat_xy_tolerance_mm": null,
+   "body_flats_checked": 0,
+   "body_flat_count_mismatch_count": 0,
+   "body_flat_count_mismatch_route_ids": [],
+   "body_primitive_kind_mismatch_count": 0,
+   "body_primitive_count_mismatch_count": 0,
+   "body_xy_mismatch_count": 0,
+   "body_xy_mismatch_route_ids": [],
+   "body_z_changed_count": 62,
+   "body_z_changed_route_ids": [
+    49,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    72,
+    265,
+    268,
+    271,
+    274,
+    277,
+    280,
+    283,
+    286,
+    288,
+    289,
+    291,
+    292,
+    294,
+    297,
+    298,
+    300,
+    301,
+    303,
+    304,
+    306,
+    307,
+    310,
+    333,
+    335,
+    405,
+    406,
+    407,
+    773,
+    781,
+    783,
+    785,
+    786,
+    787,
+    789,
+    790,
+    791,
+    793,
+    794,
+    795,
+    797,
+    798,
+    801,
+    802,
+    803,
+    807,
+    811
+   ],
+   "transition_count_changed_count": 0,
+   "transition_count_changed_route_ids": [],
+   "lead_length_changed_count": 58,
+   "lead_length_changed_route_ids": [
+    49,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    72,
+    265,
+    268,
+    271,
+    274,
+    277,
+    280,
+    283,
+    286,
+    288,
+    289,
+    291,
+    292,
+    295,
+    298,
+    301,
+    304,
+    307,
+    310,
+    405,
+    406,
+    773,
+    781,
+    782,
+    783,
+    785,
+    786,
+    787,
+    789,
+    790,
+    791,
+    793,
+    794,
+    795,
+    796,
+    797,
+    798,
+    799,
+    801,
+    802,
+    803,
+    807,
+    811
+   ],
+   "manual_geometry_mismatch_count": 0,
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  },
+  "synthetic": {
+   "check": "synthetic",
+   "tests": 7,
+   "passed": 7,
+   "failed": 0,
+   "all_passed": true,
+   "cases": [
+    {
+     "name": "duckout_L6_L7_L6_accepted",
+     "passed": true,
+     "detail": {
+      "structure_errors": [],
+      "world_violations": [],
+      "radius_violations": [],
+      "max_position_gap_mm": 0.0,
+      "max_z_gap_mm": 0.0,
+      "max_tangent_gap": 0.0
+     }
+    },
+    {
+     "name": "z_offset_49um_rejected",
+     "passed": true,
+     "detail": {
+      "rejection_kinds": [
+       "flat_cross_plane_too_close"
+      ],
+      "rejection_violations": [
+       {
+        "kind": "flat_cross_plane_too_close",
+        "route_id": 900202,
+        "z_mm": -0.10099999999999999,
+        "other_z_mm": -0.15,
+        "detail": "layer_gap=0.049<0.05"
+       }
+      ],
+      "flat_z_not_model_height": true,
+      "control_50um_violations": []
+     }
+    },
+    {
+     "name": "radius_14_rejected",
+     "passed": true,
+     "detail": {
+      "violation_kinds": [
+       "transition_declared_radius_not_r15",
+       "transition_true_3d_radius_below_r15"
+      ],
+      "violations": [
+       {
+        "kind": "transition_declared_radius_not_r15",
+        "route_id": 900001,
+        "detail": "part=1 radius_mm=14.0"
+       },
+       {
+        "kind": "transition_true_3d_radius_below_r15",
+        "route_id": 900001,
+        "detail": "part=1 min_sampled_radius=14"
+       },
+       {
+        "kind": "transition_declared_radius_not_r15",
+        "route_id": 900001,
+        "detail": "part=3 radius_mm=14.0"
+       },
+       {
+        "kind": "transition_true_3d_radius_below_r15",
+        "route_id": 900001,
+        "detail": "part=3 min_sampled_radius=14"
+       }
+      ],
+      "transition_count": 2,
+      "min_sampled_radius": 13.9999999953457
+     }
+    },
+    {
+     "name": "position_discontinuity_1e-3_rejected",
+     "passed": true,
+     "detail": {
+      "world_structure_errors": [
+       "flat_transition_position_mismatch"
+      ],
+      "max_position_gap_mm": 0.0010000000000012221,
+      "tolerance_mm": 1e-06
+     }
+    },
+    {
+     "name": "flat_overlap_rejected",
+     "passed": true,
+     "detail": {
+      "violation_kinds": [
+       "flat_same_plane_conflict"
+      ],
+      "violations": [
+       {
+        "kind": "flat_same_plane_conflict",
+        "route_id": 900302,
+        "z_mm": -0.15,
+        "blockers": [
+         900301000
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "complete_native_route_accepted",
+     "passed": true,
+     "detail": {
+      "structure_violations": [],
+      "metadata_violations": [],
+      "radius_violations": [],
+      "world_violations": [],
+      "max_position_gap_mm": 0.0,
+      "max_z_gap_mm": 0.0,
+      "max_tangent_gap": 0.0,
+      "metadata_counts": {
+       "native_routes": 1,
+       "mid_transitions": 2,
+       "excursions": 1
+      }
+     }
+    },
+    {
+     "name": "two_excursions_accepted",
+     "passed": true,
+     "detail": {
+      "structure_violations": [],
+      "metadata_violations": [],
+      "radius_violations": [],
+      "world_violations": [],
+      "max_position_gap_mm": 0.0,
+      "max_z_gap_mm": 0.0,
+      "max_tangent_gap": 0.0,
+      "recomputed": {
+       "body_heights": [
+        -0.15,
+        -0.1,
+        -0.15,
+        -0.2,
+        -0.15
+       ],
+       "mid_part_indices": [
+        3,
+        5,
+        7,
+        9
+       ],
+       "excursion_indices": [
+        [
+         3,
+         4,
+         5
+        ],
+        [
+         7,
+         8,
+         9
+        ]
+       ],
+       "layer_sequence": [
+        1,
+        6,
+        7,
+        6,
+        5,
+        6,
+        1
+       ]
+      },
+      "metadata_counts": {
+       "native_routes": 1,
+       "mid_transitions": 4,
+       "excursions": 2,
+       "max_body_flats_per_route": 5
+      }
+     }
+    }
+   ],
+   "error": null,
+   "violations": 0,
+   "violation_kinds": {},
+   "offending_route_ids": [],
+   "offending_route_count": 0
+  }
+ },
+ "violations": [],
+ "violation_count": 0,
+ "violations_truncated": false,
+ "violation_counts_by_check": {},
+ "violation_kinds": {},
+ "offending_route_ids": [],
+ "offending_route_count": 0,
+ "synthetic_consistency": {
+  "schema": "native3d_consistency_v1",
+  "generated_at": "2026-11-04T19:04:50",
+  "all_passed": true,
+  "tests": [
+   {
+    "name": "duckout_L6_L7_L6_accepted",
+    "passed": true,
+    "detail": {
+     "structure_errors": [],
+     "world_violations": [],
+     "radius_violations": [],
+     "max_position_gap_mm": 0.0,
+     "max_z_gap_mm": 0.0,
+     "max_tangent_gap": 0.0
+    }
+   },
+   {
+    "name": "z_offset_49um_rejected",
+    "passed": true,
+    "detail": {
+     "rejection_kinds": [
+      "flat_cross_plane_too_close"
+     ],
+     "rejection_violations": [
+      {
+       "kind": "flat_cross_plane_too_close",
+       "route_id": 900202,
+       "z_mm": -0.10099999999999999,
+       "other_z_mm": -0.15,
+       "detail": "layer_gap=0.049<0.05"
+      }
+     ],
+     "flat_z_not_model_height": true,
+     "control_50um_violations": []
+    }
+   },
+   {
+    "name": "radius_14_rejected",
+    "passed": true,
+    "detail": {
+     "violation_kinds": [
+      "transition_declared_radius_not_r15",
+      "transition_true_3d_radius_below_r15"
+     ],
+     "violations": [
+      {
+       "kind": "transition_declared_radius_not_r15",
+       "route_id": 900001,
+       "detail": "part=1 radius_mm=14.0"
+      },
+      {
+       "kind": "transition_true_3d_radius_below_r15",
+       "route_id": 900001,
+       "detail": "part=1 min_sampled_radius=14"
+      },
+      {
+       "kind": "transition_declared_radius_not_r15",
+       "route_id": 900001,
+       "detail": "part=3 radius_mm=14.0"
+      },
+      {
+       "kind": "transition_true_3d_radius_below_r15",
+       "route_id": 900001,
+       "detail": "part=3 min_sampled_radius=14"
+      }
+     ],
+     "transition_count": 2,
+     "min_sampled_radius": 13.9999999953457
+    }
+   },
+   {
+    "name": "position_discontinuity_1e-3_rejected",
+    "passed": true,
+    "detail": {
+     "world_structure_errors": [
+      "flat_transition_position_mismatch"
+     ],
+     "max_position_gap_mm": 0.0010000000000012221,
+     "tolerance_mm": 1e-06
+    }
+   },
+   {
+    "name": "flat_overlap_rejected",
+    "passed": true,
+    "detail": {
+     "violation_kinds": [
+      "flat_same_plane_conflict"
+     ],
+     "violations": [
+      {
+       "kind": "flat_same_plane_conflict",
+       "route_id": 900302,
+       "z_mm": -0.15,
+       "blockers": [
+        900301000
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "name": "complete_native_route_accepted",
+    "passed": true,
+    "detail": {
+     "structure_violations": [],
+     "metadata_violations": [],
+     "radius_violations": [],
+     "world_violations": [],
+     "max_position_gap_mm": 0.0,
+     "max_z_gap_mm": 0.0,
+     "max_tangent_gap": 0.0,
+     "metadata_counts": {
+      "native_routes": 1,
+      "mid_transitions": 2,
+      "excursions": 1
+     }
+    }
+   },
+   {
+    "name": "two_excursions_accepted",
+    "passed": true,
+    "detail": {
+     "structure_violations": [],
+     "metadata_violations": [],
+     "radius_violations": [],
+     "world_violations": [],
+     "max_position_gap_mm": 0.0,
+     "max_z_gap_mm": 0.0,
+     "max_tangent_gap": 0.0,
+     "recomputed": {
+      "body_heights": [
+       -0.15,
+       -0.1,
+       -0.15,
+       -0.2,
+       -0.15
+      ],
+      "mid_part_indices": [
+       3,
+       5,
+       7,
+       9
+      ],
+      "excursion_indices": [
+       [
+        3,
+        4,
+        5
+       ],
+       [
+        7,
+        8,
+        9
+       ]
+      ],
+      "layer_sequence": [
+       1,
+       6,
+       7,
+       6,
+       5,
+       6,
+       1
+      ]
+     },
+     "metadata_counts": {
+      "native_routes": 1,
+      "mid_transitions": 4,
+      "excursions": 2,
+      "max_body_flats_per_route": 5
+     }
+    }
+   }
+  ],
+  "error": null
+ },
+ "regression": null,
+ "geometry_pass": true,
+ "contract_pass": true,
+ "policy_report": {
+  "schema": "xyz_manual_policy_report_v1",
+  "policy": "fully_optimizable",
+  "check": "manual_frozen",
+  "contract": {
+   "schema": "xyz_manual_policy_v1",
+   "policy": "fully_optimizable",
+   "geometry_checks": [
+    "structure",
+    "native_metadata",
+    "radius",
+    "glass",
+    "clearance",
+    "crossings"
+   ],
+   "constraints": {
+    "r15_mm": 15.0,
+    "min_3d_clearance_mm": 0.05,
+    "d56_crossing_rule": "strict same-plane (unchanged)",
+    "crossing_grouping": "per physical z",
+    "model_height_count": 21
+   },
+   "description": "manual route identity / ports / connection are fixed; the whole 3D geometry may change",
+   "identity_fixed": true,
+   "body_xy_fixed": false,
+   "body_z_fixed": false,
+   "identity_fields": [
+    "source_endpoint",
+    "target_endpoint",
+    "plane",
+    "source_side",
+    "target_side",
+    "source_row",
+    "target_row"
+   ],
+   "allowed_changes": [
+    "body_xy_geometry",
+    "body_flat_z_mm",
+    "n_transitions",
+    "lead_lengths",
+    "transition_geometry",
+    "layer_ids"
+   ]
+  },
+  "rule": "manual-group routes must keep route identity (endpoints, plane, sides, rows); the 3D geometry may be freely re-optimized subject to all hard constraints; the full geometry checks always run",
+  "passed": true,
+  "violation_count": 0,
+  "violation_kinds": {},
+  "offending_route_ids": [],
+  "offending_route_count": 0,
+  "manual_route_count": 368,
+  "checked": 368,
+  "matched": 368,
+  "mismatch_count": 0,
+  "mismatch_route_ids": [],
+  "changed_manual_route_ids": [],
+  "body_z_changed_count": 62,
+  "body_z_changed_route_ids": [
+   49,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   72,
+   265,
+   268,
+   271,
+   274,
+   277,
+   280,
+   283,
+   286,
+   288,
+   289,
+   291,
+   292,
+   294,
+   297,
+   298,
+   300,
+   301,
+   303,
+   304,
+   306,
+   307,
+   310,
+   333,
+   335,
+   405,
+   406,
+   407,
+   773,
+   781,
+   783,
+   785,
+   786,
+   787,
+   789,
+   790,
+   791,
+   793,
+   794,
+   795,
+   797,
+   798,
+   801,
+   802,
+   803,
+   807,
+   811
+  ],
+  "identity_mismatch_count": 0,
+  "identity_mismatched_route_ids": [],
+  "body_flat_count_mismatch_count": 0,
+  "body_flat_count_mismatch_route_ids": [],
+  "body_xy_mismatch_count": 0,
+  "body_xy_mismatch_route_ids": [],
+  "transition_count_changed_count": 0,
+  "transition_count_changed_route_ids": [],
+  "lead_length_changed_count": 58,
+  "lead_length_changed_route_ids": [
+   49,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   72,
+   265,
+   268,
+   271,
+   274,
+   277,
+   280,
+   283,
+   286,
+   288,
+   289,
+   291,
+   292,
+   295,
+   298,
+   301,
+   304,
+   307,
+   310,
+   405,
+   406,
+   773,
+   781,
+   782,
+   783,
+   785,
+   786,
+   787,
+   789,
+   790,
+   791,
+   793,
+   794,
+   795,
+   796,
+   797,
+   798,
+   799,
+   801,
+   802,
+   803,
+   807,
+   811
+  ],
+  "body_flats_checked": 0,
+  "body_flat_xy_tolerance_mm": null,
+  "geometry_checks_run": [
+   "structure",
+   "native_metadata",
+   "radius",
+   "glass",
+   "clearance",
+   "crossings"
+  ],
+  "constraints": {
+   "r15_mm": 15.0,
+   "min_3d_clearance_mm": 0.05,
+   "min_layer_pitch_mm": 0.05,
+   "d56_crossing_rule": "strict same-plane (unchanged)",
+   "crossing_grouping": "per physical z",
+   "model_height_count": 21
+  },
+  "body_primitive_kind_mismatch_count": 0,
+  "body_primitive_count_mismatch_count": 0,
+  "identity_fields": [
+   "source_endpoint",
+   "target_endpoint",
+   "plane",
+   "source_side",
+   "target_side",
+   "source_row",
+   "target_row"
+  ]
+ },
+ "validation_pass": true,
+ "exit_code": 0,
+ "runtime_seconds": 26.51,
+ "validation_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\01_arm_C0\\validation\\validation.json",
+ "consistency_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\01_arm_C0\\validation\\validator_consistency_tests.json",
+ "xyz_validator": "four_side_1024.fanout1024.xyzrouter.validate_xyz"
+}

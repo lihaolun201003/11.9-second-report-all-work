@@ -1,0 +1,467 @@
+{
+ "schema": "g4_contract_evidence_v1",
+ "code_evidence": [
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 45,
+   "label": "glass thickness 1 mm",
+   "text": "GLASS_THICKNESS_MM = 1.000"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 46,
+   "label": "glass z lower bound",
+   "text": "GLASS_Z_MIN_MM = -0.35"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 47,
+   "label": "glass z upper bound",
+   "text": "GLASS_Z_MAX_MM = 0.65"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 50,
+   "label": "50 um minimum layer pitch",
+   "text": "MIN_LAYER_PITCH_MM = 0.05      # confirmed process input (50 um)"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 51,
+   "label": "50 um true 3D clearance",
+   "text": "MIN_3D_CLEARANCE_MM = 0.05     # true 3D centre-line clearance used by the world"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 52,
+   "label": "waveguide width 50 um",
+   "text": "WIDTH_MM = 0.05"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 53,
+   "label": "same-layer edge gap 30 um",
+   "text": "EDGE_GAP_MM = 0.03             # same-layer 2D rule (original D56: 0.05 + 0.03)"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 54,
+   "label": "same-layer 2D centreline clearance 80 um",
+   "text": "CLEARANCE_2D_MM = WIDTH_MM + EDGE_GAP_MM"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 55,
+   "label": "R15 minimum bend radius",
+   "text": "MIN_BEND_RADIUS_MM = 15.0"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 57,
+   "label": "legacy 80 um global clearance (never restored)",
+   "text": "LEGACY_GLOBAL_CLEARANCE_MM = 0.08   # NEVER restored as a global 3D rule"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 309,
+   "label": "cross-height rule text",
+   "text": "different_physical_planes='legal when |dz| >= 0.05 mm; XY overlap alone '"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 311,
+   "label": "transition 3D clearance rule text",
+   "text": "transition_vs_other='true 3D centre-line distance must be >= 0.05 mm',"
+  },
+  {
+   "file": "four_side_1024/fanout1024/common.py",
+   "file_short": "four_side_1024/fanout1024/common.py",
+   "line": 305,
+   "label": "same-layer crossing preservation text",
+   "text": "'0.03); legal transverse crossings preserved',"
+  },
+  {
+   "file": "four_side_1024/l3d/world.py",
+   "file_short": "four_side_1024/l3d/world.py",
+   "line": 9,
+   "label": "world 3D rule docstring",
+   "text": "* **different physical planes** (any two parts whose z differ): true 3D"
+  },
+  {
+   "file": "four_side_1024/l3d/world.py",
+   "file_short": "four_side_1024/l3d/world.py",
+   "line": 46,
+   "label": "world uses strict D56 policy",
+   "text": "crossing_policy='strict')"
+  },
+  {
+   "file": "four_side_1024/l3d/world.py",
+   "file_short": "four_side_1024/l3d/world.py",
+   "line": 236,
+   "label": "cross-plane pitch enforcement",
+   "text": "kind='flat_cross_plane_too_close',"
+  },
+  {
+   "file": "four_side_1024/l3d/world.py",
+   "file_short": "four_side_1024/l3d/world.py",
+   "line": 79,
+   "label": "world clearance argument",
+   "text": "self.clearance = float(C.CLEARANCE_MM if clearance is None else clearance)"
+  },
+  {
+   "file": "four_side_1024/fsd25d/world25d.py",
+   "file_short": "four_side_1024/fsd25d/world25d.py",
+   "line": 9,
+   "label": "flat cross-layer safety by pitch",
+   "text": "covered by the strict 2D index; flat-to-flat pairs on different layers are"
+  },
+  {
+   "file": "four_side_1024/fsd25d/world25d.py",
+   "file_short": "four_side_1024/fsd25d/world25d.py",
+   "line": 320,
+   "label": "transition-vs-flat violation kind",
+   "text": "def _transition_vs_flats(self, part, route_id):"
+  },
+  {
+   "file": "four_side_1024/fsd25d/world25d.py",
+   "file_short": "four_side_1024/fsd25d/world25d.py",
+   "line": 450,
+   "label": "transition-vs-transition violation kind",
+   "text": "def _transition_vs_transitions(self, part, route_id):"
+  },
+  {
+   "file": "four_side_1024/fslw/config.py",
+   "file_short": "four_side_1024/fslw/config.py",
+   "line": 12,
+   "label": "fslw width",
+   "text": "WIDTH_MM = 0.050"
+  },
+  {
+   "file": "four_side_1024/fslw/config.py",
+   "file_short": "four_side_1024/fslw/config.py",
+   "line": 13,
+   "label": "fslw edge gap",
+   "text": "EDGE_GAP_MM = 0.030"
+  },
+  {
+   "file": "four_side_1024/fslw/config.py",
+   "file_short": "four_side_1024/fslw/config.py",
+   "line": 14,
+   "label": "fslw 80 um 2D clearance",
+   "text": "CLEARANCE_MM = WIDTH_MM + EDGE_GAP_MM          # 0.080 mm centreline clearance"
+  },
+  {
+   "file": "four_side_1024/fslw/config.py",
+   "file_short": "four_side_1024/fslw/config.py",
+   "line": 23,
+   "label": "D56 minimum genuine crossing angle 5 deg",
+   "text": "MIN_CROSS_ANGLE_DEG = 5.0"
+  },
+  {
+   "file": "four_side_1024/fslw/config.py",
+   "file_short": "four_side_1024/fslw/config.py",
+   "line": 22,
+   "label": "arc sagitta budget",
+   "text": "SAGITTA_MM = 0.0005"
+  },
+  {
+   "file": "four_side_1024/d56/index.py",
+   "file_short": "four_side_1024/d56/index.py",
+   "line": 116,
+   "label": "D56 crossing policy parameter",
+   "text": "crossing_policy='exact', max_half_window=STRICT_MAX_HALF_WINDOW):"
+  },
+  {
+   "file": "four_side_1024/d56/index.py",
+   "file_short": "four_side_1024/d56/index.py",
+   "line": 235,
+   "label": "strict policy dispatch",
+   "text": "if self.crossing_policy == 'strict':"
+  },
+  {
+   "file": "four_side_1024/fanout1024/nonc4/crossings.py",
+   "file_short": "four_side_1024/fanout1024/nonc4/crossings.py",
+   "line": 29,
+   "label": "crossing audit clearance = 80 um 2D",
+   "text": "D56_CLEARANCE_MM = C.CLEARANCE_2D_MM          # 0.08 mm centreline"
+  },
+  {
+   "file": "four_side_1024/fanout1024/nonc4/crossings.py",
+   "file_short": "four_side_1024/fanout1024/nonc4/crossings.py",
+   "line": 127,
+   "label": "crossing audit uses strict policy",
+   "text": "policy='strict')"
+  },
+  {
+   "file": "four_side_1024/fslw/validate_fslw.py",
+   "file_short": "four_side_1024/fslw/validate_fslw.py",
+   "line": 116,
+   "label": "max exempt crossing window half width 4 mm",
+   "text": "STRICT_MAX_HALF_WINDOW = 4.0            # mm; longer c-band running is not a crossing"
+  },
+  {
+   "file": "four_side_1024/fslw/validate_fslw.py",
+   "file_short": "four_side_1024/fslw/validate_fslw.py",
+   "line": 118,
+   "label": "strict crossing sine threshold sin(5 deg)",
+   "text": "STRICT_SINE_MIN = math.sin(math.radians(5.0))  # D56 minimum genuine crossing angle"
+  },
+  {
+   "file": "four_side_1024/fslw/validate_fslw.py",
+   "file_short": "four_side_1024/fslw/validate_fslw.py",
+   "line": 71,
+   "label": "D56 5 deg lower bound",
+   "text": "MIN_CROSS_ANGLE_DEG = 5.0"
+  },
+  {
+   "file": "four_side_1024/fslw/validate_fslw.py",
+   "file_short": "four_side_1024/fslw/validate_fslw.py",
+   "line": 70,
+   "label": "small-angle reporting threshold 10 deg",
+   "text": "CROSSING_SMALL_ANGLE_DEG = 10.0"
+  },
+  {
+   "file": "four_side_1024/fslw/validate_fslw.py",
+   "file_short": "four_side_1024/fslw/validate_fslw.py",
+   "line": 1812,
+   "label": "independent strict pair audit",
+   "text": "def audit_route_pairs(prepared, clearance=CLEARANCE, sagitta=SAGITTA,"
+  },
+  {
+   "file": "four_side_1024/fslw/validate_fslw.py",
+   "file_short": "four_side_1024/fslw/validate_fslw.py",
+   "line": 1335,
+   "label": "strict crossing-window evaluation",
+   "text": "def _evaluate_pair_strict(first, second, clearance, sagitta):"
+  },
+  {
+   "file": "four_side_1024/fanout1024/reheight21/model.py",
+   "file_short": "four_side_1024/fanout1024/reheight21/model.py",
+   "line": 108,
+   "label": "19 body routing heights",
+   "text": "BODY_PLANES = collections.OrderedDict(["
+  },
+  {
+   "file": "four_side_1024/fanout1024/reheight21/model.py",
+   "file_short": "four_side_1024/fanout1024/reheight21/model.py",
+   "line": 118,
+   "label": "2 routable interface heights",
+   "text": "INTERFACE_PLANES = collections.OrderedDict(["
+  },
+  {
+   "file": "four_side_1024/fanout1024/reheight21/model.py",
+   "file_short": "four_side_1024/fanout1024/reheight21/model.py",
+   "line": 101,
+   "label": "21-height model 50 um 3D clearance",
+   "text": "MIN_3D_CLEARANCE_MM = 0.05"
+  },
+  {
+   "file": "four_side_1024/fanout1024/reheight21/model.py",
+   "file_short": "four_side_1024/fanout1024/reheight21/model.py",
+   "line": 100,
+   "label": "21-height model 50 um pitch",
+   "text": "MIN_LAYER_PITCH_MM = 0.05"
+  },
+  {
+   "file": "four_side_1024/fanout1024/reheight21/validate21.py",
+   "file_short": "four_side_1024/fanout1024/reheight21/validate21.py",
+   "line": 1372,
+   "label": "validator uses 50 um, not the 80 um default",
+   "text": "world = World(stack, clearance=MIN_3D_CLEARANCE_MM)"
+  },
+  {
+   "file": "four_side_1024/fanout1024/reheight21/validate21.py",
+   "file_short": "four_side_1024/fanout1024/reheight21/validate21.py",
+   "line": 1544,
+   "label": "min-3D-clearance scan definition",
+   "text": "def measure_min_3d_clearance(routed, query_radius_mm=0.20,"
+  },
+  {
+   "file": "four_side_1024/fanout1024/reheight21/validate21.py",
+   "file_short": "four_side_1024/fanout1024/reheight21/validate21.py",
+   "line": 1683,
+   "label": "per-physical-height crossing audit",
+   "text": "def check_crossings(routed, planes, assignment_by_id, baseline_mode=False):"
+  },
+  {
+   "file": "four_side_1024/fanout1024/xyzrouter/world_adapter.py",
+   "file_short": "four_side_1024/fanout1024/xyzrouter/world_adapter.py",
+   "line": 31,
+   "label": "G1/G2/G3 router world clearance 50 um",
+   "text": "CLEARANCE_MM = 0.05"
+  },
+  {
+   "file": "four_side_1024/fanout1024/xyzrouter/world_adapter.py",
+   "file_short": "four_side_1024/fanout1024/xyzrouter/world_adapter.py",
+   "line": 42,
+   "label": "router world strict D56 policy",
+   "text": "crossing_policy='strict')"
+  }
+ ],
+ "contract_scope": {
+  "applies_to": [
+   {
+    "object": "21 routing heights (layer pitch)",
+    "rule": "adjacent physical heights must be >= 0.05 mm apart",
+    "evidence": {
+     "file": "four_side_1024/fanout1024/common.py",
+     "file_short": "four_side_1024/fanout1024/common.py",
+     "line": 45,
+     "label": "glass thickness 1 mm",
+     "text": "GLASS_THICKNESS_MM = 1.000"
+    },
+    "measured": {
+     "min_gap_mm": 0.05,
+     "heights": 21
+    }
+   },
+   {
+    "object": "flat pair on two DIFFERENT physical heights",
+    "rule": "legal when |dz| >= 0.05 mm; the 3-D distance is then >= |dz| >= 0.05 mm, XY overlap alone is not a violation",
+    "evidence": {
+     "file": "four_side_1024/l3d/world.py",
+     "file_short": "four_side_1024/l3d/world.py",
+     "line": 9,
+     "label": "world 3D rule docstring",
+     "text": "* **different physical planes** (any two parts whose z differ): true 3D"
+    },
+    "measured": {
+     "min_3d_distance_mm": 0.05
+    }
+   },
+   {
+    "object": "any pair that involves a transition (transition-vs-flat, transition-vs-transition)",
+    "rule": "true 3-D centreline distance >= 0.05 mm, no crossing exemption",
+    "evidence": {
+     "file": "four_side_1024/fsd25d/world25d.py",
+     "file_short": "four_side_1024/fsd25d/world25d.py",
+     "line": 9,
+     "label": "flat cross-layer safety by pitch",
+     "text": "covered by the strict 2D index; flat-to-flat pairs on different layers are"
+    },
+    "measured": {
+     "transition_vs_flat_min_mm": 0.063593135,
+     "transition_vs_transition_min_mm": 0.1
+    }
+   },
+   {
+    "object": "self clearance of one route",
+    "rule": "the same route may not come back within 0.05 mm of itself (path separation > 1 mm)",
+    "evidence": {
+     "file": "four_side_1024/fsd25d/world25d.py",
+     "file_short": "four_side_1024/fsd25d/world25d.py",
+     "line": 9,
+     "label": "flat cross-layer safety by pitch",
+     "text": "covered by the strict 2D index; flat-to-flat pairs on different layers are"
+    },
+    "measured": {
+     "min_self_mm": null
+    }
+   }
+  ],
+  "does_not_apply_to": [
+   {
+    "object": "same-physical-height flat/flat pair",
+    "rule": "governed by the original 2-D D56 rule: 0.05 mm width + 0.03 mm edge gap = 0.08 mm centreline, with the legal transverse-crossing exemption (>= 5 deg, local window)",
+    "evidence": {
+     "file": "four_side_1024/fanout1024/common.py",
+     "file_short": "four_side_1024/fanout1024/common.py",
+     "line": 45,
+     "label": "glass thickness 1 mm",
+     "text": "GLASS_THICKNESS_MM = 1.000"
+    }
+   },
+   {
+    "object": "the 80 um legacy global clearance",
+    "rule": "explicitly NOT restored as a global 3-D rule",
+    "evidence": {
+     "file": "four_side_1024/fanout1024/common.py",
+     "file_short": "four_side_1024/fanout1024/common.py",
+     "line": 45,
+     "label": "glass thickness 1 mm",
+     "text": "GLASS_THICKNESS_MM = 1.000"
+    }
+   }
+  ]
+ },
+ "consistency_argument": {
+  "question": "why can 1322 same-height centreline crossings (distance 0) coexist with 0 geometric violations?",
+  "answer": "Because the two rules act on disjoint partitions of the pair set. Same-physical-height flat/flat pairs are governed ONLY by the original strict D56 2-D rule (0.080 mm centreline clearance) which explicitly preserves genuine transverse crossings with angle >= 5 deg inside a local window; that rule is part of the frozen baseline contract (D56Index(crossing_policy=\"strict\"), already used by the frozen 2409-crossing baseline), not a G4 addition. Pairs on different physical heights are governed by the 50 um 3-D rule, and such pairs can never have distance 0 (|dz| >= 0.050 mm); the 50 um rule therefore never \"sees\" the same-height crossings. All crossing events are genuine (angle >= 5 deg, interior, no overlap/tangency/double-cross), so no event falls into the clearance-violation category.",
+  "disjoint_rules": [
+   "same physical height flat-flat <=> 2-D D56 0.08 mm + legal transverse crossing exemption",
+   "different physical height flat-flat <=> |dz| >= 0.05 mm (distance is bounded below by the layer pitch, XY overlap legal)",
+   "anything involving a transition <=> true 3-D centreline distance >= 0.05 mm (no crossing exemption)"
+  ],
+  "measured_support": {
+   "crossings_all_transverse": true,
+   "crossing_angle_range_deg": [
+    5.33239,
+    90.0
+   ],
+   "crossing_window_half_max_mm": 0.8624461179461043,
+   "max_window_policy_mm": 4.0,
+   "min_non_crossing_same_layer_mm": 0.086853441,
+   "min_flat_flat_cross_height_mm": 0.05,
+   "min_transition_vs_flat_mm": 0.063593135,
+   "min_transition_vs_transition_mm": 0.1
+  }
+ },
+ "contradiction_analysis": {
+  "code_contract_requires_global_50um": false,
+  "statement": "The contract as codified in this repository does NOT require every centreline pair to be >= 50 um: same-height flat pairs use the 0.08 mm D56 2-D rule with a documented legal-crossing exemption, and only cross-height / transition-related pairs use the 50 um 3-D rule. Therefore the audited result is consistent with the code contract.",
+  "residual_risk": "IF the original written physical contract (task book) is meant to be a global \"all centreline pairs >= 50 um with no exception\" rule, then the 1322 legal crossings (distance exactly 0) would be 1322 hard violations and a genuine contradiction exists. This audit does NOT silently extend or create any exemption: the exemption is the pre-existing frozen D56 strict policy. The requirement-level interpretation must be confirmed by the project owner before the legal crossings are quoted as compliant.",
+  "no_new_exemption_added": true,
+  "exemption_source": {
+   "module": "four_side_1024/d56/index.py + four_side_1024/l3d/world.py",
+   "evidence": [
+    {
+     "file": "four_side_1024/l3d/world.py",
+     "file_short": "four_side_1024/l3d/world.py",
+     "line": 9,
+     "label": "world 3D rule docstring",
+     "text": "* **different physical planes** (any two parts whose z differ): true 3D"
+    },
+    {
+     "file": "four_side_1024/d56/index.py",
+     "file_short": "four_side_1024/d56/index.py",
+     "line": 235,
+     "label": "strict policy dispatch",
+     "text": "if self.crossing_policy == 'strict':"
+    }
+   ],
+   "pre_existing": "the frozen baseline snapshot already carries 2409 crossings and passed the same validator before any G4 work; the crossing exemption is not introduced by this round"
+  },
+  "contract_vs_code_defaults": {
+   "note": "four_side_1024/l3d/world.py defaults clearance to fslw.config.CLEARANCE_MM = 0.08 mm (legacy) while the corrected 50 um model calls it with clearance=0.05 mm everywhere (validate21.check_true_3d_clearance, xyzrouter.world_adapter.CLEARANCE_MM). Under the 0.08 default the same board would report violations, so the explicit 0.05 argument is load-bearing and must never be dropped.",
+   "citations": [
+    {
+     "file": "four_side_1024/l3d/world.py",
+     "line": 79,
+     "text": "self.clearance = float(C.CLEARANCE_MM if clearance is None else clearance)"
+    },
+    {
+     "file": "four_side_1024/fanout1024/reheight21/validate21.py",
+     "line": 1372,
+     "text": "world = World(stack, clearance=MIN_3D_CLEARANCE_MM)"
+    },
+    {
+     "file": "four_side_1024/fanout1024/xyzrouter/world_adapter.py",
+     "line": 31,
+     "text": "CLEARANCE_MM = 0.05"
+    }
+   ]
+  }
+ }
+}

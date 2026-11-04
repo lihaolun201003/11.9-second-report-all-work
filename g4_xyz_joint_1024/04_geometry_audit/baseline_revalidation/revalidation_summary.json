@@ -1,0 +1,16 @@
+{
+ "validation_pass": true,
+ "violations": 0,
+ "routed": 1024,
+ "failed": 0,
+ "crossings": 1322,
+ "crossing_pairs": 1253,
+ "mid_transitions": 72,
+ "min_3d_clearance": 0.063595846,
+ "total_length": 156996.320802,
+ "policy": "fully_optimizable",
+ "policy_violations": 0,
+ "validator_id": "four_side_1024.fanout1024.xyzrouter.validate_xyz",
+ "run_dir": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "baseline_dir": "experiments\\xyz_joint_g123_1024\\baseline_authoritative"
+}

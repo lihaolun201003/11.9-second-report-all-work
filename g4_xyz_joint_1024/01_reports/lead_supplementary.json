@@ -1,0 +1,763 @@
+{
+ "structure": {
+  "crossings": 1322,
+  "pairs": 1253,
+  "manual_routes": 368,
+  "by_class": {
+   "manual-nonmanual": 107,
+   "nonmanual-nonmanual": 1213,
+   "manual-manual": 2
+  },
+  "heights": [
+   {
+    "z_mm": -0.35,
+    "label": "L2",
+    "plane_routes": 34,
+    "manual_at_height": 33,
+    "crossings": 17,
+    "pairs": 17,
+    "routes_in_crossings": 34
+   },
+   {
+    "z_mm": -0.3,
+    "label": "L3",
+    "plane_routes": 62,
+    "manual_at_height": 62,
+    "crossings": 0,
+    "pairs": 0,
+    "routes_in_crossings": 62
+   },
+   {
+    "z_mm": -0.25,
+    "label": "L4",
+    "plane_routes": 61,
+    "manual_at_height": 61,
+    "crossings": 0,
+    "pairs": 0,
+    "routes_in_crossings": 61
+   },
+   {
+    "z_mm": -0.2,
+    "label": "L5",
+    "plane_routes": 86,
+    "manual_at_height": 86,
+    "crossings": 0,
+    "pairs": 0,
+    "routes_in_crossings": 86
+   },
+   {
+    "z_mm": -0.15,
+    "label": "L6",
+    "plane_routes": 58,
+    "manual_at_height": 0,
+    "crossings": 96,
+    "pairs": 93,
+    "routes_in_crossings": 58
+   },
+   {
+    "z_mm": -0.1,
+    "label": "L7",
+    "plane_routes": 54,
+    "manual_at_height": 0,
+    "crossings": 54,
+    "pairs": 49,
+    "routes_in_crossings": 54
+   },
+   {
+    "z_mm": -0.05,
+    "label": "L20",
+    "plane_routes": 45,
+    "manual_at_height": 0,
+    "crossings": 44,
+    "pairs": 40,
+    "routes_in_crossings": 45
+   },
+   {
+    "z_mm": 0.0,
+    "label": "Z1_INTERFACE",
+    "plane_routes": 512,
+    "manual_at_height": 256,
+    "crossings": 82,
+    "pairs": 77,
+    "routes_in_crossings": 512
+   },
+   {
+    "z_mm": 0.05,
+    "label": "L8",
+    "plane_routes": 42,
+    "manual_at_height": 0,
+    "crossings": 79,
+    "pairs": 76,
+    "routes_in_crossings": 42
+   },
+   {
+    "z_mm": 0.1,
+    "label": "L9",
+    "plane_routes": 55,
+    "manual_at_height": 2,
+    "crossings": 109,
+    "pairs": 107,
+    "routes_in_crossings": 55
+   },
+   {
+    "z_mm": 0.15,
+    "label": "L10",
+    "plane_routes": 25,
+    "manual_at_height": 7,
+    "crossings": 84,
+    "pairs": 78,
+    "routes_in_crossings": 25
+   },
+   {
+    "z_mm": 0.2,
+    "label": "L11",
+    "plane_routes": 39,
+    "manual_at_height": 12,
+    "crossings": 55,
+    "pairs": 37,
+    "routes_in_crossings": 39
+   },
+   {
+    "z_mm": 0.25,
+    "label": "L12",
+    "plane_routes": 49,
+    "manual_at_height": 44,
+    "crossings": 9,
+    "pairs": 7,
+    "routes_in_crossings": 49
+   },
+   {
+    "z_mm": 0.3,
+    "label": "L13",
+    "plane_routes": 47,
+    "manual_at_height": 42,
+    "crossings": 12,
+    "pairs": 10,
+    "routes_in_crossings": 47
+   },
+   {
+    "z_mm": 0.35,
+    "label": "L14",
+    "plane_routes": 48,
+    "manual_at_height": 0,
+    "crossings": 99,
+    "pairs": 99,
+    "routes_in_crossings": 48
+   },
+   {
+    "z_mm": 0.4,
+    "label": "L15",
+    "plane_routes": 51,
+    "manual_at_height": 6,
+    "crossings": 81,
+    "pairs": 75,
+    "routes_in_crossings": 51
+   },
+   {
+    "z_mm": 0.45,
+    "label": "L16",
+    "plane_routes": 47,
+    "manual_at_height": 0,
+    "crossings": 79,
+    "pairs": 79,
+    "routes_in_crossings": 47
+   },
+   {
+    "z_mm": 0.5,
+    "label": "Z2_INTERFACE",
+    "plane_routes": 512,
+    "manual_at_height": 112,
+    "crossings": 130,
+    "pairs": 126,
+    "routes_in_crossings": 512
+   },
+   {
+    "z_mm": 0.55,
+    "label": "L17",
+    "plane_routes": 53,
+    "manual_at_height": 6,
+    "crossings": 109,
+    "pairs": 103,
+    "routes_in_crossings": 53
+   },
+   {
+    "z_mm": 0.6,
+    "label": "L18",
+    "plane_routes": 47,
+    "manual_at_height": 0,
+    "crossings": 92,
+    "pairs": 92,
+    "routes_in_crossings": 47
+   },
+   {
+    "z_mm": 0.65,
+    "label": "L19",
+    "plane_routes": 50,
+    "manual_at_height": 7,
+    "crossings": 91,
+    "pairs": 88,
+    "routes_in_crossings": 50
+   }
+  ],
+  "top_routes": [
+   {
+    "route_id": 640,
+    "crossings": 19,
+    "manual_group": "",
+    "length_mm": 217.562
+   },
+   {
+    "route_id": 740,
+    "crossings": 18,
+    "manual_group": "",
+    "length_mm": 217.572
+   },
+   {
+    "route_id": 637,
+    "crossings": 18,
+    "manual_group": "",
+    "length_mm": 217.572
+   },
+   {
+    "route_id": 129,
+    "crossings": 17,
+    "manual_group": "",
+    "length_mm": 287.072
+   },
+   {
+    "route_id": 639,
+    "crossings": 17,
+    "manual_group": "",
+    "length_mm": 217.567
+   },
+   {
+    "route_id": 739,
+    "crossings": 16,
+    "manual_group": "",
+    "length_mm": 217.564
+   },
+   {
+    "route_id": 636,
+    "crossings": 14,
+    "manual_group": "",
+    "length_mm": 226.812
+   },
+   {
+    "route_id": 8,
+    "crossings": 13,
+    "manual_group": "",
+    "length_mm": 198.384
+   },
+   {
+    "route_id": 216,
+    "crossings": 13,
+    "manual_group": "",
+    "length_mm": 177.209
+   },
+   {
+    "route_id": 744,
+    "crossings": 13,
+    "manual_group": "",
+    "length_mm": 195.472
+   },
+   {
+    "route_id": 741,
+    "crossings": 13,
+    "manual_group": "",
+    "length_mm": 208.356
+   },
+   {
+    "route_id": 130,
+    "crossings": 13,
+    "manual_group": "",
+    "length_mm": 189.634
+   },
+   {
+    "route_id": 31,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 193.761
+   },
+   {
+    "route_id": 705,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 226.856
+   },
+   {
+    "route_id": 495,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 170.037
+   },
+   {
+    "route_id": 672,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 208.312
+   },
+   {
+    "route_id": 642,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 273.067
+   },
+   {
+    "route_id": 643,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 273.064
+   },
+   {
+    "route_id": 708,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 226.822
+   },
+   {
+    "route_id": 669,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 208.322
+   },
+   {
+    "route_id": 670,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 208.314
+   },
+   {
+    "route_id": 635,
+    "crossings": 12,
+    "manual_group": "",
+    "length_mm": 226.817
+   },
+   {
+    "route_id": 157,
+    "crossings": 11,
+    "manual_group": "",
+    "length_mm": 185.498
+   },
+   {
+    "route_id": 493,
+    "crossings": 11,
+    "manual_group": "",
+    "length_mm": 189.631
+   },
+   {
+    "route_id": 706,
+    "crossings": 11,
+    "manual_group": "",
+    "length_mm": 213.972
+   }
+  ],
+  "graph": {
+   "edges": 1253,
+   "nodes": 588,
+   "max_degree": 19,
+   "components": 38,
+   "component_sizes": [
+    32,
+    28,
+    28,
+    27,
+    26,
+    26,
+    25,
+    25,
+    25,
+    23,
+    21,
+    20,
+    19,
+    18,
+    17,
+    15,
+    15,
+    15,
+    14,
+    13,
+    13,
+    13,
+    12,
+    12,
+    12,
+    11,
+    11,
+    11,
+    11,
+    10
+   ],
+   "multi_cross_pairs": 0,
+   "max_pair_events": 1
+  },
+  "angle_bins": {
+   "60-90": 850,
+   "30-60": 368,
+   "15-30": 46,
+   "5-15": 58
+  }
+ },
+ "interface": {
+  "crossings_interface": {},
+  "direct_migrations": [
+   {
+    "route_id": 157,
+    "layer": 5,
+    "z": -0.2,
+    "delta": -3
+   },
+   {
+    "route_id": 410,
+    "layer": 20,
+    "z": -0.05,
+    "delta": -3
+   }
+  ]
+ },
+ "component": {
+  "components": [
+   [
+    32,
+    111
+   ],
+   [
+    27,
+    87
+   ],
+   [
+    23,
+    84
+   ],
+   [
+    28,
+    83
+   ],
+   [
+    28,
+    82
+   ],
+   [
+    26,
+    80
+   ],
+   [
+    26,
+    77
+   ],
+   [
+    25,
+    66
+   ],
+   [
+    25,
+    60
+   ],
+   [
+    25,
+    53
+   ],
+   [
+    17,
+    47
+   ],
+   [
+    19,
+    46
+   ],
+   [
+    21,
+    35
+   ],
+   [
+    20,
+    33
+   ],
+   [
+    15,
+    33
+   ],
+   [
+    15,
+    31
+   ],
+   [
+    13,
+    28
+   ],
+   [
+    11,
+    26
+   ],
+   [
+    12,
+    25
+   ],
+   [
+    14,
+    22
+   ]
+  ],
+  "final_total": 1322,
+  "accepted_components": 0,
+  "ledger": {
+   "route_3d_checks": 333,
+   "d56_candidate_evals": 1950,
+   "xy_candidates_generated": 333,
+   "transactions": 2,
+   "world_builds": 1,
+   "valid_candidates": 215,
+   "rejected_3d": 118,
+   "accepted_transactions": 0,
+   "accepted_changes": 0,
+   "gain": 0,
+   "validator_runs": 0,
+   "no_candidate": 26,
+   "rolled_back": 2,
+   "wall_seconds": 0
+  }
+ },
+ "migration_probe": {
+  "probes": [
+   {
+    "route_id": 740,
+    "layer": 13,
+    "z": 0.3,
+    "load": 47,
+    "delta": -12,
+    "xy_crossings": 6
+   },
+   {
+    "route_id": 639,
+    "layer": 13,
+    "z": 0.3,
+    "load": 47,
+    "delta": -14,
+    "xy_crossings": 3
+   },
+   {
+    "route_id": 741,
+    "layer": 13,
+    "z": 0.3,
+    "load": 47,
+    "delta": -2,
+    "xy_crossings": 11
+   },
+   {
+    "route_id": 635,
+    "layer": 13,
+    "z": 0.3,
+    "load": 47,
+    "delta": -7,
+    "xy_crossings": 5
+   },
+   {
+    "route_id": 642,
+    "layer": 16,
+    "z": 0.45,
+    "load": 47,
+    "delta": -8,
+    "xy_crossings": 4
+   },
+   {
+    "route_id": 643,
+    "layer": 18,
+    "z": 0.6,
+    "load": 47,
+    "delta": -6,
+    "xy_crossings": 6
+   },
+   {
+    "route_id": 708,
+    "layer": 13,
+    "z": 0.3,
+    "load": 47,
+    "delta": -6,
+    "xy_crossings": 6
+   }
+  ],
+  "ledger": {
+   "route_3d_checks": 309,
+   "d56_candidate_evals": 1920,
+   "xy_candidates_generated": 309,
+   "transactions": 0,
+   "world_builds": 0,
+   "valid_candidates": 180,
+   "rejected_3d": 129,
+   "accepted_transactions": 0,
+   "accepted_changes": 0,
+   "gain": 0,
+   "validator_runs": 0,
+   "no_candidate": 0,
+   "rolled_back": 0,
+   "wall_seconds": 0
+  }
+ },
+ "explore_migrate": {
+  "label": "exploratory_exact_delta_height_redistribution",
+  "runs": [
+   {
+    "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\_lead_explore_migrate\\best_valid",
+    "start_crossings": 1226,
+    "final_crossings": 1226,
+    "accepted": 4,
+    "seconds": 606.4,
+    "top": 120,
+    "ledger": {
+     "route_3d_checks": 2502,
+     "d56_candidate_evals": 14952,
+     "xy_candidates_generated": 2498,
+     "transactions": 4,
+     "world_builds": 0,
+     "valid_candidates": 1280,
+     "rejected_3d": 1218,
+     "accepted_transactions": 4,
+     "accepted_changes": 4,
+     "gain": 22,
+     "validator_runs": 0,
+     "no_candidate": 0,
+     "rolled_back": 0,
+     "wall_seconds": 0
+    }
+   }
+  ],
+  "final_crossings": 1226
+ },
+ "explore_migrate2": {
+  "label": "exploratory_exact_delta_height_redistribution",
+  "runs": [
+   {
+    "start": "experiments\\xyz_joint_g4_1024\\_lead_explore_migrate2\\start_1201",
+    "start_crossings": 1191,
+    "final_crossings": 1191,
+    "accepted": 2,
+    "seconds": 308.2,
+    "top": 100,
+    "ledger": {
+     "route_3d_checks": 1356,
+     "d56_candidate_evals": 8352,
+     "xy_candidates_generated": 1354,
+     "transactions": 2,
+     "world_builds": 0,
+     "valid_candidates": 683,
+     "rejected_3d": 671,
+     "accepted_transactions": 2,
+     "accepted_changes": 2,
+     "gain": 10,
+     "validator_runs": 0,
+     "no_candidate": 0,
+     "rolled_back": 0,
+     "wall_seconds": 0
+    }
+   }
+  ],
+  "final_crossings": 1191
+ },
+ "explore_direct": {
+  "label": "exploratory_interface_direct_plane_recreate",
+  "start": "experiments\\xyz_joint_g4_1024\\_lead_explore_migrate\\best_valid",
+  "final_crossings": 1226,
+  "history": [
+   {
+    "round": 0,
+    "z": 0.0,
+    "order": "cross_desc",
+    "placed": 44,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   },
+   {
+    "round": 0,
+    "z": 0.0,
+    "order": "cross_asc",
+    "placed": 44,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   },
+   {
+    "round": 0,
+    "z": 0.0,
+    "order": "side_order",
+    "placed": 44,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   },
+   {
+    "round": 0,
+    "z": 0.0,
+    "order": "side_reverse",
+    "placed": 44,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   },
+   {
+    "round": 0,
+    "z": 0.5,
+    "order": "cross_desc",
+    "placed": 53,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   },
+   {
+    "round": 0,
+    "z": 0.5,
+    "order": "cross_asc",
+    "placed": 53,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   },
+   {
+    "round": 0,
+    "z": 0.5,
+    "order": "side_order",
+    "placed": 53,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   },
+   {
+    "round": 0,
+    "z": 0.5,
+    "order": "side_reverse",
+    "placed": 53,
+    "gain": 0,
+    "accepted": false,
+    "total": 1226
+   }
+  ],
+  "ledger": {
+   "route_3d_checks": 334,
+   "d56_candidate_evals": 2328,
+   "xy_candidates_generated": 649,
+   "transactions": 8,
+   "world_builds": 1,
+   "valid_candidates": 334,
+   "rejected_3d": 0,
+   "accepted_transactions": 0,
+   "accepted_changes": 0,
+   "gain": 0,
+   "validator_runs": 0,
+   "no_candidate": 0,
+   "rolled_back": 8,
+   "wall_seconds": 0
+  },
+  "seconds": 128.4
+ },
+ "sources": {
+  "structure": "experiments\\xyz_joint_g4_1024\\10_reports\\lead_crossing_structure.json",
+  "interface": "experiments\\xyz_joint_g4_1024\\10_reports\\lead_interface_analysis.json",
+  "component": "experiments\\xyz_joint_g4_1024\\10_reports\\lead_component_probe.json",
+  "migration_probe": "experiments\\xyz_joint_g4_1024\\10_reports\\lead_migration_probe.json",
+  "explore_migrate": "experiments\\xyz_joint_g4_1024\\10_reports\\lead_explore_migrate.json",
+  "explore_migrate2": "experiments\\xyz_joint_g4_1024\\10_reports\\lead_explore_migrate2.json",
+  "explore_direct": "experiments\\xyz_joint_g4_1024\\10_reports\\lead_explore_direct.json"
+ },
+ "label": "exploratory, not a formal arm",
+ "generated_at": "2026-11-04 20:10:12"
+}

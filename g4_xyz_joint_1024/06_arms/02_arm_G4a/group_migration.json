@@ -1,0 +1,630 @@
+{
+ "arm": "G4a",
+ "start_crossings": 1322,
+ "final_crossings": 1320,
+ "crossing_delta": -2,
+ "crossing_pairs": 1252,
+ "accepted_transactions": 1,
+ "accepted_whole_group_migrations": 0,
+ "accepted_partial_migrations": 0,
+ "groups": 8,
+ "manual_routes": 368,
+ "routes_changed_height": 1,
+ "xy_evidence": {
+  "manual_route_count": 368,
+  "body_xy_signature_changed_count": 10,
+  "body_xy_signature_changed_fraction": 0.0272,
+  "r15_arc_parameter_changed_count": 10,
+  "r15_arc_count_changed_routes": 0,
+  "full_route_signature_changed_count": 10,
+  "primary_height_changed_routes": 1,
+  "mean_body_xy_displacement_mm": 3.3121,
+  "median_body_xy_displacement_mm": 3.2795,
+  "max_body_xy_displacement_mm": 7.2659,
+  "changed_routes": [
+   {
+    "route_id": 17,
+    "displacement_mm": 0.4614,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 18,
+    "displacement_mm": 5.0681,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 19,
+    "displacement_mm": 4.5264,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 20,
+    "displacement_mm": 3.8139,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 21,
+    "displacement_mm": 3.2795,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 22,
+    "displacement_mm": 2.5598,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 23,
+    "displacement_mm": 2.0325,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 24,
+    "displacement_mm": 1.3057,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 41,
+    "displacement_mm": 7.2659,
+    "old_group": "Z1-U1",
+    "old_height_label": "L2",
+    "new_height_label": "L2"
+   },
+   {
+    "route_id": 295,
+    "displacement_mm": 2.8075,
+    "old_group": "Z1-U1",
+    "old_height_label": "L12",
+    "new_height_label": "L2"
+   }
+  ],
+  "changed_routes_truncated": false
+ },
+ "start_group_heights": {
+  "Z1-U1": {
+   "L2": 33,
+   "L5": 26,
+   "L4": 4,
+   "L12": 1
+  },
+  "Z1-U2": {
+   "L3": 62,
+   "L10": 2
+  },
+  "Z1-U3": {
+   "L4": 57,
+   "L9": 2,
+   "L12": 5
+  },
+  "Z1-U4": {
+   "L5": 60,
+   "L11": 3,
+   "L10": 1
+  },
+  "Z2-U1": {
+   "L10": 4,
+   "L15": 6,
+   "L17": 6
+  },
+  "Z2-U2": {
+   "L19": 7,
+   "L11": 9
+  },
+  "Z2-U3": {
+   "L12": 38,
+   "L13": 2
+  },
+  "Z2-U4": {
+   "L13": 40
+  }
+ },
+ "final_group_heights": {
+  "Z1-U1": {
+   "L2": 34,
+   "L5": 26,
+   "L4": 4
+  },
+  "Z1-U2": {
+   "L3": 62,
+   "L10": 2
+  },
+  "Z1-U3": {
+   "L4": 57,
+   "L9": 2,
+   "L12": 5
+  },
+  "Z1-U4": {
+   "L5": 60,
+   "L11": 3,
+   "L10": 1
+  },
+  "Z2-U1": {
+   "L10": 4,
+   "L15": 6,
+   "L17": 6
+  },
+  "Z2-U2": {
+   "L19": 7,
+   "L11": 9
+  },
+  "Z2-U3": {
+   "L12": 38,
+   "L13": 2
+  },
+  "Z2-U4": {
+   "L13": 40
+  }
+ },
+ "migration_matrix": {
+  "Z1-U1": {
+   "L2": {
+    "count": 34,
+    "z_mm": -0.35,
+    "outside_start_bands": false
+   },
+   "L4": {
+    "count": 4,
+    "z_mm": -0.25,
+    "outside_start_bands": false
+   },
+   "L5": {
+    "count": 26,
+    "z_mm": -0.2,
+    "outside_start_bands": false
+   }
+  },
+  "Z1-U2": {
+   "L10": {
+    "count": 2,
+    "z_mm": 0.15,
+    "outside_start_bands": false
+   },
+   "L3": {
+    "count": 62,
+    "z_mm": -0.3,
+    "outside_start_bands": false
+   }
+  },
+  "Z1-U3": {
+   "L12": {
+    "count": 5,
+    "z_mm": 0.25,
+    "outside_start_bands": false
+   },
+   "L4": {
+    "count": 57,
+    "z_mm": -0.25,
+    "outside_start_bands": false
+   },
+   "L9": {
+    "count": 2,
+    "z_mm": 0.1,
+    "outside_start_bands": true
+   }
+  },
+  "Z1-U4": {
+   "L10": {
+    "count": 1,
+    "z_mm": 0.15,
+    "outside_start_bands": false
+   },
+   "L11": {
+    "count": 3,
+    "z_mm": 0.2,
+    "outside_start_bands": false
+   },
+   "L5": {
+    "count": 60,
+    "z_mm": -0.2,
+    "outside_start_bands": false
+   }
+  },
+  "Z2-U1": {
+   "L10": {
+    "count": 4,
+    "z_mm": 0.15,
+    "outside_start_bands": false
+   },
+   "L15": {
+    "count": 6,
+    "z_mm": 0.4,
+    "outside_start_bands": true
+   },
+   "L17": {
+    "count": 6,
+    "z_mm": 0.55,
+    "outside_start_bands": true
+   }
+  },
+  "Z2-U2": {
+   "L11": {
+    "count": 9,
+    "z_mm": 0.2,
+    "outside_start_bands": false
+   },
+   "L19": {
+    "count": 7,
+    "z_mm": 0.65,
+    "outside_start_bands": true
+   }
+  },
+  "Z2-U3": {
+   "L12": {
+    "count": 38,
+    "z_mm": 0.25,
+    "outside_start_bands": false
+   },
+   "L13": {
+    "count": 2,
+    "z_mm": 0.3,
+    "outside_start_bands": false
+   }
+  },
+  "Z2-U4": {
+   "L13": {
+    "count": 40,
+    "z_mm": 0.3,
+    "outside_start_bands": false
+   }
+  }
+ },
+ "migration_summary": {
+  "Z1-U1": {
+   "members": 64,
+   "start_heights": {
+    "L2": 33,
+    "L5": 26,
+    "L4": 4,
+    "L12": 1
+   },
+   "final_heights": {
+    "L2": 34,
+    "L5": 26,
+    "L4": 4
+   },
+   "routes_changed_height": 1,
+   "migrated": true,
+   "accepted_transactions": 1
+  },
+  "Z1-U2": {
+   "members": 64,
+   "start_heights": {
+    "L3": 62,
+    "L10": 2
+   },
+   "final_heights": {
+    "L3": 62,
+    "L10": 2
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z1-U3": {
+   "members": 64,
+   "start_heights": {
+    "L4": 57,
+    "L9": 2,
+    "L12": 5
+   },
+   "final_heights": {
+    "L4": 57,
+    "L9": 2,
+    "L12": 5
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z1-U4": {
+   "members": 64,
+   "start_heights": {
+    "L5": 60,
+    "L11": 3,
+    "L10": 1
+   },
+   "final_heights": {
+    "L5": 60,
+    "L11": 3,
+    "L10": 1
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z2-U1": {
+   "members": 16,
+   "start_heights": {
+    "L10": 4,
+    "L15": 6,
+    "L17": 6
+   },
+   "final_heights": {
+    "L10": 4,
+    "L15": 6,
+    "L17": 6
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z2-U2": {
+   "members": 16,
+   "start_heights": {
+    "L19": 7,
+    "L11": 9
+   },
+   "final_heights": {
+    "L19": 7,
+    "L11": 9
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z2-U3": {
+   "members": 40,
+   "start_heights": {
+    "L12": 38,
+    "L13": 2
+   },
+   "final_heights": {
+    "L12": 38,
+    "L13": 2
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z2-U4": {
+   "members": 40,
+   "start_heights": {
+    "L13": 40
+   },
+   "final_heights": {
+    "L13": 40
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  }
+ },
+ "split_group_evidence": {
+  "Z1-U1": {
+   "distribution": {
+    "L2": 34,
+    "L5": 26,
+    "L4": 4
+   },
+   "height_count": 3,
+   "split": true
+  },
+  "Z1-U2": {
+   "distribution": {
+    "L3": 62,
+    "L10": 2
+   },
+   "height_count": 2,
+   "split": true
+  },
+  "Z1-U3": {
+   "distribution": {
+    "L4": 57,
+    "L9": 2,
+    "L12": 5
+   },
+   "height_count": 3,
+   "split": true
+  },
+  "Z1-U4": {
+   "distribution": {
+    "L5": 60,
+    "L11": 3,
+    "L10": 1
+   },
+   "height_count": 3,
+   "split": true
+  },
+  "Z2-U1": {
+   "distribution": {
+    "L10": 4,
+    "L15": 6,
+    "L17": 6
+   },
+   "height_count": 3,
+   "split": true
+  },
+  "Z2-U2": {
+   "distribution": {
+    "L19": 7,
+    "L11": 9
+   },
+   "height_count": 2,
+   "split": true
+  },
+  "Z2-U3": {
+   "distribution": {
+    "L12": 38,
+    "L13": 2
+   },
+   "height_count": 2,
+   "split": true
+  },
+  "Z2-U4": {
+   "distribution": {
+    "L13": 40
+   },
+   "height_count": 1,
+   "split": false
+  }
+ },
+ "attempt_stats": {
+  "count": 98,
+  "accepted": 1,
+  "by_reason": {
+   "no_legal_xy_corridor": 16,
+   "legal_but_no_crossing_improvement": 44,
+   "transition_3d_conflict": 6,
+   "ok": 28,
+   "target_height_occupied": 3,
+   "accepted": 1
+  },
+  "by_group": {
+   "Z2-U1": {
+    "attempts": 18,
+    "no_legal_xy_corridor": 1,
+    "legal_but_no_crossing_improvement": 13,
+    "transition_3d_conflict": 2,
+    "ok": 2
+   },
+   "Z2-U2": {
+    "attempts": 18,
+    "ok": 1,
+    "legal_but_no_crossing_improvement": 15,
+    "transition_3d_conflict": 2
+   },
+   "Z1-U1": {
+    "attempts": 15,
+    "target_height_occupied": 1,
+    "ok": 4,
+    "no_legal_xy_corridor": 5,
+    "legal_but_no_crossing_improvement": 4,
+    "accepted": 2
+   },
+   "Z1-U4": {
+    "attempts": 10,
+    "target_height_occupied": 1,
+    "ok": 5,
+    "no_legal_xy_corridor": 1,
+    "legal_but_no_crossing_improvement": 3
+   },
+   "Z2-U3": {
+    "attempts": 12,
+    "ok": 4,
+    "legal_but_no_crossing_improvement": 4,
+    "no_legal_xy_corridor": 2,
+    "transition_3d_conflict": 2
+   },
+   "Z1-U3": {
+    "attempts": 10,
+    "ok": 4,
+    "no_legal_xy_corridor": 5,
+    "target_height_occupied": 1
+   },
+   "Z1-U2": {
+    "attempts": 12,
+    "ok": 7,
+    "legal_but_no_crossing_improvement": 4,
+    "no_legal_xy_corridor": 1
+   },
+   "Z2-U4": {
+    "attempts": 3,
+    "ok": 1,
+    "no_legal_xy_corridor": 1,
+    "legal_but_no_crossing_improvement": 1
+   }
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "accepted": 0,
+   "attempts": 78,
+   "total": 1322,
+   "seconds": 819.2
+  }
+ ],
+ "crossing_decomposition_start": {
+  "manual_manual": 2,
+  "manual_non": 107,
+  "non_manual": 1213
+ },
+ "crossing_decomposition_final": {
+  "manual_manual": 0,
+  "manual_non": 107,
+  "non_manual": 1213
+ },
+ "theoretical_floor_manual_only": 1213,
+ "ceiling_note": "G4a only moves the 368 manual-U routes; the 1213 non-manual-only crossings are immutable in this arm (they belong to G4c/G4d).",
+ "state_validate_all": {
+  "valid": 1024,
+  "violations": 0,
+  "kinds": {}
+ },
+ "ledger": {
+  "route_3d_checks": 6208,
+  "d56_candidate_evals": 43004,
+  "xy_candidates_generated": 6198,
+  "transactions": 95,
+  "world_builds": 0,
+  "valid_candidates": 5275,
+  "rejected_3d": 923,
+  "accepted_transactions": 1,
+  "accepted_changes": 10,
+  "gain": 2,
+  "validator_runs": 0,
+  "no_candidate": 0,
+  "rolled_back": 94,
+  "wall_seconds": 982.6
+ },
+ "search_wall_seconds": 1008.12,
+ "config": {
+  "arm": "G4a",
+  "out_dir": "experiments\\xyz_joint_g4_1024\\02_arm_G4a",
+  "seed": 20261104,
+  "budget": {
+   "route_3d_checks": 30000,
+   "d56_candidate_evals": 120000,
+   "wall_seconds": 1200.0
+  },
+  "manual_frozen": false,
+  "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+  "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+  "start_crossings": 1322,
+  "started_at": "2026-11-04T18:58:57",
+  "cfg": {
+   "arm": "G4a",
+   "quick": false,
+   "plan_std": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "plan_wide": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "max_rounds": 6,
+   "attempts_per_group_round": 4,
+   "max_group_attempts": 12,
+   "max_retries": 1,
+   "partial_fallback": true,
+   "tune_rounds": 2,
+   "tune_size": 10,
+   "tag": "formal_run1",
+   "spec": "experiments/xyz_joint_g4_1024/SPEC_G4.md"
+  }
+ }
+}

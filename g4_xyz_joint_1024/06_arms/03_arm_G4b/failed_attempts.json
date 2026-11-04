@@ -1,0 +1,2477 @@
+{
+ "attempts": [
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L5",
+   "note": "Z2-U2->L5[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L4",
+   "note": "Z2-U2->L4[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L14",
+   "note": "Z2-U1->L14[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L9",
+   "note": "Z2-U2->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z1-U3",
+   "target": "L9",
+   "note": "Z1-U3->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z1-U3",
+   "target": "L9",
+   "note": "Z1-U3->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z1-U4",
+   "target": "L10",
+   "note": "Z1-U4->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U1",
+   "target": "L12<->L10",
+   "note": "swap 774<->294"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U1|Z2-U4",
+   "target": "L13<->L10",
+   "note": "swap 774<->769"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z2-U1",
+   "target": "L17<->L14",
+   "note": "swap 779<->783"
+  },
+  {
+   "route_id": 294,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U2",
+   "target": "L12<->L19",
+   "note": "swap 773<->294"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U2|Z2-U4",
+   "target": "L13<->L19",
+   "note": "swap 773<->769"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L5<->L11",
+   "note": "swap 796<->49"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L4<->L11",
+   "note": "swap 796<->57"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z1-U3",
+   "target": "L12<->L9",
+   "note": "swap 288<->295"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z1-U3",
+   "target": "L4<->L9",
+   "note": "swap 288<->57"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z1-U3",
+   "target": "L4<->L9",
+   "note": "swap 291<->57"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U2|Z1-U3",
+   "target": "L3<->L9",
+   "note": "swap 291<->65"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[crossing_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[risk_desc]"
+  },
+  {
+   "route_id": 787,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 786,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 782,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 782,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L4",
+   "note": "Z2-U1->L4[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L4",
+   "note": "Z2-U1->L4[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L5",
+   "note": "Z2-U2->L5[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z1-U3",
+   "target": "L5",
+   "note": "Z1-U3->L5[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z1-U3",
+   "target": "L5",
+   "note": "Z1-U3->L5[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 804,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L14",
+   "note": "Z2-U1->L14[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L9",
+   "note": "Z2-U2->L9[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L5",
+   "note": "Z2-U2->L5[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L4",
+   "note": "Z2-U2->L4[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L16",
+   "note": "Z2-U2->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L14",
+   "note": "Z2-U1->L14[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L19",
+   "note": "Z2-U2->L19[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L9",
+   "note": "Z2-U2->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L15",
+   "note": "Z2-U1->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L15",
+   "note": "Z2-U1->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U1",
+   "target": "L12<->L10",
+   "note": "swap 774<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U1|Z2-U4",
+   "target": "L13<->L10",
+   "note": "swap 774<->769"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z2-U1",
+   "target": "L17<->L14",
+   "note": "swap 779<->783"
+  },
+  {
+   "route_id": 288,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U2",
+   "target": "L12<->L19",
+   "note": "swap 773<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U2|Z2-U4",
+   "target": "L13<->L19",
+   "note": "swap 773<->769"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L5<->L11",
+   "note": "swap 796<->49"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L4<->L11",
+   "note": "swap 796<->57"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U1",
+   "target": "L12<->L10",
+   "note": "swap 775<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U1|Z2-U4",
+   "target": "L13<->L10",
+   "note": "swap 775<->769"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U2",
+   "target": "L12<->L11",
+   "note": "swap 800<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U2|Z2-U4",
+   "target": "L13<->L11",
+   "note": "swap 800<->769"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[crossing_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[risk_desc]"
+  },
+  {
+   "route_id": 787,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 786,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 782,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 782,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L3",
+   "note": "Z2-U1->L3[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L3",
+   "note": "Z2-U1->L3[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L5",
+   "note": "Z2-U2->L5[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 804,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L14",
+   "note": "Z2-U1->L14[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L5",
+   "note": "Z2-U2->L5[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L4",
+   "note": "Z2-U2->L4[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L16",
+   "note": "Z2-U2->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L16",
+   "note": "Z2-U2->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L9",
+   "note": "Z2-U2->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L15",
+   "note": "Z2-U2->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L12",
+   "note": "Z2-U3->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L15",
+   "note": "Z2-U3->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L16",
+   "note": "Z2-U3->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L14",
+   "note": "Z2-U1->L14[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L19",
+   "note": "Z2-U2->L19[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L9",
+   "note": "Z2-U2->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L15",
+   "note": "Z2-U1->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U1",
+   "target": "L12<->L10",
+   "note": "swap 774<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U1|Z2-U4",
+   "target": "L13<->L10",
+   "note": "swap 774<->769"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z2-U1",
+   "target": "L17<->L14",
+   "note": "swap 779<->783"
+  },
+  {
+   "route_id": 288,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U2",
+   "target": "L12<->L19",
+   "note": "swap 773<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U2|Z2-U4",
+   "target": "L13<->L19",
+   "note": "swap 773<->769"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L5<->L11",
+   "note": "swap 796<->49"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L4<->L11",
+   "note": "swap 796<->57"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U1",
+   "target": "L12<->L10",
+   "note": "swap 775<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U1|Z2-U4",
+   "target": "L13<->L10",
+   "note": "swap 775<->769"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U2",
+   "target": "L12<->L11",
+   "note": "swap 800<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U2|Z2-U4",
+   "target": "L13<->L11",
+   "note": "swap 800<->769"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[crossing_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[risk_desc]"
+  },
+  {
+   "route_id": 787,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 787,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L3",
+   "note": "Z2-U1->L3[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L3",
+   "note": "Z2-U1->L3[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L15",
+   "note": "Z2-U1->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L5",
+   "note": "Z2-U2->L5[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 804,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": 784,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L14",
+   "note": "Z2-U1->L14[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": 800,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L15",
+   "note": "Z2-U2->L15[crossing_desc]"
+  },
+  {
+   "route_id": 804,
+   "reason": "no_legal_xy_corridor",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L15",
+   "note": "Z2-U2->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U2",
+   "target": "L9",
+   "note": "Z2-U2->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L12",
+   "note": "Z2-U3->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L15",
+   "note": "Z2-U3->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L16",
+   "note": "Z2-U3->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L13",
+   "note": "Z2-U3->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L15",
+   "note": "Z2-U3->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z2-U3",
+   "target": "L16",
+   "note": "Z2-U3->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z1-U1",
+   "target": "L3",
+   "note": "Z1-U1->L3[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z1-U1",
+   "target": "L4",
+   "note": "Z1-U1->L4[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_migrate",
+   "group": "Z1-U1",
+   "target": "L5",
+   "note": "Z1-U1->L5[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L14",
+   "note": "Z2-U1->L14[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L19",
+   "note": "Z2-U2->L19[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L9",
+   "note": "Z2-U2->L9[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L10",
+   "note": "Z2-U1->L10[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U2",
+   "target": "L11",
+   "note": "Z2-U2->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L15",
+   "note": "Z2-U1->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "single_xy_replan",
+   "group": "Z2-U1",
+   "target": "L17",
+   "note": "Z2-U1->L17[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U1",
+   "target": "L12<->L10",
+   "note": "swap 774<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U1|Z2-U4",
+   "target": "L13<->L10",
+   "note": "swap 774<->769"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z2-U1",
+   "target": "L17<->L14",
+   "note": "swap 779<->783"
+  },
+  {
+   "route_id": 288,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U2",
+   "target": "L12<->L19",
+   "note": "swap 773<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U2|Z2-U4",
+   "target": "L13<->L19",
+   "note": "swap 773<->769"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L5<->L11",
+   "note": "swap 796<->49"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "pair_swap",
+   "group": "Z1-U1|Z2-U2",
+   "target": "L4<->L11",
+   "note": "swap 796<->57"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U1",
+   "target": "L12<->L10",
+   "note": "swap 775<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U1|Z2-U4",
+   "target": "L13<->L10",
+   "note": "swap 775<->769"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z1-U3|Z2-U2",
+   "target": "L12<->L11",
+   "note": "swap 800<->288"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "pair_swap",
+   "group": "Z2-U2|Z2-U4",
+   "target": "L13<->L11",
+   "note": "swap 800<->769"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L16",
+   "note": "Z2-U1->L16[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[crossing_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L19",
+   "note": "Z2-U1->L19[risk_desc]"
+  },
+  {
+   "route_id": 787,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 787,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[risk_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "transition_3d_conflict",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cluster_migrate",
+   "group": "Z2-U2",
+   "target": "L13",
+   "note": "Z2-U2->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": 791,
+   "reason": "no_legal_xy_corridor",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "split_group",
+   "group": "Z2-U1",
+   "target": "L13",
+   "note": "Z2-U1->L13[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L11",
+   "note": "Z2-U1->L11[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L2",
+   "note": "Z2-U1->L2[risk_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[risk_desc]"
+  },
+  {
+   "route_id": 774,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L3",
+   "note": "Z2-U1->L3[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "no_legal_xy_corridor",
+   "kind": "cross_group_reorg",
+   "group": "Z2-U1",
+   "target": "L3",
+   "note": "Z2-U1->L3[risk_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L15",
+   "note": "Z2-U1->L15[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 796,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L5",
+   "note": "Z2-U2->L5[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 804,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": null,
+   "reason": "legal_but_no_crossing_improvement",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  },
+  {
+   "route_id": 783,
+   "reason": "transition_3d_conflict",
+   "kind": "height_tune",
+   "group": "Z2-U1",
+   "target": "L12",
+   "note": "Z2-U1->L12[crossing_desc]"
+  },
+  {
+   "route_id": 784,
+   "reason": "no_legal_xy_corridor",
+   "kind": "height_tune",
+   "group": "Z2-U2",
+   "target": "L12",
+   "note": "Z2-U2->L12[crossing_desc]"
+  }
+ ],
+ "count": 309
+}

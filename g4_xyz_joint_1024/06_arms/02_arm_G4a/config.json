@@ -1,0 +1,44 @@
+{
+ "arm": "G4a",
+ "out_dir": "experiments\\xyz_joint_g4_1024\\02_arm_G4a",
+ "seed": 20261104,
+ "budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 1200.0
+ },
+ "manual_frozen": false,
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+ "start_crossings": 1322,
+ "started_at": "2026-11-04T18:59:02",
+ "cfg": {
+  "arm": "G4a",
+  "quick": false,
+  "plan_std": {
+   "max_lead_pairs": 2,
+   "prescreen_candidates": 120,
+   "max_candidates": 200,
+   "d56_top": 10,
+   "bodies_per_pair": 2,
+   "max_return": 3
+  },
+  "plan_wide": {
+   "max_lead_pairs": 3,
+   "prescreen_candidates": 180,
+   "max_candidates": 280,
+   "d56_top": 14,
+   "bodies_per_pair": 2,
+   "max_return": 4
+  },
+  "max_rounds": 6,
+  "attempts_per_group_round": 4,
+  "max_group_attempts": 12,
+  "max_retries": 1,
+  "partial_fallback": true,
+  "tune_rounds": 2,
+  "tune_size": 10,
+  "tag": "formal_run1",
+  "spec": "experiments/xyz_joint_g4_1024/SPEC_G4.md"
+ }
+}

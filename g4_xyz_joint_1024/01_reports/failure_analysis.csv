@@ -1,0 +1,10 @@
+﻿arm,status,dir,failed_attempts,reason_total,no_legal_xy_corridor,target_height_occupied,r15_geometry_rejected,transition_3d_conflict,lead_below_minimum,joint_rebuild_failed,legal_but_no_crossing_improvement,budget_exhausted,no_current_crossings,structure_error,unclassified
+C0,present,experiments\xyz_joint_g4_1024\01_arm_C0,0,5302,1160,0,0,236,0,0,3022,2,878,0,4
+G4a,present,experiments\xyz_joint_g4_1024\02_arm_G4a,69,215,45,6,0,20,0,56,88,0,0,0,0
+G4b,present,experiments\xyz_joint_g4_1024\03_arm_G4b,309,850,234,0,0,108,0,110,398,0,0,0,0
+G4c_frozen,present,experiments\xyz_joint_g4_1024\04_arm_G4c_frozen,835,872,34,16,0,0,0,0,785,0,27,0,10
+G4c_free,present,experiments\xyz_joint_g4_1024\05_arm_G4c_free,818,850,34,16,0,0,0,0,775,0,19,0,6
+G4d,present,experiments\xyz_joint_g4_1024\06_arm_G4d,2,2,0,0,0,0,0,0,2,0,0,0,0
+best_valid,present_no_failures,experiments\xyz_joint_g4_1024\07_best_valid,0,0,0,0,0,0,0,0,0,0,0,0,0
+chain/02_link_G4c,present,experiments\xyz_joint_g4_1024\08_progressive_chain\02_link_G4c,173,186,18,5,0,0,0,0,155,0,8,0,0
+chain/03_link_G4d,present,experiments\xyz_joint_g4_1024\08_progressive_chain\03_link_G4d,318,349,38,17,0,0,0,0,266,0,26,0,2

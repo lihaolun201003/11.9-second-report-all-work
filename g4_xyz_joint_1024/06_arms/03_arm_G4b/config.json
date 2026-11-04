@@ -1,0 +1,45 @@
+{
+ "arm": "G4b",
+ "out_dir": "experiments\\xyz_joint_g4_1024\\03_arm_G4b",
+ "seed": 20261104,
+ "budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 1200.0
+ },
+ "manual_frozen": false,
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+ "start_crossings": 1322,
+ "started_at": "2026-11-04T19:04:59",
+ "cfg": {
+  "arm": "G4b",
+  "quick": false,
+  "scan_cfg": {
+   "max_target_layers": 19,
+   "max_lead_pairs": 1,
+   "prescreen_candidates": 48,
+   "max_candidates": 100,
+   "d56_top": 6,
+   "bodies_per_pair": 1,
+   "max_return": 2,
+   "allow_direct": false,
+   "allow_xy_only": false
+  },
+  "scan_routes": 20,
+  "singles": 14,
+  "single_targets": 3,
+  "xy_tune": 14,
+  "swaps": 10,
+  "clusters": 6,
+  "cluster_size": 6,
+  "splits": 4,
+  "split_size": 8,
+  "reorg": 4,
+  "reorg_size": 8,
+  "tune": 12,
+  "tune_size": 3,
+  "tag": "formal_run1",
+  "spec": "experiments/xyz_joint_g4_1024/SPEC_G4.md"
+ }
+}

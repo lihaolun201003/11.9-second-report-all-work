@@ -1,0 +1,19 @@
+{
+ "schema": "g4_budget_ledger_v1",
+ "written_at": "2026-11-04T19:20:46",
+ "route_3d_checks": 6851,
+ "d56_candidate_evals": 63433,
+ "xy_candidates_generated": 6740,
+ "transactions": 274,
+ "world_builds": 0,
+ "valid_candidates": 4313,
+ "rejected_3d": 2433,
+ "accepted_transactions": 33,
+ "accepted_changes": 47,
+ "gain": 133,
+ "validator_runs": 1,
+ "no_candidate": 266,
+ "rolled_back": 241,
+ "wall_seconds": 1840.36,
+ "extras": {}
+}

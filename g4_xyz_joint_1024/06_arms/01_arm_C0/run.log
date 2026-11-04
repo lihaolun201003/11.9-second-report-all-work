@@ -1,0 +1,40 @@
+[2026-11-04T18:43:51] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\XYZ_JOINT_G123_1024\best_valid sha256=711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077 crossings=1322
+[2026-11-04T18:43:51] [arm] start fingerprint OK (verified G3 legal optimum)
+[2026-11-04T18:43:57] [arm] loaded state routes=1024 crossings=1322 (2.07s)
+[2026-11-04T18:43:57] ==============================================================================
+[2026-11-04T18:43:57] [C0] out_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0
+[2026-11-04T18:43:57] [C0] budget={"route_3d_checks": 30000, "d56_candidate_evals": 120000, "wall_seconds": 1200.0} seed=20261104 start=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\XYZ_JOINT_G123_1024\best_valid
+[2026-11-04T18:43:57] [C0] start sha256=711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077 (verified=True)
+[2026-11-04T18:43:57] [C0] start crossings=1322 routes=1024
+[2026-11-04T18:44:04] [C0] route order: 1024 routes, total=1322 top-5 crossings=[19, 18, 18, 17, 17]
+[2026-11-04T18:44:08] [C0] search start: wall_budget=1200.0s already_used=0.0s remaining=1200.0s sweeps_done=0
+[2026-11-04T18:44:08] ======================================================================
+[2026-11-04T18:44:08] [c0] sweep 1/4: 1024 candidate routes, total=1322, remaining_wall=1200.0s
+[2026-11-04T18:46:08] [C0] periodic snapshot #1 total=1311 accepted=7 (120.7s)
+[2026-11-04T18:48:09] [C0] periodic snapshot #2 total=1299 accepted=12 (241.7s)
+[2026-11-04T18:50:11] [C0] periodic snapshot #3 total=1290 accepted=16 (363.0s)
+[2026-11-04T18:52:12] [C0] periodic snapshot #4 total=1286 accepted=18 (484.6s)
+[2026-11-04T18:54:13] [C0] periodic snapshot #5 total=1276 accepted=23 (605.0s)
+[2026-11-04T18:55:23] [round c0_r1] accepted=24 gain=47 total=1275 (11.3 min)
+[2026-11-04T18:55:27] [C0] periodic snapshot #6 total=1275 accepted=24 (679.5s)
+[2026-11-04T18:55:27] ======================================================================
+[2026-11-04T18:55:27] [c0] sweep 2/4: 1024 candidate routes, total=1275, remaining_wall=524.5s
+[2026-11-04T18:56:07] [arm] checkpoint step_00025 total=1269 (736.4s)
+[2026-11-04T18:56:07]   [checkpoint] accepted=25 total=1269 (12.0 min)
+[2026-11-04T18:57:28] [C0] periodic snapshot #7 total=1265 accepted=27 (799.9s)
+[2026-11-04T18:59:28] [C0] periodic snapshot #8 total=1263 accepted=28 (920.5s)
+[2026-11-04T19:01:29] [C0] periodic snapshot #9 total=1262 accepted=29 (1041.0s)
+[2026-11-04T19:03:29] [C0] periodic snapshot #10 total=1259 accepted=31 (1161.5s)
+[2026-11-04T19:04:12] [round c0_r2] accepted=7 gain=16 total=1259 (8.7 min)
+[2026-11-04T19:04:16] [C0] periodic snapshot #11 total=1259 accepted=31 (1208.8s)
+[2026-11-04T19:04:17] [C0] search done: total=1259 (start 1322, gain 63) in 1208.8s (2 sweeps, remaining_wall=0.0s)
+[2026-11-04T19:04:17] [C0] search done: total=1259 (start 1322, gain 63) in 1208.8s
+[2026-11-04T19:04:17] [C0] ledger: {"route_3d_checks": 2324, "d56_candidate_evals": null, "xy_candidates_generated": 11890, "transactions": 1542, "world_builds": 1, "valid_candidates": 2204, "rejected_3d": 120, "accepted_transactions": 31, "accepted_changes": 31, "gain": 63, "validator_runs": 0, "no_candidate": 1511, "rolled_back": 0, "wall_seconds": 1208.76}
+[2026-11-04T19:04:17] [C0] d56 proxy (not comparable): 175816
+[2026-11-04T19:04:17] [C0] best_valid snapshot already saved, sha256=09aeb1baa5d9ea870091298f46fecf50fdf1be309db08a1f1ef94fe767d9917e
+[2026-11-04T19:04:23] [arm] final saved to C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0 total=1259
+[2026-11-04T19:04:23] [C0] final artifacts saved to C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0
+[2026-11-04T19:04:23] [C0] running independent validator on best_valid sha256=09aeb1baa5d9ea870091298f46fecf50fdf1be309db08a1f1ef94fe767d9917e
+[2026-11-04T19:04:50] [validator] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\xyz_joint_g4_1024\01_arm_C0\validation -> exit=0 (26.8s)
+[2026-11-04T19:04:50] [C0] validation: pass=True violations=0 crossings=1259 sha_match=True
+[2026-11-04T19:04:50] [C0] DONE total=1259 start=1322 accepted=31 search=1208.8s ledger={"route_3d_checks": 2324, "d56_candidate_evals": null, "xy_candidates_generated": 11890, "transactions": 1542, "world_builds": 1, "valid_candidates": 2204, "rejected_3d": 120, "accepted_transactions": 31, "accepted_changes": 31, "gain": 63, "validator_runs": 1, "no_candidate": 1511, "rolled_back": 0, "wall_seconds": 1242.13}

@@ -1,0 +1,106 @@
+{
+ "arm": "G4d",
+ "final_crossings": 1189,
+ "crossing_pairs": 1128,
+ "start_crossings": 1322,
+ "delta_vs_start": -133,
+ "routes_changed": 0,
+ "routes": 1024,
+ "accepts": 0,
+ "transactions": 184,
+ "seconds": 1061.46,
+ "best_valid_dir": "experiments\\xyz_joint_g4_1024\\06b_G4d_warm_from_1189\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 4003,
+  "d56_candidate_evals": 29196,
+  "xy_candidates_generated": 4003,
+  "transactions": 184,
+  "world_builds": 0,
+  "valid_candidates": 3107,
+  "rejected_3d": 896,
+  "accepted_transactions": 0,
+  "accepted_changes": 0,
+  "gain": 0,
+  "validator_runs": 1,
+  "no_candidate": 152,
+  "rolled_back": 184,
+  "wall_seconds": 1061.44
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 155,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 120.3,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 155
+   }
+  },
+  {
+   "stage": 0,
+   "size": 16,
+   "attempts": 25,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 176.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 15,
+    "no_legal_xy_corridor": 2,
+    "target_height_occupied": 5,
+    "no_current_crossings": 3
+   }
+  },
+  {
+   "stage": 1,
+   "size": 32,
+   "attempts": 32,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 220.4,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 21,
+    "no_current_crossings": 5,
+    "no_legal_xy_corridor": 5,
+    "target_height_occupied": 1
+   }
+  },
+  {
+   "stage": 2,
+   "size": 64,
+   "attempts": 20,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 230.7,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 13,
+    "no_current_crossings": 3,
+    "no_legal_xy_corridor": 1,
+    "target_height_occupied": 3
+   }
+  },
+  {
+   "stage": 3,
+   "size": 96,
+   "attempts": 20,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 270.8,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 13,
+    "no_current_crossings": 3,
+    "no_legal_xy_corridor": 1,
+    "target_height_occupied": 3
+   }
+  }
+ ],
+ "summary": null,
+ "arm_class": "B_chain_warm_start",
+ "chain_start_dir": "experiments/xyz_joint_g4_1024/05_arm_G4c_free/best_valid",
+ "chain_start_routes_sha256": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e",
+ "chain_start_crossings": 1189,
+ "chain_delta": 0
+}

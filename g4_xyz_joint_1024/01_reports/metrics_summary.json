@@ -1,0 +1,1377 @@
+{
+ "schema": "g4_final_report_v1",
+ "generated_at": "2026-11-04 20:10:12",
+ "start": {
+  "dir": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+  "sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+  "crossings": 1322,
+  "routes": 1024
+ },
+ "final": {
+  "source": "explicit",
+  "dir": "experiments\\xyz_joint_g4_1024\\07_best_valid",
+  "routes_sha256": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+  "crossings": 1185,
+  "delta_vs_start": -137,
+  "improved_vs_start": false,
+  "validation": {
+   "path": "experiments\\xyz_joint_g4_1024\\07_best_valid\\validation\\validation.json",
+   "validation_pass": true,
+   "geometry_pass": true,
+   "contract_pass": true,
+   "violation_count": 0,
+   "policy": "fully_optimizable",
+   "validated_at": "2026-11-04T19:47:10",
+   "routes_sha": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+   "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+   "sha_match": true
+  },
+  "reported": 1185
+ },
+ "arms": {
+  "C0": {
+   "label": "C0 既有引擎续跑（无新自由度）",
+   "status": "complete",
+   "dir": "experiments\\xyz_joint_g4_1024\\01_arm_C0",
+   "crossings": 1259,
+   "delta_vs_start": -63,
+   "crossing_pairs": 1209,
+   "max_route_crossings": 19,
+   "routes_with_crossings": 578,
+   "routes_count": 1024,
+   "failed_count": 0,
+   "source": "crossing_stats.json:totals",
+   "reported_dir": "experiments\\xyz_joint_g4_1024\\01_arm_C0",
+   "validation": {
+    "path": "experiments\\xyz_joint_g4_1024\\01_arm_C0\\validation\\validation.json",
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "policy": "fully_optimizable",
+    "validated_at": "2026-11-04T19:04:50",
+    "routes_sha": "09aeb1baa5d9ea870091298f46fecf50fdf1be309db08a1f1ef94fe767d9917e",
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "sha_match": true
+   },
+   "budget": {
+    "used": {
+     "route_3d_checks": 2324,
+     "d56_candidate_evals": null,
+     "wall_seconds": 1208.76
+    },
+    "cap": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "utilisation": {
+     "route_3d_checks": 7.7,
+     "wall_seconds": 100.7
+    },
+    "over_budget": true
+   },
+   "budget_ledger": {
+    "schema": "g4_budget_ledger_v1",
+    "written_at": "2026-11-04T19:04:50",
+    "route_3d_checks": 2324,
+    "d56_candidate_evals": null,
+    "xy_candidates_generated": 11890,
+    "transactions": 1542,
+    "world_builds": 1,
+    "valid_candidates": 2204,
+    "rejected_3d": 120,
+    "accepted_transactions": 31,
+    "accepted_changes": 31,
+    "gain": 63,
+    "validator_runs": 1,
+    "no_candidate": 1511,
+    "rolled_back": 0,
+    "wall_seconds": 1208.76,
+    "extras": {
+     "engine": "xyzrouter.optimizer.Optimizer (legacy G3 engine)",
+     "arm_class": "C0_control_no_new_dof",
+     "seed": 20261104,
+     "budget": {
+      "route_3d_checks": 30000,
+      "d56_candidate_evals": 120000,
+      "wall_seconds": 1200.0
+     },
+     "budget_enforced": {
+      "wall_seconds": 1200.0,
+      "route_3d_checks": 30000,
+      "d56_candidate_evals": null
+     },
+     "d56_candidate_evals_proxy": {
+      "value": 175816,
+      "name": "d56_index_evaluate_calls_proxy",
+      "definition": "observed four_side_1024.d56.index.D56Index.evaluate invocations during the C0 search",
+      "comparable": false,
+      "why": "the legacy G3 engine does not book its exact strict-D56 candidate evaluations in the shared Ledger, so the SPEC main counter is null; this proxy uses a different counting convention than the G4 ledger (d56_top per plan_candidates call) and is therefore NOT used as a fair-budget axis"
+     },
+     "route_3d_checks_definition": "RouteWorld.evaluate_candidate calls (one full true-3D World geometric check of one candidate route each)",
+     "world_builds": {
+      "value": 1,
+      "definition": "fresh RouteWorld._world_all() builds"
+     },
+     "start_crossings": 1322,
+     "final_crossings": 1259,
+     "delta_vs_start": -63,
+     "start_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+     "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+     "search_seconds": 1208.76,
+     "setup_seconds": 16.92,
+     "process_seconds_before_validation": 1226.04,
+     "rounds": [
+      {
+       "label": "c0_r1",
+       "seconds": 675.48,
+       "accepted": 24,
+       "candidates_tried": 1024,
+       "total_after": 1275,
+       "gain": 47,
+       "stats": {
+        "tried": 1024,
+        "targets": 2841,
+        "xy_generated": 6344,
+        "built": 1237,
+        "rejected_3d": 66,
+        "evaluated": 1237,
+        "combos_pre": 2841,
+        "combos_eval": 600,
+        "no_gain": 1000,
+        "accepted": 24,
+        "gain": 47
+       },
+       "reasons": {
+        "no_xy_candidate": 296,
+        "transition_vs_transition": 10,
+        "transition_vs_flat": 54,
+        "no_current_crossings": 439,
+        "flat_vs_transition": 2
+       }
+      },
+      {
+       "label": "c0_r2",
+       "seconds": 524.81,
+       "accepted": 7,
+       "candidates_tried": 518,
+       "total_after": 1259,
+       "gain": 16,
+       "stats": {
+        "tried": 518,
+        "targets": 2514,
+        "xy_generated": 5546,
+        "built": 1087,
+        "rejected_3d": 54,
+        "evaluated": 1087,
+        "combos_pre": 2514,
+        "combos_eval": 530,
+        "no_gain": 511,
+        "accepted": 7,
+        "gain": 16,
+        "budget_stop": 1
+       },
+       "reasons": {
+        "no_xy_candidate": 284,
+        "transition_vs_transition": 8,
+        "transition_vs_flat": 46
+       }
+      }
+     ],
+     "sweeps": 2,
+     "max_sweeps": 4,
+     "wall_budget_seconds": 1200.0,
+     "remaining_wall_seconds": 0.0,
+     "resumed": false,
+     "prior_search_seconds": 0.0,
+     "snapshot_interval": 120.0,
+     "snapshots": 11,
+     "rng_note": "legacy optimizer is deterministic: the seed is recorded as a contract field but the engine consumes no RNG",
+     "budget_stop_reason": null,
+     "accepted_routes": [
+      216,
+      157,
+      410,
+      497,
+      172,
+      210,
+      231,
+      407,
+      494,
+      773,
+      973,
+      155,
+      149,
+      208,
+      431,
+      473,
+      26,
+      452,
+      777,
+      146,
+      295,
+      782,
+      799,
+      199,
+      14,
+      213,
+      237,
+      494,
+      873,
+      945,
+      965
+     ],
+     "failed_attempts_count": 0,
+     "note": "C0 only accepts strictly improving single-route changes (min_delta=1), so the final state is the arm best state",
+     "validation": {
+      "validator": "four_side_1024.fanout1024.xyzrouter.validate_xyz",
+      "manual_policy": "fully_optimizable",
+      "validation_pass": true,
+      "violations": 0,
+      "routes_file_sha256": "09aeb1baa5d9ea870091298f46fecf50fdf1be309db08a1f1ef94fe767d9917e",
+      "matches_best_valid": true,
+      "runtime_seconds": 26.51,
+      "exit_code": 0,
+      "seconds": 26.76,
+      "counts": {
+       "routed": 1024,
+       "failed": 0,
+       "crossings": 1259,
+       "crossing_pairs": 1209,
+       "manual_route_count": 368,
+       "mid_transitions": 64,
+       "min_3d_clearance_mm": 0.062454086,
+       "total_length_mm": 156879.600005,
+       "geometry_pass": true,
+       "contract_pass": true
+      }
+     },
+     "process_total_seconds": 1259.05
+    }
+   },
+   "config_budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1200.0
+   },
+   "start_info": {
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "claims_start_crossings": 1322,
+    "same_start_as_G3": true,
+    "actual_start_crossings": 1322,
+    "seed": 20261104,
+    "arm": "C0"
+   },
+   "failed_attempts_count": 0,
+   "history_rows": 31
+  },
+  "G4a": {
+   "label": "G4a 八组固定 + 组级 XY+Z 重造",
+   "status": "complete",
+   "dir": "experiments\\xyz_joint_g4_1024\\02_arm_G4a",
+   "crossings": 1320,
+   "delta_vs_start": -2,
+   "crossing_pairs": 1252,
+   "max_route_crossings": 19,
+   "routes_with_crossings": 586,
+   "routes_count": 1024,
+   "failed_count": 0,
+   "source": "crossing_stats.json:totals",
+   "reported_dir": "experiments\\xyz_joint_g4_1024\\02_arm_G4a",
+   "validation": {
+    "path": "experiments\\xyz_joint_g4_1024\\02_arm_G4a\\validation\\validation.json",
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "policy": "fully_optimizable",
+    "validated_at": "2026-11-04T18:59:27",
+    "routes_sha": "d12346cf42f783d1bcc799c48dc1e533c0725851d827d392206b0d74fd4374fa",
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "sha_match": true
+   },
+   "budget": {
+    "used": {
+     "route_3d_checks": 6208,
+     "d56_candidate_evals": 43004,
+     "wall_seconds": 1018.74
+    },
+    "cap": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "utilisation": {
+     "route_3d_checks": 20.7,
+     "d56_candidate_evals": 35.8,
+     "wall_seconds": 84.9
+    },
+    "over_budget": false
+   },
+   "budget_ledger": {
+    "schema": "g4_budget_ledger_v1",
+    "written_at": "2026-11-04T18:59:02",
+    "route_3d_checks": 6208,
+    "d56_candidate_evals": 43004,
+    "xy_candidates_generated": 6198,
+    "transactions": 95,
+    "world_builds": 0,
+    "valid_candidates": 5275,
+    "rejected_3d": 923,
+    "accepted_transactions": 1,
+    "accepted_changes": 10,
+    "gain": 2,
+    "validator_runs": 0,
+    "no_candidate": 0,
+    "rolled_back": 94,
+    "wall_seconds": 1018.74,
+    "extras": {}
+   },
+   "config_budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1200.0
+   },
+   "start_info": {
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "claims_start_crossings": 1322,
+    "same_start_as_G3": true,
+    "actual_start_crossings": 1322,
+    "seed": 20261104,
+    "arm": "G4a"
+   },
+   "failed_attempts_count": 97,
+   "history_rows": 1
+  },
+  "G4b": {
+   "label": "G4b 人工 U 动态重分组",
+   "status": "complete",
+   "dir": "experiments\\xyz_joint_g4_1024\\03_arm_G4b",
+   "crossings": 1294,
+   "delta_vs_start": -28,
+   "crossing_pairs": 1234,
+   "max_route_crossings": 19,
+   "routes_with_crossings": 582,
+   "routes_count": 1024,
+   "failed_count": 0,
+   "source": "crossing_stats.json:totals",
+   "reported_dir": "experiments\\xyz_joint_g4_1024\\03_arm_G4b",
+   "validation": {
+    "path": "experiments\\xyz_joint_g4_1024\\03_arm_G4b\\validation\\validation.json",
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "policy": "fully_optimizable",
+    "validated_at": "2026-11-04T19:05:25",
+    "routes_sha": "c72b245a240fce27dc7e1b8d41d0b432e1986d133c9c90051d097949f40a91c1",
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "sha_match": true
+   },
+   "budget": {
+    "used": {
+     "route_3d_checks": 1538,
+     "d56_candidate_evals": 11552,
+     "wall_seconds": 1099.82
+    },
+    "cap": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "utilisation": {
+     "route_3d_checks": 5.1,
+     "d56_candidate_evals": 9.6,
+     "wall_seconds": 91.7
+    },
+    "over_budget": false
+   },
+   "budget_ledger": {
+    "schema": "g4_budget_ledger_v1",
+    "written_at": "2026-11-04T19:04:59",
+    "route_3d_checks": 1538,
+    "d56_candidate_evals": 11552,
+    "xy_candidates_generated": 1527,
+    "transactions": 320,
+    "world_builds": 0,
+    "valid_candidates": 1198,
+    "rejected_3d": 329,
+    "accepted_transactions": 11,
+    "accepted_changes": 11,
+    "gain": 28,
+    "validator_runs": 0,
+    "no_candidate": 80,
+    "rolled_back": 309,
+    "wall_seconds": 1099.82,
+    "extras": {}
+   },
+   "config_budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1200.0
+   },
+   "start_info": {
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "claims_start_crossings": 1322,
+    "same_start_as_G3": true,
+    "actual_start_crossings": 1322,
+    "seed": 20261104,
+    "arm": "G4b"
+   },
+   "failed_attempts_count": 309,
+   "history_rows": 11
+  },
+  "G4c_frozen": {
+   "label": "G4c-frozen 人工 U 冻结 + 联合让路 ALNS",
+   "status": "complete",
+   "dir": "experiments\\xyz_joint_g4_1024\\04_arm_G4c_frozen",
+   "crossings": 1222,
+   "delta_vs_start": -100,
+   "crossing_pairs": 1149,
+   "max_route_crossings": 19,
+   "routes_with_crossings": 593,
+   "routes_count": 1024,
+   "failed_count": 0,
+   "source": "crossing_stats.json:totals",
+   "reported_dir": "experiments\\xyz_joint_g4_1024\\04_arm_G4c_frozen",
+   "validation": {
+    "path": "experiments\\xyz_joint_g4_1024\\04_arm_G4c_frozen\\validation\\validation.json",
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "policy": "fully_optimizable",
+    "validated_at": "2026-11-04T19:20:47",
+    "routes_sha": "4ad68b1f7e402cdcddcadbdd3241bb7f4dd004e0e19a010fcc119eb8e93eec29",
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "sha_match": true
+   },
+   "budget": {
+    "used": {
+     "route_3d_checks": 7106,
+     "d56_candidate_evals": 64342,
+     "wall_seconds": 1847.02
+    },
+    "cap": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1800.0
+    },
+    "utilisation": {
+     "route_3d_checks": 23.7,
+     "d56_candidate_evals": 53.6,
+     "wall_seconds": 102.6
+    },
+    "over_budget": true
+   },
+   "budget_ledger": {
+    "schema": "g4_budget_ledger_v1",
+    "written_at": "2026-11-04T19:20:53",
+    "route_3d_checks": 7106,
+    "d56_candidate_evals": 64342,
+    "xy_candidates_generated": 6989,
+    "transactions": 254,
+    "world_builds": 0,
+    "valid_candidates": 4506,
+    "rejected_3d": 2493,
+    "accepted_transactions": 21,
+    "accepted_changes": 21,
+    "gain": 100,
+    "validator_runs": 1,
+    "no_candidate": 263,
+    "rolled_back": 233,
+    "wall_seconds": 1847.02,
+    "extras": {}
+   },
+   "config_budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1800.0
+   },
+   "start_info": {
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "claims_start_crossings": 1322,
+    "same_start_as_G3": true,
+    "actual_start_crossings": 1322,
+    "seed": 20261104,
+    "arm": "G4c_frozen"
+   },
+   "failed_attempts_count": 835,
+   "history_rows": 21
+  },
+  "G4c_free": {
+   "label": "G4c-free 人工 U 解冻 + 联合让路 ALNS",
+   "status": "complete",
+   "dir": "experiments\\xyz_joint_g4_1024\\05_arm_G4c_free",
+   "crossings": 1189,
+   "delta_vs_start": -133,
+   "crossing_pairs": 1128,
+   "max_route_crossings": 19,
+   "routes_with_crossings": 594,
+   "routes_count": 1024,
+   "failed_count": 0,
+   "source": "crossing_stats.json:totals",
+   "reported_dir": "experiments\\xyz_joint_g4_1024\\05_arm_G4c_free",
+   "validation": {
+    "path": "experiments\\xyz_joint_g4_1024\\05_arm_G4c_free\\validation\\validation.json",
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "policy": "fully_optimizable",
+    "validated_at": "2026-11-04T19:20:41",
+    "routes_sha": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e",
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "sha_match": true
+   },
+   "budget": {
+    "used": {
+     "route_3d_checks": 6851,
+     "d56_candidate_evals": 63433,
+     "wall_seconds": 1840.36
+    },
+    "cap": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1800.0
+    },
+    "utilisation": {
+     "route_3d_checks": 22.8,
+     "d56_candidate_evals": 52.9,
+     "wall_seconds": 102.2
+    },
+    "over_budget": true
+   },
+   "budget_ledger": {
+    "schema": "g4_budget_ledger_v1",
+    "written_at": "2026-11-04T19:20:46",
+    "route_3d_checks": 6851,
+    "d56_candidate_evals": 63433,
+    "xy_candidates_generated": 6740,
+    "transactions": 274,
+    "world_builds": 0,
+    "valid_candidates": 4313,
+    "rejected_3d": 2433,
+    "accepted_transactions": 33,
+    "accepted_changes": 47,
+    "gain": 133,
+    "validator_runs": 1,
+    "no_candidate": 266,
+    "rolled_back": 241,
+    "wall_seconds": 1840.36,
+    "extras": {}
+   },
+   "config_budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1800.0
+   },
+   "start_info": {
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "claims_start_crossings": 1322,
+    "same_start_as_G3": true,
+    "actual_start_crossings": 1322,
+    "seed": 20261104,
+    "arm": "G4c_free"
+   },
+   "failed_attempts_count": 818,
+   "history_rows": 33
+  },
+  "G4d": {
+   "label": "G4d 全部 1024 条大邻域全局优化",
+   "status": "complete",
+   "dir": "experiments\\xyz_joint_g4_1024\\06_arm_G4d",
+   "crossings": 1212,
+   "delta_vs_start": -110,
+   "crossing_pairs": 1148,
+   "max_route_crossings": 19,
+   "routes_with_crossings": 593,
+   "routes_count": 1024,
+   "failed_count": 0,
+   "source": "crossing_stats.json:totals",
+   "reported_dir": "experiments\\xyz_joint_g4_1024\\06_arm_G4d",
+   "validation": {
+    "path": "experiments\\xyz_joint_g4_1024\\06_arm_G4d\\validation\\validation.json",
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "policy": "fully_optimizable",
+    "validated_at": "2026-11-04T19:31:05",
+    "routes_sha": "6c7043632e1596aaefb80bfc2588a512bd6f752c5cd1573df0f6ee725ccaa703",
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "sha_match": true
+   },
+   "budget": {
+    "used": {
+     "route_3d_checks": 4400,
+     "d56_candidate_evals": 35815,
+     "wall_seconds": 106.3
+    },
+    "cap": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "utilisation": {
+     "route_3d_checks": 14.7,
+     "d56_candidate_evals": 29.8,
+     "wall_seconds": 8.9
+    },
+    "over_budget": false
+   },
+   "budget_ledger": {
+    "schema": "g4_budget_ledger_v1",
+    "written_at": "2026-11-04T19:31:10",
+    "route_3d_checks": 4400,
+    "d56_candidate_evals": 35815,
+    "xy_candidates_generated": 4376,
+    "transactions": 254,
+    "world_builds": 1,
+    "valid_candidates": 3039,
+    "rejected_3d": 1337,
+    "accepted_transactions": 23,
+    "accepted_changes": 24,
+    "gain": 110,
+    "validator_runs": 1,
+    "no_candidate": 267,
+    "rolled_back": 231,
+    "wall_seconds": 106.3,
+    "extras": {}
+   },
+   "config_budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1200.0
+   },
+   "start_info": {
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "claims_start_crossings": 1322,
+    "same_start_as_G3": true,
+    "actual_start_crossings": 1322,
+    "seed": 20261104,
+    "arm": "G4d"
+   },
+   "failed_attempts_count": 2,
+   "history_rows": -1
+  }
+ },
+ "audit": {
+  "report": "experiments\\xyz_joint_g4_1024\\00_baseline_audit\\GEOMETRY_CONTRACT_AUDIT.md",
+  "report_exists": true,
+  "required": {
+   "minimum_distance_all_pairs_mm": 0.0,
+   "minimum_clearance_non_crossing_mm": 0.05,
+   "allowed_crossing_count": 1322,
+   "illegal_crossing_count": 0,
+   "clearance_violation_count": 0,
+   "crossing_exemption_policy": {
+    "same_physical_height_rule": "strict D56 2-D centreline clearance 0.08 mm (width 0.05 + edge gap 0.03); legal transverse crossings exempt",
+    "min_crossing_angle_deg": 5.0,
+    "max_window_half_mm": 4.0,
+    "different_physical_height_rule": "legal when |dz| >= 0.05 mm; XY overlap alone is not a violation",
+    "transition_rule": "true 3-D centreline distance >= 0.05 mm to every other route (transition-vs-flat, transition-vs-transition)",
+    "min_layer_pitch_mm": 0.05,
+    "crossing_window_half_max_measured_mm": 0.8624461179461043,
+    "crossing_angle_range_deg": [
+     5.33239,
+     90.0
+    ],
+    "source_files": [
+     "four_side_1024/fanout1024/common.py",
+     "four_side_1024/l3d/world.py",
+     "four_side_1024/fsd25d/world25d.py",
+     "four_side_1024/fslw/config.py",
+     "four_side_1024/fslw/validate_fslw.py",
+     "four_side_1024/d56/index.py",
+     "four_side_1024/fanout1024/nonc4/crossings.py",
+     "four_side_1024/fanout1024/reheight21/validate21.py",
+     "four_side_1024/fanout1024/xyzrouter/world_adapter.py"
+    ]
+   }
+  },
+  "revalidation": {
+   "validation_pass": true,
+   "violation_count": 0,
+   "validated_at": "2026-11-04T18:36:00",
+   "routes_sha": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+   "policy": "fully_optimizable",
+   "path": "experiments\\xyz_joint_g4_1024\\00_baseline_audit\\baseline_revalidation\\validation.json",
+   "exists": true
+  },
+  "consistency": "Because the two rules act on disjoint partitions of the pair set. Same-physical-height flat/flat pairs are governed ONLY by the original strict D56 2-D rule (0.080 mm centreline clearance) which explicitly preserves genuine transverse crossings with angle >= 5 deg inside a local window; that rule is part of the frozen baseline contract (D56Index(crossing_policy=\"strict\"), already used by the frozen 2409-crossing baseline), not a G4 addition. Pairs on different physical heights are governed by the 50 um 3-D rule, and such pairs can never have distance 0 (|dz| >= 0.050 mm); the 50 um rule therefore never \"sees\" the same-height crossings. All crossing events are genuine (angle >= 5 deg, interior, no overlap/tangency/double-cross), so no event falls into the clearance-violation category.",
+  "limitations": [
+   "Exploratory centreline geometry model only: optical crosstalk, fabrication tolerance and surface-process margins are NOT verified by this audit (see common.py process_rules_payload unconfirmed block).",
+   "The 21 heights are an exploratory routing model; the glass 1 mm thickness / connector mounting direction assumption is unconfirmed (fslw/config.py MANUFACTURING_CLAIM).",
+   "Nominal geometry only: no process bias, no sidewall angle, no refractive-index profile is modelled.",
+   "Same-layer crossing optical feasibility is not confirmed (fslw/config.py CROSSING_LOSS status unknown_uncalibrated); the crossing count is a geometric metric only."
+  ]
+ },
+ "geometry_evidence": {
+  "routes_before": 1024,
+  "routes_after": 1024,
+  "common_routes": 1024,
+  "manual_before": 368,
+  "manual_after": 368,
+  "manual_height_changed": 7,
+  "manual_xy_changed": 8,
+  "manual_xy_and_z_changed": 6,
+  "manual_keep": 359,
+  "all_height_changed": 29,
+  "all_xy_changed": 37,
+  "manual_groups_before": 8,
+  "manual_groups_after": 8,
+  "manual_heights_before": [
+   {
+    "z": -0.35,
+    "label": "L2",
+    "count": 33
+   },
+   {
+    "z": -0.3,
+    "label": "L3",
+    "count": 62
+   },
+   {
+    "z": -0.25,
+    "label": "L4",
+    "count": 61
+   },
+   {
+    "z": -0.2,
+    "label": "L5",
+    "count": 86
+   },
+   {
+    "z": 0.1,
+    "label": "L9",
+    "count": 2
+   },
+   {
+    "z": 0.15,
+    "label": "L10",
+    "count": 7
+   },
+   {
+    "z": 0.2,
+    "label": "L11",
+    "count": 12
+   },
+   {
+    "z": 0.25,
+    "label": "L12",
+    "count": 44
+   },
+   {
+    "z": 0.3,
+    "label": "L13",
+    "count": 42
+   },
+   {
+    "z": 0.4,
+    "label": "L15",
+    "count": 6
+   },
+   {
+    "z": 0.55,
+    "label": "L17",
+    "count": 6
+   },
+   {
+    "z": 0.65,
+    "label": "L19",
+    "count": 7
+   }
+  ],
+  "manual_heights_after": [
+   {
+    "z": -0.35,
+    "label": "L2",
+    "count": 34
+   },
+   {
+    "z": -0.3,
+    "label": "L3",
+    "count": 62
+   },
+   {
+    "z": -0.25,
+    "label": "L4",
+    "count": 62
+   },
+   {
+    "z": -0.2,
+    "label": "L5",
+    "count": 87
+   },
+   {
+    "z": 0.1,
+    "label": "L9",
+    "count": 2
+   },
+   {
+    "z": 0.15,
+    "label": "L10",
+    "count": 9
+   },
+   {
+    "z": 0.2,
+    "label": "L11",
+    "count": 11
+   },
+   {
+    "z": 0.25,
+    "label": "L12",
+    "count": 44
+   },
+   {
+    "z": 0.3,
+    "label": "L13",
+    "count": 40
+   },
+   {
+    "z": 0.4,
+    "label": "L15",
+    "count": 6
+   },
+   {
+    "z": 0.55,
+    "label": "L17",
+    "count": 4
+   },
+   {
+    "z": 0.65,
+    "label": "L19",
+    "count": 7
+   }
+  ],
+  "group_spread": {
+   "Z1-U1": [
+    {
+     "z": -0.35,
+     "label": "L2"
+    },
+    {
+     "z": -0.25,
+     "label": "L4"
+    },
+    {
+     "z": -0.2,
+     "label": "L5"
+    },
+    {
+     "z": 0.25,
+     "label": "L12"
+    }
+   ],
+   "Z1-U2": [
+    {
+     "z": -0.3,
+     "label": "L3"
+    },
+    {
+     "z": 0.15,
+     "label": "L10"
+    }
+   ],
+   "Z1-U3": [
+    {
+     "z": -0.35,
+     "label": "L2"
+    },
+    {
+     "z": -0.25,
+     "label": "L4"
+    },
+    {
+     "z": 0.1,
+     "label": "L9"
+    },
+    {
+     "z": 0.25,
+     "label": "L12"
+    }
+   ],
+   "Z1-U4": [
+    {
+     "z": -0.2,
+     "label": "L5"
+    },
+    {
+     "z": 0.15,
+     "label": "L10"
+    },
+    {
+     "z": 0.2,
+     "label": "L11"
+    }
+   ],
+   "Z2-U1": [
+    {
+     "z": 0.15,
+     "label": "L10"
+    },
+    {
+     "z": 0.4,
+     "label": "L15"
+    },
+    {
+     "z": 0.55,
+     "label": "L17"
+    }
+   ],
+   "Z2-U2": [
+    {
+     "z": 0.2,
+     "label": "L11"
+    },
+    {
+     "z": 0.65,
+     "label": "L19"
+    }
+   ],
+   "Z2-U3": [
+    {
+     "z": 0.25,
+     "label": "L12"
+    }
+   ],
+   "Z2-U4": [
+    {
+     "z": 0.3,
+     "label": "L13"
+    }
+   ]
+  },
+  "manual_outside_old_band": 1,
+  "manual_outside_old_band_routes": [
+   303
+  ],
+  "manual_outside_old_band_truncated": false
+ },
+ "final_arm_evidence": {
+  "arm": null,
+  "files": [],
+  "group_migration": {
+   "present": false
+  }
+ },
+ "bottleneck": {
+  "total_events": 1185,
+  "total": 1185,
+  "routes_with_crossings": 593,
+  "manual_route_event_ends": 111,
+  "manual_share_pct": 4.6835443037974684,
+  "top_routes": [
+   {
+    "route_id": 640,
+    "crossings": 19,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.5,
+    "height_label": "Z2_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 19
+   },
+   {
+    "route_id": 636,
+    "crossings": 14,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.5,
+    "height_label": "Z2_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 14
+   },
+   {
+    "route_id": 8,
+    "crossings": 13,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": -0.3,
+    "height_label": "L3",
+    "n_mid_transitions": 0,
+    "degree": 13
+   },
+   {
+    "route_id": 129,
+    "crossings": 13,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": -0.3,
+    "height_label": "L3",
+    "n_mid_transitions": 0,
+    "degree": 13
+   },
+   {
+    "route_id": 741,
+    "crossings": 13,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.1,
+    "height_label": "L9",
+    "n_mid_transitions": 0,
+    "degree": 13
+   },
+   {
+    "route_id": 130,
+    "crossings": 12,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": -0.15,
+    "height_label": "L6",
+    "n_mid_transitions": 0,
+    "degree": 10
+   },
+   {
+    "route_id": 705,
+    "crossings": 12,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.1,
+    "height_label": "L9",
+    "n_mid_transitions": 0,
+    "degree": 12
+   },
+   {
+    "route_id": 31,
+    "crossings": 12,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.2,
+    "height_label": "L11",
+    "n_mid_transitions": 0,
+    "degree": 7
+   },
+   {
+    "route_id": 669,
+    "crossings": 12,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.35,
+    "height_label": "L14",
+    "n_mid_transitions": 0,
+    "degree": 12
+   },
+   {
+    "route_id": 642,
+    "crossings": 12,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.4,
+    "height_label": "L15",
+    "n_mid_transitions": 0,
+    "degree": 6
+   },
+   {
+    "route_id": 672,
+    "crossings": 12,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.5,
+    "height_label": "Z2_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 12
+   },
+   {
+    "route_id": 157,
+    "crossings": 11,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.0,
+    "height_label": "Z1_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 11
+   },
+   {
+    "route_id": 544,
+    "crossings": 11,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.5,
+    "height_label": "Z2_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 11
+   },
+   {
+    "route_id": 572,
+    "crossings": 11,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.5,
+    "height_label": "Z2_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 11
+   },
+   {
+    "route_id": 671,
+    "crossings": 11,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.6,
+    "height_label": "L18",
+    "n_mid_transitions": 0,
+    "degree": 11
+   },
+   {
+    "route_id": 121,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": -0.15,
+    "height_label": "L6",
+    "n_mid_transitions": 0,
+    "degree": 10
+   },
+   {
+    "route_id": 493,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": -0.1,
+    "height_label": "L7",
+    "n_mid_transitions": 2,
+    "degree": 9
+   },
+   {
+    "route_id": 435,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.0,
+    "height_label": "Z1_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 10
+   },
+   {
+    "route_id": 216,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.15,
+    "height_label": "L10",
+    "n_mid_transitions": 0,
+    "degree": 10
+   },
+   {
+    "route_id": 744,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.15,
+    "height_label": "L10",
+    "n_mid_transitions": 0,
+    "degree": 9
+   },
+   {
+    "route_id": 670,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.3,
+    "height_label": "L13",
+    "n_mid_transitions": 0,
+    "degree": 10
+   },
+   {
+    "route_id": 541,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.35,
+    "height_label": "L14",
+    "n_mid_transitions": 0,
+    "degree": 10
+   },
+   {
+    "route_id": 569,
+    "crossings": 10,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.35,
+    "height_label": "L14",
+    "n_mid_transitions": 0,
+    "degree": 10
+   },
+   {
+    "route_id": 152,
+    "crossings": 9,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": -0.15,
+    "height_label": "L6",
+    "n_mid_transitions": 0,
+    "degree": 9
+   },
+   {
+    "route_id": 213,
+    "crossings": 9,
+    "manual_group": "",
+    "is_manual": false,
+    "primary_z": 0.0,
+    "height_label": "Z1_INTERFACE",
+    "n_mid_transitions": 0,
+    "degree": 8
+   }
+  ],
+  "top_heights": [
+   {
+    "z": 0.5,
+    "label": "Z2_INTERFACE",
+    "crossings": 130,
+    "crossing_pairs": 126,
+    "routes": 512
+   },
+   {
+    "z": 0.1,
+    "label": "L9",
+    "crossings": 109,
+    "crossing_pairs": 107,
+    "routes": 55
+   },
+   {
+    "z": -0.15,
+    "label": "L6",
+    "crossings": 88,
+    "crossing_pairs": 85,
+    "routes": 57
+   },
+   {
+    "z": 0.0,
+    "label": "Z1_INTERFACE",
+    "crossings": 82,
+    "crossing_pairs": 77,
+    "routes": 512
+   },
+   {
+    "z": 0.35,
+    "label": "L14",
+    "crossings": 81,
+    "crossing_pairs": 81,
+    "routes": 47
+   },
+   {
+    "z": 0.4,
+    "label": "L15",
+    "crossings": 77,
+    "crossing_pairs": 71,
+    "routes": 50
+   },
+   {
+    "z": 0.6,
+    "label": "L18",
+    "crossings": 72,
+    "crossing_pairs": 72,
+    "routes": 47
+   },
+   {
+    "z": 0.45,
+    "label": "L16",
+    "crossings": 67,
+    "crossing_pairs": 67,
+    "routes": 46
+   }
+  ],
+  "conflict_components": 42,
+  "largest_component": 32,
+  "second_component": 28,
+  "max_degree": 19,
+  "per_route": {
+   "640": 19,
+   "636": 14,
+   "8": 13,
+   "129": 13,
+   "741": 13,
+   "130": 12,
+   "705": 12,
+   "31": 12,
+   "669": 12,
+   "642": 12,
+   "672": 12,
+   "157": 11,
+   "544": 11,
+   "572": 11,
+   "671": 11,
+   "121": 10,
+   "493": 10,
+   "435": 10,
+   "216": 10,
+   "744": 10,
+   "670": 10,
+   "541": 10,
+   "569": 10,
+   "152": 9,
+   "213": 9,
+   "495": 9,
+   "513": 9,
+   "709": 9,
+   "597": 9,
+   "742": 9,
+   "779": 9,
+   "30": 9,
+   "630": 9,
+   "629": 9,
+   "668": 9,
+   "644": 9,
+   "543": 9,
+   "35": 8,
+   "122": 8,
+   "131": 8,
+   "132": 8,
+   "118": 8,
+   "497": 8,
+   "154": 8,
+   "410": 8,
+   "159": 8,
+   "237": 8,
+   "565": 8,
+   "745": 8,
+   "706": 8,
+   "637": 8,
+   "633": 8,
+   "665": 8,
+   "533": 8,
+   "710": 8,
+   "746": 8,
+   "666": 8,
+   "542": 8,
+   "570": 8,
+   "534": 8
+  }
+ },
+ "failure_totals": {
+  "transition_3d_conflict": 364,
+  "budget_exhausted": 2,
+  "unclassified": 22,
+  "no_legal_xy_corridor": 1563,
+  "legal_but_no_crossing_improvement": 5491,
+  "no_current_crossings": 958,
+  "r15_geometry_rejected": 0,
+  "lead_below_minimum": 0,
+  "target_height_occupied": 60,
+  "joint_rebuild_failed": 166,
+  "structure_error": 0
+ },
+ "failure_total": 8626,
+ "challenge": {
+  "targets": [
+   1200,
+   1000,
+   800,
+   500,
+   100,
+   9,
+   0
+  ],
+  "reached": [
+   1200
+  ]
+ }
+}

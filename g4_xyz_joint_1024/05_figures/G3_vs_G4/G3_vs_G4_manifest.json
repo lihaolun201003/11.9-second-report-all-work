@@ -1,0 +1,105 @@
+{
+ "schema": "g4_plots_v1",
+ "kind": "compare_suite",
+ "before": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "after": "experiments\\xyz_joint_g4_1024\\07_best_valid",
+ "generated_at": "2026-11-04 19:50:31",
+ "figures": [
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_01_L2_z-0.35mm.png",
+   "bytes": 283981
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_02_L3_z-0.30mm.png",
+   "bytes": 417558
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_03_L4_z-0.25mm.png",
+   "bytes": 382355
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_04_L5_z-0.20mm.png",
+   "bytes": 509574
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_05_L6_z-0.15mm.png",
+   "bytes": 336562
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_06_L7_z-0.10mm.png",
+   "bytes": 309643
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_07_L20_z-0.05mm.png",
+   "bytes": 334043
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_08_Z1_INTERFACE_z+0.00mm.png",
+   "bytes": 368448
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_09_L8_z+0.05mm.png",
+   "bytes": 337591
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_10_L9_z+0.10mm.png",
+   "bytes": 300833
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_11_L10_z+0.15mm.png",
+   "bytes": 327915
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_12_L11_z+0.20mm.png",
+   "bytes": 404646
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_13_L12_z+0.25mm.png",
+   "bytes": 396781
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_14_L13_z+0.30mm.png",
+   "bytes": 392219
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_15_L14_z+0.35mm.png",
+   "bytes": 276187
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_16_L15_z+0.40mm.png",
+   "bytes": 292060
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_17_L16_z+0.45mm.png",
+   "bytes": 265607
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_18_Z2_INTERFACE_z+0.50mm.png",
+   "bytes": 377319
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_19_L17_z+0.55mm.png",
+   "bytes": 294923
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_20_L18_z+0.60mm.png",
+   "bytes": 275969
+  },
+  {
+   "path": "experiments\\xyz_joint_g4_1024\\09_plots\\G3_vs_G4\\compare_layer_21_L19_z+0.65mm.png",
+   "bytes": 309377
+  }
+ ],
+ "totals": {
+  "before": {
+   "routes": 1024,
+   "crossings": 1322
+  },
+  "after": {
+   "routes": 1024,
+   "crossings": 1185
+  },
+  "delta_crossings": -137
+ },
+ "errors": []
+}

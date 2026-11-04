@@ -1,0 +1,111 @@
+{
+ "schema": "g4_min_distance_evidence_v1",
+ "routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+ "minimum_distance_all_pairs": {
+  "distance_mm": 0.0,
+  "kind": "same-physical-height flat/flat legal transverse crossing",
+  "interpretation": "the global minimum over ALL centreline pairs is exactly 0 because genuine D56 crossings exist; this is the documented crossing exemption, not a clearance violation",
+  "evidence": {
+   "height_mm": -0.35,
+   "route_a": 17,
+   "route_b": 129,
+   "x_mm": 119.351967,
+   "y_mm": 93.965181,
+   "angle_deg": 75.223426
+  }
+ },
+ "minimum_clearance_non_crossing": {
+  "overall": {
+   "category": "flat_flat_different_physical_height",
+   "distance_mm": 0.05,
+   "evidence": {
+    "route_a": 515,
+    "route_b": 623,
+    "z_a_mm": 0.55,
+    "z_b_mm": 0.6,
+    "dz_mm": 0.05,
+    "distance_2d_mm": 0.0,
+    "distance_3d_mm": 0.05
+   }
+  },
+  "flat_flat_different_height": {
+   "distance_mm": 0.05,
+   "evidence": {
+    "route_a": 515,
+    "route_b": 623,
+    "z_a_mm": 0.55,
+    "z_b_mm": 0.6,
+    "dz_mm": 0.05,
+    "distance_2d_mm": 0.0,
+    "distance_3d_mm": 0.05
+   },
+   "note": "bounded below by the 21-height layer pitch (0.05 mm): every flat pair on different heights is vertically separated by >= 0.05 mm by construction"
+  },
+  "transition_vs_flat": {
+   "distance_mm": 0.063593135,
+   "evidence": {
+    "route_a": 711,
+    "route_b": 472,
+    "transition_part_index": 1,
+    "z0_mm": 0.5,
+    "z1_mm": 0.15,
+    "flat_z_mm": 0.15,
+    "distance_mm": 0.063593135,
+    "point": [
+     133.875,
+     145.59054,
+     0.1949
+    ]
+   }
+  },
+  "transition_vs_transition": {
+   "distance_mm": 0.1,
+   "evidence": {
+    "route_a": 333,
+    "route_b": 832,
+    "distance_mm": 0.1,
+    "point": [
+     3.708323,
+     27.375,
+     0.2
+    ],
+    "s_a": 3.466029,
+    "s_b": 3.466029,
+    "z0a": 0.0,
+    "z1a": 0.2,
+    "z0b": 0.5,
+    "z1b": 0.3
+   }
+  },
+  "same_layer_2d_non_crossing": {
+   "distance_mm": 0.086853441,
+   "evidence": {
+    "height_mm": -0.05,
+    "route_a": 166,
+    "route_b": 431
+   }
+  },
+  "self_clearance": {
+   "distance_mm": null,
+   "evidence": null
+  }
+ },
+ "crossing_statistics": {
+  "allowed_events": 1322,
+  "unique_crossing_pairs": 1253,
+  "illegal_events": 0,
+  "max_crossings_per_route": 19,
+  "angle_range_deg": [
+   5.33239,
+   90.0
+  ]
+ },
+ "numerical_error_bounds": {
+  "flat_flat_2d_mm": 1e-12,
+  "flat_flat_3d_mm": 1e-12,
+  "transition_vs_flat_mm": 1e-08,
+  "transition_vs_transition_mm": 1e-06,
+  "crossing_point_mm": 1e-09,
+  "note": "flat/flat distances are closed-form; flat/transition minima are golden-section refined on the exact analytic S-curve (tolerance 1e-10 in s); transition/transition uses a 1-Lipschitz coarse bracket + nested golden refinement."
+ }
+}

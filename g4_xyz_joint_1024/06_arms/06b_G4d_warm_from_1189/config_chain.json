@@ -1,0 +1,15 @@
+{
+ "schema": "g4_chain_config_v1",
+ "arm": "G4d",
+ "arm_class": "B_chain_warm_start",
+ "tag": "warm1189_seed20261105_retry",
+ "seed": 20261105,
+ "start_dir": "experiments/xyz_joint_g4_1024/05_arm_G4c_free/best_valid",
+ "start_routes_sha256": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e",
+ "start_crossings": 1189,
+ "parent_arm": "G4c_free",
+ "note": "B-class progressive-chain arm: starts from the verified G4c_free best_valid (1189 crossings), NOT from the G3 optimum. A-class comparison arm is 06_arm_G4d (Lead-run, G3 start).",
+ "final_crossings": 1189,
+ "final_crossing_pairs": 1128,
+ "delta_vs_chain_start": 0
+}
